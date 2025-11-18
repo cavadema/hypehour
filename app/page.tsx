@@ -1,0 +1,94 @@
+import { SparklesIcon, PhotoIcon, CodeBracketIcon } from "@heroicons/react/24/solid";
+export default function Home() {
+  return (
+    <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans">
+      {/* Primeira dobra */}
+      <section className="w-full flex flex-col items-center justify-center py-32 bg-gradient-to-br from-blue-50 via-white to-blue-100 border-b border-zinc-200 relative overflow-hidden">
+        <SparklesIcon className="w-16 h-16 text-blue-400 mb-4 animate-pulse" />
+        <h1 className="apify-title text-center drop-shadow-lg">Ferramentas de IA</h1>
+        <p className="apify-subtitle text-center max-w-2xl mx-auto">
+          Descubra e centralize as melhores ferramentas de Inteligência Artificial para cada área do mercado, tudo em um só lugar.
+        </p>
+        <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-200 rounded-full opacity-30 blur-2xl" />
+        <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-blue-100 rounded-full opacity-20 blur-2xl" />
+      </section>
+      {/* IA para imagens */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2"><PhotoIcon className="w-6 h-6 text-blue-400" />IA para imagens</h2>
+          <a href="/ia-para-imagens" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as IA para imagens</a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><PhotoIcon className="w-5 h-5" /> Whisk</span>
+            <p className="text-zinc-700">IA do Google para geração e edição de imagens.</p>
+            <span className="text-xs text-zinc-500">Categoria: Imagens</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><PhotoIcon className="w-5 h-5" /> Pixlr</span>
+            <p className="text-zinc-700">Editor de imagens com IA e recursos avançados.</p>
+            <span className="text-xs text-zinc-500">Categoria: Imagens</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><PhotoIcon className="w-5 h-5" /> Midjourney</span>
+            <p className="text-zinc-700">Geração de imagens artísticas por IA via Discord.</p>
+            <span className="text-xs text-zinc-500">Categoria: Imagens</span>
+          </div>
+        </div>
+      </section>
+
+      {/* IA para vibe coding */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <h2 className="apify-section-title flex items-center gap-2"><CodeBracketIcon className="w-6 h-6 text-blue-400" />IA para vibe coding</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CodeBracketIcon className="w-5 h-5" /> Lovable</span>
+            <p className="text-zinc-700">IA para programação, resumos e automações.</p>
+            <span className="text-xs text-zinc-500">Categoria: Coding</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CodeBracketIcon className="w-5 h-5" /> Bolt.new</span>
+            <p className="text-zinc-700">Ferramenta de IA para acelerar o desenvolvimento e automação de código.</p>
+            <span className="text-xs text-zinc-500">Categoria: Coding</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CodeBracketIcon className="w-5 h-5" /> v0</span>
+            <p className="text-zinc-700">Plataforma de IA para criação rápida de interfaces e automações.</p>
+            <span className="text-xs text-zinc-500">Categoria: Coding</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Últimas IA adicionadas */}
+      <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-16 px-4">
+        <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-blue-400" />Últimas IA adicionadas</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CodeBracketIcon className="w-5 h-5" /> Lovable</span>
+            <p className="text-zinc-700">IA para programação, resumos e automações.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 15/11/2025</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><PhotoIcon className="w-5 h-5" /> Whisk (Google)</span>
+            <p className="text-zinc-700">IA para imagens e geração visual.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 14/11/2025</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><PhotoIcon className="w-5 h-5" /> Pixlr</span>
+            <p className="text-zinc-700">Editor de imagens com IA e recursos avançados.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 13/11/2025</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Depoimentos */}
+      <section id="depoimentos" className="w-full max-w-3xl mx-auto py-16 px-4">
+        <h2 className="apify-section-title">Depoimentos</h2>
+        <blockquote className="apify-testimonial">
+          "Esse site me ajudou a descobrir várias IAs do mercado e para meu segmento de trabalho."
+        </blockquote>
+        <span className="block mt-2 text-sm text-zinc-500">— Usuário satisfeito</span>
+      </section>
+    </div>
+  );
+}

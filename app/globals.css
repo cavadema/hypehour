@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: #f7f8fa;
+  color: #222;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.apify-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 50;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.03);
+}
+
+.apify-main {
+  margin-top: 80px;
+  min-height: 100vh;
+}
+
+.apify-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.04);
+  padding: 2rem;
+  transition: box-shadow 0.2s;
+  border: 1px solid #e5e7eb;
+}
+.apify-card:hover {
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.08);
+}
+.apify-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+.apify-subtitle {
+  font-size: 1.25rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+.apify-section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 1.5rem;
+}
+.apify-testimonial {
+  font-style: italic;
+  color: #444;
+  border-left: 4px solid #2e90fa;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
