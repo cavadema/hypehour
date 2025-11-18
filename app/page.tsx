@@ -39,7 +39,10 @@ export default function Home() {
 
       {/* IA para vibe coding */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <h2 className="apify-section-title flex items-center gap-2"><CodeBracketIcon className="w-6 h-6 text-blue-400" />IA para vibe coding</h2>
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2"><CodeBracketIcon className="w-6 h-6 text-blue-400" />IA para vibe coding</h2>
+          <a href="/ia-para-vibe-coding" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as IA para vibe coding</a>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CodeBracketIcon className="w-5 h-5" /> Lovable</span>
@@ -55,6 +58,31 @@ export default function Home() {
             <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CodeBracketIcon className="w-5 h-5" /> v0</span>
             <p className="text-zinc-700">Plataforma de IA para criação rápida de interfaces e automações.</p>
             <span className="text-xs text-zinc-500">Categoria: Coding</span>
+          </div>
+        </div>
+      </section>
+
+      {/* IA para desenvolvedores */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2"><CodeBracketIcon className="w-6 h-6 text-blue-400" />IA para desenvolvedores</h2>
+          <a href="/ia-para-desenvolvedores" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as IA para desenvolvedores</a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">GitHub Copilot</span>
+            <p className="text-zinc-700">Assistente de código da GitHub/OpenAI para autocompletar e gerar trechos de código.</p>
+            <span className="text-xs text-zinc-500">Categoria: Desenvolvedores</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Cursor</span>
+            <p className="text-zinc-700">IDE com assistente de código e recursos de AI.</p>
+            <span className="text-xs text-zinc-500">Categoria: Desenvolvedores</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Claude Code</span>
+            <p className="text-zinc-700">Assistente de código baseado na família Claude (Anthropic).</p>
+            <span className="text-xs text-zinc-500">Categoria: Desenvolvedores</span>
           </div>
         </div>
       </section>

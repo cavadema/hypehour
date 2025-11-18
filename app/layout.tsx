@@ -33,7 +33,10 @@ export default function RootLayout({
             <Link href="/" className="text-2xl font-extrabold tracking-tight text-blue-700 hover:underline">SearchIA</Link>
           </div>
           <nav>
-            <ul className="flex gap-8 text-zinc-700 font-medium">
+            <ul className="flex gap-6 text-zinc-700 font-medium items-center">
+              <li><a href="/ia-para-imagens" className="hover:text-blue-600 transition-colors">IA para imagens</a></li>
+              <li><a href="/ia-para-vibe-coding" className="hover:text-blue-600 transition-colors">Vibe Coding</a></li>
+              <li><a href="/ia-para-desenvolvedores" className="hover:text-blue-600 transition-colors">Desenvolvedores</a></li>
               <li><a href="#ultimas-ias" className="hover:text-blue-600 transition-colors">Últimas IAs</a></li>
               <li><a href="#depoimentos" className="hover:text-blue-600 transition-colors">Depoimentos</a></li>
             </ul>
