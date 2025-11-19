@@ -116,6 +116,16 @@ export default function Home() {
           "Esse site me ajudou a descobrir várias IAs do mercado e para meu segmento de trabalho."
         </blockquote>
         <span className="block mt-2 text-sm text-zinc-500">— Usuário satisfeito</span>
+
+        <blockquote className="apify-testimonial mt-6">
+          "Não imaginava que tinha tantas IAs para gerar imagens."
+        </blockquote>
+        <span className="block mt-2 text-sm text-zinc-500">— Designer visual</span>
+
+        <blockquote className="apify-testimonial mt-6">
+          "Eu estava pesquisando IAs para um trabalho e acabei descobrindo um novo mercado para aprender a programar."
+        </blockquote>
+        <span className="block mt-2 text-sm text-zinc-500">— Estudante</span>
       </section>
     </div>
   );

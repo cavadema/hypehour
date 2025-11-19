@@ -76,3 +76,15 @@ body {
   padding-left: 1rem;
   margin-bottom: 0.5rem;
 }
+
+/* Footer styles */
+.site-footer {
+  background: #ffffff;
+  color: #333;
+}
+.site-footer a {
+  color: #1d4ed8;
+}
+.site-footer h3 {
+  color: #111827;
+}

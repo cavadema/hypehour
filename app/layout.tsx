@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ferramentas de IA para todos os segmentos - SearchIA",
-  description: "Encontre todas as ferramentas de IA para imagens, textos, marketing, programação e muito mais.",
+  title: "Hypehour — Ferramentas de IA para todos os segmentos",
+  description: "Hypehour é um agregador de ferramentas de IA para imagens, desenvolvimento, estudos e muito mais.",
 };
 
 export default function RootLayout({
@@ -30,7 +30,7 @@ export default function RootLayout({
       >
         <header className="apify-header flex items-center justify-between px-10 py-4">
           <div className="flex items-center gap-3">
-            <Link href="/" className="text-2xl font-extrabold tracking-tight text-blue-700 hover:underline">SearchIA</Link>
+            <Link href="/" className="text-2xl font-extrabold tracking-tight text-blue-700 hover:underline">Hypehour</Link>
           </div>
           <nav>
             <ul className="flex gap-6 text-zinc-700 font-medium items-center">
@@ -43,6 +43,39 @@ export default function RootLayout({
           </nav>
         </header>
         <main className="apify-main">{children}</main>
+
+        <footer className="site-footer w-full bg-white border-t border-zinc-200 mt-8">
+          <div className="max-w-6xl mx-auto py-12 px-6 flex flex-col md:flex-row md:justify-between gap-8">
+            <div className="max-w-xl">
+              <h3 className="text-xl font-bold mb-2">Hypehour</h3>
+              <p className="text-zinc-600">Hypehour é um agregador de ferramentas de IA para facilitar que os usuários encontrem IAs para imagens, desenvolvimento, estudos e muito mais.</p>
+            </div>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
+              <div>
+                <h4 className="font-semibold mb-2">Categorias</h4>
+                <ul className="space-y-2 text-sm text-zinc-700">
+                  <li><a href="/ia-para-imagens" className="hover:underline">IA para imagens</a></li>
+                  <li><a href="/ia-para-vibe-coding" className="hover:underline">Vibe Coding</a></li>
+                  <li><a href="/ia-para-desenvolvedores" className="hover:underline">Desenvolvedores</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Seções</h4>
+                <ul className="space-y-2 text-sm text-zinc-700">
+                  <li><a href="#ultimas-ias" className="hover:underline">Últimas IAs</a></li>
+                  <li><a href="#depoimentos" className="hover:underline">Depoimentos</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Contato</h4>
+                <ul className="space-y-2 text-sm text-zinc-700">
+                  <li>—</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
       </body>
     </html>
   );
