@@ -2,7 +2,7 @@ import { CodeBracketIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
 export const metadata = {
-  title: "IA para desenvolvedores - SearchIA",
+  title: "IA para desenvolvedores - Hypehour",
   description: "Ferramentas de IA voltadas para desenvolvedores: assistentes de código, autocompletes e ferramentas colaborativas.",
 };
 
