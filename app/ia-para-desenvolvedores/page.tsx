@@ -4,6 +4,9 @@ import Link from "next/link";
 export const metadata = {
   title: "IA para desenvolvedores - Hypehour",
   description: "Ferramentas de IA voltadas para desenvolvedores: assistentes de código, autocompletes e ferramentas colaborativas.",
+  alternates: {
+    canonical: 'https://www.hypehour.com.br/ia-para-desenvolvedores',
+  },
 };
 
 const ferramentas = [

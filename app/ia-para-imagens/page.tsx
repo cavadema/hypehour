@@ -62,6 +62,9 @@ const ferramentas = [
 export const metadata = {
   title: "Ferramentas de IA para imagens",
   description: "Descubra as melhores ferramentas de inteligência artificial para criação, edição e geração de imagens.",
+  alternates: {
+    canonical: 'https://www.hypehour.com.br/ia-para-imagens',
+  },
 };
 
 export default function IaParaImagens() {

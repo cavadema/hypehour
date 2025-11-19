@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Hypehour — Ferramentas de IA para todos os segmentos",
   description: "Hypehour é um agregador de ferramentas de IA para imagens, desenvolvimento, estudos e muito mais.",
+  alternates: {
+    canonical: 'https://www.hypehour.com.br',
+  },
 };
 
 export default function RootLayout({

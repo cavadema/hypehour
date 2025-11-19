@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { MenuIcon, XMarkIcon } from "@heroicons/react/24/solid";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -28,7 +28,7 @@ export default function Header() {
             onClick={() => setOpen((s) => !s)}
             className="p-2 rounded-md text-zinc-700 hover:bg-zinc-100"
           >
-            {open ? <XMarkIcon className="w-6 h-6" /> : <MenuIcon className="w-6 h-6" />}
+            {open ? <XMarkIcon className="w-6 h-6" /> : <Bars3Icon className="w-6 h-6" />}
           </button>
         </div>
 
