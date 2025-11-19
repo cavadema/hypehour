@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.hypehour.com.br',
   },
+  verification: {
+    google: 'm91yNxSvF4XA96s4Kzs05dWAhnpIezdt0y1rs5Ynjac',
+  },
 };
 
 export default function RootLayout({
