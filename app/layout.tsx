@@ -70,6 +70,7 @@ export default function RootLayout({
                 <ul className="space-y-2 text-sm text-zinc-700">
                   <li><a href="#ultimas-ias" className="hover:underline">Últimas IAs</a></li>
                   <li><a href="#depoimentos" className="hover:underline">Depoimentos</a></li>
+                  <li><a href="/sobre-nos" className="hover:underline">Sobre Nós</a></li>
                 </ul>
               </div>
               <div>

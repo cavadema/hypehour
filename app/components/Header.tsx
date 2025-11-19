@@ -15,6 +15,7 @@ export default function Header() {
 
       <nav>
         <ul className="hidden md:flex gap-6 text-zinc-700 font-medium items-center">
+          <li><a href="/sobre-nos" className="hover:text-blue-600 transition-colors">Sobre Nós</a></li>
           <li><a href="/ia-para-imagens" className="hover:text-blue-600 transition-colors">IA para imagens</a></li>
           <li><a href="/ia-para-vibe-coding" className="hover:text-blue-600 transition-colors">Vibe Coding</a></li>
           <li><a href="/ia-para-desenvolvedores" className="hover:text-blue-600 transition-colors">Desenvolvedores</a></li>
@@ -35,6 +36,7 @@ export default function Header() {
         {open && (
           <div className="absolute top-16 left-0 right-0 bg-white shadow-md p-4 md:hidden">
             <ul className="flex flex-col gap-3 text-zinc-700 font-medium">
+              <li><a href="/sobre-nos" className="block py-2">Sobre Nós</a></li>
               <li><a href="/ia-para-imagens" className="block py-2">IA para imagens</a></li>
               <li><a href="/ia-para-vibe-coding" className="block py-2">Vibe Coding</a></li>
               <li><a href="/ia-para-desenvolvedores" className="block py-2">Desenvolvedores</a></li>
