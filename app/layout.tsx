@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Header from "./components/Header";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -28,20 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="apify-header flex items-center justify-between px-10 py-4">
-          <div className="flex items-center gap-3">
-            <Link href="/" className="text-2xl font-extrabold tracking-tight text-blue-700 hover:underline">Hypehour</Link>
-          </div>
-          <nav>
-            <ul className="flex gap-6 text-zinc-700 font-medium items-center">
-              <li><a href="/ia-para-imagens" className="hover:text-blue-600 transition-colors">IA para imagens</a></li>
-              <li><a href="/ia-para-vibe-coding" className="hover:text-blue-600 transition-colors">Vibe Coding</a></li>
-              <li><a href="/ia-para-desenvolvedores" className="hover:text-blue-600 transition-colors">Desenvolvedores</a></li>
-              <li><a href="#ultimas-ias" className="hover:text-blue-600 transition-colors">Últimas IAs</a></li>
-              <li><a href="#depoimentos" className="hover:text-blue-600 transition-colors">Depoimentos</a></li>
-            </ul>
-          </nav>
-        </header>
+        <Header />
         <main className="apify-main">{children}</main>
 
         <footer className="site-footer w-full bg-white border-t border-zinc-200 mt-8">

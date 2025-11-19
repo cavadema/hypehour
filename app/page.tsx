@@ -16,7 +16,7 @@ export default function Home() {
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">
           <h2 className="apify-section-title flex items-center gap-2"><PhotoIcon className="w-6 h-6 text-blue-400" />IA para imagens</h2>
-          <a href="/ia-para-imagens" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as IA para imagens</a>
+          <a href="/ia-para-imagens" className="hidden md:inline-flex text-blue-600 text-sm font-medium hover:underline">Ver todas as IA para imagens</a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
@@ -35,13 +35,16 @@ export default function Home() {
             <span className="text-xs text-zinc-500">Categoria: Imagens</span>
           </div>
         </div>
+        <div className="mt-4 md:hidden">
+          <a href="/ia-para-imagens" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as IA para imagens</a>
+        </div>
       </section>
 
       {/* IA para vibe coding */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">
           <h2 className="apify-section-title flex items-center gap-2"><CodeBracketIcon className="w-6 h-6 text-blue-400" />IA para vibe coding</h2>
-          <a href="/ia-para-vibe-coding" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as IA para vibe coding</a>
+          <a href="/ia-para-vibe-coding" className="hidden md:inline-flex text-blue-600 text-sm font-medium hover:underline">Ver todas as IA para vibe coding</a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
@@ -60,13 +63,16 @@ export default function Home() {
             <span className="text-xs text-zinc-500">Categoria: Coding</span>
           </div>
         </div>
+        <div className="mt-4 md:hidden">
+          <a href="/ia-para-vibe-coding" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as IA para vibe coding</a>
+        </div>
       </section>
 
       {/* IA para desenvolvedores */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">
           <h2 className="apify-section-title flex items-center gap-2"><CodeBracketIcon className="w-6 h-6 text-blue-400" />IA para desenvolvedores</h2>
-          <a href="/ia-para-desenvolvedores" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as IA para desenvolvedores</a>
+          <a href="/ia-para-desenvolvedores" className="hidden md:inline-flex text-blue-600 text-sm font-medium hover:underline">Ver todas as IA para desenvolvedores</a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
@@ -84,6 +90,9 @@ export default function Home() {
             <p className="text-zinc-700">Assistente de código baseado na família Claude (Anthropic).</p>
             <span className="text-xs text-zinc-500">Categoria: Desenvolvedores</span>
           </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/ia-para-desenvolvedores" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as IA para desenvolvedores</a>
         </div>
       </section>
 
@@ -110,22 +119,24 @@ export default function Home() {
       </section>
 
       {/* Depoimentos */}
-      <section id="depoimentos" className="w-full max-w-3xl mx-auto py-16 px-4">
-        <h2 className="apify-section-title">Depoimentos</h2>
-        <blockquote className="apify-testimonial">
-          "Esse site me ajudou a descobrir várias IAs do mercado e para meu segmento de trabalho."
-        </blockquote>
-        <span className="block mt-2 text-sm text-zinc-500">— Usuário satisfeito</span>
+      <section id="depoimentos" className="w-full max-w-5xl mx-auto py-16 px-4">
+        <h2 className="apify-section-title mb-8">Depoimentos</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="apify-card p-6">
+            <p className="text-zinc-700">"Esse site me ajudou a descobrir várias IAs do mercado e para meu segmento de trabalho."</p>
+            <div className="mt-4 text-sm text-zinc-500">— Usuário satisfeito</div>
+          </div>
 
-        <blockquote className="apify-testimonial mt-6">
-          "Não imaginava que tinha tantas IAs para gerar imagens."
-        </blockquote>
-        <span className="block mt-2 text-sm text-zinc-500">— Designer visual</span>
+          <div className="apify-card p-6">
+            <p className="text-zinc-700">"Não imaginava que tinha tantas IAs para gerar imagens."</p>
+            <div className="mt-4 text-sm text-zinc-500">— Designer visual</div>
+          </div>
 
-        <blockquote className="apify-testimonial mt-6">
-          "Eu estava pesquisando IAs para um trabalho e acabei descobrindo um novo mercado para aprender a programar."
-        </blockquote>
-        <span className="block mt-2 text-sm text-zinc-500">— Estudante</span>
+          <div className="apify-card p-6">
+            <p className="text-zinc-700">"Eu estava pesquisando IAs para um trabalho e acabei descobrindo um novo mercado para aprender a programar."</p>
+            <div className="mt-4 text-sm text-zinc-500">— Estudante</div>
+          </div>
+        </div>
       </section>
     </div>
   );
