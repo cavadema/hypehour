@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "./components/Header";
+import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -33,6 +34,16 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header />
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-NYLGH2XQES"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+
+          gtag('config', 'G-NYLGH2XQES');`}
+        </Script>
         <main className="apify-main">{children}</main>
 
         <footer className="site-footer w-full bg-white border-t border-zinc-200 mt-8">
