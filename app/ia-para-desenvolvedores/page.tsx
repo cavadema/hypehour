@@ -10,9 +10,33 @@ export const metadata = {
 };
 
 const ferramentas = [
-  { nome: "GitHub Copilot", url: "https://github.com/features/copilot", descricao: "Assistente de código da GitHub/OpenAI para autocompletar e gerar trechos de código." },
+  {
+    nome: "GitHub Copilot",
+    url: "https://github.com/features/copilot",
+    descricao: "Assistente de código da GitHub/OpenAI para autocompletar e gerar trechos de código.",
+  },
   { nome: "Cursor", url: "https://www.cursor.com", descricao: "IDE com assistente de código e recursos de AI." },
   { nome: "Claude Code", url: "#", descricao: "Assistente de código baseado na família Claude (Anthropic)." },
+  {
+    nome: "Windsurf",
+    url: "https://windsurf.com/",
+    descricao: "Editor com agente Cascade e suporte a comandos automáticos para manter o fluxo de trabalho.",
+  },
+  {
+    nome: "AWS CodeWhisperer",
+    url: "https://aws.amazon.com/pt/q/developer/",
+    descricao: "Assistente da AWS para gerar código, revisar e operar workloads diretamente na nuvem.",
+  },
+  {
+    nome: "Tabnine",
+    url: "https://www.tabnine.com/",
+    descricao: "Autocompletar privado que aprende com o seu código e funciona em múltiplas IDEs.",
+  },
+  {
+    nome: "Google AntiGravity",
+    url: "https://antigravity.google/",
+    descricao: "Ferramenta da Google para impulsionar produtividade com IA e fluxos agentic.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {

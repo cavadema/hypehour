@@ -86,8 +86,8 @@ export default function Home() {
             <span className="text-xs text-zinc-500">Categoria: Desenvolvedores</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Claude Code</span>
-            <p className="text-zinc-700">Assistente de código baseado na família Claude (Anthropic).</p>
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Google AntiGravity</span>
+            <p className="text-zinc-700">Plataforma da Google para impulsionar produtividade de desenvolvedores com IA.</p>
             <span className="text-xs text-zinc-500">Categoria: Desenvolvedores</span>
           </div>
         </div>
