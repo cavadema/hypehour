@@ -171,8 +171,8 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-blue-400" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CodeBracketIcon className="w-5 h-5" /> Lovable</span>
-            <p className="text-zinc-700">IA para programação, resumos e automações.</p>
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CodeBracketIcon className="w-5 h-5" /> Google AntiGravity</span>
+            <p className="text-zinc-700">Ferramenta da Google para acelerar fluxos de desenvolvimento com IA.</p>
             <span className="text-xs text-zinc-500">Adicionada em 15/11/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
@@ -184,6 +184,49 @@ export default function Home() {
             <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><PhotoIcon className="w-5 h-5" /> Pixlr</span>
             <p className="text-zinc-700">Editor de imagens com IA e recursos avançados.</p>
             <span className="text-xs text-zinc-500">Adicionada em 13/11/2025</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Versões de modelos */}
+      <section className="w-full max-w-5xl mx-auto py-16 px-4">
+        <h2 className="apify-section-title flex items-center gap-2">
+          <SparklesIcon className="w-6 h-6 text-blue-400" />
+          Versões de Modelos de LLMs (Large Language Models)
+        </h2>
+        <p className="text-zinc-600 mb-8">
+          Acompanhe os lançamentos e atualizações das principais famílias de modelos de linguagem do mercado.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">GPT-5.1</span>
+            <p className="text-zinc-700">Nova geração da OpenAI com raciocínio variável e velocidade otimizada.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Nov/2025</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Gemini 2.5</span>
+            <p className="text-zinc-700">Modelo multimodal do Google capaz de operar em texto, imagem e vídeo.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Nov/2025</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Opus 4.1</span>
+            <p className="text-zinc-700">Atualização da Anthropic focada em respostas mais seguras e assertivas.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Out/2025</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Sonnet 4.5</span>
+            <p className="text-zinc-700">Equilíbrio entre custo e performance para fluxos de automação avançados.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Out/2025</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Grok 4.1</span>
+            <p className="text-zinc-700">Modelo da xAI com acesso em tempo real aos dados públicos da plataforma X.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Set/2025</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Llama 3.2</span>
+            <p className="text-zinc-700">Versão open-source da Meta com quantizações eficientes para edge.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Set/2025</span>
           </div>
         </div>
       </section>
