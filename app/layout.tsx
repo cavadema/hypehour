@@ -63,6 +63,8 @@ export default function RootLayout({
                   <li><a href="/ia-para-imagens" className="hover:underline">IA para imagens</a></li>
                   <li><a href="/ia-para-vibe-coding" className="hover:underline">Vibe Coding</a></li>
                   <li><a href="/ia-para-desenvolvedores" className="hover:underline">Desenvolvedores</a></li>
+                  <li><a href="/ia-para-professores" className="hover:underline">Professores</a></li>
+                  <li><a href="/ferramenta-de-deteccao-de-ia" className="hover:underline">Detecção de IA</a></li>
                 </ul>
               </div>
               <div>

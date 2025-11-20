@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans">
@@ -93,6 +93,76 @@ export default function Home() {
         </div>
         <div className="mt-4 md:hidden">
           <a href="/ia-para-desenvolvedores" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as IA para desenvolvedores</a>
+        </div>
+      </section>
+
+      {/* IA para professores */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <AcademicCapIcon className="w-6 h-6 text-blue-400" />
+            IA para professores
+          </h2>
+          <a href="/ia-para-professores" className="hidden md:inline-flex text-blue-600 text-sm font-medium hover:underline">
+            Ver todas as IA para professores
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Conker.AI</span>
+            <p className="text-zinc-700">Gerador de quizzes alinhados a padrões educacionais em poucos cliques.</p>
+            <span className="text-xs text-zinc-500">Categoria: Professores</span>
+          </div>
+
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Diffit.me</span>
+            <p className="text-zinc-700">Crie leituras adaptadas e planos de aula personalizados automaticamente.</p>
+            <span className="text-xs text-zinc-500">Categoria: Professores</span>
+          </div>
+
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Socratic</span>
+            <p className="text-zinc-700">Suite de IA para planejar aulas, tarefas e acompanhar alunos.</p>
+            <span className="text-xs text-zinc-500">Categoria: Professores</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/ia-para-professores" className="text-blue-600 text-sm font-medium hover:underline">
+            Ver todas as IA para professores
+          </a>
+        </div>
+      </section>
+
+      {/* Detecção de IA */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <ShieldCheckIcon className="w-6 h-6 text-blue-400" />
+            Detecção de IA
+          </h2>
+          <a href="/ferramenta-de-deteccao-de-ia" className="hidden md:inline-flex text-blue-600 text-sm font-medium hover:underline">Ver todas as ferramentas de detecção</a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">QuillBot Detector de IA</span>
+            <p className="text-zinc-700">Ferramenta do QuillBot para analisar textos e apontar traços de IA.</p>
+            <span className="text-xs text-zinc-500">Categoria: Detecção de IA</span>
+          </div>
+
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Sidekicker</span>
+            <p className="text-zinc-700">Detector de conteúdo alimentado por IA com análise rápida e dashboards.</p>
+            <span className="text-xs text-zinc-500">Categoria: Detecção de IA</span>
+          </div>
+
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">WinstonAI</span>
+            <p className="text-zinc-700">Detector especializado em identificar conteúdos acadêmicos escritos por IA.</p>
+            <span className="text-xs text-zinc-500">Categoria: Detecção de IA</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/ferramenta-de-deteccao-de-ia" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as ferramentas de detecção</a>
         </div>
       </section>
 
