@@ -204,7 +204,7 @@ export default function Home() {
             <span className="text-xs text-zinc-500">Lançamento: Nov/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Gemini 2.5</span>
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Gemini 3.0</span>
             <p className="text-zinc-700">Modelo multimodal do Google capaz de operar em texto, imagem e vídeo.</p>
             <span className="text-xs text-zinc-500">Lançamento: Nov/2025</span>
           </div>
