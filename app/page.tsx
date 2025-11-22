@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans">
@@ -228,6 +228,37 @@ export default function Home() {
             <p className="text-zinc-700">Versão open-source da Meta com quantizações eficientes para edge.</p>
             <span className="text-xs text-zinc-500">Lançamento: Set/2025</span>
           </div>
+        </div>
+      </section>
+
+      {/* Newsletters de IA */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <EnvelopeIcon className="w-6 h-6 text-blue-400" />
+            Newsletters de IA
+          </h2>
+          <a href="/newsletters-de-ia" className="hidden md:inline-flex text-blue-600 text-sm font-medium hover:underline">Ver todas as newsletters de IA</a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">AiDrop</span>
+            <p className="text-zinc-700">Resumos semanais de avanços em IA: ferramentas, prompts e modelos novos.</p>
+            <span className="text-xs text-zinc-500">Newsletter</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">AI Factory News</span>
+            <p className="text-zinc-700">Newsletter do Distrito focada em inteligência artificial e inovação.</p>
+            <span className="text-xs text-zinc-500">Newsletter</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">IAí?</span>
+            <p className="text-zinc-700">Newsletter do O Globo sobre como a IA transforma o dia a dia.</p>
+            <span className="text-xs text-zinc-500">Newsletter</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/newsletters-de-ia" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as newsletters de IA</a>
         </div>
       </section>
 
