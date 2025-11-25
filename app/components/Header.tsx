@@ -20,10 +20,10 @@ export default function Header() {
           <li><a href="/ia-para-vibe-coding" className="hover:text-blue-600 transition-colors">Vibe Coding</a></li>
           <li><a href="/ia-para-desenvolvedores" className="hover:text-blue-600 transition-colors">Desenvolvedores</a></li>
           <li><a href="/ia-para-professores" className="hover:text-blue-600 transition-colors">Professores</a></li>
+          <li><a href="/modelos-de-llms" className="hover:text-blue-600 transition-colors">Modelos de LLMs</a></li>
+          <li><a href="/navegadores-de-ia" className="hover:text-blue-600 transition-colors">Navegadores de IA</a></li>
           <li><a href="/ferramenta-de-deteccao-de-ia" className="hover:text-blue-600 transition-colors">Detecção de IA</a></li>
           <li><a href="/newsletters-de-ia" className="hover:text-blue-600 transition-colors">Newsletters</a></li>
-          <li><a href="#ultimas-ias" className="hover:text-blue-600 transition-colors">Últimas IAs</a></li>
-          <li><a href="#depoimentos" className="hover:text-blue-600 transition-colors">Depoimentos</a></li>
         </ul>
 
         <div className="md:hidden">
@@ -44,10 +44,10 @@ export default function Header() {
               <li><a href="/ia-para-vibe-coding" className="block py-2">Vibe Coding</a></li>
               <li><a href="/ia-para-desenvolvedores" className="block py-2">Desenvolvedores</a></li>
               <li><a href="/ia-para-professores" className="block py-2">Professores</a></li>
+              <li><a href="/modelos-de-llms" className="block py-2">Modelos de LLMs</a></li>
+              <li><a href="/navegadores-de-ia" className="block py-2">Navegadores de IA</a></li>
               <li><a href="/ferramenta-de-deteccao-de-ia" className="block py-2">Detecção de IA</a></li>
               <li><a href="/newsletters-de-ia" className="block py-2">Newsletters</a></li>
-              <li><a href="#ultimas-ias" className="block py-2">Últimas IAs</a></li>
-              <li><a href="#depoimentos" className="block py-2">Depoimentos</a></li>
             </ul>
           </div>
         )}

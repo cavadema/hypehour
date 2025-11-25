@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans">
@@ -166,6 +166,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Navegadores de IA */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <GlobeAltIcon className="w-6 h-6 text-blue-400" />
+            Navegadores de IA
+          </h2>
+          <a href="/navegadores-de-ia" className="hidden md:inline-flex text-blue-600 text-sm font-medium hover:underline">
+            Ver todos os navegadores de IA
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">ChatGPT Atlas</span>
+            <p className="text-zinc-700">Experiência de navegação com Copilot do ChatGPT integrada ao browser Atlas.</p>
+            <span className="text-xs text-zinc-500">Categoria: Navegadores de IA</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Perplexity Comet</span>
+            <p className="text-zinc-700">Navegador que traz respostas da Perplexity diretamente na aba atual.</p>
+            <span className="text-xs text-zinc-500">Categoria: Navegadores de IA</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Opera One</span>
+            <p className="text-zinc-700">Browser com Aria e módulos multimídia para uso de IA integrado.</p>
+            <span className="text-xs text-zinc-500">Categoria: Navegadores de IA</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/navegadores-de-ia" className="text-blue-600 text-sm font-medium hover:underline">
+            Ver todos os navegadores de IA
+          </a>
+        </div>
+      </section>
+
       {/* Últimas IA adicionadas */}
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-16 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-blue-400" />Últimas IA adicionadas</h2>
@@ -181,8 +216,8 @@ export default function Home() {
             <span className="text-xs text-zinc-500">Adicionada em 14/11/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><PhotoIcon className="w-5 h-5" /> Pixlr</span>
-            <p className="text-zinc-700">Editor de imagens com IA e recursos avançados.</p>
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><GlobeAltIcon className="w-5 h-5" /> Perplexity Comet</span>
+            <p className="text-zinc-700">Navegador com respostas da Perplexity embutidas na aba atual.</p>
             <span className="text-xs text-zinc-500">Adicionada em 13/11/2025</span>
           </div>
         </div>
@@ -228,6 +263,41 @@ export default function Home() {
             <p className="text-zinc-700">Versão open-source da Meta com quantizações eficientes para edge.</p>
             <span className="text-xs text-zinc-500">Lançamento: Set/2025</span>
           </div>
+        </div>
+      </section>
+
+      {/* Modelos de LLMs */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <SparklesIcon className="w-6 h-6 text-blue-400" />
+            Modelos de LLMs em destaque
+          </h2>
+          <a href="/modelos-de-llms" className="hidden md:inline-flex text-blue-600 text-sm font-medium hover:underline">
+            Ver todos os modelos de LLMs
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">OpenAI ChatGPT</span>
+            <p className="text-zinc-700">Modelo multimodal da OpenAI com resultados de texto, voz e imagem.</p>
+            <span className="text-xs text-zinc-500">Modelo proprietário</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Google Gemini</span>
+            <p className="text-zinc-700">Família Gemini com suporte a texto, imagem, áudio e agentes.</p>
+            <span className="text-xs text-zinc-500">Modelo proprietário</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Anthropic Claude</span>
+            <p className="text-zinc-700">Linha Claude com foco em segurança e respostas confiáveis.</p>
+            <span className="text-xs text-zinc-500">Modelo proprietário</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/modelos-de-llms" className="text-blue-600 text-sm font-medium hover:underline">
+            Ver todos os modelos de LLMs
+          </a>
         </div>
       </section>
 
