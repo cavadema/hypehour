@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans">
@@ -12,6 +12,8 @@ export default function Home() {
         <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-200 rounded-full opacity-30 blur-2xl" />
         <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-blue-100 rounded-full opacity-20 blur-2xl" />
       </section>
+
+
       {/* IA para Música */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">
@@ -238,6 +240,47 @@ export default function Home() {
         <div className="mt-4 md:hidden">
           <a href="/navegadores-de-ia" className="text-blue-600 text-sm font-medium hover:underline">
             Ver todos os navegadores de IA
+          </a>
+        </div>
+      </section>
+
+      {/* Pacotes de Ferramentas de IA */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <ArchiveBoxIcon className="w-6 h-6 text-blue-400" />
+            Pacotes de Ferramentas de IA
+          </h2>
+          <a href="/pacotes-de-ferramentas-e-agregadores-ia" className="hidden md:inline-flex text-blue-600 text-sm font-medium hover:underline">
+            Ver todos os pacotes e agregadores
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">
+              <ArchiveBoxIcon className="w-5 h-5" /> Adapta
+            </span>
+            <p className="text-zinc-700">Plataforma que conecta ferramentas de IA para otimizar fluxos de trabalho.</p>
+            <span className="text-xs text-zinc-500">Categoria: Agregadores</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">
+              <ArchiveBoxIcon className="w-5 h-5" /> InnerAI
+            </span>
+            <p className="text-zinc-700">Ecossistema de IA para empresas, integrando diversos modelos e ferramentas.</p>
+            <span className="text-xs text-zinc-500">Categoria: Agregadores</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">
+              <ArchiveBoxIcon className="w-5 h-5" /> Tess
+            </span>
+            <p className="text-zinc-700">Assistente de IA que agrega múltiplos modelos em uma única interface.</p>
+            <span className="text-xs text-zinc-500">Categoria: Agregadores</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/pacotes-de-ferramentas-e-agregadores-ia" className="text-blue-600 text-sm font-medium hover:underline">
+            Ver todos os pacotes e agregadores
           </a>
         </div>
       </section>
