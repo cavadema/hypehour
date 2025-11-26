@@ -61,6 +61,7 @@ export default function RootLayout({
                 <h4 className="font-semibold mb-2">Categorias</h4>
                 <ul className="space-y-2 text-sm text-zinc-700">
                   <li><a href="/ia-para-imagens" className="hover:underline">IA para imagens</a></li>
+                  <li><a href="/ia-para-musica" className="hover:underline">IA para Música</a></li>
                   <li><a href="/ia-para-vibe-coding" className="hover:underline">Vibe Coding</a></li>
                   <li><a href="/ia-para-desenvolvedores" className="hover:underline">Desenvolvedores</a></li>
                   <li><a href="/ia-para-professores" className="hover:underline">Professores</a></li>
