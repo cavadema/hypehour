@@ -2,58 +2,70 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { Bars3Icon, XMarkIcon, ChevronDownIcon } from "@heroicons/react/24/solid";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="apify-header flex items-center justify-between px-6 md:px-10 py-4 bg-white z-20">
-      <div className="flex items-center gap-3">
-        <Link href="/" className="text-2xl font-extrabold tracking-tight text-blue-700 hover:underline">Hypehour</Link>
-      </div>
+    <header className="w-full bg-white shadow-sm sticky top-0 z-50">
+      <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+        {/* Logo */}
+        <Link href="/" className="text-2xl font-bold text-blue-600">
+          HypeHour
+        </Link>
 
-      <nav>
-        <ul className="hidden md:flex gap-6 text-zinc-700 font-medium items-center">
-          <li><a href="/ia-para-imagens" className="hover:text-blue-600 transition-colors">IA para imagens</a></li>
-          <li><a href="/ia-para-musica" className="hover:text-blue-600 transition-colors">IA para Música</a></li>
-          <li><a href="/pacotes-de-ferramentas-e-agregadores-ia" className="hover:text-blue-600 transition-colors">Agregadores de IA</a></li>
-          <li><a href="/ia-para-vibe-coding" className="hover:text-blue-600 transition-colors">Vibe Coding</a></li>
-          <li><a href="/ia-para-desenvolvedores" className="hover:text-blue-600 transition-colors">Desenvolvedores</a></li>
-          <li><a href="/ia-para-professores" className="hover:text-blue-600 transition-colors">Professores</a></li>
-          <li><a href="/modelos-de-llms" className="hover:text-blue-600 transition-colors">Modelos de LLMs</a></li>
-          <li><a href="/navegadores-de-ia" className="hover:text-blue-600 transition-colors">Navegadores de IA</a></li>
-          <li><a href="/ferramenta-de-deteccao-de-ia" className="hover:text-blue-600 transition-colors">Detecção de IA</a></li>
-          <li><a href="/newsletters-de-ia" className="hover:text-blue-600 transition-colors">Newsletters</a></li>
-        </ul>
+        {/* Desktop Menu */}
+        <nav>
+          <ul className="hidden md:flex gap-6 text-zinc-700 font-medium items-center">
+            <li><Link href="/ia-para-imagens" className="hover:text-blue-600 transition-colors">IA para imagens</Link></li>
+            <li><Link href="/pacotes-de-ferramentas-e-agregadores-ia" className="hover:text-blue-600 transition-colors">Agregadores de IA</Link></li>
+            <li><Link href="/ia-para-vibe-coding" className="hover:text-blue-600 transition-colors">Vibe Coding</Link></li>
+            <li><Link href="/ia-para-desenvolvedores" className="hover:text-blue-600 transition-colors">Desenvolvedores</Link></li>
+            <li><Link href="/ferramenta-de-deteccao-de-ia" className="hover:text-blue-600 transition-colors">Detecção de IA</Link></li>
 
-        <div className="md:hidden">
-          <button
-            aria-label="Abrir menu"
-            onClick={() => setOpen((s) => !s)}
-            className="p-2 rounded-md text-zinc-700 hover:bg-zinc-100"
-          >
+            {/* Dropdown Outras IAs */}
+            <li className="relative group">
+              <button className="flex items-center gap-1 hover:text-blue-600 transition-colors focus:outline-none">
+                Outras IAs
+                <ChevronDownIcon className="w-4 h-4" />
+              </button>
+              <div className="absolute top-full right-0 w-56 bg-white shadow-lg rounded-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-zinc-100">
+                <Link href="/ia-para-professores" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">Professores</Link>
+                <Link href="/ia-para-musica" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">IA para Música</Link>
+                <Link href="/modelos-de-llms" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">Modelos de LLMs</Link>
+                <Link href="/navegadores-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">Navegadores de IA</Link>
+                <Link href="/newsletters-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">Newsletters</Link>
+              </div>
+            </li>
+          </ul>
+
+          {/* Mobile Menu Button */}
+          <button onClick={() => setOpen(!open)} className="md:hidden p-2 text-zinc-700">
             {open ? <XMarkIcon className="w-6 h-6" /> : <Bars3Icon className="w-6 h-6" />}
           </button>
-        </div>
 
-        {open && (
-          <div className="absolute top-16 left-0 right-0 bg-white shadow-md p-4 md:hidden">
-            <ul className="flex flex-col gap-3 text-zinc-700 font-medium">
-              <li><a href="/ia-para-imagens" className="block py-2">IA para imagens</a></li>
-              <li><a href="/ia-para-musica" className="block py-2">IA para Música</a></li>
-              <li><a href="/pacotes-de-ferramentas-e-agregadores-ia" className="block py-2">Agregadores de IA</a></li>
-              <li><a href="/ia-para-vibe-coding" className="block py-2">Vibe Coding</a></li>
-              <li><a href="/ia-para-desenvolvedores" className="block py-2">Desenvolvedores</a></li>
-              <li><a href="/ia-para-professores" className="block py-2">Professores</a></li>
-              <li><a href="/modelos-de-llms" className="block py-2">Modelos de LLMs</a></li>
-              <li><a href="/navegadores-de-ia" className="block py-2">Navegadores de IA</a></li>
-              <li><a href="/ferramenta-de-deteccao-de-ia" className="block py-2">Detecção de IA</a></li>
-              <li><a href="/newsletters-de-ia" className="block py-2">Newsletters</a></li>
-            </ul>
-          </div>
-        )}
-      </nav>
+          {/* Mobile Menu Dropdown */}
+          {open && (
+            <div className="absolute top-16 left-0 right-0 bg-white shadow-md p-4 md:hidden border-t border-zinc-100">
+              <ul className="flex flex-col gap-3 text-zinc-700 font-medium">
+                <li><Link href="/ia-para-imagens" className="block py-2" onClick={() => setOpen(false)}>IA para imagens</Link></li>
+                <li><Link href="/pacotes-de-ferramentas-e-agregadores-ia" className="block py-2" onClick={() => setOpen(false)}>Agregadores de IA</Link></li>
+                <li><Link href="/ia-para-vibe-coding" className="block py-2" onClick={() => setOpen(false)}>Vibe Coding</Link></li>
+                <li><Link href="/ia-para-desenvolvedores" className="block py-2" onClick={() => setOpen(false)}>Desenvolvedores</Link></li>
+                <li><Link href="/ferramenta-de-deteccao-de-ia" className="block py-2" onClick={() => setOpen(false)}>Detecção de IA</Link></li>
+
+                <li className="border-t border-zinc-100 pt-2 mt-2 font-semibold text-zinc-400 text-sm">Outras IAs</li>
+                <li><Link href="/ia-para-professores" className="block py-2 pl-4" onClick={() => setOpen(false)}>Professores</Link></li>
+                <li><Link href="/ia-para-musica" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Música</Link></li>
+                <li><Link href="/modelos-de-llms" className="block py-2 pl-4" onClick={() => setOpen(false)}>Modelos de LLMs</Link></li>
+                <li><Link href="/navegadores-de-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Navegadores de IA</Link></li>
+                <li><Link href="/newsletters-de-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Newsletters</Link></li>
+              </ul>
+            </div>
+          )}
+        </nav>
+      </div>
     </header>
   );
 }
