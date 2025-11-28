@@ -50,42 +50,47 @@ export default function RootLayout({
         <main className="apify-main">{children}</main>
 
         <footer className="site-footer w-full bg-white border-t border-zinc-200 mt-8">
-          <div className="max-w-6xl mx-auto py-12 px-6 flex flex-col md:flex-row md:justify-between gap-8">
-            <div className="max-w-xl">
-              <h3 className="text-xl font-bold mb-2">Hypehour</h3>
-              <p className="text-zinc-600">Hypehour é um agregador de ferramentas de IA para facilitar que os usuários encontrem IAs para imagens, desenvolvimento, estudos e muito mais.</p>
+          <div className="max-w-6xl mx-auto py-12 px-6">
+            {/* Top Row: Branding + Seções + Contato */}
+            <div className="flex flex-col md:flex-row justify-between gap-8 mb-6 border-b border-zinc-100 pb-6">
+              <div className="max-w-xl">
+                <h3 className="text-xl font-bold mb-2">Sobre Nós</h3>
+                <p className="text-zinc-600">Hypehour é um agregador de ferramentas de IA para facilitar que os usuários encontrem IAs para imagens, desenvolvimento, estudos e muito mais.</p>
+              </div>
+
+              <div className="flex gap-12">
+                <div>
+                  <h3 className="font-semibold mb-2">Seções</h3>
+                  <ul className="space-y-2 text-sm text-zinc-700">
+                    <li><a href="#ultimas-ias" className="hover:underline">Últimas IAs</a></li>
+                    <li><a href="#depoimentos" className="hover:underline">Depoimentos</a></li>
+                    <li><a href="/sobre-nos" className="hover:underline">Sobre Nós</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-semibold mb-2">Contato</h3>
+                  <ul className="space-y-2 text-sm text-zinc-700">
+                    <li><a href="mailto:cavadema@gmail.com" className="hover:underline">cavadema@gmail.com</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
-              <div>
-                <h4 className="font-semibold mb-2">Categorias</h4>
-                <ul className="space-y-2 text-sm text-zinc-700">
-                  <li><a href="/ia-para-imagens" className="hover:underline">IA para imagens</a></li>
-                  <li><a href="/ia-para-musica" className="hover:underline">IA para Música</a></li>
-                  <li><a href="/pacotes-de-ferramentas-e-agregadores-ia" className="hover:underline">Agregadores de IA</a></li>
-                  <li><a href="/ia-para-vibe-coding" className="hover:underline">Vibe Coding</a></li>
-                  <li><a href="/ia-para-desenvolvedores" className="hover:underline">Desenvolvedores</a></li>
-                  <li><a href="/ia-para-professores" className="hover:underline">Professores</a></li>
-                  <li><a href="/modelos-de-llms" className="hover:underline">Modelos de LLMs</a></li>
-                  <li><a href="/navegadores-de-ia" className="hover:underline">Navegadores de IA</a></li>
-                  <li><a href="/ferramenta-de-deteccao-de-ia" className="hover:underline">Detecção de IA</a></li>
-                  <li><a href="/newsletters-de-ia" className="hover:underline">Newsletters</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-2">Seções</h4>
-                <ul className="space-y-2 text-sm text-zinc-700">
-                  <li><a href="#ultimas-ias" className="hover:underline">Últimas IAs</a></li>
-                  <li><a href="#depoimentos" className="hover:underline">Depoimentos</a></li>
-                  <li><a href="/sobre-nos" className="hover:underline">Sobre Nós</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-2">Contato</h4>
-                <ul className="space-y-2 text-sm text-zinc-700">
-                  <li>—</li>
-                </ul>
-              </div>
+            {/* Bottom Row: Categorias Horizontal */}
+            <div>
+              <h3 className="font-semibold mb-4">Categorias</h3>
+              <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-zinc-700">
+                <li><a href="/ia-para-imagens" className="hover:underline">IA para imagens</a></li>
+                <li><a href="/ia-para-musica" className="hover:underline">IA para Música</a></li>
+                <li><a href="/pacotes-de-ferramentas-e-agregadores-ia" className="hover:underline">Agregadores de IA</a></li>
+                <li><a href="/ia-para-vibe-coding" className="hover:underline">Vibe Coding</a></li>
+                <li><a href="/ia-para-desenvolvedores" className="hover:underline">Desenvolvedores</a></li>
+                <li><a href="/ia-para-professores" className="hover:underline">Professores</a></li>
+                <li><a href="/modelos-de-llms" className="hover:underline">Modelos de LLMs</a></li>
+                <li><a href="/navegadores-de-ia" className="hover:underline">Navegadores de IA</a></li>
+                <li><a href="/ferramenta-de-deteccao-de-ia" className="hover:underline">Detecção de IA</a></li>
+                <li><a href="/newsletters-de-ia" className="hover:underline">Newsletters</a></li>
+              </ul>
             </div>
           </div>
         </footer>

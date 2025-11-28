@@ -1,7 +1,7 @@
 import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
-    <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans">
+    <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans -mt-20">
       {/* Primeira dobra */}
       <section className="w-full flex flex-col items-center justify-center py-32 bg-gradient-to-br from-blue-50 via-white to-blue-100 border-b border-zinc-200 relative overflow-hidden">
         <SparklesIcon className="w-16 h-16 text-blue-400 mb-4 animate-pulse" />

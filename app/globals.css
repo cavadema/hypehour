@@ -33,42 +33,47 @@ body {
   z-index: 50;
   background: #fff;
   border-bottom: 1px solid #e5e7eb;
-  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.03);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.03);
 }
 
 .apify-main {
-  margin-top: 80px;
+  padding-top: 80px;
   min-height: 100vh;
 }
 
 .apify-card {
   background: #fff;
   border-radius: 16px;
-  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.04);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.04);
   padding: 2rem;
   transition: box-shadow 0.2s;
   border: 1px solid #e5e7eb;
 }
+
 .apify-card:hover {
-  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.08);
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.08);
 }
+
 .apify-title {
   font-size: 2.5rem;
   font-weight: 800;
   color: #222;
   margin-bottom: 0.5rem;
 }
+
 .apify-subtitle {
   font-size: 1.25rem;
   color: #555;
   margin-bottom: 2rem;
 }
+
 .apify-section-title {
   font-size: 1.5rem;
   font-weight: 700;
   color: #222;
   margin-bottom: 1.5rem;
 }
+
 .apify-testimonial {
   font-style: italic;
   color: #444;
@@ -82,9 +87,11 @@ body {
   background: #ffffff;
   color: #333;
 }
+
 .site-footer a {
   color: #1d4ed8;
 }
+
 .site-footer h3 {
   color: #111827;
 }
