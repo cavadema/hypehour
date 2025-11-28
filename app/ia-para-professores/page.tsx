@@ -88,6 +88,20 @@ export default function IaParaProfessores() {
       </p>
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((ferramenta) => (
+          <a
+            key={ferramenta.nome}
+            href={ferramenta.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100"
+          >
+            <h2 className="font-semibold text-lg mb-1">{ferramenta.nome}</h2>
+            <div className="text-gray-500 text-sm">{ferramenta.descricao}</div>
+          </a>
+        ))}
+      </div>
+    </main>
+  );
 }
 
 
