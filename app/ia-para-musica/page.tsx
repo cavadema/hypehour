@@ -69,7 +69,7 @@ export default function IaParaMusica() {
                         rel="noopener noreferrer"
                         className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100"
                     >
-                        <div className="font-semibold text-lg mb-1">{ferramenta.nome}</div>
+                        <h2 className="font-semibold text-lg mb-1">{ferramenta.nome}</h2>
                         <div className="text-gray-500 text-sm">{ferramenta.descricao}</div>
                     </a>
                 ))}

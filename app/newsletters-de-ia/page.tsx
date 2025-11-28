@@ -72,20 +72,6 @@ export default function NewslettersDeIA() {
       </p>
       <div className="grid gap-6 sm:grid-cols-2">
         {newsletters.map((newsletter) => (
-          <a
-            key={newsletter.nome}
-            href={newsletter.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100"
-          >
-            <div className="font-semibold text-lg mb-1">{newsletter.nome}</div>
-            <div className="text-gray-500 text-sm">{newsletter.descricao}</div>
-          </a>
-        ))}
-      </div>
-    </main>
-  );
 }
 
 

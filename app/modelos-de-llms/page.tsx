@@ -72,20 +72,6 @@ export default function ModelosDeLLMs() {
       </p>
       <div className="grid gap-6 sm:grid-cols-2">
         {modelos.map((modelo) => (
-          <a
-            key={modelo.nome}
-            href={modelo.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100"
-          >
-            <div className="font-semibold text-lg mb-1">{modelo.nome}</div>
-            <div className="text-gray-500 text-sm">{modelo.descricao}</div>
-          </a>
-        ))}
-      </div>
-    </main>
-  );
 }
 
 

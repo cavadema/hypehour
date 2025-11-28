@@ -52,18 +52,4 @@ export default function IaParaDesenvolvedores() {
       <p className="mb-8 text-gray-600">Ferramentas e assistentes pensados para programadores: geração de código, revisões e autocompletes inteligentes.</p>
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => (
-          <a
-            key={f.nome}
-            href={f.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100"
-          >
-            <div className="font-semibold text-lg mb-1">{f.nome}</div>
-            <div className="text-gray-500 text-sm">{f.descricao}</div>
-          </a>
-        ))}
-      </div>
-    </main>
-  );
 }
