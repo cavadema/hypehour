@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans -mt-20">
@@ -80,6 +80,47 @@ export default function Home() {
         </div>
         <div className="mt-4 md:hidden">
           <a href="/ia-para-imagens" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as IA para imagens</a>
+        </div>
+      </section>
+
+      {/* IA para Conteúdo */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <PencilSquareIcon className="w-6 h-6 text-blue-400" />
+            IA para Conteúdo
+          </h2>
+          <a href="/ferramentas-de-ia-para-conteudo" className="hidden md:inline-flex text-blue-600 text-sm font-medium hover:underline">
+            Ver todas as IA para conteúdo
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">
+              <PencilSquareIcon className="w-5 h-5" /> Jasper
+            </span>
+            <p className="text-zinc-700">Plataforma avançada de IA para criação de conteúdo de marketing e copy.</p>
+            <span className="text-xs text-zinc-500">Categoria: Conteúdo</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">
+              <PencilSquareIcon className="w-5 h-5" /> Copy.ai
+            </span>
+            <p className="text-zinc-700">Gerador de textos para blogs, redes sociais e e-mails com foco em conversão.</p>
+            <span className="text-xs text-zinc-500">Categoria: Conteúdo</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">
+              <PencilSquareIcon className="w-5 h-5" /> HubSpot Content Hub
+            </span>
+            <p className="text-zinc-700">Hub de conteúdo da HubSpot com ferramentas de IA para criar e gerenciar blogs e sites.</p>
+            <span className="text-xs text-zinc-500">Categoria: Conteúdo</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/ferramentas-de-ia-para-conteudo" className="text-blue-600 text-sm font-medium hover:underline">
+            Ver todas as IA para conteúdo
+          </a>
         </div>
       </section>
 

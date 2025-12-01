@@ -85,7 +85,8 @@ export default function RootLayout({
                 <li><a href="/pacotes-de-ferramentas-e-agregadores-ia" className="hover:underline">Agregadores de IA</a></li>
                 <li><a href="/ia-para-vibe-coding" className="hover:underline">Vibe Coding</a></li>
                 <li><a href="/ia-para-desenvolvedores" className="hover:underline">Desenvolvedores</a></li>
-                <li><a href="/ia-para-professores" className="hover:underline">Professores</a></li>
+                <li><Link href="/ferramentas-de-ia-para-conteudo" className="hover:text-blue-400 transition-colors">IA para Conteúdo</Link></li>
+                <li><Link href="/ia-para-professores" className="hover:text-blue-400 transition-colors">IA para professores</Link></li>
                 <li><a href="/modelos-de-llms" className="hover:underline">Modelos de LLMs</a></li>
                 <li><a href="/navegadores-de-ia" className="hover:underline">Navegadores de IA</a></li>
                 <li><a href="/ferramenta-de-deteccao-de-ia" className="hover:underline">Detecção de IA</a></li>
