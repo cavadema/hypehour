@@ -8,6 +8,11 @@ const modelos = [
     descricao: "Modelos GPT-4o e GPT-5.1 com capacidades multimodais para texto, imagem, áudio e vídeo.",
   },
   {
+    nome: "Perplexity AI",
+    url: "https://www.perplexity.ai/",
+    descricao: "Motor de resposta conversacional que combina LLMs com busca na web em tempo real.",
+  },
+  {
     nome: "Google Gemini",
     url: "https://gemini.google.com/",
     descricao: "Família Gemini 3 com suporte multimodal e integrações com produtos Google.",

@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans -mt-20">
@@ -120,6 +120,47 @@ export default function Home() {
         <div className="mt-4 md:hidden">
           <a href="/ferramentas-de-ia-para-conteudo" className="text-blue-600 text-sm font-medium hover:underline">
             Ver todas as IA para conteúdo
+          </a>
+        </div>
+      </section>
+
+      {/* IA para Marketing */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <MegaphoneIcon className="w-6 h-6 text-blue-400" />
+            IA para Marketing
+          </h2>
+          <a href="/ia-para-marketing" className="hidden md:inline-flex text-blue-600 text-sm font-medium hover:underline">
+            Ver todas as IA para marketing
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">
+              <MegaphoneIcon className="w-5 h-5" /> eKyte
+            </span>
+            <p className="text-zinc-700">Plataforma de gestão de marketing digital com IA para planejar e executar campanhas.</p>
+            <span className="text-xs text-zinc-500">Categoria: Marketing</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">
+              <MegaphoneIcon className="w-5 h-5" /> Writesonic
+            </span>
+            <p className="text-zinc-700">Ferramenta de escrita com IA para criar conteúdo de marketing otimizado para SEO.</p>
+            <span className="text-xs text-zinc-500">Categoria: Marketing</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">
+              <MegaphoneIcon className="w-5 h-5" /> Lumen5
+            </span>
+            <p className="text-zinc-700">Transforme textos e artigos em vídeos engajadores para redes sociais com IA.</p>
+            <span className="text-xs text-zinc-500">Categoria: Marketing</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/ia-para-marketing" className="text-blue-600 text-sm font-medium hover:underline">
+            Ver todas as IA para marketing
           </a>
         </div>
       </section>
@@ -387,6 +428,21 @@ export default function Home() {
             <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Llama 3.2</span>
             <p className="text-zinc-700">Versão open-source da Meta com quantizações eficientes para edge.</p>
             <span className="text-xs text-zinc-500">Lançamento: Set/2025</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Perplexity Sonar</span>
+            <p className="text-zinc-700">Modelo focado em busca e raciocínio em tempo real, baseado no Llama 3.1.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Dez/2024</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">DeepSeek V3</span>
+            <p className="text-zinc-700">Modelo open-weights com desempenho de ponta e custo reduzido.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Dez/2024</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Qwen 2.5</span>
+            <p className="text-zinc-700">Família de modelos da Alibaba com excelência em código e matemática.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Set/2024</span>
           </div>
         </div>
       </section>
