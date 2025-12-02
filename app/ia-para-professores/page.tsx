@@ -1,5 +1,6 @@
 import { AcademicCapIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
   {
@@ -82,10 +83,8 @@ export default function IaParaProfessores() {
         <AcademicCapIcon className="w-10 h-10 text-blue-500" />
         <h1 className="text-3xl font-bold">IA para Professores</h1>
       </div>
-      <p className="mb-8 text-gray-600">
-        Descubra ferramentas de inteligência artificial pensadas para educadores que precisam economizar tempo no
-        planejamento e aumentar o engajamento em sala.
-      </p>
+
+      <ExpandableContent />
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((ferramenta) => (
           <a

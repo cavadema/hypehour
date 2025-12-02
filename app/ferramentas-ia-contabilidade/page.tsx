@@ -1,5 +1,6 @@
 import { CalculatorIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
@@ -57,9 +58,8 @@ export default function IaParaContabilidade() {
                 <CalculatorIcon className="w-10 h-10 text-blue-500" />
                 <h1 className="text-3xl font-bold">IA para Contabilidade</h1>
             </div>
-            <p className="mb-8 text-gray-600">
-                Ferramentas de inteligência artificial que automatizam processos contábeis, fiscais e financeiros para maior eficiência.
-            </p>
+
+            <ExpandableContent />
             <div className="grid gap-6 sm:grid-cols-2">
                 {ferramentas.map((ferramenta) => (
                     <a
