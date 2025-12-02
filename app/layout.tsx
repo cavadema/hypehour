@@ -66,6 +66,7 @@ export default function RootLayout({
                     <li><a href="#depoimentos" className="hover:underline">Depoimentos</a></li>
                     <li><a href="/sobre-nos" className="hover:underline">Sobre Nós</a></li>
                     <li><Link href="/termos" className="hover:underline">Termos de Serviço</Link></li>
+                    <li><Link href="/privacidade" className="hover:underline">Política de Privacidade</Link></li>
                   </ul>
                 </div>
                 <div>
