@@ -16,7 +16,7 @@ const ferramentas = [
     descricao: "Assistente de código da GitHub/OpenAI para autocompletar e gerar trechos de código.",
   },
   { nome: "Cursor", url: "https://www.cursor.com", descricao: "IDE com assistente de código e recursos de AI." },
-  { nome: "Claude Code", url: "#", descricao: "Assistente de código baseado na família Claude (Anthropic)." },
+  { nome: "Claude Code", url: "https://www.claude.com/product/claude-code", descricao: "Assistente de código baseado na família Claude (Anthropic)." },
   {
     nome: "Windsurf",
     url: "https://windsurf.com/",

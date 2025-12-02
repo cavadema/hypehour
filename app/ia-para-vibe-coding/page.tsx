@@ -10,16 +10,16 @@ export const metadata = {
 };
 
 const ferramentas = [
-  { nome: "Lovable", url: "#", descricao: "IA para programação, resumos e automações." },
-  { nome: "Bolt.new", url: "#", descricao: "Ferramenta para acelerar desenvolvimento e automações." },
-  { nome: "v0", url: "#", descricao: "Plataforma para criação rápida de interfaces e automações." },
+  { nome: "Lovable", url: "https://lovable.dev/", descricao: "IA para programação, resumos e automações." },
+  { nome: "Bolt.new", url: "https://bolt.new/", descricao: "Ferramenta para acelerar desenvolvimento e automações." },
+  { nome: "v0", url: "https://v0.dev/", descricao: "Plataforma para criação rápida de interfaces e automações." },
   { nome: "Replit", url: "https://replit.com", descricao: "IDE online com recursos colaborativos e assistentes de código." },
-  { nome: "Base44", url: "#", descricao: "Ferramenta/infra de IA (verificar site oficial)." },
-  { nome: "Trae", url: "#", descricao: "Assistente / ferramenta de desenvolvimento (verificar site)." },
+  { nome: "Base44", url: "https://base44.com", descricao: "Ferramenta/infra de IA para criar apps completos." },
+  { nome: "Trae", url: "https://trae.ai", descricao: "IDE adaptativo com IA da ByteDance." },
   { nome: "Cursor", url: "https://www.cursor.com", descricao: "IDE com assistente de código e recursos AI." },
-  { nome: "Tempo", url: "#", descricao: "Ferramenta focada em produtividade para devs (verificar site)." },
-  { nome: "Create", url: "#", descricao: "Ferramenta de geração/auxílio no desenvolvimento." },
-  { nome: "Google AI Studio", url: "#", descricao: "Plataforma de ferramentas AI do Google (Studio)." },
+  { nome: "Tempo", url: "https://tempo.new", descricao: "Ferramenta focada em produtividade para devs React." },
+  { nome: "Create", url: "https://www.create.xyz", descricao: "Ferramenta de geração de apps via prompt." },
+  { nome: "Google AI Studio", url: "https://aistudio.google.com/", descricao: "Plataforma de ferramentas AI do Google (Studio)." },
   { nome: "Cody", url: "https://www.sourcegraph.com/cody", descricao: "Assistente de código da Sourcegraph." },
 ];
 

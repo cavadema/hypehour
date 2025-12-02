@@ -57,6 +57,11 @@ const ferramentas = [
         url: "https://www.ocoya.com/",
         descricao: "Crie, agende e analise conteúdo para redes sociais com ajuda de inteligência artificial.",
     },
+    {
+        nome: "Searchfy",
+        url: "https://searchfy.com.br/",
+        descricao: "Ferramenta de IA para SEO e otimização de conteúdo.",
+    },
 ];
 
 export const metadata = {

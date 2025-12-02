@@ -4,7 +4,7 @@ import Link from "next/link";
 const ferramentas = [
   {
     nome: "Whisk",
-    url: "https://whisk.ai/",
+    url: "https://labs.google/fx/pt/tools/whisk",
     descricao: "IA do Google para geração e edição de imagens.",
   },
   {
