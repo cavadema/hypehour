@@ -34,7 +34,7 @@ const ferramentas = [
   },
   {
     nome: "ExpertChat",
-    url: "https://tutorial.expertchat.me/ai-maste",
+    url: "https://tutorial.expertchat.me/",
     descricao: "Detector com foco em criadores de conteúdo e equipes de marketing.",
   },
   {

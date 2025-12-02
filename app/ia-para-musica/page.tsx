@@ -1,5 +1,6 @@
 import { MusicalNoteIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
@@ -74,6 +75,8 @@ export default function IaParaMusica() {
                     </a>
                 ))}
             </div>
+
+            <FAQSection />
         </main>
     );
 }
