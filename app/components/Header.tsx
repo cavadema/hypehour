@@ -32,6 +32,7 @@ export default function Header() {
               </button>
               <div className="absolute top-full right-0 w-56 bg-white shadow-lg rounded-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-zinc-100">
                 <Link href="/ferramentas-de-ia-para-conteudo" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">IA para Conteúdo</Link>
+                <Link href="/ia-para-criar-apresentacoes" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">IA para Apresentações</Link>
                 <Link href="/ia-para-marketing" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">IA para Marketing</Link>
                 <Link href="/inteligencia-artificial-para-advogados" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">IA para Advogados</Link>
                 <Link href="/ia-para-professores" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">Professores</Link>
@@ -60,6 +61,7 @@ export default function Header() {
 
                 <li className="border-t border-zinc-100 pt-2 mt-2 font-semibold text-zinc-400 text-sm">Outras IAs</li>
                 <li><Link href="/ferramentas-de-ia-para-conteudo" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Conteúdo</Link></li>
+                <li><Link href="/ia-para-criar-apresentacoes" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Apresentações</Link></li>
                 <li><Link href="/ia-para-marketing" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Marketing</Link></li>
                 <li><Link href="/inteligencia-artificial-para-advogados" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Advogados</Link></li>
                 <li><Link href="/ia-para-professores" className="block py-2 pl-4" onClick={() => setOpen(false)}>Professores</Link></li>

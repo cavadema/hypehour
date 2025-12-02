@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans -mt-20">
@@ -161,6 +161,47 @@ export default function Home() {
         <div className="mt-4 md:hidden">
           <a href="/ia-para-marketing" className="text-blue-600 text-sm font-medium hover:underline">
             Ver todas as IA para marketing
+          </a>
+        </div>
+      </section>
+
+      {/* IA para Criar Apresentações */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <PresentationChartLineIcon className="w-6 h-6 text-blue-400" />
+            IA para Criar Apresentações
+          </h2>
+          <a href="/ia-para-criar-apresentacoes" className="hidden md:inline-flex text-blue-600 text-sm font-medium hover:underline">
+            Ver todas as IA para apresentações
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">
+              <PresentationChartLineIcon className="w-5 h-5" /> Genspark
+            </span>
+            <p className="text-zinc-700">Crie apresentações impressionantes a partir de prompts simples com IA generativa.</p>
+            <span className="text-xs text-zinc-500">Categoria: Apresentações</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">
+              <PresentationChartLineIcon className="w-5 h-5" /> Presentations.ai
+            </span>
+            <p className="text-zinc-700">Plataforma de design de apresentações focada em empresas e colaboração em tempo real.</p>
+            <span className="text-xs text-zinc-500">Categoria: Apresentações</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">
+              <PresentationChartLineIcon className="w-5 h-5" /> AiPPT
+            </span>
+            <p className="text-zinc-700">Gerador de PPTs com inteligência artificial que transforma tópicos em slides prontos.</p>
+            <span className="text-xs text-zinc-500">Categoria: Apresentações</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/ia-para-criar-apresentacoes" className="text-blue-600 text-sm font-medium hover:underline">
+            Ver todas as IA para apresentações
           </a>
         </div>
       </section>
