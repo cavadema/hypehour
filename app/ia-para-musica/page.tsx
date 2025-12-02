@@ -38,6 +38,21 @@ const ferramentas = [
         url: "https://boomy.com/",
         descricao: "Crie músicas originais em segundos e publique nas plataformas de streaming.",
     },
+    {
+        nome: "Kits.AI",
+        url: "https://www.kits.ai/pt/",
+        descricao: "Transforme sua voz com IA ou crie vozes sintéticas de alta qualidade para suas produções.",
+    },
+    {
+        nome: "iZotope",
+        url: "https://www.izotope.com/",
+        descricao: "Ferramentas inteligentes de mixagem, masterização e reparo de áudio assistidas por IA.",
+    },
+    {
+        nome: "Amper Music",
+        url: "https://www.ampermusic.com/",
+        descricao: "Crie trilhas sonoras originais e personalizáveis em segundos com IA.",
+    },
 ];
 
 export const metadata = {
