@@ -2,7 +2,7 @@ import { CodeBracketIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
 export const metadata = {
-  title: "IA para vibe coding - Hypehour",
+  title: "Ferramentas de Inteligência Artificial para vibe coding - Hypehour",
   description: "Ferramentas e IAs para acelerar seu fluxo de desenvolvimento: editores, assistentes e automações.",
   alternates: {
     canonical: 'https://www.hypehour.com.br/ia-para-vibe-coding',

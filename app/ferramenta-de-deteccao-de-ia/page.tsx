@@ -55,7 +55,7 @@ const ferramentas = [
 ];
 
 export const metadata = {
-  title: "Ferramentas de detecção de IA",
+  title: "Ferramentas para detectar uso de Inteligência Artificial - Hypehour",
   description: "Lista curada de ferramentas para identificar conteúdos gerados por inteligência artificial.",
   alternates: {
     canonical: "https://www.hypehour.com.br/ferramenta-de-deteccao-de-ia",

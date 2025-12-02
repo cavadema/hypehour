@@ -50,7 +50,7 @@ const newsletters = [
 ];
 
 export const metadata = {
-  title: "Newsletters de IA - Hypehour",
+  title: "Newsletters de Inteligência Artificial - Hypehour",
   description: "Lista completa de newsletters sobre inteligência artificial para se manter atualizado com as principais novidades e tendências.",
   alternates: {
     canonical: "https://www.hypehour.com.br/newsletters-de-ia",

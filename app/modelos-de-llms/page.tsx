@@ -55,7 +55,7 @@ const modelos = [
 ];
 
 export const metadata = {
-  title: "Modelos de LLMs - Hypehour",
+  title: "Modelos de LLMs - Large Language Model - Hypehour",
   description: "Descubra os principais modelos de linguagem do mercado, incluindo OpenAI, Google Gemini, Claude e outros players.",
   alternates: {
     canonical: "https://www.hypehour.com.br/modelos-de-llms",
