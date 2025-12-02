@@ -1,5 +1,6 @@
 import { ScaleIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
@@ -77,9 +78,9 @@ export default function IaParaAdvogados() {
                 <ScaleIcon className="w-10 h-10 text-blue-500" />
                 <h1 className="text-3xl font-bold">IA para Advogados</h1>
             </div>
-            <p className="mb-8 text-gray-600">
-                Ferramentas de inteligência artificial especializadas para o setor jurídico, focadas em produtividade, pesquisa e automação.
-            </p>
+
+            <ExpandableContent />
+
             <div className="grid gap-6 sm:grid-cols-2">
                 {ferramentas.map((ferramenta) => (
                     <a

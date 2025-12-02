@@ -1,5 +1,6 @@
 import { UserGroupIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
@@ -67,9 +68,8 @@ export default function IaParaRH() {
                 <UserGroupIcon className="w-10 h-10 text-blue-500" />
                 <h1 className="text-3xl font-bold">IA para RH</h1>
             </div>
-            <p className="mb-8 text-gray-600">
-                Revolucione a gestão de pessoas com ferramentas de inteligência artificial para atrair, desenvolver e reter talentos.
-            </p>
+
+            <ExpandableContent />
             <div className="grid gap-6 sm:grid-cols-2">
                 {ferramentas.map((ferramenta) => (
                     <a
