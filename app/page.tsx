@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans -mt-20">
@@ -80,6 +80,47 @@ export default function Home() {
         </div>
         <div className="mt-4 md:hidden">
           <a href="/ia-para-imagens" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as IA para imagens</a>
+        </div>
+      </section>
+
+      {/* IA para Vídeos */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <VideoCameraIcon className="w-6 h-6 text-blue-400" />
+            IA para Vídeos
+          </h2>
+          <a href="/ia-para-criar-videos" className="hidden md:inline-flex text-blue-600 text-sm font-medium hover:underline">
+            Ver todas as IA para vídeos
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">
+              <VideoCameraIcon className="w-5 h-5" /> Google Gemini Veo 3.1
+            </span>
+            <p className="text-zinc-700">Modelo de geração de vídeo mais capaz do Google, criando vídeos 1080p de alta qualidade.</p>
+            <span className="text-xs text-zinc-500">Categoria: Vídeos</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">
+              <VideoCameraIcon className="w-5 h-5" /> Adobe Firefly Video
+            </span>
+            <p className="text-zinc-700">Gere vídeos a partir de texto ou imagens com controle criativo e segurança comercial.</p>
+            <span className="text-xs text-zinc-500">Categoria: Vídeos</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">
+              <VideoCameraIcon className="w-5 h-5" /> KlingAI
+            </span>
+            <p className="text-zinc-700">Ferramenta poderosa para criar vídeos realistas com movimentos complexos.</p>
+            <span className="text-xs text-zinc-500">Categoria: Vídeos</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/ia-para-criar-videos" className="text-blue-600 text-sm font-medium hover:underline">
+            Ver todas as IA para vídeos
+          </a>
         </div>
       </section>
 

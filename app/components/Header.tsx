@@ -19,6 +19,7 @@ export default function Header() {
         <nav>
           <ul className="hidden md:flex gap-6 text-zinc-700 font-medium items-center">
             <li><Link href="/ia-para-imagens" className="hover:text-blue-600 transition-colors">IA para imagens</Link></li>
+            <li><Link href="/ia-para-criar-videos" className="hover:text-blue-600 transition-colors">Vídeos</Link></li>
             <li><Link href="/pacotes-de-ferramentas-e-agregadores-ia" className="hover:text-blue-600 transition-colors">Agregadores de IA</Link></li>
             <li><Link href="/ia-para-vibe-coding" className="hover:text-blue-600 transition-colors">Vibe Coding</Link></li>
             <li><Link href="/ia-para-desenvolvedores" className="hover:text-blue-600 transition-colors">Desenvolvedores</Link></li>
@@ -56,6 +57,7 @@ export default function Header() {
             <div className="absolute top-16 left-0 right-0 bg-white shadow-md p-4 md:hidden border-t border-zinc-100">
               <ul className="flex flex-col gap-3 text-zinc-700 font-medium">
                 <li><Link href="/ia-para-imagens" className="block py-2" onClick={() => setOpen(false)}>IA para imagens</Link></li>
+                <li><Link href="/ia-para-criar-videos" className="block py-2" onClick={() => setOpen(false)}>Vídeos</Link></li>
                 <li><Link href="/pacotes-de-ferramentas-e-agregadores-ia" className="block py-2" onClick={() => setOpen(false)}>Agregadores de IA</Link></li>
                 <li><Link href="/ia-para-vibe-coding" className="block py-2" onClick={() => setOpen(false)}>Vibe Coding</Link></li>
                 <li><Link href="/ia-para-desenvolvedores" className="block py-2" onClick={() => setOpen(false)}>Desenvolvedores</Link></li>
