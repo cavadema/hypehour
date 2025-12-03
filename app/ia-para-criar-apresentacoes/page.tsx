@@ -1,5 +1,6 @@
 import { PresentationChartLineIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
@@ -57,6 +58,21 @@ const ferramentas = [
         url: "https://www.visme.co/pt-br/",
         descricao: "Ferramenta tudo-em-um para criar apresentações, infográficos e conteúdos visuais com IA.",
     },
+    {
+        nome: "Tome",
+        url: "https://landing-staging.tome.app/",
+        descricao: "Crie apresentações narrativas e interativas com IA em segundos.",
+    },
+    {
+        nome: "Pitch",
+        url: "https://pitch.com/",
+        descricao: "Software de apresentação colaborativo com recursos de IA para equipes modernas.",
+    },
+    {
+        nome: "Zoho Show",
+        url: "https://www.zoho.com/pt-br/show/",
+        descricao: "Ferramenta de apresentação online com design inteligente e colaboração.",
+    },
 ];
 
 export const metadata = {
@@ -65,6 +81,134 @@ export const metadata = {
     alternates: {
         canonical: "https://www.hypehour.com.br/ia-para-criar-apresentacoes",
     },
+};
+
+
+const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "O que é uma IA para fazer slides?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Uma IA para fazer slides é uma ferramenta capaz de gerar automaticamente apresentações completas, criando textos, layouts e imagens a partir de um tema ou prompt digitado pelo usuário."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Qual é a melhor IA para criar apresentações?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "As melhores IAs para criar apresentações são Gamma, Beautiful.ai, Tome, Canva com IA, Pitch, PowerPoint Copilot, Google Slides com Gemini e Zoho Show AI, variando conforme a necessidade do usuário."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Existem IAs para criar apresentações de slides grátis?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, existem opções gratuitas como Canva, Gamma, Tome, Google Slides com Gemini, Beautiful.ai (versão limitada) e alguns recursos gratuitos do PowerPoint Copilot."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Como funciona uma ferramenta de IA para criar apresentações?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A ferramenta recebe um tema, texto ou documento e gera automaticamente a estrutura dos tópicos, os textos principais, o design visual, o layout dos slides, imagens complementares e até infográficos."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Qual é a IA mais rápida para fazer slides automaticamente?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "As IAs mais rápidas para gerar apresentações em poucos segundos são Gamma e Tome, que criam slides com textos, imagens, design e estrutura praticamente prontos."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Existe IA que cria apresentação a partir de texto, artigo ou PDF?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, ferramentas como Gamma, Canva, PowerPoint Copilot, Beautiful.ai e Google Gemini transformam textos longos, PDFs, artigos e documentos em apresentações prontas automaticamente."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Posso usar IA para criar apresentações profissionais?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, ferramentas como Pitch, Beautiful.ai e Canva produzem apresentações com padrão profissional, adequadas para reuniões empresariais, vendas, pitches, aulas e eventos."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Qual IA cria apresentações com melhor design?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "As ferramentas que se destacam no design são Beautiful.ai, Gamma, Tome e Pitch, que oferecem modelos modernos e ajustes visuais automáticos."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "IA para criar apresentação é melhor que usar PowerPoint manualmente?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, porque a IA cria automaticamente a estrutura, organiza os textos, ajusta o design e gera imagens, economizando horas de trabalho. Depois, ainda é possível editar no próprio PowerPoint."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Tem IA que cria slides com imagens e gráficos automaticamente?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, plataformas como Gamma, Tome, Canva e Beautiful.ai geram gráficos, tabelas, ilustrações e imagens automaticamente com base no conteúdo inserido."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Posso baixar a apresentação criada pela IA em PowerPoint (PPT)?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, ferramentas como Canva, Gamma e Beautiful.ai permitem exportar as apresentações em formatos PPTX, PDF ou imagens."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "IA para criar apresentações funciona para estudar e fazer trabalhos?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim. Estudantes usam ferramentas como Canva, Google Slides e Gamma para criar resumos, seminários, TCCs e trabalhos escolares com rapidez."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "IA para criar slides é segura?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, desde que você utilize plataformas confiáveis como Canva, Microsoft Copilot, Google Gemini, Gamma e Beautiful.ai, que seguem padrões de privacidade."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Qual IA cria apresentação no estilo PowerPoint tradicional?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "As melhores opções para quem prefere o estilo do PowerPoint são PowerPoint Copilot, Canva com exportação para PPT e Google Slides."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Qual IA é melhor para apresentações em português?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "As IAs que mais entendem português e geram textos naturais são Gamma, Canva, Tome, Microsoft Copilot e Google Gemini."
+            }
+        }
+    ]
 };
 
 export default function IaParaCriarApresentacoes() {
@@ -94,6 +238,12 @@ export default function IaParaCriarApresentacoes() {
                     </a>
                 ))}
             </div>
+
+            <FAQSection />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
         </main>
     );
 }
