@@ -63,6 +63,134 @@ export const metadata = {
     },
 };
 
+
+const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "O que é IA para música?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IA para música é tecnologia que usa inteligência artificial para gerar melodias, letras, arranjos e vozes automaticamente. Ela aprende padrões musicais e cria composições originais com base em prompts textuais, estilos específicos ou referências sonoras fornecidas pelo usuário."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Para que serve a inteligência artificial para música?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Inteligência artificial para música serve para criar composições, gerar letras, produzir vocais, montar arranjos, criar trilhas sonoras e acelerar processos de produção musical. Ela auxilia músicos, criadores de conteúdo, produtores e pessoas sem conhecimento técnico."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Como funciona a IA para criar música?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IA para criar música funciona analisando grandes bases de dados musicais e usando modelos generativos para produzir melodias, harmonias e letras. O usuário descreve o estilo em um prompt e a ferramenta transforma essa descrição em uma música completa."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Como usar IA para fazer música?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Para usar IA para fazer música, basta escrever um prompt com estilo, ritmo e tema. A IA gera letra, melodia, voz e arranjo automaticamente. Plataformas como Suno e Udio permitem criar músicas completas sem conhecimento de produção musical."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Quais são as melhores IAs para música?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "As melhores IAs para música incluem Suno, Udio, AIVA, Soundraw e Amper Music. Elas geram músicas completas, vocais, trilhas instrumentais e até mixagens automáticas. A escolha depende do tipo de projeto e do uso comercial desejado."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "IA para criar música é boa?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IA para criar música é eficaz porque gera composições completas com qualidade profissional, incluindo letra, voz, harmonia e mixagem automática. Ela é usada tanto por amadores quanto por músicos profissionais para acelerar processos criativos."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "IA substitui músicos?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IA não substitui músicos, porque depende de direção artística humana. Ela automatiza tarefas repetitivas e ajuda na criatividade, mas conceitos como interpretação, emoção e escolha estética continuam sendo responsabilidade dos artistas."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "É possível criar músicas completas com IA?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "É possível criar músicas completas com IA, incluindo letra, melodia, instrumentos, arranjos e vocais sintéticos. Ferramentas modernas geram faixas finalizadas prontas para uso em vídeos, jogos, publicidade e plataformas de streaming."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "IA para música pode imitar estilos de artistas famosos?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IA para música pode gerar músicas inspiradas em estilos específicos, mas sem copiar vozes ou melodias protegidas por direitos autorais. Ela recria características gerais, como ritmo, harmonia e atmosfera."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Posso usar músicas criadas com IA comercialmente?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "O uso comercial depende da plataforma usada. Algumas IAs liberam uso comercial total, enquanto outras exigem licenciamento. É essencial verificar os termos de uso antes de publicar ou monetizar músicas geradas por IA."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "IA para fazer música é gratuita?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IA para fazer música pode ser gratuita em planos básicos, mas normalmente com limites de geração. Ferramentas pagas oferecem mais qualidade, velocidade e direitos comerciais. Suno, Udio e AIVA têm versões free e versões premium."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Como a IA cria letras de música?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A IA cria letras de música analisando padrões linguísticos e estruturais de milhares de composições. Ela usa prompts para definir tema, estilo e emoção, gerando letras completas em poucos segundos."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "IA para música funciona em português?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IA para música funciona em português e gera letras e vocais em PT-BR. Ferramentas modernas entendem prompts em português e são capazes de cantar com boa pronúncia e prosódia."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Como escolher a melhor IA para criar música?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Para escolher a melhor IA para criar música, defina o objetivo: músicas completas, trilhas instrumentais, vocais ou edição. Também verifique direitos comerciais e limitações do plano."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "IA para música é segura em relação a direitos autorais?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IA para música é segura quando a plataforma garante que as obras são originais, mas cada serviço possui regras próprias de copyright. É importante conferir se a música pode ser usada comercialmente e se há restrições de distribuição."
+            }
+        }
+    ]
+};
+
 export default function IaParaMusica() {
     return (
         <main className="max-w-3xl mx-auto py-10 px-4">
@@ -92,6 +220,10 @@ export default function IaParaMusica() {
             </div>
 
             <FAQSection />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
         </main>
     );
 }
