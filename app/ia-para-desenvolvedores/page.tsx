@@ -37,6 +37,16 @@ const ferramentas = [
     url: "https://antigravity.google/",
     descricao: "Ferramenta da Google para impulsionar produtividade com IA e fluxos agentic.",
   },
+  {
+    nome: "JetBrains AI Assistant",
+    url: "https://www.jetbrains.com/ai/",
+    descricao: "Assistente de IA integrado nas IDEs JetBrains para geração e análise de código.",
+  },
+  {
+    nome: "Visual Studio IntelliCode",
+    url: "https://learn.microsoft.com/en-us/visualstudio/intellicode/",
+    descricao: "Sugestões inteligentes de código baseadas em IA para Visual Studio.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {
