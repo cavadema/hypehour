@@ -53,6 +53,11 @@ const ferramentas = [
         url: "https://www.ampermusic.com/",
         descricao: "Crie trilhas sonoras originais e personalizáveis em segundos com IA.",
     },
+    {
+        nome: "Deepgram",
+        url: "https://deepgram.com/product/voice-agent-api",
+        descricao: "API de agentes de voz com IA para transcrição e síntese de fala em tempo real.",
+    },
 ];
 
 export const metadata = {

@@ -52,6 +52,16 @@ const modelos = [
     url: "https://www.deepseek.com/",
     descricao: "Modelos DeepSeek V3 e R1 com foco em custo-benefício e desempenho.",
   },
+  {
+    nome: "Vick",
+    url: "https://vick.ia.br/",
+    descricao: "Assistente de IA brasileiro desenvolvido para o mercado nacional.",
+  },
+  {
+    nome: "Maritaca",
+    url: "https://www.maritaca.ai/",
+    descricao: "Modelo de linguagem brasileiro focado em português e aplicações locais.",
+  },
 ];
 
 export const metadata = {

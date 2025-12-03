@@ -47,6 +47,11 @@ const ferramentas = [
     url: "https://learn.microsoft.com/en-us/visualstudio/intellicode/",
     descricao: "Sugestões inteligentes de código baseadas em IA para Visual Studio.",
   },
+  {
+    nome: "Builduo",
+    url: "https://builduo.com/",
+    descricao: "Plataforma de desenvolvimento com IA para acelerar a criação de aplicações.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {

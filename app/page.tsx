@@ -408,30 +408,39 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Últimas IA adicionadas */}
-      <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-16 px-4">
-        <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-blue-400" />Últimas IA adicionadas</h2>
+      {/* Newsletters de IA */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <EnvelopeIcon className="w-6 h-6 text-blue-400" />
+            Newsletters de IA
+          </h2>
+          <a href="/newsletters-de-ia" className="hidden md:inline-flex text-blue-600 text-sm font-medium hover:underline">Ver todas as newsletters de IA</a>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CodeBracketIcon className="w-5 h-5" /> Google AntiGravity</span>
-            <p className="text-zinc-700">Ferramenta da Google para acelerar fluxos de desenvolvimento com IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 15/11/2025</span>
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">AiDrop</span>
+            <p className="text-zinc-700">Resumos semanais de avanços em IA: ferramentas, prompts e modelos novos.</p>
+            <span className="text-xs text-zinc-500">Newsletter</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><PhotoIcon className="w-5 h-5" /> Whisk (Google)</span>
-            <p className="text-zinc-700">IA para imagens e geração visual.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 14/11/2025</span>
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">AI Factory News</span>
+            <p className="text-zinc-700">Newsletter do Distrito focada em inteligência artificial e inovação.</p>
+            <span className="text-xs text-zinc-500">Newsletter</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><GlobeAltIcon className="w-5 h-5" /> Perplexity Comet</span>
-            <p className="text-zinc-700">Navegador com respostas da Perplexity embutidas na aba atual.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 13/11/2025</span>
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">IAí?</span>
+            <p className="text-zinc-700">Newsletter do O Globo sobre como a IA transforma o dia a dia.</p>
+            <span className="text-xs text-zinc-500">Newsletter</span>
           </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/newsletters-de-ia" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as newsletters de IA</a>
         </div>
       </section>
 
       {/* Versões de modelos */}
-      <section className="w-full max-w-5xl mx-auto py-16 px-4">
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2">
           <SparklesIcon className="w-6 h-6 text-blue-400" />
           Versões de Modelos de LLMs (Large Language Models)
@@ -476,7 +485,7 @@ export default function Home() {
             <span className="text-xs text-zinc-500">Lançamento: Dez/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">DeepSeek V3</span>
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">DeepSeek 3.2</span>
             <p className="text-zinc-700">Modelo open-weights com desempenho de ponta e custo reduzido.</p>
             <span className="text-xs text-zinc-500">Lançamento: Dez/2024</span>
           </div>
@@ -523,39 +532,30 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Newsletters de IA */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <EnvelopeIcon className="w-6 h-6 text-blue-400" />
-            Newsletters de IA
-          </h2>
-          <a href="/newsletters-de-ia" className="hidden md:inline-flex text-blue-600 text-sm font-medium hover:underline">Ver todas as newsletters de IA</a>
-        </div>
+      {/* Últimas IA adicionadas */}
+      <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
+        <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-blue-400" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">AiDrop</span>
-            <p className="text-zinc-700">Resumos semanais de avanços em IA: ferramentas, prompts e modelos novos.</p>
-            <span className="text-xs text-zinc-500">Newsletter</span>
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CodeBracketIcon className="w-5 h-5" /> Google AntiGravity</span>
+            <p className="text-zinc-700">Ferramenta da Google para acelerar fluxos de desenvolvimento com IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 15/11/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">AI Factory News</span>
-            <p className="text-zinc-700">Newsletter do Distrito focada em inteligência artificial e inovação.</p>
-            <span className="text-xs text-zinc-500">Newsletter</span>
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><PhotoIcon className="w-5 h-5" /> Whisk (Google)</span>
+            <p className="text-zinc-700">IA para imagens e geração visual.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 14/11/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">IAí?</span>
-            <p className="text-zinc-700">Newsletter do O Globo sobre como a IA transforma o dia a dia.</p>
-            <span className="text-xs text-zinc-500">Newsletter</span>
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><GlobeAltIcon className="w-5 h-5" /> Perplexity Comet</span>
+            <p className="text-zinc-700">Navegador com respostas da Perplexity embutidas na aba atual.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 13/11/2025</span>
           </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/newsletters-de-ia" className="text-blue-600 text-sm font-medium hover:underline">Ver todas as newsletters de IA</a>
         </div>
       </section>
 
       {/* Depoimentos */}
-      <section id="depoimentos" className="w-full max-w-5xl mx-auto py-16 px-4">
+      <section id="depoimentos" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title mb-8">Depoimentos</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="apify-card p-6">
@@ -574,6 +574,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </div>
+    </div >
   );
 }

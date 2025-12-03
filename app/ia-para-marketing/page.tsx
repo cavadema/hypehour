@@ -62,6 +62,11 @@ const ferramentas = [
         url: "https://searchfy.com.br/",
         descricao: "Ferramenta de IA para SEO e otimização de conteúdo.",
     },
+    {
+        nome: "Pixelesq",
+        url: "https://www.pixelesq.com/",
+        descricao: "Plataforma de marketing digital com IA para criação e gestão de campanhas.",
+    },
 ];
 
 export const metadata = {

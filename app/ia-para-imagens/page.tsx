@@ -57,6 +57,16 @@ const ferramentas = [
     url: "https://playgroundai.com/",
     descricao: "Criação e edição de imagens com IA de forma colaborativa.",
   },
+  {
+    nome: "Black Forest Labs",
+    url: "https://bfl.ai/",
+    descricao: "Modelos avançados de geração de imagens com IA, criadores do FLUX.",
+  },
+  {
+    nome: "Nano banana pro",
+    url: "https://gemini.google/pt/overview/image-generation/?hl=pt-PT",
+    descricao: "Ferramenta de geração de imagens do Google com modelos Gemini.",
+  },
 ];
 
 export const metadata = {
