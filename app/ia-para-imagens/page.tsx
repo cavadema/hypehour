@@ -72,6 +72,11 @@ const ferramentas = [
     url: "https://www.x-design.com/",
     descricao: "Plataforma de design com IA para criação e edição de imagens profissionais.",
   },
+  {
+    nome: "Seedream Bytedance",
+    url: "https://seed.bytedance.com/en/seedream4_5",
+    descricao: "Modelo de geração de imagens da ByteDance com alta qualidade e controle criativo.",
+  },
 ];
 
 export const metadata = {

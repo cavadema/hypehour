@@ -501,7 +501,7 @@ export default function Home() {
             <span className="text-xs text-zinc-500">Lançamento: Nov/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Opus 4.1</span>
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Opus 4.5</span>
             <p className="text-zinc-700">Atualização da Anthropic focada em respostas mais seguras e assertivas.</p>
             <span className="text-xs text-zinc-500">Lançamento: Out/2025</span>
           </div>
