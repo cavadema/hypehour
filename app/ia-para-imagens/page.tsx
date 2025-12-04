@@ -67,6 +67,11 @@ const ferramentas = [
     url: "https://gemini.google/pt/overview/image-generation/?hl=pt-PT",
     descricao: "Ferramenta de geração de imagens do Google com modelos Gemini.",
   },
+  {
+    nome: "X-design",
+    url: "https://www.x-design.com/",
+    descricao: "Plataforma de design com IA para criação e edição de imagens profissionais.",
+  },
 ];
 
 export const metadata = {

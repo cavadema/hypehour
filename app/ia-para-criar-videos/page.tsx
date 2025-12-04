@@ -83,6 +83,11 @@ const ferramentas = [
         url: "https://www.kaiber.ai/superstudio",
         descricao: "Crie animações e vídeos estilizados a partir de imagens ou texto, usado por artistas.",
     },
+    {
+        nome: "Cybercut",
+        url: "https://www.cybercut.ai/",
+        descricao: "Editor de vídeo com IA para cortes automáticos, legendas e otimização de conteúdo.",
+    },
 ];
 
 export const metadata = {
