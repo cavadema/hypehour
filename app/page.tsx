@@ -593,19 +593,19 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-blue-400" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CodeBracketIcon className="w-5 h-5" /> Google AntiGravity</span>
-            <p className="text-zinc-700">Ferramenta da Google para acelerar fluxos de desenvolvimento com IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 15/11/2025</span>
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><PhotoIcon className="w-5 h-5" /> X-design</span>
+            <p className="text-zinc-700">Plataforma de design com IA para criação e edição de imagens profissionais.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 04/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><PhotoIcon className="w-5 h-5" /> Whisk (Google)</span>
-            <p className="text-zinc-700">IA para imagens e geração visual.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 14/11/2025</span>
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><VideoCameraIcon className="w-5 h-5" /> Cybercut</span>
+            <p className="text-zinc-700">Editor de vídeo com IA para cortes automáticos, legendas e otimização de conteúdo.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 04/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><GlobeAltIcon className="w-5 h-5" /> Perplexity Comet</span>
-            <p className="text-zinc-700">Navegador com respostas da Perplexity embutidas na aba atual.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 13/11/2025</span>
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><MegaphoneIcon className="w-5 h-5" /> Scripe</span>
+            <p className="text-zinc-700">Ferramenta de IA para criação de conteúdo e automação de marketing digital.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 04/12/2024</span>
           </div>
         </div>
       </section>
