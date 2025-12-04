@@ -89,6 +89,11 @@ const ferramentas = [
     descricao: "Assistente de escrita de IA para criar blogs longos e autênticos com verificação de fatos.",
   },
   {
+    nome: "Airticles",
+    url: "https://www.airticles.ai/",
+    descricao: "Plataforma de IA para criação automatizada de artigos otimizados para SEO.",
+  },
+  {
     nome: "Content at Scale",
     url: "https://brandwell.ai/",
     descricao: "Gere posts de blog longos, indetectáveis e otimizados para SEO em escala.",
