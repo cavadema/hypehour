@@ -88,6 +88,16 @@ const ferramentas = [
         url: "https://www.cybercut.ai/",
         descricao: "Editor de vídeo com IA para cortes automáticos, legendas e otimização de conteúdo.",
     },
+    {
+        nome: "Filmsupply",
+        url: "https://www.filmsupply.com/",
+        descricao: "Plataforma de vídeos premium com curadoria e ferramentas de IA para busca e edição.",
+    },
+    {
+        nome: "Pippit",
+        url: "https://www.pippit.ai/pt-br",
+        descricao: "Ferramenta de IA para criação e edição de vídeos curtos para redes sociais.",
+    },
 ];
 
 export const metadata = {
