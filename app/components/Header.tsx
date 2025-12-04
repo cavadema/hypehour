@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Bars3Icon, XMarkIcon, ChevronDownIcon } from "@heroicons/react/24/solid";
 
 export default function Header() {
@@ -11,8 +12,8 @@ export default function Header() {
     <header className="w-full bg-white/80 backdrop-blur-md shadow-sm fixed top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold text-blue-600">
-          HypeHour
+        <Link href="/" className="flex items-center">
+          <Image src="/logo.png" alt="HypeHour" width={200} height={50} className="h-10 w-auto" priority />
         </Link>
 
         {/* Desktop Menu */}
