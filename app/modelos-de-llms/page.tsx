@@ -62,6 +62,31 @@ const modelos = [
     url: "https://www.maritaca.ai/",
     descricao: "Modelo de linguagem brasileiro focado em português e aplicações locais.",
   },
+  {
+    nome: "Kimi (Moonshot)",
+    url: "https://kimi.moonshot.cn/",
+    descricao: "Modelo de linguagem chinês com suporte a contexto longo e múltiplas tarefas.",
+  },
+  {
+    nome: "You AI",
+    url: "https://you.com/",
+    descricao: "Mecanismo de busca com IA integrada para respostas conversacionais e pesquisa.",
+  },
+  {
+    nome: "HuggingChat (Hugging Face)",
+    url: "https://huggingface.co/chat/",
+    descricao: "Interface de chat open source da Hugging Face com diversos modelos disponíveis.",
+  },
+  {
+    nome: "Pi (Inflection AI)",
+    url: "https://pi.ai/",
+    descricao: "Assistente pessoal de IA focado em conversas empáticas e suporte emocional.",
+  },
+  {
+    nome: "ChatLLM (Alibaba / Tongyi Qianwen)",
+    url: "https://tongyi.aliyun.com/",
+    descricao: "Modelo de linguagem da Alibaba Cloud para aplicações empresariais e conversacionais.",
+  },
 ];
 
 export const metadata = {
