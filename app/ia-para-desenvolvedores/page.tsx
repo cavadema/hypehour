@@ -52,6 +52,11 @@ const ferramentas = [
     url: "https://builduo.com/",
     descricao: "Plataforma de desenvolvimento com IA para acelerar a criação de aplicações.",
   },
+  {
+    nome: "Infrabase",
+    url: "https://infrabase.co/",
+    descricao: "Ferramenta de IA para gerenciamento e automação de infraestrutura de desenvolvimento.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {

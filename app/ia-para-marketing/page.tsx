@@ -67,6 +67,11 @@ const ferramentas = [
         url: "https://www.pixelesq.com/",
         descricao: "Plataforma de marketing digital com IA para criação e gestão de campanhas.",
     },
+    {
+        nome: "Scripe",
+        url: "https://scripe.io/",
+        descricao: "Ferramenta de IA para criação de conteúdo e automação de marketing digital.",
+    },
 ];
 
 export const metadata = {

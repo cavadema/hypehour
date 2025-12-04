@@ -535,6 +535,21 @@ export default function Home() {
             <p className="text-zinc-700">Família de modelos da Alibaba com excelência em código e matemática.</p>
             <span className="text-xs text-zinc-500">Lançamento: Set/2024</span>
           </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Mistral 3</span>
+            <p className="text-zinc-700">Modelo fronteira da Mistral AI com raciocínio avançado e eficiência.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Jan/2025</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Maritaca - Sabiazinho 3.1</span>
+            <p className="text-zinc-700">LLM brasileiro treinado especificamente para o português e cultura nacional.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Fev/2025</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold">Manus 1.5</span>
+            <p className="text-zinc-700">Agente autônomo capaz de executar tarefas complexas e longas.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Mar/2025</span>
+          </div>
         </div>
       </section>
 
