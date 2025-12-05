@@ -303,6 +303,47 @@ export default function Home() {
         </div>
       </section>
 
+      {/* IA para Médicos */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <ShieldCheckIcon className="w-6 h-6 text-gray-700" />
+            IA para Médicos
+          </h2>
+          <a href="/ia-para-medicos" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
+            Ver todas as IA para médicos
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <ShieldCheckIcon className="w-5 h-5" /> IBM Watson Healthcare
+            </span>
+            <p className="text-zinc-700">Soluções de IA para saúde, oncologia e pesquisa clínica.</p>
+            <span className="text-xs text-zinc-500">Categoria: Médicos</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <ShieldCheckIcon className="w-5 h-5" /> Ada
+            </span>
+            <p className="text-zinc-700">App de avaliação de sintomas com IA e guia de saúde pessoal.</p>
+            <span className="text-xs text-zinc-500">Categoria: Médicos</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <ShieldCheckIcon className="w-5 h-5" /> Voa Health
+            </span>
+            <p className="text-zinc-700">Assistente que gera documentos clínicos como anamnese e receitas automaticamente.</p>
+            <span className="text-xs text-zinc-500">Categoria: Médicos</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/ia-para-medicos" className="text-black text-sm font-medium hover:underline">
+            Ver todas as IA para médicos
+          </a>
+        </div>
+      </section>
+
       {/* IA para professores */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">

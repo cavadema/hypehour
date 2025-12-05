@@ -40,6 +40,7 @@ export default function Header() {
                 <Link href="/ferramentas-ia-contabilidade" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Contabilidade</Link>
                 <Link href="/inteligencia-artificial-para-advogados" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Advogados</Link>
                 <Link href="/ia-para-professores" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Professores</Link>
+                <Link href="/ia-para-medicos" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Médicos</Link>
                 <Link href="/ia-para-musica" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Música</Link>
                 <Link href="/modelos-de-llms" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Modelos de LLMs</Link>
                 <Link href="/navegadores-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Navegadores de IA</Link>
