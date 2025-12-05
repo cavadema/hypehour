@@ -1,7 +1,7 @@
 "use client";
 
-import { ChevronDownIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
+import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
@@ -67,31 +67,25 @@ const faqs = [
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(index < 5); // Primeiros 5 abertos por padrão
 
     return (
-        <div className="border-b border-gray-200 last:border-b-0">
+        <div className="border-b border-gray-200 last:border-0">
             <button
+                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
                 onClick={() => setIsOpen(!isOpen)}
-                className="w-full py-4 px-6 flex items-start justify-between gap-4 text-left hover:bg-gray-50 transition-colors"
-                aria-expanded={isOpen}
             >
-                <div className="flex gap-3 flex-1">
-                    <span className="text-black font-semibold flex-shrink-0">{index + 1}.</span>
-                    <span className="font-semibold text-gray-900">{question}</span>
-                </div>
+                <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`w-5 h-5 text-gray-500 flex-shrink-0 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}
+                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""
+                        }`}
                 />
             </button>
-
-            {/* Conteúdo sempre no DOM para SEO, apenas visualmente escondido */}
             <div
-                className={`overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"
+                    }`}
             >
-                <div className="px-6 pb-4 pl-14 text-gray-700 leading-relaxed">
-                    {answer}
-                </div>
+                <p className="text-gray-600 leading-relaxed">{answer}</p>
             </div>
         </div>
     );
@@ -101,7 +95,7 @@ export default function FAQSection() {
     return (
         <div className="mt-12 mb-8">
             <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Apresentações</h2>
-            <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+            <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem
                         key={index}

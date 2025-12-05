@@ -283,17 +283,17 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">GitHub Copilot</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> GitHub Copilot</span>
             <p className="text-zinc-700">Assistente de código da GitHub/OpenAI para autocompletar e gerar trechos de código.</p>
             <span className="text-xs text-zinc-500">Categoria: Desenvolvedores</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Cursor</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Cursor</span>
             <p className="text-zinc-700">IDE com assistente de código e recursos de AI.</p>
             <span className="text-xs text-zinc-500">Categoria: Desenvolvedores</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Google AntiGravity</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Google AntiGravity</span>
             <p className="text-zinc-700">Plataforma da Google para impulsionar produtividade de desenvolvedores com IA.</p>
             <span className="text-xs text-zinc-500">Categoria: Desenvolvedores</span>
           </div>
@@ -316,19 +316,19 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Conker.AI</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Conker.AI</span>
             <p className="text-zinc-700">Gerador de quizzes alinhados a padrões educacionais em poucos cliques.</p>
             <span className="text-xs text-zinc-500">Categoria: Professores</span>
           </div>
 
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Diffit.me</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Diffit.me</span>
             <p className="text-zinc-700">Crie leituras adaptadas e planos de aula personalizados automaticamente.</p>
             <span className="text-xs text-zinc-500">Categoria: Professores</span>
           </div>
 
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Socratic</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Socratic</span>
             <p className="text-zinc-700">Suite de IA para planejar aulas, tarefas e acompanhar alunos.</p>
             <span className="text-xs text-zinc-500">Categoria: Professores</span>
           </div>
@@ -386,17 +386,17 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">ChatGPT Atlas</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> ChatGPT Atlas</span>
             <p className="text-zinc-700">Experiência de navegação com Copilot do ChatGPT integrada ao browser Atlas.</p>
             <span className="text-xs text-zinc-500">Categoria: Navegadores de IA</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Perplexity Comet</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Perplexity Comet</span>
             <p className="text-zinc-700">Navegador que traz respostas da Perplexity diretamente na aba atual.</p>
             <span className="text-xs text-zinc-500">Categoria: Navegadores de IA</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Opera One</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Opera One</span>
             <p className="text-zinc-700">Browser com Aria e módulos multimídia para uso de IA integrado.</p>
             <span className="text-xs text-zinc-500">Categoria: Navegadores de IA</span>
           </div>
@@ -460,17 +460,17 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">AiDrop</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><EnvelopeIcon className="w-5 h-5" /> AiDrop</span>
             <p className="text-zinc-700">Resumos semanais de avanços em IA: ferramentas, prompts e modelos novos.</p>
             <span className="text-xs text-zinc-500">Newsletter</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">AI Factory News</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><EnvelopeIcon className="w-5 h-5" /> AI Factory News</span>
             <p className="text-zinc-700">Newsletter do Distrito focada em inteligência artificial e inovação.</p>
             <span className="text-xs text-zinc-500">Newsletter</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">IAí?</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><EnvelopeIcon className="w-5 h-5" /> IAí?</span>
             <p className="text-zinc-700">Newsletter do O Globo sobre como a IA transforma o dia a dia.</p>
             <span className="text-xs text-zinc-500">Newsletter</span>
           </div>
@@ -491,62 +491,62 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">GPT-5.1</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> GPT-5.1</span>
             <p className="text-zinc-700">Nova geração da OpenAI com raciocínio variável e velocidade otimizada.</p>
             <span className="text-xs text-zinc-500">Lançamento: Nov/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Gemini 3.0</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Gemini 3.0</span>
             <p className="text-zinc-700">Modelo multimodal do Google capaz de operar em texto, imagem e vídeo.</p>
             <span className="text-xs text-zinc-500">Lançamento: Nov/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Opus 4.5</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Opus 4.5</span>
             <p className="text-zinc-700">Atualização da Anthropic focada em respostas mais seguras e assertivas.</p>
             <span className="text-xs text-zinc-500">Lançamento: Out/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Sonnet 4.5</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Sonnet 4.5</span>
             <p className="text-zinc-700">Equilíbrio entre custo e performance para fluxos de automação avançados.</p>
             <span className="text-xs text-zinc-500">Lançamento: Out/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Grok 4.1</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Grok 4.1</span>
             <p className="text-zinc-700">Modelo da xAI com acesso em tempo real aos dados públicos da plataforma X.</p>
             <span className="text-xs text-zinc-500">Lançamento: Set/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Llama 3.2</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Llama 3.2</span>
             <p className="text-zinc-700">Versão open-source da Meta com quantizações eficientes para edge.</p>
             <span className="text-xs text-zinc-500">Lançamento: Set/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Perplexity Sonar</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Perplexity Sonar</span>
             <p className="text-zinc-700">Modelo focado em busca e raciocínio em tempo real, baseado no Llama 3.1.</p>
             <span className="text-xs text-zinc-500">Lançamento: Dez/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">DeepSeek 3.2</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> DeepSeek 3.2</span>
             <p className="text-zinc-700">Modelo open-weights com desempenho de ponta e custo reduzido.</p>
             <span className="text-xs text-zinc-500">Lançamento: Dez/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Qwen 2.5</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Qwen 2.5</span>
             <p className="text-zinc-700">Família de modelos da Alibaba com excelência em código e matemática.</p>
             <span className="text-xs text-zinc-500">Lançamento: Set/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Mistral 3</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Mistral 3</span>
             <p className="text-zinc-700">Modelo fronteira da Mistral AI com raciocínio avançado e eficiência.</p>
             <span className="text-xs text-zinc-500">Lançamento: Jan/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Maritaca - Sabiazinho 3.1</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Maritaca - Sabiazinho 3.1</span>
             <p className="text-zinc-700">LLM brasileiro treinado especificamente para o português e cultura nacional.</p>
             <span className="text-xs text-zinc-500">Lançamento: Fev/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Manus 1.5</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Manus 1.5</span>
             <p className="text-zinc-700">Agente autônomo capaz de executar tarefas complexas e longas.</p>
             <span className="text-xs text-zinc-500">Lançamento: Mar/2025</span>
           </div>
@@ -566,17 +566,17 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">OpenAI ChatGPT</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> OpenAI ChatGPT</span>
             <p className="text-zinc-700">Modelo multimodal da OpenAI com resultados de texto, voz e imagem.</p>
             <span className="text-xs text-zinc-500">Modelo proprietário</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Google Gemini</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Google Gemini</span>
             <p className="text-zinc-700">Família Gemini com suporte a texto, imagem, áudio e agentes.</p>
             <span className="text-xs text-zinc-500">Modelo proprietário</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Anthropic Claude</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Anthropic Claude</span>
             <p className="text-zinc-700">Linha Claude com foco em segurança e respostas confiáveis.</p>
             <span className="text-xs text-zinc-500">Modelo proprietário</span>
           </div>
