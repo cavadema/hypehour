@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans -mt-20">
       {/* Primeira dobra */}
-      <section className="w-full flex flex-col items-center justify-center py-32 bg-gradient-to-br from-gray-50 via-white to-gray-100 border-b border-zinc-200 relative overflow-hidden">
+      <section className="w-full flex flex-col items-center justify-center py-20 bg-gradient-to-br from-gray-50 via-white to-gray-100 border-b border-zinc-200 relative overflow-hidden">
         <SparklesIcon className="w-16 h-16 text-gray-700 mb-4 animate-pulse" />
         <h1 className="apify-title text-center drop-shadow-lg">Ferramentas de IA</h1>
         <p className="apify-subtitle text-center max-w-2xl mx-auto">
@@ -392,19 +392,19 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">QuillBot Detector de IA</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ShieldCheckIcon className="w-5 h-5" /> QuillBot Detector de IA</span>
             <p className="text-zinc-700">Ferramenta do QuillBot para analisar textos e apontar traços de IA.</p>
             <span className="text-xs text-zinc-500">Categoria: Detecção de IA</span>
           </div>
 
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">Sidekicker</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ShieldCheckIcon className="w-5 h-5" /> Sidekicker</span>
             <p className="text-zinc-700">Detector de conteúdo alimentado por IA com análise rápida e dashboards.</p>
             <span className="text-xs text-zinc-500">Categoria: Detecção de IA</span>
           </div>
 
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">WinstonAI</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ShieldCheckIcon className="w-5 h-5" /> WinstonAI</span>
             <p className="text-zinc-700">Detector especializado em identificar conteúdos acadêmicos escritos por IA.</p>
             <span className="text-xs text-zinc-500">Categoria: Detecção de IA</span>
           </div>
