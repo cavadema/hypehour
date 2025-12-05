@@ -26,6 +26,7 @@ const ferramentas = [
   { nome: "Warp AI", url: "https://www.warp.dev/", descricao: "Terminal moderno reimaginado com IA integrada." },
   { nome: "Aider", url: "https://aider.chat/", descricao: "Programação em par com IA diretamente no seu terminal." },
   { nome: "Continue.dev", url: "https://www.continue.dev/", descricao: "Extensão open-source para IDE com piloto automático de código." },
+  { nome: "FastShot", url: "https://fastshot.ai/", descricao: "Crie apps móveis nativos 100x mais rápido sem código, apenas com prompts de IA." },
 ];
 
 export default function IaParaVibeCoding() {

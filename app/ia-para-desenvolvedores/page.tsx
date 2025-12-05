@@ -57,6 +57,16 @@ const ferramentas = [
     url: "https://infrabase.co/",
     descricao: "Ferramenta de IA para gerenciamento e automação de infraestrutura de desenvolvimento.",
   },
+  {
+    nome: "OneNode",
+    url: "https://www.onenode.ai/",
+    descricao: "Framework open source de busca semântica multimodal. Processe texto, imagem, vídeo e áudio sem configurar infraestrutura complexa.",
+  },
+  {
+    nome: "Pylar",
+    url: "https://www.pylar.ai/",
+    descricao: "Plataforma para dar aos agentes de IA acesso seguro a dados estruturados via ferramentas MCP e views SQL governadas.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {

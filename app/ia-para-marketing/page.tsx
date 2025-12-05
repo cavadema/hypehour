@@ -72,6 +72,21 @@ const ferramentas = [
         url: "https://scripe.io/",
         descricao: "Ferramenta de IA para criação de conteúdo e automação de marketing digital.",
     },
+    {
+        nome: "Olive",
+        url: "https://fromolive.com/",
+        descricao: "Plataforma de BI impulsionada por IA para criar ferramentas internas rápidas e seguras a partir de prompts.",
+    },
+    {
+        nome: "Aha",
+        url: "https://www.aha.inc/",
+        descricao: "Seu funcionário de IA 24/7 para marketing de influência, automação e colaboração.",
+    },
+    {
+        nome: "Dr-aft",
+        url: "https://www.dr-aft.com/",
+        descricao: "Editor de roteiros com IA nativo para formato Fountain, ideal para roteiristas e criação de scripts de vídeo.",
+    },
 ];
 
 export const metadata = {
