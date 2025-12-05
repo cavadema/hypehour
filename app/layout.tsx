@@ -16,8 +16,46 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hypehour — Ferramentas de IA para todos os segmentos",
+  metadataBase: new URL('https://www.hypehour.com.br'),
+  title: {
+    default: "Hypehour — Ferramentas de IA para todos os segmentos",
+    template: "%s | Hypehour"
+  },
   description: "Hypehour é um agregador de ferramentas de IA para imagens, desenvolvimento, estudos e muito mais.",
+  openGraph: {
+    title: "Hypehour — Ferramentas de IA para todos os segmentos",
+    description: "Hypehour é um agregador de ferramentas de IA para imagens, desenvolvimento, estudos e muito mais.",
+    url: 'https://www.hypehour.com.br',
+    siteName: 'Hypehour',
+    images: [
+      {
+        url: '/logo.png',
+        width: 800,
+        height: 600,
+        alt: 'Hypehour Logo',
+      },
+    ],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Hypehour — Ferramentas de IA para todos os segmentos",
+    description: "Hypehour é um agregador de ferramentas de IA para imagens, desenvolvimento, estudos e muito mais.",
+    creator: '@hypehourbr',
+    images: ['/logo.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   alternates: {
     canonical: 'https://www.hypehour.com.br',
   },
