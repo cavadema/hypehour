@@ -82,7 +82,7 @@ export default function RootLayout({
                 <p className="text-zinc-600">Hypehour é um agregador de ferramentas de IA para facilitar que os usuários encontrem IAs para imagens, desenvolvimento, estudos e muito mais.</p>
               </div>
 
-              <div className="flex gap-12">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-12">
                 <div>
                   <h3 className="font-semibold mb-2">Seções</h3>
                   <ul className="space-y-2 text-sm text-zinc-700">
