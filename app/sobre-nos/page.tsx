@@ -12,7 +12,7 @@ export default function SobreNos() {
   return (
     <main className="max-w-3xl mx-auto py-12 px-4">
       <nav className="mb-6">
-        <Link href="/" className="text-blue-600 hover:underline">&larr; Voltar para a home</Link>
+        <Link href="/" className="text-black hover:underline">&larr; Voltar para a home</Link>
       </nav>
 
       <h1 className="text-3xl font-bold mb-8">Melhores ferramentas de IA em um site só</h1>

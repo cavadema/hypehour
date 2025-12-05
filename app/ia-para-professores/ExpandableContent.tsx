@@ -22,27 +22,27 @@ export default function ExpandableContent() {
 
                     <ul className="space-y-3 mb-4">
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Planejamento de Aulas Automatizado:</strong> As ferramentas de IA para professores geram planos de aula completos alinhados à BNCC em minutos, economizando horas de preparação.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Criação de Avaliações Personalizadas:</strong> Utilize inteligência artificial para professores para criar quizzes, provas e atividades adaptadas ao nível de cada turma.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Feedback Instantâneo:</strong> IA para professores corrige atividades automaticamente e fornece feedback detalhado para cada aluno, acelerando o processo de avaliação.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Diferenciação do Ensino:</strong> Ferramentas de inteligência artificial para professores adaptam conteúdos para diferentes níveis de aprendizagem, garantindo que nenhum aluno fique para trás.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Geração de Materiais Didáticos:</strong> Com IA para professores, crie apresentações, infográficos e materiais visuais envolventes em poucos cliques.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Análise de Desempenho:</strong> Ferramentas de IA para professores identificam padrões de aprendizagem, pontos fortes e áreas que precisam de reforço em cada aluno.</span>
                         </li>
                     </ul>
@@ -59,7 +59,7 @@ export default function ExpandableContent() {
 
             <button
                 onClick={() => setIsExpanded(!isExpanded)}
-                className="mt-4 flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium transition-colors"
+                className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors"
                 aria-expanded={isExpanded}
             >
                 <span>{isExpanded ? 'Ver menos' : 'Ver mais'}</span>

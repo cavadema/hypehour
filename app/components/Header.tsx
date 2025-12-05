@@ -19,31 +19,31 @@ export default function Header() {
         {/* Desktop Menu */}
         <nav>
           <ul className="hidden md:flex gap-6 text-zinc-700 font-medium items-center">
-            <li><Link href="/ia-para-imagens" className="hover:text-blue-600 transition-colors">IA para imagens</Link></li>
-            <li><Link href="/ia-para-criar-videos" className="hover:text-blue-600 transition-colors">Vídeos</Link></li>
-            <li><Link href="/pacotes-de-ferramentas-e-agregadores-ia" className="hover:text-blue-600 transition-colors">Agregadores de IA</Link></li>
-            <li><Link href="/ia-para-vibe-coding" className="hover:text-blue-600 transition-colors">Vibe Coding</Link></li>
-            <li><Link href="/ia-para-desenvolvedores" className="hover:text-blue-600 transition-colors">Desenvolvedores</Link></li>
-            <li><Link href="/ferramenta-de-deteccao-de-ia" className="hover:text-blue-600 transition-colors">Detecção de IA</Link></li>
+            <li><Link href="/ia-para-imagens" className="hover:text-black transition-colors">IA para imagens</Link></li>
+            <li><Link href="/ia-para-criar-videos" className="hover:text-black transition-colors">Vídeos</Link></li>
+            <li><Link href="/pacotes-de-ferramentas-e-agregadores-ia" className="hover:text-black transition-colors">Agregadores de IA</Link></li>
+            <li><Link href="/ia-para-vibe-coding" className="hover:text-black transition-colors">Vibe Coding</Link></li>
+            <li><Link href="/ia-para-desenvolvedores" className="hover:text-black transition-colors">Desenvolvedores</Link></li>
+            <li><Link href="/ferramenta-de-deteccao-de-ia" className="hover:text-black transition-colors">Detecção de IA</Link></li>
 
             {/* Dropdown Outras IAs */}
             <li className="relative group">
-              <button className="flex items-center gap-1 hover:text-blue-600 transition-colors focus:outline-none">
+              <button className="flex items-center gap-1 hover:text-black transition-colors focus:outline-none">
                 Outras IAs
                 <ChevronDownIcon className="w-4 h-4" />
               </button>
               <div className="absolute top-full right-0 w-56 bg-white shadow-lg rounded-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-zinc-100">
-                <Link href="/ferramentas-de-ia-para-conteudo" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">IA para Conteúdo</Link>
-                <Link href="/ia-para-criar-apresentacoes" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">IA para Apresentações</Link>
-                <Link href="/ia-para-marketing" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">IA para Marketing</Link>
-                <Link href="/ferramentas-de-ia-rh" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">IA para RH</Link>
-                <Link href="/ferramentas-ia-contabilidade" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">IA para Contabilidade</Link>
-                <Link href="/inteligencia-artificial-para-advogados" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">IA para Advogados</Link>
-                <Link href="/ia-para-professores" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">Professores</Link>
-                <Link href="/ia-para-musica" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">IA para Música</Link>
-                <Link href="/modelos-de-llms" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">Modelos de LLMs</Link>
-                <Link href="/navegadores-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">Navegadores de IA</Link>
-                <Link href="/newsletters-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-blue-600">Newsletters</Link>
+                <Link href="/ferramentas-de-ia-para-conteudo" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Conteúdo</Link>
+                <Link href="/ia-para-criar-apresentacoes" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Apresentações</Link>
+                <Link href="/ia-para-marketing" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Marketing</Link>
+                <Link href="/ferramentas-de-ia-rh" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para RH</Link>
+                <Link href="/ferramentas-ia-contabilidade" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Contabilidade</Link>
+                <Link href="/inteligencia-artificial-para-advogados" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Advogados</Link>
+                <Link href="/ia-para-professores" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Professores</Link>
+                <Link href="/ia-para-musica" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Música</Link>
+                <Link href="/modelos-de-llms" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Modelos de LLMs</Link>
+                <Link href="/navegadores-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Navegadores de IA</Link>
+                <Link href="/newsletters-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Newsletters</Link>
               </div>
             </li>
           </ul>

@@ -22,27 +22,27 @@ export default function ExpandableContent() {
 
                     <ul className="space-y-3 mb-4">
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Pesquisa Jurisprudencial Inteligente:</strong> As ferramentas de IA para advogados permitem buscar decisões relevantes usando linguagem natural, economizando horas de pesquisa manual.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Análise Preditiva:</strong> Utilize jurimetria e inteligência artificial para advogados para prever resultados de processos com base em dados históricos e aumentar suas chances de sucesso.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Automação de Documentos:</strong> Gere contratos, petições e pareceres jurídicos em minutos com IA para advogados, mantendo a qualidade e reduzindo erros.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Revisão de Contratos:</strong> Ferramentas de inteligência artificial para advogados podem analisar cláusulas contratuais, identificar riscos e sugerir melhorias automaticamente.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Atendimento ao Cliente:</strong> Chatbots jurídicos com IA para advogados podem fazer triagem de casos, responder dúvidas frequentes e agendar consultas 24/7.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Gestão de Processos:</strong> Acompanhe automaticamente a movimentação processual e receba alertas inteligentes sobre prazos e atualizações importantes.</span>
                         </li>
                     </ul>
@@ -59,7 +59,7 @@ export default function ExpandableContent() {
 
             <button
                 onClick={() => setIsExpanded(!isExpanded)}
-                className="mt-4 flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium transition-colors"
+                className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors"
                 aria-expanded={isExpanded}
             >
                 <span>{isExpanded ? 'Ver menos' : 'Ver mais'}</span>

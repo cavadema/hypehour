@@ -31,11 +31,11 @@ const ferramentas = [
 export default function IaParaVibeCoding() {
   return (
     <main className="max-w-3xl mx-auto py-10 px-4">
-      <Link href="/" className="inline-flex items-center gap-2 text-blue-600 hover:underline mb-8">
+      <Link href="/" className="inline-flex items-center gap-2 text-black hover:underline mb-8">
         <ArrowLeftIcon className="w-5 h-5" /> Voltar para a home
       </Link>
       <div className="flex items-center gap-3 mb-8">
-        <CodeBracketIcon className="w-10 h-10 text-blue-500" />
+        <CodeBracketIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">IA para Vibe Coding</h1>
       </div>
       <p className="mb-8 text-gray-600">Ferramentas que ajudam no fluxo de desenvolvimento, automações e geração de código.</p>

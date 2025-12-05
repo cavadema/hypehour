@@ -97,7 +97,7 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
                 aria-expanded={isOpen}
             >
                 <div className="flex gap-3 flex-1">
-                    <span className="text-blue-600 font-semibold flex-shrink-0">{index + 1}.</span>
+                    <span className="text-black font-semibold flex-shrink-0">{index + 1}.</span>
                     <span className="font-semibold text-gray-900">{question}</span>
                 </div>
                 <ChevronDownIcon

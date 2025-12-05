@@ -22,27 +22,27 @@ export default function ExpandableContent() {
 
                     <ul className="space-y-3 mb-4">
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Recrutamento Inteligente:</strong> As ferramentas de IA para RH analisam milhares de currículos em segundos, identificando candidatos com o perfil ideal para cada vaga e economizando tempo precioso da equipe.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Entrevistas Automatizadas:</strong> Utilize inteligência artificial para RH para conduzir entrevistas iniciais por vídeo ou chatbot, avaliando competências técnicas e comportamentais de forma objetiva.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Análise de Turnover:</strong> IA para RH pode prever quais colaboradores têm maior risco de deixar a empresa, permitindo ações preventivas de retenção de talentos.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Onboarding Personalizado:</strong> Ferramentas de inteligência artificial para RH criam jornadas de integração customizadas para cada novo colaborador, aumentando o engajamento desde o primeiro dia.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Avaliação de Desempenho:</strong> Com IA para RH, realize avaliações contínuas e objetivas, identificando pontos fortes e oportunidades de desenvolvimento de cada profissional.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Gestão de Clima Organizacional:</strong> Ferramentas de IA para RH analisam feedbacks e pesquisas de clima em tempo real, gerando insights acionáveis para melhorar o ambiente de trabalho.</span>
                         </li>
                     </ul>
@@ -59,7 +59,7 @@ export default function ExpandableContent() {
 
             <button
                 onClick={() => setIsExpanded(!isExpanded)}
-                className="mt-4 flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium transition-colors"
+                className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors"
                 aria-expanded={isExpanded}
             >
                 <span>{isExpanded ? 'Ver menos' : 'Ver mais'}</span>

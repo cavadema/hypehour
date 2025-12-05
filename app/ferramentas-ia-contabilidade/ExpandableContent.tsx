@@ -22,27 +22,27 @@ export default function ExpandableContent() {
 
                     <ul className="space-y-3 mb-4">
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Conciliação Bancária Automática:</strong> As ferramentas de IA para contabilidade realizam conciliações bancárias em segundos, identificando divergências e sugerindo ajustes automaticamente.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Classificação Inteligente de Despesas:</strong> Utilize inteligência artificial para contabilidade para categorizar despesas e receitas automaticamente com base em padrões históricos.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Previsão de Fluxo de Caixa:</strong> IA para contabilidade analisa dados históricos e tendências para prever fluxos de caixa futuros com precisão.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Auditoria Automatizada:</strong> Ferramentas de inteligência artificial para contabilidade identificam anomalias e possíveis fraudes em grandes volumes de transações.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Otimização Tributária:</strong> Com IA para contabilidade, identifique oportunidades de economia fiscal e garanta conformidade com a legislação vigente.</span>
                         </li>
                         <li className="flex gap-2">
-                            <span className="text-blue-500 font-bold">•</span>
+                            <span className="text-gray-900 font-bold">•</span>
                             <span><strong>Relatórios Gerenciais Inteligentes:</strong> Ferramentas de IA para contabilidade geram dashboards e relatórios personalizados com insights acionáveis para tomada de decisão.</span>
                         </li>
                     </ul>
@@ -59,7 +59,7 @@ export default function ExpandableContent() {
 
             <button
                 onClick={() => setIsExpanded(!isExpanded)}
-                className="mt-4 flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium transition-colors"
+                className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors"
                 aria-expanded={isExpanded}
             >
                 <span>{isExpanded ? 'Ver menos' : 'Ver mais'}</span>
