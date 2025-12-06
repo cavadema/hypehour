@@ -107,6 +107,7 @@ export default function RootLayout({
                 <li><Link href="/inteligencia-artificial-para-advogados" className="hover:underline">IA para Advogados</Link></li>
                 <li><Link href="/ia-para-professores" className="hover:underline">IA para professores</Link></li>
                 <li><Link href="/ia-para-medicos" className="hover:underline">IA para Médicos</Link></li>
+                <li><Link href="/ia-para-arquitetura" className="hover:underline">IA para Arquitetura</Link></li>
                 <li><a href="/modelos-de-llms" className="hover:underline">Modelos de LLMs</a></li>
                 <li><a href="/navegadores-de-ia" className="hover:underline">Navegadores de IA</a></li>
                 <li><a href="/ferramenta-de-deteccao-de-ia" className="hover:underline">Detecção de IA</a></li>

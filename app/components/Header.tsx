@@ -41,6 +41,7 @@ export default function Header() {
                 <Link href="/inteligencia-artificial-para-advogados" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Advogados</Link>
                 <Link href="/ia-para-professores" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Professores</Link>
                 <Link href="/ia-para-medicos" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Médicos</Link>
+                <Link href="/ia-para-arquitetura" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Arquitetura</Link>
                 <Link href="/ia-para-musica" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Música</Link>
                 <Link href="/modelos-de-llms" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Modelos de LLMs</Link>
                 <Link href="/navegadores-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Navegadores de IA</Link>
@@ -74,6 +75,7 @@ export default function Header() {
                 <li><Link href="/inteligencia-artificial-para-advogados" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Advogados</Link></li>
                 <li><Link href="/ia-para-professores" className="block py-2 pl-4" onClick={() => setOpen(false)}>Professores</Link></li>
                 <li><Link href="/ia-para-musica" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Música</Link></li>
+                <li><Link href="/ia-para-arquitetura" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Arquitetura</Link></li>
                 <li><Link href="/modelos-de-llms" className="block py-2 pl-4" onClick={() => setOpen(false)}>Modelos de LLMs</Link></li>
                 <li><Link href="/navegadores-de-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Navegadores de IA</Link></li>
                 <li><Link href="/newsletters-de-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Newsletters</Link></li>

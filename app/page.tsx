@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans -mt-20">
@@ -340,6 +340,47 @@ export default function Home() {
         <div className="mt-4 md:hidden">
           <a href="/ia-para-medicos" className="text-black text-sm font-medium hover:underline">
             Ver todas as IA para médicos
+          </a>
+        </div>
+      </section>
+
+      {/* IA para Arquitetura */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <BuildingOffice2Icon className="w-6 h-6 text-gray-700" />
+            IA para Arquitetura
+          </h2>
+          <a href="/ia-para-arquitetura" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
+            Ver todas as IA para arquitetura
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <BuildingOffice2Icon className="w-5 h-5" /> Redraw
+            </span>
+            <p className="text-zinc-700">Transforme seus esboços em renderizações fotorrealistas em segundos.</p>
+            <span className="text-xs text-zinc-500">Categoria: Arquitetura</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <BuildingOffice2Icon className="w-5 h-5" /> PromeAI
+            </span>
+            <p className="text-zinc-700">Gerador de arquitetura com IA para criar designs e renderizações impressionantes.</p>
+            <span className="text-xs text-zinc-500">Categoria: Arquitetura</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <BuildingOffice2Icon className="w-5 h-5" /> Leonardo AI
+            </span>
+            <p className="text-zinc-700">Crie ativos de arquitetura e designs conceituais com ferramentas avançadas.</p>
+            <span className="text-xs text-zinc-500">Categoria: Arquitetura</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/ia-para-arquitetura" className="text-black text-sm font-medium hover:underline">
+            Ver todas as IA para arquitetura
           </a>
         </div>
       </section>
