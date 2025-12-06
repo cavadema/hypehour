@@ -27,6 +27,8 @@ const ferramentas = [
   { nome: "Aider", url: "https://aider.chat/", descricao: "Programação em par com IA diretamente no seu terminal." },
   { nome: "Continue.dev", url: "https://www.continue.dev/", descricao: "Extensão open-source para IDE com piloto automático de código." },
   { nome: "FastShot", url: "https://fastshot.ai/", descricao: "Crie apps móveis nativos 100x mais rápido sem código, apenas com prompts de IA." },
+  { nome: "Skip", url: "https://www.goskip.dev/", descricao: "O Lovable brasileiro. Transforme ideias em aplicações web completas com IA." },
+  { nome: "Deco", url: "https://www.decocms.com/", descricao: "Plataforma MCP-native para criar apps AI full-stack com governança integrada." },
 ];
 
 export default function IaParaVibeCoding() {
