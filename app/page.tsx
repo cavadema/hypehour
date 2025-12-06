@@ -675,14 +675,14 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> OneNode</span>
-            <p className="text-zinc-700">Framework open source de busca semântica multimodal. Processe texto, imagem, vídeo e áudio.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 05/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Skip</span>
+            <p className="text-zinc-700">O Lovable brasileiro. Transforme ideias em aplicações web completas com IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 06/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Olive</span>
-            <p className="text-zinc-700">Plataforma de BI impulsionada por IA para criar ferramentas internas rápidas e seguras.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 05/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Deco</span>
+            <p className="text-zinc-700">Plataforma MCP-native para criar apps AI full-stack com governança integrada.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 06/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Pylar</span>
