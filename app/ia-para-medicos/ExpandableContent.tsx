@@ -7,7 +7,7 @@ export default function ExpandableContent() {
     const [isExpanded, setIsExpanded] = useState(false);
 
     return (
-        <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200 mt-12">
+        <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
                     A <strong>inteligência artificial para médicos</strong> está transformando o cenário da saúde, oferecendo ferramentas poderosas para auxiliar no diagnóstico, tratamento e gestão clínica. O uso de <strong>ia para medicos</strong> permite que profissionais de saúde analisem grandes volumes de dados, identifiquem padrões complexos e tomem decisões mais precisas e rápidas.

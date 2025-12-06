@@ -69,7 +69,6 @@ export default function IaParaMedicos() {
                 <HeartIcon className="w-10 h-10 text-gray-900" />
                 <h1 className="text-3xl font-bold">IA para Médicos</h1>
             </div>
-            <p className="mb-8 text-gray-600">Ferramentas de inteligência artificial para otimizar diagnósticos, gestão clínica e pesquisa médica.</p>
             <ExpandableContent />
             <div className="grid gap-6 sm:grid-cols-2">
                 {ferramentas.map((f) => (
