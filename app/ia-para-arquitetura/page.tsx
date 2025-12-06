@@ -1,5 +1,6 @@
 import { BuildingOffice2Icon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import ExpandableContent from "./ExpandableContent";
 
 export const metadata = {
     title: "IA para Arquitetura - Ferramentas de Inteligência Artificial para Projetos",
@@ -88,7 +89,7 @@ export default function IaParaArquitetura() {
                 <h1 className="text-3xl font-bold">IA para Arquitetura</h1>
             </div>
 
-            <p className="mb-8 text-gray-600">Ferramentas de inteligência artificial para revolucionar o design, renderização e planejamento arquitetônico.</p>
+            <ExpandableContent />
 
             <div className="grid gap-6 sm:grid-cols-2">
                 {ferramentas.map((f) => (
