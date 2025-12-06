@@ -1,6 +1,8 @@
 import { HeartIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
+import ExpandableContent from "./ExpandableContent";
+
 export const metadata = {
     title: "IA para Médicos - Ferramentas de Inteligência Artificial para Saúde",
     description: "Descubra ferramentas de IA para médicos, clínicas e hospitais: diagnósticos, anotações automáticas e pesquisa.",
@@ -82,6 +84,7 @@ export default function IaParaMedicos() {
                     </a>
                 ))}
             </div>
+            <ExpandableContent />
         </main>
     );
 }
