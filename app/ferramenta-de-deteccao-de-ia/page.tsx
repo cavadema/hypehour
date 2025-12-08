@@ -52,6 +52,11 @@ const ferramentas = [
     url: "https://gptzero.me/",
     descricao: "Detector popular criado para professores, com métricas claras de probabilidade.",
   },
+  {
+    nome: "ZeroGPT",
+    url: "https://www.zerogpt.com/",
+    descricao: "Detector avançado e confiável para ChatGPT, GPT-5 e Gemini com alta precisão.",
+  },
 ];
 
 export const metadata = {
