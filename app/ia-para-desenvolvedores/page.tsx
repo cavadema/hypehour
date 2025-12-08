@@ -67,6 +67,16 @@ const ferramentas = [
     url: "https://www.pylar.ai/",
     descricao: "Plataforma para dar aos agentes de IA acesso seguro a dados estruturados via ferramentas MCP e views SQL governadas.",
   },
+  {
+    nome: "RightNow AI",
+    url: "https://www.rightnowai.co/",
+    descricao: "Editor de código all-in-one para GPU kernels com IA hardware-aware e profiling em tempo real.",
+  },
+  {
+    nome: "DebuggAI",
+    url: "https://debugg.ai/demo",
+    descricao: "Plataforma de testes automatizados com IA que roda em cada pull request.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {

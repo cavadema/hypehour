@@ -73,6 +73,21 @@ const ferramentas = [
         descricao: "Ferramenta de IA para criação de conteúdo e automação de marketing digital.",
     },
     {
+        nome: "Lindy",
+        url: "https://www.lindy.ai/",
+        descricao: "Plataforma para criar e gerenciar agentes de IA que automatizam tarefas de marketing.",
+    },
+    {
+        nome: "Wispr Flow",
+        url: "https://wisprflow.ai/",
+        descricao: "Ditado por voz com IA para escrever conteúdo de marketing 4x mais rápido.",
+    },
+    {
+        nome: "Documentation.AI",
+        url: "https://documentation.ai/",
+        descricao: "Plataforma de documentação com IA para criar e manter bases de conhecimento atualizadas.",
+    },
+    {
         nome: "Olive",
         url: "https://fromolive.com/",
         descricao: "Plataforma de BI impulsionada por IA para criar ferramentas internas rápidas e seguras a partir de prompts.",

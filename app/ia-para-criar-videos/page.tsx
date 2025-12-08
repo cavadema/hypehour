@@ -79,6 +79,11 @@ const ferramentas = [
         descricao: "Plataforma focada em animação e geração de vídeo com estilos artísticos únicos.",
     },
     {
+        nome: "Trugen AI",
+        url: "https://trugen.ai/home",
+        descricao: "Plataforma de geração de vídeos com IA para criar conteúdo visual de alta qualidade.",
+    },
+    {
         nome: "Kaiber",
         url: "https://www.kaiber.ai/superstudio",
         descricao: "Crie animações e vídeos estilizados a partir de imagens ou texto, usado por artistas.",

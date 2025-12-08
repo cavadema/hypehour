@@ -675,6 +675,26 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Lindy</span>
+            <p className="text-zinc-700">Plataforma para criar e gerenciar agentes de IA que automatizam tarefas de marketing.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 08/12/2024</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Documentation.AI</span>
+            <p className="text-zinc-700">Plataforma de documentação com IA para criar e manter bases de conhecimento atualizadas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 08/12/2024</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> DebuggAI</span>
+            <p className="text-zinc-700">Plataforma de testes automatizados com IA que roda em cada pull request.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 08/12/2024</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Trugen AI</span>
+            <p className="text-zinc-700">Plataforma de geração de vídeos com IA para criar conteúdo visual de alta qualidade.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 08/12/2024</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Skip</span>
             <p className="text-zinc-700">O Lovable brasileiro. Transforme ideias em aplicações web completas com IA.</p>
             <span className="text-xs text-zinc-500">Adicionada em 06/12/2024</span>
@@ -683,26 +703,6 @@ export default function Home() {
             <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Deco</span>
             <p className="text-zinc-700">Plataforma MCP-native para criar apps AI full-stack com governança integrada.</p>
             <span className="text-xs text-zinc-500">Adicionada em 06/12/2024</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Pylar</span>
-            <p className="text-zinc-700">Plataforma para dar aos agentes de IA acesso seguro a dados estruturados.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 05/12/2024</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Aha</span>
-            <p className="text-zinc-700">Seu funcionário de IA 24/7 para marketing de influência, automação e colaboração.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 05/12/2024</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Dr-aft</span>
-            <p className="text-zinc-700">Editor de roteiros com IA nativo para formato Fountain.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 05/12/2024</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> FastShot</span>
-            <p className="text-zinc-700">Crie apps móveis nativos 100x mais rápido sem código, apenas com prompts de IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 05/12/2024</span>
           </div>
         </div>
       </section>

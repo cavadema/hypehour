@@ -77,6 +77,11 @@ const ferramentas = [
     url: "https://seed.bytedance.com/en/seedream4_5",
     descricao: "Modelo de geração de imagens da ByteDance com alta qualidade e controle criativo.",
   },
+  {
+    nome: "Kling Avatar",
+    url: "https://app.klingai.com/global/ai-human/image/new",
+    descricao: "Crie avatares realistas e personalizados com IA da Kling.",
+  },
 ];
 
 export const metadata = {

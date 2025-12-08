@@ -57,6 +57,11 @@ const ferramentas = [
         url: "https://www.pathai.com/",
         descricao: "Tecnologia de patologia impulsionada por IA para diagnósticos precisos.",
     },
+    {
+        nome: "Aspirin AI",
+        url: "https://play.google.com/store/apps/details?id=appdrguidenet.wpapp",
+        descricao: "App de IA para guia médico e informações sobre medicamentos.",
+    },
 ];
 
 export default function IaParaMedicos() {
