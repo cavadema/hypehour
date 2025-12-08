@@ -138,9 +138,9 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold">
-              <PencilSquareIcon className="w-5 h-5" /> Jasper
+              <PencilSquareIcon className="w-5 h-5" /> Contentor
             </span>
-            <p className="text-zinc-700">Plataforma avançada de IA para criação de conteúdo de marketing e copy.</p>
+            <p className="text-zinc-700">IA de SEO para criar conteúdo de qualidade com análise de SERP, briefing e geração ilimitada.</p>
             <span className="text-xs text-zinc-500">Categoria: Conteúdo</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
@@ -695,9 +695,9 @@ export default function Home() {
             <span className="text-xs text-zinc-500">Adicionada em 08/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Skip</span>
-            <p className="text-zinc-700">O Lovable brasileiro. Transforme ideias em aplicações web completas com IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 06/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Contentor</span>
+            <p className="text-zinc-700">IA de SEO para criar conteúdo de qualidade com análise de SERP, briefing e geração ilimitada.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 08/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Deco</span>

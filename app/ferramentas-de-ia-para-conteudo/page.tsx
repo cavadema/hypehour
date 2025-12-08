@@ -79,6 +79,11 @@ const ferramentas = [
     descricao: "Escritor de IA gratuito para gerar copys de marketing, blogs e posts sociais.",
   },
   {
+    nome: "Contentor",
+    url: "https://usecontentor.com/pt",
+    descricao: "IA de SEO para criar conteúdo de qualidade com análise de SERP, briefing e geração ilimitada.",
+  },
+  {
     nome: "Sudowrite",
     url: "https://www.sudowrite.com",
     descricao: "A melhor IA para escrita criativa, ajudando autores a escreverem romances e histórias.",
