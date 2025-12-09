@@ -84,6 +84,11 @@ const ferramentas = [
         descricao: "Plataforma de geração de vídeos com IA para criar conteúdo visual de alta qualidade.",
     },
     {
+        nome: "UniFab AI Video Enhancer",
+        url: "https://unifab.ai/ai-video-enhancer.htm",
+        descricao: "Melhore e faça upscaling de vídeos até 16K com IA, redução de ruído e conversão de formatos.",
+    },
+    {
         nome: "Kaiber",
         url: "https://www.kaiber.ai/superstudio",
         descricao: "Crie animações e vídeos estilizados a partir de imagens ou texto, usado por artistas.",

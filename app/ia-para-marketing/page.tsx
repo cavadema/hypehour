@@ -88,6 +88,11 @@ const ferramentas = [
         descricao: "Plataforma de documentação com IA para criar e manter bases de conhecimento atualizadas.",
     },
     {
+        nome: "Luppa AI",
+        url: "https://www.luppa.ai/",
+        descricao: "Plataforma all-in-one de marketing com IA para criar texto, imagens, vídeos e automatizar postagens.",
+    },
+    {
         nome: "Olive",
         url: "https://fromolive.com/",
         descricao: "Plataforma de BI impulsionada por IA para criar ferramentas internas rápidas e seguras a partir de prompts.",

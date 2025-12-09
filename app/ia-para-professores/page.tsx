@@ -63,6 +63,11 @@ const ferramentas = [
     url: "https://www.teachy.com.br/",
     descricao: "Ferramenta brasileira para montar planos de aula completos.",
   },
+  {
+    nome: "Learn Earth",
+    url: "https://www.learn.earth/pt-BR",
+    descricao: "Plataforma de aprendizado adaptativo IA-primeiro com trilhas personalizadas e prática interativa.",
+  },
 ];
 
 export const metadata = {

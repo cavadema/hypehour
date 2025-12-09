@@ -84,6 +84,11 @@ const ferramentas = [
     descricao: "IA de SEO para criar conteúdo de qualidade com análise de SERP, briefing e geração ilimitada.",
   },
   {
+    nome: "Aithor",
+    url: "https://aithor.com/pt-br",
+    descricao: "Assistente de pesquisa com IA para escrever ensaios e trabalhos acadêmicos 90% mais rápido.",
+  },
+  {
     nome: "Sudowrite",
     url: "https://www.sudowrite.com",
     descricao: "A melhor IA para escrita criativa, ajudando autores a escreverem romances e histórias.",

@@ -77,6 +77,11 @@ const ferramentas = [
     url: "https://debugg.ai/demo",
     descricao: "Plataforma de testes automatizados com IA que roda em cada pull request.",
   },
+  {
+    nome: "Kilo",
+    url: "https://kilo.ai/",
+    descricao: "Agente de código open source mais popular para construir, lançar e iterar mais rápido.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {
