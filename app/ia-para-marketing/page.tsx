@@ -107,6 +107,31 @@ const ferramentas = [
         url: "https://www.dr-aft.com/",
         descricao: "Editor de roteiros com IA nativo para formato Fountain, ideal para roteiristas e criação de scripts de vídeo.",
     },
+    {
+        nome: "Cofounder",
+        url: "https://cofounder.co/",
+        descricao: "Automatize sua vida com linguagem natural, conectando ferramentas e criando workflows.",
+    },
+    {
+        nome: "Magiclip",
+        url: "https://magiclip.io/",
+        descricao: "Plataforma de IA para criar vídeos virais curtos com legendas automáticas e otimização para redes sociais.",
+    },
+    {
+        nome: "Ripplica",
+        url: "https://www.ripplica.com/",
+        descricao: "Automatize qualquer workflow baseado em navegador com agentes de IA usando apenas um vídeo simples.",
+    },
+    {
+        nome: "Unwrap",
+        url: "https://www.unwrap.ai/",
+        descricao: "Plataforma de inteligência do cliente com IA que revela insights proativos sobre sua audiência.",
+    },
+    {
+        nome: "Rybbit",
+        url: "https://rybbit.com/",
+        descricao: "Analytics moderno sem cookies, alternativa ao Google Analytics com foco em privacidade e GDPR.",
+    },
 ];
 
 export const metadata = {

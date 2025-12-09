@@ -42,6 +42,11 @@ const ferramentas = [
         url: "https://anythingllm.com/",
         descricao: "Solução all-in-one para chat com documentos e vetores usando LLMs.",
     },
+    {
+        nome: "ChatBetter",
+        url: "https://www.chatbetter.com/",
+        descricao: "Acesse todos os principais modelos de IA em um único chat com seleção automática do melhor modelo.",
+    },
 ];
 
 export const metadata = {

@@ -82,6 +82,16 @@ const ferramentas = [
     url: "https://app.klingai.com/global/ai-human/image/new",
     descricao: "Crie avatares realistas e personalizados com IA da Kling.",
   },
+  {
+    nome: "Lovart",
+    url: "https://www.lovart.ai/pt",
+    descricao: "O primeiro agente de design do mundo que automatiza toda a jornada do design com IA.",
+  },
+  {
+    nome: "Vertical Studio",
+    url: "https://app.verticalstudio.ai/stream",
+    descricao: "Plataforma all-in-one para acessar múltiplos modelos de IA para texto, imagem, vídeo e áudio.",
+  },
 ];
 
 export const metadata = {

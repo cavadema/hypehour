@@ -99,6 +99,16 @@ const ferramentas = [
         descricao: "Editor de vídeo com IA para cortes automáticos, legendas e otimização de conteúdo.",
     },
     {
+        nome: "Magiclip",
+        url: "https://magiclip.io/",
+        descricao: "Plataforma de IA para criar vídeos virais curtos com legendas automáticas e otimização para redes sociais.",
+    },
+    {
+        nome: "Ripplica",
+        url: "https://www.ripplica.com/",
+        descricao: "Automatize qualquer workflow baseado em navegador com agentes de IA usando apenas um vídeo simples.",
+    },
+    {
         nome: "Filmsupply",
         url: "https://www.filmsupply.com/",
         descricao: "Plataforma de vídeos premium com curadoria e ferramentas de IA para busca e edição.",

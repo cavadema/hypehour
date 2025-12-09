@@ -62,6 +62,11 @@ const ferramentas = [
         url: "https://play.google.com/store/apps/details?id=appdrguidenet.wpapp",
         descricao: "App de IA para guia médico e informações sobre medicamentos.",
     },
+    {
+        nome: "SciSpace Biomedical",
+        url: "https://scispace.com/biomedical",
+        descricao: "Plataforma de IA para pesquisa biomédica com análise de artigos científicos e literatura médica.",
+    },
 ];
 
 export default function IaParaMedicos() {

@@ -700,9 +700,9 @@ export default function Home() {
             <span className="text-xs text-zinc-500">Adicionada em 09/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Lindy</span>
-            <p className="text-zinc-700">Plataforma para criar e gerenciar agentes de IA que automatizam tarefas de marketing.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 08/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Vertical Studio</span>
+            <p className="text-zinc-700">Plataforma all-in-one para acessar múltiplos modelos de IA para texto, imagem, vídeo e áudio.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 09/12/2024</span>
           </div>
         </div>
       </section>
