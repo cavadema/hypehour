@@ -165,6 +165,47 @@ export default function Home() {
         </div>
       </section>
 
+      {/* IA para Transcrever Áudio */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <MusicalNoteIcon className="w-6 h-6 text-gray-700" />
+            IA para Transcrever Áudio
+          </h2>
+          <a href="/transcrever-audio" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
+            Ver todas as IA para transcrever áudio
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <MusicalNoteIcon className="w-5 h-5" /> Speechify
+            </span>
+            <p className="text-zinc-700">Plataforma de IA para transcrição e conversão de texto em áudio com vozes naturais.</p>
+            <span className="text-xs text-zinc-500">Categoria: Transcrição</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <MusicalNoteIcon className="w-5 h-5" /> Wisprflow
+            </span>
+            <p className="text-zinc-700">Transcrição automática de áudio com IA para fluxos de trabalho profissionais.</p>
+            <span className="text-xs text-zinc-500">Categoria: Transcrição</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <MusicalNoteIcon className="w-5 h-5" /> Willowvoice
+            </span>
+            <p className="text-zinc-700">Ferramenta de transcrição de voz com IA para criar textos precisos.</p>
+            <span className="text-xs text-zinc-500">Categoria: Transcrição</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/transcrever-audio" className="text-black text-sm font-medium hover:underline">
+            Ver todas as IA para transcrever áudio
+          </a>
+        </div>
+      </section>
+
       {/* IA para Marketing */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">

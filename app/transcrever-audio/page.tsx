@@ -1,0 +1,101 @@
+import { MicrophoneIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
+import FAQSection from "./FAQSection";
+
+export const metadata = {
+  title: "Inteligência Artificial para Transcrever áudio",
+  description: "As melhores ferramentas de IA para transcrever áudio em texto com precisão e rapidez.",
+  alternates: {
+    canonical: 'https://www.hypehour.com.br/transcrever-audio',
+  },
+};
+
+const ferramentas = [
+  { nome: "Speechify", url: "https://speechify.com/", descricao: "Plataforma de IA para transcrição e conversão de texto em áudio com vozes naturais." },
+  { nome: "Wisprflow", url: "https://wisprflow.ai/", descricao: "Transcrição automática de áudio com IA para fluxos de trabalho profissionais." },
+  { nome: "Willowvoice", url: "https://willowvoice.com/", descricao: "Ferramenta de transcrição de voz com IA para criar textos precisos." },
+  { nome: "Aquavoice", url: "https://aquavoice.com/", descricao: "Solução de IA para transcrição e análise de áudio em tempo real." },
+  { nome: "Talktastic", url: "https://talktastic.com/", descricao: "Transcrição inteligente de conversas e reuniões com IA." },
+  { nome: "VibeVoice", url: "https://microsoft.github.io/VibeVoice/", descricao: "Projeto da Microsoft para transcrição e síntese de voz com IA." },
+  { nome: "Superwhisper", url: "https://superwhisper.com/", descricao: "Transcrição rápida e precisa de áudio para texto com tecnologia avançada." },
+  { nome: "Better Dictation", url: "https://betterdictation.com/", descricao: "Ditado e transcrição aprimorados com inteligência artificial." },
+  { nome: "Monologue", url: "https://www.monologue.to/", descricao: "Ferramenta de IA para transcrever monólogos e apresentações." },
+  { nome: "Liquid AI LFM2 Audio", url: "https://www.liquid.ai/blog/lfm2-audio-an-end-to-end-audio-foundation-model", descricao: "Modelo de fundação de áudio end-to-end da Liquid AI para transcrição e análise." },
+];
+
+export default function TranscreverAudio() {
+  return (
+    <main className="max-w-3xl mx-auto py-10 px-4">
+      <Link href="/" className="inline-flex items-center gap-2 text-black hover:underline mb-8">
+        <ArrowLeftIcon className="w-5 h-5" /> Voltar para a home
+      </Link>
+      <div className="flex items-center gap-3 mb-8">
+        <MicrophoneIcon className="w-10 h-10 text-gray-900" />
+        <h1 className="text-3xl font-bold">Transcrever áudio</h1>
+      </div>
+      <p className="mb-8 text-gray-600">
+        Ferramentas de IA para transcrever áudio em texto com precisão, rapidez e suporte a múltiplos idiomas.
+      </p>
+      <div className="grid gap-6 sm:grid-cols-2">
+        {ferramentas.map((f) => (
+          <a
+            key={f.nome}
+            href={f.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100"
+          >
+            <h2 className="font-semibold text-lg mb-1">{f.nome}</h2>
+            <div className="text-gray-500 text-sm">{f.descricao}</div>
+          </a>
+        ))}
+      </div>
+
+      <FAQSection />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "O que é transcrever áudio?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Transcrever áudio é o processo de converter fala em texto escrito. Com ferramentas de IA, esse processo se tornou automático, rápido e preciso, permitindo transcrever reuniões, podcasts, entrevistas e palestras em segundos."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Qual a melhor IA para transcrever áudio em texto?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As melhores IAs para transcrever áudio em texto incluem Speechify, Wisprflow, Willowvoice, Superwhisper e VibeVoice, oferecendo alta precisão, suporte multilíngue e edição integrada."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Como funciona a IA para transcrever áudio?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A IA para transcrever áudio utiliza modelos de reconhecimento de fala treinados em milhões de horas de áudio, identificando padrões de voz, sotaques e contextos para converter com precisão o que foi dito em texto."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Text to speech IA é o mesmo que transcrição?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Não. Text to speech (TTS) converte texto em áudio falado, enquanto transcrição faz o oposto: converte áudio em texto escrito. Ambas tecnologias usam IA, mas com objetivos inversos."
+                }
+              }
+            ]
+          })
+        }}
+      />
+    </main>
+  );
+}
