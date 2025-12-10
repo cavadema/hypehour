@@ -58,6 +58,11 @@ const ferramentas = [
         url: "https://www.lawgeex.com/",
         descricao: "Automação de revisão de contratos para garantir conformidade e acelerar fechamentos.",
     },
+    {
+        nome: "JusPrompt",
+        url: "https://www.jusprompt.plus/",
+        descricao: "Assistente jurídico com IA para petições e pesquisas legais.",
+    },
 ];
 
 export const metadata = {

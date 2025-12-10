@@ -58,6 +58,11 @@ const ferramentas = [
         url: "https://deepgram.com/product/voice-agent-api",
         descricao: "API de agentes de voz com IA para transcrição e síntese de fala em tempo real.",
     },
+    {
+        nome: "ACE Studio",
+        url: "https://acestudio.ai/",
+        descricao: "Estúdio de IA para criar vozes sintéticas realistas e personalizar tons de áudio.",
+    },
 ];
 
 export const metadata = {

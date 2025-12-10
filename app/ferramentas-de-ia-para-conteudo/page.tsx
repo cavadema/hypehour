@@ -79,6 +79,11 @@ const ferramentas = [
     descricao: "Escritor de IA gratuito para gerar copys de marketing, blogs e posts sociais.",
   },
   {
+    nome: "Niara",
+    url: "https://niara.ai/",
+    descricao: "IA para criação e personalização de conteúdo multimídia.",
+  },
+  {
     nome: "Contentor",
     url: "https://usecontentor.com/pt",
     descricao: "IA de SEO para criar conteúdo de qualidade com análise de SERP, briefing e geração ilimitada.",

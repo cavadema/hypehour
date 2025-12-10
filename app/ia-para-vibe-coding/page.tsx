@@ -31,6 +31,9 @@ const ferramentas = [
   { nome: "Deco", url: "https://www.decocms.com/", descricao: "Plataforma MCP-native para criar apps AI full-stack com governança integrada." },
   { nome: "Orca Engine", url: "https://orcaengine.ai/", descricao: "Plataforma de IA para criação de jogos com automação e ferramentas avançadas." },
   { nome: "Google Stitch", url: "https://stitch.withgoogle.com/", descricao: "Ferramenta experimental do Google para criação colaborativa com IA." },
+  { nome: "AppWizzy", url: "https://appwizzy.com/", descricao: "Plataforma de IA para criar aplicações web e mobile sem código rapidamente." },
+  { nome: "Orchids", url: "https://www.orchids.app/", descricao: "Plataforma no/low-code para criar apps e fluxos com IA." },
+  { nome: "Vibecode AI App Builder", url: "https://apps.apple.com/us/app/vibecode-ai-app-builder/id6742912146", descricao: "App builder móvel com geração assistida por IA." },
 ];
 
 export default function IaParaVibeCoding() {

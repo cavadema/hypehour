@@ -152,6 +152,16 @@ const ferramentas = [
         url: "https://www.softr.io/workflows",
         descricao: "Crie automações e workflows sem código com IA integrada para marketing.",
     },
+    {
+        nome: "TryNormal",
+        url: "https://www.trynormal.ai/",
+        descricao: "Plataforma de IA para criar chatbots e assistentes de marketing conversacionais.",
+    },
+    {
+        nome: "Bloom",
+        url: "https://www.trybloom.ai/",
+        descricao: "Ferramenta de IA para personalização de conteúdo e automação de marketing.",
+    },
 ];
 
 export const metadata = {

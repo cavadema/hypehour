@@ -117,6 +117,16 @@ const ferramentas = [
     url: "https://www.softr.io/workflows",
     descricao: "Crie automações e workflows sem código com IA integrada.",
   },
+  {
+    nome: "TheFrontKit",
+    url: "https://thefrontkit.com/",
+    descricao: "Kit de ferramentas front-end com IA para desenvolvimento web acelerado.",
+  },
+  {
+    nome: "GMI Cloud",
+    url: "https://www.gmicloud.ai/",
+    descricao: "Plataforma em nuvem com IA para gerenciamento e desenvolvimento de projetos.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {
