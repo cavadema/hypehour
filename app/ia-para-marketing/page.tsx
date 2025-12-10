@@ -135,7 +135,7 @@ const ferramentas = [
 ];
 
 export const metadata = {
-    title: "Ferramentas de Inteligência Artificial para Marketing - Hypehour",
+    title: "Ferramentas de Inteligência Artificial para Marketing",
     description: "Descubra as melhores ferramentas de IA para marketing: automação, criação de conteúdo, SEO e vídeo.",
     alternates: {
         canonical: "https://www.hypehour.com.br/ia-para-marketing",

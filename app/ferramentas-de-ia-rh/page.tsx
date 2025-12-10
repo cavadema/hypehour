@@ -51,7 +51,7 @@ const ferramentas = [
 ];
 
 export const metadata = {
-    title: "Ferramentas de Inteligência Artificial para Recursos Humanos - Hypehour",
+    title: "Ferramentas de Inteligência Artificial para Recursos Humanos",
     description: "Descubra as melhores ferramentas de IA para Recursos Humanos: recrutamento, onboarding e gestão de talentos.",
     alternates: {
         canonical: "https://www.hypehour.com.br/ferramentas-de-ia-rh",

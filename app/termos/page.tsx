@@ -2,7 +2,7 @@ import { DocumentTextIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
 export const metadata = {
-    title: "Termos de Serviço - Hypehour",
+    title: "Termos de Serviço",
     description: "Leia os Termos de Serviço do Hypehour. Entenda as regras e diretrizes para o uso do nosso site e serviços.",
     alternates: {
         canonical: "https://www.hypehour.com.br/termos",

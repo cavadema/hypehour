@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Sobre Nós - HypeHour",
+  title: "Sobre Nós",
   description: "descubra as melhores ferramentas de IA em um site só. Encontre IA generativa, IA para marketing, professores, conteúdo, gerar imagens e muito mais.",
   alternates: {
     canonical: 'https://www.hypehour.com.br/sobre-nos',

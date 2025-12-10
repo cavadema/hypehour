@@ -61,7 +61,7 @@ const ferramentas = [
 ];
 
 export const metadata = {
-    title: "Ferramentas de Inteligência Artificial para Música - Hypehour",
+    title: "Ferramentas de Inteligência Artificial para Música",
     description: "Descubra as melhores ferramentas de inteligência artificial para criação e edição de música e áudio.",
     alternates: {
         canonical: 'https://www.hypehour.com.br/ia-para-musica',

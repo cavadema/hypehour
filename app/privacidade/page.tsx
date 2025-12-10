@@ -2,7 +2,7 @@ import { ShieldCheckIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
 export const metadata = {
-    title: "Política de Privacidade - Hypehour",
+    title: "Política de Privacidade",
     description: "Leia a Política de Privacidade do Hypehour. Saiba como coletamos, usamos e protegemos suas informações.",
     alternates: {
         canonical: "https://www.hypehour.com.br/privacidade",

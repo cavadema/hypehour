@@ -121,7 +121,7 @@ const ferramentas = [
 ];
 
 export const metadata = {
-    title: "IA para Criar Vídeos - Ferramentas de Inteligência Artificial - Hypehour",
+    title: "IA para Criar Vídeos - Ferramentas de Inteligência Artificial",
     description: "Descubra as melhores ferramentas de IA para criar, editar e gerar vídeos automaticamente.",
     alternates: {
         canonical: "https://www.hypehour.com.br/ia-para-criar-videos",

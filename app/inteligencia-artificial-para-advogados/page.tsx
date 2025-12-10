@@ -61,7 +61,7 @@ const ferramentas = [
 ];
 
 export const metadata = {
-    title: "Inteligência Artificial para Advogados - Hypehour",
+    title: "Inteligência Artificial para Advogados",
     description: "Descubra as melhores ferramentas de IA para advogados: pesquisa jurídica, automação de contratos e jurimetria.",
     alternates: {
         canonical: "https://www.hypehour.com.br/inteligencia-artificial-para-advogados",

@@ -111,7 +111,7 @@ const ferramentas = [
 ];
 
 export const metadata = {
-  title: "Ferramentas de IA para Conteúdo - Hypehour",
+  title: "Ferramentas de IA para Conteúdo",
   description: "Descubra as melhores ferramentas de IA para criar artigos, posts, e-mails e copys de alta conversão.",
   alternates: {
     canonical: "https://www.hypehour.com.br/ferramentas-de-ia-para-conteudo",

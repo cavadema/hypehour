@@ -76,7 +76,7 @@ const ferramentas = [
 ];
 
 export const metadata = {
-    title: "Inteligência Artificial para Criar Apresentações e Slides - Hypehour",
+    title: "Inteligência Artificial para Criar Apresentações e Slides",
     description: "Descubra as melhores ferramentas de IA para criar apresentações, slides e pitch decks automaticamente.",
     alternates: {
         canonical: "https://www.hypehour.com.br/ia-para-criar-apresentacoes",

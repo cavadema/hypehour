@@ -95,7 +95,7 @@ const ferramentas = [
 ];
 
 export const metadata = {
-  title: "Ferramentas de Inteligência Artificial para Imagens - Hypehour",
+  title: "Ferramentas de Inteligência Artificial para Imagens",
   description: "Descubra as melhores ferramentas de inteligência artificial para criação, edição e geração de imagens.",
   alternates: {
     canonical: 'https://www.hypehour.com.br/ia-para-imagens',

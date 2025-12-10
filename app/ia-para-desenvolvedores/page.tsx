@@ -2,7 +2,7 @@ import { CodeBracketIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Inteligência Artificial para desenvolvimento - Hypehour",
+  title: "Inteligência Artificial para desenvolvimento",
   description: "Ferramentas de IA voltadas para desenvolvedores: assistentes de código, autocompletes e ferramentas colaborativas.",
   alternates: {
     canonical: 'https://www.hypehour.com.br/ia-para-desenvolvedores',

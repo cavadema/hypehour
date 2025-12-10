@@ -3,7 +3,7 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-  title: "Ferramentas de Inteligência Artificial para vibe coding - Hypehour",
+  title: "Ferramentas de Inteligência Artificial para vibe coding",
   description: "Ferramentas e IAs para acelerar seu fluxo de desenvolvimento: editores, assistentes e automações.",
   alternates: {
     canonical: 'https://www.hypehour.com.br/ia-para-vibe-coding',

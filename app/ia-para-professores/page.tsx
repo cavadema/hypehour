@@ -71,7 +71,7 @@ const ferramentas = [
 ];
 
 export const metadata = {
-  title: "Ferramentas de Inteligência Artificial para Professores - Hypehour",
+  title: "Ferramentas de Inteligência Artificial para Professores",
   description: "Seleção de IAs que ajudam educadores a planejar aulas, gerar quizzes e acompanhar estudantes.",
   alternates: {
     canonical: "https://www.hypehour.com.br/ia-para-professores",

@@ -41,7 +41,7 @@ const ferramentas = [
 ];
 
 export const metadata = {
-    title: "Ferramentas de IA para Contabilidade - Hypehour",
+    title: "Ferramentas de IA para Contabilidade",
     description: "Descubra as melhores ferramentas de IA para contabilidade: automação fiscal, reconciliação e gestão financeira.",
     alternates: {
         canonical: "https://www.hypehour.com.br/ferramentas-ia-contabilidade",

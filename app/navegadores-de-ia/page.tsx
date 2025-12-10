@@ -45,7 +45,7 @@ const navegadores = [
 ];
 
 export const metadata = {
-  title: "Navegadores com uso de Inteligência Artificial - Hypehour",
+  title: "Navegadores com uso de Inteligência Artificial",
   description: "Descubra navegadores que já chegam com inteligência artificial integrada para pesquisar, resumir e automatizar tarefas.",
   alternates: {
     canonical: "https://www.hypehour.com.br/navegadores-de-ia",
