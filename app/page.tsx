@@ -598,9 +598,9 @@ export default function Home() {
             <span className="text-xs text-zinc-500">Lançamento: Set/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Llama 3.2</span>
-            <p className="text-zinc-700">Versão open-source da Meta com quantizações eficientes para edge.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Set/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Llama 4</span>
+            <p className="text-zinc-700">Nova geração open-source da Meta com melhorias significativas em raciocínio e performance.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Dez/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Perplexity Sonar</span>
@@ -675,34 +675,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Aithor</span>
-            <p className="text-zinc-700">Assistente de pesquisa com IA para escrever ensaios e trabalhos acadêmicos 90% mais rápido.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 09/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Goose AI</span>
+            <p className="text-zinc-700">Assistente de desenvolvimento que roda localmente no terminal para automação de tarefas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 10/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Learn Earth</span>
-            <p className="text-zinc-700">Plataforma de aprendizado adaptativo IA-primeiro com trilhas personalizadas e prática interativa.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 09/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Agno</span>
+            <p className="text-zinc-700">Agente de IA autônomo que executa tarefas complexas de desenvolvimento e automação.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 10/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> UniFab AI</span>
-            <p className="text-zinc-700">Melhore e faça upscaling de vídeos até 16K com IA, redução de ruído e conversão de formatos.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 09/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Cashew Research</span>
+            <p className="text-zinc-700">Plataforma de pesquisa de mercado e análise de dados com inteligência artificial.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 10/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Kilo</span>
-            <p className="text-zinc-700">Agente de código open source mais popular para construir, lançar e iterar mais rápido.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 09/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Taplio</span>
+            <p className="text-zinc-700">Ferramenta de crescimento no LinkedIn com geração de conteúdo e agendamento por IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 10/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Luppa AI</span>
-            <p className="text-zinc-700">Plataforma all-in-one de marketing com IA para criar texto, imagens, vídeos e automatizar postagens.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 09/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> LLMs Generator</span>
+            <p className="text-zinc-700">Gerador de conteúdo especializado usando múltiplos modelos de linguagem.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 10/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Vertical Studio</span>
-            <p className="text-zinc-700">Plataforma all-in-one para acessar múltiplos modelos de IA para texto, imagem, vídeo e áudio.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 09/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Orca</span>
+            <p className="text-zinc-700">Motor de IA para criação de jogos com ferramentas visuais e geração assistida.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 10/12/2024</span>
           </div>
         </div>
       </section>

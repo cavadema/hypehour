@@ -57,6 +57,11 @@ const ferramentas = [
     url: "https://www.zerogpt.com/",
     descricao: "Detector avançado e confiável para ChatGPT, GPT-5 e Gemini com alta precisão.",
   },
+  {
+    nome: "SynthID",
+    url: "https://deepmind.google/models/synthid/",
+    descricao: "Tecnologia do Google DeepMind para identificar e marcar conteúdo gerado por IA.",
+  },
 ];
 
 export const metadata = {

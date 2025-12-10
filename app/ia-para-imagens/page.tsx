@@ -92,6 +92,16 @@ const ferramentas = [
     url: "https://app.verticalstudio.ai/stream",
     descricao: "Plataforma all-in-one para acessar múltiplos modelos de IA para texto, imagem, vídeo e áudio.",
   },
+  {
+    nome: "HeyGen",
+    url: "https://www.heygen.com/",
+    descricao: "Crie vídeos com avatares de IA e traduções automáticas em múltiplos idiomas.",
+  },
+  {
+    nome: "Higgsfield",
+    url: "https://higgsfield.ai/",
+    descricao: "Plataforma de geração de imagens e vídeos com IA de alta qualidade.",
+  },
 ];
 
 export const metadata = {

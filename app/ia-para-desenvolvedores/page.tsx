@@ -82,6 +82,41 @@ const ferramentas = [
     url: "https://kilo.ai/",
     descricao: "Agente de código open source mais popular para construir, lançar e iterar mais rápido.",
   },
+  {
+    nome: "Goose AI",
+    url: "https://goose.ai/",
+    descricao: "API de IA para desenvolvedores com modelos de linguagem acessíveis e econômicos.",
+  },
+  {
+    nome: "Agents.md",
+    url: "https://agents.md/",
+    descricao: "Plataforma para criar e gerenciar agentes de IA para desenvolvimento.",
+  },
+  {
+    nome: "Relace AI",
+    url: "https://www.relace.ai/",
+    descricao: "Ferramenta de IA para acelerar desenvolvimento e automação de código.",
+  },
+  {
+    nome: "Agno",
+    url: "https://www.agno.com/",
+    descricao: "Plataforma de IA para desenvolvimento colaborativo e gestão de projetos.",
+  },
+  {
+    nome: "Conductor",
+    url: "https://conductor.build/",
+    descricao: "Ferramenta de orquestração e automação de workflows de desenvolvimento com IA.",
+  },
+  {
+    nome: "Mistral Devstral 2 Vibe CLI",
+    url: "https://mistral.ai/news/devstral-2-vibe-cli",
+    descricao: "CLI inteligente da Mistral AI para desenvolvimento acelerado com modelos de linguagem.",
+  },
+  {
+    nome: "Softr Workflows",
+    url: "https://www.softr.io/workflows",
+    descricao: "Crie automações e workflows sem código com IA integrada.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {

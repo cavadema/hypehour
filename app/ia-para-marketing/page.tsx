@@ -132,6 +132,26 @@ const ferramentas = [
         url: "https://rybbit.com/",
         descricao: "Analytics moderno sem cookies, alternativa ao Google Analytics com foco em privacidade e GDPR.",
     },
+    {
+        nome: "Taplio",
+        url: "https://taplio.com/",
+        descricao: "Ferramenta de IA para crescimento no LinkedIn com criação de conteúdo e agendamento.",
+    },
+    {
+        nome: "Cashew Research",
+        url: "https://www.cashewresearch.com/",
+        descricao: "Plataforma de pesquisa de mercado com IA para insights e análise de audiência.",
+    },
+    {
+        nome: "LLMs.txt Generator",
+        url: "https://llmstxtgenerator.cc/",
+        descricao: "Gerador de documentação estruturada para LLMs otimizar indexação e descoberta de conteúdo.",
+    },
+    {
+        nome: "Softr Workflows",
+        url: "https://www.softr.io/workflows",
+        descricao: "Crie automações e workflows sem código com IA integrada para marketing.",
+    },
 ];
 
 export const metadata = {
