@@ -21,6 +21,10 @@ const ferramentas = [
   { nome: "Better Dictation", url: "https://betterdictation.com/", descricao: "Ditado e transcrição aprimorados com inteligência artificial." },
   { nome: "Monologue", url: "https://www.monologue.to/", descricao: "Ferramenta de IA para transcrever monólogos e apresentações." },
   { nome: "Liquid AI LFM2 Audio", url: "https://www.liquid.ai/blog/lfm2-audio-an-end-to-end-audio-foundation-model", descricao: "Modelo de fundação de áudio end-to-end da Liquid AI para transcrição e análise." },
+  { nome: "Vidnoz Text to Speech", url: "https://pt.vidnoz.com/text-to-speech.html", descricao: "Conversor de texto em áudio com vozes realistas em português." },
+  { nome: "Sonix", url: "https://sonix.ai/pt", descricao: "Transcrição automática de áudio e vídeo em português com alta precisão." },
+  { nome: "Notta", url: "https://www.notta.ai/pl/landing-page/audio-to-text", descricao: "Converte áudio em texto rapidamente com IA avançada." },
+  { nome: "ScreenApp", url: "https://screenapp.io/pt/features/meeting-minutes-generator", descricao: "Gerador de atas de reunião a partir de áudio com IA." },
 ];
 
 export default function TranscreverAudio() {

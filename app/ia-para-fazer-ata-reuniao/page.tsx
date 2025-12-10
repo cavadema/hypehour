@@ -25,6 +25,7 @@ const ferramentas = [
   { nome: "Smartnoter", url: "https://smartnoter.ai/", descricao: "Aplicativo de IA para tomar notas em reuniões com organização automática." },
   { nome: "Cockatoo", url: "https://www.cockatoo.com/", descricao: "Plataforma IA para transcrever, traduzir e resumir reuniões." },
   { nome: "ClickMeeting", url: "https://clickmeeting.com/", descricao: "Plataforma de videoconferência com IA para gravação e resumo de reuniões." },
+  { nome: "ScreenApp", url: "https://screenapp.io/pt/features/meeting-minutes-generator", descricao: "Gerador de atas de reunião a partir de áudio com IA." },
 ];
 
 export default function IaParaFazerAtaReuniao() {
