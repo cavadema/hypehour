@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans -mt-20">
@@ -202,6 +202,47 @@ export default function Home() {
         <div className="mt-4 md:hidden">
           <a href="/transcrever-audio" className="text-black text-sm font-medium hover:underline">
             Ver todas as IA para transcrever áudio
+          </a>
+        </div>
+      </section>
+
+      {/* IA para Fazer Ata de Reunião */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <DocumentTextIcon className="w-6 h-6 text-gray-700" />
+            IA para Fazer Ata de Reunião
+          </h2>
+          <a href="/ia-para-fazer-ata-reuniao" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
+            Ver todas as IA para ata de reunião
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <DocumentTextIcon className="w-5 h-5" /> Fellow
+            </span>
+            <p className="text-zinc-700">Plataforma IA para gerenciar reuniões, criar atas e acompanhar ações automaticamente.</p>
+            <span className="text-xs text-zinc-500">Categoria: Ata de Reunião</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <DocumentTextIcon className="w-5 h-5" /> Reclaim
+            </span>
+            <p className="text-zinc-700">Assistente de IA para otimizar agenda e gerar resumos de reuniões.</p>
+            <span className="text-xs text-zinc-500">Categoria: Ata de Reunião</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <DocumentTextIcon className="w-5 h-5" /> tldv
+            </span>
+            <p className="text-zinc-700">Transcrição e resumo automático de reuniões com IA em português.</p>
+            <span className="text-xs text-zinc-500">Categoria: Ata de Reunião</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/ia-para-fazer-ata-reuniao" className="text-black text-sm font-medium hover:underline">
+            Ver todas as IA para ata de reunião
           </a>
         </div>
       </section>
