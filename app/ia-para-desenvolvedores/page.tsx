@@ -132,6 +132,11 @@ const ferramentas = [
     url: "https://workos.com/radar",
     descricao: "Plataforma em nuvem com IA para proteção em tempo real contra bots, fraudes e acessos suspeitos em autenticações SaaS.",
   },
+  {
+    nome: "Internet Backyard",
+    url: "https://www.internetbackyard.com/",
+    descricao: "Simplificar e modernizar fluxos financeiros (como cotação, cobrança e pagamentos) em ambientes de computação de alto desempenho.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {

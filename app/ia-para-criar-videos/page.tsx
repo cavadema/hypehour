@@ -118,6 +118,16 @@ const ferramentas = [
         url: "https://www.pippit.ai/pt-br",
         descricao: "Ferramenta de IA para criação e edição de vídeos curtos para redes sociais.",
     },
+    {
+        nome: "OpusClip",
+        url: "https://www.opus.pro/pt-br",
+        descricao: "Plataforma em nuvem com IA para transformar vídeos longos em clipes curtos virais e prontos para publicação em redes sociais.",
+    },
+    {
+        nome: "Filmora",
+        url: "https://filmora.wondershare.com.br/",
+        descricao: "Edição de vídeo fácil, rápida e profissional em qualquer dispositivo. Transforma ideias em vídeos de alta qualidade rapidamente.",
+    },
 ];
 
 export const metadata = {

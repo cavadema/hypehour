@@ -102,6 +102,11 @@ const ferramentas = [
     url: "https://higgsfield.ai/",
     descricao: "Plataforma de geração de imagens e vídeos com IA de alta qualidade.",
   },
+  {
+    nome: "Mosaic",
+    url: "https://www.topazlabs.com/mosaic",
+    descricao: "Usa inteligência artificial para trazer de volta detalhes, remover danos e dar nova vida a imagens antigas.",
+  },
 ];
 
 export const metadata = {
