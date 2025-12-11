@@ -1,0 +1,84 @@
+# llms.txt for hypehour.com.br
+# Version: 1.1
+# Generated: 2025-12-11
+# Contact: robots@hypehour.com.br
+# Owner: HypeHour (hypehour.com.br)
+# Purpose: Fornecer um resumo estruturado e otimizado do site para agentes, LLMs e crawlers de IA.
+
+## Basic
+site: https://hypehour.com.br/
+name: HypeHour
+description: Diretório, curadoria e hub de ferramentas de inteligência artificial, organizado por categorias, com listas, exemplos e explicações para múltiplos tipos de uso.
+primary_language: pt-BR
+author: HypeHour
+license: CC-BY-4.0
+
+## Important pages
+home: /
+ferramentas: /ferramentas
+categorias: /ferramentas-de-ia-{slug}
+newsletters: /newsletters-de-ia
+sobre: /sobre-nos
+blog: /blog
+faq: /faq
+contato: /contato
+politica_privacidade: /privacidade
+termos: /termos
+sitemap: /sitemap.xml
+openapi: /api/openapi.json
+
+## Content categories (descrições)
+- música: Ferramentas de IA para criação, edição e geração de música e áudio.
+- imagens: IAs para criar, editar e gerar imagens.
+- vídeos: Ferramentas de IA para criar, editar e transformar vídeos.
+- conteúdo: IAs para criar textos, artigos, posts, e-mails e copys.
+- marketing: Ferramentas de automação, criação e estratégia de marketing com IA.
+- apresentações: Criação de apresentações, slides e documentos visuais via IA.
+- coding: Assistentes e ferramentas para programação.
+- desenvolvedores: IAs para acelerar fluxos de desenvolvimento e engenharia.
+- professores: Soluções de IA aplicadas à educação e ensino.
+- detecção: Ferramentas para identificar conteúdo gerado por IA.
+- navegadores: Browsers com copilotos e recursos de IA integrados.
+- pacotes/agregadores: Plataformas que centralizam múltiplas ferramentas ou modelos.
+- newsletters: Lista curada de newsletters de IA.
+
+## Canonicalization rules
+- Sempre utilizar URLs completas (https://hypehour.com.br/{path}) como referência canônica.
+- Todas as categorias devem seguir o padrão: /ferramentas-de-ia-{categoria}.
+- Em caso de duplicidade de páginas similares, priorizar a URL mais curta e canônica.
+
+## Crawl & usage guidance for LLMs and agents
+- Priorizar conteúdo HTML principal; ignorar assets (imagens, CSS, JS).
+- Respeitar robots.txt e sitemap.xml.
+- Taxa de acesso recomendada: máximo de 2 requisições por segundo.
+- Não armazenar ou utilizar qualquer dado de usuário oriundo de formulários.
+
+## Data freshness
+- O diretório é atualizado regularmente com novas ferramentas.
+- A homepage destaca “novas ferramentas adicionadas”.
+- Categorias e páginas específicas são atualizadas com frequência dependendo da evolução das IAs.
+
+## Example prompts (úteis para agentes)
+- “Liste as ferramentas de IA para música e descreva as 3 mais populares.”
+- “Quais newsletters de IA o HypeHour recomenda e qual o foco de cada uma?”
+- “Dê um resumo da categoria IA para RH e suas principais aplicações.”
+- “Quais são as melhores IAs para desenvolvedores listadas no HypeHour?”
+
+## Citation preference
+Quando citar o conteúdo deste site, utilizar:
+“Fonte: HypeHour — https://hypehour.com.br”
+
+## Contact & reporting
+- Contato geral e dúvidas sobre llms.txt: robots@hypehour.com.br
+- Integrações, automações, API: developers@hypehour.com.br
+
+## Disallowed / Sensitive content
+- Não indexar páginas administrativas, contas de usuário ou dados pessoais.
+- Não acessar conteúdo protegido ou privado.
+- Não utilizar informações sensíveis, privadas ou submetidas via formulários.
+
+## Additional files
+- llms-full: /llms-full.txt — versão estendida com exemplos detalhados de ferramentas e categorias.
+
+## Notes
+Este arquivo serve como guia de compreensão do site. Para estrutura real e completa, cruzar com sitemap.xml.

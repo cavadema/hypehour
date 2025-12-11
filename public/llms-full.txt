@@ -1,0 +1,258 @@
+# llms-full.txt for hypehour.com.br
+# Version: 1.1 (FULL)
+# Generated: 2025-12-11
+# Contact: robots@hypehour.com.br
+# Purpose: Versão estendida do llms.txt com taxonomia completa, descrições expandidas e exemplos de ferramentas para uso de agentes e LLMs.
+
+################################################################################
+## 1. SITE & META
+################################################################################
+
+site: https://hypehour.com.br/
+name: HypeHour
+type: AI Tools Directory / Curadoria de Inteligência Artificial
+primary_language: pt-BR
+audience: Criadores, profissionais, empresas, estudantes, desenvolvedores
+update_frequency: Atualizações semanais de categorias e ferramentas
+
+mission: |
+  Facilitar a descoberta e comparação das melhores ferramentas de IA para todos
+  os segmentos: conteúdo, marketing, imagens, vídeos, música, RH, educação,
+  desenvolvimento, produtividade e mais.
+
+################################################################################
+## 2. PRINCIPAIS PÁGINAS
+################################################################################
+
+pages:
+  - / (home)
+  - /ferramentas
+  - /ferramentas-de-ia-{slug}
+  - /ia-para-{segmento}
+  - /newsletters-de-ia
+  - /modelos-de-llms
+  - /sobre-nos
+  - /privacidade
+  - /termos
+  - /blog
+  - /faq
+
+################################################################################
+## 3. CATEGORIAS (COM DESCRIÇÕES E EXEMPLOS)
+################################################################################
+
+categories:
+
+  música:
+    description: IA para gerar, editar e transformar música e áudio.
+    examples:
+      - Suno
+      - Udio
+      - Stable Audio
+      - AIVA
+      - ElevenLabs
+
+  imagens:
+    description: IA para geração de imagens, edição e criação visual.
+    examples:
+      - Midjourney
+      - DALL·E
+      - Stable Diffusion
+      - Leonardo AI
+      - Adobe Firefly
+
+  vídeos:
+    description: IA para criar vídeos, animar personagens e produzir cenas realistas.
+    examples:
+      - Google Veo
+      - Runway
+      - Pika
+      - Kling AI
+
+  conteúdo:
+    description: Ferramentas para criar artigos, posts, e-mails, blogs e copywriting.
+    examples:
+      - Jasper
+      - Copy.ai
+      - Contentor
+      - Frase
+      - Writer
+
+  marketing:
+    description: IA para automação, análise e criação de campanhas de marketing.
+    examples:
+      - Surfer SEO
+      - MarketMuse
+      - Ocoya
+      - Pictory
+      - Writesonic
+
+  apresentações:
+    description: Criação automática de slides, documentos e pitch decks.
+    examples:
+      - Gamma
+      - Tome
+      - Beautiful.ai
+      - Presentations.ai
+
+  desenvolvedores:
+    description: Ferramentas para geração de código, debugging, agentes e produtividade.
+    examples:
+      - GitHub Copilot
+      - Cursor
+      - Claude Code
+      - Windsurf
+      - Replit
+
+  professores:
+    description: IAs para criação de aulas, avaliações, materiais pedagógicos.
+    examples:
+      - Teachify
+      - QuestionWell
+      - MagicSchool
+      - Diffit
+
+  detecção:
+    description: Detectores de conteúdo gerado por IA.
+    examples:
+      - GPTZero
+      - ZeroGPT
+      - Winston AI
+      - Copyleaks
+
+  navegadores:
+    description: Browsers com copilotos e IA integrada.
+    examples:
+      - ChatGPT Atlas
+      - Perplexity Comet
+      - Opera One (Aria)
+      - Brave Leo
+
+  pacotes/agregadores:
+    description: Plataformas que reúnem várias IAs em um só lugar.
+    examples:
+      - Poe
+      - Adapta
+      - InnerAI
+      - OpenRouter
+      - AnythingLLM
+
+  newsletters:
+    description: Newsletters curadas sobre IA, tecnologia e modelos.
+    examples:
+      - The Rundown AI
+      - TLDR AI
+      - AIDrop
+      - Mindstream
+      - AI Breakfast
+
+################################################################################
+## 4. MODELOS DE LLMs (REFERÊNCIA)
+################################################################################
+
+llm_models:
+  - GPT-5.1 (OpenAI)
+  - GPT-4o (OpenAI)
+  - Claude 4 (Anthropic)
+  - Gemini 3 (Google)
+  - Grok 4.1 (xAI)
+  - Llama 3.2 (Meta)
+  - Qwen (Alibaba)
+  - DeepSeek V3 / R1
+  - Maritaca (Brasil)
+  - Manus (Brasil)
+  - Vick (Brasil)
+  - Mistral / LeChat
+  - Kimi (Moonshot)
+
+purpose:
+  - contextualizar agentes sobre quais modelos o site referencia
+  - facilitar menções corretas em respostas geradas por LLMs
+
+################################################################################
+## 5. ESTRUTURA DE NAVEGAÇÃO
+################################################################################
+
+navigation:
+  primary:
+    - Ferramentas
+    - Categorias
+    - Modelos de LLMs
+    - Newsletters
+    - Blog
+    - Sobre
+  secondary:
+    - Privacidade
+    - Termos
+    - Contato
+
+################################################################################
+## 6. ORIENTAÇÃO PARA AGENTES / CRAWLERS
+################################################################################
+
+guidelines:
+  crawling:
+    - priorizar conteúdo textual
+    - ignorar imagens, JS e CSS
+    - respeitar robots.txt
+    - limitar acessos a 2 req/s
+  usage:
+    - usar categorias como taxonomia principal
+    - citar fonte quando referenciar conteúdo
+
+################################################################################
+## 7. SCHEMAS & SEMÂNTICA DO SITE
+################################################################################
+
+schemas:
+  ferramenta:
+    fields:
+      - nome
+      - descrição
+      - categoria
+      - link
+      - idioma
+      - tipo_de_ia
+      - preço
+      - tags
+  categoria:
+    fields:
+      - slug
+      - nome
+      - descrição
+      - ferramentas_relacionadas
+
+################################################################################
+## 8. EXEMPLOS DE PROMPTS EXTENDIDOS
+################################################################################
+
+prompts:
+  - "Explique as 5 categorias mais populares do HypeHour com exemplos reais."
+  - "Sugira ferramentas de IA para conteúdo baseadas no diretório."
+  - "Compare IAs de vídeo listadas pelo HypeHour e seus principais diferenciais."
+  - "Liste as newsletters brasileiras sobre IA do site."
+  - "Quais modelos de linguagem são destacados no HypeHour?"
+
+################################################################################
+## 9. CONTEÚDO NÃO PERMITIDO
+################################################################################
+
+disallowed:
+  - dados pessoais
+  - páginas administrativas
+  - informação sensível
+  - dados enviados via formulário
+  - conteúdo protegido por login
+
+################################################################################
+## 10. CONTATOS
+################################################################################
+
+contacts:
+  llms: robots@hypehour.com.br
+  api: developers@hypehour.com.br
+  geral: contato@hypehour.com.br
+
+################################################################################
+## END OF FILE
+################################################################################
