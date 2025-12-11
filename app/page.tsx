@@ -247,6 +247,47 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Criação de Agentes de IA */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <GlobeAltIcon className="w-6 h-6 text-gray-700" />
+            Criação de Agentes de IA
+          </h2>
+          <a href="/criacao-agentes-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
+            Ver todas as IA para criação de agentes
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <GlobeAltIcon className="w-5 h-5" /> Incredible
+            </span>
+            <p className="text-zinc-700">Plataforma para criar agentes de IA com orquestração de fluxos.</p>
+            <span className="text-xs text-zinc-500">Categoria: Agentes</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <GlobeAltIcon className="w-5 h-5" /> Tate A Tate
+            </span>
+            <p className="text-zinc-700">Construa agentes conversacionais com recursos avançados.</p>
+            <span className="text-xs text-zinc-500">Categoria: Agentes</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <GlobeAltIcon className="w-5 h-5" /> Okareo
+            </span>
+            <p className="text-zinc-700">Teste e monitore agentes de IA em produção.</p>
+            <span className="text-xs text-zinc-500">Categoria: Agentes</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/criacao-agentes-ia" className="text-black text-sm font-medium hover:underline">
+            Ver todas as IA para criação de agentes
+          </a>
+        </div>
+      </section>
+
       {/* IA para Marketing */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">

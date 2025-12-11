@@ -34,6 +34,7 @@ export default function Header() {
               </button>
               <div className="absolute top-full right-0 w-56 bg-white shadow-lg rounded-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-zinc-100">
                 <Link href="/ia-para-vibe-coding" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Vibe Coding</Link>
+                <Link href="/criacao-agentes-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Criacao de Agentes</Link>
                 <Link href="/ia-para-desenvolvedores" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Desenvolvedores</Link>
                 <Link href="/ferramentas-de-ia-para-conteudo" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Conteúdo</Link>
                 <Link href="/ia-para-criar-apresentacoes" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Apresentações</Link>
@@ -70,6 +71,7 @@ export default function Header() {
 
                 <li className="border-t border-zinc-100 pt-2 mt-2 font-semibold text-zinc-400 text-sm">Outras IAs</li>
                 <li><Link href="/ia-para-vibe-coding" className="block py-2 pl-4" onClick={() => setOpen(false)}>Vibe Coding</Link></li>
+                <li><Link href="/criacao-agentes-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Criacao de Agentes</Link></li>
                 <li><Link href="/ia-para-desenvolvedores" className="block py-2 pl-4" onClick={() => setOpen(false)}>Desenvolvedores</Link></li>
                 <li><Link href="/ferramentas-de-ia-para-conteudo" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Conteúdo</Link></li>
                 <li><Link href="/ia-para-criar-apresentacoes" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Apresentações</Link></li>
