@@ -100,6 +100,7 @@ export default function RootLayout({
                 <li><a href="/ia-para-fazer-ata-reuniao" className="hover:underline">Ata de Reunião</a></li>
                 <li><a href="/criacao-agentes-ia" className="hover:underline">Criação de Agentes</a></li>
                 <li><a href="/assistentes-de-ia" className="hover:underline">Assistentes de IA</a></li>
+                <li><a href="/gerador-de-voz-ia" className="hover:underline">Gerador de Voz IA</a></li>
                 <li><a href="/pacotes-de-ferramentas-e-agregadores-ia" className="hover:underline">Agregadores de IA</a></li>
                 <li><a href="/ia-para-desenvolvedores" className="hover:underline">Desenvolvedores</a></li>
                 <li><Link href="/ferramentas-de-ia-para-conteudo" className="hover:underline">IA para Conteúdo</Link></li>

@@ -13,6 +13,47 @@ export default function Home() {
         <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-gray-100 rounded-full opacity-20 blur-2xl" />
       </section>
 
+      {/* Gerador de Voz com IA */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <GlobeAltIcon className="w-6 h-6 text-gray-700" />
+            Gerador de Voz com IA
+          </h2>
+          <a href="/gerador-de-voz-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
+            Ver todas as IA de voz
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <GlobeAltIcon className="w-5 h-5" /> Deevid
+            </span>
+            <p className="text-zinc-700">Geração de voz em português com alta naturalidade.</p>
+            <span className="text-xs text-zinc-500">Categoria: Voz IA</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <GlobeAltIcon className="w-5 h-5" /> Canva
+            </span>
+            <p className="text-zinc-700">Gerador de voz integrado ao editor Canva.</p>
+            <span className="text-xs text-zinc-500">Categoria: Voz IA</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <GlobeAltIcon className="w-5 h-5" /> ElevenLabs
+            </span>
+            <p className="text-zinc-700">Referência em TTS com vozes realistas e clonagem de voz.</p>
+            <span className="text-xs text-zinc-500">Categoria: Voz IA</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/gerador-de-voz-ia" className="text-black text-sm font-medium hover:underline">
+            Ver todas as IA de voz
+          </a>
+        </div>
+      </section>
+
       {/* Assistentes de IA e pessoais */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">
