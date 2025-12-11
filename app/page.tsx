@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans -mt-20">
@@ -11,6 +11,47 @@ export default function Home() {
         </p>
         <div className="absolute -top-10 -right-10 w-40 h-40 bg-gray-200 rounded-full opacity-30 blur-2xl" />
         <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-gray-100 rounded-full opacity-20 blur-2xl" />
+      </section>
+
+      {/* Assistentes de IA e pessoais */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <UserIcon className="w-6 h-6 text-gray-700" />
+            Assistentes de IA e pessoais
+          </h2>
+          <a href="/assistentes-de-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
+            Ver todas as IA assistentes
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <UserIcon className="w-5 h-5" /> Remio
+            </span>
+            <p className="text-zinc-700">Assistente de IA para organizar e automatizar tarefas.</p>
+            <span className="text-xs text-zinc-500">Categoria: Assistentes</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <UserIcon className="w-5 h-5" /> Yutori Scouts
+            </span>
+            <p className="text-zinc-700">Scouts/assistentes para busca e acompanhamento de tarefas.</p>
+            <span className="text-xs text-zinc-500">Categoria: Assistentes</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <UserIcon className="w-5 h-5" /> Huxe
+            </span>
+            <p className="text-zinc-700">Assistente pessoal com automações e integrações.</p>
+            <span className="text-xs text-zinc-500">Categoria: Assistentes</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/assistentes-de-ia" className="text-black text-sm font-medium hover:underline">
+            Ver todas as IA assistentes
+          </a>
+        </div>
       </section>
 
 
