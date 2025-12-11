@@ -127,6 +127,11 @@ const ferramentas = [
     url: "https://www.gmicloud.ai/",
     descricao: "Plataforma em nuvem com IA para gerenciamento e desenvolvimento de projetos.",
   },
+  {
+    nome: "WorkOS Radar",
+    url: "https://workos.com/radar",
+    descricao: "Plataforma em nuvem com IA para proteção em tempo real contra bots, fraudes e acessos suspeitos em autenticações SaaS.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {
