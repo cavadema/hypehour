@@ -63,6 +63,16 @@ const ferramentas = [
         url: "https://acestudio.ai/",
         descricao: "Estúdio de IA para criar vozes sintéticas realistas e personalizar tons de áudio.",
     },
+    {
+        nome: "Moises",
+        url: "https://studio.moises.ai/",
+        descricao: "Criação, edição e produção musical profissional diretamente no navegador, gerando e manipulando instrumentos e faixas com inteligência de contexto.",
+    },
+    {
+        nome: "Aiode",
+        url: "https://aiode.com/",
+        descricao: "Criar e controlar “músicos virtualizados” que ouvem, adaptam e tocam com sua música, exportando stems profissionais prontos para DAWs.",
+    },
 ];
 
 export const metadata = {

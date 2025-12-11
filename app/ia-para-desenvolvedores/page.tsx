@@ -142,6 +142,11 @@ const ferramentas = [
     url: "https://launch.coder.com/",
     descricao: "IDE na nuvem com IA para codificar, revisar e entregar software rápido.",
   },
+  {
+    nome: "AmpCode",
+    url: "https://ampcode.com/",
+    descricao: "Escrever, editar e executar código com autonomia, suporte a múltiplas linguagens e colaboração em equipe.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {
