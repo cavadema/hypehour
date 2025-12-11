@@ -34,6 +34,7 @@ const ferramentas = [
   { nome: "AppWizzy", url: "https://appwizzy.com/", descricao: "Plataforma de IA para criar aplicações web e mobile sem código rapidamente." },
   { nome: "Orchids", url: "https://www.orchids.app/", descricao: "Plataforma no/low-code para criar apps e fluxos com IA." },
   { nome: "Vibecode AI App Builder", url: "https://apps.apple.com/us/app/vibecode-ai-app-builder/id6742912146", descricao: "App builder móvel com geração assistida por IA." },
+  { nome: "Vybe build", url: "https://www.vybe.build/", descricao: "Apps internos seguros, criados por IA em segundos, com seus dados." },
 ];
 
 export default function IaParaVibeCoding() {

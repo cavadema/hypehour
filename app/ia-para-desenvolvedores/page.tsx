@@ -137,6 +137,11 @@ const ferramentas = [
     url: "https://www.internetbackyard.com/",
     descricao: "Simplificar e modernizar fluxos financeiros (como cotação, cobrança e pagamentos) em ambientes de computação de alto desempenho.",
   },
+  {
+    nome: "Coder",
+    url: "https://launch.coder.com/",
+    descricao: "IDE na nuvem com IA para codificar, revisar e entregar software rápido.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {

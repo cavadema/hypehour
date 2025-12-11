@@ -47,6 +47,11 @@ const ferramentas = [
         url: "https://www.chatbetter.com/",
         descricao: "Acesse todos os principais modelos de IA em um único chat com seleção automática do melhor modelo.",
     },
+    {
+        nome: "AiChat",
+        url: "https://aichat.fm/",
+        descricao: "várias IAs em um só app, com privacidade, personalização e preço único.",
+    },
 ];
 
 export const metadata = {

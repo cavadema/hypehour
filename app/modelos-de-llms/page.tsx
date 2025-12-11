@@ -87,6 +87,11 @@ const modelos = [
     url: "https://tongyi.aliyun.com/",
     descricao: "Modelo de linguagem da Alibaba Cloud para aplicações empresariais e conversacionais.",
   },
+  {
+    nome: "SoberanIA",
+    url: "https://soberania.ai/",
+    descricao: "Governança de dados e IA com residência, políticas, auditoria e gestão de modelos.",
+  },
 ];
 
 export const metadata = {

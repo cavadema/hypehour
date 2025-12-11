@@ -68,6 +68,11 @@ const ferramentas = [
     url: "https://www.learn.earth/pt-BR",
     descricao: "Plataforma de aprendizado adaptativo IA-primeiro com trilhas personalizadas e prática interativa.",
   },
+  {
+    nome: "Oboe",
+    url: "https://oboe.com/",
+    descricao: "IA para criar cursos personalizados e interativos que ajudam você a aprender qualquer tema de forma envolvente e adaptada ao seu estilo.",
+  },
 ];
 
 export const metadata = {
