@@ -757,34 +757,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Goose AI</span>
-            <p className="text-zinc-700">Assistente de desenvolvimento que roda localmente no terminal para automação de tarefas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 10/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> WorkOS Radar</span>
+            <p className="text-zinc-700">Proteção em tempo real contra bots, fraudes e acessos suspeitos em autenticações SaaS</p>
+            <span className="text-xs text-zinc-500">Adicionada em 11/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Agno</span>
-            <p className="text-zinc-700">Agente de IA autônomo que executa tarefas complexas de desenvolvimento e automação.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 10/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Coder</span>
+            <p className="text-zinc-700">IDE na nuvem com IA para codificar, revisar e entregar software rápido.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 11/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Cashew Research</span>
-            <p className="text-zinc-700">Plataforma de pesquisa de mercado e análise de dados com inteligência artificial.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 10/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> OpusClip</span>
+            <p className="text-zinc-700">Transforme vídeos longos em clipes curtos virais e prontos para publicação em redes sociais.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 11/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Taplio</span>
-            <p className="text-zinc-700">Ferramenta de crescimento no LinkedIn com geração de conteúdo e agendamento por IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 10/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Filmora</span>
+            <p className="text-zinc-700">Transforma ideias em vídeos de alta qualidade rapidamente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 11/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> LLMs Generator</span>
-            <p className="text-zinc-700">Gerador de conteúdo especializado usando múltiplos modelos de linguagem.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 10/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Mosaic</span>
+            <p className="text-zinc-700">Traz de volta detalhes, remover danos e dar nova vida a imagens antigas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 11/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Orca</span>
-            <p className="text-zinc-700">Motor de IA para criação de jogos com ferramentas visuais e geração assistida.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 10/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> AiChat</span>
+            <p className="text-zinc-700">várias IAs em um só app, com privacidade, personalização e preço único.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 11/12/2024</span>
           </div>
         </div>
       </section>
