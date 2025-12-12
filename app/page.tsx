@@ -880,34 +880,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> WorkOS Radar</span>
-            <p className="text-zinc-700">Proteção em tempo real contra bots, fraudes e acessos suspeitos em autenticações SaaS</p>
-            <span className="text-xs text-zinc-500">Adicionada em 11/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Privacy Shield</span>
+            <p className="text-zinc-700">Proteger sua privacidade ao usar assistentes de IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 12/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Coder</span>
-            <p className="text-zinc-700">IDE na nuvem com IA para codificar, revisar e entregar software rápido.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 11/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Agentio</span>
+            <p className="text-zinc-700">Campanhas de publicidade com criadores de conteúdo de forma rápida.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 12/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> OpusClip</span>
-            <p className="text-zinc-700">Transforme vídeos longos em clipes curtos virais e prontos para publicação em redes sociais.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 11/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Profound</span>
+            <p className="text-zinc-700">Monitorar e otimizar sua marca em respostas geradas por IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 12/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Filmora</span>
-            <p className="text-zinc-700">Transforma ideias em vídeos de alta qualidade rapidamente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 11/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> SanaLabs</span>
+            <p className="text-zinc-700">Extraia aquele documento de preços do Drive, analise os dados, gere uma apresentação.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 12/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Mosaic</span>
-            <p className="text-zinc-700">Traz de volta detalhes, remover danos e dar nova vida a imagens antigas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 11/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Google Disco</span>
+            <p className="text-zinc-700">Transforma guias abertas em aplicativos da web leves, sugerindo ferramentas interativas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 12/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> AiChat</span>
-            <p className="text-zinc-700">várias IAs em um só app, com privacidade, personalização e preço único.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 11/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Dex</span>
+            <p className="text-zinc-700">Transforma seu navegador em um único espaço de trabalho com IA que memoriza suas abas, tarefas e contexto.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 12/12/2024</span>
           </div>
         </div>
       </section>
