@@ -147,6 +147,11 @@ const ferramentas = [
     url: "https://ampcode.com/",
     descricao: "Escrever, editar e executar código com autonomia, suporte a múltiplas linguagens e colaboração em equipe.",
   },
+  {
+    nome: "Privacy Shield",
+    url: "https://github.com/privacyshield-ai/privacy-firewall",
+    descricao: "Proteger sua privacidade ao usar assistentes de IA, bloqueando automaticamente dados sensíveis e segredos antes que sejam enviados.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {

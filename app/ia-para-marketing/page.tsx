@@ -58,11 +58,6 @@ const ferramentas = [
         descricao: "Crie, agende e analise conteúdo para redes sociais com ajuda de inteligência artificial.",
     },
     {
-        nome: "Searchfy",
-        url: "https://searchfy.com.br/",
-        descricao: "Ferramenta de IA para SEO e otimização de conteúdo.",
-    },
-    {
         nome: "Pixelesq",
         url: "https://www.pixelesq.com/",
         descricao: "Plataforma de marketing digital com IA para criação e gestão de campanhas.",
@@ -153,7 +148,7 @@ const ferramentas = [
         descricao: "Crie automações e workflows sem código com IA integrada para marketing.",
     },
     {
-        nome: "TryNormal",
+        nome: "Normal",
         url: "https://www.trynormal.ai/",
         descricao: "Plataforma de IA para criar chatbots e assistentes de marketing conversacionais.",
     },
@@ -161,6 +156,21 @@ const ferramentas = [
         nome: "Bloom",
         url: "https://www.trybloom.ai/",
         descricao: "Ferramenta de IA para personalização de conteúdo e automação de marketing.",
+    },
+    {
+        nome: "Adomni",
+        url: "https://www.adomni.com/",
+        descricao: "Gerar estratégias para OOH, recomendar inventário ideal, alocar orçamento e automatizar a criação de campanhas em poucos minutos",
+    },
+    {
+        nome: "Agentio",
+        url: "https://www.agentio.com/",
+        descricao: "Automatizar, medir e escalar campanhas de publicidade com criadores de conteúdo de forma rápida e eficiente.",
+    },
+    {
+        nome: "Profound",
+        url: "https://tryprofound.com/",
+        descricao: "Monitorar, otimizar e ampliar a visibilidade da sua marca em mecanismos de busca e respostas geradas por IA.",
     },
 ];
 

@@ -19,6 +19,11 @@ const ferramentas = [
         descricao: "Ferramenta poderosa para criar vídeos realistas com movimentos complexos.",
     },
     {
+        nome: "Sora",
+        url: "https://openai.com/pt-BR/sora/",
+        descricao: "Gerar vídeos a partir de instruções (prompts) textuais ou visuais com estilos variados — desde cenas cinematográficas até animações e composições realistas — incluindo automaticamente som e efeitos.",
+    },
+    {
         nome: "InVideo",
         url: "https://invideo.io/pt/criar/ai-video-generator/",
         descricao: "Crie vídeos profissionais a partir de prompts de texto, ideal para marketing e social media.",

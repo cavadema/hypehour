@@ -14,6 +14,13 @@ const ferramentas = [
   { nome: "OpenScouts", url: "https://openscouts.firecrawl.dev/", descricao: "Projeto open-source para scouts/assistentes com crawling e ações." },
   { nome: "Kortex", url: "https://yaksh1.github.io/Kortex-Landing-Page", descricao: "Assistente de IA com memória e execução de tarefas complexas." },
   { nome: "Integrity", url: "https://integrity.sh/", descricao: "Assistente focado em segurança e confiabilidade para fluxos profissionais." },
+  { nome: "SanaLabs", url: "https://sanalabs.com/agent-platform-overview", descricao: "Extraia aquele documento de preços do Drive, analise os dados nele contidos, gere uma apresentação com as informações e atualize seu CRM — tudo a partir de um único comando em mais de 100 ferramentas." },
+  { nome: "Google Disco", url: "https://labs.google/disco", descricao: "Experimento do Chrome baseado no Gemini que transforma suas guias abertas em aplicativos da web leves chamados GenTabs, sugerindo ferramentas interativas com base no que você está navegando e permitindo que você crie aplicativos personalizados com instruções em linguagem simples." },
+  { nome: "CoHere", url: "https://cohere.com/products", descricao: "Reordena seus resultados de pesquisa para exibir primeiro os documentos mais relevantes, funcionando em mais de 100 idiomas e com dados complexos como e-mails, tabelas, JSON e código." },
+  { nome: "ClickUp v4", url: "https://clickup.com/v4", descricao: "Reúne seus projetos, chats, documentos, automações e o assistente de IA Brain em um único espaço de trabalho convergente, permitindo que você peça ao @Brain para responder perguntas, agendar tarefas e ativar agentes." },
+  { nome: "Dex", url: "https://www.joindex.com/", descricao: "Transforma seu navegador Chrome em um único espaço de trabalho com IA que memoriza suas abas, tarefas e contexto, permitindo que você alterne entre pesquisa, planejamento e execução." },
+  { nome: "Glady", url: "https://www.gladly.ai/hp1/", descricao: "Transforma o atendimento ao cliente em suporte inteligente, automatizado e personalizado em todos os canais." },
+  { nome: "Darwin", url: "https://www.getdarwin.ai/pt", descricao: "Criar funcionários-IA que respondem clientes em canais como WhatsApp, Instagram e ligações, qualificam leads, atualizam CRMs, etc." },
 ];
 
 export default function AssistentesDeIA() {
