@@ -32,6 +32,7 @@ const ferramentas = [
   { nome: "Veed", url: "https://www.veed.io/pt-BR/ferramentas/video-de-texto-para-fala/gerador-de-voz-ia", descricao: "Gerador de voz IA para vídeos no VEED." },
   { nome: "Amazon Polly", url: "https://aws.amazon.com/pt/polly/", descricao: "Serviço TTS da AWS com vozes em português." },
   { nome: "SpeechGen", url: "https://speechgen.io/pt/", descricao: "Conversor de texto para fala com IA e vozes naturais." },
+  { nome: "WeVoicer", url: "https://wevoicer.com/", descricao: "Narração em IA com vozes naturais e personalizáveis para projetos audiovisuais." },
 ];
 
 export default function GeradorDeVozIA() {

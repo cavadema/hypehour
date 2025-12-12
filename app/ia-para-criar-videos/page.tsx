@@ -133,6 +133,16 @@ const ferramentas = [
         url: "https://filmora.wondershare.com.br/",
         descricao: "Edição de vídeo fácil, rápida e profissional em qualquer dispositivo. Transforma ideias em vídeos de alta qualidade rapidamente.",
     },
+    {
+        nome: "Xpression camera",
+        url: "https://xpressioncamera.com/",
+        descricao: "Câmera virtual com IA que anima qualquer foto em tempo real para vídeo e streaming.",
+    },
+    {
+        nome: "Pollo",
+        url: "https://pollo.ai/ ",
+        descricao: "IA em nuvem para gerar vídeos e imagens impressionantes a partir de texto ou fotos.",
+    },
 ];
 
 export const metadata = {

@@ -107,6 +107,11 @@ const ferramentas = [
     url: "https://www.topazlabs.com/mosaic",
     descricao: "Usa inteligência artificial para trazer de volta detalhes, remover danos e dar nova vida a imagens antigas.",
   },
+  {
+    nome: "Unicorn Studio",
+    url: "https://www.unicorn.studio/",
+    descricao: "“Crie efeitos WebGL e experiências visuais interativas sem código para sites.",
+  },
 ];
 
 export const metadata = {

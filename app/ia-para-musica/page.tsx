@@ -73,6 +73,11 @@ const ferramentas = [
         url: "https://aiode.com/",
         descricao: "Criar e controlar “músicos virtualizados” que ouvem, adaptam e tocam com sua música, exportando stems profissionais prontos para DAWs.",
     },
+    {
+        nome: "Minimax Audio",
+        url: "https://www.minimax.io/audio",
+        descricao: "IA em nuvem para gerar vozes ultra-realistas e clonagem de áudio natural.",
+    },
 ];
 
 export const metadata = {

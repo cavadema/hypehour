@@ -152,6 +152,11 @@ const ferramentas = [
     url: "https://github.com/privacyshield-ai/privacy-firewall",
     descricao: "Proteger sua privacidade ao usar assistentes de IA, bloqueando automaticamente dados sensíveis e segredos antes que sejam enviados.",
   },
+  {
+    nome: "Context7",
+    url: "https://context7.com/",
+    descricao: "IA em nuvem que fornece documentação de código atualizada para assistentes de dev com LLMs.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {
