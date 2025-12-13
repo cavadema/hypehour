@@ -110,7 +110,7 @@ const ferramentas = [
   {
     nome: "Unicorn Studio",
     url: "https://www.unicorn.studio/",
-    descricao: "“Crie efeitos WebGL e experiências visuais interativas sem código para sites.",
+    descricao: "Crie efeitos WebGL e experiências visuais interativas sem código para sites.",
   },
 ];
 

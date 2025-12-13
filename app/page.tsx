@@ -778,9 +778,9 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> GPT-5.1</span>
-            <p className="text-zinc-700">Nova geração da OpenAI com raciocínio variável e velocidade otimizada.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Nov/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> GPT-5.2</span>
+            <p className="text-zinc-700">Modelo multimodal avançado da OpenAI para raciocínio, código e criação pro.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Dez/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Gemini 3.0</span>
@@ -880,34 +880,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Privacy Shield</span>
-            <p className="text-zinc-700">Proteger sua privacidade ao usar assistentes de IA.</p>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> We Voicer</span>
+            <p className="text-zinc-700">Narração em IA com vozes naturais e personalizáveis para projetos audiovisuais.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 13/12/2024</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MusicalNoteIcon className="w-5 h-5" /> Minimax Audio</span>
+            <p className="text-zinc-700">IA em nuvem para gerar vozes ultra-realistas e clonagem de áudio natural.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 13/12/2024</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Context7</span>
+            <p className="text-zinc-700">IA em nuvem que fornece documentação de código atualizada para assistentes de dev com LLMs.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 13/12/2024</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Unicorn Studio</span>
+            <p className="text-zinc-700">Crie efeitos WebGL e experiências visuais interativas sem código para sites.</p>
             <span className="text-xs text-zinc-500">Adicionada em 12/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Agentio</span>
-            <p className="text-zinc-700">Campanhas de publicidade com criadores de conteúdo de forma rápida.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 12/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Xpression Camera</span>
+            <p className="text-zinc-700">Câmera virtual com IA que anima qualquer foto em tempo real para vídeo e streaming.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 13/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Profound</span>
-            <p className="text-zinc-700">Monitorar e otimizar sua marca em respostas geradas por IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 12/12/2024</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> SanaLabs</span>
-            <p className="text-zinc-700">Extraia aquele documento de preços do Drive, analise os dados, gere uma apresentação.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 12/12/2024</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Google Disco</span>
-            <p className="text-zinc-700">Transforma guias abertas em aplicativos da web leves, sugerindo ferramentas interativas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 12/12/2024</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Dex</span>
-            <p className="text-zinc-700">Transforma seu navegador em um único espaço de trabalho com IA que memoriza suas abas, tarefas e contexto.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 12/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Pollo</span>
+            <p className="text-zinc-700">IA em nuvem para gerar vídeos e imagens impressionantes a partir de texto ou fotos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 13/12/2024</span>
           </div>
         </div>
       </section>
