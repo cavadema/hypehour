@@ -112,6 +112,16 @@ const ferramentas = [
     url: "https://www.unicorn.studio/",
     descricao: "Crie efeitos WebGL e experiências visuais interativas sem código para sites.",
   },
+  {
+    nome: "Photo Genius",
+    url: "https://www.genspark.ai/photo_genius",
+    descricao: "Ferramenta com IA para gerar e aprimorar fotos criativas com ajustes inteligentes.",
+  },
+    {
+    nome: "Krea",
+    url: "https://www.krea.ai/",
+    descricao: "Plataforma com IA para criar e explorar imagens geradas por IA em comunidade colaborativa.",
+  },
 ];
 
 export const metadata = {

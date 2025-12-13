@@ -897,7 +897,7 @@ export default function Home() {
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Unicorn Studio</span>
             <p className="text-zinc-700">Crie efeitos WebGL e experiências visuais interativas sem código para sites.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 12/12/2024</span>
+            <span className="text-xs text-zinc-500">Adicionada em 13/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Xpression Camera</span>

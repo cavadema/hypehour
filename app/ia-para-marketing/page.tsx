@@ -172,6 +172,36 @@ const ferramentas = [
         url: "https://tryprofound.com/",
         descricao: "Monitorar, otimizar e ampliar a visibilidade da sua marca em mecanismos de busca e respostas geradas por IA.",
     },
+    {
+        nome: "Rovo Atlasian",
+        url: "https://www.atlassian.com/software/rovo",
+        descricao: "Conecta equipes, conhecimento e ferramentas para que você possa agir com mais rapidez e trabalhar de forma mais inteligente.",
+    },
+    {
+        nome: "Meet Maia",
+        url: "https://www.matillion.com/maia",
+        descricao: "Uma IA como equipe de dados assertivos, para reduzir o trabalho manual em 90%, lançar iniciativas 10 vezes mais rápidas.",
+    },
+    {
+        nome: "Sim Gym Shopify",
+        url: "https://apps.shopify.com/simgym",
+        descricao: "Simule o comportamento do clientes com compradores de IA.",
+    },
+    {
+        nome: "Zetta",
+        url: "https://zettadata.ai/",
+        descricao: "IA em nuvem para análise avançada, governança e monetização de dados empresariais.",
+    },
+    {
+        nome: "Virlo",
+        url: "https://virlo.ai/",
+        descricao: "Plataforma com IA que detecta tendências e nichos virais para vídeos curtos.",
+    },
+    {
+        nome: "Ahrefs",
+        url: "https://ahrefs.com/ai",
+        descricao: "Ferramentas de IA para SEO que aceleram pesquisa, escrita e otimização de conteúdo.",
+    },
 ];
 
 export const metadata = {

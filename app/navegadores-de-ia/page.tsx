@@ -42,6 +42,11 @@ const navegadores = [
     url: "https://brave.com/leo/",
     descricao: "Experiência do Brave com o Leo, chatbot que responde sobre qualquer página aberta.",
   },
+  {
+    nome: "Google Disco",
+    url: "https://labs.google/disco/",
+    descricao: "Navegador experimental com IA que cria apps interativos a partir de suas abas.",
+  },
 ];
 
 export const metadata = {

@@ -63,6 +63,11 @@ const ferramentas = [
         url: "https://www.jusprompt.plus/",
         descricao: "Assistente jurídico com IA para petições e pesquisas legais.",
     },
+    {
+        nome: "Legal Robot",
+        url: "https://legalrobot.com/",
+        descricao: "Plataforma com IA para analisar contratos, riscos legais e conformidade.",
+    },
 ];
 
 export const metadata = {

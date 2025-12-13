@@ -21,6 +21,7 @@ const ferramentas = [
   { nome: "Dex", url: "https://www.joindex.com/", descricao: "Transforma seu navegador Chrome em um único espaço de trabalho com IA que memoriza suas abas, tarefas e contexto, permitindo que você alterne entre pesquisa, planejamento e execução." },
   { nome: "Glady", url: "https://www.gladly.ai/hp1/", descricao: "Transforma o atendimento ao cliente em suporte inteligente, automatizado e personalizado em todos os canais." },
   { nome: "Darwin", url: "https://www.getdarwin.ai/pt", descricao: "Criar funcionários-IA que respondem clientes em canais como WhatsApp, Instagram e ligações, qualificam leads, atualizam CRMs, etc." },
+  { nome: "Rovo Atlasian", url: "https://www.atlassian.com/software/rovo", descricao: "Conecta equipes, conhecimento e ferramentas para que você possa agir com mais rapidez e trabalhar de forma mais inteligente."},
 ];
 
 export default function AssistentesDeIA() {

@@ -14,6 +14,9 @@ const ferramentas = [
   { nome: "Tate A Tate", url: "https://www.tate-a-tate.com/", descricao: "Construa agentes conversacionais com recursos avançados." },
   { nome: "Okareo", url: "https://okareo.com/", descricao: "Teste e monitore agentes de IA em produção." },
   { nome: "TangleML", url: "https://tangleml.com/", descricao: "Framework para agentes com controle de ferramentas e memória." },
+  { nome: "Merge Agent handler", url: "https://www.merge.dev/products/merge-agent-handler/", descricao: "Plataforma com IA para criar agentes que gerenciam integrações e APIs automaticamente." },
+  { nome: "Verdent", url: "https://www.verdent.ai/", descricao: "Plataforma com IA para gerar insights e otimizar processos agrícolas com dados em tempo real." },
+
 ];
 
 export default function CriacaoAgentesIA() {

@@ -113,6 +113,11 @@ const ferramentas = [
     url: "https://brandwell.ai/",
     descricao: "Gere posts de blog longos, indetectáveis e otimizados para SEO em escala.",
   },
+  {
+    nome: "Ahrefs",
+    url: "https://ahrefs.com/ai",
+    descricao: "Ferramentas de IA para SEO que aceleram pesquisa, escrita e otimização de conteúdo.",
+  },
 ];
 
 export const metadata = {

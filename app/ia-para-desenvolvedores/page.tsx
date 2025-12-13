@@ -157,6 +157,26 @@ const ferramentas = [
     url: "https://context7.com/",
     descricao: "IA em nuvem que fornece documentação de código atualizada para assistentes de dev com LLMs.",
   },
+  {
+    nome: "Augment Code Review",
+    url: "https://www.augmentcode.com/product/code-review",
+    descricao: "Plataforma com IA para revisão automática de código, qualidade e segurança.",
+  },
+  {
+    nome: "Deer flow",
+    url: "https://github.com/bytedance/deer-flow",
+    descricao: "Framework open-source de IA para pesquisa profunda automatizada com agentes e busca.",
+  },
+  {
+    nome: "Thesys",
+    url: "https://www.thesys.dev/",
+    descricao: "Plataforma com IA para documentar, visualizar e entender sistemas complexos de software.",
+  },
+  {
+    nome: "Beam Game",
+    url: "https://site.beam.game/",
+    descricao: "Plataforma com IA que transforma ideias em jogos interativos em minutos.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {
