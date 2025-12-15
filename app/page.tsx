@@ -880,34 +880,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Zetta</span>
-            <p className="text-zinc-700">IA em nuvem para análise avançada, governança e monetização de dados empresariais.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 14/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Basedash</span>
+            <p className="text-zinc-700">Interface moderna para explorar, editar e compartilhar bancos de dados com facilidade.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 15/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Cartesia</span>
-            <p className="text-zinc-700">Agentes de voz com IA que podem atender chamadas, receber pedidos .</p>
-            <span className="text-xs text-zinc-500">Adicionada em 14/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Brain grid </span>
+            <p className="text-zinc-700">Soluções de IA empresarial para análise, automação e tomada de decisão inteligente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 15/12/2024</span>
+          </div>
+            <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Roboflow </span>
+            <p className="text-zinc-700">Ambiente rápido para treinar, testar e implantar modelos de visão computacional.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 15/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Augment code review </span>
-            <p className="text-zinc-700">Plataforma com IA para revisão automática de código, qualidade e segurança.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 14/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Work Trace </span>
+            <p className="text-zinc-700">IA que monitora produtividade e atividades para insights inteligentes em equipes.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 15/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Merge agent handler</span>
-            <p className="text-zinc-700">Criar agentes que gerenciam integrações e APIs automaticamente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 14/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> LTX Studio</span>
+            <p className="text-zinc-700">Estúdio criativo com IA para gerar vídeos cinematográficos a partir de texto.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 15/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Krea</span>
-            <p className="text-zinc-700">criar e explorar imagens geradas por IA em comunidade colaborativa.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 14/12/2024</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Legal Robot</span>
-            <p className="text-zinc-700">Plataforma com IA para analisar contratos, riscos legais e conformidade.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 14/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Marble</span>
+            <p className="text-zinc-700">Crie agentes conversacionais personalizados que automatizam tarefas e suporte inteligente. </p>
+            <span className="text-xs text-zinc-500">Adicionada em 15/12/2024</span>
           </div>
         </div>
       </section>

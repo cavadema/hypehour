@@ -177,6 +177,11 @@ const ferramentas = [
     url: "https://site.beam.game/",
     descricao: "Plataforma com IA que transforma ideias em jogos interativos em minutos.",
   },
+    {
+    nome: "Rapid Roboflow",
+    url: "https://rapid.roboflow.com/",
+    descricao: "Ambiente rápido para treinar, testar e implantar modelos de visão computacional.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {

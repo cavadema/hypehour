@@ -143,6 +143,11 @@ const ferramentas = [
         url: "https://pollo.ai/ ",
         descricao: "IA em nuvem para gerar vídeos e imagens impressionantes a partir de texto ou fotos.",
     },
+    {
+        nome: "LTX studio",
+        url: "https://ltx.studio/",
+        descricao: "Estúdio criativo com IA para gerar vídeos cinematográficos a partir de texto.",
+    },
 ];
 
 export const metadata = {

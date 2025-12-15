@@ -118,6 +118,11 @@ const ferramentas = [
     url: "https://ahrefs.com/ai",
     descricao: "Ferramentas de IA para SEO que aceleram pesquisa, escrita e otimização de conteúdo.",
   },
+  {
+    nome: "My AI Ninja",
+    url: "https://www.myaininja.com/",
+    descricao: "Assistente inteligente que cria automações e agentes de IA sem código.",
+  },
 ];
 
 export const metadata = {

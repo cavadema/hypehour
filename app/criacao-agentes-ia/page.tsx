@@ -16,7 +16,8 @@ const ferramentas = [
   { nome: "TangleML", url: "https://tangleml.com/", descricao: "Framework para agentes com controle de ferramentas e memória." },
   { nome: "Merge Agent handler", url: "https://www.merge.dev/products/merge-agent-handler/", descricao: "Plataforma com IA para criar agentes que gerenciam integrações e APIs automaticamente." },
   { nome: "Verdent", url: "https://www.verdent.ai/", descricao: "Plataforma com IA para gerar insights e otimizar processos agrícolas com dados em tempo real." },
-
+  { nome: "Marble", url: "https://marble.ai/", descricao: "Crie agentes conversacionais personalizados que automatizam tarefas e suporte inteligente." },
+  { nome: "MyClone", url: "https://www.myclone.is/", descricao: "Crie clones digitais realistas com IA para vídeos, voz e interações personalizadas." },
 ];
 
 export default function CriacaoAgentesIA() {

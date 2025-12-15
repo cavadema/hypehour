@@ -202,6 +202,11 @@ const ferramentas = [
         url: "https://ahrefs.com/ai",
         descricao: "Ferramentas de IA para SEO que aceleram pesquisa, escrita e otimização de conteúdo.",
     },
+    {
+        nome: "Basedash",
+        url: "https://www.basedash.com/",
+        descricao: "Interface moderna para explorar, editar e compartilhar bancos de dados com facilidade.",
+    },
 ];
 
 export const metadata = {

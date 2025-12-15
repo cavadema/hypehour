@@ -73,6 +73,11 @@ const ferramentas = [
     url: "https://oboe.com/",
     descricao: "IA para criar cursos personalizados e interativos que ajudam você a aprender qualquer tema de forma envolvente e adaptada ao seu estilo.",
   },
+  {
+    nome: "Mathify",
+    url: "https://mathify.dev/",
+    descricao: "Ferramenta com IA para resolver, explicar e aprender matemática passo a passo.",
+  },
 ];
 
 export const metadata = {

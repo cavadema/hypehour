@@ -36,6 +36,8 @@ const ferramentas = [
   { nome: "Vibecode AI App Builder", url: "https://apps.apple.com/us/app/vibecode-ai-app-builder/id6742912146", descricao: "App builder móvel com geração assistida por IA." },
   { nome: "Vybe build", url: "https://www.vybe.build/", descricao: "Apps internos seguros, criados por IA em segundos, com seus dados." },
   { nome: "Beam Game", url: "https://site.beam.game/", descricao: "Plataforma com IA que transforma ideias em jogos interativos em minutos." },
+  { nome: "Fei studio", url: "https://autonomyai.io/products/fei-studio/", descricao: "Estúdio com IA para criar agentes visuais interativos e experiências digitais autônomas." },
+  { nome: "BrainGrid", url: "https://www.braingrid.ai/", descricao: "Soluções de IA empresarial para análise, automação e tomada de decisão inteligente." },
 ];
 
 export default function IaParaVibeCoding() {
