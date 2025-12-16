@@ -177,10 +177,45 @@ const ferramentas = [
     url: "https://site.beam.game/",
     descricao: "Plataforma com IA que transforma ideias em jogos interativos em minutos.",
   },
-    {
+  {
     nome: "Rapid Roboflow",
     url: "https://rapid.roboflow.com/",
     descricao: "Ambiente rápido para treinar, testar e implantar modelos de visão computacional.",
+  },
+  {
+    nome: "Tinker",
+    url: "https://thinkingmachines.ai/tinker/",
+    descricao: "Ambiente experimental para prototipar e testar agentes e fluxos de IA avançados.",
+  },
+  {
+    nome: "Kimi K2 Thinking",
+    url: "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+    descricao: "Modelo open-source de IA agentiva com raciocínio profundo e uso de ferramentas.",
+  },
+  {
+    nome: "SkyRL tx",
+    url: "https://github.com/NovaSky-AI/SkyRL/tree/main/skyrl-tx",
+    descricao: "Framework open-source para reforço de linguagem com IA e aprendizado contínuo.",
+  },
+  {
+    nome: "Reducto",
+    url: "https://reducto.ai/",
+    descricao: "IA que resume e destaca rapidamente pontos-chave de reuniões e vídeos.",
+  },
+  {
+    nome: "You.com",
+    url: "https://about.you.com/",
+    descricao: "Assistente de busca com IA que responde perguntas e gera conteúdo personalizado.",
+  },
+  {
+    nome: "Hyperlink",
+    url: "https://hyperlink.nexa.ai/",
+    descricao: "IA que transforma links e uploads em respostas claras e pesquisáveis.",
+  },
+  {
+    nome: "LongCat-Image",
+    url: "https://github.com/meituan-longcat/LongCat-Image",
+    descricao: "Projeto open-source de IA para processamento avançado de imagens com aprendizado profundo.",
   },
 ];
 

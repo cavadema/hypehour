@@ -207,6 +207,16 @@ const ferramentas = [
         url: "https://www.basedash.com/",
         descricao: "Interface moderna para explorar, editar e compartilhar bancos de dados com facilidade.",
     },
+    {
+        nome: "Shortcut",
+        url: "https://www.tryshortcut.ai/",
+        descricao: "Automatiza tarefas de Excel/Sheets com IA, gerando fórmulas e análises.",
+    },
+    {
+        nome: "Korgi Board",
+        url: "https://www.korgiboard.com/",
+        descricao: "Painel inteligente para organizar, priorizar e executar tarefas com foco e clareza.",
+    },
 ];
 
 export const metadata = {

@@ -33,7 +33,9 @@ const ferramentas = [
   { nome: "Amazon Polly", url: "https://aws.amazon.com/pt/polly/", descricao: "Serviço TTS da AWS com vozes em português." },
   { nome: "SpeechGen", url: "https://speechgen.io/pt/", descricao: "Conversor de texto para fala com IA e vozes naturais." },
   { nome: "WeVoicer", url: "https://wevoicer.com/", descricao: "Narração em IA com vozes naturais e personalizáveis para projetos audiovisuais." },
-  { nome: "Cartesia", url: "https://cartesia.ai/", descricao: "agentes de voz com IA que podem atender chamadas, receber pedidos ou responder a perguntas de clientes usando uma fala natural, semelhante à humana." },
+  { nome: "Cartesia", url: "https://cartesia.ai/", descricao: "Agentes de voz com IA que podem atender chamadas, receber pedidos ou responder a perguntas de clientes usando uma fala natural, semelhante à humana." },
+  { nome: "Chatterbox", url: "https://www.resemble.ai/chatterbox/", descricao: "Agentes de voz em tempo real com IA para conversas naturais e interativas." },
+
 ];
 
 export default function GeradorDeVozIA() {

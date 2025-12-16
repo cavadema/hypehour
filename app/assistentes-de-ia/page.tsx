@@ -24,6 +24,8 @@ const ferramentas = [
   { nome: "Rovo Atlasian", url: "https://www.atlassian.com/software/rovo", descricao: "Conecta equipes, conhecimento e ferramentas para que você possa agir com mais rapidez e trabalhar de forma mais inteligente."},
   { nome: "WorkTrace", url: "https://www.worktrace.ai/", descricao: "IA que monitora produtividade e atividades para insights inteligentes em equipes."},
   { nome: "AutoGLM", url: "https://xiao9905.github.io/AutoGLM/blog.html", descricao: "Framework open-source para treinar e automatizar modelos de linguagem com agentes."},
+  { nome: "Odies", url: "https://apps.apple.com/us/app/odies-ai-companions/id6754986881?mt=12", descricao: "App de companheiros virtuais com IA para conversas e interações personalizadas."},
+  { nome: "Mino", url: "https://mino.ai/", descricao: "IA que transforma texto em vídeos realistas com avatares e narração automática."},
 ];
 
 export default function AssistentesDeIA() {

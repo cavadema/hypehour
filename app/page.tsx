@@ -880,34 +880,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Basedash</span>
-            <p className="text-zinc-700">Interface moderna para explorar, editar e compartilhar bancos de dados com facilidade.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 15/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Shortcut</span>
+            <p className="text-zinc-700">Automatiza tarefas de Excel/Sheets com IA, gerando fórmulas e análises.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 16/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Brain grid </span>
-            <p className="text-zinc-700">Soluções de IA empresarial para análise, automação e tomada de decisão inteligente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 15/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Tinker </span>
+            <p className="text-zinc-700">Ambiente experimental para prototipar e testar agentes e fluxos de IA avançados.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 16/12/2024</span>
           </div>
             <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Roboflow </span>
-            <p className="text-zinc-700">Ambiente rápido para treinar, testar e implantar modelos de visão computacional.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 15/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Weblow Code gen </span>
+            <p className="text-zinc-700">Recurso com IA que gera código automaticamente a partir de designs no Webflow.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 16/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Work Trace </span>
-            <p className="text-zinc-700">IA que monitora produtividade e atividades para insights inteligentes em equipes.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 15/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Warp Agents </span>
+            <p className="text-zinc-700">Crie e gerencie agentes de IA que automatizam tarefas no seu terminal e ferramentas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 16/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> LTX Studio</span>
-            <p className="text-zinc-700">Estúdio criativo com IA para gerar vídeos cinematográficos a partir de texto.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 15/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Chatterbox</span>
+            <p className="text-zinc-700">Agentes de voz em tempo real com IA para conversas naturais e interativas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 16/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Marble</span>
-            <p className="text-zinc-700">Crie agentes conversacionais personalizados que automatizam tarefas e suporte inteligente. </p>
-            <span className="text-xs text-zinc-500">Adicionada em 15/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ShieldCheckIcon className="w-5 h-5" /> Pangram</span>
+            <p className="text-zinc-700">Ferramenta de IA que detecta quando texto foi gerado por assistentes de IA. </p>
+            <span className="text-xs text-zinc-500">Adicionada em 16/12/2024</span>
           </div>
         </div>
       </section>

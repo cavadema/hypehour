@@ -38,6 +38,9 @@ const ferramentas = [
   { nome: "Beam Game", url: "https://site.beam.game/", descricao: "Plataforma com IA que transforma ideias em jogos interativos em minutos." },
   { nome: "Fei studio", url: "https://autonomyai.io/products/fei-studio/", descricao: "Estúdio com IA para criar agentes visuais interativos e experiências digitais autônomas." },
   { nome: "BrainGrid", url: "https://www.braingrid.ai/", descricao: "Soluções de IA empresarial para análise, automação e tomada de decisão inteligente." },
+  { nome: "Youware", url: "https://www.youware.com/", descricao: "Sistema com IA para gerenciar conhecimento e centralizar perguntas e respostas da sua empresa." },
+  { nome: "Webflow Code Gen", url: "https://webflow.com/feature/code-gen", descricao: "Recurso com IA que gera código automaticamente a partir de designs no Webflow." },
+  { nome: "VibeCSS - AI CSS Editor (extensao)", url: "https://chromewebstore.google.com/detail/vibecss-ai-css-editor/colipoagmianjahabfbghhpmeclolgad ", descricao: "Extensão com IA que edita e gera CSS diretamente no navegador para estilizar sites." },
 ];
 
 export default function IaParaVibeCoding() {

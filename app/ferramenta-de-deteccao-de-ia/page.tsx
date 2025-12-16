@@ -62,6 +62,11 @@ const ferramentas = [
     url: "https://deepmind.google/models/synthid/",
     descricao: "Tecnologia do Google DeepMind para identificar e marcar conteúdo gerado por IA.",
   },
+  {
+    nome: "Pangram AI Assistance Detection",
+    url: "https://www.pangram.com/blog/introducing-ai-assistance-detection",
+    descricao: "Ferramenta de IA que detecta quando texto foi gerado por assistentes de IA.",
+  },
 ];
 
 export const metadata = {

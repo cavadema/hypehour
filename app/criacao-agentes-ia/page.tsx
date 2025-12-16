@@ -18,6 +18,10 @@ const ferramentas = [
   { nome: "Verdent", url: "https://www.verdent.ai/", descricao: "Plataforma com IA para gerar insights e otimizar processos agrícolas com dados em tempo real." },
   { nome: "Marble", url: "https://marble.ai/", descricao: "Crie agentes conversacionais personalizados que automatizam tarefas e suporte inteligente." },
   { nome: "MyClone", url: "https://www.myclone.is/", descricao: "Crie clones digitais realistas com IA para vídeos, voz e interações personalizadas." },
+  { nome: "Serval", url: "https://www.serval.com/", descricao: "Plataforma para gerenciar e proteger dados sensíveis em aplicações empresariais." },
+  { nome: "Warp Agents", url: "https://www.warp.dev/agents", descricao: "Crie e gerencie agentes de IA que automatizam tarefas no seu terminal e ferramentas." },
+  { nome: "Kadabra", url: "https://www.getkadabra.com/", descricao: "IA que otimiza e automatiza respostas de atendimento ao cliente com insights inteligentes." },
+  { nome: "Action State Labs", url: "https://www.actionstatelabs.com/", descricao: "Framework para gerenciar estado e fluxos complexos em aplicações Android." },
 ];
 
 export default function CriacaoAgentesIA() {

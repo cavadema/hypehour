@@ -148,6 +148,11 @@ const ferramentas = [
         url: "https://ltx.studio/",
         descricao: "Estúdio criativo com IA para gerar vídeos cinematográficos a partir de texto.",
     },
+    {
+        nome: "Odyssey",
+        url: "https://odyssey.ml/",
+        descricao: "Vídeos interativos gerados por IA que respondem às suas ações em tempo real.",
+    },
 ];
 
 export const metadata = {
