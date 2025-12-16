@@ -63,7 +63,7 @@ export default function Header() {
 
           {/* Mobile Menu Dropdown */}
           {open && (
-            <div className="absolute top-16 left-0 right-0 bg-white shadow-md p-4 md:hidden border-t border-zinc-100">
+            <div className="absolute top-16 left-0 right-0 bg-white shadow-md p-4 md:hidden border-t border-zinc-100 max-h-[calc(100vh-5rem)] overflow-y-auto">
               <ul className="flex flex-col gap-3 text-zinc-700 font-medium">
                 <li><Link href="/ia-para-imagens" className="block py-2" onClick={() => setOpen(false)}>IA para imagens</Link></li>
                 <li><Link href="/ia-para-criar-videos" className="block py-2" onClick={() => setOpen(false)}>Vídeos</Link></li>

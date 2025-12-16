@@ -129,6 +129,79 @@ export default function ModelosDeLLMs() {
           </a>
         ))}
       </div>
+
+      {/* Versões de modelos */}
+      <section className="w-full mx-auto py-12 px-4 mt-8">
+        <h2 className="text-2xl font-bold flex items-center gap-2 mb-4">
+          <SparklesIcon className="w-6 h-6 text-gray-700" />
+          Versões de Modelos de LLMs (Large Language Models)
+        </h2>
+        <p className="text-zinc-600 mb-8">
+          Acompanhe os lançamentos e atualizações das principais famílias de modelos de linguagem do mercado.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> GPT-5.2</span>
+            <p className="text-zinc-700">Modelo multimodal avançado da OpenAI para raciocínio, código e criação pro.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Dez/2025</span>
+          </div>
+          <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Gemini 3.0</span>
+            <p className="text-zinc-700">Modelo multimodal do Google capaz de operar em texto, imagem e vídeo.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Nov/2025</span>
+          </div>
+          <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Opus 4.5</span>
+            <p className="text-zinc-700">Atualização da Anthropic focada em respostas mais seguras e assertivas.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Out/2025</span>
+          </div>
+          <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Sonnet 4.5</span>
+            <p className="text-zinc-700">Equilíbrio entre custo e performance para fluxos de automação avançados.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Out/2025</span>
+          </div>
+          <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Grok 4.1</span>
+            <p className="text-zinc-700">Modelo da xAI com acesso em tempo real aos dados públicos da plataforma X.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Set/2025</span>
+          </div>
+          <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Llama 4</span>
+            <p className="text-zinc-700">Nova geração open-source da Meta com melhorias significativas em raciocínio e performance.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Dez/2025</span>
+          </div>
+          <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Perplexity Sonar</span>
+            <p className="text-zinc-700">Modelo focado em busca e raciocínio em tempo real, baseado no Llama 3.1.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Dez/2024</span>
+          </div>
+          <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> DeepSeek 3.2</span>
+            <p className="text-zinc-700">Modelo open-weights com desempenho de ponta e custo reduzido.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Dez/2024</span>
+          </div>
+          <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Qwen 2.5</span>
+            <p className="text-zinc-700">Família de modelos da Alibaba com excelência em código e matemática.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Set/2024</span>
+          </div>
+          <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Mistral 3</span>
+            <p className="text-zinc-700">Modelo fronteira da Mistral AI com raciocínio avançado e eficiência.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Jan/2025</span>
+          </div>
+          <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Maritaca - Sabiazinho 3.1</span>
+            <p className="text-zinc-700">LLM brasileiro treinado especificamente para o português e cultura nacional.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Fev/2025</span>
+          </div>
+          <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Manus 1.5</span>
+            <p className="text-zinc-700">Agente autônomo capaz de executar tarefas complexas e longas.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Mar/2025</span>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
