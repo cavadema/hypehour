@@ -37,6 +37,7 @@ export default function Header() {
                 <Link href="/criacao-agentes-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Criacao de Agentes</Link>
                 <Link href="/assistentes-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Assistentes de IA</Link>
                 <Link href="/gerador-de-voz-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Gerador de Voz IA</Link>
+                <Link href="/aprender-ingles-com-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Inglês</Link>
                 <Link href="/ia-para-desenvolvedores" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Desenvolvedores</Link>
                 <Link href="/ferramentas-de-ia-para-conteudo" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Conteúdo</Link>
                 <Link href="/ia-para-criar-apresentacoes" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Apresentações</Link>
@@ -76,6 +77,7 @@ export default function Header() {
                 <li><Link href="/criacao-agentes-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Criacao de Agentes</Link></li>
                 <li><Link href="/assistentes-de-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Assistentes de IA</Link></li>
                 <li><Link href="/gerador-de-voz-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Gerador de Voz IA</Link></li>
+                <li><Link href="/aprender-ingles-com-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Inglês</Link></li>
                 <li><Link href="/ia-para-desenvolvedores" className="block py-2 pl-4" onClick={() => setOpen(false)}>Desenvolvedores</Link></li>
                 <li><Link href="/ferramentas-de-ia-para-conteudo" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Conteúdo</Link></li>
                 <li><Link href="/ia-para-criar-apresentacoes" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Apresentações</Link></li>

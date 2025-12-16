@@ -13,6 +13,47 @@ export default function Home() {
         <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-gray-100 rounded-full opacity-20 blur-2xl" />
       </section>
 
+      {/* IA para Aprender inglês */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <AcademicCapIcon className="w-6 h-6 text-gray-700" />
+            IA para Aprender inglês
+          </h2>
+          <a href="/aprender-ingles-com-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
+            Ver todas as IA para inglês
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <AcademicCapIcon className="w-5 h-5" /> Speak
+            </span>
+            <p className="text-zinc-700">Aulas personalizadas com IA e feedback de pronúncia.</p>
+            <span className="text-xs text-zinc-500">Categoria: Inglês</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <AcademicCapIcon className="w-5 h-5" /> BeConfident
+            </span>
+            <p className="text-zinc-700">Treino de conversação com correções e simulações.</p>
+            <span className="text-xs text-zinc-500">Categoria: Inglês</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <AcademicCapIcon className="w-5 h-5" /> Duolingo
+            </span>
+            <p className="text-zinc-700">Curso gamificado com suporte de IA e prática diária.</p>
+            <span className="text-xs text-zinc-500">Categoria: Inglês</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/aprender-ingles-com-ia" className="text-black text-sm font-medium hover:underline">
+            Ver todas as IA para inglês
+          </a>
+        </div>
+      </section>
+
       {/* Gerador de Voz com IA */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">
