@@ -808,6 +808,31 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Estatísticas do site */}
+      <section className="w-full bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 py-16 px-4">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold text-white text-center mb-12">Hypehour em Números</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">30+</div>
+              <div className="text-white/90 text-sm md:text-base font-medium">Categorias</div>
+            </div>
+            <div className="text-center">
+              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">250+</div>
+              <div className="text-white/90 text-sm md:text-base font-medium">Ferramentas IA</div>
+            </div>
+            <div className="text-center">
+              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">10+</div>
+              <div className="text-white/90 text-sm md:text-base font-medium">Newsletters</div>
+            </div>
+            <div className="text-center">
+              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">15+</div>
+              <div className="text-white/90 text-sm md:text-base font-medium">Modelos de IA</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Versões de modelos */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2">
