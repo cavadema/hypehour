@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans -mt-20">
@@ -50,6 +50,47 @@ export default function Home() {
         <div className="mt-4 md:hidden">
           <a href="/aprender-ingles-com-ia" className="text-black text-sm font-medium hover:underline">
             Ver todas as IA para inglês
+          </a>
+        </div>
+      </section>
+
+      {/* IA para Atendimento */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <PhoneIcon className="w-6 h-6 text-gray-700" />
+            IA para Atendimento
+          </h2>
+          <a href="/ia-para-atendimento" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
+            Ver todas as IA para atendimento
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <PhoneIcon className="w-5 h-5" /> Helploom
+            </span>
+            <p className="text-zinc-700">Plataforma de atendimento com IA para automação e gestão integrada.</p>
+            <span className="text-xs text-zinc-500">Categoria: Atendimento</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <PhoneIcon className="w-5 h-5" /> Gladly
+            </span>
+            <p className="text-zinc-700">Transforma o atendimento em suporte inteligente, automatizado e personalizado.</p>
+            <span className="text-xs text-zinc-500">Categoria: Atendimento</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <PhoneIcon className="w-5 h-5" /> Darwin
+            </span>
+            <p className="text-zinc-700">Funcionários-IA que respondem em múltiplos canais e qualificam leads.</p>
+            <span className="text-xs text-zinc-500">Categoria: Atendimento</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/ia-para-atendimento" className="text-black text-sm font-medium hover:underline">
+            Ver todas as IA para atendimento
           </a>
         </div>
       </section>
