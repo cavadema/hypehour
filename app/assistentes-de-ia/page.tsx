@@ -26,6 +26,9 @@ const ferramentas = [
   { nome: "AutoGLM", url: "https://xiao9905.github.io/AutoGLM/blog.html", descricao: "Framework open-source para treinar e automatizar modelos de linguagem com agentes."},
   { nome: "Odies", url: "https://apps.apple.com/us/app/odies-ai-companions/id6754986881?mt=12", descricao: "App de companheiros virtuais com IA para conversas e interações personalizadas."},
   { nome: "Mino", url: "https://mino.ai/", descricao: "IA que transforma texto em vídeos realistas com avatares e narração automática."},
+  { nome: "Zoom AI Assistant", url: "https://www.zoom.com/pt/products/ai-assistant/", descricao: "Assistente de IA do Zoom para reuniões, tarefas e resumos." },
+  { nome: "Google CC", url: "https://labs.google/cc", descricao: "Experimentos do Google Labs com companheiros/assistentes baseados em IA." },
+  { nome: "Klarna Agentic Protocol", url: "https://www.klarna.com/international/press/klarna-launches-agentic-product-protocol-the-open-standard-that-makes-100m/", descricao: "Padrão aberto da Klarna para agentes interoperarem com produtos." },
 ];
 
 export default function AssistentesDeIA() {

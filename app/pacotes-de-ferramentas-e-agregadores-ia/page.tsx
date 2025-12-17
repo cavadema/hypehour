@@ -52,6 +52,11 @@ const ferramentas = [
         url: "https://aichat.fm/",
         descricao: "várias IAs em um só app, com privacidade, personalização e preço único.",
     },
+    {
+        nome: "Okara",
+        url: "https://okara.ai/",
+        descricao: "Plataforma para conectar modelos e orquestrar agentes de forma segura.",
+    },
 ];
 
 export const metadata = {

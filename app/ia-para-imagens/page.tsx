@@ -117,11 +117,21 @@ const ferramentas = [
     url: "https://www.genspark.ai/photo_genius",
     descricao: "Ferramenta com IA para gerar e aprimorar fotos criativas com ajustes inteligentes.",
   },
-    {
+  {
     nome: "Krea",
     url: "https://www.krea.ai/",
     descricao: "Plataforma com IA para criar e explorar imagens geradas por IA em comunidade colaborativa.",
   },
+  {
+    nome: "Illustrate AI",
+    url: "https://designbundles.net/illustrate-ai",
+    descricao: "Transforma instruções em obras de arte de alta resolução e com licença comercial.",
+  },
+   {
+    nome: "No Background Coffee",
+    url: "https://www.no-background.coffee/",
+    descricao: "Ferramenta gratuita de IA que remove fundos de imagens de forma limpa.",
+  }
 ];
 
 export const metadata = {

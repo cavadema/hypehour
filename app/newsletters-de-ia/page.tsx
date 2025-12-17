@@ -47,6 +47,16 @@ const newsletters = [
     url: "https://news.o-algoritmo.com/",
     descricao: "Newsletter sobre algoritmos, IA e o impacto da tecnologia na sociedade.",
   },
+  {
+    nome: "The Neuron",
+    url: "http://theneuron.ai/",
+    descricao: "Insights e curadoria sobre IA aplicada e pesquisa.",
+  },
+  {
+    nome: "The AI Valley",
+    url: "https://www.theaivalley.com/",
+    descricao: "Notícias e tendências diárias do ecossistema de IA.",
+  },
 ];
 
 export const metadata = {

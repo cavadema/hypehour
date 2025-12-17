@@ -153,6 +153,11 @@ const ferramentas = [
         url: "https://odyssey.ml/",
         descricao: "Vídeos interativos gerados por IA que respondem às suas ações em tempo real.",
     },
+    {
+        nome: "EgoX",
+        url: "https://keh0t0.github.io/EgoX/",
+        descricao: "Transforme um único vídeo em terceira pessoa em uma experiência convincente em primeira pessoa.",
+    },
 ];
 
 export const metadata = {

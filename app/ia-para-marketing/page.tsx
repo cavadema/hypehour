@@ -217,6 +217,31 @@ const ferramentas = [
         url: "https://www.korgiboard.com/",
         descricao: "Painel inteligente para organizar, priorizar e executar tarefas com foco e clareza.",
     },
+    {
+        nome: "Mind Map Wizard",
+        url: "https://mindmapwizard.com/",
+        descricao: "Cria instantaneamente qualquer tópico ou anotação em um mapa mental visual e organizado.",
+    },
+    {
+        nome: "Quadratichq",
+        url: "https://www.quadratichq.com/",
+        descricao: "Torna o trabalho com planilhas simples, com resultados impressionantes. Adicione dados, faça perguntas, transforme, analise, visualize e compartilhe.",
+    },
+    {
+        nome: "Nas.io",
+        url: "https://nas.io/pt-br",
+        descricao: "Organiza, conecta e encontra informações do seu time instantaneamente.",
+    },
+    {
+        nome: "Blocksurvey",
+        url: "https://blocksurvey.io/",
+        descricao: "Formulários e pesquisas com foco em privacidade, sem rastreamento ou ads.",
+    },
+    {
+        nome: "Tines",
+        url: "https://www.tines.com/",
+        descricao: "Automatize workflows e respostas a incidentes sem código para equipes de segurança e ops.",
+    },
 ];
 
 export const metadata = {

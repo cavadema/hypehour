@@ -22,6 +22,8 @@ const ferramentas = [
   { nome: "Warp Agents", url: "https://www.warp.dev/agents", descricao: "Crie e gerencie agentes de IA que automatizam tarefas no seu terminal e ferramentas." },
   { nome: "Kadabra", url: "https://www.getkadabra.com/", descricao: "IA que otimiza e automatiza respostas de atendimento ao cliente com insights inteligentes." },
   { nome: "Action State Labs", url: "https://www.actionstatelabs.com/", descricao: "Framework para gerenciar estado e fluxos complexos em aplicações Android." },
+  { nome: "Databricks AI Agents", url: "https://www.databricks.com/solutions/ai-agents", descricao: "Solução para construir e operar agentes de IA em dados empresariais." },
+  { nome: "Nelly", url: "https://nelly.is/", descricao: "Agentes de IA para workflows e automações em escala." },
 ];
 
 export default function CriacaoAgentesIA() {

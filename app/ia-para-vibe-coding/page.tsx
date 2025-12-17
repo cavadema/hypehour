@@ -41,6 +41,7 @@ const ferramentas = [
   { nome: "Youware", url: "https://www.youware.com/", descricao: "Sistema com IA para gerenciar conhecimento e centralizar perguntas e respostas da sua empresa." },
   { nome: "Webflow Code Gen", url: "https://webflow.com/feature/code-gen", descricao: "Recurso com IA que gera código automaticamente a partir de designs no Webflow." },
   { nome: "VibeCSS - AI CSS Editor (extensao)", url: "https://chromewebstore.google.com/detail/vibecss-ai-css-editor/colipoagmianjahabfbghhpmeclolgad ", descricao: "Extensão com IA que edita e gera CSS diretamente no navegador para estilizar sites." },
+  { nome: "Mocha", url: "https://getmocha.com/", descricao: "Agente/IDE com IA para criar apps via chat e ações." },
 ];
 
 export default function IaParaVibeCoding() {

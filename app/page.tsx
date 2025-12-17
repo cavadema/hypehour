@@ -899,8 +899,8 @@ export default function Home() {
             <span className="text-xs text-zinc-500">Lançamento: Fev/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Manus 1.5</span>
-            <p className="text-zinc-700">Agente autônomo capaz de executar tarefas complexas e longas.</p>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> manus 1.6</span>
+            <p className="text-zinc-700">um passo significativo em direção a um futuro onde a AI pode lidar de forma confiável com a maior parte do seu trabalho mais complexo.</p>
             <span className="text-xs text-zinc-500">Lançamento: Mar/2025</span>
           </div>
         </div>
@@ -946,34 +946,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Shortcut</span>
-            <p className="text-zinc-700">Automatiza tarefas de Excel/Sheets com IA, gerando fórmulas e análises.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 16/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> LM Studio</span>
+            <p className="text-zinc-700">Executar e usar modelos de linguagem (LLMs) localmente no seu PC.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 17/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Tinker </span>
-            <p className="text-zinc-700">Ambiente experimental para prototipar e testar agentes e fluxos de IA avançados.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 16/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Kombai </span>
+            <p className="text-zinc-700">"Use para criar, refatorar, testar e melhorar cada parte do seu frontend.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 17/12/2024</span>
           </div>
             <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Weblow Code gen </span>
-            <p className="text-zinc-700">Recurso com IA que gera código automaticamente a partir de designs no Webflow.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 16/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Codewiki Google </span>
+            <p className="text-zinc-700">Documentação automática de código com IA e chat integrado ao repositório.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 17/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Warp Agents </span>
-            <p className="text-zinc-700">Crie e gerencie agentes de IA que automatizam tarefas no seu terminal e ferramentas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 16/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Illustrate AI </span>
+            <p className="text-zinc-700">Transforma instruções em obras de arte de alta resolução e com licença comercial.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 17/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Chatterbox</span>
-            <p className="text-zinc-700">Agentes de voz em tempo real com IA para conversas naturais e interativas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 16/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Mind Map Wizard</span>
+            <p className="text-zinc-700">Cria instantaneamente qualquer tópico ou anotação em um mapa mental visual e organizado.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 17/12/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ShieldCheckIcon className="w-5 h-5" /> Pangram</span>
-            <p className="text-zinc-700">Ferramenta de IA que detecta quando texto foi gerado por assistentes de IA. </p>
-            <span className="text-xs text-zinc-500">Adicionada em 16/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ShieldCheckIcon className="w-5 h-5" /> Quadratichq</span>
+            <p className="text-zinc-700">Torna o trabalho com planilhas simples, com resultados impressionantes. Adicione dados, faça perguntas, transforme, analise, visualize e compartilhe. </p>
+            <span className="text-xs text-zinc-500">Adicionada em 17/12/2024</span>
           </div>
         </div>
       </section>

@@ -217,6 +217,31 @@ const ferramentas = [
     url: "https://github.com/meituan-longcat/LongCat-Image",
     descricao: "Projeto open-source de IA para processamento avançado de imagens com aprendizado profundo.",
   },
+  {
+    nome: "Google Interactions API",
+    url: "https://blog.google/technology/developers/interactions-api/",
+    descricao: "API para interagir com modelos e agentes de IA com estado e contexto complexo.",
+  },
+  {
+    nome: "LM Studio",
+    url: "https://lmstudio.ai/",
+    descricao: "Executar e usar modelos de linguagem (LLMs) localmente no seu PC.",
+  },
+  {
+    nome: "Modal Notebooks",
+    url: "https://modal.com/products/notebooks/",
+    descricao: "Notebooks com IA para escrever, executar e colaborar em código na nuvem.",
+  },
+  {
+    nome: "Kombai",
+    url: "https://kombai.com/",
+    descricao: "Use para criar, refatorar, testar e melhorar cada parte do seu frontend.",
+  },
+  {
+    nome: "Codewiki Google",
+    url: "https://codewiki.google/",
+    descricao: "Documentação automática de código com IA e chat integrado ao repositório.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {
