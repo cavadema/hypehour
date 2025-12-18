@@ -33,6 +33,7 @@ export default function Header() {
                 <ChevronDownIcon className="w-4 h-4" />
               </button>
               <div className="absolute top-full right-0 w-72 max-h-[70vh] overflow-y-auto bg-white shadow-lg rounded-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-zinc-100">
+                <Link href="/cursos-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Cursos de IA</Link>
                 <Link href="/ia-para-vibe-coding" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Vibe Coding</Link>
                 <Link href="/criacao-agentes-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Criacao de Agentes</Link>
                 <Link href="/assistentes-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Assistentes de IA</Link>
@@ -74,6 +75,7 @@ export default function Header() {
                 <li><Link href="/ferramenta-de-deteccao-de-ia" className="block py-2" onClick={() => setOpen(false)}>Detecção de IA</Link></li>
 
                 <li className="border-t border-zinc-100 pt-2 mt-2 font-semibold text-zinc-400 text-sm">Outras IAs</li>
+                <li><Link href="/cursos-de-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Cursos de IA</Link></li>
                 <li><Link href="/ia-para-vibe-coding" className="block py-2 pl-4" onClick={() => setOpen(false)}>Vibe Coding</Link></li>
                 <li><Link href="/criacao-agentes-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Criacao de Agentes</Link></li>
                 <li><Link href="/assistentes-de-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Assistentes de IA</Link></li>

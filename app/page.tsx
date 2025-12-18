@@ -818,6 +818,37 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Cursos de IA */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <AcademicCapIcon className="w-6 h-6 text-gray-700" />
+            Cursos de IA gratuitos e pagos
+          </h2>
+          <a href="/cursos-de-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todos os cursos</a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Escola Virtual Gov.br</span>
+            <p className="text-zinc-700">Curso gratuito de IA oferecido pelo Governo Federal.</p>
+            <span className="text-xs text-zinc-500">Categoria: Cursos</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Inteligência Artificial e o Novo Contexto da Cultura Digital</span>
+            <p className="text-zinc-700">Curso sobre IA e cultura digital oferecido pela Fundação Getúlio Vargas.</p>
+            <span className="text-xs text-zinc-500">Categoria: Cursos</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Inteligência Artificial na Alura</span>
+            <p className="text-zinc-700">Aprenda IA com cursos práticos e estruturados da Alura.</p>
+            <span className="text-xs text-zinc-500">Categoria: Cursos</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/cursos-de-ia" className="text-black text-sm font-medium hover:underline">Ver todos os cursos</a>
+        </div>
+      </section>
+
       {/* Newsletters de IA */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">
