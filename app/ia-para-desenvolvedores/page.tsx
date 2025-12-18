@@ -242,6 +242,31 @@ const ferramentas = [
     url: "https://codewiki.google/",
     descricao: "Documentação automática de código com IA e chat integrado ao repositório.",
   },
+  {
+    nome: "AWS Nova",
+    url: "https://aws.amazon.com/pt/nova/",
+    descricao: "Modelos Nova da AWS para construir experiências multimodais e agentes.",
+  },
+  {
+    nome: "CoreWeave",
+    url: "https://www.coreweave.com/",
+    descricao: "Infraestrutura GPU em nuvem otimizada para cargas de IA.",
+  },
+  {
+    nome: "Zencoder.ai",
+    url: "https://zencoder.ai/",
+    descricao: "Plataforma para criar fluxos e agentes com IA de ponta a ponta.",
+  },
+  {
+    nome: "Stakpak",
+    url: "https://stakpak.dev/",
+    descricao: "Kit de ferramentas para desenvolver e implantar apps com IA.",
+  },
+  {
+    nome: "Qualgent",
+    url: "https://www.qualgent.ai/",
+    descricao: "Qualidade e testes de software impulsionados por IA.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {

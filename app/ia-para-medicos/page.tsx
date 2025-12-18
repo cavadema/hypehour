@@ -67,6 +67,11 @@ const ferramentas = [
         url: "https://scispace.com/biomedical",
         descricao: "Plataforma de IA para pesquisa biomédica com análise de artigos científicos e literatura médica.",
     },
+    {
+        nome: "HumanTrack",
+        url: "https://humantrack.io/",
+        descricao: "IA para monitoramento e análise de saúde com insights automatizados.",
+    },
 ];
 
 export default function IaParaMedicos() {

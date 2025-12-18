@@ -242,6 +242,21 @@ const ferramentas = [
         url: "https://www.tines.com/",
         descricao: "Automatize workflows e respostas a incidentes sem código para equipes de segurança e ops.",
     },
+    {
+        nome: "Doctly",
+        url: "https://doctly.ai/",
+        descricao: "IA para criar e organizar documentos e conteúdos de marketing.",
+    },
+    {
+        nome: "Sheets Organizer",
+        url: "https://www.sheetsorganizer.com/",
+        descricao: "Automatize planilhas e dashboards com IA para relatórios de marketing.",
+    },
+    {
+        nome: "Swetrix",
+        url: "https://swetrix.com/",
+        descricao: "Analytics com foco em privacidade para medir campanhas e produto.",
+    },
 ];
 
 export const metadata = {

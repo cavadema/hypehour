@@ -78,6 +78,11 @@ const ferramentas = [
     url: "https://mathify.dev/",
     descricao: "Ferramenta com IA para resolver, explicar e aprender matemática passo a passo.",
   },
+  {
+    nome: "Flexge — Exercícios com IA",
+    url: "https://lp.flexge.com/exercicios-com-ia",
+    descricao: "Gere exercícios e atividades automaticamente a partir de conteúdos.",
+  },
 ];
 
 export const metadata = {

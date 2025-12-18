@@ -987,34 +987,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> LM Studio</span>
-            <p className="text-zinc-700">Executar e usar modelos de linguagem (LLMs) localmente no seu PC.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 17/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Zencoder.ai</span>
+            <p className="text-zinc-700">Plataforma para criar fluxos e agentes com IA de ponta a ponta.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 18/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Kombai </span>
-            <p className="text-zinc-700">"Use para criar, refatorar, testar e melhorar cada parte do seu frontend.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 17/12/2024</span>
-          </div>
-            <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Codewiki Google </span>
-            <p className="text-zinc-700">Documentação automática de código com IA e chat integrado ao repositório.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 17/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Submagic</span>
+            <p className="text-zinc-700">Legendas automáticas com IA, cortes e edição para vídeos curtos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 18/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Illustrate AI </span>
-            <p className="text-zinc-700">Transforma instruções em obras de arte de alta resolução e com licença comercial.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 17/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> DorLabs</span>
+            <p className="text-zinc-700">Ferramentas de IA para criação visual e edição de imagens.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 18/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Mind Map Wizard</span>
-            <p className="text-zinc-700">Cria instantaneamente qualquer tópico ou anotação em um mapa mental visual e organizado.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 17/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Radiant</span>
+            <p className="text-zinc-700">Assistente pessoal com IA para foco, tarefas e informações rápidas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 18/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ShieldCheckIcon className="w-5 h-5" /> Quadratichq</span>
-            <p className="text-zinc-700">Torna o trabalho com planilhas simples, com resultados impressionantes. Adicione dados, faça perguntas, transforme, analise, visualize e compartilhe. </p>
-            <span className="text-xs text-zinc-500">Adicionada em 17/12/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Auriax</span>
+            <p className="text-zinc-700">Agregador brasileiro com acesso a múltiplos modelos e ferramentas de IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 18/12/2025</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PresentationChartLineIcon className="w-5 h-5" /> Swetrix</span>
+            <p className="text-zinc-700">Analytics com foco em privacidade para medir campanhas e produto.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 18/12/2025</span>
           </div>
         </div>
       </section>

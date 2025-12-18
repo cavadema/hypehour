@@ -132,6 +132,17 @@ const ferramentas = [
     url: "https://www.no-background.coffee/",
     descricao: "Ferramenta gratuita de IA que remove fundos de imagens de forma limpa.",
   }
+  ,
+  {
+    nome: "WAN 2.6",
+    url: "https://create.wan.video/generate/video/generate?model=wan2.6",
+    descricao: "Modelo multimodal para gerar imagens e vídeos de alta qualidade.",
+  },
+  {
+    nome: "DorLabs",
+    url: "https://dorlabs.ai/",
+    descricao: "Ferramentas de IA para criação visual e edição de imagens.",
+  }
 ];
 
 export const metadata = {

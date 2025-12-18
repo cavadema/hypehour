@@ -11,6 +11,12 @@ const ferramentas = [
         nome: "InnerAI",
         url: "https://www.innerai.com/pt",
         descricao: "Ecossistema de IA para empresas, integrando diversos modelos e ferramentas.",
+    
+    },
+    {
+        nome: "Auriax",
+        url: "https://auriax.com.br/",
+        descricao: "Agregador brasileiro com acesso a múltiplos modelos e ferramentas de IA.",
     },
     {
         nome: "Tess",

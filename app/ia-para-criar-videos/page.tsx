@@ -158,6 +158,16 @@ const ferramentas = [
         url: "https://keh0t0.github.io/EgoX/",
         descricao: "Transforme um único vídeo em terceira pessoa em uma experiência convincente em primeira pessoa.",
     },
+    {
+        nome: "WAN 2.6",
+        url: "https://create.wan.video/generate/video/generate?model=wan2.6",
+        descricao: "Gere vídeos realistas com o modelo WAN 2.6.",
+    },
+    {
+        nome: "Submagic",
+        url: "https://www.submagic.co/pt-br",
+        descricao: "Legendas automáticas com IA, cortes e edição para vídeos curtos.",
+    },
 ];
 
 export const metadata = {

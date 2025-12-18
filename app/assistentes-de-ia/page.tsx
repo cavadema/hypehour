@@ -29,6 +29,8 @@ const ferramentas = [
   { nome: "Zoom AI Assistant", url: "https://www.zoom.com/pt/products/ai-assistant/", descricao: "Assistente de IA do Zoom para reuniões, tarefas e resumos." },
   { nome: "Google CC", url: "https://labs.google/cc", descricao: "Experimentos do Google Labs com companheiros/assistentes baseados em IA." },
   { nome: "Klarna Agentic Protocol", url: "https://www.klarna.com/international/press/klarna-launches-agentic-product-protocol-the-open-standard-that-makes-100m/", descricao: "Padrão aberto da Klarna para agentes interoperarem com produtos." },
+  { nome: "Sonatype Guide", url: "https://www.sonatype.com/products/sonatype-guide", descricao: "Assistente com IA para guiar desenvolvedores em segurança e dependências." },
+  { nome: "Radiant", url: "https://radiantapp.com/", descricao: "Assistente pessoal com IA para foco, tarefas e informações rápidas." },
 ];
 
 export default function AssistentesDeIA() {
