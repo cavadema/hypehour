@@ -32,7 +32,7 @@ export default function Header() {
                 Outras IAs
                 <ChevronDownIcon className="w-4 h-4" />
               </button>
-              <div className="absolute top-full right-0 w-56 bg-white shadow-lg rounded-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-zinc-100">
+              <div className="absolute top-full right-0 w-72 max-h-[70vh] overflow-y-auto bg-white shadow-lg rounded-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-zinc-100">
                 <Link href="/ia-para-vibe-coding" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Vibe Coding</Link>
                 <Link href="/criacao-agentes-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Criacao de Agentes</Link>
                 <Link href="/assistentes-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Assistentes de IA</Link>
