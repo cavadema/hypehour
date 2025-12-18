@@ -93,9 +93,9 @@ export default function RootLayout({
             <div className="mb-6 border-b border-zinc-100 pb-6">
               <h3 className="font-semibold mb-4">Categorias</h3>
               <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-zinc-700">
-                <li><a href="/ia-para-imagens" className="hover:underline">IA para imagens</a></li>
-                <li><a href="/ia-para-criar-videos" className="hover:underline">IA para Vídeos</a></li>
-                <li><a href="/ia-para-musica" className="hover:underline">IA para Música</a></li>
+                <li><a href="/ia-para-imagens" className="hover:underline">Imagens</a></li>
+                <li><a href="/ia-para-criar-videos" className="hover:underline">Vídeos</a></li>
+                <li><a href="/ia-para-musica" className="hover:underline">Música</a></li>
                 <li><a href="/transcrever-audio" className="hover:underline">Transcrever Áudio</a></li>
                 <li><a href="/ia-para-fazer-ata-reuniao" className="hover:underline">Ata de Reunião</a></li>
                 <li><a href="/criacao-agentes-ia" className="hover:underline">Criação de Agentes</a></li>
@@ -105,15 +105,15 @@ export default function RootLayout({
                 <li><a href="/ia-para-atendimento" className="hover:underline">IA para Atendimento</a></li>
                 <li><a href="/pacotes-de-ferramentas-e-agregadores-ia" className="hover:underline">Agregadores de IA</a></li>
                 <li><a href="/ia-para-desenvolvedores" className="hover:underline">Desenvolvedores</a></li>
-                <li><Link href="/ferramentas-de-ia-para-conteudo" className="hover:underline">IA para Conteúdo</Link></li>
-                <li><Link href="/ia-para-criar-apresentacoes" className="hover:underline">IA para Apresentações</Link></li>
-                <li><Link href="/ia-para-marketing" className="hover:underline">IA para Marketing</Link></li>
+                <li><Link href="/ferramentas-de-ia-para-conteudo" className="hover:underline">Conteúdo</Link></li>
+                <li><Link href="/ia-para-criar-apresentacoes" className="hover:underline">Apresentações</Link></li>
+                <li><Link href="/ia-para-marketing" className="hover:underline">Marketing</Link></li>
                 <li><Link href="/ferramentas-de-ia-rh" className="hover:underline">IA para RH</Link></li>
-                <li><Link href="/ferramentas-ia-contabilidade" className="hover:underline">IA para Contabilidade</Link></li>
-                <li><Link href="/inteligencia-artificial-para-advogados" className="hover:underline">IA para Advogados</Link></li>
-                <li><Link href="/ia-para-professores" className="hover:underline">IA para professores</Link></li>
-                <li><Link href="/ia-para-medicos" className="hover:underline">IA para Médicos</Link></li>
-                <li><Link href="/ia-para-arquitetura" className="hover:underline">IA para Arquitetura</Link></li>
+                <li><Link href="/ferramentas-ia-contabilidade" className="hover:underline">Contabilidade</Link></li>
+                <li><Link href="/inteligencia-artificial-para-advogados" className="hover:underline">Advogados</Link></li>
+                <li><Link href="/ia-para-professores" className="hover:underline">Professores</Link></li>
+                <li><Link href="/ia-para-medicos" className="hover:underline">Médicos</Link></li>
+                <li><Link href="/ia-para-arquitetura" className="hover:underline">Arquitetura</Link></li>
                 <li><a href="/modelos-de-llms" className="hover:underline">Modelos de LLMs</a></li>
                 <li><a href="/navegadores-de-ia" className="hover:underline">Navegadores de IA</a></li>
                 <li><a href="/ferramenta-de-deteccao-de-ia" className="hover:underline">Detecção de IA</a></li>

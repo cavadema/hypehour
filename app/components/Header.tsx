@@ -19,7 +19,7 @@ export default function Header() {
         {/* Desktop Menu */}
         <nav>
           <ul className="hidden md:flex gap-6 text-zinc-700 font-medium items-center">
-            <li><Link href="/ia-para-imagens" className="hover:text-black transition-colors">IA para imagens</Link></li>
+            <li><Link href="/ia-para-imagens" className="hover:text-black transition-colors">Imagens</Link></li>
             <li><Link href="/ia-para-criar-videos" className="hover:text-black transition-colors">Vídeos</Link></li>
             <li><Link href="/pacotes-de-ferramentas-e-agregadores-ia" className="hover:text-black transition-colors">Agregadores de IA</Link></li>
             <li><Link href="/transcrever-audio" className="hover:text-black transition-colors">Transcrever Áudio</Link></li>
@@ -41,16 +41,16 @@ export default function Header() {
                 <Link href="/aprender-ingles-com-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Inglês</Link>
                 <Link href="/ia-para-atendimento" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Atendimento</Link>
                 <Link href="/ia-para-desenvolvedores" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Desenvolvedores</Link>
-                <Link href="/ferramentas-de-ia-para-conteudo" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Conteúdo</Link>
-                <Link href="/ia-para-criar-apresentacoes" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Apresentações</Link>
-                <Link href="/ia-para-marketing" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Marketing</Link>
+                <Link href="/ferramentas-de-ia-para-conteudo" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Conteúdo</Link>
+                <Link href="/ia-para-criar-apresentacoes" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Apresentações</Link>
+                <Link href="/ia-para-marketing" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Marketing</Link>
                 <Link href="/ferramentas-de-ia-rh" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para RH</Link>
-                <Link href="/ferramentas-ia-contabilidade" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Contabilidade</Link>
-                <Link href="/inteligencia-artificial-para-advogados" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Advogados</Link>
+                <Link href="/ferramentas-ia-contabilidade" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Contabilidade</Link>
+                <Link href="/inteligencia-artificial-para-advogados" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Advogados</Link>
                 <Link href="/ia-para-professores" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Professores</Link>
-                <Link href="/ia-para-medicos" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Médicos</Link>
-                <Link href="/ia-para-arquitetura" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Arquitetura</Link>
-                <Link href="/ia-para-musica" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Música</Link>
+                <Link href="/ia-para-medicos" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Médicos</Link>
+                <Link href="/ia-para-arquitetura" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Arquitetura</Link>
+                <Link href="/ia-para-musica" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Música</Link>
                 <Link href="/modelos-de-llms" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Modelos de LLMs</Link>
                 <Link href="/navegadores-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Navegadores de IA</Link>
                 <Link href="/newsletters-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Newsletters</Link>
