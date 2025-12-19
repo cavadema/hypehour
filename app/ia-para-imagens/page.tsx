@@ -163,6 +163,11 @@ const ferramentas = [
     nome: "BlueWillow",
     url: "https://bluewillow.ai/",
     descricao: "Gerador de imagens com IA gratuito focado em qualidade.",
+  },
+  {
+    nome: "Tripo3D",
+    url: "https://www.tripo3d.ai/pt",
+    descricao: "Gere modelos 3D a partir de texto ou imagens usando IA.",
   }
 ];
 

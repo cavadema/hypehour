@@ -257,6 +257,21 @@ const ferramentas = [
         url: "https://swetrix.com/",
         descricao: "Analytics com foco em privacidade para medir campanhas e produto.",
     },
+    {
+        nome: "First Answer",
+        url: "https://firstanswer.ai/br/",
+        descricao: "Descubra se sua marca está sendo citada pelas IAs e o que fazer para melhorar sua visibilidade.",
+    },
+    {
+        nome: "Outwrite",
+        url: "https://outwrite.ai/",
+        descricao: "Assistente de escrita com IA para melhorar clareza e gramática.",
+    },
+    {
+        nome: "Bit.ai",
+        url: "https://bit.ai/",
+        descricao: "Plataforma colaborativa para criar documentos inteligentes com IA.",
+    },
 ];
 
 export const metadata = {

@@ -48,6 +48,11 @@ const ferramentas = [
         url: "https://www.effy.ai/",
         descricao: "Software de avaliação de desempenho e feedback 360 graus simples e eficiente.",
     },
+    {
+        nome: "AI Apply",
+        url: "https://aiapply.co/",
+        descricao: "Automatize candidaturas a vagas com currículos e cartas personalizadas por IA.",
+    },
 ];
 
 export const metadata = {

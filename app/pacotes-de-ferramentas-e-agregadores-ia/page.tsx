@@ -63,6 +63,16 @@ const ferramentas = [
         url: "https://okara.ai/",
         descricao: "Plataforma para conectar modelos e orquestrar agentes de forma segura.",
     },
+    {
+        nome: "ChatLLM Abacus",
+        url: "https://chatllm.abacus.ai/",
+        descricao: "Agregador com acesso a múltiplos modelos LLM em uma interface.",
+    },
+    {
+        nome: "BlackBox AI",
+        url: "https://www.blackbox.ai/",
+        descricao: "Assistente de código com IA para desenvolvedores.",
+    },
 ];
 
 export const metadata = {

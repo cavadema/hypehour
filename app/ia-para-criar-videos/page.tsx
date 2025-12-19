@@ -168,6 +168,11 @@ const ferramentas = [
         url: "https://www.submagic.co/pt-br",
         descricao: "Legendas automáticas com IA, cortes e edição para vídeos curtos.",
     },
+    {
+        nome: "AutoShorts",
+        url: "https://autoshorts.ai/",
+        descricao: "Crie vídeos curtos automaticamente com IA para redes sociais.",
+    },
 ];
 
 export const metadata = {
