@@ -1,5 +1,6 @@
 import { PhotoIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import FAQSection from "./FAQSection";
 
 const ferramentas = [
   {
@@ -142,6 +143,26 @@ const ferramentas = [
     nome: "DorLabs",
     url: "https://dorlabs.ai/",
     descricao: "Ferramentas de IA para criação visual e edição de imagens.",
+  },
+  {
+    nome: "Bing Image Creator",
+    url: "https://www.bing.com/images/create",
+    descricao: "Criador de imagens gratuito da Microsoft usando DALL-E.",
+  },
+  {
+    nome: "Craiyon",
+    url: "https://www.craiyon.com/pt",
+    descricao: "Gerador de imagens com IA gratuito e acessível.",
+  },
+  {
+    nome: "Artbreeder",
+    url: "https://www.artbreeder.com/",
+    descricao: "Crie e misture imagens usando IA de forma colaborativa.",
+  },
+  {
+    nome: "BlueWillow",
+    url: "https://bluewillow.ai/",
+    descricao: "Gerador de imagens com IA gratuito focado em qualidade.",
   }
 ];
 
@@ -180,6 +201,7 @@ export default function IaParaImagens() {
           </a>
         ))}
       </div>
+      <FAQSection />
     </main>
   );
 }

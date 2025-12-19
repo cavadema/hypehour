@@ -1,5 +1,6 @@
 import { ArrowLeftIcon, ShieldCheckIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import FAQSection from "./FAQSection";
 
 const ferramentas = [
   {
@@ -105,6 +106,7 @@ export default function FerramentaDeteccaoIA() {
           </a>
         ))}
       </div>
+      <FAQSection />
     </main>
   );
 }
