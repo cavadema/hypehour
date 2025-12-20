@@ -267,6 +267,16 @@ const ferramentas = [
     url: "https://www.qualgent.ai/",
     descricao: "Qualidade e testes de software impulsionados por IA.",
   },
+  {
+    nome: "Nebius Token Factory",
+    url: "https://nebius.com/services/token-factory/post-training",
+    descricao: "Plataforma para treinamento e ajuste de modelos de IA pós-treinamento.",
+  },
+  {
+    nome: "PromptGuard",
+    url: "https://promptguard.co/",
+    descricao: "Ferramenta de segurança para proteger prompts e detectar vulnerabilidades em sistemas de IA.",
+  },
 ];
 
 export default function IaParaDesenvolvedores() {

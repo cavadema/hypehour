@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon, ChatBubbleLeftRightIcon, UserGroupIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon, ChatBubbleLeftRightIcon, UserGroupIcon, HeartIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans -mt-20">
@@ -1018,34 +1018,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ChatBubbleLeftRightIcon className="w-5 h-5" /> First Answer</span>
-            <p className="text-zinc-700">Descubra se sua marca está sendo citada pelas IAs e o que fazer para melhorar sua visibilidade.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 19/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PresentationChartLineIcon className="w-5 h-5" /> Intempt</span>
+            <p className="text-zinc-700">Plataforma de marketing com IA para personalização e automação de campanhas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 20/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> AutoShorts</span>
-            <p className="text-zinc-700">Crie vídeos curtos automaticamente com IA para redes sociais.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 19/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ShieldCheckIcon className="w-5 h-5" /> PromptGuard</span>
+            <p className="text-zinc-700">Ferramenta de segurança para proteger prompts e detectar vulnerabilidades em sistemas de IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 20/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> ChatLLM Abacus</span>
-            <p className="text-zinc-700">Agregador com acesso a múltiplos modelos LLM em uma interface.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 19/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><EnvelopeIcon className="w-5 h-5" /> FutureTools</span>
+            <p className="text-zinc-700">Newsletter sobre as melhores ferramentas de IA lançadas recentemente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 20/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> BlackBox AI</span>
-            <p className="text-zinc-700">Assistente de código com IA para desenvolvedores.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 19/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhoneIcon className="w-5 h-5" /> Poly.ai</span>
+            <p className="text-zinc-700">Assistente de voz com IA para atendimento ao cliente por telefone e canais digitais.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 20/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Tripo3D</span>
-            <p className="text-zinc-700">Gere modelos 3D a partir de texto ou imagens usando IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 19/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><HeartIcon className="w-5 h-5" /> Leona Health</span>
+            <p className="text-zinc-700">Plataforma de IA para triagem e suporte médico com análise de sintomas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 20/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserGroupIcon className="w-5 h-5" /> AI Apply</span>
-            <p className="text-zinc-700">Automatize candidaturas a vagas com currículos e cartas personalizadas por IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 19/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> OpenAI Academy</span>
+            <p className="text-zinc-700">Cursos oficiais da OpenAI sobre uso e desenvolvimento com IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 20/12/2025</span>
           </div>
         </div>
       </section>

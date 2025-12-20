@@ -13,6 +13,7 @@ const ferramentas = [
   { nome: "Darwin", url: "https://www.getdarwin.ai/pt", descricao: "Criar funcionários-IA que respondem clientes em canais como WhatsApp, Instagram e ligações, qualificam leads, atualizam CRMs." },
   { nome: "CallRail Voice Assist", url: "https://www.callrail.com/voice-assist", descricao: "Assistente de voz com IA para melhorar chamadas de atendimento com respostas inteligentes." },
   { nome: "Contentsquare", url: "https://contentsquare.com/", descricao: "Plataforma de experiência digital com IA para otimizar jornada de atendimento." },
+  { nome: "Poly.ai", url: "https://poly.ai/", descricao: "Assistente de voz com IA para atendimento ao cliente por telefone e canais digitais." },
 ];
 
 export default function IAParaAtendimento() {

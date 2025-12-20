@@ -72,6 +72,11 @@ const ferramentas = [
         url: "https://humantrack.io/",
         descricao: "IA para monitoramento e análise de saúde com insights automatizados.",
     },
+    {
+        nome: "Leona Health",
+        url: "https://www.leona.health/",
+        descricao: "Plataforma de IA para triagem e suporte médico com análise de sintomas.",
+    },
 ];
 
 export default function IaParaMedicos() {

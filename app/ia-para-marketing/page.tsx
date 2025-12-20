@@ -272,6 +272,11 @@ const ferramentas = [
         url: "https://bit.ai/",
         descricao: "Plataforma colaborativa para criar documentos inteligentes com IA.",
     },
+    {
+        nome: "Intempt",
+        url: "https://www.intempt.com/",
+        descricao: "Plataforma de marketing com IA para personalização e automação de campanhas.",
+    },
 ];
 
 export const metadata = {

@@ -57,6 +57,11 @@ const newsletters = [
     url: "https://www.theaivalley.com/",
     descricao: "Notícias e tendências diárias do ecossistema de IA.",
   },
+  {
+    nome: "FutureTools",
+    url: "https://futuretools.beehiiv.com/",
+    descricao: "Newsletter sobre as melhores ferramentas de IA lançadas recentemente.",
+  },
 ];
 
 export const metadata = {
