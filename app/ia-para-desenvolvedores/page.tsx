@@ -1,5 +1,6 @@
 import { CodeBracketIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import ExpandableContent from "./ExpandableContent";
 
 export const metadata = {
   title: "Inteligência Artificial para desenvolvimento",
@@ -289,7 +290,7 @@ export default function IaParaDesenvolvedores() {
         <CodeBracketIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">IA para Desenvolvedores</h1>
       </div>
-      <p className="mb-8 text-gray-600">Ferramentas e assistentes pensados para programadores: geração de código, revisões e autocompletes inteligentes.</p>
+      <ExpandableContent />
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => (
           <a

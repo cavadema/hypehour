@@ -1,5 +1,6 @@
 import { PhoneIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import ExpandableContent from "./ExpandableContent";
 
 export const metadata = {
   title: "Atendimento com Inteligencia Artificial",
@@ -26,7 +27,7 @@ export default function IAParaAtendimento() {
         <PhoneIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">IA para atendimento</h1>
       </div>
-      <p className="mb-8 text-gray-600">Ferramentas e soluções com IA para automatizar, melhorar e personalizar o atendimento ao cliente.</p>
+      <ExpandableContent />
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => (
           <a key={f.nome} href={f.url} target="_blank" rel="noopener noreferrer" className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100">
