@@ -79,6 +79,79 @@ const ferramentas = [
     },
 ];
 
+const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://www.hypehour.com.br/#organization",
+            "name": "Hypehour",
+            "url": "https://www.hypehour.com.br"
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://www.hypehour.com.br/#website",
+            "name": "Hypehour",
+            "url": "https://www.hypehour.com.br",
+            "publisher": {
+                "@id": "https://www.hypehour.com.br/#organization"
+            }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.hypehour.com.br/ia-para-medicos/#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.hypehour.com.br"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "IA para Médicos",
+                    "item": "https://www.hypehour.com.br/ia-para-medicos"
+                }
+            ]
+        },
+        {
+            "@type": "CollectionPage",
+            "@id": "https://www.hypehour.com.br/ia-para-medicos/#collectionpage",
+            "name": "IA para Médicos",
+            "description": "Lista de ferramentas de IA para médicos, incluindo soluções para diagnóstico, análise clínica, gestão de pacientes e apoio à tomada de decisão na área da saúde.",
+            "url": "https://www.hypehour.com.br/ia-para-medicos",
+            "isPartOf": {
+                "@id": "https://www.hypehour.com.br/#website"
+            },
+            "breadcrumb": {
+                "@id": "https://www.hypehour.com.br/ia-para-medicos/#breadcrumb"
+            },
+            "mainEntity": {
+                "@type": "ItemList",
+                "@id": "https://www.hypehour.com.br/ia-para-medicos/#itemlist",
+                "itemListOrder": "http://schema.org/ItemListOrderAscending",
+                "numberOfItems": 13,
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "IBM Watson Healthcare" },
+                    { "@type": "ListItem", "position": 2, "name": "Ada" },
+                    { "@type": "ListItem", "position": 3, "name": "Voa Health" },
+                    { "@type": "ListItem", "position": 4, "name": "Excelmatic" },
+                    { "@type": "ListItem", "position": 5, "name": "Scisummary" },
+                    { "@type": "ListItem", "position": 6, "name": "Humata Chat" },
+                    { "@type": "ListItem", "position": 7, "name": "Livia" },
+                    { "@type": "ListItem", "position": 8, "name": "Ziptalk" },
+                    { "@type": "ListItem", "position": 9, "name": "PathAI" },
+                    { "@type": "ListItem", "position": 10, "name": "Aspirin AI" },
+                    { "@type": "ListItem", "position": 11, "name": "SciSpace Biomedical" },
+                    { "@type": "ListItem", "position": 12, "name": "HumanTrack" },
+                    { "@type": "ListItem", "position": 13, "name": "Leona Health" }
+                ]
+            }
+        }
+    ]
+};
+
 export default function IaParaMedicos() {
     return (
         <main className="max-w-3xl mx-auto py-10 px-4">
@@ -89,6 +162,10 @@ export default function IaParaMedicos() {
                 <HeartIcon className="w-10 h-10 text-gray-900" />
                 <h1 className="text-3xl font-bold">IA para Médicos</h1>
             </div>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <ExpandableContent />
             <div className="grid gap-6 sm:grid-cols-2">
                 {ferramentas.map((f) => (

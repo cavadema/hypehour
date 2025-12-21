@@ -1,7 +1,33 @@
 import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon, ChatBubbleLeftRightIcon, UserGroupIcon, HeartIcon } from "@heroicons/react/24/solid";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.hypehour.com.br/#organization",
+      "name": "Hypehour",
+      "url": "https://www.hypehour.com.br"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.hypehour.com.br/#website",
+      "name": "Hypehour",
+      "url": "https://www.hypehour.com.br",
+      "publisher": {
+        "@id": "https://www.hypehour.com.br/#organization"
+      }
+    }
+  ]
+};
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans -mt-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Primeira dobra */}
       <section className="w-full flex flex-col items-center justify-center py-20 bg-gradient-to-br from-gray-50 via-white to-gray-100 border-b border-zinc-200 relative overflow-hidden">
         <SparklesIcon className="w-16 h-16 text-gray-700 mb-4 animate-pulse" />
