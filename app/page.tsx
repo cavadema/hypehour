@@ -1044,34 +1044,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PresentationChartLineIcon className="w-5 h-5" /> Intempt</span>
-            <p className="text-zinc-700">Plataforma de marketing com IA para personalização e automação de campanhas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 20/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Mem0</span>
+            <p className="text-zinc-700">Memória para agentes de IA; contextos persistentes em apps.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 21/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ShieldCheckIcon className="w-5 h-5" /> PromptGuard</span>
-            <p className="text-zinc-700">Ferramenta de segurança para proteger prompts e detectar vulnerabilidades em sistemas de IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 20/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Greptile</span>
+            <p className="text-zinc-700">Assistente que entende seu repo e responde sobre o código.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 21/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><EnvelopeIcon className="w-5 h-5" /> FutureTools</span>
-            <p className="text-zinc-700">Newsletter sobre as melhores ferramentas de IA lançadas recentemente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 20/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Retool</span>
+            <p className="text-zinc-700">Crie apps internos rapidamente; integrações e automações.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 21/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhoneIcon className="w-5 h-5" /> Poly.ai</span>
-            <p className="text-zinc-700">Assistente de voz com IA para atendimento ao cliente por telefone e canais digitais.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 20/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Gambo</span>
+            <p className="text-zinc-700">Geração de apps e fluxos com IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 21/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><HeartIcon className="w-5 h-5" /> Leona Health</span>
-            <p className="text-zinc-700">Plataforma de IA para triagem e suporte médico com análise de sintomas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 20/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhoneIcon className="w-5 h-5" /> Keplar Voice</span>
+            <p className="text-zinc-700">Agente de voz com IA para atendimento em chamadas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 21/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> OpenAI Academy</span>
-            <p className="text-zinc-700">Cursos oficiais da OpenAI sobre uso e desenvolvimento com IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 20/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Arcway</span>
+            <p className="text-zinc-700">IA para análise e planejamento de projetos arquitetônicos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 21/12/2025</span>
           </div>
         </div>
       </section>
