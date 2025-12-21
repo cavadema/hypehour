@@ -43,6 +43,10 @@ const ferramentas = [
   { nome: "VibeCSS - AI CSS Editor (extensao)", url: "https://chromewebstore.google.com/detail/vibecss-ai-css-editor/colipoagmianjahabfbghhpmeclolgad ", descricao: "Extensão com IA que edita e gera CSS diretamente no navegador para estilizar sites." },
   { nome: "Mocha", url: "https://getmocha.com/", descricao: "Agente/IDE com IA para criar apps via chat e ações." },
   { nome: "PromptGuard", url: "https://promptguard.co/", descricao: "Ferramenta de segurança para proteger prompts e detectar vulnerabilidades em sistemas de IA." },
+  { nome: "Bitrig", url: "https://www.bitrig.com/", descricao: "Ferramentas para criar apps com IA rapidamente." },
+  { nome: "Google Opal", url: "https://opal.google/", descricao: "Plataforma experimental do Google para apps com IA." },
+  { nome: "Retool", url: "https://retool.com/", descricao: "Crie apps internos rapidamente; integrações e automações." },
+  { nome: "Gambo", url: "https://www.gambo.ai/", descricao: "Geração de apps e fluxos com IA." },
 ];
 
 export default function IaParaVibeCoding() {

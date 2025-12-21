@@ -31,6 +31,7 @@ const ferramentas = [
   { nome: "Klarna Agentic Protocol", url: "https://www.klarna.com/international/press/klarna-launches-agentic-product-protocol-the-open-standard-that-makes-100m/", descricao: "Padrão aberto da Klarna para agentes interoperarem com produtos." },
   { nome: "Sonatype Guide", url: "https://www.sonatype.com/products/sonatype-guide", descricao: "Assistente com IA para guiar desenvolvedores em segurança e dependências." },
   { nome: "Radiant", url: "https://radiantapp.com/", descricao: "Assistente pessoal com IA para foco, tarefas e informações rápidas." },
+  { nome: "Varchive", url: "https://varchive.ai/", descricao: "Organize conhecimento e documentos com IA em um único lugar." },
 ];
 
 export default function AssistentesDeIA() {

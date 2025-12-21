@@ -123,6 +123,11 @@ const ferramentas = [
     url: "https://www.myaininja.com/",
     descricao: "Assistente inteligente que cria automações e agentes de IA sem código.",
   },
+  {
+    nome: "Box",
+    url: "https://www.box.com/home",
+    descricao: "Colaboração e conteúdo com IA e segurança empresarial.",
+  },
 ];
 
 export const metadata = {

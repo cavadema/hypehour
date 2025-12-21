@@ -35,6 +35,7 @@ const ferramentas = [
   { nome: "WeVoicer", url: "https://wevoicer.com/", descricao: "Narração em IA com vozes naturais e personalizáveis para projetos audiovisuais." },
   { nome: "Cartesia", url: "https://cartesia.ai/", descricao: "Agentes de voz com IA que podem atender chamadas, receber pedidos ou responder a perguntas de clientes usando uma fala natural, semelhante à humana." },
   { nome: "Chatterbox", url: "https://www.resemble.ai/chatterbox/", descricao: "Agentes de voz em tempo real com IA para conversas naturais e interativas." },
+  { nome: "Grok Voice Agent API", url: "https://x.ai/news/grok-voice-agent-api", descricao: "API da xAI para criar agentes de voz com IA." },
 
 ];
 

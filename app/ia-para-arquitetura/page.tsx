@@ -76,6 +76,11 @@ const ferramentas = [
         url: "https://www.kaedim3d.com/",
         descricao: "Transforme imagens 2D em modelos 3D prontos para uso em CAD e renderização.",
     },
+    {
+        nome: "Arcway",
+        url: "https://arcway.ai/",
+        descricao: "IA para análise e planejamento de projetos arquitetônicos.",
+    },
 ];
 
 export default function IaParaArquitetura() {

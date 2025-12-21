@@ -10,7 +10,27 @@ export const metadata = {
   },
 };
 
-const ferramentas = [
+const ferramentas = [ 
+  {
+    nome: "Apple ML-Sharp",
+    url: "https://github.com/apple/ml-sharp",
+    descricao: "Biblioteca open-source da Apple para ML com IA.",
+  },
+  {
+    nome: "Solo.io",
+    url: "https://www.solo.io/",
+    descricao: "Plataforma para APIs, service mesh e ferramentas para devs.",
+  },
+  {
+    nome: "Alibaba DeepResearch",
+    url: "https://github.com/Alibaba-NLP/DeepResearch",
+    descricao: "Pesquisa profunda assistida por IA em projeto open-source.",
+  },
+  {
+    nome: "Greptile",
+    url: "https://www.greptile.com/",
+    descricao: "Assistente que entende seu repo e responde sobre o código.",
+  },
   {
     nome: "GitHub Copilot",
     url: "https://github.com/features/copilot",

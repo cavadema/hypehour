@@ -169,6 +169,17 @@ const ferramentas = [
     url: "https://www.tripo3d.ai/pt",
     descricao: "Gere modelos 3D a partir de texto ou imagens usando IA.",
   }
+  ,
+  {
+    nome: "Arcads",
+    url: "https://www.arcads.ai/",
+    descricao: "Crie anúncios e visuais com IA focados em performance.",
+  },
+  {
+    nome: "Creatify",
+    url: "https://creatify.ai/br/",
+    descricao: "Crie anúncios e vídeos curtos com IA e templates prontos para social.",
+  }
 ];
 
 export const metadata = {

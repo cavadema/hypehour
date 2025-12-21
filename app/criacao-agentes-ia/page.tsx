@@ -25,6 +25,7 @@ const ferramentas = [
   { nome: "Zenflow (Zencoder)", url: "https://zencoder.ai/zenflow", descricao: "Construa agentes e fluxos com IA orquestrando ferramentas e memória." },
   { nome: "Databricks AI Agents", url: "https://www.databricks.com/solutions/ai-agents", descricao: "Solução para construir e operar agentes de IA em dados empresariais." },
   { nome: "Nelly", url: "https://nelly.is/", descricao: "Agentes de IA para workflows e automações em escala." },
+  { nome: "Mem0", url: "https://mem0.ai/", descricao: "Memória para agentes de IA; contextos persistentes em apps." },
 ];
 
 export default function CriacaoAgentesIA() {

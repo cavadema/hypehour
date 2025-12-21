@@ -173,6 +173,11 @@ const ferramentas = [
         url: "https://autoshorts.ai/",
         descricao: "Crie vídeos curtos automaticamente com IA para redes sociais.",
     },
+    {
+        nome: "Viral Clips Crew",
+        url: "https://github.com/alexfazio/viral-clips-crew/",
+        descricao: "Projeto open-source para criar clipes virais com IA.",
+    },
 ];
 
 export const metadata = {
