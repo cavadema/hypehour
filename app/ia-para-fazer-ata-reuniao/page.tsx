@@ -26,6 +26,7 @@ const ferramentas = [
   { nome: "Cockatoo", url: "https://www.cockatoo.com/", descricao: "Plataforma IA para transcrever, traduzir e resumir reuniões." },
   { nome: "ClickMeeting", url: "https://clickmeeting.com/", descricao: "Plataforma de videoconferência com IA para gravação e resumo de reuniões." },
   { nome: "ScreenApp", url: "https://screenapp.io/pt/features/meeting-minutes-generator", descricao: "Gerador de atas de reunião a partir de áudio com IA." },
+  { nome: "Granola", url: "https://www.granola.ai/", descricao: "Assistente de IA para transcrever, resumir e extrair insights automáticos de reuniões." },
 ];
 
 export default function IaParaFazerAtaReuniao() {

@@ -47,6 +47,7 @@ const ferramentas = [
   { nome: "Google Opal", url: "https://opal.google/", descricao: "Plataforma experimental do Google para apps com IA." },
   { nome: "Retool", url: "https://retool.com/", descricao: "Crie apps internos rapidamente; integrações e automações." },
   { nome: "Gambo", url: "https://www.gambo.ai/", descricao: "Geração de apps e fluxos com IA." },
+  { nome: "Blink", url: "https://blink.new/", descricao: "Ferramenta rápida para prototipagem e desenvolvimento web com IA." },
 ];
 
 export default function IaParaVibeCoding() {

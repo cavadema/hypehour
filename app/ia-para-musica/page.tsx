@@ -49,6 +49,11 @@ const ferramentas = [
         descricao: "Ferramentas inteligentes de mixagem, masterização e reparo de áudio assistidas por IA.",
     },
     {
+        nome: "Loudly",
+        url: "https://www.loudly.com/",
+        descricao: "Crie e personalize músicas royalty-free com IA para vídeos e projetos criativos.",
+    },
+    {
         nome: "Amper Music",
         url: "https://www.ampermusic.com/",
         descricao: "Crie trilhas sonoras originais e personalizáveis em segundos com IA.",

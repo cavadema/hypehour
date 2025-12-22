@@ -179,6 +179,16 @@ const ferramentas = [
     nome: "Creatify",
     url: "https://creatify.ai/br/",
     descricao: "Crie anúncios e vídeos curtos com IA e templates prontos para social.",
+  },
+  {
+    nome: "Image Upscaler",
+    url: "https://imgupscaler.com/",
+    descricao: "Melhore a qualidade de imagens com upscaling inteligente usando IA.",
+  },
+  {
+    nome: "Media.io",
+    url: "https://www.media.io/",
+    descricao: "Suite de ferramentas de IA para edição, conversão e otimização de mídia.",
   }
 ];
 

@@ -19,6 +19,7 @@ const ferramentas = [
   { nome: "Univerbal", url: "https://www.univerbal.app/", descricao: "Chat com IA para treinar inglês em cenários reais." },
   { nome: "Lingvist", url: "https://lingvist.com/pt-br/", descricao: "Vocabulário e gramática adaptativos com IA." },
   { nome: "ELSA Speak", url: "https://elsaspeak.com/en", descricao: "Feedback de pronúncia avançado e exercícios de fala." },
+  { nome: "JumpSpeak", url: "https://www.jumpspeak.com/flow-gs", descricao: "Prática de conversação em inglês com IA e feedback instantâneo sobre fluência." },
 ];
 
 export default function AprenderInglesComIA() {
