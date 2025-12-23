@@ -189,6 +189,16 @@ const ferramentas = [
     nome: "Media.io",
     url: "https://www.media.io/",
     descricao: "Suite de ferramentas de IA para edição, conversão e otimização de mídia.",
+  },
+  {
+    nome: "Fotor",
+    url: "https://www.fotor.com/pt/",
+    descricao: "Editor de fotos online com recursos avançados de IA para retoques e design.",
+  },
+  {
+    nome: "Stability AI",
+    url: "https://stability.ai/",
+    descricao: "Modelos de IA open source para geração de imagens e conteúdo visual.",
   }
 ];
 

@@ -1044,34 +1044,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Blink</span>
-            <p className="text-zinc-700">Ferramenta rápida para prototipagem e desenvolvimento web com IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 22/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> VisionSEO</span>
+            <p className="text-zinc-700">Plataforma brasileira de SEO com IA para análise e otimização de sites.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 23/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> Granola</span>
-            <p className="text-zinc-700">Assistente de IA para transcrever, resumir e extrair insights automáticos de reuniões.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 22/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Caffeine</span>
+            <p className="text-zinc-700">IA para acelerar desenvolvimento e automatizar tarefas de código.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 23/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> JumpSpeak</span>
-            <p className="text-zinc-700">Prática de conversação em inglês com IA e feedback instantâneo sobre fluência.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 22/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Coral AI</span>
+            <p className="text-zinc-700">Assistente de IA para produtividade e automação de tarefas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 23/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Image Upscaler</span>
-            <p className="text-zinc-700">Melhore a qualidade de imagens com upscaling inteligente usando IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 22/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Fotor</span>
+            <p className="text-zinc-700">Editor de fotos online com recursos avançados de IA para retoques e design.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 23/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Media.io</span>
-            <p className="text-zinc-700">Suite de ferramentas de IA para edição, conversão e otimização de mídia.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 22/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Stability AI</span>
+            <p className="text-zinc-700">Modelos de IA open source para geração de imagens e conteúdo visual.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 23/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MusicalNoteIcon className="w-5 h-5" /> Loudly</span>
-            <p className="text-zinc-700">Crie e personalize músicas royalty-free com IA para vídeos e projetos criativos.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 22/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Blaze AI</span>
+            <p className="text-zinc-700">Assistente de IA para gerar e otimizar conteúdo rapidamente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 23/12/2025</span>
           </div>
         </div>
       </section>

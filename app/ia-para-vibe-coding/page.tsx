@@ -48,6 +48,7 @@ const ferramentas = [
   { nome: "Retool", url: "https://retool.com/", descricao: "Crie apps internos rapidamente; integrações e automações." },
   { nome: "Gambo", url: "https://www.gambo.ai/", descricao: "Geração de apps e fluxos com IA." },
   { nome: "Blink", url: "https://blink.new/", descricao: "Ferramenta rápida para prototipagem e desenvolvimento web com IA." },
+  { nome: "Caffeine", url: "https://caffeine.ai/", descricao: "IA para acelerar desenvolvimento e automatizar tarefas de código." },
 ];
 
 export default function IaParaVibeCoding() {

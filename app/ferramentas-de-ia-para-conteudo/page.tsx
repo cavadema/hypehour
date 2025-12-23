@@ -128,6 +128,11 @@ const ferramentas = [
     url: "https://www.box.com/home",
     descricao: "Colaboração e conteúdo com IA e segurança empresarial.",
   },
+  {
+    nome: "Blaze AI",
+    url: "https://blaze.today/aiblaze/",
+    descricao: "Assistente de IA para gerar e otimizar conteúdo rapidamente.",
+  },
 ];
 
 export const metadata = {

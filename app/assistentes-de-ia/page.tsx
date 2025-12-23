@@ -32,6 +32,7 @@ const ferramentas = [
   { nome: "Sonatype Guide", url: "https://www.sonatype.com/products/sonatype-guide", descricao: "Assistente com IA para guiar desenvolvedores em segurança e dependências." },
   { nome: "Radiant", url: "https://radiantapp.com/", descricao: "Assistente pessoal com IA para foco, tarefas e informações rápidas." },
   { nome: "Varchive", url: "https://varchive.ai/", descricao: "Organize conhecimento e documentos com IA em um único lugar." },
+  { nome: "Coral AI", url: "https://www.getcoralai.com/", descricao: "Assistente de IA para produtividade e automação de tarefas." },
 ];
 
 export default function AssistentesDeIA() {

@@ -278,6 +278,11 @@ const ferramentas = [
         url: "https://www.intempt.com/",
         descricao: "Plataforma de marketing com IA para personalização e automação de campanhas.",
     },
+    {
+        nome: "VisionSEO",
+        url: "https://visionseo.com.br/",
+        descricao: "Plataforma brasileira de SEO com IA para análise e otimização de sites.",
+    },
 ];
 
 export const metadata = {
