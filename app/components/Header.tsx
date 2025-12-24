@@ -51,6 +51,7 @@ export default function Header() {
                 <Link href="/ia-para-medicos" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Médicos</Link>
                 <Link href="/ia-para-arquitetura" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Arquitetura</Link>
                 <Link href="/ia-para-musica" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Música</Link>
+                <Link href="/analise-de-dados" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Análise de dados</Link>
                 <Link href="/modelos-de-llms" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Modelos de LLMs</Link>
                 <Link href="/navegadores-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Navegadores de IA</Link>
                 <Link href="/newsletters-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Newsletters</Link>
@@ -92,6 +93,7 @@ export default function Header() {
                 <li><Link href="/ia-para-professores" className="block py-2 pl-4" onClick={() => setOpen(false)}>Professores</Link></li>
                 <li><Link href="/ia-para-musica" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Música</Link></li>
                 <li><Link href="/ia-para-arquitetura" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Arquitetura</Link></li>
+                <li><Link href="/analise-de-dados" className="block py-2 pl-4" onClick={() => setOpen(false)}>Análise de dados</Link></li>
                 <li><Link href="/modelos-de-llms" className="block py-2 pl-4" onClick={() => setOpen(false)}>Modelos de LLMs</Link></li>
                 <li><Link href="/navegadores-de-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Navegadores de IA</Link></li>
                 <li><Link href="/newsletters-de-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Newsletters</Link></li>

@@ -875,6 +875,37 @@ export default function Home() {
         </div>
       </section>
 
+      {/* IA para Análise de Dados */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <ArchiveBoxIcon className="w-6 h-6 text-gray-700" />
+            IA para Análise de Dados
+          </h2>
+          <a href="/analise-de-dados" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas as IAs para análise de dados</a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Zettadata</span>
+            <p className="text-zinc-700">Plataforma de análise de dados com IA para insights automatizados.</p>
+            <span className="text-xs text-zinc-500">Categoria: Análise de dados</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Basedash</span>
+            <p className="text-zinc-700">Interface de IA para visualizar e editar dados do seu banco.</p>
+            <span className="text-xs text-zinc-500">Categoria: Análise de dados</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Rybbit</span>
+            <p className="text-zinc-700">Análise de dados com IA e automações para decisões rápidas.</p>
+            <span className="text-xs text-zinc-500">Categoria: Análise de dados</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/analise-de-dados" className="text-black text-sm font-medium hover:underline">Ver todas as IAs para análise de dados</a>
+        </div>
+      </section>
+
       {/* Newsletters de IA */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">
