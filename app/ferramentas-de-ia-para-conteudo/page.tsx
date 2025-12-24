@@ -133,6 +133,21 @@ const ferramentas = [
     url: "https://blaze.today/aiblaze/",
     descricao: "Assistente de IA para gerar e otimizar conteúdo rapidamente.",
   },
+  {
+    nome: "AdCreative",
+    url: "https://www.adcreative.ai/",
+    descricao: "Crie anúncios visuais com IA que convertem para e-commerce e marketing.",
+  },
+  {
+    nome: "AdCreative.com",
+    url: "https://adcreative.com/",
+    descricao: "Gerador de criativos para anúncios digitais com IA.",
+  },
+  {
+    nome: "Hix AI",
+    url: "https://hix.ai/",
+    descricao: "Assistente de escrita e geração de conteúdo com IA avançada.",
+  },
 ];
 
 export const metadata = {

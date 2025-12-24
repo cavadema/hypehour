@@ -178,6 +178,21 @@ const ferramentas = [
         url: "https://github.com/alexfazio/viral-clips-crew/",
         descricao: "Projeto open-source para criar clipes virais com IA.",
     },
+    {
+        nome: "Klap",
+        url: "https://klap.app/",
+        descricao: "Transforme vídeos longos em clipes curtos para redes sociais com IA.",
+    },
+    {
+        nome: "Eightify",
+        url: "https://eightify.app/",
+        descricao: "Resuma vídeos do YouTube com IA e extraia insights em minutos.",
+    },
+    {
+        nome: "Morph Studio",
+        url: "https://www.morphstudio.com/",
+        descricao: "Estúdio de criação de vídeos com IA para efeitos avançados.",
+    },
 ];
 
 export const metadata = {

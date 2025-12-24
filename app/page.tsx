@@ -1044,34 +1044,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> VisionSEO</span>
-            <p className="text-zinc-700">Plataforma brasileira de SEO com IA para análise e otimização de sites.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 23/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> AdCreative</span>
+            <p className="text-zinc-700">Crie anúncios visuais com IA que convertem para e-commerce e marketing.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 24/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Caffeine</span>
-            <p className="text-zinc-700">IA para acelerar desenvolvimento e automatizar tarefas de código.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 23/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Hix AI</span>
+            <p className="text-zinc-700">Assistente de escrita e geração de conteúdo com IA avançada.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 24/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Coral AI</span>
-            <p className="text-zinc-700">Assistente de IA para produtividade e automação de tarefas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 23/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Hey Boss</span>
+            <p className="text-zinc-700">Plataforma de IA para automação de workflows e tarefas de negócio.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 24/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Fotor</span>
-            <p className="text-zinc-700">Editor de fotos online com recursos avançados de IA para retoques e design.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 23/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> 10Web</span>
+            <p className="text-zinc-700">Criador de sites com IA, hospedagem e ferramentas de otimização.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 24/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Stability AI</span>
-            <p className="text-zinc-700">Modelos de IA open source para geração de imagens e conteúdo visual.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 23/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Klap</span>
+            <p className="text-zinc-700">Transforme vídeos longos em clipes curtos para redes sociais com IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 24/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Blaze AI</span>
-            <p className="text-zinc-700">Assistente de IA para gerar e otimizar conteúdo rapidamente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 23/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Eightify</span>
+            <p className="text-zinc-700">Resuma vídeos do YouTube com IA e extraia insights em minutos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 24/12/2025</span>
           </div>
         </div>
       </section>

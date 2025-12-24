@@ -49,6 +49,10 @@ const ferramentas = [
   { nome: "Gambo", url: "https://www.gambo.ai/", descricao: "Geração de apps e fluxos com IA." },
   { nome: "Blink", url: "https://blink.new/", descricao: "Ferramenta rápida para prototipagem e desenvolvimento web com IA." },
   { nome: "Caffeine", url: "https://caffeine.ai/", descricao: "IA para acelerar desenvolvimento e automatizar tarefas de código." },
+  { nome: "Hey Boss", url: "https://heyboss.ai/", descricao: "Plataforma de IA para automação de workflows e tarefas de negócio." },
+  { nome: "10Web", url: "https://10web.io/", descricao: "Criador de sites com IA, hospedagem e ferramentas de otimização." },
+  { nome: "Durable", url: "https://durable.co/pt", descricao: "Construtor de sites e apps com IA em minutos." },
+  { nome: "StyleAI", url: "https://www.styleai.io/", descricao: "IA para design e estilo visual de projetos web." },
 ];
 
 export default function IaParaVibeCoding() {
