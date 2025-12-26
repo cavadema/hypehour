@@ -27,6 +27,7 @@ const ferramentas = [
   { nome: "ClickMeeting", url: "https://clickmeeting.com/", descricao: "Plataforma de videoconferência com IA para gravação e resumo de reuniões." },
   { nome: "ScreenApp", url: "https://screenapp.io/pt/features/meeting-minutes-generator", descricao: "Gerador de atas de reunião a partir de áudio com IA." },
   { nome: "Granola", url: "https://www.granola.ai/", descricao: "Assistente de IA para transcrever, resumir e extrair insights automáticos de reuniões." },
+  { nome: "Noty", url: "https://noty.ai/", descricao: "Assistente de IA que transcreve reuniões, gera resumos e extrai tarefas automaticamente." },
 ];
 
 export default function IaParaFazerAtaReuniao() {

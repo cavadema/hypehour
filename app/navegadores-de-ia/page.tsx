@@ -47,6 +47,11 @@ const navegadores = [
     url: "https://labs.google/disco/",
     descricao: "Navegador experimental com IA que cria apps interativos a partir de suas abas.",
   },
+  {
+    nome: "Opera Neon",
+    url: "https://www.operaneon.com/",
+    descricao: "Browser agentico com IA que executa ações, pesquisa e automatiza tarefas na web.",
+  },
 ];
 
 export const metadata = {

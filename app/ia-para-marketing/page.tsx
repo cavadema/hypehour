@@ -283,6 +283,26 @@ const ferramentas = [
         url: "https://visionseo.com.br/",
         descricao: "Plataforma brasileira de SEO com IA para análise e otimização de sites.",
     },
+    {
+        nome: "BlogSEO",
+        url: "https://www.blogseo.io/",
+        descricao: "Plataforma de IA que analisa site, descobre oportunidades de conteúdo e publica automaticamente.",
+    },
+    {
+        nome: "SeonaAI",
+        url: "https://seonaai.com/",
+        descricao: "Ferramenta gratuita de IA para otimizar SEO do seu site com análises detalhadas.",
+    },
+    {
+        nome: "Higoodie",
+        url: "https://higoodie.com/",
+        descricao: "Plataforma AEO para monitorar visibilidade em IA e otimizar presença em ChatGPT e Gemini.",
+    },
+    {
+        nome: "ClickRank",
+        url: "https://www.clickrank.ai/",
+        descricao: "Automação SEO com IA para otimizar títulos, meta descriptions e schema com 1 clique.",
+    },
 ];
 
 export const metadata = {
