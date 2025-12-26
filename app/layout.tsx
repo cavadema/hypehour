@@ -96,6 +96,7 @@ export default function RootLayout({
                 <li><a href="/ia-para-imagens" className="hover:underline">Imagens</a></li>
                 <li><a href="/ia-para-criar-videos" className="hover:underline">Vídeos</a></li>
                 <li><a href="/ia-para-musica" className="hover:underline">Música</a></li>
+                <li><a href="/ia-para-jogos" className="hover:underline">IA para Jogos</a></li>
                 <li><a href="/transcrever-audio" className="hover:underline">Transcrever Áudio</a></li>
                 <li><a href="/ia-para-fazer-ata-reuniao" className="hover:underline">Ata de Reunião</a></li>
                 <li><a href="/criacao-agentes-ia" className="hover:underline">Criação de Agentes</a></li>
