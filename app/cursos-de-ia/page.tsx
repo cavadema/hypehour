@@ -1,5 +1,7 @@
 import { AcademicCapIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import FAQSection from "./FAQSection";
+import ExpandableContent from "./ExpandableContent";
 
 const cursos = [
   { nome: "Escola Virtual Gov.br", url: "https://www.escolavirtual.gov.br/curso/861", descricao: "Curso gratuito de IA oferecido pelo Governo Federal." },
@@ -43,9 +45,7 @@ export default function CursosDeIA() {
         <AcademicCapIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">Cursos de IAs</h1>
       </div>
-      <p className="mb-8 text-gray-600">
-        Descubra os melhores cursos de Inteligência Artificial gratuitos e pagos para impulsionar sua carreira e aprender IA do zero ao avançado.
-      </p>
+      <ExpandableContent />
       <div className="grid gap-6 sm:grid-cols-2">
         {cursos.map((curso) => (
           <a
@@ -60,6 +60,7 @@ export default function CursosDeIA() {
           </a>
         ))}
       </div>
+      <FAQSection />
     </main>
   );
 }

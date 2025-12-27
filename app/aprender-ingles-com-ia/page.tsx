@@ -1,5 +1,7 @@
 import { AcademicCapIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import FAQSection from "./FAQSection";
+import ExpandableContent from "./ExpandableContent";
 
 export const metadata = {
   title: "Aprender Inglês com IA",
@@ -32,7 +34,7 @@ export default function AprenderInglesComIA() {
         <AcademicCapIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">IA para aprender inglês</h1>
       </div>
-      <p className="mb-8 text-gray-600">Ferramentas e apps que usam IA para acelerar estudos, conversação e pronúncia em inglês.</p>
+      <ExpandableContent />
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => (
           <a key={f.nome} href={f.url} target="_blank" rel="noopener noreferrer" className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100">
@@ -41,6 +43,7 @@ export default function AprenderInglesComIA() {
           </a>
         ))}
       </div>
+      <FAQSection />
     </main>
   );
 }

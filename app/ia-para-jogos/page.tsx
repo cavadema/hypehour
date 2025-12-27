@@ -1,5 +1,6 @@
 import { RocketLaunchIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
@@ -84,6 +85,7 @@ export default function IAparaJogos() {
                     </a>
                 ))}
             </div>
+            <FAQSection />
         </main>
     );
 }
