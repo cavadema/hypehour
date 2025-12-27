@@ -1075,34 +1075,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Opera Neon</span>
-            <p className="text-zinc-700">Browser agentico com IA que executa ações, pesquisa e automatiza tarefas na web.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 26/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> Zoom AI Assistant</span>
+            <p className="text-zinc-700">Assistente de IA nativo do Zoom para transcrever reuniões, gerar atas e extrair insights.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 27/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> Noty</span>
-            <p className="text-zinc-700">Assistente de IA que transcreve reuniões, gera resumos e extrai tarefas automaticamente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 26/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Luma Labs</span>
+            <p className="text-zinc-700">Plataforma de IA para gerar vídeos de alta qualidade com Dream Machine e modelos avançados.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 27/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> BlogSEO</span>
-            <p className="text-zinc-700">Plataforma de IA que analisa site, descobre oportunidades de conteúdo e publica automaticamente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 26/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Nume</span>
+            <p className="text-zinc-700">IA CFO que analisa dados financeiros, fornece insights em tempo real e automatiza tarefas contábeis.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 27/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> SeonaAI</span>
-            <p className="text-zinc-700">Ferramenta gratuita de IA para otimizar SEO do seu site com análises detalhadas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 26/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Netlify AI Gateway</span>
+            <p className="text-zinc-700">Gateway de IA da Netlify para usar modelos OpenAI, Anthropic e Google sem gerenciar chaves.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 27/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Higoodie</span>
-            <p className="text-zinc-700">Plataforma AEO para monitorar visibilidade em IA e otimizar presença em ChatGPT e Gemini.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 26/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Supermemory</span>
+            <p className="text-zinc-700">API de memória de longo prazo para aplicações de IA com recall sub-300ms e escalabilidade empresarial.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 27/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> ClickRank</span>
-            <p className="text-zinc-700">Automação SEO com IA para otimizar títulos, meta descriptions e schema com 1 clique.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 26/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Dify</span>
+            <p className="text-zinc-700">Plataforma open-source para desenvolvimento de aplicações LLM com workflows visuais e RAG.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 27/12/2025</span>
           </div>
         </div>
       </section>

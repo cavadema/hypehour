@@ -298,6 +298,9 @@ const ferramentas = [
     url: "https://promptguard.co/",
     descricao: "Ferramenta de segurança para proteger prompts e detectar vulnerabilidades em sistemas de IA.",
   },
+  { nome: "Netlify AI Gateway", url: "https://docs.netlify.com/build/ai-gateway/overview/", descricao: "Gateway de IA da Netlify para usar modelos OpenAI, Anthropic e Google sem gerenciar chaves." },
+  { nome: "Supermemory", url: "https://supermemory.ai/", descricao: "API de memória de longo prazo para aplicações de IA com recall sub-300ms e escalabilidade empresarial." },
+  { nome: "Dify", url: "https://github.com/langgenius/dify", descricao: "Plataforma open-source para desenvolvimento de aplicações LLM com workflows visuais e RAG." },
 ];
 
 export default function IaParaDesenvolvedores() {

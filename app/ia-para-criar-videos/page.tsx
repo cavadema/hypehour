@@ -193,6 +193,7 @@ const ferramentas = [
         url: "https://www.morphstudio.com/",
         descricao: "Estúdio de criação de vídeos com IA para efeitos avançados.",
     },
+  { nome: "Luma Labs", url: "https://lumalabs.ai/", descricao: "Plataforma de IA para gerar vídeos de alta qualidade com Dream Machine e modelos de geração avançados." },
 ];
 
 export const metadata = {

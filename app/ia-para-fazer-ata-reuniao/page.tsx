@@ -28,6 +28,7 @@ const ferramentas = [
   { nome: "ScreenApp", url: "https://screenapp.io/pt/features/meeting-minutes-generator", descricao: "Gerador de atas de reunião a partir de áudio com IA." },
   { nome: "Granola", url: "https://www.granola.ai/", descricao: "Assistente de IA para transcrever, resumir e extrair insights automáticos de reuniões." },
   { nome: "Noty", url: "https://noty.ai/", descricao: "Assistente de IA que transcreve reuniões, gera resumos e extrai tarefas automaticamente." },
+  { nome: "Zoom AI Assistant", url: "https://www.zoom.com/pt/products/ai-assistant/", descricao: "Assistente de IA nativo do Zoom para transcrever reuniões, gerar atas e extrair insights." },
 ];
 
 export default function IaParaFazerAtaReuniao() {

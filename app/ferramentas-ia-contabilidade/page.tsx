@@ -38,6 +38,7 @@ const ferramentas = [
         url: "https://docyt.com/",
         descricao: "Automação de contabilidade e gestão de despesas com inteligência artificial.",
     },
+  { nome: "Nume", url: "https://www.nume.ai/", descricao: "IA CFO que analisa dados financeiros, fornece insights em tempo real e automatiza tarefas contábeis." },
 ];
 
 export const metadata = {
