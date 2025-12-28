@@ -33,6 +33,8 @@ const ferramentas = [
   { nome: "Radiant", url: "https://radiantapp.com/", descricao: "Assistente pessoal com IA para foco, tarefas e informações rápidas." },
   { nome: "Varchive", url: "https://varchive.ai/", descricao: "Organize conhecimento e documentos com IA em um único lugar." },
   { nome: "Coral AI", url: "https://www.getcoralai.com/", descricao: "Assistente de IA para produtividade e automação de tarefas." },
+  { nome: "Sintra", url: "https://sintra.ai/", descricao: "Equipe de assistentes de IA que trabalham 24/7 para automação de tarefas, marketing, vendas e atendimento ao cliente." },
+  { nome: "Doco", url: "https://www.trydoco.com/", descricao: "Assistente de IA integrado ao Microsoft Word para editar, resumir e formatar documentos profissionais." },
 ];
 
 export default function AssistentesDeIA() {

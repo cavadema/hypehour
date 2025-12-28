@@ -53,6 +53,11 @@ const ferramentas = [
         url: "https://aiapply.co/",
         descricao: "Automatize candidaturas a vagas com currículos e cartas personalizadas por IA.",
     },
+    {
+        nome: "Exa",
+        url: "https://exa.ai/",
+        descricao: "Motor de busca e API de dados para IA que encontra perfis e informações atualizadas na web para recrutamento.",
+    },
 ];
 
 export const metadata = {

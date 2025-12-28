@@ -194,6 +194,7 @@ const ferramentas = [
         descricao: "Estúdio de criação de vídeos com IA para efeitos avançados.",
     },
   { nome: "Luma Labs", url: "https://lumalabs.ai/", descricao: "Plataforma de IA para gerar vídeos de alta qualidade com Dream Machine e modelos de geração avançados." },
+    { nome: "Descript", url: "https://www.descript.com/", descricao: "Editor de vídeo e podcast com IA que permite editar pelo texto, gerar B-roll e aplicar layouts automaticamente." },
 ];
 
 export const metadata = {

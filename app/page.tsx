@@ -1075,34 +1075,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> Zoom AI Assistant</span>
-            <p className="text-zinc-700">Assistente de IA nativo do Zoom para transcrever reuniões, gerar atas e extrair insights.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 27/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> Sintra</span>
+            <p className="text-zinc-700">Equipe de assistentes de IA 24/7 para automação de marketing, vendas, suporte e operações.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 28/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Luma Labs</span>
-            <p className="text-zinc-700">Plataforma de IA para gerar vídeos de alta qualidade com Dream Machine e modelos avançados.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 27/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> Doco</span>
+            <p className="text-zinc-700">Assistente de IA dentro do Microsoft Word para editar, resumir e formatar documentos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 28/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Nume</span>
-            <p className="text-zinc-700">IA CFO que analisa dados financeiros, fornece insights em tempo real e automatiza tarefas contábeis.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 27/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Lightfield</span>
+            <p className="text-zinc-700">CRM que se auto-organiza com IA, captura interações e aciona follow-ups com agentes.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 28/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Netlify AI Gateway</span>
-            <p className="text-zinc-700">Gateway de IA da Netlify para usar modelos OpenAI, Anthropic e Google sem gerenciar chaves.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 27/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Descript</span>
+            <p className="text-zinc-700">Editor de vídeo e podcast com IA: edite pelo texto, gere B-roll e aplique layouts automáticos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 28/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Supermemory</span>
-            <p className="text-zinc-700">API de memória de longo prazo para aplicações de IA com recall sub-300ms e escalabilidade empresarial.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 27/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Exa</span>
+            <p className="text-zinc-700">Motor de busca e API de dados para IA que encontra perfis e informações atualizadas na web.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 28/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Dify</span>
-            <p className="text-zinc-700">Plataforma open-source para desenvolvimento de aplicações LLM com workflows visuais e RAG.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 27/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> Vibiz</span>
+            <p className="text-zinc-700">Gera criativos on-brand extraindo cores, fontes e estilo do seu site para ads, imagens e vídeos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 28/12/2025</span>
           </div>
         </div>
       </section>

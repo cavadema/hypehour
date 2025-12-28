@@ -148,6 +148,11 @@ const ferramentas = [
     url: "https://hix.ai/",
     descricao: "Assistente de escrita e geração de conteúdo com IA avançada.",
   },
+  {
+    nome: "Vibiz",
+    url: "https://www.vibiz.ai/",
+    descricao: "Gera conteúdo on-brand extraindo cores, fontes e estilo do seu site para criar anúncios, imagens e vídeos alinhados à marca.",
+  },
 ];
 
 export const metadata = {

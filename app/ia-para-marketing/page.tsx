@@ -303,6 +303,11 @@ const ferramentas = [
         url: "https://www.clickrank.ai/",
         descricao: "Automação SEO com IA para otimizar títulos, meta descriptions e schema com 1 clique.",
     },
+    {
+        nome: "Lightfield",
+        url: "https://lightfield.app/",
+        descricao: "CRM de próxima geração que se auto-organiza com IA, automatiza follow-ups e usa agentes para outreach e análise de clientes.",
+    },
 ];
 
 export const metadata = {
