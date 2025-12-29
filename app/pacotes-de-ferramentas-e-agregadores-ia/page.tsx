@@ -73,6 +73,11 @@ const ferramentas = [
         url: "https://www.blackbox.ai/",
         descricao: "Assistente de código com IA para desenvolvedores.",
     },
+    {
+        nome: "Sup AI",
+        url: "https://sup.ai/",
+        descricao: "Orquestração multi-modelo com citações e RAG para máxima precisão; API compatível com OpenAI.",
+    },
 ];
 
 export const metadata = {

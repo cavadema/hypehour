@@ -58,6 +58,11 @@ const ferramentas = [
         url: "https://exa.ai/",
         descricao: "Motor de busca e API de dados para IA que encontra perfis e informações atualizadas na web para recrutamento.",
     },
+    {
+        nome: "RenderCV",
+        url: "https://github.com/rendercv/rendercv",
+        descricao: "Gerador de CV em YAML→PDF com validação estrita, ideal para candidatos e equipes de recrutamento.",
+    },
 ];
 
 export const metadata = {

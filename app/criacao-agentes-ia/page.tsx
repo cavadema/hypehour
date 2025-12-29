@@ -26,6 +26,7 @@ const ferramentas = [
   { nome: "Databricks AI Agents", url: "https://www.databricks.com/solutions/ai-agents", descricao: "Solução para construir e operar agentes de IA em dados empresariais." },
   { nome: "Nelly", url: "https://nelly.is/", descricao: "Agentes de IA para workflows e automações em escala." },
   { nome: "Mem0", url: "https://mem0.ai/", descricao: "Memória para agentes de IA; contextos persistentes em apps." },
+  { nome: "Valmi", url: "https://www.valmi.io/", descricao: "Billing para agentes de IA: pricing por resultado, simulação de preços e custos unificados em provedores." },
 ];
 
 export default function CriacaoAgentesIA() {

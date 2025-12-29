@@ -181,6 +181,16 @@ const ferramentas = [
     descricao: "Crie anúncios e vídeos curtos com IA e templates prontos para social.",
   },
   {
+    nome: "TRELLIS.2",
+    url: "https://microsoft.github.io/TRELLIS.2/",
+    descricao: "Imagem → 3D open-source gerando ativos PBR com latentes compactos e alta fidelidade.",
+  },
+  {
+    nome: "I-Scene",
+    url: "https://luling06.github.io/I-Scene-project/",
+    descricao: "Gerador de cena 3D generalizável que aprende relações espaciais para layouts diversos.",
+  },
+  {
     nome: "Image Upscaler",
     url: "https://imgupscaler.com/",
     descricao: "Melhore a qualidade de imagens com upscaling inteligente usando IA.",

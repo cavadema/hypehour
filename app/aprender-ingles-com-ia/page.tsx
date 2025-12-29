@@ -22,6 +22,7 @@ const ferramentas = [
   { nome: "Lingvist", url: "https://lingvist.com/pt-br/", descricao: "Vocabulário e gramática adaptativos com IA." },
   { nome: "ELSA Speak", url: "https://elsaspeak.com/en", descricao: "Feedback de pronúncia avançado e exercícios de fala." },
   { nome: "JumpSpeak", url: "https://www.jumpspeak.com/flow-gs", descricao: "Prática de conversação em inglês com IA e feedback instantâneo sobre fluência." },
+  { nome: "Pingo AI", url: "https://play.google.com/store/apps/details?id=com.picoai.languageapp.android", descricao: "Aprenda idiomas conversando com IA; feedback de pronúncia e fluência em 25+ línguas." },
 ];
 
 export default function AprenderInglesComIA() {

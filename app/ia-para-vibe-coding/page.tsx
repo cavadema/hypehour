@@ -53,6 +53,7 @@ const ferramentas = [
   { nome: "10Web", url: "https://10web.io/", descricao: "Criador de sites com IA, hospedagem e ferramentas de otimização." },
   { nome: "Durable", url: "https://durable.co/pt", descricao: "Construtor de sites e apps com IA em minutos." },
   { nome: "StyleAI", url: "https://www.styleai.io/", descricao: "IA para design e estilo visual de projetos web." },
+  { nome: "Epic (goepic.dev)", url: "https://www.goepic.dev/", descricao: "PRPs (especificações LLM) para Lovable com arquivos, dependências e critérios de aceitação." },
 ];
 
 export default function IaParaVibeCoding() {
