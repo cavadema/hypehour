@@ -1070,6 +1070,47 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Automação */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <SparklesIcon className="w-6 h-6 text-gray-700" />
+            Automação
+          </h2>
+          <a href="/automacao-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
+            Ver todas as ferramentas de automação
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <SparklesIcon className="w-5 h-5" /> Atlassian Rovo
+            </span>
+            <p className="text-zinc-700">Automação e busca inteligente com IA para equipes Atlassian.</p>
+            <span className="text-xs text-zinc-500">Categoria: Automação</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <SparklesIcon className="w-5 h-5" /> Thesys N8N
+            </span>
+            <p className="text-zinc-700">Plataforma de automação de workflows com IA e integração de ferramentas.</p>
+            <span className="text-xs text-zinc-500">Categoria: Automação</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold">
+              <SparklesIcon className="w-5 h-5" /> Kadabra
+            </span>
+            <p className="text-zinc-700">Automação de processos com IA para simplificar tarefas empresariais.</p>
+            <span className="text-xs text-zinc-500">Categoria: Automação</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/automacao-ia" className="text-black text-sm font-medium hover:underline">
+            Ver todas as ferramentas de automação
+          </a>
+        </div>
+      </section>
+
       {/* Últimas IA adicionadas */}
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>

@@ -110,6 +110,7 @@ export default function RootLayout({
                 <li><Link href="/ia-para-criar-apresentacoes" className="hover:underline">Apresentações</Link></li>
                 <li><Link href="/ia-para-marketing" className="hover:underline">Marketing</Link></li>
                 <li><Link href="/ia-para-vendas" className="hover:underline">Vendas</Link></li>
+                <li><Link href="/automacao-ia" className="hover:underline">Automação</Link></li>
                 <li><Link href="/ferramentas-de-ia-rh" className="hover:underline">IA para RH</Link></li>
                 <li><Link href="/ferramentas-ia-contabilidade" className="hover:underline">Contabilidade</Link></li>
                 <li><Link href="/inteligencia-artificial-para-advogados" className="hover:underline">Advogados</Link></li>
