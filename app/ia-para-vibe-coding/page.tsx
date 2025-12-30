@@ -11,7 +11,7 @@ export const metadata = {
 };
 
 const ferramentas = [
-  { nome: "Lovable", url: "https://lovable.dev/", descricao: "IA para programação, resumos e automações." },
+  { nome: "Lovable", url: "/lovable", descricao: "IA para programação, resumos e automações." },
   { nome: "Bolt.new", url: "https://bolt.new/", descricao: "Ferramenta para acelerar desenvolvimento e automações." },
   { nome: "v0", url: "https://v0.dev/", descricao: "Plataforma para criação rápida de interfaces e automações." },
   { nome: "Replit", url: "https://replit.com", descricao: "IDE online com recursos colaborativos e assistentes de código." },
