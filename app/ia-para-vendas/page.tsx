@@ -3,6 +3,16 @@ import Link from "next/link";
 
 const ferramentas = [
     {
+        nome: "Outreach",
+        url: "https://www.outreach.io/",
+        descricao: "Plataforma de engajamento de vendas com IA para automação de outreach, sequências e análise de performance.",
+    },
+    {
+        nome: "Drift",
+        url: "https://www.salesloft.com/platform/drift",
+        descricao: "Automação de conversas e engajamento com IA para vendas e marketing conversacional.",
+    },
+    {
         nome: "Grooven AI",
         url: "https://grooven.ai/",
         descricao: "Agentes conversacionais multicanais que vendem como humanos e escalam operações B2C no WhatsApp com automação inteligente.",

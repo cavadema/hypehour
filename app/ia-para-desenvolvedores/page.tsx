@@ -10,7 +10,17 @@ export const metadata = {
   },
 };
 
-const ferramentas = [ 
+const ferramentas = [
+  {
+    nome: "Prefect",
+    url: "https://www.prefect.io/prefect/open-source",
+    descricao: "Plataforma open-source para orquestração de workflows com automação e IA.",
+  },
+  {
+    nome: "Temporal",
+    url: "https://temporal.io/",
+    descricao: "Sistema de orquestração de workflows duráveis para aplicações escaláveis e resilientes.",
+  }, 
   {
     nome: "Apple ML-Sharp",
     url: "https://github.com/apple/ml-sharp",

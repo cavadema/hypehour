@@ -9,6 +9,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Robbu", url: "https://robbu.global/", descricao: "Plataforma de automação de atendimento com IA para otimizar suporte ao cliente." },
   { nome: "Helploom", url: "https://helploom.com/", descricao: "Plataforma de atendimento com IA para automação e gestão integrada." },
   { nome: "Gladly", url: "https://www.gladly.ai/hp1/", descricao: "Transforma o atendimento ao cliente em suporte inteligente, automatizado e personalizado em todos os canais." },
   { nome: "Darwin", url: "https://www.getdarwin.ai/pt", descricao: "Criar funcionários-IA que respondem clientes em canais como WhatsApp, Instagram e ligações, qualificam leads, atualizam CRMs." },

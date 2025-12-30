@@ -10,6 +10,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Prax AI", url: "https://www.prax.ai/", descricao: "Plataforma de análise de dados com IA para insights e automação inteligente." },
   { nome: "Zettadata", url: "https://zettadata.ai/", descricao: "Plataforma de análise de dados com IA para insights automatizados." },
   { nome: "Basedash", url: "https://www.basedash.com/", descricao: "Interface de IA para visualizar e editar dados do seu banco." },
   { nome: "Rybbit", url: "https://rybbit.com/", descricao: "Análise de dados com IA e automações para decisões rápidas." },

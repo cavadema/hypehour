@@ -1116,34 +1116,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Sup AI</span>
-            <p className="text-zinc-700">Orquestração multi-modelo com citações e RAG para máxima precisão; API compatível com OpenAI.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 29/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhoneIcon className="w-5 h-5" /> Robbu</span>
+            <p className="text-zinc-700">Plataforma de automação de atendimento com IA para otimizar suporte ao cliente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 30/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Epic (goepic.dev)</span>
-            <p className="text-zinc-700">Especificações LLM (PRPs) para Lovable com arquivos, dependências e critérios de aceitação.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 29/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Prax AI</span>
+            <p className="text-zinc-700">Plataforma de análise de dados com IA para insights e automação inteligente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 30/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Detail</span>
-            <p className="text-zinc-700">Grave, edite e compartilhe com AI em 1 toque: Auto Edit, teleprompter e clips.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 29/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Vidiio</span>
+            <p className="text-zinc-700">Plataforma de criação e edição de vídeos com IA para marketing e redes sociais.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 30/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Pingo AI</span>
-            <p className="text-zinc-700">Aprenda idiomas conversando com IA; feedback de pronúncia e fluência em 25+ línguas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 29/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Temporal</span>
+            <p className="text-zinc-700">Sistema de orquestração de workflows duráveis para aplicações escaláveis e resilientes.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 30/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> TRELLIS.2</span>
-            <p className="text-zinc-700">Imagem→3D open-source gerando ativos PBR 1536³ com latentes compactos e alta fidelidade.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 29/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Zaia</span>
+            <p className="text-zinc-700">Plataforma para criar e implantar agentes de IA automáticos com integrações.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 30/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PresentationChartLineIcon className="w-5 h-5" /> Valmi</span>
-            <p className="text-zinc-700">Billing para agentes de IA: pricing por resultado, custos unificados, invoicing e simulação de preços.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 29/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Outreach</span>
+            <p className="text-zinc-700">Plataforma de engajamento de vendas com IA para automação de outreach, sequências e análise.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 30/12/2025</span>
           </div>
         </div>
       </section>

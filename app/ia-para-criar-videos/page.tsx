@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Vidiio",
+        url: "https://vidiio.net/",
+        descricao: "Plataforma de criação e edição de vídeos com IA para marketing e redes sociais.",
+    },
+    {
         nome: "Google Gemini Veo 3.1",
         url: "https://gemini.google/overview/video-generation/",
         descricao: "Modelo de geração de vídeo mais capaz do Google, criando vídeos 1080p de alta qualidade.",
