@@ -1,5 +1,6 @@
 import { CogIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
   { nome: "Atlassian Rovo", url: "https://www.atlassian.com/software/rovo/features", descricao: "Automação e busca inteligente com IA para equipes Atlassian." },
@@ -43,7 +44,7 @@ export default function AutomacaoIAPage() {
         <CogIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">IA para Automação</h1>
       </div>
-
+      <ExpandableContent />
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((ferramenta, index) => (
           <a

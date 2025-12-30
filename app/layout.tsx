@@ -112,6 +112,7 @@ export default function RootLayout({
                 <li><Link href="/ia-para-vendas" className="hover:underline">Vendas</Link></li>
                 <li><Link href="/automacao-ia" className="hover:underline">Automação</Link></li>
                 <li><Link href="/fluxos-workflows-ia" className="hover:underline">Fluxos e Workflows</Link></li>
+                <li><Link href="/crm-ia" className="hover:underline">CRM</Link></li>
                 <li><Link href="/ferramentas-de-ia-rh" className="hover:underline">IA para RH</Link></li>
                 <li><Link href="/ferramentas-ia-contabilidade" className="hover:underline">Contabilidade</Link></li>
                 <li><Link href="/inteligencia-artificial-para-advogados" className="hover:underline">Advogados</Link></li>
