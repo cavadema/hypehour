@@ -333,7 +333,7 @@ const jsonLd = {
 
 export default function IaParaConteudo() {
   return (
-    <main className="max-w-3xl mx-auto py-10 px-4">
+    <main className="max-w-6xl mx-auto py-10 px-4">
       <Link href="/" className="inline-flex items-center gap-2 text-black hover:underline mb-8">
         <ArrowLeftIcon className="w-5 h-5" /> Voltar para a home
       </Link>
