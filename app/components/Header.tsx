@@ -46,6 +46,7 @@ export default function Header() {
                 <Link href="/ia-para-marketing" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Marketing</Link>
                 <Link href="/ia-para-vendas" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Vendas</Link>
                 <Link href="/automacao-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Automação</Link>
+                <Link href="/fluxos-workflows-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Fluxos e Workflows</Link>
                 <Link href="/ferramentas-de-ia-rh" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para RH</Link>
                 <Link href="/ferramentas-ia-contabilidade" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Contabilidade</Link>
                 <Link href="/inteligencia-artificial-para-advogados" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Advogados</Link>
@@ -92,6 +93,7 @@ export default function Header() {
                 <li><Link href="/ia-para-marketing" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Marketing</Link></li>
                 <li><Link href="/ia-para-vendas" className="block py-2 pl-4" onClick={() => setOpen(false)}>Vendas</Link></li>
                 <li><Link href="/automacao-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Automação</Link></li>
+                <li><Link href="/fluxos-workflows-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Fluxos e Workflows</Link></li>
                 <li><Link href="/ferramentas-de-ia-rh" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para RH</Link></li>
                 <li><Link href="/ferramentas-ia-contabilidade" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Contabilidade</Link></li>
                 <li><Link href="/inteligencia-artificial-para-advogados" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Advogados</Link></li>
