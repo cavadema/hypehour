@@ -1,0 +1,52 @@
+import { BuildingOfficeIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
+import ExpandableContent from "./ExpandableContent";
+
+const ferramentas = [
+  { nome: "UiPath Release Hub", url: "https://www.uipath.com/product/release-hub", descricao: "Plataforma de automação empresarial com IA para orquestração de processos e workflows." },
+  { nome: "Doctly", url: "https://doctly.ai/", descricao: "IA para gestão documental e automação de processos empresariais." },
+  { nome: "Sheets Organizer", url: "https://www.sheetsorganizer.com/", descricao: "Organização e análise de planilhas com IA para empresas." },
+  { nome: "Bit.ai", url: "https://bit.ai/", descricao: "Plataforma colaborativa com IA para documentação e gestão de conhecimento empresarial." },
+  { nome: "Enlabeler", url: "https://enlabeler.com/", descricao: "IA para rotulagem e organização automática de dados empresariais." },
+  { nome: "Durable", url: "https://durable.co/", descricao: "Criação de sites e ferramentas de negócios com IA para pequenas empresas." },
+  { nome: "Nas.io", url: "https://nas.io/pt-br", descricao: "Plataforma com IA para gestão de comunidades e monetização para empresas." },
+  { nome: "Quadratic", url: "https://www.quadratichq.com/", descricao: "Planilhas programáveis com IA para análise de dados empresariais." },
+];
+
+export const metadata = {
+  title: "Inteligência Artificial para Empresas",
+  description: "Ferramentas de IA para empresas otimizarem processos, automação e gestão empresarial.",
+  alternates: {
+    canonical: 'https://www.hypehour.com.br/ia-para-empresas',
+  },
+};
+
+export default function IAParaEmpresasPage() {
+  return (
+    <main className="max-w-6xl mx-auto py-10 px-4">
+      <Link href="/" className="inline-flex items-center gap-2 text-black hover:underline mb-8">
+        <ArrowLeftIcon className="w-5 h-5" /> Voltar para a home
+      </Link>
+
+      <div className="flex items-center gap-3 mb-8">
+        <BuildingOfficeIcon className="w-10 h-10 text-gray-900" />
+        <h1 className="text-3xl font-bold">IA para Empresas</h1>
+      </div>
+      <ExpandableContent />
+      <div className="grid gap-6 sm:grid-cols-2">
+        {ferramentas.map((ferramenta) => (
+          <a
+            key={ferramenta.nome}
+            href={ferramenta.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100"
+          >
+            <h2 className="font-semibold text-lg mb-1">{ferramenta.nome}</h2>
+            <div className="text-gray-500 text-sm">{ferramenta.descricao}</div>
+          </a>
+        ))}
+      </div>
+    </main>
+  );
+}
