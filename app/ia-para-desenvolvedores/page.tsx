@@ -22,6 +22,11 @@ const ferramentas = [
     descricao: "Sistema de orquestração de workflows duráveis para aplicações escaláveis e resilientes.",
   }, 
   {
+    nome: "Graphite",
+    url: "https://graphite.com/",
+    descricao: "Ferramenta de desenvolvimento com IA para melhorar workflow de code review.",
+  },
+  {
     nome: "Apple ML-Sharp",
     url: "https://github.com/apple/ml-sharp",
     descricao: "Biblioteca open-source da Apple para ML com IA.",

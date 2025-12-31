@@ -28,6 +28,8 @@ const ferramentas = [
   { nome: "Nelly", url: "https://nelly.is/", descricao: "Agentes de IA para workflows e automações em escala." },
   { nome: "Mem0", url: "https://mem0.ai/", descricao: "Memória para agentes de IA; contextos persistentes em apps." },
   { nome: "Valmi", url: "https://www.valmi.io/", descricao: "Billing para agentes de IA: pricing por resultado, simulação de preços e custos unificados em provedores." },
+  { nome: "A2UI", url: "https://a2ui.org/", descricao: "Framework para criar interfaces de usuário com agentes de IA." },
+  { nome: "CTO.new", url: "https://cto.new/", descricao: "Plataforma para criar e gerenciar agentes de IA para desenvolvimento de software." },
 ];
 
 export default function CriacaoAgentesIA() {

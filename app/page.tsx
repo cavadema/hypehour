@@ -1116,34 +1116,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhoneIcon className="w-5 h-5" /> Robbu</span>
-            <p className="text-zinc-700">Plataforma de automação de atendimento com IA para otimizar suporte ao cliente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 30/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> A2UI</span>
+            <p className="text-zinc-700">Framework para converter agentes de IA em interfaces de usuário interativas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 31/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Prax AI</span>
-            <p className="text-zinc-700">Plataforma de análise de dados com IA para insights e automação inteligente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 30/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> CTO New</span>
+            <p className="text-zinc-700">Plataforma para criar e gerenciar agentes de IA técnicos e assistentes de desenvolvimento.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 31/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Vidiio</span>
-            <p className="text-zinc-700">Plataforma de criação e edição de vídeos com IA para marketing e redes sociais.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 30/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Graphite</span>
+            <p className="text-zinc-700">Ferramenta de desenvolvimento com IA para melhorar workflow de code review.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 31/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Temporal</span>
-            <p className="text-zinc-700">Sistema de orquestração de workflows duráveis para aplicações escaláveis e resilientes.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 30/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ChatBubbleLeftRightIcon className="w-5 h-5" /> Intercom</span>
+            <p className="text-zinc-700">Plataforma completa de atendimento com chatbots de IA, help desk e automação de suporte ao cliente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 31/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Zaia</span>
-            <p className="text-zinc-700">Plataforma para criar e implantar agentes de IA automáticos com integrações.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 30/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PresentationChartLineIcon className="w-5 h-5" /> Attio</span>
+            <p className="text-zinc-700">CRM inteligente com IA para gestão de relacionamentos, automação de marketing e pipeline de vendas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 31/12/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Outreach</span>
-            <p className="text-zinc-700">Plataforma de engajamento de vendas com IA para automação de outreach, sequências e análise.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 30/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MusicalNoteIcon className="w-5 h-5" /> Loudly</span>
+            <p className="text-zinc-700">Gerador de música com IA para criar trilhas sonoras royalty-free personalizadas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 31/12/2025</span>
           </div>
         </div>
       </section>
