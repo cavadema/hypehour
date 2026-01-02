@@ -33,7 +33,7 @@ export default function Home() {
         <SparklesIcon className="w-16 h-16 text-gray-700 mb-4 animate-pulse" />
         <h1 className="apify-title text-center drop-shadow-lg">Ferramentas de IA</h1>
         <p className="apify-subtitle text-center max-w-2xl mx-auto">
-          Descubra e centralize as melhores ferramentas de Inteligência Artificial para cada área do mercado, tudo em um só lugar.
+          Seu guia completo de Inteligência Artificial. Descubra, compare e escolha as melhores ferramentas de IA para transformar cada área do seu negócio.
         </p>
         <div className="absolute -top-10 -right-10 w-40 h-40 bg-gray-200 rounded-full opacity-30 blur-2xl" />
         <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-gray-100 rounded-full opacity-20 blur-2xl" />
