@@ -308,6 +308,11 @@ const ferramentas = [
         url: "https://lightfield.app/",
         descricao: "CRM de próxima geração que se auto-organiza com IA, automatiza follow-ups e usa agentes para outreach e análise de clientes.",
     },
+    {
+        nome: "Gazel AI",
+        url: "https://www.gazel.ai/",
+        descricao: "Analise e melhore a conversão do seu site com IA, recebendo score e ações para otimizar.",
+    },
 ];
 
 export const metadata = {

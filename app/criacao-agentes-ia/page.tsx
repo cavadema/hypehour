@@ -30,6 +30,7 @@ const ferramentas = [
   { nome: "Valmi", url: "https://www.valmi.io/", descricao: "Billing para agentes de IA: pricing por resultado, simulação de preços e custos unificados em provedores." },
   { nome: "A2UI", url: "https://a2ui.org/", descricao: "Framework para criar interfaces de usuário com agentes de IA." },
   { nome: "CTO.new", url: "https://cto.new/", descricao: "Plataforma para criar e gerenciar agentes de IA para desenvolvimento de software." },
+  { nome: "GetProfile", url: "https://www.getprofile.org/", descricao: "Perfil de usuário e memória de longo prazo para seu agente de IA, open source." },
 ];
 
 export default function CriacaoAgentesIA() {

@@ -11,7 +11,7 @@ const ferramentas = [
         nome: "InnerAI",
         url: "https://www.innerai.com/pt",
         descricao: "Ecossistema de IA para empresas, integrando diversos modelos e ferramentas.",
-    
+
     },
     {
         nome: "Auriax",
@@ -77,6 +77,11 @@ const ferramentas = [
         nome: "Sup AI",
         url: "https://sup.ai/",
         descricao: "Orquestração multi-modelo com citações e RAG para máxima precisão; API compatível com OpenAI.",
+    },
+    {
+        nome: "TensorBlock",
+        url: "https://www.tensorblock.co/",
+        descricao: "Plataforma unificada para acessar e gerenciar múltiplos modelos de IA.",
     },
 ];
 

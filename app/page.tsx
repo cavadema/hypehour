@@ -1116,34 +1116,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> A2UI</span>
-            <p className="text-zinc-700">Framework para converter agentes de IA em interfaces de usuário interativas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 31/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> GetProfile</span>
+            <p className="text-zinc-700">Perfil de usuário e memória de longo prazo para seu agente de IA, open source.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 01/01/2026</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> CTO New</span>
-            <p className="text-zinc-700">Plataforma para criar e gerenciar agentes de IA técnicos e assistentes de desenvolvimento.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 31/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Devgraph</span>
+            <p className="text-zinc-700">Ontologia ao vivo de código e infraestrutura para IA entender seus sistemas em tempo real.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 01/01/2026</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Graphite</span>
-            <p className="text-zinc-700">Ferramenta de desenvolvimento com IA para melhorar workflow de code review.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 31/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhoneIcon className="w-5 h-5" /> NeoAgent</span>
+            <p className="text-zinc-700">Assistência ao cliente com IA 24/7 para WhatsApp, web e telefone.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 01/01/2026</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ChatBubbleLeftRightIcon className="w-5 h-5" /> Intercom</span>
-            <p className="text-zinc-700">Plataforma completa de atendimento com chatbots de IA, help desk e automação de suporte ao cliente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 31/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Loki</span>
+            <p className="text-zinc-700">Crie landing pages de alta qualidade com IA, rápidas e totalmente personalizáveis.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 01/01/2026</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PresentationChartLineIcon className="w-5 h-5" /> Attio</span>
-            <p className="text-zinc-700">CRM inteligente com IA para gestão de relacionamentos, automação de marketing e pipeline de vendas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 31/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Gazel AI</span>
+            <p className="text-zinc-700">Analise e melhore a conversão do seu site com IA, recebendo score e ações para otimizar.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 01/01/2026</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MusicalNoteIcon className="w-5 h-5" /> Loudly</span>
-            <p className="text-zinc-700">Gerador de música com IA para criar trilhas sonoras royalty-free personalizadas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 31/12/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> TensorBlock</span>
+            <p className="text-zinc-700">Plataforma unificada para acessar e gerenciar múltiplos modelos de IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 01/01/2026</span>
           </div>
         </div>
       </section>
