@@ -89,6 +89,11 @@ const ferramentas = [
     descricao: "Ontologia ao vivo de código e infraestrutura para IA entender seus sistemas em tempo real.",
   },
   {
+    nome: "Bloom",
+    url: "https://github.com/safety-research/bloom/",
+    descricao: "Ferramenta open source para avaliação automatizada de comportamento de LLMs.",
+  },
+  {
     nome: "Builduo",
     url: "https://builduo.com/",
     descricao: "Plataforma de desenvolvimento com IA para acelerar a criação de aplicações.",

@@ -6,6 +6,9 @@ const ferramentas = [
   { nome: "UiPath Release Hub", url: "https://www.uipath.com/product/release-hub", descricao: "Orquestração e automação de processos com IA para empresas." },
   { nome: "Apache Airflow", url: "https://airflow.apache.org/", descricao: "Plataforma open-source para orquestrar workflows complexos programaticamente." },
   { nome: "Sim.ai", url: "https://www.sim.ai/", descricao: "Plataforma de IA para automação de workflows e processos empresariais." },
+  { nome: "Qntrl", url: "https://www.qntrl.com/pt-br/lp/workflow-orchestration.html", descricao: "Plataforma unificada para criar, automatizar e gerenciar workflows com orquestração inteligente." },
+  { nome: "OpenAI Academy", url: "https://openai.com/pt-BR/academy/", descricao: "Academia da OpenAI com cursos e recursos sobre IA." },
+  { nome: "Google Skills", url: "https://www.skills.google/?locale=pt_BR", descricao: "Plataforma do Google com treinamentos, certificações e selos de habilidade em IA e Cloud." },
 ];
 
 export const metadata = {

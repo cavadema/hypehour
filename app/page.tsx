@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon, ChatBubbleLeftRightIcon, UserGroupIcon, HeartIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon, ChatBubbleLeftRightIcon, UserGroupIcon, HeartIcon, ArrowPathIcon } from "@heroicons/react/24/solid";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -1116,34 +1116,34 @@ export default function Home() {
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> GetProfile</span>
-            <p className="text-zinc-700">Perfil de usuário e memória de longo prazo para seu agente de IA, open source.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 01/01/2026</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Automarticles</span>
+            <p className="text-zinc-700">Blog profissional 100% automático com estratégia, conteúdos e relatórios de SEO.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 02/01/2026</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Devgraph</span>
-            <p className="text-zinc-700">Ontologia ao vivo de código e infraestrutura para IA entender seus sistemas em tempo real.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 01/01/2026</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Adobe Agent Orchestrator</span>
+            <p className="text-zinc-700">Orquestração de agentes de IA da Adobe para experiências personalizadas em escala.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 02/01/2026</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhoneIcon className="w-5 h-5" /> NeoAgent</span>
-            <p className="text-zinc-700">Assistência ao cliente com IA 24/7 para WhatsApp, web e telefone.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 01/01/2026</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Bloom</span>
+            <p className="text-zinc-700">Ferramenta open source para avaliação automatizada de comportamento de LLMs.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 02/01/2026</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Loki</span>
-            <p className="text-zinc-700">Crie landing pages de alta qualidade com IA, rápidas e totalmente personalizáveis.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 01/01/2026</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhoneIcon className="w-5 h-5" /> Leads360</span>
+            <p className="text-zinc-700">CRM com atendimento por IA que une atendimento humano e automação para transformar conversas em vendas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 02/01/2026</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Gazel AI</span>
-            <p className="text-zinc-700">Analise e melhore a conversão do seu site com IA, recebendo score e ações para otimizar.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 01/01/2026</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArrowPathIcon className="w-5 h-5" /> Qntrl</span>
+            <p className="text-zinc-700">Plataforma unificada para criar, automatizar e gerenciar workflows com orquestração inteligente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 02/01/2026</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> TensorBlock</span>
-            <p className="text-zinc-700">Plataforma unificada para acessar e gerenciar múltiplos modelos de IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 01/01/2026</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Google Skills</span>
+            <p className="text-zinc-700">Plataforma do Google com treinamentos, certificações e selos de habilidade em IA e Cloud.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 02/01/2026</span>
           </div>
         </div>
       </section>

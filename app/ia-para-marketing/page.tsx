@@ -313,6 +313,11 @@ const ferramentas = [
         url: "https://www.gazel.ai/",
         descricao: "Analise e melhore a conversão do seu site com IA, recebendo score e ações para otimizar.",
     },
+    {
+        nome: "Automarticles",
+        url: "https://automarticles.com/",
+        descricao: "Blog profissional 100% automático com estratégia, conteúdos e relatórios de SEO.",
+    },
 ];
 
 export const metadata = {

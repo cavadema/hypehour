@@ -31,6 +31,7 @@ const ferramentas = [
   { nome: "A2UI", url: "https://a2ui.org/", descricao: "Framework para criar interfaces de usuário com agentes de IA." },
   { nome: "CTO.new", url: "https://cto.new/", descricao: "Plataforma para criar e gerenciar agentes de IA para desenvolvimento de software." },
   { nome: "GetProfile", url: "https://www.getprofile.org/", descricao: "Perfil de usuário e memória de longo prazo para seu agente de IA, open source." },
+  { nome: "Adobe Agent Orchestrator", url: "https://business.adobe.com/br/products/experience-platform/agent-orchestrator.html", descricao: "Orquestração de agentes de IA da Adobe para experiências personalizadas em escala." },
 ];
 
 export default function CriacaoAgentesIA() {

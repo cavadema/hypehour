@@ -25,6 +25,7 @@ const cursos = [
   { nome: "IA na Prática do Sebrae", url: "https://sebrae.com.br/sites/PortalSebrae/cursosonline/ia-na-pratica-para-pequenos-negocios,bbdd9278376b4910VgnVCM1000001b00320aRCRD", descricao: "Curso do Sebrae sobre IA na prática para pequenos negócios." },
   { nome: "Transforme seu negócio com Inteligência Artificial - EBAC", url: "https://ebaconline.com.br/inteligencia-artificial-para-negocios", descricao: "Curso EBAC sobre transformação de negócios com IA." },
   { nome: "OpenAI Academy", url: "https://openai.com/pt-BR/academy/", descricao: "Academia da OpenAI com cursos e recursos sobre IA." },
+  { nome: "Google Skills", url: "https://www.skills.google/?locale=pt_BR", descricao: "Plataforma do Google com treinamentos, certificações e selos de habilidade em IA e Cloud." },
 ];
 
 export const metadata = {

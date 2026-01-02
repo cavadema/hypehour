@@ -19,6 +19,7 @@ const ferramentas = [
   { nome: "Keplar Voice", url: "https://www.keplar.io/voice", descricao: "Agente de voz com IA para atendimento em chamadas." },
   { nome: "Intercom", url: "https://www.intercom.com/", descricao: "Plataforma de atendimento ao cliente com IA para chatbots e suporte automatizado." },
   { nome: "NeoAgent", url: "https://neoagent.co/", descricao: "Assistência ao cliente com IA 24/7 para WhatsApp, web e telefone." },
+  { nome: "Leads360", url: "https://leads360.com.br/crm-atendimento-ia/", descricao: "CRM com atendimento por IA que une atendimento humano e automação para transformar conversas em vendas." },
 ];
 
 export default function IAParaAtendimento() {
