@@ -20,7 +20,7 @@ const ferramentas = [
     nome: "Temporal",
     url: "https://temporal.io/",
     descricao: "Sistema de orquestração de workflows duráveis para aplicações escaláveis e resilientes.",
-  }, 
+  },
   {
     nome: "Graphite",
     url: "https://graphite.com/",
@@ -82,6 +82,11 @@ const ferramentas = [
     nome: "Visual Studio IntelliCode",
     url: "https://learn.microsoft.com/en-us/visualstudio/intellicode/",
     descricao: "Sugestões inteligentes de código baseadas em IA para Visual Studio.",
+  },
+  {
+    nome: "Devgraph",
+    url: "https://devgraph.ai/",
+    descricao: "Ontologia ao vivo de código e infraestrutura para IA entender seus sistemas em tempo real.",
   },
   {
     nome: "Builduo",
