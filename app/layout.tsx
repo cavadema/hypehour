@@ -123,6 +123,7 @@ export default function RootLayout({
                 <li><Link href="/ia-para-arquitetura" className="hover:underline">Arquitetura</Link></li>
                 <li><a href="/analise-de-dados" className="hover:underline">Análise de dados</a></li>
                 <li><a href="/modelos-de-llms" className="hover:underline">Modelos de LLMs</a></li>
+                <li><a href="/api-ia-modelos" className="hover:underline">APIs</a></li>
                 <li><a href="/navegadores-de-ia" className="hover:underline">Navegadores de IA</a></li>
                 <li><a href="/ferramenta-de-deteccao-de-ia" className="hover:underline">Detecção de IA</a></li>
                 <li><a href="/newsletters-de-ia" className="hover:underline">Newsletters</a></li>
