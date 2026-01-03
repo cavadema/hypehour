@@ -52,6 +52,258 @@ export default function IaParaPlanilhas() {
         ))}
       </div>
       <FAQSection />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "O que é IA para planilhas?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "IA para planilhas são ferramentas que usam inteligência artificial para criar, editar e analisar planilhas automaticamente."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Para que serve uma IA que faz planilha?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ela serve para gerar planilhas prontas a partir de comandos em texto, economizando tempo e reduzindo erros."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "É possível criar planilha com IA sem saber Excel?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Basta descrever o que você precisa e a IA cria a estrutura da planilha automaticamente."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA para criar planilhas funciona no Excel e Google Sheets?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Muitas ferramentas de IA para planilhas são compatíveis com Excel e Google Sheets."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Existe IA para criar planilhas grátis?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Algumas IAs oferecem planos gratuitos ou versões com uso limitado."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Criar planilha com IA é seguro?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim, desde que você evite inserir dados sensíveis em ferramentas não confiáveis."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA para planilhas ajuda em análise de dados?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. A IA pode criar fórmulas, gráficos e análises automaticamente."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA que faz planilha cria fórmulas automaticamente?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. A IA gera fórmulas com base no objetivo informado pelo usuário."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA para criar planilhas substitui analistas?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Não. Ela acelera tarefas, mas não substitui a análise humana."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA para planilhas é indicada para empresas?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. É muito usada em finanças, vendas, marketing e operações."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Criar planilha com IA reduz erros manuais?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Automatizar fórmulas e estruturas reduz falhas comuns."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA para planilhas pode criar dashboards?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Algumas ferramentas geram gráficos e dashboards automaticamente."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA que faz planilha funciona em português?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Muitas ferramentas já entendem comandos em português."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA para criar planilhas é útil para estudantes?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Ajuda em trabalhos acadêmicos, controle financeiro e organização."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Vale a pena usar IA para criar planilhas?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Ela aumenta a produtividade e facilita o uso de planilhas."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Qual a melhor IA para criar planilhas?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Depende do objetivo, mas ferramentas modernas já oferecem criação automática de planilhas."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA consegue criar planilha financeira automaticamente?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Basta informar o tipo de controle financeiro desejado."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Dá para criar planilha no Google Sheets com IA?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Muitas IAs integram diretamente com o Google Sheets."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA para planilhas cria fórmulas complexas?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Ela pode criar fórmulas avançadas e condicionais."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Criar planilha com IA é realmente gratuito?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Algumas ferramentas oferecem uso gratuito com limitações."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA para criar planilhas funciona offline?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Não. Normalmente é necessário ter conexão com a internet."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA que faz planilha entende dados em texto?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Ela converte texto em colunas, fórmulas e estruturas de planilha."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA pode corrigir erros em planilhas existentes?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. A IA analisa planilhas e sugere correções."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA para planilhas ajuda em controle de gastos?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. É um dos usos mais comuns desse tipo de ferramenta."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Criar planilha com IA economiza quanto tempo?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Em muitos casos, economiza horas de trabalho manual."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA para planilhas é melhor que templates prontos?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. A IA cria planilhas personalizadas sob demanda."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA consegue explicar fórmulas de planilhas?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Muitas ferramentas explicam o funcionamento das fórmulas."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA para criar planilhas funciona para equipes?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Especialmente quando integrada a ferramentas colaborativas."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA que faz planilha pode gerar gráficos automaticamente?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Gráficos são criados automaticamente com base nos dados."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "IA para planilhas vale a pena para pequenas empresas?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sim. Ajuda a organizar dados sem necessidade de especialistas."
+                }
+              }
+            ]
+          })
+        }}
+      />
     </main>
   );
 }
