@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon, ChatBubbleLeftRightIcon, UserGroupIcon, HeartIcon, ArrowPathIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon } from "@heroicons/react/24/solid";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -1154,17 +1154,17 @@ export default function Home() {
         <h2 className="apify-section-title mb-8">Depoimentos</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="apify-card p-6">
-            <p className="text-zinc-700">"Esse site me ajudou a descobrir várias IAs do mercado e para meu segmento de trabalho."</p>
+            <p className="text-zinc-700">&quot;Esse site me ajudou a descobrir várias IAs do mercado e para meu segmento de trabalho.&quot;</p>
             <div className="mt-4 text-sm text-zinc-500">— Usuário satisfeito</div>
           </div>
 
           <div className="apify-card p-6">
-            <p className="text-zinc-700">"Não imaginava que tinha tantas IAs para gerar imagens."</p>
+            <p className="text-zinc-700">&quot;Não imaginava que tinha tantas IAs para gerar imagens.&quot;</p>
             <div className="mt-4 text-sm text-zinc-500">— Designer visual</div>
           </div>
 
           <div className="apify-card p-6">
-            <p className="text-zinc-700">"Eu estava pesquisando IAs para um trabalho e acabei descobrindo um novo mercado para aprender a programar."</p>
+            <p className="text-zinc-700">&quot;Eu estava pesquisando IAs para um trabalho e acabei descobrindo um novo mercado para aprender a programar.&quot;</p>
             <div className="mt-4 text-sm text-zinc-500">— Estudante</div>
           </div>
         </div>

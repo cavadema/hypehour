@@ -1,6 +1,4 @@
-import { CodeBracketIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
-import Image from "next/image";
 import FAQSection from "./FAQSection";
 
 export const metadata = {

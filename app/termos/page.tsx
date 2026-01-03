@@ -38,7 +38,7 @@ export default function TermosDeServico() {
                     <li>usar os materiais para qualquer finalidade comercial ou para exibição pública (comercial ou não comercial);</li>
                     <li>tentar descompilar ou fazer engenharia reversa de qualquer software contido no site Hypehour;</li>
                     <li>remover quaisquer direitos autorais ou outras notações de propriedade dos materiais; ou</li>
-                    <li>transferir os materiais para outra pessoa ou 'espelhe' os materiais em qualquer outro servidor.</li>
+                    <li>transferir os materiais para outra pessoa ou &apos;espelhe&apos; os materiais em qualquer outro servidor.</li>
                 </ul>
                 <p>
                     Esta licença será automaticamente rescindida se você violar alguma dessas restrições e poderá ser rescindida por Hypehour a qualquer momento. Ao encerrar a visualização desses materiais ou após o término desta licença, você deve apagar todos os materiais baixados em sua posse, seja em formato eletrónico ou impresso.
@@ -47,7 +47,7 @@ export default function TermosDeServico() {
                 <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">3. Isenção de responsabilidade</h2>
                 <ol>
                     <li>
-                        Os materiais no site da Hypehour são fornecidos 'como estão'. Hypehour não oferece garantias, expressas ou implícitas, e, por este meio, isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a um fim específico ou não violação de propriedade intelectual ou outra violação de direitos.
+                        Os materiais no site da Hypehour são fornecidos &apos;como estão&apos;. Hypehour não oferece garantias, expressas ou implícitas, e, por este meio, isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a um fim específico ou não violação de propriedade intelectual ou outra violação de direitos.
                     </li>
                     <li>
                         Além disso, o Hypehour não garante ou faz qualquer representação relativa à precisão, aos resultados prováveis ou à confiabilidade do uso dos materiais em seu site ou de outra forma relacionado a esses materiais ou em sites vinculados a este site.
