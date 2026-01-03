@@ -128,6 +128,7 @@ export default function RootLayout({
                 <li><a href="/ferramenta-de-deteccao-de-ia" className="hover:underline">Detecção de IA</a></li>
                 <li><a href="/newsletters-de-ia" className="hover:underline">Newsletters</a></li>
                 <li><a href="/cursos-de-ia" className="hover:underline">Cursos de IA</a></li>
+                <li><a href="/ia-para-planilhas" className="hover:underline">Planilhas</a></li>
               </ul>
             </div>
 

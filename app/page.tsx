@@ -76,6 +76,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* IA para Criar Planilhas */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <PencilSquareIcon className="w-6 h-6 text-gray-700" />
+            IA para Criar Planilhas
+          </h2>
+          <a href="/ia-para-planilhas" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
+            Ver todas as IA para planilhas
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Quadratic</span>
+            <p className="text-zinc-700">Torna o trabalho com planilhas simples, com resultados impressionantes.</p>
+            <span className="text-xs text-zinc-500">Categoria: Planilhas</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Shortcut</span>
+            <p className="text-zinc-700">Automatiza tarefas de Excel/Sheets com IA, gerando fórmulas e análises.</p>
+            <span className="text-xs text-zinc-500">Categoria: Planilhas</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Sheets Organizer</span>
+            <p className="text-zinc-700">Automatize planilhas e dashboards com IA para relatórios e análises.</p>
+            <span className="text-xs text-zinc-500">Categoria: Planilhas</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/ia-para-planilhas" className="text-black text-sm font-medium hover:underline">
+            Ver todas as IA para planilhas
+          </a>
+        </div>
+      </section>
+
       {/* IA para Aprender inglês */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">
