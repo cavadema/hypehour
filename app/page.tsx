@@ -76,6 +76,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* IA para PDFs */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="apify-section-title flex items-center gap-2">
+            <DocumentTextIcon className="w-6 h-6 text-gray-700" />
+            IA para PDFs
+          </h2>
+          <a href="/ia-para-pdf" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
+            Ver todas as IA para PDFs
+          </a>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> Doctly</span>
+            <p className="text-zinc-700">IA para ler, resumir e organizar PDFs com extração segura.</p>
+            <span className="text-xs text-zinc-500">Categoria: PDFs</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> Docparser</span>
+            <p className="text-zinc-700">Extraia dados estruturados de PDFs e automatize processos.</p>
+            <span className="text-xs text-zinc-500">Categoria: PDFs</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> ChatPDF</span>
+            <p className="text-zinc-700">Converse com seus PDFs em português para resumos e respostas.</p>
+            <span className="text-xs text-zinc-500">Categoria: PDFs</span>
+          </div>
+        </div>
+        <div className="mt-4 md:hidden">
+          <a href="/ia-para-pdf" className="text-black text-sm font-medium hover:underline">
+            Ver todas as IA para PDFs
+          </a>
+        </div>
+      </section>
+
       {/* IA para Criar Planilhas */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">

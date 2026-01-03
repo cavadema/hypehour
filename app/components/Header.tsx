@@ -25,6 +25,7 @@ export default function Header() {
             <li><Link href="/transcrever-audio" className="hover:text-black transition-colors">Transcrever Áudio</Link></li>
             <li><Link href="/ia-para-fazer-ata-reuniao" className="hover:text-black transition-colors">Ata de Reunião</Link></li>
             <li><Link href="/ferramenta-de-deteccao-de-ia" className="hover:text-black transition-colors">Detecção de IA</Link></li>
+            <li><Link href="/ia-para-pdf" className="hover:text-black transition-colors">PDF</Link></li>
 
             {/* Dropdown Outras IAs */}
             <li className="relative group">
@@ -63,6 +64,7 @@ export default function Header() {
                 <Link href="/api-ia-modelos" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">APIs</Link>
                 <Link href="/navegadores-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Navegadores de IA</Link>
                 <Link href="/newsletters-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Newsletters</Link>
+                <Link href="/ia-para-pdf" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">PDF</Link>
                 <Link href="/ia-para-planilhas" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Planilhas</Link>
               </div>
             </li>
@@ -83,6 +85,7 @@ export default function Header() {
                 <li><Link href="/transcrever-audio" className="block py-2" onClick={() => setOpen(false)}>Transcrever Áudio</Link></li>
                 <li><Link href="/ia-para-fazer-ata-reuniao" className="block py-2" onClick={() => setOpen(false)}>Ata de Reunião</Link></li>
                 <li><Link href="/ferramenta-de-deteccao-de-ia" className="block py-2" onClick={() => setOpen(false)}>Detecção de IA</Link></li>
+                <li><Link href="/ia-para-pdf" className="block py-2" onClick={() => setOpen(false)}>PDF</Link></li>
 
                 <li className="border-t border-zinc-100 pt-2 mt-2 font-semibold text-zinc-400 text-sm">Outras IAs</li>
                 <li><Link href="/ia-para-planilhas" className="block py-2 pl-4" onClick={() => setOpen(false)}>Planilhas</Link></li>
