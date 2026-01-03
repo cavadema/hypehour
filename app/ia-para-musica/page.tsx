@@ -83,6 +83,11 @@ const ferramentas = [
         url: "https://www.minimax.io/audio",
         descricao: "IA em nuvem para gerar vozes ultra-realistas e clonagem de áudio natural.",
     },
+    {
+        nome: "Meta SAM Audio",
+        url: "https://ai.meta.com/samaudio/",
+        descricao: "Modelo de áudio da Meta para separar fontes e gerar sons com alta fidelidade.",
+    },
 ];
 
 export const metadata = {

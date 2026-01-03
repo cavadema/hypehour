@@ -153,6 +153,11 @@ const ferramentas = [
     url: "https://www.vibiz.ai/",
     descricao: "Gera conteúdo on-brand extraindo cores, fontes e estilo do seu site para criar anúncios, imagens e vídeos alinhados à marca.",
   },
+  {
+    nome: "Orbus Company",
+    url: "https://orbuscompany.com.br/",
+    descricao: "Plataforma brasileira que produz conteúdos e roteiros com IA para vídeos e redes sociais.",
+  },
 ];
 
 export const metadata = {

@@ -35,6 +35,8 @@ const ferramentas = [
   { nome: "Coral AI", url: "https://www.getcoralai.com/", descricao: "Assistente de IA para produtividade e automação de tarefas." },
   { nome: "Sintra", url: "https://sintra.ai/", descricao: "Equipe de assistentes de IA que trabalham 24/7 para automação de tarefas, marketing, vendas e atendimento ao cliente." },
   { nome: "Doco", url: "https://www.trydoco.com/", descricao: "Assistente de IA integrado ao Microsoft Word para editar, resumir e formatar documentos profissionais." },
+  { nome: "Cove", url: "https://cove.ai/", descricao: "Assistente de IA para emails, pesquisa e rotinas diárias com contexto persistente." },
+  { nome: "Claritydocs", url: "https://claritydocs.ai/", descricao: "Companheiro de IA para documentar decisões, reuniões e fluxo de trabalho automaticamente." },
 ];
 
 export default function AssistentesDeIA() {

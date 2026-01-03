@@ -14,6 +14,11 @@ const ferramentas = [
         descricao: "Ferramenta de escrita com IA para criar conteúdo de marketing otimizado para SEO.",
     },
     {
+        nome: "Temso",
+        url: "https://www.temso.ai/",
+        descricao: "IA para vendas e marketing que cria materiais comerciais e treina times com roteiros prontos.",
+    },
+    {
         nome: "Lumen5",
         url: "https://lumen5.com/",
         descricao: "Transforme textos e artigos em vídeos engajadores para redes sociais com IA.",

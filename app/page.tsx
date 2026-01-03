@@ -43,36 +43,36 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Automarticles</span>
-            <p className="text-zinc-700">Blog profissional 100% automático com estratégia, conteúdos e relatórios de SEO.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 02/01/2026</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Adobe Agent Orchestrator</span>
-            <p className="text-zinc-700">Orquestração de agentes de IA da Adobe para experiências personalizadas em escala.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 02/01/2026</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Bloom</span>
-            <p className="text-zinc-700">Ferramenta open source para avaliação automatizada de comportamento de LLMs.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 02/01/2026</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhoneIcon className="w-5 h-5" /> Leads360</span>
-            <p className="text-zinc-700">CRM com atendimento por IA que une atendimento humano e automação para transformar conversas em vendas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 02/01/2026</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArrowPathIcon className="w-5 h-5" /> Qntrl</span>
-            <p className="text-zinc-700">Plataforma unificada para criar, automatizar e gerenciar workflows com orquestração inteligente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 02/01/2026</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Google Skills</span>
-            <p className="text-zinc-700">Plataforma do Google com treinamentos, certificações e selos de habilidade em IA e Cloud.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 02/01/2026</span>
-          </div>
+          <a href="https://www.sim.ai" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Sim AI</span>
+            <p className="text-zinc-700">Construa agentes autônomos para tarefas complexas com monitoramento e segurança.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 03/01/2026</span>
+          </a>
+          <a href="https://www.conduit.ai" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Conduit AI</span>
+            <p className="text-zinc-700">Infraestrutura para desenvolver e operar agentes de IA com workflows reutilizáveis.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 03/01/2026</span>
+          </a>
+          <a href="https://ai.meta.com/samaudio" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MusicalNoteIcon className="w-5 h-5" /> Meta SAM Audio</span>
+            <p className="text-zinc-700">Modelo de áudio da Meta para separar fontes e gerar sons com alta fidelidade.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 03/01/2026</span>
+          </a>
+          <a href="https://www.cove.ai" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Cove</span>
+            <p className="text-zinc-700">Assistente de IA para emails, pesquisa e rotinas diárias com contexto persistente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 03/01/2026</span>
+          </a>
+          <a href="https://orbuscompany.com.br" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Orbus Company</span>
+            <p className="text-zinc-700">Plataforma brasileira que produz conteúdos e roteiros com IA para vídeos e redes sociais.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 03/01/2026</span>
+          </a>
+          <a href="https://temso.ai" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Temso</span>
+            <p className="text-zinc-700">IA para vendas e marketing que cria materiais comerciais e treina times com roteiros prontos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 03/01/2026</span>
+          </a>
         </div>
       </section>
 

@@ -32,6 +32,10 @@ const ferramentas = [
   { nome: "CTO.new", url: "https://cto.new/", descricao: "Plataforma para criar e gerenciar agentes de IA para desenvolvimento de software." },
   { nome: "GetProfile", url: "https://www.getprofile.org/", descricao: "Perfil de usuário e memória de longo prazo para seu agente de IA, open source." },
   { nome: "Adobe Agent Orchestrator", url: "https://business.adobe.com/br/products/experience-platform/agent-orchestrator.html", descricao: "Orquestração de agentes de IA da Adobe para experiências personalizadas em escala." },
+  { nome: "Factory AI", url: "https://factory.ai/", descricao: "Plataforma para criar, testar e orquestrar agentes de IA com foco em produção." },
+  { nome: "Sim AI", url: "https://www.sim.ai/", descricao: "Construa agentes autônomos para tarefas complexas com monitoramento e segurança." },
+  { nome: "Conduit AI", url: "https://www.conduit.ai/", descricao: "Infraestrutura para desenvolver e operar agentes de IA com workflows reutilizáveis." },
+  { nome: "Doco", url: "https://www.trydoco.com/", descricao: "Assistente/agent para edição e revisão de documentos com IA integrada ao Word." },
 ];
 
 export default function CriacaoAgentesIA() {
