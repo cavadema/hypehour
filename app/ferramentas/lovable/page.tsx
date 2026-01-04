@@ -396,6 +396,68 @@ export default function LovablePage() {
           </div>
         </section>
 
+        {/* Para que serve */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-black mb-6">Para que serve</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {[
+              "Desenvolvimento de software via chat (no-code)",
+              "Renderização ao vivo (live rendering)",
+              "Desfazer instantâneo (instant undo)",
+              "Criação de MVPs e protótipos",
+              "Geração de front-end responsivo",
+              "Criação automática de APIs",
+              "Geração de banco de dados",
+              "Testes automatizados",
+              "Documentação automática",
+              "Integração com Git e GitHub",
+              "Deploy com um clique",
+              "Colaboração em tempo real",
+              "Versionamento de código",
+              "Validação de hipóteses de produto",
+              "Criação de dashboards e painéis",
+              "Apps web full-stack",
+              "Prototipação rápida de interfaces",
+              "Automação de tarefas repetitivas",
+            ].map((item, index) => (
+              <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
+                <p className="text-zinc-700 text-sm">{item}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Principais funcionalidades */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-black mb-6">Principais funcionalidades</h2>
+          <div className="grid gap-6">
+            <div className="p-6 bg-white border border-zinc-200 rounded-xl shadow-sm">
+              <h3 className="text-xl font-semibold text-black mb-3">Geração de código full-stack por IA</h3>
+              <p className="text-zinc-700">Crie aplicações completas (front-end, back-end, banco de dados) a partir de descrições em linguagem natural, sem escrever uma linha de código.</p>
+            </div>
+            <div className="p-6 bg-white border border-zinc-200 rounded-xl shadow-sm">
+              <h3 className="text-xl font-semibold text-black mb-3">Preview em tempo real</h3>
+              <p className="text-zinc-700">Visualize instantaneamente cada mudança no código com renderização ao vivo, permitindo iterações rápidas e ajustes imediatos.</p>
+            </div>
+            <div className="p-6 bg-white border border-zinc-200 rounded-xl shadow-sm">
+              <h3 className="text-xl font-semibold text-black mb-3">Testes e validação automáticos</h3>
+              <p className="text-zinc-700">A IA gera testes unitários, critérios de aceitação e validações automaticamente, garantindo qualidade e confiabilidade do código.</p>
+            </div>
+            <div className="p-6 bg-white border border-zinc-200 rounded-xl shadow-sm">
+              <h3 className="text-xl font-semibold text-black mb-3">Integração com Git e controle de versão</h3>
+              <p className="text-zinc-700">Mantenha histórico completo de mudanças, faça rollback instantâneo e colabore com seu time usando workflows Git familiares.</p>
+            </div>
+            <div className="p-6 bg-white border border-zinc-200 rounded-xl shadow-sm">
+              <h3 className="text-xl font-semibold text-black mb-3">Edição conversacional via chat</h3>
+              <p className="text-zinc-700">Peça alterações, correções e melhorias em linguagem natural, e a IA atualiza o código automaticamente mantendo a consistência.</p>
+            </div>
+            <div className="p-6 bg-white border border-zinc-200 rounded-xl shadow-sm">
+              <h3 className="text-xl font-semibold text-black mb-3">Deploy e publicação com um clique</h3>
+              <p className="text-zinc-700">Publique sua aplicação em produção instantaneamente com integrações nativas para hosting, domínios e infraestrutura cloud.</p>
+            </div>
+          </div>
+        </section>
+
         {/* Vantagens */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-black mb-6">Vantagens</h2>
@@ -488,6 +550,22 @@ export default function LovablePage() {
                   <span className="text-zinc-700">Times sem tech-savvy para validar código</span>
                 </li>
               </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Vídeo do YouTube */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-black mb-6">Veja o Lovable em ação</h2>
+          <div className="rounded-xl overflow-hidden shadow-lg border border-zinc-200">
+            <div className="relative pb-[56.25%] h-0">
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/kcOrTOT7Kko?list=PLbVHz4urQBZmRdbhoQz4GjyYolr95fXfc"
+                title="Lovable Demo"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
           </div>
         </section>
