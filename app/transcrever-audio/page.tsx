@@ -11,6 +11,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Riverside", url: "https://riverside.com/", descricao: "Plataforma de gravação e transcrição com IA para podcasts e vídeos profissionais." },
   { nome: "Speechify", url: "https://speechify.com/", descricao: "Plataforma de IA para transcrição e conversão de texto em áudio com vozes naturais." },
   { nome: "Wisprflow", url: "https://wisprflow.ai/", descricao: "Transcrição automática de áudio com IA para fluxos de trabalho profissionais." },
   { nome: "Willowvoice", url: "https://willowvoice.com/", descricao: "Ferramenta de transcrição de voz com IA para criar textos precisos." },

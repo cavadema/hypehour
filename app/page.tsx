@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon, MicrophoneIcon, BuildingStorefrontIcon } from "@heroicons/react/24/solid";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -43,35 +43,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://www.sim.ai" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Sim AI</span>
-            <p className="text-zinc-700">Construa agentes autônomos para tarefas complexas com monitoramento e segurança.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 03/01/2026</span>
+          <a href="https://riverside.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MicrophoneIcon className="w-5 h-5" /> Riverside</span>
+            <p className="text-zinc-700">Plataforma de gravação e transcrição com IA para podcasts e vídeos profissionais.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 04/01/2026</span>
           </a>
-          <a href="https://www.conduit.ai" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Conduit AI</span>
-            <p className="text-zinc-700">Infraestrutura para desenvolver e operar agentes de IA com workflows reutilizáveis.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 03/01/2026</span>
+          <a href="https://creao.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Creao AI</span>
+            <p className="text-zinc-700">Plataforma de IA para desenvolvimento rápido de aplicações com assistente inteligente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 04/01/2026</span>
           </a>
-          <a href="https://ai.meta.com/samaudio" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MusicalNoteIcon className="w-5 h-5" /> Meta SAM Audio</span>
-            <p className="text-zinc-700">Modelo de áudio da Meta para separar fontes e gerar sons com alta fidelidade.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 03/01/2026</span>
+          <a href="https://finalscout.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingStorefrontIcon className="w-5 h-5" /> Finalscout</span>
+            <p className="text-zinc-700">Ferramenta de IA para prospecção e automação de vendas com análise de leads e outreach inteligente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 04/01/2026</span>
           </a>
-          <a href="https://www.cove.ai" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Cove</span>
-            <p className="text-zinc-700">Assistente de IA para emails, pesquisa e rotinas diárias com contexto persistente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 03/01/2026</span>
+          <a href="https://www.alteryx.com/pt-br/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Alteryx</span>
+            <p className="text-zinc-700">Plataforma de análise de dados com IA para preparação, mistura e análise avançada de dados.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 04/01/2026</span>
           </a>
-          <a href="https://orbuscompany.com.br" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Orbus Company</span>
-            <p className="text-zinc-700">Plataforma brasileira que produz conteúdos e roteiros com IA para vídeos e redes sociais.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 03/01/2026</span>
+          <a href="https://www.formulabot.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> FormulaBot</span>
+            <p className="text-zinc-700">IA para criar fórmulas, scripts e automatizar análise de dados em planilhas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 04/01/2026</span>
           </a>
-          <a href="https://temso.ai" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Temso</span>
-            <p className="text-zinc-700">IA para vendas e marketing que cria materiais comerciais e treina times com roteiros prontos.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 03/01/2026</span>
+          <a href="https://www.datarobot.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> DataRobot</span>
+            <p className="text-zinc-700">Plataforma empresarial para criar e gerenciar agentes de IA com AutoML e orquestração.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 04/01/2026</span>
           </a>
         </div>
       </section>

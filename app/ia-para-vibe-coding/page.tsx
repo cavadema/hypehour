@@ -11,6 +11,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Creao AI", url: "https://creao.ai/", descricao: "Plataforma de IA para desenvolvimento rápido de aplicações com assistente inteligente." },
   { nome: "Lovable", url: "/ferramentas/lovable", descricao: "IA para programação, resumos e automações." },
   { nome: "Bolt.new", url: "https://bolt.new/", descricao: "Ferramenta para acelerar desenvolvimento e automações." },
   { nome: "v0", url: "https://v0.dev/", descricao: "Plataforma para criação rápida de interfaces e automações." },

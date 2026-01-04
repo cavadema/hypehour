@@ -3,6 +3,11 @@ import Link from "next/link";
 
 const ferramentas = [
     {
+        nome: "Finalscout",
+        url: "https://finalscout.com/",
+        descricao: "Ferramenta de IA para prospecção e automação de vendas com análise de leads e outreach inteligente.",
+    },
+    {
         nome: "Outreach",
         url: "https://www.outreach.io/",
         descricao: "Plataforma de engajamento de vendas com IA para automação de outreach, sequências e análise de performance.",

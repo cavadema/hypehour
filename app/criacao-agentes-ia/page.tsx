@@ -10,6 +10,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "DataRobot", url: "https://www.datarobot.com/", descricao: "Plataforma empresarial para criar e gerenciar agentes de IA com AutoML e orquestração." },
   { nome: "Zaia", url: "https://zaia.app/", descricao: "Plataforma para criar e implantar agentes de IA automáticos com integrações." },
   { nome: "Incredible", url: "https://www.incredible.one/", descricao: "Plataforma para criar agentes de IA com orquestração de fluxos." },
   { nome: "Tate A Tate", url: "https://www.tate-a-tate.com/", descricao: "Construa agentes conversacionais com recursos avançados." },

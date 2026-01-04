@@ -10,6 +10,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Alteryx", url: "https://www.alteryx.com/pt-br/", descricao: "Plataforma de análise de dados com IA para preparação, mistura e análise avançada de dados." },
+  { nome: "FormulaBot", url: "https://www.formulabot.com/", descricao: "IA para criar fórmulas, scripts e automatizar análise de dados em planilhas." },
   { nome: "Prax AI", url: "https://www.prax.ai/", descricao: "Plataforma de análise de dados com IA para insights e automação inteligente." },
   { nome: "Zettadata", url: "https://zettadata.ai/", descricao: "Plataforma de análise de dados com IA para insights automatizados." },
   { nome: "Basedash", url: "https://www.basedash.com/", descricao: "Interface de IA para visualizar e editar dados do seu banco." },
