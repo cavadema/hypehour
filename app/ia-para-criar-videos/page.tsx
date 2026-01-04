@@ -20,7 +20,7 @@ const ferramentas = [
     },
     {
         nome: "KlingAI",
-        url: "https://klingai.com/global/",
+        url: "/ferramentas/klingai",
         descricao: "Ferramenta poderosa para criar vídeos realistas com movimentos complexos.",
     },
     {
