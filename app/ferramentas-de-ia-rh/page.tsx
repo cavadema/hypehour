@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Enhancv Resume Checker",
+        url: "https://enhancv.com/resources/resume-checker/",
+        descricao: "Ferramenta de IA para analisar e melhorar currículos com feedback instantâneo e pontuação.",
+    },
+    {
         nome: "Attract AI",
         url: "https://attract.ai/",
         descricao: "Plataforma de sourcing de talentos que usa IA para encontrar e engajar os melhores candidatos.",

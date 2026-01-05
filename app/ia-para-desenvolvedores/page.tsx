@@ -12,6 +12,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Shitty Coding Agent",
+    url: "https://shittycodingagent.ai/",
+    descricao: "Agente de IA que gera código propositalmente ruim para ensinar boas práticas e debugging.",
+  },
+  {
     nome: "Prefect",
     url: "https://www.prefect.io/prefect/open-source",
     descricao: "Plataforma open-source para orquestração de workflows com automação e IA.",

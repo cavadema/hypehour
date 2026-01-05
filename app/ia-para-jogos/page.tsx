@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "YouTube Playables Builder",
+        url: "https://www.youtube.com/playablesbuilder/",
+        descricao: "Ferramenta do YouTube para criar jogos interativos e experiências jogáveis diretamente na plataforma."
+    },
+    {
         nome: "Beam",
         url: "https://site.beam.game/",
         descricao: "Plataforma de IA para criar histórias interativas e jogos com vídeos, imagens e música geradas por IA."
