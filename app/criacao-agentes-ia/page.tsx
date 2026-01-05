@@ -10,6 +10,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Shitty Coding Agent", url: "https://shittycodingagent.ai/", descricao: "Agente de IA que gera código para testes e automações, podendo ser orquestrado em fluxos." },
+  { nome: "Firecrawl", url: "https://www.firecrawl.dev/", descricao: "Crawler de IA para coletar e estruturar dados da web que podem alimentar agentes." },
   { nome: "Promptloop", url: "https://www.promptloop.com/", descricao: "Ferramenta para criar agentes de IA que processam dados em planilhas com prompts personalizados." },
   { nome: "DataRobot", url: "https://www.datarobot.com/", descricao: "Plataforma empresarial para criar e gerenciar agentes de IA com AutoML e orquestração." },
   { nome: "Zaia", url: "https://zaia.app/", descricao: "Plataforma para criar e implantar agentes de IA automáticos com integrações." },

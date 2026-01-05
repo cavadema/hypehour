@@ -11,6 +11,7 @@ export const metadata = {
 
 const ferramentas = [
   { nome: "Firecrawl", url: "https://www.firecrawl.dev/", descricao: "Ferramenta de IA para extrair e transformar dados de websites em formatos estruturados para análise." },
+  { nome: "Promptloop", url: "https://www.promptloop.com/", descricao: "IA para manipular e transformar dados diretamente em planilhas usando prompts." },
   { nome: "Alteryx", url: "https://www.alteryx.com/pt-br/", descricao: "Plataforma de análise de dados com IA para preparação, mistura e análise avançada de dados." },
   { nome: "FormulaBot", url: "https://www.formulabot.com/", descricao: "IA para criar fórmulas, scripts e automatizar análise de dados em planilhas." },
   { nome: "Prax AI", url: "https://www.prax.ai/", descricao: "Plataforma de análise de dados com IA para insights e automação inteligente." },
