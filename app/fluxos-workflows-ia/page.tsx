@@ -2,6 +2,7 @@ import { ArrowPathIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
 const ferramentas = [
+  { nome: "Dafthunk", url: "https://www.dafthunk.com/", descricao: "Construa fluxos e automações com IA usando ações reutilizáveis e orquestração visual." },
   { nome: "Tines", url: "https://www.tines.com/", descricao: "Plataforma de automação visual com IA para criar workflows sem código." },
   { nome: "UiPath Release Hub", url: "https://www.uipath.com/product/release-hub", descricao: "Orquestração e automação de processos com IA para empresas." },
   { nome: "Apache Airflow", url: "https://airflow.apache.org/", descricao: "Plataforma open-source para orquestrar workflows complexos programaticamente." },

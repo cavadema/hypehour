@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon, MicrophoneIcon, BuildingStorefrontIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon, MicrophoneIcon, BuildingStorefrontIcon, CogIcon, ArrowPathIcon } from "@heroicons/react/24/solid";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -43,35 +43,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://www.firecrawl.dev/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Firecrawl</span>
-            <p className="text-zinc-700">Ferramenta de IA para extrair e transformar dados de websites em formatos estruturados para análise.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 05/01/2026</span>
+          <a href="https://vidiio.net/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Vidiio</span>
+            <p className="text-zinc-700">Plataforma de criação e edição de vídeos com IA para marketing e redes sociais.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 06/01/2026</span>
           </a>
-          <a href="https://www.promptloop.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Promptloop</span>
-            <p className="text-zinc-700">Ferramenta para criar agentes de IA que processam dados em planilhas com prompts personalizados.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 05/01/2026</span>
+          <a href="https://arcwise.app/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Arcwise</span>
+            <p className="text-zinc-700">Copiloto de IA para planilhas que explica, corrige e gera fórmulas com contexto de dados.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 06/01/2026</span>
           </a>
-          <a href="https://www.figma.com/pt-br/comunidade/plugin/1486825259782611959/figroot-free-figma-to-code-react-tailwind-css-html-css-plugin" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Figroot</span>
-            <p className="text-zinc-700">Plugin gratuito do Figma que converte designs em código React, Tailwind CSS e HTML/CSS com IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 05/01/2026</span>
+          <a href="https://cloud.google.com/products/agent-builder" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Google Agent Builder</span>
+            <p className="text-zinc-700">Plataforma do Google Cloud para criar, treinar e implantar agentes de IA com segurança e escala.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 06/01/2026</span>
           </a>
-          <a href="https://shittycodingagent.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Shitty Coding Agent</span>
-            <p className="text-zinc-700">Agente de IA que gera código propositalmente ruim para ensinar boas práticas e debugging.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 05/01/2026</span>
+          <a href="https://aident.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CogIcon className="w-5 h-5" /> Aident</span>
+            <p className="text-zinc-700">Plataforma de automação com IA para criar agentes que executam tarefas e conectam sistemas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 06/01/2026</span>
           </a>
-          <a href="https://www.youtube.com/playablesbuilder/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> YouTube Playables Builder</span>
-            <p className="text-zinc-700">Ferramenta do YouTube para criar jogos interativos e experiências jogáveis diretamente na plataforma.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 05/01/2026</span>
+          <a href="https://www.dafthunk.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArrowPathIcon className="w-5 h-5" /> Dafthunk</span>
+            <p className="text-zinc-700">Crie fluxos e automações com IA usando ações reutilizáveis e orquestração visual.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 06/01/2026</span>
           </a>
-          <a href="https://enhancv.com/resources/resume-checker/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Enhancv Resume Checker</span>
-            <p className="text-zinc-700">Ferramenta de IA para analisar e melhorar currículos com feedback instantâneo e pontuação.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 05/01/2026</span>
+          <a href="https://open-tinker.github.io/opentinker-page/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> OpenTinker</span>
+            <p className="text-zinc-700">Coleção open-source de APIs e ferramentas para orquestrar agentes e fluxos com IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 06/01/2026</span>
           </a>
         </div>
       </section>

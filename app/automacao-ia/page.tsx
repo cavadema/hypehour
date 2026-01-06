@@ -3,6 +3,7 @@ import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
+  { nome: "Aident", url: "https://aident.ai/", descricao: "Plataforma de automação com IA para criar agentes que executam tarefas e conectam sistemas." },
   { nome: "Atlassian Rovo", url: "https://www.atlassian.com/software/rovo/features", descricao: "Automação e busca inteligente com IA para equipes Atlassian." },
   { nome: "Thesys N8N", url: "https://www.thesys.dev/n8n", descricao: "Plataforma de automação de workflows com IA e integração de ferramentas." },
   { nome: "Kadabra", url: "https://www.getkadabra.com/", descricao: "Automação de processos com IA para simplificar tarefas empresariais." },
