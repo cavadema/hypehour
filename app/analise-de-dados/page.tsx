@@ -10,6 +10,9 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "A2GO", url: "https://a2go.ai/", descricao: "Plataforma de IA para análise de dados e automação de processos com insights inteligentes." },
+  { nome: "Findly", url: "https://www.findly.ai/pt", descricao: "Assistente de IA para análise de dados que responde perguntas em linguagem natural sobre seus dados." },
+  { nome: "Excelmatic", url: "https://excelmatic.ai/pt/", descricao: "IA para automatizar tarefas no Excel e Google Sheets com fórmulas e análises inteligentes." },
   { nome: "Arcwise", url: "https://arcwise.app/", descricao: "Copiloto de IA para planilhas que explica, corrige e gera fórmulas com contexto de dados." },
   { nome: "Firecrawl", url: "https://www.firecrawl.dev/", descricao: "Ferramenta de IA para extrair e transformar dados de websites em formatos estruturados para análise." },
   { nome: "Promptloop", url: "https://www.promptloop.com/", descricao: "IA para manipular e transformar dados diretamente em planilhas usando prompts." },

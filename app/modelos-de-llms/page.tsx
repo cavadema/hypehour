@@ -3,6 +3,11 @@ import Link from "next/link";
 
 const modelos = [
   {
+    nome: "Z.ai",
+    url: "http://z.ai/",
+    descricao: "Modelo de linguagem avançado com capacidades de raciocínio e geração de texto.",
+  },
+  {
     nome: "OpenAI ChatGPT",
     url: "https://chatgpt.com/",
     descricao: "Modelos GPT-4o e GPT-5.1 com capacidades multimodais para texto, imagem, áudio e vídeo.",

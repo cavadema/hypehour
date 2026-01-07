@@ -8,6 +8,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Connect Machine", url: "https://www.connectmachine.ai/", descricao: "Assistente de IA para conectar e automatizar workflows entre diferentes ferramentas e sistemas." },
   { nome: "Remio", url: "https://www.remio.ai/", descricao: "Assistente de IA para organizar e automatizar tarefas pessoais e de trabalho." },
   { nome: "Yutori Scouts", url: "https://yutori.com/scouts", descricao: "Plataforma de scouts/assistentes para busca e acompanhamento de tarefas." },
   { nome: "Huxe", url: "https://www.huxe.com/", descricao: "Assistente pessoal com automações e integração de ferramentas." },

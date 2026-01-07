@@ -12,6 +12,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Zagi",
+    url: "https://github.com/mattzcarey/zagi",
+    descricao: "Framework open-source para criar agentes de IA que interagem com código e sistemas.",
+  },
+  {
     nome: "Shitty Coding Agent",
     url: "https://shittycodingagent.ai/",
     descricao: "Agente de IA que gera código propositalmente ruim para ensinar boas práticas e debugging.",

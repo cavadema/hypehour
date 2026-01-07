@@ -43,35 +43,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://vidiio.net/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Vidiio</span>
-            <p className="text-zinc-700">Plataforma de criação e edição de vídeos com IA para marketing e redes sociais.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 06/01/2026</span>
+          <a href="https://a2go.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> A2GO</span>
+            <p className="text-zinc-700">Plataforma de IA para análise de dados e automação de processos com insights inteligentes.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 07/01/2026</span>
           </a>
-          <a href="https://arcwise.app/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Arcwise</span>
-            <p className="text-zinc-700">Copiloto de IA para planilhas que explica, corrige e gera fórmulas com contexto de dados.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 06/01/2026</span>
+          <a href="https://www.findly.ai/pt" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Findly</span>
+            <p className="text-zinc-700">Assistente de IA para análise de dados que responde perguntas em linguagem natural sobre seus dados.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 07/01/2026</span>
           </a>
-          <a href="https://cloud.google.com/products/agent-builder" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Google Agent Builder</span>
-            <p className="text-zinc-700">Plataforma do Google Cloud para criar, treinar e implantar agentes de IA com segurança e escala.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 06/01/2026</span>
+          <a href="https://excelmatic.ai/pt/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Excelmatic</span>
+            <p className="text-zinc-700">IA para automatizar tarefas no Excel e Google Sheets com fórmulas e análises inteligentes.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 07/01/2026</span>
           </a>
-          <a href="https://aident.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CogIcon className="w-5 h-5" /> Aident</span>
-            <p className="text-zinc-700">Plataforma de automação com IA para criar agentes que executam tarefas e conectam sistemas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 06/01/2026</span>
+          <a href="https://github.com/mattzcarey/zagi" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Zagi</span>
+            <p className="text-zinc-700">Framework open-source para criar agentes de IA que interagem com código e sistemas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 07/01/2026</span>
           </a>
-          <a href="https://www.dafthunk.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArrowPathIcon className="w-5 h-5" /> Dafthunk</span>
-            <p className="text-zinc-700">Crie fluxos e automações com IA usando ações reutilizáveis e orquestração visual.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 06/01/2026</span>
+          <a href="http://z.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Z.ai</span>
+            <p className="text-zinc-700">Modelo de linguagem avançado e assistente conversacional com raciocínio para tarefas complexas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 07/01/2026</span>
           </a>
-          <a href="https://open-tinker.github.io/opentinker-page/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> OpenTinker</span>
-            <p className="text-zinc-700">Coleção open-source de APIs e ferramentas para orquestrar agentes e fluxos com IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 06/01/2026</span>
+          <a href="https://www.connectmachine.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Connect Machine</span>
+            <p className="text-zinc-700">Assistente de IA para conectar e automatizar workflows entre diferentes ferramentas e sistemas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 07/01/2026</span>
           </a>
         </div>
       </section>
