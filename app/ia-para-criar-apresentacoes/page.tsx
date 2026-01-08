@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Slides AI",
+        url: "https://www.slidesai.io/pt",
+        descricao: "Crie apresentações profissionais em segundos a partir de texto com IA generativa.",
+    },
+    {
         nome: "Genspark",
         url: "https://www.genspark.ai/",
         descricao: "Crie apresentações impressionantes a partir de prompts simples com IA generativa.",

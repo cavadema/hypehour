@@ -9,6 +9,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Chatbase", url: "https://www.chatbase.co/", descricao: "Crie chatbots de IA treinados com seus dados para atendimento automatizado 24/7." },
+  { nome: "Expertise.ai", url: "https://www.expertise.ai/pt", descricao: "Plataforma de IA para otimizar atendimento ao cliente com automação inteligente e insights." },
   { nome: "Robbu", url: "https://robbu.global/", descricao: "Plataforma de automação de atendimento com IA para otimizar suporte ao cliente." },
   { nome: "Helploom", url: "https://helploom.com/", descricao: "Plataforma de atendimento com IA para automação e gestão integrada." },
   { nome: "Gladly", url: "https://www.gladly.ai/hp1/", descricao: "Transforma o atendimento ao cliente em suporte inteligente, automatizado e personalizado em todos os canais." },

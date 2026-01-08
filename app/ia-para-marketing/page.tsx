@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Page Score",
+        url: "https://page-score.conversion.com.br/",
+        descricao: "Analise e otimize páginas de vendas e landing pages com IA para melhorar conversão.",
+    },
+    {
         nome: "eKyte",
         url: "https://www.ekyte.com/pt-br/",
         descricao: "Plataforma de gestão de marketing digital com IA para planejar e executar campanhas.",
