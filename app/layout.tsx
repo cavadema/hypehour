@@ -129,10 +129,12 @@ export default function RootLayout({
                 <li><a href="/ferramenta-de-deteccao-de-ia" className="hover:underline">Detecção de IA</a></li>
                 <li><a href="/ia-para-pdf" className="hover:underline">PDF</a></li>
                 <li><a href="/newsletters-de-ia" className="hover:underline">Newsletters</a></li>
-                <li><a href="/cursos-de-ia" className="hover:underline">Cursos de IA</a></li>                <li><a href="/repositorios-ia-github" className="hover:underline">Repositórios Github</a></li>                <li><a href="/ia-para-planilhas" className="hover:underline">Planilhas</a></li>
+                <li><a href="/cursos-de-ia" className="hover:underline">Cursos de IA</a></li>
+                <li><a href="/repositorios-ia-github" className="hover:underline">Repositórios Github</a></li>
+                <li><a href="/ia-para-planilhas" className="hover:underline">Planilhas</a></li>
+                <li><a href="/ia-para-designers" className="hover:underline">Designers</a></li>
               </ul>
             </div>
-                  <li><a href="/ia-para-designers" className="hover:underline">Designers</a></li>
 
             {/* Bottom Row: Branding + Seções + Contato */}
             <div className="flex flex-col md:flex-row justify-between gap-8">
