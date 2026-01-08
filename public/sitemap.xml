@@ -176,12 +176,16 @@
     <loc>https://www.hypehour.com.br/ia-para-designers</loc>  
     <lastmod>2026-01-08</lastmod>
   </url>
-    <url>
+  <url>
     <loc>https://www.hypehour.com.br/ferramentas/lovable</loc>
     <lastmod>2026-01-02</lastmod>
   </url>
-    <url>
+  <url>
     <loc>https://www.hypehour.com.br/ferramentas/klingai</loc>
     <lastmod>2026-01-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hypehour.com.br/ferramentas/leonardo-ai</loc>
+    <lastmod>2026-01-08</lastmod>
   </url>
 </urlset>

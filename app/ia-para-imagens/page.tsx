@@ -35,7 +35,7 @@ const ferramentas = [
   },
   {
     nome: "Leonardo AI",
-    url: "https://leonardo.ai/",
+    url: "/ferramentas/leonardo-ai",
     descricao: "Geração de imagens criativas com IA.",
   },
   {
