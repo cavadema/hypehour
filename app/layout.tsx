@@ -131,6 +131,7 @@ export default function RootLayout({
                 <li><a href="/cursos-de-ia" className="hover:underline">Cursos de IA</a></li>                <li><a href="/repositorios-ia-github" className="hover:underline">Repositórios Github</a></li>                <li><a href="/ia-para-planilhas" className="hover:underline">Planilhas</a></li>
               </ul>
             </div>
+                  <li><a href="/ia-para-designers" className="hover:underline">Designers</a></li>
 
             {/* Bottom Row: Branding + Seções + Contato */}
             <div className="flex flex-col md:flex-row justify-between gap-8">
