@@ -1120,7 +1120,7 @@ export default function Home() {
             <span className="text-xs text-zinc-500">Lançamento: Dez/2024</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Qwen 2.5</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Qwen3</span>
             <p className="text-zinc-700">Família de modelos da Alibaba com excelência em código e matemática.</p>
             <span className="text-xs text-zinc-500">Lançamento: Set/2024</span>
           </div>
@@ -1130,7 +1130,7 @@ export default function Home() {
             <span className="text-xs text-zinc-500">Lançamento: Jan/2025</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Maritaca - Sabiazinho 3.1</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Maritaca - Sabiazinho-4</span>
             <p className="text-zinc-700">LLM brasileiro treinado especificamente para o português e cultura nacional.</p>
             <span className="text-xs text-zinc-500">Lançamento: Fev/2025</span>
           </div>
