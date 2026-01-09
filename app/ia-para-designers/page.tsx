@@ -9,6 +9,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Lemonslice",
+    url: "https://lemonslice.com/",
+    descricao: "Plataforma de IA para gerar conceitos visuais, variações e assets de design rapidamente." 
+  },
+  {
     nome: "Dorlabs",
     url: "https://dorlabs.ai/",
     descricao: "Gere conceitos visuais e variações de layout com IA para acelerar a criação." 

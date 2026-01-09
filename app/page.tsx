@@ -43,35 +43,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://page-score.conversion.com.br/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Page Score</span>
-            <p className="text-zinc-700">Analise e otimize páginas de vendas e landing pages com IA para melhorar conversão.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 08/01/2026</span>
+          <a href="https://kodus.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Kodus</span>
+            <p className="text-zinc-700">Plataforma de IA para desenvolvedores criarem pipelines e agentes com foco em qualidade de código.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 09/01/2026</span>
           </a>
-          <a href="https://anthropic.skilljar.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Anthropic Academy</span>
-            <p className="text-zinc-700">Cursos oficiais da Anthropic sobre IA, Claude e técnicas de prompt engineering.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 08/01/2026</span>
+          <a href="https://github.com/arcee-ai/distillKit" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> distillKit</span>
+            <p className="text-zinc-700">Ferramentas open-source para distilação e avaliação de modelos de IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 09/01/2026</span>
           </a>
-          <a href="https://www.droxy.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Droxy</span>
-            <p className="text-zinc-700">Crie agentes de IA personalizados sem código para automatizar atendimento e interações.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 08/01/2026</span>
+          <a href="https://www.archivinci.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Archivinci</span>
+            <p className="text-zinc-700">Gere conceitos arquitetônicos e visualizações com IA automaticamente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 09/01/2026</span>
           </a>
-          <a href="https://www.chatbase.co/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhoneIcon className="w-5 h-5" /> Chatbase</span>
-            <p className="text-zinc-700">Crie chatbots de IA treinados com seus dados para atendimento automatizado 24/7.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 08/01/2026</span>
+          <a href="https://www.veed.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> VEED</span>
+            <p className="text-zinc-700">Editor online com IA para cortes, legendas, dublagem e geração de vídeos rápidos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 09/01/2026</span>
           </a>
-          <a href="https://www.expertise.ai/pt" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhoneIcon className="w-5 h-5" /> Expertise.ai</span>
-            <p className="text-zinc-700">Plataforma de IA para otimizar atendimento ao cliente com automação inteligente e insights.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 08/01/2026</span>
+          <a href="https://lemonslice.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Lemonslice</span>
+            <p className="text-zinc-700">Gere conceitos visuais e assets de design com IA rapidamente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 09/01/2026</span>
           </a>
-          <a href="https://www.slidesai.io/pt" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PresentationChartLineIcon className="w-5 h-5" /> Slides AI</span>
-            <p className="text-zinc-700">Crie apresentações profissionais em segundos a partir de texto com IA generativa.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 08/01/2026</span>
+          <a href="https://www.inceptionlabs.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Inception Labs</span>
+            <p className="text-zinc-700">Modelos de linguagem com foco em desempenho e custo-eficiência.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 09/01/2026</span>
           </a>
         </div>
       </section>

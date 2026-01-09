@@ -12,6 +12,11 @@ export const metadata = {
 
 const ferramentas = [
     {
+        nome: "Archivinci",
+        url: "https://www.archivinci.com/",
+        descricao: "Plataforma de IA para gerar visualizações e conceitos arquitetônicos automaticamente.",
+    },
+    {
         nome: "Redraw",
         url: "https://www.redraw.pro/",
         descricao: "Transforme seus esboços em renderizações fotorrealistas em segundos.",

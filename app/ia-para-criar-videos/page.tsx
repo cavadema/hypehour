@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "VEED",
+        url: "https://www.veed.io/",
+        descricao: "Editor online com IA para cortes, legendas, dublagem e geração de vídeos rápidos.",
+    },
+    {
         nome: "Vidiio",
         url: "https://vidiio.net/",
         descricao: "Plataforma de criação e edição de vídeos com IA para marketing e redes sociais.",

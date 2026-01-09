@@ -9,6 +9,11 @@ export const metadata = {
 
 const repositorios = [
   { 
+    nome: "distillKit", 
+    url: "https://github.com/arcee-ai/distillKit",
+    descricao: "Conjunto de ferramentas para distilação e avaliação de modelos de IA de forma open-source." 
+  },
+  { 
     nome: "Agent Skills for Context Engineering", 
     url: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
     descricao: "Repositório para habilidades de agentes com engenharia de contexto avançada." 

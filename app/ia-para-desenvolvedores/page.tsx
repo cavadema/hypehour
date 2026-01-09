@@ -12,6 +12,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Kodus",
+    url: "https://kodus.io/",
+    descricao: "Plataforma de IA para desenvolvedores criarem pipelines e agentes com foco em qualidade de código.",
+  },
+  {
     nome: "Zagi",
     url: "https://github.com/mattzcarey/zagi",
     descricao: "Framework open-source para criar agentes de IA que interagem com código e sistemas.",

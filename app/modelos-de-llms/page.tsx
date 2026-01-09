@@ -3,6 +3,11 @@ import Link from "next/link";
 
 const modelos = [
   {
+    nome: "Inception Labs",
+    url: "https://www.inceptionlabs.ai/",
+    descricao: "Modelos de linguagem da Inception Labs focados em desempenho e custo-eficiência.",
+  },
+  {
     nome: "Z.ai",
     url: "http://z.ai/",
     descricao: "Modelo de linguagem avançado com capacidades de raciocínio e geração de texto.",
