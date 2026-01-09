@@ -50,12 +50,12 @@ const ferramentas = [
   },
   {
     nome: "GPTZero",
-    url: "https://gptzero.me/",
+    url: "/ferramentas/gptzero",
     descricao: "Detector popular criado para professores, com métricas claras de probabilidade.",
   },
   {
     nome: "ZeroGPT",
-    url: "https://www.zerogpt.com/",
+    url: "/ferramentas/zerogpt",
     descricao: "Detector avançado e confiável para ChatGPT, GPT-5 e Gemini com alta precisão.",
   },
   {
