@@ -10,6 +10,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "PostHog", url: "https://posthog.com/", descricao: "Plataforma de product analytics com eventos, funis, retenção e comportamento do usuário com recursos de IA." },
   { nome: "A2GO", url: "https://a2go.ai/", descricao: "Plataforma de IA para análise de dados e automação de processos com insights inteligentes." },
   { nome: "Findly", url: "https://www.findly.ai/pt", descricao: "Assistente de IA para análise de dados que responde perguntas em linguagem natural sobre seus dados." },
   { nome: "Excelmatic", url: "https://excelmatic.ai/pt/", descricao: "IA para automatizar tarefas no Excel e Google Sheets com fórmulas e análises inteligentes." },

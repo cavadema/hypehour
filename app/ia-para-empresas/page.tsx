@@ -3,6 +3,9 @@ import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
+  { nome: "Vanta", url: "https://www.vanta.com/", descricao: "Focada em compliance, segurança e certificações (SOC 2, ISO, etc.) para empresas com automações e integrações." },
+  { nome: "Incogni", url: "https://incogni.com/", descricao: "IA para privacidade de dados, remoção de dados pessoais e proteção digital, muito usada por profissionais e empresas." },
+  { nome: "Purpose.app", url: "https://purpose.app/", descricao: "Ferramenta para gestão estratégica, alinhamento de objetivos, impacto e propósito organizacional com IA." },
   { nome: "UiPath Release Hub", url: "https://www.uipath.com/product/release-hub", descricao: "Plataforma de automação empresarial com IA para orquestração de processos e workflows." },
   { nome: "Doctly", url: "https://doctly.ai/", descricao: "IA para gestão documental e automação de processos empresariais." },
   { nome: "Sheets Organizer", url: "https://www.sheetsorganizer.com/", descricao: "Organização e análise de planilhas com IA para empresas." },

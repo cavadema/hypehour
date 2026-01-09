@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Tavus",
+        url: "https://www.tavus.io/",
+        descricao: "IA para geração de vídeos personalizados em escala, muito usada em vendas, marketing e onboarding.",
+    },
+    {
         nome: "VEED",
         url: "https://www.veed.io/",
         descricao: "Editor online com IA para cortes, legendas, dublagem e geração de vídeos rápidos.",

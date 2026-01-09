@@ -115,6 +115,7 @@ export default function RootLayout({
                 <li><Link href="/crm-ia" className="hover:underline">CRM</Link></li>
                 <li><Link href="/investimentos" className="hover:underline">Investimentos</Link></li>
                 <li><Link href="/ia-para-empresas" className="hover:underline">IA para empresas</Link></li>
+                <li><Link href="/planejamento" className="hover:underline">Planejamento e Organização</Link></li>
                 <li><Link href="/ferramentas-de-ia-rh" className="hover:underline">IA para RH</Link></li>
                 <li><Link href="/ferramentas-ia-contabilidade" className="hover:underline">Contabilidade</Link></li>
                 <li><Link href="/inteligencia-artificial-para-advogados" className="hover:underline">Advogados</Link></li>

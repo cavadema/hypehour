@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Korgiboard",
+        url: "https://www.korgiboard.com/",
+        descricao: "Ferramenta para planejamento, organização e execução de conteúdo e marketing, especialmente para social e conteúdo.",
+    },
+    {
         nome: "Page Score",
         url: "https://page-score.conversion.com.br/",
         descricao: "Analise e otimize páginas de vendas e landing pages com IA para melhorar conversão.",
