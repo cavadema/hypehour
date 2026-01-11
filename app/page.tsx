@@ -43,35 +43,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://kodus.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Kodus</span>
-            <p className="text-zinc-700">Plataforma de IA para desenvolvedores criarem pipelines e agentes com foco em qualidade de código.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 09/01/2026</span>
+          <a href="https://useautumn.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Autumn</span>
+            <p className="text-zinc-700">Configure planos de preços e assinaturas Stripe 10x mais rápido para startups de IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 11/01/2026</span>
           </a>
-          <a href="https://github.com/arcee-ai/distillKit" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> distillKit</span>
-            <p className="text-zinc-700">Ferramentas open-source para distilação e avaliação de modelos de IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 09/01/2026</span>
+          <a href="https://designs.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Designs.ai</span>
+            <p className="text-zinc-700">Gerador all-in-one de IA para logos, imagens, vídeos, vozes e posts sociais.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 11/01/2026</span>
           </a>
-          <a href="https://www.archivinci.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Archivinci</span>
-            <p className="text-zinc-700">Gere conceitos arquitetônicos e visualizações com IA automaticamente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 09/01/2026</span>
+          <a href="https://uizard.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Uizard</span>
+            <p className="text-zinc-700">Design de UI para apps e sites com IA generativa, transforme ideias em conceitos instantaneamente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 11/01/2026</span>
           </a>
-          <a href="https://www.veed.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> VEED</span>
-            <p className="text-zinc-700">Editor online com IA para cortes, legendas, dublagem e geração de vídeos rápidos.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 09/01/2026</span>
+          <a href="https://www.uimagic.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Uimagic</span>
+            <p className="text-zinc-700">Crie sites personalizados e prontos para lançamento em menos de 5 minutos com IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 11/01/2026</span>
           </a>
-          <a href="https://lemonslice.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Lemonslice</span>
-            <p className="text-zinc-700">Gere conceitos visuais e assets de design com IA rapidamente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 09/01/2026</span>
+          <a href="https://www.beautiful.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PresentationChartLineIcon className="w-5 h-5" /> Beautiful.ai</span>
+            <p className="text-zinc-700">Criador de apresentações com IA para decks profissionais e prontos para clientes em minutos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 11/01/2026</span>
           </a>
-          <a href="https://www.inceptionlabs.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Inception Labs</span>
-            <p className="text-zinc-700">Modelos de linguagem com foco em desempenho e custo-eficiência.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 09/01/2026</span>
+          <a href="https://flair.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Flair.ai</span>
+            <p className="text-zinc-700">Gerador de fotos de produtos para e-commerce com qualidade de estúdio em segundos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 11/01/2026</span>
           </a>
         </div>
       </section>

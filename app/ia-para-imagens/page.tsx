@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
   {
+    nome: "Flair.ai",
+    url: "https://flair.ai/",
+    descricao: "Gerador de fotos de produtos para e-commerce com qualidade de estúdio em segundos.",
+  },
+  {
     nome: "Whisk",
     url: "https://labs.google/fx/pt/tools/whisk",
     descricao: "IA do Google para geração e edição de imagens.",
@@ -128,7 +133,7 @@ const ferramentas = [
     url: "https://designbundles.net/illustrate-ai",
     descricao: "Transforma instruções em obras de arte de alta resolução e com licença comercial.",
   },
-   {
+  {
     nome: "No Background Coffee",
     url: "https://www.no-background.coffee/",
     descricao: "Ferramenta gratuita de IA que remove fundos de imagens de forma limpa.",

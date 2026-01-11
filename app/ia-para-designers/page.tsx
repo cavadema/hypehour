@@ -9,39 +9,49 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Designs.ai",
+    url: "https://designs.ai/",
+    descricao: "Gerador all-in-one de IA para logos, imagens, vídeos, vozes e posts sociais."
+  },
+  {
+    nome: "Uizard",
+    url: "https://uizard.io/",
+    descricao: "Design de UI para apps e sites com IA generativa, transforme ideias em conceitos instantaneamente."
+  },
+  {
     nome: "Lemonslice",
     url: "https://lemonslice.com/",
-    descricao: "Plataforma de IA para gerar conceitos visuais, variações e assets de design rapidamente." 
+    descricao: "Plataforma de IA para gerar conceitos visuais, variações e assets de design rapidamente."
   },
   {
     nome: "Dorlabs",
     url: "https://dorlabs.ai/",
-    descricao: "Gere conceitos visuais e variações de layout com IA para acelerar a criação." 
+    descricao: "Gere conceitos visuais e variações de layout com IA para acelerar a criação."
   },
   {
     nome: "Arcads",
     url: "https://www.arcads.ai/",
-    descricao: "Designer assistido por IA para explorar direções criativas rapidamente." 
+    descricao: "Designer assistido por IA para explorar direções criativas rapidamente."
   },
   {
     nome: "Creatify",
     url: "https://creatify.ai/",
-    descricao: "Comparativo destacando fluxos e vantagens do Creatify para design generativo." 
+    descricao: "Comparativo destacando fluxos e vantagens do Creatify para design generativo."
   },
   {
     nome: "Cognify",
     url: "https://www.getcognify.ai/",
-    descricao: "Ferramentas de IA para criar peças visuais e automações de design." 
+    descricao: "Ferramentas de IA para criar peças visuais e automações de design."
   },
   {
     nome: "Looka",
     url: "https://looka.com/",
-    descricao: "Criação de logos e identidades visuais rápidas com assistente de IA." 
+    descricao: "Criação de logos e identidades visuais rápidas com assistente de IA."
   },
   {
     nome: "Figroot (plugin)",
     url: "https://www.figma.com/pt-br/comunidade/plugin/1486825259782611959/figroot-free-figma-to-code-react-tailwind-css-html-css-plugin",
-    descricao: "Plugin Figma que converte layouts em código React/Tailwind/HTML/CSS usando IA." 
+    descricao: "Plugin Figma que converte layouts em código React/Tailwind/HTML/CSS usando IA."
   },
 ];
 
