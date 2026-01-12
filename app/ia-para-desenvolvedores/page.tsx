@@ -84,6 +84,31 @@ const ferramentas = [
     descricao: "Autocompletar privado que aprende com o seu código e funciona em múltiplas IDEs.",
   },
   {
+    nome: "Devin",
+    url: "https://devin.ai/",
+    descricao: "Engenheiro de software com IA que ajuda desenvolvedores a construir software melhor e mais rápido com agentes paralelos.",
+  },
+  {
+    nome: "Happy Engineering",
+    url: "https://happy.engineering/",
+    descricao: "Plataforma para melhorar produtividade e bem-estar de equipes de engenharia com IA.",
+  },
+  {
+    nome: "Sentry Seer",
+    url: "https://sentry.io/product/seer/",
+    descricao: "IA do Sentry para detectar, diagnosticar e resolver problemas de código automaticamente.",
+  },
+  {
+    nome: "Sentry AI Code Review",
+    url: "https://sentry.io/product/seer/ai-code-review/",
+    descricao: "Revisão de código com IA do Sentry para identificar bugs e vulnerabilidades antes do deploy.",
+  },
+  {
+    nome: "Kagent",
+    url: "https://kagent.dev/",
+    descricao: "Ferramenta de desenvolvimento para criar agentes de IA com integração de código e testes.",
+  },
+  {
     nome: "Google AntiGravity",
     url: "https://antigravity.google/",
     descricao: "Ferramenta da Google para impulsionar produtividade com IA e fluxos agentic.",

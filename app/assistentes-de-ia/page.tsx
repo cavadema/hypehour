@@ -8,6 +8,14 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Slashit", url: "https://www.slashit.app/", descricao: "Transforme textos comuns em atalhos inteligentes para economizar horas de digitação repetitiva." },
+  { nome: "Screenshots.AI", url: "https://screenshots.ai/", descricao: "Torne suas screenshots instantaneamente pesquisáveis com IA, organizadas automaticamente como bookmarks." },
+  { nome: "TwelveLabs", url: "https://www.twelvelabs.io/", descricao: "IA multimodal para buscar e entender vídeos em linguagem natural com compreensão de tempo e espaço." },
+  { nome: "NotebookLM", url: "https://notebooklm.google/", descricao: "Assistente de pesquisa do Google que analisa fontes, transforma complexidade em clareza e gera conteúdo." },
+  { nome: "Recallify", url: "https://recallify.ai/", descricao: "Companheiro de IA para memória, aprendizado e tarefas com gravação de voz e suporte para ADHD." },
+  { nome: "PingPrompt", url: "https://launch.pingprompt.dev/", descricao: "Ferramenta para criar e testar prompts de IA com validação e otimização automática." },
+  { nome: "HeyHelp", url: "https://www.heyhelp.ai/", descricao: "Assistente executivo de IA dentro do Gmail para rascunhar respostas e organizar emails automaticamente." },
+  { nome: "Tallyrus", url: "https://tallyrus.com/", descricao: "Assistente de IA para automação de tarefas e gerenciamento de produtividade pessoal." },
   { nome: "Saner.ai", url: "https://www.saner.ai/", descricao: "Assistente pessoal de IA para ADHD com gerenciamento de notas, emails e calendário." },
   { nome: "Guru", url: "https://www.getguru.com/pt", descricao: "IA de knowledge base + assistente inteligente para responder perguntas internas, onboarding e suporte a times." },
   { nome: "Connect Machine", url: "https://www.connectmachine.ai/", descricao: "Assistente de IA para conectar e automatizar workflows entre diferentes ferramentas e sistemas." },

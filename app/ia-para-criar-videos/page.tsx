@@ -94,6 +94,16 @@ const ferramentas = [
         descricao: "Plataforma tudo-em-um para gravar, editar e gerar vídeos com IA.",
     },
     {
+        nome: "TwelveLabs",
+        url: "https://www.twelvelabs.io/",
+        descricao: "IA multimodal para buscar e entender vídeos em linguagem natural com compreensão de tempo e espaço.",
+    },
+    {
+        nome: "Higgsfield",
+        url: "https://higgsfield.ai/",
+        descricao: "Plataforma de IA para criação e edição de vídeos com recursos avançados de geração.",
+    },
+    {
         nome: "Pika",
         url: "https://pika.art/login",
         descricao: "Plataforma focada em animação e geração de vídeo com estilos artísticos únicos.",
@@ -208,9 +218,9 @@ const ferramentas = [
         url: "https://www.morphstudio.com/",
         descricao: "Estúdio de criação de vídeos com IA para efeitos avançados.",
     },
-  { nome: "Luma Labs", url: "https://lumalabs.ai/", descricao: "Plataforma de IA para gerar vídeos de alta qualidade com Dream Machine e modelos de geração avançados." },
-        { nome: "Descript", url: "https://www.descript.com/", descricao: "Editor de vídeo e podcast com IA que permite editar pelo texto, gerar B-roll e aplicar layouts automaticamente." },
-        { nome: "Detail", url: "https://detail.co/", descricao: "Grave, edite e compartilhe com AI em um toque: Auto Edit, teleprompter e clips para social." },
+    { nome: "Luma Labs", url: "https://lumalabs.ai/", descricao: "Plataforma de IA para gerar vídeos de alta qualidade com Dream Machine e modelos de geração avançados." },
+    { nome: "Descript", url: "https://www.descript.com/", descricao: "Editor de vídeo e podcast com IA que permite editar pelo texto, gerar B-roll e aplicar layouts automaticamente." },
+    { nome: "Detail", url: "https://detail.co/", descricao: "Grave, edite e compartilhe com AI em um toque: Auto Edit, teleprompter e clips para social." },
 ];
 
 export const metadata = {

@@ -10,6 +10,11 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "ClickUp Brain Agents", url: "https://clickup.com/brain/agents", descricao: "Super agentes de IA que trabalham como humanos com habilidades infinitas, memória e colaboração em tempo real." },
+  { nome: "Dvina", url: "https://dvina.ai/", descricao: "Plataforma para criar e orquestrar agentes de IA com foco em automação empresarial." },
+  { nome: "Fiddler AI", url: "https://www.fiddler.ai/", descricao: "Plataforma de monitoramento e observabilidade para agentes de IA em produção." },
+  { nome: "Origon", url: "https://origon.ai/", descricao: "Framework para construir agentes de IA autônomos com capacidades de raciocínio avançadas." },
+  { nome: "Kagent", url: "https://kagent.dev/", descricao: "Ferramenta de desenvolvimento para criar agentes de IA com integração de código e testes." },
   { nome: "Graphbit", url: "https://www.graphbit.ai/", descricao: "Framework LLM empresarial open-source construído com Rust para velocidade, segurança e escala." },
   { nome: "Droxy", url: "https://www.droxy.ai/", descricao: "Crie agentes de IA personalizados sem código para automatizar atendimento e interações." },
   { nome: "Google Agent Builder", url: "https://cloud.google.com/products/agent-builder", descricao: "Plataforma do Google Cloud para criar, treinar e implantar agentes de IA com segurança e escalabilidade." },

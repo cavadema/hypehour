@@ -9,6 +9,31 @@ export const metadata = {
 
 const repositorios = [
   {
+    nome: "PyTorch ExecuTorch",
+    url: "https://github.com/pytorch/executorch",
+    descricao: "Framework PyTorch para IA on-device em mobile, embedded e edge com otimização de performance."
+  },
+  {
+    nome: "Google ADK-JS",
+    url: "https://github.com/google/adk-js",
+    descricao: "Toolkit TypeScript open-source do Google para construir, avaliar e deployar agentes de IA sofisticados."
+  },
+  {
+    nome: "Anthropic Skills",
+    url: "https://github.com/anthropics/skills",
+    descricao: "Repositório público da Anthropic com skills para agentes Claude Code, Claude.ai e API."
+  },
+  {
+    nome: "Claude-Mem",
+    url: "https://github.com/thedotmack/claude-mem",
+    descricao: "Plugin para Claude Code que captura sessões de coding, comprime com IA e injeta contexto relevante."
+  },
+  {
+    nome: "Awesome Agentic Prompting",
+    url: "https://gist.github.com/doobidoo/fa84d31c0819a9faace345ca227b268f",
+    descricao: "Coleção curada de prompts e técnicas para prompting agentic com exemplos práticos."
+  },
+  {
     nome: "Stirrup",
     url: "https://github.com/ArtificialAnalysis/Stirrup",
     descricao: "Framework leve e open-source para construção de agentes de IA com suporte a múltiplos LLMs."
