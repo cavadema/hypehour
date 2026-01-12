@@ -8,60 +8,65 @@ export const metadata = {
 };
 
 const repositorios = [
-  { 
-    nome: "distillKit", 
+  {
+    nome: "Stirrup",
+    url: "https://github.com/ArtificialAnalysis/Stirrup",
+    descricao: "Framework leve e open-source para construção de agentes de IA com suporte a múltiplos LLMs."
+  },
+  {
+    nome: "distillKit",
     url: "https://github.com/arcee-ai/distillKit",
-    descricao: "Conjunto de ferramentas para distilação e avaliação de modelos de IA de forma open-source." 
+    descricao: "Conjunto de ferramentas para distilação e avaliação de modelos de IA de forma open-source."
   },
-  { 
-    nome: "Agent Skills for Context Engineering", 
+  {
+    nome: "Agent Skills for Context Engineering",
     url: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
-    descricao: "Repositório para habilidades de agentes com engenharia de contexto avançada." 
+    descricao: "Repositório para habilidades de agentes com engenharia de contexto avançada."
   },
-  { 
-    nome: "OpenTinker", 
+  {
+    nome: "OpenTinker",
     url: "https://github.com/open-tinker/OpenTinker",
-    descricao: "Projeto open-source para automação e integração de ferramentas com IA." 
+    descricao: "Projeto open-source para automação e integração de ferramentas com IA."
   },
-  { 
-    nome: "SGI-Bench", 
+  {
+    nome: "SGI-Bench",
     url: "https://github.com/InternScience/SGI-Bench",
-    descricao: "Benchmark para avaliar modelos de IA em tarefas específicas." 
+    descricao: "Benchmark para avaliar modelos de IA em tarefas específicas."
   },
-  { 
-    nome: "NitroGen", 
+  {
+    nome: "NitroGen",
     url: "https://github.com/MineDojo/NitroGen",
-    descricao: "Ferramenta para geração de conteúdo com IA usando modelos avançados." 
+    descricao: "Ferramenta para geração de conteúdo com IA usando modelos avançados."
   },
-  { 
-    nome: "Awesome Claude Skills", 
+  {
+    nome: "Awesome Claude Skills",
     url: "https://github.com/ComposioHQ/awesome-claude-skills",
-    descricao: "Coleção curada de skills para Claude com integração de APIs e ferramentas." 
+    descricao: "Coleção curada de skills para Claude com integração de APIs e ferramentas."
   },
-  { 
-    nome: "Rogue", 
+  {
+    nome: "Rogue",
     url: "https://github.com/qualifire-dev/rogue",
-    descricao: "Framework para desenvolvimento de agentes de IA autônomos." 
+    descricao: "Framework para desenvolvimento de agentes de IA autônomos."
   },
-  { 
-    nome: "NVIDIA NeMo Gym", 
+  {
+    nome: "NVIDIA NeMo Gym",
     url: "https://github.com/NVIDIA-NeMo/Gym",
-    descricao: "Plataforma NVIDIA para treinamento e avaliação de modelos de linguagem." 
+    descricao: "Plataforma NVIDIA para treinamento e avaliação de modelos de linguagem."
   },
-  { 
-    nome: "NVIDIA NeMo RL", 
+  {
+    nome: "NVIDIA NeMo RL",
     url: "https://github.com/NVIDIA-NeMo/RL",
-    descricao: "Ferramentas NVIDIA para aprendizado por reforço com modelos de IA." 
+    descricao: "Ferramentas NVIDIA para aprendizado por reforço com modelos de IA."
   },
-  { 
-    nome: "Inteligência Artificial - IA", 
+  {
+    nome: "Inteligência Artificial - IA",
     url: "https://github.com/Carlos-CGS/InteligenciaArtificial-IA",
-    descricao: "Repositório educacional com projetos e exemplos de inteligência artificial." 
+    descricao: "Repositório educacional com projetos e exemplos de inteligência artificial."
   },
-  { 
-    nome: "Experimentos de IA", 
+  {
+    nome: "Experimentos de IA",
     url: "https://github.com/idcesares/Experimentos-de-IA",
-    descricao: "Coleção de experimentos práticos e desafios com modelos de IA." 
+    descricao: "Coleção de experimentos práticos e desafios com modelos de IA."
   },
 ];
 

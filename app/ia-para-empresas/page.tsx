@@ -3,6 +3,7 @@ import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
+  { nome: "Zazos", url: "https://www.zazos.com", descricao: "Sistema operacional inteligente que revoluciona a forma como você interage com tecnologia." },
   { nome: "Autumn", url: "https://useautumn.com/", descricao: "Configure planos de preços e assinaturas Stripe 10x mais rápido para startups de IA." },
   { nome: "Vanta", url: "https://www.vanta.com/", descricao: "Focada em compliance, segurança e certificações (SOC 2, ISO, etc.) para empresas com automações e integrações." },
   { nome: "Incogni", url: "https://incogni.com/", descricao: "IA para privacidade de dados, remoção de dados pessoais e proteção digital, muito usada por profissionais e empresas." },

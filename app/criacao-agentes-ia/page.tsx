@@ -10,6 +10,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Graphbit", url: "https://www.graphbit.ai/", descricao: "Framework LLM empresarial open-source construído com Rust para velocidade, segurança e escala." },
   { nome: "Droxy", url: "https://www.droxy.ai/", descricao: "Crie agentes de IA personalizados sem código para automatizar atendimento e interações." },
   { nome: "Google Agent Builder", url: "https://cloud.google.com/products/agent-builder", descricao: "Plataforma do Google Cloud para criar, treinar e implantar agentes de IA com segurança e escalabilidade." },
   { nome: "Shitty Coding Agent", url: "https://shittycodingagent.ai/", descricao: "Agente de IA que gera código para testes e automações, podendo ser orquestrado em fluxos." },

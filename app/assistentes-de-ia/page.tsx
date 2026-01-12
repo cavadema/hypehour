@@ -8,6 +8,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Saner.ai", url: "https://www.saner.ai/", descricao: "Assistente pessoal de IA para ADHD com gerenciamento de notas, emails e calendário." },
   { nome: "Guru", url: "https://www.getguru.com/pt", descricao: "IA de knowledge base + assistente inteligente para responder perguntas internas, onboarding e suporte a times." },
   { nome: "Connect Machine", url: "https://www.connectmachine.ai/", descricao: "Assistente de IA para conectar e automatizar workflows entre diferentes ferramentas e sistemas." },
   { nome: "Remio", url: "https://www.remio.ai/", descricao: "Assistente de IA para organizar e automatizar tarefas pessoais e de trabalho." },
@@ -23,11 +24,11 @@ const ferramentas = [
   { nome: "Dex", url: "https://www.joindex.com/", descricao: "Transforma seu navegador Chrome em um único espaço de trabalho com IA que memoriza suas abas, tarefas e contexto, permitindo que você alterne entre pesquisa, planejamento e execução." },
   { nome: "Glady", url: "https://www.gladly.ai/hp1/", descricao: "Transforma o atendimento ao cliente em suporte inteligente, automatizado e personalizado em todos os canais." },
   { nome: "Darwin", url: "https://www.getdarwin.ai/pt", descricao: "Criar funcionários-IA que respondem clientes em canais como WhatsApp, Instagram e ligações, qualificam leads, atualizam CRMs, etc." },
-  { nome: "Rovo Atlasian", url: "https://www.atlassian.com/software/rovo", descricao: "Conecta equipes, conhecimento e ferramentas para que você possa agir com mais rapidez e trabalhar de forma mais inteligente."},
-  { nome: "WorkTrace", url: "https://www.worktrace.ai/", descricao: "IA que monitora produtividade e atividades para insights inteligentes em equipes."},
-  { nome: "AutoGLM", url: "https://xiao9905.github.io/AutoGLM/blog.html", descricao: "Framework open-source para treinar e automatizar modelos de linguagem com agentes."},
-  { nome: "Odies", url: "https://apps.apple.com/us/app/odies-ai-companions/id6754986881?mt=12", descricao: "App de companheiros virtuais com IA para conversas e interações personalizadas."},
-  { nome: "Mino", url: "https://mino.ai/", descricao: "IA que transforma texto em vídeos realistas com avatares e narração automática."},
+  { nome: "Rovo Atlasian", url: "https://www.atlassian.com/software/rovo", descricao: "Conecta equipes, conhecimento e ferramentas para que você possa agir com mais rapidez e trabalhar de forma mais inteligente." },
+  { nome: "WorkTrace", url: "https://www.worktrace.ai/", descricao: "IA que monitora produtividade e atividades para insights inteligentes em equipes." },
+  { nome: "AutoGLM", url: "https://xiao9905.github.io/AutoGLM/blog.html", descricao: "Framework open-source para treinar e automatizar modelos de linguagem com agentes." },
+  { nome: "Odies", url: "https://apps.apple.com/us/app/odies-ai-companions/id6754986881?mt=12", descricao: "App de companheiros virtuais com IA para conversas e interações personalizadas." },
+  { nome: "Mino", url: "https://mino.ai/", descricao: "IA que transforma texto em vídeos realistas com avatares e narração automática." },
   { nome: "Zoom AI Assistant", url: "https://www.zoom.com/pt/products/ai-assistant/", descricao: "Assistente de IA do Zoom para reuniões, tarefas e resumos." },
   { nome: "Google CC", url: "https://labs.google/cc", descricao: "Experimentos do Google Labs com companheiros/assistentes baseados em IA." },
   { nome: "Klarna Agentic Protocol", url: "https://www.klarna.com/international/press/klarna-launches-agentic-product-protocol-the-open-standard-that-makes-100m/", descricao: "Padrão aberto da Klarna para agentes interoperarem com produtos." },

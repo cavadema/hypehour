@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Library.fm",
+        url: "https://library.fm/",
+        descricao: "Crie histórias em áudio personalizadas para crianças com IA, narração expressiva e efeitos sonoros.",
+    },
+    {
         nome: "Suno",
         url: "https://suno.com/home",
         descricao: "Crie músicas completas com vocais e instrumentais usando IA.",
