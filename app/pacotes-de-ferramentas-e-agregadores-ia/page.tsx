@@ -4,7 +4,7 @@ import Link from "next/link";
 const ferramentas = [
     {
         nome: "Adapta",
-        url: "https://adapta.org/",
+        url: "/ferramentas/adapta",
         descricao: "Plataforma que conecta ferramentas de IA para otimizar fluxos de trabalho.",
     },
     {
