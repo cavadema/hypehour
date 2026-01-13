@@ -3,6 +3,16 @@ import Link from "next/link";
 
 const modelos = [
   {
+    nome: "NotebookLM",
+    url: "https://notebooklm.google/",
+    descricao: "Assistente de pesquisa do Google que transforma documentos em insights e áudio.",
+  },
+  {
+    nome: "Zhipu AI",
+    url: "https://open.bigmodel.cn/",
+    descricao: "Plataforma aberta de modelos de linguagem (GLM) da Zhipu AI para desenvolvimento e API.",
+  },
+  {
     nome: "Inception Labs",
     url: "https://www.inceptionlabs.ai/",
     descricao: "Modelos de linguagem da Inception Labs focados em desempenho e custo-eficiência.",

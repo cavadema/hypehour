@@ -3,6 +3,7 @@ import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
+  { nome: "HeyHelp", url: "https://www.heyhelp.ai/", descricao: "Assistente de IA no Gmail para rascunhar respostas e organizar emails para empresas." },
   { nome: "Zazos", url: "https://www.zazos.com", descricao: "Sistema operacional inteligente que revoluciona a forma como você interage com tecnologia." },
   { nome: "Autumn", url: "https://useautumn.com/", descricao: "Configure planos de preços e assinaturas Stripe 10x mais rápido para startups de IA." },
   { nome: "Vanta", url: "https://www.vanta.com/", descricao: "Focada em compliance, segurança e certificações (SOC 2, ISO, etc.) para empresas com automações e integrações." },

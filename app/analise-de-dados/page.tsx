@@ -10,6 +10,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Compass", url: "https://compass.dagster.io/", descricao: "Assistente de dados nativo do Slack para insights e visualizações instantâneas." },
   { nome: "PostHog", url: "https://posthog.com/", descricao: "Plataforma de product analytics com eventos, funis, retenção e comportamento do usuário com recursos de IA." },
   { nome: "A2GO", url: "https://a2go.ai/", descricao: "Plataforma de IA para análise de dados e automação de processos com insights inteligentes." },
   { nome: "Findly", url: "https://www.findly.ai/pt", descricao: "Assistente de IA para análise de dados que responde perguntas em linguagem natural sobre seus dados." },

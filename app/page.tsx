@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon, MicrophoneIcon, BuildingStorefrontIcon, CogIcon, ArrowPathIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon, MicrophoneIcon, BuildingStorefrontIcon, CogIcon, ArrowPathIcon, ChartBarIcon } from "@heroicons/react/24/solid";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -43,35 +43,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://www.zazos.com" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Zazos</span>
-            <p className="text-zinc-700">Sistema operacional inteligente que revoluciona a forma como você interage com tecnologia.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 12/01/2026</span>
+          <a href="https://compass.dagster.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Compass</span>
+            <p className="text-zinc-700">Assistente de dados nativo do Slack para insights e visualizações instantâneas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 13/01/2026</span>
           </a>
-          <a href="https://github.com/ArtificialAnalysis/Stirrup" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Stirrup</span>
-            <p className="text-zinc-700">Framework leve e open-source para construção de agentes de IA com suporte a múltiplos LLMs.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 12/01/2026</span>
+          <a href="https://www.heyhelp.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> HeyHelp</span>
+            <p className="text-zinc-700">Assistente de IA no Gmail para rascunhar respostas e organizar emails executivos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 13/01/2026</span>
           </a>
-          <a href="https://news.smol.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><EnvelopeIcon className="w-5 h-5" /> AINews</span>
-            <p className="text-zinc-700">Resumos diários das principais notícias de IA para engenheiros e desenvolvedores.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 12/01/2026</span>
+          <a href="https://www.koahlabs.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ChartBarIcon className="w-5 h-5" /> Koah</span>
+            <p className="text-zinc-700">Monetize apps de IA com anúncios nativos contextuais via SDK.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 13/01/2026</span>
           </a>
-          <a href="https://www.saner.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Saner.ai</span>
-            <p className="text-zinc-700">Assistente pessoal de IA para ADHD com gerenciamento de notas, emails e calendário.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 12/01/2026</span>
+          <a href="https://hypenest.xyz/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> HypeNest</span>
+            <p className="text-zinc-700">Repurposing de vídeo com IA para YouTube e TikTok com agendamento automático.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 13/01/2026</span>
           </a>
-          <a href="https://library.fm/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MusicalNoteIcon className="w-5 h-5" /> Library.fm</span>
-            <p className="text-zinc-700">Crie histórias em áudio personalizadas para crianças com IA, narração expressiva e efeitos sonoros.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 12/01/2026</span>
+          <a href="https://notebooklm.google/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> NotebookLM</span>
+            <p className="text-zinc-700">Assistente de pesquisa do Google que transforma documentos em insights e áudio.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 13/01/2026</span>
           </a>
-          <a href="https://www.graphbit.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Graphbit</span>
-            <p className="text-zinc-700">Framework LLM empresarial open-source construído com Rust para velocidade, segurança e escala.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 12/01/2026</span>
+          <a href="https://open.bigmodel.cn/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Zhipu AI</span>
+            <p className="text-zinc-700">Plataforma aberta de modelos de linguagem (GLM) para desenvolvimento e API.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 13/01/2026</span>
           </a>
         </div>
       </section>

@@ -4,6 +4,16 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Koah",
+        url: "https://www.koahlabs.com/",
+        descricao: "Monetize apps de IA com anúncios nativos contextuais via SDK.",
+    },
+    {
+        nome: "HypeNest",
+        url: "https://hypenest.xyz/",
+        descricao: "Repurposing de vídeo com IA para YouTube e TikTok com agendamento automático.",
+    },
+    {
         nome: "Korgiboard",
         url: "https://www.korgiboard.com/",
         descricao: "Ferramenta para planejamento, organização e execução de conteúdo e marketing, especialmente para social e conteúdo.",
