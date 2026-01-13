@@ -11,6 +11,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Vertical Studio", url: "https://www.verticalstudio.ai/", descricao: "Plataforma no-code para customizar, afinar e implantar modelos de IA descentralizados." },
+  { nome: "Compyle", url: "https://www.compyle.ai/", descricao: "Agente de codificação que planeja e pergunta antes de construir para evitar erros." },
   { nome: "Uimagic", url: "https://www.uimagic.io/", descricao: "Crie sites personalizados e prontos para lançamento em menos de 5 minutos com IA." },
   { nome: "YouTube Playables Builder", url: "https://www.youtube.com/playablesbuilder/", descricao: "Ferramenta do YouTube para criar experiências jogáveis e fluxos interativos que podem ser embutidos." },
   { nome: "Figroot", url: "https://www.figma.com/pt-br/comunidade/plugin/1486825259782611959/figroot-free-figma-to-code-react-tailwind-css-html-css-plugin", descricao: "Plugin gratuito do Figma que converte designs em código React, Tailwind CSS e HTML/CSS com IA." },

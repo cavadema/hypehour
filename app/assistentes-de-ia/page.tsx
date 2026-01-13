@@ -8,6 +8,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Refinder", url: "https://refinder.ai/", descricao: "Hub de trabalho com IA para Slack e Google Chat que automatiza tarefas e gerencia apps." },
+  { nome: "AI Context Flow", url: "https://chromewebstore.google.com/detail/ai-context-flow-shared-me/cfegfckldnmbdnimjgfamhjnmjpcmgnf", descricao: "Extensão para memória compartilhada e prompts aprimorados no ChatGPT, Claude e outros." },
   { nome: "Slashit", url: "https://www.slashit.app/", descricao: "Transforme textos comuns em atalhos inteligentes para economizar horas de digitação repetitiva." },
   { nome: "Screenshots.AI", url: "https://screenshots.ai/", descricao: "Torne suas screenshots instantaneamente pesquisáveis com IA, organizadas automaticamente como bookmarks." },
   { nome: "TwelveLabs", url: "https://www.twelvelabs.io/", descricao: "IA multimodal para buscar e entender vídeos em linguagem natural com compreensão de tempo e espaço." },

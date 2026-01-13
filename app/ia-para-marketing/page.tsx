@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Semrush One",
+        url: "https://www.semrush.com/lp/semrush-one/en/",
+        descricao: "Solução unificada para SEO e visibilidade em busca IA (ChatGPT, Perplexity, etc).",
+    },
+    {
         nome: "Koah",
         url: "https://www.koahlabs.com/",
         descricao: "Monetize apps de IA com anúncios nativos contextuais via SDK.",

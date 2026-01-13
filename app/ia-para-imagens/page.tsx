@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
   {
+    nome: "Memingo",
+    url: "https://memingo.app/",
+    descricao: "Gerador de memes com IA gratuito, cria legendas virais e imagens engraçadas instantaneamente.",
+  },
+  {
     nome: "Flair.ai",
     url: "https://flair.ai/",
     descricao: "Gerador de fotos de produtos para e-commerce com qualidade de estúdio em segundos.",

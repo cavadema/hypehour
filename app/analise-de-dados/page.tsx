@@ -10,6 +10,10 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Livedocs", url: "https://livedocs.com/", descricao: "Copiloto de dados com IA para gerar gráficos e insights de CSVs e bancos de dados automaticamente." },
+  { nome: "CData", url: "https://www.cdata.com/", descricao: "Conectividade de dados em tempo real para alimentar IA e analytics a partir de centenas de fontes." },
+  { nome: "RizzCalc", url: "https://rizzcalc.com/", descricao: "Modelagem financeira e análise de dados com IA diretamente no Google Sheets." },
+  { nome: "Retool", url: "https://retool.com/", descricao: "Construa ferramentas internas e workflows operacionais com componentes nativos de IA." },
   { nome: "Compass", url: "https://compass.dagster.io/", descricao: "Assistente de dados nativo do Slack para insights e visualizações instantâneas." },
   { nome: "PostHog", url: "https://posthog.com/", descricao: "Plataforma de product analytics com eventos, funis, retenção e comportamento do usuário com recursos de IA." },
   { nome: "A2GO", url: "https://a2go.ai/", descricao: "Plataforma de IA para análise de dados e automação de processos com insights inteligentes." },

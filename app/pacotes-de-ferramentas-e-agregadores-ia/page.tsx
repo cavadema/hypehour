@@ -3,6 +3,11 @@ import Link from "next/link";
 
 const ferramentas = [
     {
+        nome: "Snippets AI",
+        url: "https://www.getsnippets.ai/",
+        descricao: "Gerenciador de prompts de IA para equipes, compatível com ChatGPT, Claude e mais.",
+    },
+    {
         nome: "Adapta",
         url: "/ferramentas/adapta",
         descricao: "Plataforma que conecta ferramentas de IA para otimizar fluxos de trabalho.",

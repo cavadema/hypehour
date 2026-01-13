@@ -12,6 +12,21 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "tldraw",
+    url: "https://tldraw.dev/",
+    descricao: "SDK de canvas infinito open source para React, ideal para construir interfaces de IA generativa.",
+  },
+  {
+    nome: "Lection",
+    url: "https://www.lection.app/",
+    descricao: "Web scraper com IA que roda no navegador e se adapta a mudanças no layout das páginas.",
+  },
+  {
+    nome: "Moondream",
+    url: "https://moondream.ai/",
+    descricao: "Modelo de visão computacional open-source leve e eficiente para rodar em qualquer lugar.",
+  },
+  {
     nome: "Kodus",
     url: "https://kodus.io/",
     descricao: "Plataforma de IA para desenvolvedores criarem pipelines e agentes com foco em qualidade de código.",

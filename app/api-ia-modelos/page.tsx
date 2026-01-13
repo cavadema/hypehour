@@ -3,6 +3,11 @@ import Link from "next/link";
 
 const apis = [
   {
+    nome: "Amarsia",
+    url: "https://www.amarsia.com/",
+    descricao: "Plataforma para construir, testar e implantar APIs de IA prontas para produção em minutos.",
+  },
+  {
     nome: "OpenTinker",
     url: "https://open-tinker.github.io/opentinker-page/",
     descricao: "Coleção open-source de APIs e ferramentas para orquestrar agentes e fluxos com IA.",

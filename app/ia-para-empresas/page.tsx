@@ -3,6 +3,8 @@ import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
+  { nome: "Sprinto", url: "https://sprinto.com/", descricao: "Automação de segurança e conformidade (SOC 2, ISO 27001) para empresas escaláveis." },
+  { nome: "Skarbe", url: "https://skarbe.com/", descricao: "Assistente de vendas IA que captura interações e organiza o pipeline automaticamente." },
   { nome: "HeyHelp", url: "https://www.heyhelp.ai/", descricao: "Assistente de IA no Gmail para rascunhar respostas e organizar emails para empresas." },
   { nome: "Zazos", url: "https://www.zazos.com", descricao: "Sistema operacional inteligente que revoluciona a forma como você interage com tecnologia." },
   { nome: "Autumn", url: "https://useautumn.com/", descricao: "Configure planos de preços e assinaturas Stripe 10x mais rápido para startups de IA." },

@@ -9,6 +9,11 @@ export const metadata = {
 
 const repositorios = [
   {
+    nome: "NitroGen",
+    url: "https://github.com/MineDojo/NitroGen",
+    descricao: "Modelo de fundação para agentes de jogos generalistas, capaz de aprender em múltiplos ambientes."
+  },
+  {
     nome: "PyTorch ExecuTorch",
     url: "https://github.com/pytorch/executorch",
     descricao: "Framework PyTorch para IA on-device em mobile, embedded e edge com otimização de performance."

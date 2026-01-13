@@ -3,6 +3,11 @@ import Link from "next/link";
 
 const navegadores = [
   {
+    nome: "NeoBrowser",
+    url: "https://neobrowser.ai/",
+    descricao: "O primeiro navegador nativo de IA, seguro e focado em produtividade com navegação inteligente.",
+  },
+  {
     nome: "ChatGPT Atlas",
     url: "https://chatgpt.com/pt-BR/atlas/",
     descricao: "Navegador da OpenAI com integração direta ao ChatGPT para pesquisas e copiloto em qualquer aba.",

@@ -4,6 +4,7 @@ import FAQSection from "./FAQSection";
 import ExpandableContent from "./ExpandableContent";
 
 const cursos = [
+  { nome: "Learn Prompting", url: "https://learnprompting.org/", descricao: "O curso mais abrangente de engenharia de prompt, do básico ao avançado." },
   { nome: "Anthropic Academy", url: "https://anthropic.skilljar.com/", descricao: "Cursos oficiais da Anthropic sobre IA, Claude e técnicas de prompt engineering." },
   { nome: "Escola Virtual Gov.br", url: "https://www.escolavirtual.gov.br/curso/861", descricao: "Curso gratuito de IA oferecido pelo Governo Federal." },
   { nome: "Inteligência Artificial e o Novo Contexto da Cultura Digital", url: "https://www.ev.org.br/cursos/inteligencia-artificial-e-o-novo-contexto-da-cultura-digital", descricao: "Curso sobre IA e cultura digital oferecido pela Fundação Getúlio Vargas." },
