@@ -43,35 +43,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://compass.dagster.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Compass</span>
-            <p className="text-zinc-700">Assistente de dados nativo do Slack para insights e visualizações instantâneas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 13/01/2026</span>
+          <a href="https://zaia.app/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Zaia</span>
+            <p className="text-zinc-700">Funcionários de IA para atendimento e vendas no WhatsApp 24/7.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 14/01/2026</span>
           </a>
-          <a href="https://www.heyhelp.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> HeyHelp</span>
-            <p className="text-zinc-700">Assistente de IA no Gmail para rascunhar respostas e organizar emails executivos.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 13/01/2026</span>
+          <a href="https://www.myaudiojournal.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MicrophoneIcon className="w-5 h-5" /> My Audio Journal</span>
+            <p className="text-zinc-700">Diário de áudio que transcreve e analisa seus pensamentos com IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 14/01/2026</span>
           </a>
-          <a href="https://www.koahlabs.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ChartBarIcon className="w-5 h-5" /> Koah</span>
-            <p className="text-zinc-700">Monetize apps de IA com anúncios nativos contextuais via SDK.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 13/01/2026</span>
+          <a href="https://cribl.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Cribl</span>
+            <p className="text-zinc-700">Engine de dados para processar e rotear logs e métricas de TI com inteligência.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 14/01/2026</span>
           </a>
-          <a href="https://hypenest.xyz/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> HypeNest</span>
-            <p className="text-zinc-700">Repurposing de vídeo com IA para YouTube e TikTok com agendamento automático.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 13/01/2026</span>
+          <a href="https://signoz.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> SigNoz</span>
+            <p className="text-zinc-700">Observabilidade open-source completa (APM, logs, traces) em uma única plataforma.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 14/01/2026</span>
           </a>
-          <a href="https://notebooklm.google/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> NotebookLM</span>
-            <p className="text-zinc-700">Assistente de pesquisa do Google que transforma documentos em insights e áudio.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 13/01/2026</span>
+          <a href="https://www.keak.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Keak</span>
+            <p className="text-zinc-700">Plataforma de teste A/B com IA que cria e testa variantes de sites automaticamente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 14/01/2026</span>
           </a>
-          <a href="https://open.bigmodel.cn/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Zhipu AI</span>
-            <p className="text-zinc-700">Plataforma aberta de modelos de linguagem (GLM) para desenvolvimento e API.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 13/01/2026</span>
+          <a href="https://browser-use.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Browser Use</span>
+            <p className="text-zinc-700">Ecossistema para agentes de IA controlarem navegadores e automatizarem a web.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 14/01/2026</span>
           </a>
         </div>
       </section>

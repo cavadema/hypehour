@@ -10,6 +10,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Browser Use", url: "https://browser-use.com/", descricao: "Biblioteca e ecossistema para permitir que agentes de IA controlem o navegador e automatizem a web." },
   { nome: "Notion Personal Agent", url: "https://www.notion.com/pt/help/guides/get-started-with-your-personal-agent-in-notion", descricao: "Agente oficial do Notion para automatizar tarefas complexas e gestão de bancos de dados." },
   { nome: "Ogment", url: "https://www.ogment.ai/", descricao: "Plataforma empresarial para governança e deploy de servidores MCP (Model Context Protocol)." },
   { nome: "LiveKit", url: "https://livekit.io/", descricao: "Infraestrutura de voz e vídeo em tempo real para construir agentes de IA multimodais." },

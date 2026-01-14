@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Keak",
+        url: "https://www.keak.com/",
+        descricao: "Plataforma de teste A/B alimentada por IA que gera e lança variantes de sites automaticamente.",
+    },
+    {
         nome: "Semrush One",
         url: "https://www.semrush.com/lp/semrush-one/en/",
         descricao: "Solução unificada para SEO e visibilidade em busca IA (ChatGPT, Perplexity, etc).",

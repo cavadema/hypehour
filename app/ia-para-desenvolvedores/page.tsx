@@ -12,6 +12,16 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Cribl",
+    url: "https://cribl.io/",
+    descricao: "Data engine para TI e Segurança que permite processar, rotear e analisar logs e métricas em escala.",
+  },
+  {
+    nome: "SigNoz",
+    url: "https://signoz.io/",
+    descricao: "Alternativa open-source ao Datadog para observabilidade full-stack (APM, logs, traces).",
+  },
+  {
     nome: "tldraw",
     url: "https://tldraw.dev/",
     descricao: "SDK de canvas infinito open source para React, ideal para construir interfaces de IA generativa.",

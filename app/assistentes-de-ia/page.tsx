@@ -8,6 +8,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Zaia", url: "https://zaia.app/", descricao: "Crie funcionários de IA para atendimento, suporte e vendas no WhatsApp em minutos." },
+  { nome: "My Audio Journal", url: "https://www.myaudiojournal.com/", descricao: "Diário de áudio pessoal que grava, transcreve e analisa suas entradas para autoconhecimento." },
   { nome: "Refinder", url: "https://refinder.ai/", descricao: "Hub de trabalho com IA para Slack e Google Chat que automatiza tarefas e gerencia apps." },
   { nome: "AI Context Flow", url: "https://chromewebstore.google.com/detail/ai-context-flow-shared-me/cfegfckldnmbdnimjgfamhjnmjpcmgnf", descricao: "Extensão para memória compartilhada e prompts aprimorados no ChatGPT, Claude e outros." },
   { nome: "Slashit", url: "https://www.slashit.app/", descricao: "Transforme textos comuns em atalhos inteligentes para economizar horas de digitação repetitiva." },
