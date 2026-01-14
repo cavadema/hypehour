@@ -3,6 +3,7 @@ import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
+  { nome: "Optivault", url: "https://optivault.co/", descricao: "Consultor financeiro pessoal com IA. Automatize economias, rastreie patrimônio e receba conselhos financeiros." },
   { nome: "Public", url: "https://public.com/", descricao: "Plataforma de investimentos com IA para análise de mercado e recomendações personalizadas." },
   { nome: "Trade Ideas", url: "https://www.trade-ideas.com/", descricao: "IA para identificar oportunidades de trading e análise preditiva de ações." },
   { nome: "TrendSpider", url: "https://trendspider.com/", descricao: "Análise técnica automatizada com IA para traders e investidores." },

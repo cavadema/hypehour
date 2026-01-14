@@ -8,11 +8,15 @@ export const metadata = {
 };
 
 const repositorios = [
-  {
-    nome: "NitroGen",
-    url: "https://github.com/MineDojo/NitroGen",
-    descricao: "Modelo de fundação para agentes de jogos generalistas, capaz de aprender em múltiplos ambientes."
-  },
+  { nome: "HY-Motion-1.0", url: "https://github.com/Tencent-Hunyuan/HY-Motion-1.0", descricao: "Modelos de geração de movimento humano 3D a partir de texto (Tencent), baseados em DiT e Flow Matching." },
+  { nome: "MAI-UI", url: "https://github.com/Tongyi-MAI/MAI-UI", descricao: "Agentes de GUI focados no mundo real da Tongyi, permitindo controle de interface e navegação móvel via IA." },
+  { nome: "AbleMouse", url: "https://github.com/aradzhabov/AbleMouse", descricao: "Tecnologia assistiva open-source que substitui o mouse, controlada por movimentos faciais ou oculares." },
+  { nome: "Test-Time Training", url: "https://github.com/test-time-training/", descricao: "Coleção de implementações TTT, onde modelos aprendem e se adaptam com cada amostra de teste." },
+  { nome: "LMCache", url: "https://github.com/LMCache/LMCache", descricao: "Cache KV compartilhado e eficiente para LLMs, reduzindo latência e custo em inferências de contexto longo." },
+  { nome: "Reachy Mini", url: "https://github.com/pollen-robotics/reachy_mini", descricao: "Robô desktop open-source e expressivo da Pollen Robotics, projetado para interação humano-robô e prototipagem." },
+  { nome: "Next AI Draw.io", url: "https://github.com/DayuanJiang/next-ai-draw-io", descricao: "Integração de IA com Draw.io para criar, editar e otimizar diagramas usando comandos de linguagem natural." },
+  { nome: "nano-vLLM", url: "https://github.com/GeeeekExplorer/nano-vllm", descricao: "Implementação leve e didática do vLLM, focada em inferência offline rápida e código legível." },
+  { nome: "Sim Studio", url: "https://github.com/simstudioai/sim", descricao: "Visual workflow builder open-source para criar e orquestrar agentes de IA com interface drag-and-drop." },
   {
     nome: "PyTorch ExecuTorch",
     url: "https://github.com/pytorch/executorch",

@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "URLtoAny",
+        url: "https://www.urltoany.com/",
+        descricao: "Conversor universal de URLs para Markdown, PDF, imagem e resumo com IA.",
+    },
+    {
         nome: "Keak",
         url: "https://www.keak.com/",
         descricao: "Plataforma de teste A/B alimentada por IA que gera e lança variantes de sites automaticamente.",

@@ -11,6 +11,11 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Grafana", url: "https://grafana.com/", descricao: "Plataforma líder para observabilidade e monitoramento. Visualize métricas, logs e traces de qualquer fonte com dashboards personalizáveis." },
+  { nome: "Splunk", url: "https://www.splunk.com/", descricao: "Plataforma de dados para segurança e observabilidade. Investigue, monitore e analise dados em tempo real e escala." },
+  { nome: "fal.ai", url: "https://fal.ai/", descricao: "Infraestrutura serverless otimizada para modelos de mídia generativa (vídeo, imagem, áudio) com inferência ultra-rápida." },
+  { nome: "marimo", url: "https://marimo.io/", descricao: "Notebook reativo para Python, open-source e reprodutível. Alternativa moderna ao Jupyter que roda como app." },
+  { nome: "DeepRails", url: "https://www.deeprails.com/", descricao: "API para detectar e corrigir alucinações de IA em tempo real, garantindo segurança para LLMs empresariais." },
   {
     nome: "Cribl",
     url: "https://cribl.io/",

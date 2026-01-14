@@ -4,6 +4,16 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
   {
+    nome: "Dzine",
+    url: "https://www.dzine.ai/",
+    descricao: "Ferramenta de design e edição de imagem/vídeo com IA para criadores, com recursos de generative fill e face swap.",
+  },
+  {
+    nome: "Vectr",
+    url: "https://vectr.com/",
+    descricao: "Editor de gráficos vetoriais gratuito, agora com recursos de IA para gerar e modificar vetores.",
+  },
+  {
     nome: "Memingo",
     url: "https://memingo.app/",
     descricao: "Gerador de memes com IA gratuito, cria legendas virais e imagens engraçadas instantaneamente.",

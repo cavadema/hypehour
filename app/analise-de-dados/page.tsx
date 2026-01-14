@@ -10,6 +10,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "marimo", url: "https://marimo.io/", descricao: "Notebook reativo para Python, open-source e reprodutível. Alternativa moderna ao Jupyter que roda como app." },
   { nome: "Livedocs", url: "https://livedocs.com/", descricao: "Copiloto de dados com IA para gerar gráficos e insights de CSVs e bancos de dados automaticamente." },
   { nome: "CData", url: "https://www.cdata.com/", descricao: "Conectividade de dados em tempo real para alimentar IA e analytics a partir de centenas de fontes." },
   { nome: "RizzCalc", url: "https://rizzcalc.com/", descricao: "Modelagem financeira e análise de dados com IA diretamente no Google Sheets." },

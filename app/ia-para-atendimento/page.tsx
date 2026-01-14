@@ -9,6 +9,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Bland AI", url: "https://www.bland.ai/", descricao: "Infraestrutura para chamadas telefônicas automatizadas por IA que soam humanas. Ideal para vendas e suporte." },
   { nome: "Nauta", url: "https://www.getnauta.com/", descricao: "IA focada em atendimento ao cliente, automação de respostas e suporte, geralmente via chat ou canais digitais." },
   { nome: "Chatbase", url: "https://www.chatbase.co/", descricao: "Crie chatbots de IA treinados com seus dados para atendimento automatizado 24/7." },
   { nome: "Expertise.ai", url: "https://www.expertise.ai/pt", descricao: "Plataforma de IA para otimizar atendimento ao cliente com automação inteligente e insights." },

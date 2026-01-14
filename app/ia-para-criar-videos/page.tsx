@@ -4,6 +4,16 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Kapwing",
+        url: "https://www.kapwing.com/",
+        descricao: "Editor de vídeo online colaborativo com ferramentas de IA para legendas, cortes e melhoria de áudio.",
+    },
+    {
+        nome: "Dzine",
+        url: "https://www.dzine.ai/",
+        descricao: "Ferramenta de design e edição de imagem/vídeo com IA para criadores, com recursos de generative fill e face swap.",
+    },
+    {
         nome: "Tavus",
         url: "https://www.tavus.io/",
         descricao: "IA para geração de vídeos personalizados em escala, muito usada em vendas, marketing e onboarding.",

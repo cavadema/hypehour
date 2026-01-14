@@ -11,6 +11,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Letterly", url: "https://letterly.app/", descricao: "Transforme fala em texto estruturado, notas, emails e posts sociais com IA." },
   { nome: "Speechmatics", url: "https://www.speechmatics.com/", descricao: "Tecnologia de fala IA líder para transcrição, tradução e TTS com precisão empresarial." },
   { nome: "Riverside", url: "https://riverside.com/", descricao: "Plataforma de gravação e transcrição com IA para podcasts e vídeos profissionais." },
   { nome: "Speechify", url: "/ferramentas/speechify", descricao: "Plataforma de IA para transcrição e conversão de texto em áudio com vozes naturais." },
