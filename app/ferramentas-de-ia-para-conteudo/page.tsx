@@ -40,8 +40,8 @@ const ferramentas = [
   },
   {
     nome: "Rytr",
-    url: "https://rytr.me",
-    descricao: "Assistente de escrita com IA que ajuda a criar conteúdo de alta qualidade em poucos segundos.",
+    url: "/ferramentas/rytr",
+    descricao: "Assistente de escrita com IA que cria conteúdo de alta qualidade em segundos.",
   },
   {
     nome: "Neuroflash",
