@@ -15,7 +15,7 @@ const ferramentas = [
   { nome: "Reclaim", url: "https://reclaim.ai", descricao: "Assistente de IA para otimizar agenda e gerar resumos de reuniões." },
   { nome: "tldv", url: "https://tldv.io/pt-br/", descricao: "Transcrição e resumo automático de reuniões com IA em português." },
   { nome: "Grain", url: "https://grain.com/", descricao: "Plataforma para capturar e compartilhar momentos-chave de reuniões com IA." },
-  { nome: "Tactiq", url: "https://tactiq.io/pt-br/ferramentas/ai-meeting-minutes-generator", descricao: "Gerador de atas com IA para Zoom, Meet e Teams." },
+  { nome: "Tactiq", url: "/ferramentas/tactiq", descricao: "Gerador de atas com IA para Zoom, Meet e Teams." },
   { nome: "Read.ai", url: "https://www.read.ai/pt", descricao: "IA para transcrever, resumir e gerar insights de reuniões em tempo real." },
   { nome: "MeetGeek", url: "https://meetgeek.ai/pt/ai-meeting-minutes", descricao: "Plataforma que gera atas automáticas e identifica pontos de ação em reuniões." },
   { nome: "Otter.ai", url: "https://otter.ai/", descricao: "Transcrição e resumo de reuniões com IA, suportando múltiplas plataformas." },
