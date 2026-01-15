@@ -6,7 +6,7 @@ import FAQSection from "./FAQSection";
 const ferramentas = [
   { nome: "Doctly", url: "https://doctly.ai/", descricao: "IA para ler, resumir e organizar PDFs com extração de dados segura." },
   { nome: "Docparser", url: "https://docparser.com/", descricao: "Extrai dados estruturados de PDFs e automatiza fluxos de documentos." },
-  { nome: "ChatPDF", url: "https://www.chatpdf.com/pt/pdf-resumo", descricao: "Converse com seus PDFs em português para resumos e respostas rápidas." },
+  { nome: "ChatPDF", url: "/ferramentas/chatpdf", descricao: "Converse com seus PDFs em português para resumos e respostas rápidas." },
   { nome: "Smallpdf IA", url: "https://smallpdf.com/pt/ia-pdf", descricao: "Suite de IA para resumir, converter e editar PDFs online." },
   { nome: "UPDF AI", url: "https://ai.updf.com/br/features/summary/", descricao: "Leitura assistida, resumo e anotações com IA integrada." },
   { nome: "Jotform PDF IA", url: "https://www.jotform.com/pt/ai/pdf-summarizer/", descricao: "Resuma PDFs e gere insights diretamente de formulários e anexos." },
@@ -15,7 +15,7 @@ const ferramentas = [
   { nome: "Speechify PDF", url: "https://speechify.com/pt-br/onboarding/nc/general/use-case/", descricao: "Transforma PDFs em áudio e cria resumos automáticos." },
   { nome: "TextCortex PDF", url: "https://textcortex.com/pt/pdf-ai-alternative", descricao: "Resuma, traduza e reescreva PDFs com IA multilíngue." },
   { nome: "Soda PDF AI", url: "https://www.sodapdf.com/pt/chatpdf-ai/", descricao: "Chat com PDFs para perguntas, traduções e resumos rápidos." },
-  { nome: "LightPDF", url: "https://lightpdf.com/pt/", descricao: "Ferramentas de IA para ler, resumir e converter PDFs online." },
+  { nome: "LightPDF", url: "/ferramentas/lightpdf", descricao: "Ferramentas de IA para ler, resumir e converter PDFs online." },
   { nome: "Monica PDF", url: "https://monica.im/pt_PT/webapp/doc-chat", descricao: "Chat IA para tirar dúvidas sobre documentos e gerar resumos." },
   { nome: "Wondershare PDF", url: "https://pdf.wondershare.com.br/app/home", descricao: "Suite completa de PDFs com IA para editar, resumir e organizar." },
   { nome: "DeepL PDF", url: "https://www.deepl.com/pt-BR/features/document-translation/pdf", descricao: "Tradução de PDFs com preservação de formatação e alta qualidade." },
