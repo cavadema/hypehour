@@ -1,7 +1,9 @@
+import { getAllTools } from "@/lib/utils";
 import { SparklesIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
-const apis = [
+const ferramentas = [
+  { nome: "Token Factory", url: "https://tokenfactory.nebius.com/", descricao: "Acesse e integre modelos de LLM e imagem open-source premium via API simples e infraestrutura escalável." },
   {
     nome: "Amarsia",
     url: "https://www.amarsia.com/",
@@ -91,7 +93,7 @@ export default function APIsIA() {
         Descubra as principais APIs, modelos de linguagem e plataformas para integrar inteligência artificial em seus projetos.
       </p>
       <div className="grid gap-6 sm:grid-cols-2">
-        {apis.map((api) => (
+        {ferramentas.map((api) => (
           <a
             key={api.nome}
             href={api.url}

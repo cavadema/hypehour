@@ -3,6 +3,7 @@ import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
+  { nome: "Quantera", url: "https://www.quantera.ai/", descricao: "Agentes financeiros de IA para pesquisa de equity, insights e automação de fluxos de trabalho para instituições." },
   { nome: "Stack AI", url: "https://www.stack-ai.com/", descricao: "Plataforma empresarial no-code para construir e implantar agentes e workflows de IA." },
   { nome: "Aident", url: "https://aident.ai/", descricao: "Plataforma de automação com IA para criar agentes que executam tarefas e conectam sistemas." },
   { nome: "Atlassian Rovo", url: "https://www.atlassian.com/software/rovo/features", descricao: "Automação e busca inteligente com IA para equipes Atlassian." },

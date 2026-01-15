@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon, MicrophoneIcon, BuildingStorefrontIcon, CogIcon, ArrowPathIcon, ChartBarIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon, MicrophoneIcon, BuildingStorefrontIcon, CogIcon, ArrowPathIcon, ChartBarIcon, CommandLineIcon, CpuChipIcon } from "@heroicons/react/24/solid";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -43,35 +43,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://zaia.app/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Zaia</span>
-            <p className="text-zinc-700">Funcionários de IA para atendimento e vendas no WhatsApp 24/7.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 14/01/2026</span>
+          <a href="https://tokenfactory.nebius.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CommandLineIcon className="w-5 h-5" /> Token Factory</span>
+            <p className="text-zinc-700">APIs de modelos open-source premium e infraestrutura escalável.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 15/01/2026</span>
           </a>
-          <a href="https://www.myaudiojournal.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MicrophoneIcon className="w-5 h-5" /> My Audio Journal</span>
-            <p className="text-zinc-700">Diário de áudio que transcreve e analisa seus pensamentos com IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 14/01/2026</span>
+          <a href="https://github.com/HKUDS/DeepCode" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> DeepCode</span>
+            <p className="text-zinc-700">Agente de codificação open-source (Paper2Code, Text2Web).</p>
+            <span className="text-xs text-zinc-500">Adicionada em 15/01/2026</span>
           </a>
-          <a href="https://cribl.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Cribl</span>
-            <p className="text-zinc-700">Engine de dados para processar e rotear logs e métricas de TI com inteligência.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 14/01/2026</span>
+          <a href="https://www.friendware.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Friendware</span>
+            <p className="text-zinc-700">Copiloto para macOS que entende contexto e executa ações.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 15/01/2026</span>
           </a>
-          <a href="https://signoz.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> SigNoz</span>
-            <p className="text-zinc-700">Observabilidade open-source completa (APM, logs, traces) em uma única plataforma.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 14/01/2026</span>
+          <a href="https://albus.org/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Albus</span>
+            <p className="text-zinc-700">Workspace na nuvem com organização automática e busca semântica.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 15/01/2026</span>
           </a>
-          <a href="https://www.keak.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Keak</span>
-            <p className="text-zinc-700">Plataforma de teste A/B com IA que cria e testa variantes de sites automaticamente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 14/01/2026</span>
+          <a href="https://www.quantera.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CpuChipIcon className="w-5 h-5" /> Quantera</span>
+            <p className="text-zinc-700">Agentes financeiros para pesquisa de equity e automação.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 15/01/2026</span>
           </a>
-          <a href="https://browser-use.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Browser Use</span>
-            <p className="text-zinc-700">Ecossistema para agentes de IA controlarem navegadores e automatizarem a web.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 14/01/2026</span>
+          <a href="https://northr.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Northr</span>
+            <p className="text-zinc-700">Planejamento adaptativo e gerenciamento semanal com IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 15/01/2026</span>
           </a>
         </div>
       </section>

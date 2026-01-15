@@ -11,6 +11,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Albus", url: "https://albus.org/", descricao: "Workspace na nuvem que organiza automaticamente documentos e oferece busca semântica e multi-funções com IA." },
   { nome: "Grafana", url: "https://grafana.com/", descricao: "Plataforma líder para observabilidade e monitoramento. Visualize métricas, logs e traces de qualquer fonte com dashboards personalizáveis." },
   { nome: "Splunk", url: "https://www.splunk.com/", descricao: "Plataforma de dados para segurança e observabilidade. Investigue, monitore e analise dados em tempo real e escala." },
   { nome: "fal.ai", url: "https://fal.ai/", descricao: "Infraestrutura serverless otimizada para modelos de mídia generativa (vídeo, imagem, áudio) com inferência ultra-rápida." },

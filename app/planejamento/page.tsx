@@ -8,6 +8,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Northr", url: "https://northr.ai/", descricao: "Sistema de planejamento adaptativo que ajuda a definir direção estratégica e automatiza o gerenciamento semanal com IA." },
   { nome: "Tiimo", url: "https://www.tiimoapp.com/", descricao: "App de planejamento diário e rotinas com foco, lembretes e organização." },
   { nome: "Plander AI", url: "https://plander.ai/", descricao: "Planejamento com IA para objetivos, tarefas e cronogramas inteligentes." },
   { nome: "MyMap.ai Planning Tool", url: "https://www.mymap.ai/pt/planning-tool", descricao: "Ferramenta de planejamento com IA para mapas mentais, brainstorm e organização." },

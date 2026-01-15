@@ -8,6 +8,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Friendware", url: "https://www.friendware.ai/", descricao: "Copiloto de IA para macOS que entende o contexto do seu trabalho, prevê intenções e executa ações em tempo real." },
   { nome: "Zaia", url: "https://zaia.app/", descricao: "Crie funcionários de IA para atendimento, suporte e vendas no WhatsApp em minutos." },
   { nome: "My Audio Journal", url: "https://www.myaudiojournal.com/", descricao: "Diário de áudio pessoal que grava, transcreve e analisa suas entradas para autoconhecimento." },
   { nome: "Refinder", url: "https://refinder.ai/", descricao: "Hub de trabalho com IA para Slack e Google Chat que automatiza tarefas e gerencia apps." },

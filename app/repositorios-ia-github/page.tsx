@@ -8,6 +8,7 @@ export const metadata = {
 };
 
 const repositorios = [
+  { nome: "DeepCode", url: "https://github.com/HKUDS/DeepCode", descricao: "Agente de codificação open-source capaz de atuar em Paper2Code, Text2Web e Text2Backend." },
   { nome: "HY-Motion-1.0", url: "https://github.com/Tencent-Hunyuan/HY-Motion-1.0", descricao: "Modelos de geração de movimento humano 3D a partir de texto (Tencent), baseados em DiT e Flow Matching." },
   { nome: "MAI-UI", url: "https://github.com/Tongyi-MAI/MAI-UI", descricao: "Agentes de GUI focados no mundo real da Tongyi, permitindo controle de interface e navegação móvel via IA." },
   { nome: "AbleMouse", url: "https://github.com/aradzhabov/AbleMouse", descricao: "Tecnologia assistiva open-source que substitui o mouse, controlada por movimentos faciais ou oculares." },
