@@ -4,6 +4,7 @@ import FAQSection from "./FAQSection";
 import ExpandableContent from "./ExpandableContent";
 
 const cursos = [
+  { nome: "Claude Code - Agentic Coding", url: "https://learn.deeplearning.ai/courses/claude-code-a-highly-agentic-coding-assistant/lesson/66b35/introduction", descricao: "Curso gratuito da DeepLearning.AI ensinando a usar o Claude Code como assistente de programação agêntico." },
   { nome: "Learn Prompting", url: "https://learnprompting.org/", descricao: "O curso mais abrangente de engenharia de prompt, do básico ao avançado." },
   { nome: "Anthropic Academy", url: "https://anthropic.skilljar.com/", descricao: "Cursos oficiais da Anthropic sobre IA, Claude e técnicas de prompt engineering." },
   { nome: "Escola Virtual Gov.br", url: "https://www.escolavirtual.gov.br/curso/861", descricao: "Curso gratuito de IA oferecido pelo Governo Federal." },

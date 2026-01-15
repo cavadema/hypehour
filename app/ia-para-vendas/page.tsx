@@ -3,6 +3,16 @@ import Link from "next/link";
 
 const ferramentas = [
   {
+    nome: "Card.biz",
+    url: "https://card.biz/",
+    descricao: "Plataforma de cartão de visita digital gratuita para captura de leads e integração nativa com CRM."
+  },
+  {
+    nome: "Concierge AI",
+    url: "https://concierge.ai/",
+    descricao: "Motor de respostas de IA para sites B2B SaaS que engaja visitantes, responde perguntas e converte leads."
+  },
+  {
     nome: "Skarbe",
     url: "https://skarbe.com/",
     descricao: "Assistente de vendas IA para não-vendedores que captura interações e sugere próximos passos.",

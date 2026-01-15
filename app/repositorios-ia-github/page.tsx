@@ -8,6 +8,9 @@ export const metadata = {
 };
 
 const repositorios = [
+  { nome: "Chatterbox", url: "https://github.com/resemble-ai/chatterbox", descricao: "TTS engine open-source de estado da arte (SoTA) da Resemble AI." },
+  { nome: "Qwen-Image-Layered", url: "https://github.com/QwenLM/Qwen-Image-Layered", descricao: "Modelo capaz de gerar imagens decompostas em camadas transparentes para fácil edição." },
+  { nome: "Ensue Skill", url: "https://github.com/mutable-state-inc/ensue-skill", descricao: "Ensue Memory Network: memória persistente e contextual para agentes de IA." },
   { nome: "DeepCode", url: "https://github.com/HKUDS/DeepCode", descricao: "Agente de codificação open-source capaz de atuar em Paper2Code, Text2Web e Text2Backend." },
   { nome: "HY-Motion-1.0", url: "https://github.com/Tencent-Hunyuan/HY-Motion-1.0", descricao: "Modelos de geração de movimento humano 3D a partir de texto (Tencent), baseados em DiT e Flow Matching." },
   { nome: "MAI-UI", url: "https://github.com/Tongyi-MAI/MAI-UI", descricao: "Agentes de GUI focados no mundo real da Tongyi, permitindo controle de interface e navegação móvel via IA." },

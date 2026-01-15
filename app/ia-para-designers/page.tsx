@@ -9,6 +9,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Design Arena",
+    url: "https://www.designarena.ai/",
+    descricao: "Benchmark global crowdsourced para modelos de design com rankings Elo baseados em preferência humana."
+  },
+  {
     nome: "Designs.ai",
     url: "https://designs.ai/",
     descricao: "Gerador all-in-one de IA para logos, imagens, vídeos, vozes e posts sociais."

@@ -11,6 +11,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Emergent", url: "https://app.emergent.sh/", descricao: "Construa apps prontos para produção através de conversas com agentes de IA que desenham, codificam e implantam." },
   { nome: "Dropstone", url: "https://www.dropstone.io/", descricao: "Runtime de engenharia de software autônomo que substitui IDEs, focado em refatoração e correção automática." },
   { nome: "PromptDC", url: "https://promptdc.com/", descricao: "Extensão para aprimoramento de prompts em tempo real para plataformas como Lovable, Bolt e editores locais." },
   { nome: "Vertical Studio", url: "https://www.verticalstudio.ai/", descricao: "Plataforma no-code para customizar, afinar e implantar modelos de IA descentralizados." },

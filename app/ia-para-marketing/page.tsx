@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Concierge AI",
+        url: "https://concierge.ai/",
+        descricao: "Motor de respostas de IA para sites B2B SaaS que engaja visitantes, responde perguntas e converte leads."
+    },
+    {
         nome: "URLtoAny",
         url: "https://www.urltoany.com/",
         descricao: "Conversor universal de URLs para Markdown, PDF, imagem e resumo com IA.",
