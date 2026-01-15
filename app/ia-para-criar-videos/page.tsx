@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Clipchamp",
+        url: "/ferramentas/clipchamp",
+        descricao: "Editor de vídeo online da Microsoft com recursos de IA para criação rápida de conteúdo.",
+    },
+    {
         nome: "Kapwing",
         url: "https://www.kapwing.com/",
         descricao: "Editor de vídeo online colaborativo com ferramentas de IA para legendas, cortes e melhoria de áudio.",
@@ -85,7 +90,7 @@ const ferramentas = [
     },
     {
         nome: "Vidnoz",
-        url: "https://pt.vidnoz.com/",
+        url: "/ferramentas/vidnoz",
         descricao: "Ferramenta gratuita para criar vídeos com avatares de IA e clonagem de voz.",
     },
     {
