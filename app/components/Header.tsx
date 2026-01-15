@@ -71,6 +71,7 @@ export default function Header() {
                 <Link href="/ia-para-planilhas" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Planilhas</Link>
                 <Link href="/repositorios-ia-github" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Repositórios Github</Link>
                 <Link href="/eventos-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Eventos</Link>
+                <Link href="/ia-web-scraping" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Scraping</Link>
               </div>
             </li>
           </ul>
@@ -128,6 +129,7 @@ export default function Header() {
                 <li><Link href="/repositorios-ia-github" className="block py-2 pl-4" onClick={() => setOpen(false)}>Repositórios Github</Link></li>
                 <li><Link href="/eventos-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Eventos</Link></li>
                 <li><Link href="/ia-para-designers" className="block py-2 pl-4" onClick={() => setOpen(false)}>Designers</Link></li>
+                <li><Link href="/ia-web-scraping" className="block py-2 pl-4" onClick={() => setOpen(false)}>Scraping</Link></li>
               </ul>
             </div>
           )}

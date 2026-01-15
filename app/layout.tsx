@@ -136,6 +136,7 @@ export default function RootLayout({
                 <li><a href="/eventos-ia" className="hover:underline">Eventos</a></li>
                 <li><a href="/ia-para-planilhas" className="hover:underline">Planilhas</a></li>
                 <li><a href="/ia-para-designers" className="hover:underline">Designers</a></li>
+                <li><a href="/ia-web-scraping" className="hover:underline">Scraping</a></li>
               </ul>
             </div>
 
