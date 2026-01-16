@@ -16,7 +16,7 @@ const ferramentas = [
   { nome: "Speechmatics", url: "https://www.speechmatics.com/", descricao: "Tecnologia de fala IA líder para transcrição, tradução e TTS com precisão empresarial." },
   { nome: "Riverside", url: "https://riverside.com/", descricao: "Plataforma de gravação e transcrição com IA para podcasts e vídeos profissionais." },
   { nome: "Speechify", url: "/ferramentas/speechify", descricao: "Plataforma de IA para transcrição e conversão de texto em áudio com vozes naturais." },
-  { nome: "Wisprflow", url: "https://wisprflow.ai/", descricao: "Transcrição automática de áudio com IA para fluxos de trabalho profissionais." },
+  { nome: "Wisprflow", url: "/ferramentas/wisprflow", descricao: "Transcrição automática de áudio com IA para fluxos de trabalho profissionais." },
   { nome: "Willowvoice", url: "https://willowvoice.com/", descricao: "Ferramenta de transcrição de voz com IA para criar textos precisos." },
   { nome: "Aquavoice", url: "https://aquavoice.com/", descricao: "Solução de IA para transcrição e análise de áudio em tempo real." },
   { nome: "Talktastic", url: "https://talktastic.com/", descricao: "Transcrição inteligente de conversas e reuniões com IA." },
