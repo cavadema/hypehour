@@ -4,6 +4,26 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Ozygen",
+        url: "https://ozygen.app/",
+        descricao: "Criação de conteúdo e descrições de produtos para e-commerce com IA.",
+    },
+    {
+        nome: "Typefully",
+        url: "https://typefully.com/",
+        descricao: "Crie e agende threads no Twitter e LinkedIn com a ajuda da IA.",
+    },
+    {
+        nome: "Hypefury",
+        url: "https://hypefury.com/",
+        descricao: "Automatize e cresça sua audiência no Twitter e outras redes.",
+    },
+    {
+        nome: "Tweethunter",
+        url: "https://tweethunter.io/",
+        descricao: "Ferramenta tudo-em-um para crescer no Twitter com IA.",
+    },
+    {
         nome: "Creaibo",
         url: "https://creaibo.io/",
         descricao: "Crie assistentes de IA personalizados e chatbots para automação de atendimento e marketing.",

@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Songburst",
+        url: "https://www.songburst.ai/",
+        descricao: "Crie músicas únicas com IA a partir de texto.",
+    },
+    {
         nome: "Library.fm",
         url: "https://library.fm/",
         descricao: "Crie histórias em áudio personalizadas para crianças com IA, narração expressiva e efeitos sonoros.",
