@@ -4,6 +4,16 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "ReelBase",
+        url: "https://reelbase.io/",
+        descricao: "Plataforma de criação de vídeos curtos com IA para maximizar o engajamento em redes sociais.",
+    },
+    {
+        nome: "YouClip",
+        url: "https://www.youclip.id/",
+        descricao: "Transforme vídeos longos em clipes curtos automaticamente com IA para TikTok e Reels.",
+    },
+    {
         nome: "Clipchamp",
         url: "/ferramentas/clipchamp",
         descricao: "Editor de vídeo online da Microsoft com recursos de IA para criação rápida de conteúdo.",

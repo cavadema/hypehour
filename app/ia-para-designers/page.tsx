@@ -9,6 +9,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Pomelli",
+    url: "https://labs.google.com/pomelli/about/",
+    descricao: "Experimento do Google Labs para criar padrões visuais, texturas e designs únicos com IA generativa."
+  },
+  {
     nome: "Design Arena",
     url: "https://www.designarena.ai/",
     descricao: "Benchmark global crowdsourced para modelos de design com rankings Elo baseados em preferência humana."

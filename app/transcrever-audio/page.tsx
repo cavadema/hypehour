@@ -11,6 +11,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "SlideWhisper", url: "https://www.slidewhisper.com/", descricao: "Transforme conversas e áudios em apresentações completas e documentos estruturados com IA." },
   { nome: "Letterly", url: "https://letterly.app/", descricao: "Transforme fala em texto estruturado, notas, emails e posts sociais com IA." },
   { nome: "Speechmatics", url: "https://www.speechmatics.com/", descricao: "Tecnologia de fala IA líder para transcrição, tradução e TTS com precisão empresarial." },
   { nome: "Riverside", url: "https://riverside.com/", descricao: "Plataforma de gravação e transcrição com IA para podcasts e vídeos profissionais." },

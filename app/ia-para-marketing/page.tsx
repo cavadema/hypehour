@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Creaibo",
+        url: "https://creaibo.io/",
+        descricao: "Crie assistentes de IA personalizados e chatbots para automação de atendimento e marketing.",
+    },
+    {
         nome: "Concierge AI",
         url: "https://concierge.ai/",
         descricao: "Motor de respostas de IA para sites B2B SaaS que engaja visitantes, responde perguntas e converte leads."

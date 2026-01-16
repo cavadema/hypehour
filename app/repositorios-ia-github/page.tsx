@@ -7,7 +7,12 @@ export const metadata = {
   alternates: { canonical: "https://www.hypehour.com.br/repositorios-ia-github" },
 };
 
-const repositorios = [
+const ferramentas = [
+  { nome: "Glass", url: "https://github.com/pickle-com/glass", descricao: "Um framework leve e flexível para construir interfaces de usuário modernas com Python." },
+  { nome: "Agentic Coding Flywheel", url: "https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup", descricao: "Um setup completo para criar um ciclo de codificação agêntica e automatizada." },
+  { nome: "HGMem", url: "https://github.com/Encyclomen/HGMem", descricao: "Memória Hierárquica Gráfica para Agentes de LLM, melhorando a retenção de contexto a longo prazo." },
+  { nome: "Alpamayo", url: "https://github.com/NVlabs/alpamayo", descricao: "Modelo da NVIDIA para alinhar modelos de linguagem com feedback humano de forma eficiente." },
+  { nome: "Swarm", url: "https://github.com/openai/swarm", descricao: "Uma estrutura educacional que explora a orquestração multiagente leve e ergonômica." },
   { nome: "Chatterbox", url: "https://github.com/resemble-ai/chatterbox", descricao: "TTS engine open-source de estado da arte (SoTA) da Resemble AI." },
   { nome: "Qwen-Image-Layered", url: "https://github.com/QwenLM/Qwen-Image-Layered", descricao: "Modelo capaz de gerar imagens decompostas em camadas transparentes para fácil edição." },
   { nome: "Ensue Skill", url: "https://github.com/mutable-state-inc/ensue-skill", descricao: "Ensue Memory Network: memória persistente e contextual para agentes de IA." },
@@ -119,7 +124,7 @@ export default function RepositoriosIA() {
         <h1 className="text-3xl font-bold">Repositórios de IA no Github</h1>
       </div>
       <div className="grid gap-6 sm:grid-cols-2">
-        {repositorios.map((repo) => (
+        {ferramentas.map((repo) => (
           <a key={repo.nome} href={repo.url} target="_blank" rel="noopener noreferrer" className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100">
             <h2 className="font-semibold text-lg mb-1">{repo.nome}</h2>
             <div className="text-gray-500 text-sm">{repo.descricao}</div>

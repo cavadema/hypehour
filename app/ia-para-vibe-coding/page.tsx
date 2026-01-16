@@ -11,6 +11,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Windsurf", url: "https://windsurf.com/", descricao: "IDE de código com IA que mantém você no fluxo, integrando agentes de codificação e ferramentas inteligentes." },
+  { nome: "GenStore", url: "https://www.genstore.ai/", descricao: "Loja de componentes e prompts de IA para impulsionar seus projetos de vibe coding." },
   { nome: "Emergent", url: "https://app.emergent.sh/", descricao: "Construa apps prontos para produção através de conversas com agentes de IA que desenham, codificam e implantam." },
   { nome: "Dropstone", url: "https://www.dropstone.io/", descricao: "Runtime de engenharia de software autônomo que substitui IDEs, focado em refatoração e correção automática." },
   { nome: "PromptDC", url: "https://promptdc.com/", descricao: "Extensão para aprimoramento de prompts em tempo real para plataformas como Lovable, Bolt e editores locais." },

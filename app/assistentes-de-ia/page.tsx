@@ -8,6 +8,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Scouts", url: "https://yutori.com/scouts", descricao: "Agentes de IA autônomos para pesquisa e monitoramento de informações na web." },
+  { nome: "Creaibo", url: "https://creaibo.io/", descricao: "Plataforma para criar assistentes de IA personalizados e chatbots para empresas e marketing." },
   { nome: "Friendware", url: "https://www.friendware.ai/", descricao: "Copiloto de IA para macOS que entende o contexto do seu trabalho, prevê intenções e executa ações em tempo real." },
   { nome: "Zaia", url: "https://zaia.app/", descricao: "Crie funcionários de IA para atendimento, suporte e vendas no WhatsApp em minutos." },
   { nome: "My Audio Journal", url: "https://www.myaudiojournal.com/", descricao: "Diário de áudio pessoal que grava, transcreve e analisa suas entradas para autoconhecimento." },

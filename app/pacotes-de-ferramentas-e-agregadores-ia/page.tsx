@@ -3,6 +3,11 @@ import Link from "next/link";
 
 const ferramentas = [
     {
+        nome: "Skywork",
+        url: "https://skywork.ai/",
+        descricao: "Modelo de IA avançado da Skywork com capacidades de raciocínio, matemática e codificação de alto nível.",
+    },
+    {
         nome: "Snippets AI",
         url: "https://www.getsnippets.ai/",
         descricao: "Gerenciador de prompts de IA para equipes, compatível com ChatGPT, Claude e mais.",

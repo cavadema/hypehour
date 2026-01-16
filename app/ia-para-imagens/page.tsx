@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
   {
+    nome: "Seedream 4.5",
+    url: "https://replicate.com/bytedance/seedream-4.5",
+    descricao: "Modelo de geração de imagem da ByteDance com alta coerência, qualidade fotorealista e controle preciso.",
+  },
+  {
     nome: "Dzine",
     url: "https://www.dzine.ai/",
     descricao: "Ferramenta de design e edição de imagem/vídeo com IA para criadores, com recursos de generative fill e face swap.",

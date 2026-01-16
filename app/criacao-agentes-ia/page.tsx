@@ -10,6 +10,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Sparks", url: "https://www.getsparks.ai/", descricao: "Plataforma para criar, implantar e gerenciar agentes autônomos de IA para diversas tarefas." },
+  { nome: "Pulze", url: "https://www.pulze.ai/", descricao: "Plataforma de infraestrutura de LLM para roteamento inteligente, otimização de custos e latência para seus agentes." },
   { nome: "Dedalus Labs", url: "https://www.dedaluslabs.ai/", descricao: "Conecte qualquer modelo a qualquer servidor MCP com uma única API. Crie agentes multimodais em minutos." },
   { nome: "Superset", url: "https://superset.sh/", descricao: "Execute dezenas de agentes de coding (Claude Code, etc) em paralelo na sua máquina com isolamento." },
   { nome: "Friendware", url: "https://www.chatbase.co/", descricao: "Crie chatbots de IA personalizados treinados com seus dados (PDFs, site, texto) para suporte e vendas." },

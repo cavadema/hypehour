@@ -3,6 +3,11 @@ import Link from "next/link";
 
 const navegadores = [
   {
+    nome: "Alexa",
+    url: "https://alexa.amazon.com/about",
+    descricao: "Assistente virtual da Amazon que permite navegação por voz, controle de dispositivos e acesso a skills.",
+  },
+  {
     nome: "NeoBrowser",
     url: "https://neobrowser.ai/",
     descricao: "O primeiro navegador nativo de IA, seguro e focado em produtividade com navegação inteligente.",

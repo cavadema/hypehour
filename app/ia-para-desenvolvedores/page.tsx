@@ -11,6 +11,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "BitDive", url: "https://bitdive.io/", descricao: "Inteligência de código para monitorar e analisar a qualidade e segurança dos seus repositórios." },
   { nome: "Giselles", url: "https://giselles.ai/", descricao: "Construa aplicações de IA personalizadas visualmente, sem código, automatizando pesquisas e tarefas complexas." },
   { nome: "Albus", url: "https://albus.org/", descricao: "Workspace na nuvem que organiza automaticamente documentos e oferece busca semântica e multi-funções com IA." },
   { nome: "Grafana", url: "https://grafana.com/", descricao: "Plataforma líder para observabilidade e monitoramento. Visualize métricas, logs e traces de qualquer fonte com dashboards personalizáveis." },

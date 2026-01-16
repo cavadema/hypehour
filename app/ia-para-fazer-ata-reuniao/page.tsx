@@ -1,6 +1,7 @@
 import { DocumentTextIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
+import FAQSection from "./FAQSection";
 
 export const metadata = {
   title: "Inteligência Artificial para Ata de Reunião",
@@ -11,6 +12,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Circleback", url: "https://circleback.ai/", descricao: "IA para reuniões que gera notas precisas, identifica itens de ação e se integra ao seu CRM." },
   { nome: "Fellow", url: "https://fellow.ai/", descricao: "Plataforma IA para gerenciar reuniões, criar atas e acompanhar ações automaticamente." },
   { nome: "Reclaim", url: "https://reclaim.ai", descricao: "Assistente de IA para otimizar agenda e gerar resumos de reuniões." },
   { nome: "tldv", url: "https://tldv.io/pt-br/", descricao: "Transcrição e resumo automático de reuniões com IA em português." },
@@ -56,6 +58,7 @@ export default function IaParaFazerAtaReuniao() {
           </a>
         ))}
       </div>
+      <FAQSection />
     </main>
   );
 }

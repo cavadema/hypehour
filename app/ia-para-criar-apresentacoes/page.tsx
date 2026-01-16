@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "SlideWhisper",
+        url: "https://www.slidewhisper.com/",
+        descricao: "Transforme conversas e áudios em apresentações completas e documentos estruturados com IA.",
+    },
+    {
         nome: "Slides AI",
         url: "https://www.slidesai.io/pt",
         descricao: "Crie apresentações profissionais em segundos a partir de texto com IA generativa.",
