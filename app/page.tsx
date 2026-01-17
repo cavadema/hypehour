@@ -43,35 +43,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://ozygen.app/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Ozygen</span>
-            <p className="text-zinc-700">Criação de conteúdo e descrições de produtos para e-commerce com IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 16/01/2026</span>
+          <a href="https://rork.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Rork</span>
+            <p className="text-zinc-700">Crie aplicativos móveis nativos para iOS e Android descrevendo sua ideia em linguagem natural.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 17/01/2026</span>
           </a>
-          <a href="https://typefully.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Typefully</span>
-            <p className="text-zinc-700">Crie e agende threads no Twitter e LinkedIn com a ajuda da IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 16/01/2026</span>
+          <a href="https://pageai.pro/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> PageAI</span>
+            <p className="text-zinc-700">Transforme prompts de texto em sites profissionais, otimizados e totalmente codificados em minutos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 17/01/2026</span>
           </a>
-          <a href="https://hypefury.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Hypefury</span>
-            <p className="text-zinc-700">Automatize e cresça sua audiência no Twitter e outras redes.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 16/01/2026</span>
+          <a href="https://diffs.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Diffs</span>
+            <p className="text-zinc-700">Automação de code review com IA que gera resumos descritivos de pull requests.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 17/01/2026</span>
           </a>
-          <a href="https://tweethunter.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Tweethunter</span>
-            <p className="text-zinc-700">Ferramenta tudo-em-um para crescer no Twitter com IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 16/01/2026</span>
+          <a href="https://www.file.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CogIcon className="w-5 h-5" /> File.ai</span>
+            <p className="text-zinc-700">Automação inteligente de processamento de documentos e extração de dados para BPOs.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 17/01/2026</span>
           </a>
-          <a href="https://www.songburst.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MusicalNoteIcon className="w-5 h-5" /> Songburst</span>
-            <p className="text-zinc-700">Crie músicas únicas com IA a partir de texto.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 16/01/2026</span>
+          <a href="https://fromolive.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Olive</span>
+            <p className="text-zinc-700">Plataforma de IA que conecta bancos de dados para construir ferramentas internas a partir de prompts.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 17/01/2026</span>
           </a>
-          <a href="/ferramentas/wisprflow" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MusicalNoteIcon className="w-5 h-5" /> Wisprflow</span>
-            <p className="text-zinc-700">Transcrição automática de áudio com IA para fluxos de trabalho profissionais.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 16/01/2026</span>
+          <a href="https://github.com/NVIDIA/Isaac-GR00T" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> NVIDIA Isaac GR00T</span>
+            <p className="text-zinc-700">Modelo de IA fundacional para robôs humanoides, permitindo compreensão multimodal.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 17/01/2026</span>
           </a>
         </div>
       </section>

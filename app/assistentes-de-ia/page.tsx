@@ -8,6 +8,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Olive", url: "https://fromolive.com/", descricao: "Plataforma de IA que conecta bancos de dados para construir ferramentas internas a partir de prompts." },
   { nome: "Scouts", url: "https://yutori.com/scouts", descricao: "Agentes de IA autônomos para pesquisa e monitoramento de informações na web." },
   { nome: "Creaibo", url: "https://creaibo.io/", descricao: "Plataforma para criar assistentes de IA personalizados e chatbots para empresas e marketing." },
   { nome: "Friendware", url: "https://www.friendware.ai/", descricao: "Copiloto de IA para macOS que entende o contexto do seu trabalho, prevê intenções e executa ações em tempo real." },

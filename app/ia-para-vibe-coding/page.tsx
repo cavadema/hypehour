@@ -11,6 +11,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Rork", url: "https://rork.com/", descricao: "Crie aplicativos móveis nativos para iOS e Android descrevendo sua ideia em linguagem natural." },
+  { nome: "PageAI", url: "https://pageai.pro/", descricao: "Transforme prompts de texto em sites profissionais, otimizados e totalmente codificados em minutos." },
   { nome: "Windsurf", url: "https://windsurf.com/", descricao: "IDE de código com IA que mantém você no fluxo, integrando agentes de codificação e ferramentas inteligentes." },
   { nome: "GenStore", url: "https://www.genstore.ai/", descricao: "Loja de componentes e prompts de IA para impulsionar seus projetos de vibe coding." },
   { nome: "Emergent", url: "https://app.emergent.sh/", descricao: "Construa apps prontos para produção através de conversas com agentes de IA que desenham, codificam e implantam." },

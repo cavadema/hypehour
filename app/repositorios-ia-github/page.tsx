@@ -8,6 +8,10 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "NVIDIA Isaac GR00T", url: "https://github.com/NVIDIA/Isaac-GR00T", descricao: "Modelo de IA fundacional para robôs humanoides, permitindo compreensão multimodal e controle de ações." },
+  { nome: "NVIDIA Cosmos Reason2", url: "https://github.com/nvidia-cosmos/cosmos-reason2", descricao: "Modelo de raciocínio VLM aberto para IA física e robótica, com compreensão espaço-temporal avançada." },
+  { nome: "Google AI Edge Gallery", url: "https://github.com/google-ai-edge/gallery", descricao: "Execute modelos de IA generativa de ponta diretamente no dispositivo Android sem internet." },
+  { nome: "SkillsBench", url: "https://github.com/benchflow-ai/SkillsBench", descricao: "Benchmark para avaliar como agentes de IA utilizam habilidades e compõem fluxos de trabalho." },
   { nome: "Glass", url: "https://github.com/pickle-com/glass", descricao: "Um framework leve e flexível para construir interfaces de usuário modernas com Python." },
   { nome: "Agentic Coding Flywheel", url: "https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup", descricao: "Um setup completo para criar um ciclo de codificação agêntica e automatizada." },
   { nome: "HGMem", url: "https://github.com/Encyclomen/HGMem", descricao: "Memória Hierárquica Gráfica para Agentes de LLM, melhorando a retenção de contexto a longo prazo." },
