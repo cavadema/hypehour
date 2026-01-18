@@ -10,6 +10,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Instruct AI", url: "https://instruct.ai/", descricao: "Plataforma no-code para criar agentes de IA autônomos que executam tarefas complexas em diversas aplicações." },
   { nome: "Sparks", url: "https://www.getsparks.ai/", descricao: "Plataforma para criar, implantar e gerenciar agentes autônomos de IA para diversas tarefas." },
   { nome: "Pulze", url: "https://www.pulze.ai/", descricao: "Plataforma de infraestrutura de LLM para roteamento inteligente, otimização de custos e latência para seus agentes." },
   { nome: "Dedalus Labs", url: "https://www.dedaluslabs.ai/", descricao: "Conecte qualquer modelo a qualquer servidor MCP com uma única API. Crie agentes multimodais em minutos." },

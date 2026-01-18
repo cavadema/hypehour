@@ -43,35 +43,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://rork.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Rork</span>
-            <p className="text-zinc-700">Crie aplicativos móveis nativos para iOS e Android descrevendo sua ideia em linguagem natural.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 17/01/2026</span>
+          <a href="https://weero.com.br/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Weero</span>
+            <p className="text-zinc-700">Plataforma de APIs de IA para desenvolvedores com modelos de LLMs, síntese de voz e análise de vídeo.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 18/01/2026</span>
           </a>
-          <a href="https://pageai.pro/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> PageAI</span>
-            <p className="text-zinc-700">Transforme prompts de texto em sites profissionais, otimizados e totalmente codificados em minutos.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 17/01/2026</span>
+          <a href="https://opttab.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Opttab</span>
+            <p className="text-zinc-700">Plataforma de visibilidade em IA e SEO generativo para monitorar e otimizar citações em modelos de IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 18/01/2026</span>
           </a>
-          <a href="https://diffs.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Diffs</span>
-            <p className="text-zinc-700">Automação de code review com IA que gera resumos descritivos de pull requests.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 17/01/2026</span>
+          <a href="https://instruct.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Instruct AI</span>
+            <p className="text-zinc-700">Plataforma no-code para criar agentes de IA autônomos que executam tarefas complexas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 18/01/2026</span>
           </a>
-          <a href="https://www.file.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CogIcon className="w-5 h-5" /> File.ai</span>
-            <p className="text-zinc-700">Automação inteligente de processamento de documentos e extração de dados para BPOs.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 17/01/2026</span>
+          <a href="https://radial.appverge.net/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Radial</span>
+            <p className="text-zinc-700">Plataforma que usa IA para otimizar operações de logística e suporte à decisão em saúde.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 18/01/2026</span>
           </a>
-          <a href="https://fromolive.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Olive</span>
-            <p className="text-zinc-700">Plataforma de IA que conecta bancos de dados para construir ferramentas internas a partir de prompts.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 17/01/2026</span>
+          <a href="https://taloai.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Talo AI</span>
+            <p className="text-zinc-700">Tradutor em tempo real para videochamadas que funciona como um intérprete ao vivo.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 18/01/2026</span>
           </a>
-          <a href="https://github.com/NVIDIA/Isaac-GR00T" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> NVIDIA Isaac GR00T</span>
-            <p className="text-zinc-700">Modelo de IA fundacional para robôs humanoides, permitindo compreensão multimodal.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 17/01/2026</span>
+          <a href="https://2-b.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> 2-B AI</span>
+            <p className="text-zinc-700">Gerenciador de tarefas inteligente que transforma conteúdo da web em workflows organizados.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 18/01/2026</span>
           </a>
         </div>
       </section>

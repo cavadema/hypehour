@@ -4,6 +4,16 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Weero",
+        url: "https://weero.com.br/",
+        descricao: "Plataforma de APIs de IA para desenvolvedores, oferecendo modelos de LLMs, síntese de voz e análise de vídeo.",
+    },
+    {
+        nome: "Opttab",
+        url: "https://opttab.com/",
+        descricao: "Plataforma de visibilidade em IA e SEO generativo para monitorar e otimizar como modelos como ChatGPT e Gemini citam seu conteúdo.",
+    },
+    {
         nome: "Ozygen",
         url: "https://ozygen.app/",
         descricao: "Criação de conteúdo e descrições de produtos para e-commerce com IA.",

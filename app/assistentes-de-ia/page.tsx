@@ -8,6 +8,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Radial", url: "https://radial.appverge.net/", descricao: "Plataforma que usa IA para otimizar operações de logística e suporte à decisão em saúde." },
+  { nome: "Talo AI", url: "https://taloai.com/", descricao: "Tradutor em tempo real para videochamadas que funciona como um intérprete ao vivo em diversas plataformas." },
   { nome: "Olive", url: "https://fromolive.com/", descricao: "Plataforma de IA que conecta bancos de dados para construir ferramentas internas a partir de prompts." },
   { nome: "Scouts", url: "https://yutori.com/scouts", descricao: "Agentes de IA autônomos para pesquisa e monitoramento de informações na web." },
   { nome: "Creaibo", url: "https://creaibo.io/", descricao: "Plataforma para criar assistentes de IA personalizados e chatbots para empresas e marketing." },
