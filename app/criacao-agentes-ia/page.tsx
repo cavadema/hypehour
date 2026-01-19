@@ -10,6 +10,9 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Relevance AI", url: "https://relevanceai.com/", descricao: "Plataforma low-code para construir e orquestrar forças de trabalho autônomas de agentes de IA." },
+  { nome: "LangFlow", url: "https://www.langflow.org/", descricao: "Framework visual low-code para construir aplicações de IA, RAG e sistemas multi-agentes." },
+  { nome: "Play AI", url: "https://docs.play.ai/documentation/get-started/overview", descricao: "Agentes de IA conversacionais de alta velocidade e interfaces de voz para empresas." },
   { nome: "Instruct AI", url: "https://instruct.ai/", descricao: "Plataforma no-code para criar agentes de IA autônomos que executam tarefas complexas em diversas aplicações." },
   { nome: "Sparks", url: "https://www.getsparks.ai/", descricao: "Plataforma para criar, implantar e gerenciar agentes autônomos de IA para diversas tarefas." },
   { nome: "Pulze", url: "https://www.pulze.ai/", descricao: "Plataforma de infraestrutura de LLM para roteamento inteligente, otimização de custos e latência para seus agentes." },

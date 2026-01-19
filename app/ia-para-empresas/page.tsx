@@ -3,6 +3,8 @@ import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
+  { nome: "Obviously AI", url: "https://www.paraform.com/company/obviously-ai", descricao: "Plataforma no-code para criar apps personalizados de LLM e realizar análise preditiva." },
+  { nome: "Bilanc", url: "https://www.bilanc.co/", descricao: "Contabilidade e gestão financeira inteligente com IA para startups e pequenas empresas." },
   { nome: "2-B AI", url: "https://2-b.ai/", descricao: "Gerenciador de tarefas inteligente que transforma conteúdo da web em workflows organizados diretamente no navegador." },
   { nome: "Creaibo", url: "https://creaibo.io/", descricao: "Crie assistentes de IA personalizados e chatbots para automação de atendimento e marketing." },
   { nome: "Unwrap", url: "https://www.unwrap.ai/", descricao: "Analise feedback de clientes de todas as fontes com IA para obter insights acionáveis de produto." },

@@ -3,6 +3,11 @@ import Link from "next/link";
 
 const ferramentas = [
     {
+        nome: "Yonoo",
+        url: "https://yonoo.ai/",
+        descricao: "Plataforma de descoberta e motor de busca para encontrar as melhores ferramentas de IA.",
+    },
+    {
         nome: "Skywork",
         url: "https://skywork.ai/",
         descricao: "Modelo de IA avançado da Skywork com capacidades de raciocínio, matemática e codificação de alto nível.",

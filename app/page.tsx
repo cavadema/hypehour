@@ -1,4 +1,9 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, UserIcon, PhoneIcon, MicrophoneIcon, BuildingStorefrontIcon, CogIcon, ArrowPathIcon, ChartBarIcon, CommandLineIcon, CpuChipIcon } from "@heroicons/react/24/solid";
+import {
+  SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, Square3Stack3DIcon,
+  UserIcon,
+  UserGroupIcon,
+  PhoneIcon, MicrophoneIcon, BuildingStorefrontIcon, CogIcon, ArrowPathIcon, ChartBarIcon, CommandLineIcon, CpuChipIcon
+} from "@heroicons/react/24/solid";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -43,34 +48,34 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://www.heidihealth.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ShieldCheckIcon className="w-5 h-5" /> Heidi Health</span>
-            <p className="text-zinc-700">Escriba médico de IA que automatiza notas clínicas e preenche documentos para médicos.</p>
+          <a href="https://relevanceai.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Relevance AI</span>
+            <p className="text-zinc-700">Plataforma low-code para construir e orquestrar forças de trabalho autônomas de agentes de IA.</p>
             <span className="text-xs text-zinc-500">Adicionada em 19/01/2026</span>
           </a>
-          <a href="https://incogni.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Incogni</span>
-            <p className="text-zinc-700">Ferramenta que automatiza a exclusão de seus dados pessoais de corretores de dados.</p>
+          <a href="https://scripe.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Scripe</span>
+            <p className="text-zinc-700">Assistente de social selling e criação de conteúdo para LinkedIn potencializado por IA.</p>
             <span className="text-xs text-zinc-500">Adicionada em 19/01/2026</span>
           </a>
-          <a href="https://ltx.io/model/ltx-2" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> LTX-2</span>
-            <p className="text-zinc-700">Modelo multimodal para geração de vídeo e áudio sincronizados em alta qualidade 4K.</p>
+          <a href="https://www.ringg.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Ringg AI</span>
+            <p className="text-zinc-700">Assistentes de voz com IA para automatizar chamadas, qualificar leads e agendar reuniões.</p>
             <span className="text-xs text-zinc-500">Adicionada em 19/01/2026</span>
           </a>
-          <a href="https://github.com/rberg27/doom-coding" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Doom Coding</span>
-            <p className="text-zinc-700">Framework para transformar seu smartphone em um ambiente de desenvolvimento portátil.</p>
+          <a href="https://www.rings.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserGroupIcon className="w-5 h-5" /> Rings AI</span>
+            <p className="text-zinc-700">Plataforma de XRM para gestão de contatos e pipelines com insights baseados em IA.</p>
             <span className="text-xs text-zinc-500">Adicionada em 19/01/2026</span>
           </a>
-          <a href="https://opencode.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> OpenCode</span>
-            <p className="text-zinc-700">Agente de código open-source focado em privacidade que funciona via terminal.</p>
+          <a href="https://github.com/alinaqi/claude-bootstrap" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Claude Bootstrap</span>
+            <p className="text-zinc-700">Inicialização de projetos focada em segurança e IA-ativa para Claude Code.</p>
             <span className="text-xs text-zinc-500">Adicionada em 19/01/2026</span>
           </a>
-          <a href="https://system.surf/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> System Surf</span>
-            <p className="text-zinc-700">Assistente de IA que automatiza buscas na web e organização de informações.</p>
+          <a href="https://ada.im/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Ada.im</span>
+            <p className="text-zinc-700">Analista de dados de IA que automatiza limpeza, SQL e geração de relatórios empresariais.</p>
             <span className="text-xs text-zinc-500">Adicionada em 19/01/2026</span>
           </a>
         </div>

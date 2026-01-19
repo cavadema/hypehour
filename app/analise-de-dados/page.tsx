@@ -10,6 +10,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Ada.im", url: "https://ada.im/", descricao: "Analista de dados de IA que automatiza limpeza, SQL e geração de relatórios empresariais." },
   { nome: "marimo", url: "https://marimo.io/", descricao: "Notebook reativo para Python, open-source e reprodutível. Alternativa moderna ao Jupyter que roda como app." },
   { nome: "Livedocs", url: "https://livedocs.com/", descricao: "Copiloto de dados com IA para gerar gráficos e insights de CSVs e bancos de dados automaticamente." },
   { nome: "CData", url: "https://www.cdata.com/", descricao: "Conectividade de dados em tempo real para alimentar IA e analytics a partir de centenas de fontes." },

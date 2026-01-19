@@ -11,6 +11,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Augment Code", url: "https://www.augmentcode.com/", descricao: "Plataforma de desenvolvimento que entende codebases inteiras para times profissionais." },
   { nome: "OpenCode", url: "https://opencode.ai/", descricao: "Agente de código de código aberto focado em privacidade que funciona via terminal e suporta diversos modelos de LLM." },
   { nome: "System Surf", url: "https://system.surf/", descricao: "Assistente de IA que automatiza buscas na web e organização de informações para melhorar o fluxo de trabalho." },
   { nome: "Diffs", url: "https://diffs.com/", descricao: "Automação de code review com IA que gera resumos descritivos de pull requests." },

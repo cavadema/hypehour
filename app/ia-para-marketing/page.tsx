@@ -4,6 +4,16 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Scripe",
+        url: "https://scripe.io/",
+        descricao: "Assistente de social selling e criação de conteúdo para LinkedIn potencializado por IA.",
+    },
+    {
+        nome: "Insense",
+        url: "https://insense.pro/",
+        descricao: "Plataforma que conecta marcas a criadores para anúncios de UGC e social ads.",
+    },
+    {
         nome: "Weero",
         url: "https://weero.com.br/",
         descricao: "Plataforma de APIs de IA para desenvolvedores, oferecendo modelos de LLMs, síntese de voz e análise de vídeo.",

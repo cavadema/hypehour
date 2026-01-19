@@ -8,6 +8,12 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Claude Bootstrap", url: "https://github.com/alinaqi/claude-bootstrap", descricao: "Inicialização de projetos focada em segurança e IA-ativa para Claude Code." },
+  { nome: "AI Observer", url: "https://github.com/tobilg/ai-observer", descricao: "Ferramenta de observabilidade local unificada para assistentes de codificação com IA." },
+  { nome: "Gastown", url: "https://github.com/steveyegge/gastown", descricao: "Gerenciador de workspace multi-agente para fluxos de desenvolvimento complexos." },
+  { nome: "SleepFM Clinical", url: "https://github.com/zou-group/sleepfm-clinical", descricao: "Modelo fundacional de sono multimodal e ferramentas de diagnóstico clínico." },
+  { nome: "Prompt Forge", url: "https://github.com/insaanimanav/prompt-forge", descricao: "Workbench para engenharia, teste e avaliação sistemática de prompts de IA." },
+  { nome: "Ralph Wiggum Marketer", url: "https://github.com/muratcankoylan/ralph-wiggum-marketer/", descricao: "Plugin de copywriting autônomo baseado em IA para Claude Code." },
   { nome: "Doom Coding", url: "https://github.com/rberg27/doom-coding", descricao: "Guia e setup para transformar seu smartphone em um ambiente de desenvolvimento portátil usando Claude Code e SSH para codar em qualquer lugar." },
   { nome: "NVIDIA Isaac GR00T", url: "https://github.com/NVIDIA/Isaac-GR00T", descricao: "Modelo de IA fundacional para robôs humanoides, permitindo compreensão multimodal e controle de ações." },
   { nome: "NVIDIA Cosmos Reason2", url: "https://github.com/nvidia-cosmos/cosmos-reason2", descricao: "Modelo de raciocínio VLM aberto para IA física e robótica, com compreensão espaço-temporal avançada." },

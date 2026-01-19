@@ -4,6 +4,7 @@ import ExpandableContent from "./ExpandableContent";
 import FAQSection from "./FAQSection";
 
 const ferramentas = [
+  { nome: "Rings AI", url: "https://www.rings.ai/", descricao: "Plataforma de XRM para gestão de contatos e pipelines com insights baseados em IA." },
   { nome: "Lightfield", url: "https://lightfield.app/", descricao: "CRM com IA para gerenciar relacionamentos e vendas de forma inteligente." },
   { nome: "SmartWriter", url: "https://www.smartwriter.ai/", descricao: "Gerador de mensagens e conteúdo com IA para CRM e outreach." },
   { nome: "Attio", url: "https://attio.com/", descricao: "CRM moderno com IA para equipes de vendas e business development." },

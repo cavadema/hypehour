@@ -8,6 +8,9 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Ringg AI", url: "https://www.ringg.ai/", descricao: "Assistentes de voz com IA para automatizar chamadas, qualificar leads e agendar reuniões." },
+  { nome: "Wethos", url: "https://wethos.ai/", descricao: "Plataforma de cognição empresarial e ferramentas para freelancers gerarem propostas e contratos." },
+  { nome: "Huxe", url: "https://www.huxe.com/", descricao: "Workspace inteligente e assistente de pesquisa para produtividade de equipes." },
   { nome: "Incogni", url: "https://incogni.com/", descricao: "Ferramenta de remoção de dados que automatiza a exclusão de informações pessoais de corretores de dados para proteger sua privacidade digital." },
   { nome: "Radial", url: "https://radial.appverge.net/", descricao: "Plataforma que usa IA para otimizar operações de logística e suporte à decisão em saúde." },
   { nome: "Talo AI", url: "https://taloai.com/", descricao: "Tradutor em tempo real para videochamadas que funciona como um intérprete ao vivo em diversas plataformas." },
