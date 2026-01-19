@@ -50,7 +50,7 @@ const ferramentas = [
     },
     {
         nome: "Ollama",
-        url: "https://ollama.com/",
+        url: "/ferramentas/ollama",
         descricao: "Execute grandes modelos de linguagem localmente no seu computador.",
     },
     {
