@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "LTX-2",
+        url: "https://ltx.io/model/ltx-2",
+        descricao: "Modelo multimodal de próxima geração para geração de vídeo e áudio sincronizados em alta qualidade e resolução 4K.",
+    },
+    {
         nome: "ReelBase",
         url: "https://reelbase.io/",
         descricao: "Plataforma de criação de vídeos curtos com IA para maximizar o engajamento em redes sociais.",

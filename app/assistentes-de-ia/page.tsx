@@ -8,6 +8,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Incogni", url: "https://incogni.com/", descricao: "Ferramenta de remoção de dados que automatiza a exclusão de informações pessoais de corretores de dados para proteger sua privacidade digital." },
   { nome: "Radial", url: "https://radial.appverge.net/", descricao: "Plataforma que usa IA para otimizar operações de logística e suporte à decisão em saúde." },
   { nome: "Talo AI", url: "https://taloai.com/", descricao: "Tradutor em tempo real para videochamadas que funciona como um intérprete ao vivo em diversas plataformas." },
   { nome: "Olive", url: "https://fromolive.com/", descricao: "Plataforma de IA que conecta bancos de dados para construir ferramentas internas a partir de prompts." },

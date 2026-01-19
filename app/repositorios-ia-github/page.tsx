@@ -8,6 +8,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Doom Coding", url: "https://github.com/rberg27/doom-coding", descricao: "Guia e setup para transformar seu smartphone em um ambiente de desenvolvimento portátil usando Claude Code e SSH para codar em qualquer lugar." },
   { nome: "NVIDIA Isaac GR00T", url: "https://github.com/NVIDIA/Isaac-GR00T", descricao: "Modelo de IA fundacional para robôs humanoides, permitindo compreensão multimodal e controle de ações." },
   { nome: "NVIDIA Cosmos Reason2", url: "https://github.com/nvidia-cosmos/cosmos-reason2", descricao: "Modelo de raciocínio VLM aberto para IA física e robótica, com compreensão espaço-temporal avançada." },
   { nome: "Google AI Edge Gallery", url: "https://github.com/google-ai-edge/gallery", descricao: "Execute modelos de IA generativa de ponta diretamente no dispositivo Android sem internet." },

@@ -13,6 +13,11 @@ export const metadata = {
 
 const ferramentas = [
     {
+        nome: "Heidi Health",
+        url: "https://www.heidihealth.com/",
+        descricao: "Escriba médico de IA que automatiza notas clínicas, preenche documentos e dita cartas, permitindo que médicos foquem no cuidado ao paciente.",
+    },
+    {
         nome: "IBM Watson Healthcare",
         url: "https://www.ibm.com/br-pt/industries/healthcare",
         descricao: "Soluções de IA para saúde, oncologia e pesquisa clínica.",

@@ -11,6 +11,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "OpenCode", url: "https://opencode.ai/", descricao: "Agente de código de código aberto focado em privacidade que funciona via terminal e suporta diversos modelos de LLM." },
+  { nome: "System Surf", url: "https://system.surf/", descricao: "Assistente de IA que automatiza buscas na web e organização de informações para melhorar o fluxo de trabalho." },
   { nome: "Diffs", url: "https://diffs.com/", descricao: "Automação de code review com IA que gera resumos descritivos de pull requests." },
   { nome: "BitDive", url: "https://bitdive.io/", descricao: "Inteligência de código para monitorar e analisar a qualidade e segurança dos seus repositórios." },
   { nome: "Giselles", url: "https://giselles.ai/", descricao: "Construa aplicações de IA personalizadas visualmente, sem código, automatizando pesquisas e tarefas complexas." },
