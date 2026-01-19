@@ -180,7 +180,7 @@ const ferramentas = [
     },
     {
         nome: "OpusClip",
-        url: "https://www.opus.pro/pt-br",
+        url: "/ferramentas/opusclip",
         descricao: "Plataforma em nuvem com IA para transformar vídeos longos em clipes curtos virais e prontos para publicação em redes sociais.",
     },
     {

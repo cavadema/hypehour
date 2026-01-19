@@ -30,7 +30,7 @@ const ferramentas = [
     },
     {
         nome: "Gamma",
-        url: "https://gamma.app/pt-br",
+        url: "/ferramentas/gamma",
         descricao: "Crie apresentações, documentos e páginas da web visualmente impressionantes com IA.",
     },
     {

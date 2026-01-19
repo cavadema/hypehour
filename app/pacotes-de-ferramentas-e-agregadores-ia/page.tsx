@@ -98,6 +98,11 @@ const ferramentas = [
         url: "https://www.tensorblock.co/",
         descricao: "Plataforma unificada para acessar e gerenciar múltiplos modelos de IA.",
     },
+    {
+        nome: "FlowGPT",
+        url: "/ferramentas/flowgpt",
+        descricao: "Marketplace de prompts e agregador de ferramentas de IA generativa orientado pela comunidade.",
+    },
 ];
 
 export const metadata = {
