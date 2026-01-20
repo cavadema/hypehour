@@ -4,9 +4,9 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
-        nome: "Scripe",
-        url: "https://scripe.io/",
-        descricao: "Assistente de social selling e criação de conteúdo para LinkedIn potencializado por IA.",
+        nome: "Option",
+        url: "https://www.tryoption.ai/",
+        descricao: "Plataforma líder em visibilidade de GEO (Generative Engine Optimization) para monitorar e otimizar a presença de marcas em modelos como ChatGPT e Gemini.",
     },
     {
         nome: "Insense",

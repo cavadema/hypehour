@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Freebeat",
+        url: "https://freebeat.ai/pt",
+        descricao: "Cria videoclipes sincronizando música com animações automaticamente e gera vídeos a partir de texto e imagens.",
+    },
+    {
         nome: "Songburst",
         url: "https://www.songburst.ai/",
         descricao: "Crie músicas únicas com IA a partir de texto.",

@@ -4,6 +4,16 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Hailuo AI",
+        url: "https://hailuoai.video/",
+        descricao: "Plataforma inovadora que transforma prompts de texto e imagens em vídeos de alta qualidade em segundos com IA avançada.",
+    },
+    {
+        nome: "Leadde",
+        url: "https://leadde.ai/",
+        descricao: "Criador de vídeos inteligente para empresas que transforma documentos e slides em vídeos envolventes com avatares e vozes de IA.",
+    },
+    {
         nome: "LTX-2",
         url: "https://ltx.io/model/ltx-2",
         descricao: "Modelo multimodal de próxima geração para geração de vídeo e áudio sincronizados em alta qualidade e resolução 4K.",

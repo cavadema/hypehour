@@ -10,6 +10,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Youmind", url: "https://youmind.com/pt-BR", descricao: "Agente de criação que utiliza IA generativa para organizar materiais, conectar ideias e gerar insights estruturados a partir de diversos conteúdos." },
   { nome: "Relevance AI", url: "https://relevanceai.com/", descricao: "Plataforma low-code para construir e orquestrar forças de trabalho autônomas de agentes de IA." },
   { nome: "LangFlow", url: "https://www.langflow.org/", descricao: "Framework visual low-code para construir aplicações de IA, RAG e sistemas multi-agentes." },
   { nome: "Play AI", url: "https://docs.play.ai/documentation/get-started/overview", descricao: "Agentes de IA conversacionais de alta velocidade e interfaces de voz para empresas." },
