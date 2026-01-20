@@ -8,7 +8,6 @@ export const metadata = {
 };
 
 const ferramentas = [
-  { nome: "Chatgot", url: "https://www.chatgot.io/", descricao: "Assistente de IA abrangente que combina chat e pesquisa em tempo real com múltiplos modelos como GPT-4, Claude e Gemini." },
   { nome: "Hipcityreg", url: "https://hipcityreg-situation-monitor.vercel.app/", descricao: "Painel em tempo real projetado para monitorar notícias globais, mercados e eventos geopolíticos em uma visão consolidada." },
   { nome: "Spangle", url: "https://www.spangle.ai/", descricao: "Plataforma de e-commerce baseada em IA que cria experiências de compra personalizadas e landing pages otimizadas em tempo real." },
   { nome: "Ringg AI", url: "https://www.ringg.ai/", descricao: "Assistentes de voz com IA para automatizar chamadas, qualificar leads e agendar reuniões." },

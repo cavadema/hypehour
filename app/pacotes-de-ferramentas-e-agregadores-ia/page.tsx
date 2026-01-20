@@ -3,6 +3,11 @@ import Link from "next/link";
 
 const ferramentas = [
     {
+        nome: "Chatgot",
+        url: "/ferramentas/chatgot",
+        descricao: "Plataforma multimodelo que reúne GPT-4, Claude e Gemini em uma interface única com pesquisa em tempo real.",
+    },
+    {
         nome: "Yonoo",
         url: "https://yonoo.ai/",
         descricao: "Plataforma de descoberta e motor de busca para encontrar as melhores ferramentas de IA.",

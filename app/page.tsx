@@ -48,12 +48,12 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://hailuoai.video/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+          <a href="/ferramentas/hailuo-ai" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Hailuo AI</span>
             <p className="text-zinc-700">Transforma prompts de texto e imagens em vídeos de alta qualidade em segundos com IA avançada.</p>
             <span className="text-xs text-zinc-500">Adicionada em 20/01/2026</span>
           </a>
-          <a href="https://www.chatgot.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+          <a href="/ferramentas/chatgot" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Chatgot</span>
             <p className="text-zinc-700">Assistente de IA abrangente que combina chat e pesquisa em tempo real com múltiplos modelos.</p>
             <span className="text-xs text-zinc-500">Adicionada em 20/01/2026</span>

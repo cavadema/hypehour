@@ -5,7 +5,7 @@ import FAQSection from "./FAQSection";
 const ferramentas = [
     {
         nome: "Hailuo AI",
-        url: "https://hailuoai.video/",
+        url: "/ferramentas/hailuo-ai",
         descricao: "Plataforma inovadora que transforma prompts de texto e imagens em vídeos de alta qualidade em segundos com IA avançada.",
     },
     {

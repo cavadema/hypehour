@@ -197,6 +197,12 @@
     <lastmod>2026-01-02</lastmod>
   </url>
   <url>
+    <loc>https://www.hypehour.com.br/ferramentas/hailuo-ai</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.hypehour.com.br/ferramentas/klingai</loc>
     <lastmod>2026-01-04</lastmod>
   </url>
@@ -262,6 +268,14 @@
   </url> 
   <url>
     <loc>https://www.hypehour.com.br/ferramentas/flowgpt</loc>
+    <lastmod>2026-01-20</lastmod>
+  </url> 
+  <url>
+    <loc>https://www.hypehour.com.br/ferramentas/chatgot<loc>
+    <lastmod>2026-01-20</lastmod>
+  </url> 
+  <url>
+    <loc>https://www.hypehour.com.br/ferramentas/hailuo-ai</loc>
     <lastmod>2026-01-20</lastmod>
   </url> 
 </urlset>
