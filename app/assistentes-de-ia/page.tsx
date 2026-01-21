@@ -8,6 +8,21 @@ export const metadata = {
 };
 
 const ferramentas = [
+  {
+    nome: "AuthorVoices",
+    url: "https://www.authorvoices.ai/",
+    descricao: "Plataforma para criação de audiobooks e narrações com vozes de IA altamente realistas e expressivas.",
+  },
+  {
+    nome: "Awesome ChatGPT Prompts",
+    url: "https://prompts.chat/",
+    descricao: "Curadoria colaborativa dos melhores prompts para extrair o máximo de modelos como ChatGPT e Claude.",
+  },
+  {
+    nome: "Aside",
+    url: "https://getaside.co/",
+    descricao: "Assistente de IA focado em produtividade para gerenciar tarefas e informações de forma centralizada.",
+  },
   { nome: "DoAnything", url: "https://www.doanything.com/", descricao: "Assistente de IA versátil e flexível para automação de tarefas cotidianas e profissionais." },
   { nome: "Hipcityreg", url: "https://hipcityreg-situation-monitor.vercel.app/", descricao: "Painel em tempo real projetado para monitorar notícias globais, mercados e eventos geopolíticos em uma visão consolidada." },
   { nome: "Spangle", url: "https://www.spangle.ai/", descricao: "Plataforma de e-commerce baseada em IA que cria experiências de compra personalizadas e landing pages otimizadas em tempo real." },

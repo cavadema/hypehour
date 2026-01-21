@@ -10,6 +10,11 @@ export const metadata = {
 };
 
 const ferramentas = [
+  {
+    nome: "Novix",
+    url: "https://novix.science/",
+    descricao: "Assistente científico baseado em agentes de IA para acelerar pesquisas e análise de dados científicos.",
+  },
   { nome: "Scroll AI", url: "https://www.scroll.ai/", descricao: "Transforma o conhecimento da sua empresa em agentes de IA especialistas com citações e fontes." },
   { nome: "Youmind", url: "https://youmind.com/pt-BR", descricao: "Agente de criação que utiliza IA generativa para organizar materiais, conectar ideias e gerar insights estruturados a partir de diversos conteúdos." },
   { nome: "Relevance AI", url: "https://relevanceai.com/", descricao: "Plataforma low-code para construir e orquestrar forças de trabalho autônomas de agentes de IA." },

@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 import FAQSection from "./FAQSection";
 
 const ferramentas = [
+  {
+    nome: "Lido",
+    url: "https://www.lido.app/",
+    descricao: "Extraia dados de PDFs e documentos automaticamente para planilhas estruturadas e fluxos de automação.",
+  },
   { nome: "Doctly", url: "https://doctly.ai/", descricao: "IA para ler, resumir e organizar PDFs com extração de dados segura." },
   { nome: "Docparser", url: "https://docparser.com/", descricao: "Extrai dados estruturados de PDFs e automatiza fluxos de documentos." },
   { nome: "ChatPDF", url: "/ferramentas/chatpdf", descricao: "Converse com seus PDFs em português para resumos e respostas rápidas." },

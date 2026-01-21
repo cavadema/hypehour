@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Napkin AI",
+        url: "https://www.napkin.ai/",
+        descricao: "Transforme textos e ideias em diagramas, fluxogramas e visuais profissionais instantaneamente com IA.",
+    },
+    {
         nome: "SlideWhisper",
         url: "https://www.slidewhisper.com/",
         descricao: "Transforme conversas e áudios em apresentações completas e documentos estruturados com IA.",

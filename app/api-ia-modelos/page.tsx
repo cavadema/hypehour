@@ -3,6 +3,11 @@ import { SparklesIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
 const ferramentas = [
+  {
+    nome: "Parallel",
+    url: "https://parallel.ai/",
+    descricao: "Infraestrutura de API para agentes de IA navegarem na web e interagirem com serviços digitais nativamente.",
+  },
   { nome: "Dedalus Labs", url: "https://www.dedaluslabs.ai/", descricao: "Gateway MCP que conecta qualquer LLM a qualquer servidor MCP com uma única API drop-in." },
   { nome: "Token Factory", url: "https://tokenfactory.nebius.com/", descricao: "Acesse e integre modelos de LLM e imagem open-source premium via API simples e infraestrutura escalável." },
   {

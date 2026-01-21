@@ -4,6 +4,16 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "YuanZai",
+        url: "https://www.yuanzai.world/",
+        descricao: "RPG de mundo aberto movido por IA onde jogadores exploram diferentes eras através de simulações de viagem no tempo.",
+    },
+    {
+        nome: "Wingman",
+        url: "https://www.funwithcomputervision.com/wingman/",
+        descricao: "Co-piloto experimental que utiliza visão computacional para permitir o controle de jogos por gestos e movimentos faciais.",
+    },
+    {
         nome: "Sekai",
         url: "https://sekaiapp.com/",
         descricao: "TikTok para mini-apps e criação de jogos e experiências interativas com IA sem código.",

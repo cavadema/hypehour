@@ -3,6 +3,11 @@ import Link from "next/link";
 
 const newsletters = [
   {
+    nome: "Semana em IA",
+    url: "https://semanaemai.com.br/",
+    descricao: "Newsletter brasileira com resumos de notícias, ferramentas e prompts práticos para produtividade com IA.",
+  },
+  {
     nome: "AINews",
     url: "https://news.smol.ai/",
     descricao: "Resumos diários das principais notícias de IA para engenheiros e desenvolvedores.",

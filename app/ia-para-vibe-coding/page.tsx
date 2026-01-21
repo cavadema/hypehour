@@ -11,6 +11,11 @@ export const metadata = {
 };
 
 const ferramentas = [
+  {
+    nome: "Dessn",
+    url: "https://www.dessn.ai/",
+    descricao: "Ferramenta de vibe coding que permite criar interfaces de usuário diretamente no código através de desenhos e interações visuais.",
+  },
   { nome: "RepoPrompt", url: "https://repoprompt.com/", descricao: "Engenharia de contexto e colaboração de agentes IA no macOS para fluxos de vibe coding." },
   { nome: "Rork", url: "https://rork.com/", descricao: "Crie aplicativos móveis nativos para iOS e Android descrevendo sua ideia em linguagem natural." },
   { nome: "PageAI", url: "https://pageai.pro/", descricao: "Transforme prompts de texto em sites profissionais, otimizados e totalmente codificados em minutos." },
