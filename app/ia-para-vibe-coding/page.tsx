@@ -11,6 +11,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "RepoPrompt", url: "https://repoprompt.com/", descricao: "Engenharia de contexto e colaboração de agentes IA no macOS para fluxos de vibe coding." },
   { nome: "Rork", url: "https://rork.com/", descricao: "Crie aplicativos móveis nativos para iOS e Android descrevendo sua ideia em linguagem natural." },
   { nome: "PageAI", url: "https://pageai.pro/", descricao: "Transforme prompts de texto em sites profissionais, otimizados e totalmente codificados em minutos." },
   { nome: "Windsurf", url: "https://windsurf.com/", descricao: "IDE de código com IA que mantém você no fluxo, integrando agentes de codificação e ferramentas inteligentes." },

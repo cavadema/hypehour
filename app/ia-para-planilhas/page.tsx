@@ -4,6 +4,7 @@ import ExpandableContent from "./ExpandableContent";
 import FAQSection from "./FAQSection";
 
 const ferramentas = [
+  { nome: "Pane", url: "https://paneapp.com/", descricao: "Simplifica o trabalho com planilhas e dados usando agentes de IA de última geração." },
   { nome: "Quadratic", url: "https://www.quadratichq.com/", descricao: "Torna o trabalho com planilhas simples, com resultados impressionantes. Adicione dados, faça perguntas, transforme, analise, visualize e compartilhe." },
   { nome: "Shortcut", url: "https://www.tryshortcut.ai/", descricao: "Automatiza tarefas de Excel/Sheets com IA, gerando fórmulas e análises." },
   { nome: "Sheets Organizer", url: "https://www.sheetsorganizer.com/", descricao: "Automatize planilhas e dashboards com IA para relatórios e análises." },

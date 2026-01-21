@@ -3,6 +3,7 @@ import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
+  { nome: "SemiAnalysis", url: "https://semianalysis.com/", descricao: "Pesquisa e análise profunda sobre infraestrutura de semicondutores e IA." },
   { nome: "Becomeautonomous", url: "https://becomeautonomous.com/", descricao: "Plataforma de consultoria financeira com estratégias baseadas em pesquisa para rebalanceamento de portfólio e gestão de impostos." },
   { nome: "Optivault", url: "https://optivault.co/", descricao: "Consultor financeiro pessoal com IA. Automatize economias, rastreie patrimônio e receba conselhos financeiros." },
   { nome: "Public", url: "https://public.com/", descricao: "Plataforma de investimentos com IA para análise de mercado e recomendações personalizadas." },

@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Elser AI",
+        url: "https://www.elser.ai/",
+        descricao: "Plataforma completa para gerar vídeos e filmes de anime com consistência de personagens e cenas.",
+    },
+    {
         nome: "Hailuo AI",
         url: "/ferramentas/hailuo-ai",
         descricao: "Plataforma inovadora que transforma prompts de texto e imagens em vídeos de alta qualidade em segundos com IA avançada.",

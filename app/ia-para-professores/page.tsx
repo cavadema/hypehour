@@ -4,6 +4,16 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
   {
+    nome: "Aristotle",
+    url: "https://aristotle.harmonic.fun/",
+    descricao: "IA para resolução de problemas matemáticos complexos sem alucinações.",
+  },
+  {
+    nome: "Handshake AI",
+    url: "https://joinhandshake.com/ai",
+    descricao: "Conecta talentos acadêmicos a laboratórios de IA para melhorar modelos LLM.",
+  },
+  {
     nome: "Conker.AI",
     url: "/ferramentas/conker",
     descricao: "Gera quizzes alinhados a padrões curriculares com poucos cliques.",

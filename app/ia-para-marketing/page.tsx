@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Seorce",
+        url: "https://seorce.com/",
+        descricao: "SEO e visibilidade unificada para buscas em IA (ChatGPT, Claude, Perplexity).",
+    },
+    {
         nome: "Option",
         url: "https://www.tryoption.ai/",
         descricao: "Plataforma líder em visibilidade de GEO (Generative Engine Optimization) para monitorar e otimizar a presença de marcas em modelos como ChatGPT e Gemini.",

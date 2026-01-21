@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Sekai",
+        url: "https://sekaiapp.com/",
+        descricao: "TikTok para mini-apps e criação de jogos e experiências interativas com IA sem código.",
+    },
+    {
         nome: "YouTube Playables Builder",
         url: "https://www.youtube.com/playablesbuilder/",
         descricao: "Ferramenta do YouTube para criar jogos interativos e experiências jogáveis diretamente na plataforma."
