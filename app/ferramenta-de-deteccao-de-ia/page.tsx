@@ -10,7 +10,7 @@ const ferramentas = [
   },
   {
     nome: "Sidekicker",
-    url: "https://sidekicker.ai/pt/ai-detector",
+    url: "/ferramentas/sidekicker",
     descricao: "Análise rápida de textos com relatórios sobre probabilidade de IA.",
   },
   {

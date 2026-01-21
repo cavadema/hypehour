@@ -5,7 +5,7 @@ import ExpandableContent from "./ExpandableContent";
 const ferramentas = [
   {
     nome: "Conker.AI",
-    url: "https://www.conker.ai/",
+    url: "/ferramentas/conker",
     descricao: "Gera quizzes alinhados a padrões curriculares com poucos cliques.",
   },
   {

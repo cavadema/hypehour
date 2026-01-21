@@ -11,7 +11,7 @@ const ferramentas = [
   { nome: "Ajelix", url: "https://ajelix.com/", descricao: "Plataforma de IA para gerar fórmulas, explicar código e automação de planilhas." },
   { nome: "Sheet AI", url: "https://www.sheetai.app/pt", descricao: "Plugin de IA para Google Sheets que automatiza tarefas e análises de dados." },
   { nome: "Coefficient", url: "https://coefficient.io/ai", descricao: "Conecta suas planilhas com dados em tempo real usando IA." },
-  { nome: "Excelmatic", url: "https://excelmatic.ai/pt/", descricao: "Gerador de fórmulas e automação para Excel com inteligência artificial." },
+  { nome: "Excelmatic", url: "/ferramentas/excelmatic", descricao: "Gerador de fórmulas e automação para Excel com inteligência artificial." },
   { nome: "Zoho Sheet", url: "https://www.zoho.com/pt-br/sheet/", descricao: "Planilha colaborativa com IA para análise de dados e relatórios." },
   { nome: "Sheet Magic", url: "https://sheetmagic.ai/", descricao: "Assistente de IA para Google Sheets com automação e geração de fórmulas." },
   { nome: "FormulasHQ", url: "https://formulashq.com/", descricao: "Plataforma para criar e compartilhar fórmulas de Excel com IA." },
