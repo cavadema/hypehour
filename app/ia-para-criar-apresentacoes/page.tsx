@@ -35,12 +35,12 @@ const ferramentas = [
     },
     {
         nome: "SlidesGO",
-        url: "https://slidesgo.com/pt/",
+        url: "/ferramentas/slidesgo",
         descricao: "Modelos de slides criativos e gerador de apresentações com IA integrado.",
     },
     {
         nome: "Smallppt",
-        url: "https://smallppt.com/pt",
+        url: "/ferramentas/smallppt",
         descricao: "Ferramentas de IA para criar, editar e otimizar apresentações em PowerPoint.",
     },
     {
@@ -65,7 +65,7 @@ const ferramentas = [
     },
     {
         nome: "Visme",
-        url: "https://www.visme.co/pt-br/",
+        url: "/ferramentas/visme",
         descricao: "Ferramenta tudo-em-um para criar apresentações, infográficos e conteúdos visuais com IA.",
     },
     {
