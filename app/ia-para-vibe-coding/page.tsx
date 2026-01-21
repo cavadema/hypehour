@@ -36,7 +36,7 @@ const ferramentas = [
   { nome: "Replit", url: "https://replit.com", descricao: "IDE online com recursos colaborativos e assistentes de código." },
   { nome: "Base44", url: "https://base44.com", descricao: "Ferramenta/infra de IA para criar apps completos." },
   { nome: "Trae", url: "https://trae.ai", descricao: "IDE adaptativo com IA da ByteDance." },
-  { nome: "Cursor", url: "https://www.cursor.com", descricao: "IDE com assistente de código e recursos AI." },
+  { nome: "Cursor", url: "/ferramentas/cursor", descricao: "IDE com assistente de código e recursos AI." },
   { nome: "Tempo", url: "https://tempo.new", descricao: "Ferramenta focada em produtividade para devs React." },
   { nome: "Create", url: "https://www.create.xyz", descricao: "Ferramenta de geração de apps via prompt." },
   { nome: "Google AI Studio", url: "https://aistudio.google.com/", descricao: "Plataforma de ferramentas AI do Google (Studio)." },

@@ -12,7 +12,7 @@ const ferramentas = [
   { nome: "Ringr", url: "https://ringr.ai/en/", descricao: "Assistente de voz especializado em automação de atendimento e suporte ao cliente." },
   { nome: "Bland AI", url: "https://www.bland.ai/", descricao: "Infraestrutura para chamadas telefônicas automatizadas por IA que soam humanas. Ideal para vendas e suporte." },
   { nome: "Nauta", url: "https://www.getnauta.com/", descricao: "IA focada em atendimento ao cliente, automação de respostas e suporte, geralmente via chat ou canais digitais." },
-  { nome: "Chatbase", url: "https://www.chatbase.co/", descricao: "Crie chatbots de IA treinados com seus dados para atendimento automatizado 24/7." },
+  { nome: "Chatbase", url: "/ferramentas/chatbase", descricao: "Crie chatbots de IA treinados com seus dados para atendimento automatizado 24/7." },
   { nome: "Expertise.ai", url: "https://www.expertise.ai/pt", descricao: "Plataforma de IA para otimizar atendimento ao cliente com automação inteligente e insights." },
   { nome: "Robbu", url: "https://robbu.global/", descricao: "Plataforma de automação de atendimento com IA para otimizar suporte ao cliente." },
   { nome: "Helploom", url: "https://helploom.com/", descricao: "Plataforma de atendimento com IA para automação e gestão integrada." },
@@ -22,7 +22,7 @@ const ferramentas = [
   { nome: "Contentsquare", url: "https://contentsquare.com/", descricao: "Plataforma de experiência digital com IA para otimizar jornada de atendimento." },
   { nome: "Poly.ai", url: "https://poly.ai/", descricao: "Assistente de voz com IA para atendimento ao cliente por telefone e canais digitais." },
   { nome: "Keplar Voice", url: "https://www.keplar.io/voice", descricao: "Agente de voz com IA para atendimento em chamadas." },
-  { nome: "Intercom", url: "https://www.intercom.com/", descricao: "Plataforma de atendimento ao cliente com IA para chatbots e suporte automatizado." },
+  { nome: "Intercom", url: "/ferramentas/intercom", descricao: "Plataforma de atendimento ao cliente com IA para chatbots e suporte automatizado." },
   { nome: "NeoAgent", url: "https://neoagent.co/", descricao: "Assistência ao cliente com IA 24/7 para WhatsApp, web e telefone." },
   { nome: "Leads360", url: "https://leads360.com.br/crm-atendimento-ia/", descricao: "CRM com atendimento por IA que une atendimento humano e automação para transformar conversas em vendas." },
 ];

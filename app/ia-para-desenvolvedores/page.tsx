@@ -19,7 +19,7 @@ const ferramentas = [
   { nome: "BitDive", url: "https://bitdive.io/", descricao: "Inteligência de código para monitorar e analisar a qualidade e segurança dos seus repositórios." },
   { nome: "Giselles", url: "https://giselles.ai/", descricao: "Construa aplicações de IA personalizadas visualmente, sem código, automatizando pesquisas e tarefas complexas." },
   { nome: "Albus", url: "https://albus.org/", descricao: "Workspace na nuvem que organiza automaticamente documentos e oferece busca semântica e multi-funções com IA." },
-  { nome: "Grafana", url: "https://grafana.com/", descricao: "Plataforma líder para observabilidade e monitoramento. Visualize métricas, logs e traces de qualquer fonte com dashboards personalizáveis." },
+  { nome: "Grafana", url: "/ferramentas/grafana", descricao: "Plataforma líder para observabilidade e monitoramento. Visualize métricas, logs e traces de qualquer fonte com dashboards personalizáveis." },
   { nome: "Splunk", url: "https://www.splunk.com/", descricao: "Plataforma de dados para segurança e observabilidade. Investigue, monitore e analise dados em tempo real e escala." },
   { nome: "fal.ai", url: "https://fal.ai/", descricao: "Infraestrutura serverless otimizada para modelos de mídia generativa (vídeo, imagem, áudio) com inferência ultra-rápida." },
   { nome: "marimo", url: "https://marimo.io/", descricao: "Notebook reativo para Python, open-source e reprodutível. Alternativa moderna ao Jupyter que roda como app." },
@@ -104,7 +104,7 @@ const ferramentas = [
     url: "https://github.com/features/copilot",
     descricao: "Assistente de código da GitHub/OpenAI para autocompletar e gerar trechos de código.",
   },
-  { nome: "Cursor", url: "https://www.cursor.com", descricao: "IDE com assistente de código e recursos de AI." },
+  { nome: "Cursor", url: "/ferramentas/cursor", descricao: "IDE com assistente de código e recursos de AI." },
   { nome: "Claude Code", url: "https://www.claude.com/product/claude-code", descricao: "Assistente de código baseado na família Claude (Anthropic)." },
   {
     nome: "Windsurf",
