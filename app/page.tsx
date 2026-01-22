@@ -48,35 +48,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://www.observeinc.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ChartBarIcon className="w-5 h-5" /> Observe Inc</span>
-            <p className="text-zinc-700">Plataforma de observabilidade moderna corporativa com IA para SRE e análise de logs.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 21/01/2026</span>
+          <a href="https://n8ncoder.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CogIcon className="w-5 h-5" /> n8ncoder</span>
+            <p className="text-zinc-700">Chat IA para criar, editar e depurar fluxos de automação no n8n sem código.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 22/01/2026</span>
           </a>
-          <a href="https://aristotle.harmonic.fun/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Aristotle</span>
-            <p className="text-zinc-700">IA para resolução de problemas matemáticos complexos sem alucinações e suporte acadêmico.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 21/01/2026</span>
+          <a href="https://block.github.io/goose/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CommandLineIcon className="w-5 h-5" /> Goose</span>
+            <p className="text-zinc-700">Agente de IA open-source para engenharia que executa tarefas complexas localmente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 22/01/2026</span>
           </a>
-          <a href="https://www.elser.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Elser AI</span>
-            <p className="text-zinc-700">Plataforma completa para gerar vídeos e filmes de anime com consistência de personagens e cenas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 21/01/2026</span>
+          <a href="https://www.thesecondbrain.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> The Second Brain</span>
+            <p className="text-zinc-700">Quadro visual interativo para gerenciar conhecimento e conversar com vídeos e documentos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 22/01/2026</span>
           </a>
-          <a href="https://sekaiapp.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Sekai</span>
-            <p className="text-zinc-700">TikTok para mini-apps e criação de jogos e experiências interativas com IA sem código.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 21/01/2026</span>
+          <a href="https://www.tryoption.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Option</span>
+            <p className="text-zinc-700">Plataforma líder de GEO (Generative Engine Optimization) para monitorar sua marca nas IAs.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 22/01/2026</span>
           </a>
-          <a href="https://repoprompt.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> RepoPrompt</span>
-            <p className="text-zinc-700">Engenharia de contexto e colaboração de agentes IA no macOS para fluxos de vibe coding avançados.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 21/01/2026</span>
+          <a href="https://www.onebrief.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Onebrief</span>
+            <p className="text-zinc-700">IA para planejamento estratégico e colaboração em operações e decisões complexas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 22/01/2026</span>
           </a>
-          <a href="https://www.scroll.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Scroll AI</span>
-            <p className="text-zinc-700">Transforma o conhecimento da sua empresa em agentes de IA especialistas com citações e fontes.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 21/01/2026</span>
+          <a href="https://claritydocs.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> Clarity</span>
+            <p className="text-zinc-700">Assistente de documentos inteligente para análise profunda e colaboração rápida.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 22/01/2026</span>
           </a>
         </div>
       </section>

@@ -9,6 +9,21 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "The Second Brain",
+    url: "https://www.thesecondbrain.io/",
+    descricao: "Crie um segundo cérebro digital com IA para gerenciar conhecimento, resumir vídeos e documentos em um quadro visual interativo.",
+  },
+  {
+    nome: "Goose",
+    url: "https://block.github.io/goose/",
+    descricao: "Agente de IA open-source focado em engenharia que executa e automatiza tarefas de desenvolvimento complexas localmente.",
+  },
+  {
+    nome: "Clarity",
+    url: "https://claritydocs.ai/",
+    descricao: "Assistente de documentos com IA para extrair insights, analisar informações e colaborar em equipe sobre arquivos complexos.",
+  },
+  {
     nome: "AuthorVoices",
     url: "https://www.authorvoices.ai/",
     descricao: "Plataforma para criação de audiobooks e narrações com vozes de IA altamente realistas e expressivas.",

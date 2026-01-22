@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Onebrief",
+        url: "https://www.onebrief.com/",
+        descricao: "Plataforma de colaboração e workflow com IA focada em planejamento estratégico e tomada de decisão para operações complexas.",
+    },
+    {
         nome: "Seorce",
         url: "https://seorce.com/",
         descricao: "SEO e visibilidade unificada para buscas em IA (ChatGPT, Claude, Perplexity).",

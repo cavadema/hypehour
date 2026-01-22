@@ -3,6 +3,7 @@ import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
+  { nome: "n8ncoder", url: "https://n8ncoder.com/", descricao: "Extensão de chat com IA para o n8n que permite criar, editar e depurar fluxos de automação usando linguagem natural." },
   { nome: "File.ai", url: "https://www.file.ai/", descricao: "Automação inteligente de processamento de documentos e extração de dados para BPOs." },
   { nome: "Quantera", url: "https://www.quantera.ai/", descricao: "Agentes financeiros de IA para pesquisa de equity, insights e automação de fluxos de trabalho para instituições." },
   { nome: "Stack AI", url: "https://www.stack-ai.com/", descricao: "Plataforma empresarial no-code para construir e implantar agentes e workflows de IA." },
