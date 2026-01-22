@@ -40,7 +40,7 @@ const ferramentas = [
   },
   {
     nome: "Midjourney",
-    url: "https://www.midjourney.com/",
+    url: "/ferramentas/midjourney",
     descricao: "Geração de imagens artísticas por IA via Discord.",
   },
   {
@@ -70,7 +70,7 @@ const ferramentas = [
   },
   {
     nome: "Ideogram",
-    url: "https://ideogram.ai/",
+    url: "/ferramentas/ideogram",
     descricao: "Geração de imagens e textos artísticos por IA.",
   },
   {
@@ -120,12 +120,12 @@ const ferramentas = [
   },
   {
     nome: "HeyGen",
-    url: "https://www.heygen.com/",
+    url: "/ferramentas/heygen",
     descricao: "Crie vídeos com avatares de IA e traduções automáticas em múltiplos idiomas.",
   },
   {
     nome: "Higgsfield",
-    url: "https://higgsfield.ai/",
+    url: "/ferramentas/higgsfield",
     descricao: "Plataforma de geração de imagens e vídeos com IA de alta qualidade.",
   },
   {
@@ -145,8 +145,8 @@ const ferramentas = [
   },
   {
     nome: "Krea",
-    url: "https://www.krea.ai/",
-    descricao: "Plataforma com IA para criar e explorar imagens geradas por IA em comunidade colaborativa.",
+    url: "/ferramentas/krea",
+    descricao: "Plataforma com IA para criar e explorar imagens geradas por IA em tempo real.",
   },
   {
     nome: "Illustrate AI",

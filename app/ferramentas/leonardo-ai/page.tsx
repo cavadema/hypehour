@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "Leonardo AI - Gerador de Imagens com IA | Análise e Review",
@@ -381,6 +382,9 @@ export default function LeonardoAIPage() {
 
         {/* FAQ */}
         <FAQSection />
+
+        {/* Ferramentas Similares */}
+        <SimilarTools />
       </div>
     </main>
   );

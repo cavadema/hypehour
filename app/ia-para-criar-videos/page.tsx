@@ -110,7 +110,7 @@ const ferramentas = [
     },
     {
         nome: "HeyGen",
-        url: "https://www.heygen.com/pt-br/tool/free-ai-video-generator",
+        url: "/ferramentas/heygen",
         descricao: "Plataforma líder para criação de vídeos com avatares personalizados e tradução de vídeo.",
     },
     {
@@ -145,7 +145,7 @@ const ferramentas = [
     },
     {
         nome: "Higgsfield",
-        url: "https://higgsfield.ai/",
+        url: "/ferramentas/higgsfield",
         descricao: "Plataforma de IA para criação e edição de vídeos com recursos avançados de geração.",
     },
     {
