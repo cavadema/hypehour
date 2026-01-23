@@ -11,6 +11,16 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Actforge",
+    url: "https://www.actforge.com/",
+    descricao: "Plataforma para criar e gerenciar agentes de IA que executam tarefas complexas com autonomia.",
+  },
+  {
+    nome: "Stagehand",
+    url: "https://docs.stagehand.dev/v3/basics/agent",
+    descricao: "Framework para desenvolvimento de agentes de IA focados em execução de tarefas estruturadas.",
+  },
+  {
     nome: "Novix",
     url: "https://novix.science/",
     descricao: "Assistente científico baseado em agentes de IA para acelerar pesquisas e análise de dados científicos.",

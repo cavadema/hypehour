@@ -11,6 +11,9 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Vercel Bash Tool", url: "https://vercel.com/changelog/introducing-bash-tool-for-filesystem-based-context-retrieval", descricao: "Ferramenta da Vercel para busca de contexto baseada em sistema de arquivos via terminal." },
+  { nome: "CodexMonitor", url: "https://github.com/Dimillian/CodexMonitor", descricao: "Monitoramento inteligente de bases de código para desenvolvedores." },
+  { nome: "UI Skills", url: "https://www.ui-skills.com/", descricao: "Plataforma para aprimorar habilidades de UI e UX com suporte de IA." },
   { nome: "Observe Inc", url: "https://www.observeinc.com/", descricao: "Plataforma de observabilidade moderna corporativa com IA para SRE." },
   { nome: "Augment Code", url: "https://www.augmentcode.com/", descricao: "Plataforma de desenvolvimento que entende codebases inteiras para times profissionais." },
   { nome: "OpenCode", url: "https://opencode.ai/", descricao: "Agente de código de código aberto focado em privacidade que funciona via terminal e suporta diversos modelos de LLM." },

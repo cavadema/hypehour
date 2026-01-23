@@ -3,6 +3,11 @@ import Link from "next/link";
 
 const newsletters = [
   {
+    nome: "Ben's Bites",
+    url: "https://www.bensbites.com/",
+    descricao: "Newsletter diária com as principais novidades, tutoriais e ferramentas de IA para profissionais.",
+  },
+  {
     nome: "Semana em IA",
     url: "https://semanaemai.com.br/",
     descricao: "Newsletter brasileira com resumos de notícias, ferramentas e prompts práticos para produtividade com IA.",

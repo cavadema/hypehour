@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
   {
+    nome: "BetterShot",
+    url: "https://www.bettershot.site/",
+    descricao: "IA para gerar e aprimorar fotos com qualidade profissional em segundos.",
+  },
+  {
     nome: "Seedream 4.5",
     url: "https://replicate.com/bytedance/seedream-4.5",
     descricao: "Modelo de geração de imagem da ByteDance com alta coerência, qualidade fotorealista e controle preciso.",

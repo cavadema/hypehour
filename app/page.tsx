@@ -48,35 +48,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://n8ncoder.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CogIcon className="w-5 h-5" /> n8ncoder</span>
-            <p className="text-zinc-700">Chat IA para criar, editar e depurar fluxos de automação no n8n sem código.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 22/01/2026</span>
+          <a href="https://uxpilot.ai/pt" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> UX Pilot</span>
+            <p className="text-zinc-700">Plataforma de IA para design de UX, simplificando fluxos e criação de interfaces inteligentes.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 23/01/2026</span>
           </a>
-          <a href="https://block.github.io/goose/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CommandLineIcon className="w-5 h-5" /> Goose</span>
-            <p className="text-zinc-700">Agente de IA open-source para engenharia que executa tarefas complexas localmente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 22/01/2026</span>
+          <a href="https://dash.dropbox.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Dropbox Dash</span>
+            <p className="text-zinc-700">Busca universal conectada por IA para encontrar tudo o que sua empresa precisa em um só lugar.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 23/01/2026</span>
           </a>
-          <a href="https://www.thesecondbrain.io/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> The Second Brain</span>
-            <p className="text-zinc-700">Quadro visual interativo para gerenciar conhecimento e conversar com vídeos e documentos.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 22/01/2026</span>
+          <a href="https://www.bettershot.site/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> BetterShot</span>
+            <p className="text-zinc-700">IA para gerar e aprimorar fotos com qualidade profissional em segundos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 23/01/2026</span>
           </a>
-          <a href="https://www.tryoption.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Option</span>
-            <p className="text-zinc-700">Plataforma líder de GEO (Generative Engine Optimization) para monitorar sua marca nas IAs.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 22/01/2026</span>
+          <a href="https://github.com/Dimillian/CodexMonitor" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> CodexMonitor</span>
+            <p className="text-zinc-700">Monitoramento inteligente de bases de código para desenvolvedores diretamente no Github.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 23/01/2026</span>
           </a>
-          <a href="https://www.onebrief.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Onebrief</span>
-            <p className="text-zinc-700">IA para planejamento estratégico e colaboração em operações e decisões complexas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 22/01/2026</span>
+          <a href="https://www.bensbites.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><EnvelopeIcon className="w-5 h-5" /> Ben's Bites</span>
+            <p className="text-zinc-700">Newsletter diária com as principais novidades, tutoriais e ferramentas de IA para profissionais.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 23/01/2026</span>
           </a>
-          <a href="https://claritydocs.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> Clarity</span>
-            <p className="text-zinc-700">Assistente de documentos inteligente para análise profunda e colaboração rápida.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 22/01/2026</span>
+          <a href="https://github.com/gbasin/agentboard" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CommandLineIcon className="w-5 h-5" /> Agentboard</span>
+            <p className="text-zinc-700">Dashboard para monitorar e orquestrar múltiplos agentes de IA em tempo real.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 23/01/2026</span>
           </a>
         </div>
       </section>

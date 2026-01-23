@@ -8,6 +8,11 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Call Me", url: "https://github.com/ZeframLou/call-me", descricao: "Projeto open-source para automação e interação com agentes de IA." },
+  { nome: "Ralph TUI", url: "https://github.com/subsy/ralph-tui", descricao: "Interface de terminal moderna e intuitiva para gerenciar tarefas e IA." },
+  { nome: "Nanocode", url: "https://github.com/1rgs/nanocode", descricao: "Ambiente de desenvolvimento leve e focado em produtividade assistida por IA." },
+  { nome: "Agentboard", url: "https://github.com/gbasin/agentboard", descricao: "Dashboard para monitorar e orquestrar múltiplos agentes de IA em tempo real." },
+  { nome: "Sundial Skills", url: "https://github.com/sundial-org/skills/tree/main/skills/tinker", descricao: "Conjunto de habilidades e ferramentas para prototipar agentes de IA avançados." },
   { nome: "Claude Bootstrap", url: "https://github.com/alinaqi/claude-bootstrap", descricao: "Inicialização de projetos focada em segurança e IA-ativa para Claude Code." },
   { nome: "AI Observer", url: "https://github.com/tobilg/ai-observer", descricao: "Ferramenta de observabilidade local unificada para assistentes de codificação com IA." },
   { nome: "Gastown", url: "https://github.com/steveyegge/gastown", descricao: "Gerenciador de workspace multi-agente para fluxos de desenvolvimento complexos." },

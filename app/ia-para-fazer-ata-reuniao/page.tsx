@@ -12,6 +12,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Radiant", url: "https://radiantapp.com/", descricao: "Transforme suas reuniões em atas acionáveis e insights estratégicos com IA avançada." },
   { nome: "Circleback", url: "https://circleback.ai/", descricao: "IA para reuniões que gera notas precisas, identifica itens de ação e se integra ao seu CRM." },
   { nome: "Fellow", url: "https://fellow.ai/", descricao: "Plataforma IA para gerenciar reuniões, criar atas e acompanhar ações automaticamente." },
   { nome: "Reclaim", url: "https://reclaim.ai", descricao: "Assistente de IA para otimizar agenda e gerar resumos de reuniões." },

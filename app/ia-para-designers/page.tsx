@@ -9,6 +9,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "UX Pilot",
+    url: "https://uxpilot.ai/pt",
+    descricao: "Plataforma de IA para design de UX, simplificando fluxos e criação de interfaces inteligentes."
+  },
+  {
     nome: "Pomelli",
     url: "https://labs.google.com/pomelli/about/",
     descricao: "Experimento do Google Labs para criar padrões visuais, texturas e designs únicos com IA generativa."
