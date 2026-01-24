@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
   {
+    nome: "Pindrop",
+    url: "https://www.pindrop.com/",
+    descricao: "Tecnologia avançada para detecção de áudio gerado por IA e prevenção de fraudes de voz."
+  },
+  {
     nome: "QuillBot Detector de IA",
     url: "https://quillbot.com/pt/detector-de-ia",
     descricao: "Detector multilíngue para identificar sinais de conteúdo gerado por IA.",

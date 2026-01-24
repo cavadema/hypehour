@@ -9,6 +9,26 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Atlas",
+    url: "https://atlas.new/new/",
+    descricao: "Novo assistente de IA focado em produtividade e organização pessoal inteligente.",
+  },
+  {
+    nome: "Near AI",
+    url: "https://near.ai/private-chat",
+    descricao: "Chat privado com foco em segurança e soberania de dados para interações com IA.",
+  },
+  {
+    nome: "Confer",
+    url: "https://confer.to/",
+    descricao: "Assistente de IA para otimizar reuniões e facilitar a colaboração em tempo real.",
+  },
+  {
+    nome: "Atoms",
+    url: "https://atoms.dev/",
+    descricao: "Ferramenta para desenvolvedores criarem assistentes de IA modulares e escaláveis.",
+  },
+  {
     nome: "The Second Brain",
     url: "https://www.thesecondbrain.io/",
     descricao: "Crie um segundo cérebro digital com IA para gerenciar conhecimento, resumir vídeos e documentos em um quadro visual interativo.",

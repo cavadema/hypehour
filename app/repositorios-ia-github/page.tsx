@@ -8,6 +8,13 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Superpowers", url: "https://github.com/obra/superpowers", descricao: "Extensão para VS Code que adiciona superpoderes de IA ao seu fluxo de trabalho." },
+  { nome: "Ralph", url: "https://github.com/snarktank/ralph", descricao: "Framework de automação de agentes de IA focado em simplicidade e performance." },
+  { nome: "Thinking-with-Map", url: "https://github.com/AMAP-ML/Thinking-with-Map", descricao: "Ferramenta de raciocínio visual que ajuda IAs a pensar e planejar com mapas mentais." },
+  { nome: "Agent-browser", url: "https://github.com/vercel-labs/agent-browser", descricao: "Biblioteca da Vercel para permitir que agentes de IA naveguem e interajam com a web." },
+  { nome: "GLM-Image", url: "https://github.com/zai-org/GLM-Image", descricao: "Modelos avançados de compreensão e geração de imagem baseados em GLM." },
+  { nome: "Seta", url: "https://github.com/camel-ai/seta", descricao: "Framework para orquestração de sistemas multi-agentes complexos." },
+  { nome: "Eigent", url: "https://github.com/eigent-ai/eigent", descricao: "Soluções de IA para análise de dados e automação empresarial de alta performance." },
   { nome: "Call Me", url: "https://github.com/ZeframLou/call-me", descricao: "Projeto open-source para automação e interação com agentes de IA." },
   { nome: "Ralph TUI", url: "https://github.com/subsy/ralph-tui", descricao: "Interface de terminal moderna e intuitiva para gerenciar tarefas e IA." },
   { nome: "Nanocode", url: "https://github.com/1rgs/nanocode", descricao: "Ambiente de desenvolvimento leve e focado em produtividade assistida por IA." },

@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Agorapulse",
+        url: "https://www.agorapulse.com/",
+        descricao: "Gestão completa de redes sociais com recursos avançados de IA para análise e publicação."
+    },
+    {
         nome: "Onebrief",
         url: "https://www.onebrief.com/",
         descricao: "Plataforma de colaboração e workflow com IA focada em planejamento estratégico e tomada de decisão para operações complexas.",

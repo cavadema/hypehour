@@ -11,6 +11,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Vellum",
+    url: "https://www.vellum.ai/",
+    descricao: "Plataforma para construir, testar e monitorar agentes de IA em produção com facilidade.",
+  },
+  {
     nome: "Actforge",
     url: "https://www.actforge.com/",
     descricao: "Plataforma para criar e gerenciar agentes de IA que executam tarefas complexas com autonomia.",

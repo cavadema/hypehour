@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Vids.new",
+        url: "https://vids.new",
+        descricao: "Plataforma ultra-rápida para criar e editar vídeos com o poder da inteligência artificial."
+    },
+    {
         nome: "Elser AI",
         url: "https://www.elser.ai/",
         descricao: "Plataforma completa para gerar vídeos e filmes de anime com consistência de personagens e cenas.",

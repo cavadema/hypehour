@@ -3,6 +3,11 @@ import Link from "next/link";
 
 const ferramentas = [
   {
+    nome: "Elephan",
+    url: "https://www.elephan.ai/",
+    descricao: "Automação de vendas inteligente para acelerar o pipeline e converter mais leads."
+  },
+  {
     nome: "Card.biz",
     url: "https://card.biz/",
     descricao: "Plataforma de cartão de visita digital gratuita para captura de leads e integração nativa com CRM."
