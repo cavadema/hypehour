@@ -110,13 +110,13 @@ const ferramentas = [
     },
     {
         nome: "Writesonic",
-        url: "https://writesonic.com/",
-        descricao: "Ferramenta de escrita com IA para criar conteúdo de marketing otimizado para SEO.",
+        url: "/ferramentas/writesonic",
+        descricao: "Ferramenta líder para criação de conteúdo com IA focada em SEO e automação de marketing.",
     },
     {
         nome: "Temso",
-        url: "https://www.temso.ai/",
-        descricao: "IA para vendas e marketing que cria materiais comerciais e treina times com roteiros prontos.",
+        url: "/ferramentas/temso",
+        descricao: "Plataforma de visibilidade de AEO e GEO para monitorar e otimizar a presença de marcas em ferramentas de IA (ChatGPT, Gemini, etc).",
     },
     {
         nome: "Lumen5",
@@ -275,7 +275,7 @@ const ferramentas = [
     },
     {
         nome: "Profound",
-        url: "https://tryprofound.com/",
+        url: "/ferramentas/profound",
         descricao: "Monitorar, otimizar e ampliar a visibilidade da sua marca em mecanismos de busca e respostas geradas por IA.",
     },
     {
@@ -365,7 +365,7 @@ const ferramentas = [
     },
     {
         nome: "First Answer",
-        url: "https://firstanswer.ai/br/",
+        url: "/ferramentas/first-answer",
         descricao: "Descubra se sua marca está sendo citada pelas IAs e o que fazer para melhorar sua visibilidade.",
     },
     {
