@@ -9,6 +9,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Drift",
+    url: "https://drift.dvkk.dev/",
+    descricao: "Plataforma de IA conversacional para qualificação de leads e engajamento personalizado.",
+  },
+  {
     nome: "Atlas",
     url: "https://atlas.new/new/",
     descricao: "Novo assistente de IA focado em produtividade e organização pessoal inteligente.",

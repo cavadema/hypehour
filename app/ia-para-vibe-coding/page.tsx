@@ -12,6 +12,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Atoms",
+    url: "https://atoms.dev/",
+    descricao: "Ferramenta para criação ultra-rápida de aplicações e agentes via vibe coding.",
+  },
+  {
     nome: "Dessn",
     url: "https://www.dessn.ai/",
     descricao: "Ferramenta de vibe coding que permite criar interfaces de usuário diretamente no código através de desenhos e interações visuais.",

@@ -3,6 +3,11 @@ import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
+  {
+    nome: "Alpine",
+    url: "https://www.alpine.inc/",
+    descricao: "Workspace unificado que organiza automaticamente documentos, tarefas e conversas com IA."
+  },
   { nome: "Dropbox Dash", url: "https://dash.dropbox.com/", descricao: "Busca universal conectada por IA para encontrar tudo o que sua empresa precisa em um só lugar." },
   { nome: "Workday AI", url: "https://www.workday.com/", descricao: "Integração profunda de IA em processos corporativos de RH, finanças e gestão de talentos." },
   { nome: "Obviously AI", url: "https://www.paraform.com/company/obviously-ai", descricao: "Plataforma no-code para criar apps personalizados de LLM e realizar análise preditiva." },

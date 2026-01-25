@@ -1,5 +1,5 @@
 import {
-  SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, Square3Stack3DIcon,
+  SparklesIcon, PhotoIcon, CodeBracketIcon, CodeBracketSquareIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, Square3Stack3DIcon,
   UserIcon,
   UserGroupIcon,
   PhoneIcon, MicrophoneIcon, BuildingStorefrontIcon, CogIcon, ArrowPathIcon, ChartBarIcon, CommandLineIcon, CpuChipIcon
@@ -48,35 +48,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://atlas.new/new/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Atlas</span>
-            <p className="text-zinc-700">Novo assistente de IA focado em produtividade e organização pessoal inteligente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 24/01/2026</span>
+          <a href="https://www.alpine.inc/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Alpine</span>
+            <p className="text-zinc-700">Workspace unificado que organiza automaticamente documentos, tarefas e conversas com IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 25/01/2026</span>
           </a>
-          <a href="https://vids.new" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Vids.new</span>
-            <p className="text-zinc-700">Plataforma ultra-rápida para criar e editar vídeos com o poder da inteligência artificial.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 24/01/2026</span>
+          <a href="https://drift.dvkk.dev/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Drift</span>
+            <p className="text-zinc-700">Plataforma de IA conversacional para qualificação de leads e engajamento personalizado.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 25/01/2026</span>
           </a>
-          <a href="https://www.elephan.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingStorefrontIcon className="w-5 h-5" /> Elephan</span>
-            <p className="text-zinc-700">Automação de vendas inteligente para acelerar o pipeline e converter mais leads.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 24/01/2026</span>
+          <a href="https://getunblocked.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CommandLineIcon className="w-5 h-5" /> Unblocked</span>
+            <p className="text-zinc-700">Plataforma de inteligência que responde perguntas sobre seu código integrando as ferramentas do seu time.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 25/01/2026</span>
           </a>
-          <a href="https://www.vellum.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Vellum</span>
-            <p className="text-zinc-700">Plataforma para construir, testar e monitorar agentes de IA em produção com facilidade.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 24/01/2026</span>
+          <a href="https://trophy.so/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Trophy</span>
+            <p className="text-zinc-700">Infraestrutura de gamificação para retenção de usuários com APIs inteligentes e ferramentas no-code.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 25/01/2026</span>
           </a>
-          <a href="https://www.pindrop.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ShieldCheckIcon className="w-5 h-5" /> Pindrop</span>
-            <p className="text-zinc-700">Tecnologia avançada para detecção de áudio gerado por IA e prevenção de fraudes de voz.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 24/01/2026</span>
+          <a href="https://atoms.dev/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Atoms</span>
+            <p className="text-zinc-700">Ferramenta para criação ultra-rápida de aplicações e agentes via vibe coding.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 25/01/2026</span>
           </a>
-          <a href="https://www.agorapulse.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Agorapulse</span>
-            <p className="text-zinc-700">Gestão completa de redes sociais com recursos avançados de IA para análise e publicação.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 24/01/2026</span>
+          <a href="https://github.com/github/spec-kit" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketSquareIcon className="w-5 h-5" /> Spec Kit</span>
+            <p className="text-zinc-700">Toolkit para desenvolvimento orientado a especificações com IA, aumentando a confiabilidade na criação de apps.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 25/01/2026</span>
           </a>
         </div>
       </section>

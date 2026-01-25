@@ -11,6 +11,11 @@ export const metadata = {
 };
 
 const ferramentas = [
+  {
+    nome: "Unblocked",
+    url: "https://getunblocked.com/",
+    descricao: "Plataforma de inteligência que responde perguntas sobre seu código integrando GitHub, Slack e Jira."
+  },
   { nome: "Vercel Bash Tool", url: "https://vercel.com/changelog/introducing-bash-tool-for-filesystem-based-context-retrieval", descricao: "Ferramenta da Vercel para busca de contexto baseada em sistema de arquivos via terminal." },
   { nome: "CodexMonitor", url: "https://github.com/Dimillian/CodexMonitor", descricao: "Monitoramento inteligente de bases de código para desenvolvedores." },
   { nome: "UI Skills", url: "https://www.ui-skills.com/", descricao: "Plataforma para aprimorar habilidades de UI e UX com suporte de IA." },

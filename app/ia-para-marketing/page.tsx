@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Trophy",
+        url: "https://trophy.so/",
+        descricao: "Infraestrutura de gamificação para retenção de usuários com APIs inteligentes e ferramentas no-code."
+    },
+    {
         nome: "Agorapulse",
         url: "https://www.agorapulse.com/",
         descricao: "Gestão completa de redes sociais com recursos avançados de IA para análise e publicação."

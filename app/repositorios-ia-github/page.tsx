@@ -8,6 +8,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Spec Kit", url: "https://github.com/github/spec-kit", descricao: "Toolkit para desenvolvimento orientado a especificações com IA, aumentando a confiabilidade na criação de apps." },
+  { nome: "CaRR", url: "https://github.com/THUDM/CaRR", descricao: "Framework de reforço robusto para agentes de busca profunda com recompensas baseadas em citações." },
   { nome: "Superpowers", url: "https://github.com/obra/superpowers", descricao: "Extensão para VS Code que adiciona superpoderes de IA ao seu fluxo de trabalho." },
   { nome: "Ralph", url: "https://github.com/snarktank/ralph", descricao: "Framework de automação de agentes de IA focado em simplicidade e performance." },
   { nome: "Thinking-with-Map", url: "https://github.com/AMAP-ML/Thinking-with-Map", descricao: "Ferramenta de raciocínio visual que ajuda IAs a pensar e planejar com mapas mentais." },
