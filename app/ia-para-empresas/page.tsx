@@ -4,6 +4,16 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
   {
+    nome: "Box AI Extract",
+    url: "https://www.box.com/extract",
+    descricao: "Extração inteligente de dados estruturados de documentos e arquivos não estruturados em escala."
+  },
+  {
+    nome: "Tyce",
+    url: "https://www.tyce.ai/",
+    descricao: "Plataforma de IA para criação e análise de propostas e contratos técnicos para engenharia e arquitetura."
+  },
+  {
     nome: "Alpine",
     url: "https://www.alpine.inc/",
     descricao: "Workspace unificado que organiza automaticamente documentos, tarefas e conversas com IA."

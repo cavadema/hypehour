@@ -12,6 +12,16 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Meku",
+    url: "https://meku.dev/",
+    descricao: "Ferramenta de vibe coding para prototipar ideias em aplicações funcionais rapidamente.",
+  },
+  {
+    nome: "Open SaaS",
+    url: "https://opensaas.sh/",
+    descricao: "Starter kit open-source para SaaS com React, Node.js e recursos de IA integrados.",
+  },
+  {
     nome: "Atoms",
     url: "https://atoms.dev/",
     descricao: "Ferramenta para criação ultra-rápida de aplicações e agentes via vibe coding.",

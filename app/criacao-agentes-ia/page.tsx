@@ -11,6 +11,16 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Jotform Presentation Agent",
+    url: "https://www.jotform.com/ai/presentation-agent/",
+    descricao: "Agente de IA para criar apresentações de impacto e automatizar fluxos de atendimento visual.",
+  },
+  {
+    nome: "Dawiso Context Layer",
+    url: "https://www.dawiso.com/context-layer",
+    descricao: "Camada de contexto empresarial para fornecer definições e governança de dados para agentes de IA.",
+  },
+  {
     nome: "Gobii",
     url: "https://gobii.ai/",
     descricao: "Plataforma para criar trabalhadores digitais de IA que automatizam tarefas web, coleta de dados e prospecção de vendas.",

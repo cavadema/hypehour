@@ -10,6 +10,11 @@ export const metadata = {
 };
 
 const ferramentas = [
+  {
+    nome: "ChatGPT Translate",
+    url: "https://chatgpt.com/pt-BR/translate/",
+    descricao: "Use o poder do ChatGPT como um tradutor e tutor de idiomas avançado em tempo real.",
+  },
   { nome: "Pingo", url: "https://mypingoai.com/", descricao: "App de aprendizado de idiomas que usa IA para conversação realista e feedback de pronúncia instantâneo." },
   { nome: "Fluently", url: "https://app.getfluently.app/", descricao: "Assistente de escrita e tradução em tempo real para estudar inglês." },
   { nome: "TalkPal", url: "https://talkpal.ai/get-started/pt-br", descricao: "Prática de conversação com IA e feedback instantâneo." },

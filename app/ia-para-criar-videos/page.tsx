@@ -4,6 +4,16 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Pixverse",
+        url: "https://app.pixverse.ai/",
+        descricao: "Gerador de vídeos cinemáticos a partir de texto e imagens com alta fidelidade visual.",
+    },
+    {
+        nome: "Clipwise",
+        url: "https://www.clipwise.ai/",
+        descricao: "Criação de vídeos curtos e virais para redes sociais com automação de roteiro e edição.",
+    },
+    {
         nome: "Vids.new",
         url: "https://vids.new",
         descricao: "Plataforma ultra-rápida para criar e editar vídeos com o poder da inteligência artificial."

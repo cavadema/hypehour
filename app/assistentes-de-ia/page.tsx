@@ -9,6 +9,26 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Pretty Prompt",
+    url: "https://www.pretty-prompt.com/",
+    descricao: "Extensão de navegador para otimizar, salvar e compartilhar prompts de IA em equipe.",
+  },
+  {
+    nome: "Prompt Navigator",
+    url: "https://chromewebstore.google.com/detail/prompt-navigator/fhjhecdbkkcfaapnpnomdopedafeniee",
+    descricao: "Ferramenta de navegação e gerenciamento de prompts para acelerar o uso de LLMs no dia a dia.",
+  },
+  {
+    nome: "Openwork",
+    url: "https://openwork.me/",
+    descricao: "Agente de desktop open-source que automatiza tarefas de arquivos e navegador localmente.",
+  },
+  {
+    nome: "Weavin",
+    url: "https://weavin.ai/",
+    descricao: "Plataforma de pesquisa e extração de conhecimento que transforma documentos em insights citáveis.",
+  },
+  {
     nome: "Clawd",
     url: "https://clawd.bot/",
     descricao: "Assistente de IA pessoal auto-hospedado que funciona via WhatsApp e Telegram com memória persistente.",

@@ -9,6 +9,12 @@ export const metadata = {
 };
 
 const ferramentas = [
+  {
+    nome: "FlipCX",
+    url: "https://flipcx.com/",
+    descricao: "IA para atendimento ao cliente automatizado que resolve problemas por voz e texto sem intervenção humana."
+  },
+  { nome: "Trellus", url: "https://www.trellus.ai/", descricao: "Copiloto de vendas em tempo real que fornece coaching e insights durante as chamadas." },
   { nome: "Ringr", url: "https://ringr.ai/en/", descricao: "Assistente de voz especializado em automação de atendimento e suporte ao cliente." },
   { nome: "Bland AI", url: "https://www.bland.ai/", descricao: "Infraestrutura para chamadas telefônicas automatizadas por IA que soam humanas. Ideal para vendas e suporte." },
   { nome: "Nauta", url: "https://www.getnauta.com/", descricao: "IA focada em atendimento ao cliente, automação de respostas e suporte, geralmente via chat ou canais digitais." },

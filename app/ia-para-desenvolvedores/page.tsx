@@ -12,6 +12,46 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "DX (GetDX)",
+    url: "https://getdx.com/",
+    descricao: "Plataforma de inteligência de plataforma para medir e melhorar a produtividade de engenharia."
+  },
+  {
+    nome: "1Code",
+    url: "https://1code.dev/",
+    descricao: "Interface visual paralela para Claude Code que agiliza o desenvolvimento assistido por IA."
+  },
+  {
+    nome: "SkillSync",
+    url: "https://www.skillsync.wiki/",
+    descricao: "Plataforma de mentoria e mapeamento de competências impulsionada por IA para desenvolvedores."
+  },
+  {
+    nome: "JSON Render",
+    url: "https://json-render.dev/",
+    descricao: "Framework para gerar interfaces de usuário (UI) a partir de prompts usando componentes seguros."
+  },
+  {
+    nome: "React Best Practices Skill",
+    url: "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices",
+    descricao: "Conjunto de habilidades para agentes garantirem as melhores práticas de React no código."
+  },
+  {
+    nome: "Sybil",
+    url: "https://www.runsybil.com/",
+    descricao: "Plataforma de pentesting autônomo com IA para identificar vulnerabilidades de segurança."
+  },
+  {
+    nome: "CertPing",
+    url: "https://certping.com/",
+    descricao: "Monitoramento empresarial de SSL, uptime e proteção contra phishing com IA."
+  },
+  {
+    nome: "Aden",
+    url: "https://adenhq.com/",
+    descricao: "Governança financeira e ERP para gerenciar custos e eficiência de agentes de IA em produção."
+  },
+  {
     nome: "Cubic",
     url: "https://www.cubic.dev/",
     descricao: "Plataforma de code review com IA que analisa repositórios inteiros para identificar problemas complexos entre arquivos.",

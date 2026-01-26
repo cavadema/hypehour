@@ -8,6 +8,12 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Manifold", url: "https://github.com/Esrbwt1/manifold", descricao: "Toolkit para simplificar o deploy e gerenciamento seguro de modelos de IA." },
+  { nome: "Openwork-Repo", url: "https://github.com/different-ai/openwork", descricao: "Repositório do agente desktop Openwork, uma alternativa aberta para automação local." },
+  { nome: "Gambit", url: "https://github.com/bolt-foundry/gambit", descricao: "Framework de orquestração para construir e verificar fluxos de trabalho complexos com LLMs." },
+  { nome: "1Code-Repo", url: "https://github.com/21st-dev/1code", descricao: "Interface visual para Claude Code, permitindo rodar múltiplos agentes de programação em paralelo." },
+  { nome: "Claude-Code-Router", url: "https://github.com/musistudio/claude-code-router", descricao: "Roteador inteligente para Claude Code que otimiza custos e limites de contexto entre provedores." },
+  { nome: "DASD Thinking", url: "https://github.com/D2I-ai/dasd-thinking", descricao: "Projeto de pesquisa em arquiteturas de raciocínio profundo e modelos sistêmicos de IA." },
   { nome: "Spec Kit", url: "https://github.com/github/spec-kit", descricao: "Toolkit para desenvolvimento orientado a especificações com IA, aumentando a confiabilidade na criação de apps." },
   { nome: "CaRR", url: "https://github.com/THUDM/CaRR", descricao: "Framework de reforço robusto para agentes de busca profunda com recompensas baseadas em citações." },
   { nome: "Superpowers", url: "https://github.com/obra/superpowers", descricao: "Extensão para VS Code que adiciona superpoderes de IA ao seu fluxo de trabalho." },

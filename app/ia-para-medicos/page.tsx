@@ -13,7 +13,17 @@ export const metadata = {
 
 const ferramentas = [
     {
-        nome: "Heidi Health",
+        nome: "Biomni",
+        url: "https://biomni.stanford.edu/",
+        descricao: "Modelos de fundação biomédica da Stanford para acelerar a pesquisa e diagnóstico clínico.",
+    },
+    {
+        nome: "Mozzarellm",
+        url: "https://github.com/cheeseman-lab/mozzarellm",
+        descricao: "Ferramenta baseada em LLM para análise de clusters de genes e descoberta de caminhos biológicos.",
+    },
+    {
+        nome: "Dr. Guard AI",
         url: "https://www.heidihealth.com/",
         descricao: "Escriba médico de IA que automatiza notas clínicas, preenche documentos e dita cartas, permitindo que médicos foquem no cuidado ao paciente.",
     },

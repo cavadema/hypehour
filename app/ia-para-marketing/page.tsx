@@ -4,6 +4,26 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Steno",
+        url: "https://www.steno.ai/",
+        descricao: "Plataforma de clone digital para criar avatares de voz e chat que representam marcas e treinadores."
+    },
+    {
+        nome: "Ekamoira GSC",
+        url: "https://app.ekamoira.com/tools/gsc",
+        descricao: "Ferramenta de consultas em linguagem natural para o Google Search Console via agentes de IA."
+    },
+    {
+        nome: "Optimizely One",
+        url: "https://www.optimizely.com/",
+        descricao: "Plataforma de experiência digital que integra agentes de IA para personalização e conteúdo."
+    },
+    {
+        nome: "Prompt Panda",
+        url: "https://www.promptpanda.io",
+        descricao: "Gerenciamento e otimização de biblioteca de prompts para equipes de marketing e conteúdo."
+    },
+    {
         nome: "Trophy",
         url: "https://trophy.so/",
         descricao: "Infraestrutura de gamificação para retenção de usuários com APIs inteligentes e ferramentas no-code."
