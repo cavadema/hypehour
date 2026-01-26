@@ -9,6 +9,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Clawd",
+    url: "https://clawd.bot/",
+    descricao: "Assistente de IA pessoal auto-hospedado que funciona via WhatsApp e Telegram com memória persistente.",
+  },
+  {
     nome: "Drift",
     url: "https://drift.dvkk.dev/",
     descricao: "Plataforma de IA conversacional para qualificação de leads e engajamento personalizado.",

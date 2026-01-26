@@ -48,35 +48,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://www.alpine.inc/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Alpine</span>
-            <p className="text-zinc-700">Workspace unificado que organiza automaticamente documentos, tarefas e conversas com IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 25/01/2026</span>
+          <a href="https://clawd.bot/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Clawd</span>
+            <p className="text-zinc-700">Assistente de IA pessoal auto-hospedado que funciona via WhatsApp e Telegram com memória persistente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 26/01/2026</span>
           </a>
-          <a href="https://drift.dvkk.dev/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Drift</span>
-            <p className="text-zinc-700">Plataforma de IA conversacional para qualificação de leads e engajamento personalizado.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 25/01/2026</span>
+          <a href="https://gobii.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Gobii</span>
+            <p className="text-zinc-700">Plataforma para criar trabalhadores digitais de IA que automatizam tarefas web e prospecção de vendas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 26/01/2026</span>
           </a>
-          <a href="https://getunblocked.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CommandLineIcon className="w-5 h-5" /> Unblocked</span>
-            <p className="text-zinc-700">Plataforma de inteligência que responde perguntas sobre seu código integrando as ferramentas do seu time.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 25/01/2026</span>
+          <a href="https://www.cubic.dev/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Cubic</span>
+            <p className="text-zinc-700">Plataforma de code review com IA que analisa repositórios inteiros para identificar problemas complexos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 26/01/2026</span>
           </a>
-          <a href="https://trophy.so/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Trophy</span>
-            <p className="text-zinc-700">Infraestrutura de gamificação para retenção de usuários com APIs inteligentes e ferramentas no-code.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 25/01/2026</span>
+          <a href="https://www.sequenzy.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserGroupIcon className="w-5 h-5" /> Sequenzy</span>
+            <p className="text-zinc-700">CRM focado em e-mail marketing para SaaS, automatizando sequências de onboarding com IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 26/01/2026</span>
           </a>
-          <a href="https://atoms.dev/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Atoms</span>
-            <p className="text-zinc-700">Ferramenta para criação ultra-rápida de aplicações e agentes via vibe coding.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 25/01/2026</span>
+          <a href="https://www.respell.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CpuChipIcon className="w-5 h-5" /> Respell</span>
+            <p className="text-zinc-700">Crie fluxos de trabalho inteligentes e agentes de IA personalizados que se integram às suas ferramentas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 26/01/2026</span>
           </a>
-          <a href="https://github.com/github/spec-kit" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketSquareIcon className="w-5 h-5" /> Spec Kit</span>
-            <p className="text-zinc-700">Toolkit para desenvolvimento orientado a especificações com IA, aumentando a confiabilidade na criação de apps.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 25/01/2026</span>
+          <a href="https://github.com/tilework-tech/nori-skillsets" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Nori Skillsets</span>
+            <p className="text-zinc-700">Sistema para gerenciar conjuntos de habilidades de agentes, padronizando fluxos de engenharia para IAs.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 26/01/2026</span>
           </a>
         </div>
       </section>

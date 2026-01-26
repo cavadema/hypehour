@@ -12,6 +12,16 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Cubic",
+    url: "https://www.cubic.dev/",
+    descricao: "Plataforma de code review com IA que analisa repositórios inteiros para identificar problemas complexos entre arquivos.",
+  },
+  {
+    nome: "Diffray",
+    url: "https://diffray.ai/",
+    descricao: "Sistema multi-agente de revisão de código que analisa pull requests em busca de bugs, performance e segurança.",
+  },
+  {
     nome: "Unblocked",
     url: "https://getunblocked.com/",
     descricao: "Plataforma de inteligência que responde perguntas sobre seu código integrando GitHub, Slack e Jira."

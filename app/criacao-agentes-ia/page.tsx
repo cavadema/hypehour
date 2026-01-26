@@ -11,6 +11,16 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Gobii",
+    url: "https://gobii.ai/",
+    descricao: "Plataforma para criar trabalhadores digitais de IA que automatizam tarefas web, coleta de dados e prospecção de vendas.",
+  },
+  {
+    nome: "Respell",
+    url: "https://www.respell.ai/",
+    descricao: "Crie fluxos de trabalho inteligentes e agentes de IA personalizados que se integram ao Gmail, Notion e Slack.",
+  },
+  {
     nome: "Vellum",
     url: "https://www.vellum.ai/",
     descricao: "Plataforma para construir, testar e monitorar agentes de IA em produção com facilidade.",
