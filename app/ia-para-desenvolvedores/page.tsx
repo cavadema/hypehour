@@ -12,6 +12,26 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Bun",
+    url: "https://bun.sh/",
+    descricao: "Runtime JavaScript tudo-em-um, package manager e test runner projetado para velocidade.",
+  },
+  {
+    nome: "Nori",
+    url: "https://usenori.ai/",
+    descricao: "Infraestrutura de IA para desenvolvedores criarem e escalarem agentes autônomos com facilidade.",
+  },
+  {
+    nome: "Aikido",
+    url: "https://www.aikido.dev/",
+    descricao: "Plataforma de segurança all-in-one para desenvolvedores identificarem e corrigirem vulnerabilidades.",
+  },
+  {
+    nome: "RunPod",
+    url: "https://www.runpod.io/",
+    descricao: "Plataforma de nuvem GPU para treinar e implantar modelos de IA com escalabilidade e baixo custo.",
+  },
+  {
     nome: "DX (GetDX)",
     url: "https://getdx.com/",
     descricao: "Plataforma de inteligência de plataforma para medir e melhorar a produtividade de engenharia."

@@ -9,6 +9,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Comfy",
+    url: "https://www.comfy.org/",
+    descricao: "Interface modular para criar fluxos de trabalho visuais de IA generativa com controle total.",
+  },
+  {
     nome: "UX Pilot",
     url: "https://uxpilot.ai/pt",
     descricao: "Plataforma de IA para design de UX, simplificando fluxos e criação de interfaces inteligentes."

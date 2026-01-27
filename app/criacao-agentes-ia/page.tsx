@@ -11,6 +11,26 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Maven (Tal Raviv)",
+    url: "https://maven.com/tal-raviv/product-manager-productivity-system",
+    descricao: "Sistema de produtividade com IA para gerentes de produto focada em automação de fluxos de trabalho.",
+  },
+  {
+    nome: "Letta",
+    url: "https://www.letta.com/developer-platform",
+    descricao: "Plataforma para desenvolvedores criarem agentes de IA com memória persistente e autonomia total.",
+  },
+  {
+    nome: "Feynn",
+    url: "https://feynn.ai/",
+    descricao: "Infraestrutura para orquestração de agentes de IA focada em aplicações de alto desempenho.",
+  },
+  {
+    nome: "Sled",
+    url: "https://sled.layercode.com/",
+    descricao: "Plataforma para criar e gerenciar agentes de IA que executam tarefas complexas no navegador.",
+  },
+  {
     nome: "Jotform Presentation Agent",
     url: "https://www.jotform.com/ai/presentation-agent/",
     descricao: "Agente de IA para criar apresentações de impacto e automatizar fluxos de atendimento visual.",

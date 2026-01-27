@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
   {
+    nome: "Caricature.life",
+    url: "https://caricature.life/",
+    descricao: "Gere caricaturas divertidas e artísticas a partir de fotos usando inteligência artificial.",
+  },
+  {
     nome: "BetterShot",
     url: "https://www.bettershot.site/",
     descricao: "IA para gerar e aprimorar fotos com qualidade profissional em segundos.",

@@ -9,6 +9,31 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "StudyMate",
+    url: "https://studymate.live/en/",
+    descricao: "Plataforma de IA para estudantes com ferramentas de resumo, flashcards e assistência em estudos.",
+  },
+  {
+    nome: "Comfy",
+    url: "https://www.comfy.org/",
+    descricao: "Interface modular e poderosa para fluxos de trabalho de IA estável e criativa.",
+  },
+  {
+    nome: "The Password",
+    url: "https://thepassword.app/",
+    descricao: "Assistente de segurança e gestão de senhas inteligente com foco em simplicidade.",
+  },
+  {
+    nome: "Notis",
+    url: "https://notis.ai/",
+    descricao: "Ferramenta de IA para anotações inteligentes e organização de conhecimento.",
+  },
+  {
+    nome: "Note67",
+    url: "https://note67.com/",
+    descricao: "Plataforma para criação de notas rápidas, resumos e organização pessoal com IA.",
+  },
+  {
     nome: "Pretty Prompt",
     url: "https://www.pretty-prompt.com/",
     descricao: "Extensão de navegador para otimizar, salvar e compartilhar prompts de IA em equipe.",

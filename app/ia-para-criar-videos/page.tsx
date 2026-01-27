@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Reelive",
+        url: "https://reelive.ai/",
+        descricao: "Plataforma de IA para criar vídeos curtos e envolventes otimizados para redes sociais.",
+    },
+    {
         nome: "Pixverse",
         url: "https://app.pixverse.ai/",
         descricao: "Gerador de vídeos cinemáticos a partir de texto e imagens com alta fidelidade visual.",

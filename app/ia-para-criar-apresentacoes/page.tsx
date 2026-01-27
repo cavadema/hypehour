@@ -4,6 +4,11 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "GenPPT",
+        url: "https://genppt.com/",
+        descricao: "Gere apresentações de slides profissionais instantaneamente com o poder da inteligência artificial.",
+    },
+    {
         nome: "Napkin AI",
         url: "https://www.napkin.ai/",
         descricao: "Transforme textos e ideias em diagramas, fluxogramas e visuais profissionais instantaneamente com IA.",
