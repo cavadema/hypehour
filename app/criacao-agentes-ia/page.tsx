@@ -11,6 +11,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "AMI",
+    url: "https://www.ami.dev/",
+    descricao: "Infraestrutura para construir agentes de IA autônomos que operam em qualquer ambiente digital.",
+  },
+  {
     nome: "Maven (Tal Raviv)",
     url: "https://maven.com/tal-raviv/product-manager-productivity-system",
     descricao: "Sistema de produtividade com IA para gerentes de produto focada em automação de fluxos de trabalho.",

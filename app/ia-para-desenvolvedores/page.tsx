@@ -12,6 +12,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Goose",
+    url: "https://block.github.io/goose/",
+    descricao: "Agente de IA open-source focado em engenharia que executa e automatiza tarefas de desenvolvimento complexas localmente.",
+  },
+  {
     nome: "Bun",
     url: "https://bun.sh/",
     descricao: "Runtime JavaScript tudo-em-um, package manager e test runner projetado para velocidade.",

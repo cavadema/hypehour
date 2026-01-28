@@ -48,35 +48,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://reelive.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Reelive</span>
-            <p className="text-zinc-700">Plataforma de IA para criar vídeos curtos e envolventes otimizados para redes sociais.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 27/01/2026</span>
+          <a href="https://agent.blackbox.ai/api" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Blackbox AI API</span>
+            <p className="text-zinc-700">API poderosa para integrar modelos de IA avançados e processamento de linguagem natural.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 28/01/2026</span>
           </a>
-          <a href="https://www.letta.com/developer-platform" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Letta</span>
-            <p className="text-zinc-700">Plataforma para desenvolvedores criarem agentes de IA com memória persistente e autonomia.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 27/01/2026</span>
+          <a href="https://www.chatprd.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> ChatPRD</span>
+            <p className="text-zinc-700">Assistente de IA sob demanda para gerentes de produto, ajudando a escrever PRDs e estratégias.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 28/01/2026</span>
           </a>
-          <a href="https://genppt.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PresentationChartLineIcon className="w-5 h-5" /> GenPPT</span>
-            <p className="text-zinc-700">Gere apresentações de slides profissionais instantaneamente com o poder da inteligência artificial.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 27/01/2026</span>
+          <a href="https://noticiawapp.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><EnvelopeIcon className="w-5 h-5" /> Notic.ia</span>
+            <p className="text-zinc-700">Receba notícias resumidas e curadas por IA diretamente no seu WhatsApp.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 28/01/2026</span>
           </a>
-          <a href="https://bun.sh/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Bun</span>
-            <p className="text-zinc-700">Runtime JavaScript tudo-em-um, package manager e test runner projetado para velocidade extrema.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 27/01/2026</span>
+          <a href="https://www.ideabrowser.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Idea Browser</span>
+            <p className="text-zinc-700">Navegador com IA integrada para pesquisa, coleta de ideias e automação de fluxos de marketing.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 28/01/2026</span>
           </a>
-          <a href="https://studymate.live/en/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> StudyMate</span>
-            <p className="text-zinc-700">Plataforma de IA para estudantes com ferramentas de resumo, flashcards e assistência em estudos.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 27/01/2026</span>
+          <a href="https://block.github.io/goose/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Goose</span>
+            <p className="text-zinc-700">Agente de IA open-source que executa e automatiza tarefas de desenvolvimento complexas localmente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 28/01/2026</span>
           </a>
-          <a href="https://dibur2text.app/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-zinc-900 font-bold font-bold"><MicrophoneIcon className="w-5 h-5" /> Dibur2text</span>
-            <p className="text-zinc-700">Ferramenta de IA para transcrever áudios do WhatsApp e outras plataformas de forma rápida e privada.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 27/01/2026</span>
+          <a href="https://www.ami.dev/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> AMI</span>
+            <p className="text-zinc-700">Infraestrutura para construir agentes de IA autônomos que operam em qualquer ambiente digital.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 28/01/2026</span>
           </a>
         </div>
       </section>

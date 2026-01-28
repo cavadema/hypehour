@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Idea Browser",
+        url: "https://www.ideabrowser.com/",
+        descricao: "Navegador com IA integrada para pesquisa, coleta de ideias e automação de fluxos de marketing."
+    },
+    {
         nome: "Steno",
         url: "https://www.steno.ai/",
         descricao: "Plataforma de clone digital para criar avatares de voz e chat que representam marcas e treinadores."

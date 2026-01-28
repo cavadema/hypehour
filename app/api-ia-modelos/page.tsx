@@ -4,6 +4,11 @@ import Link from "next/link";
 
 const ferramentas = [
   {
+    nome: "Blackbox AI API",
+    url: "https://agent.blackbox.ai/api",
+    descricao: "API poderosa para integrar modelos de IA avançados e processamento de linguagem natural.",
+  },
+  {
     nome: "Parallel",
     url: "https://parallel.ai/",
     descricao: "Infraestrutura de API para agentes de IA navegarem na web e interagirem com serviços digitais nativamente.",

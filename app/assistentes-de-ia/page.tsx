@@ -9,6 +9,21 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "ChatPRD",
+    url: "https://www.chatprd.ai/",
+    descricao: "Assistente de IA sob demanda para gerentes de produto, ajudando a escrever PRDs e estratégias.",
+  },
+  {
+    nome: "Notic.ia",
+    url: "https://noticiawapp.com/",
+    descricao: "Receba notícias resumidas e curadas por IA diretamente no seu WhatsApp.",
+  },
+  {
+    nome: "Goose",
+    url: "https://block.github.io/goose/",
+    descricao: "Agente de IA open-source focado em engenharia que executa e automatiza tarefas de desenvolvimento complexas localmente.",
+  },
+  {
     nome: "StudyMate",
     url: "https://studymate.live/en/",
     descricao: "Plataforma de IA para estudantes com ferramentas de resumo, flashcards e assistência em estudos.",
@@ -88,11 +103,7 @@ const ferramentas = [
     url: "https://www.thesecondbrain.io/",
     descricao: "Crie um segundo cérebro digital com IA para gerenciar conhecimento, resumir vídeos e documentos em um quadro visual interativo.",
   },
-  {
-    nome: "Goose",
-    url: "https://block.github.io/goose/",
-    descricao: "Agente de IA open-source focado em engenharia que executa e automatiza tarefas de desenvolvimento complexas localmente.",
-  },
+
   {
     nome: "Clarity",
     url: "https://claritydocs.ai/",
