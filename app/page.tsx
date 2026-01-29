@@ -48,35 +48,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://agent.blackbox.ai/api" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Blackbox AI API</span>
-            <p className="text-zinc-700">API poderosa para integrar modelos de IA avançados e processamento de linguagem natural.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 28/01/2026</span>
+          <a href="https://noodleseed.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Noodleseed</span>
+            <p className="text-zinc-700">Crie e gerencie sua própria aplicação no ChatGPT em minutos para ser descoberto por milhões de usuários.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 29/01/2026</span>
           </a>
-          <a href="https://www.chatprd.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> ChatPRD</span>
-            <p className="text-zinc-700">Assistente de IA sob demanda para gerentes de produto, ajudando a escrever PRDs e estratégias.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 28/01/2026</span>
+          <a href="https://marketplace.visualstudio.com/items?itemName=Mault.mault-memory-layer-extension" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Mault</span>
+            <p className="text-zinc-700">Extensão para VS Code com 14 detectores arquitetônicos para garantir qualidade de código e prompts de IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 29/01/2026</span>
           </a>
-          <a href="https://noticiawapp.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><EnvelopeIcon className="w-5 h-5" /> Notic.ia</span>
-            <p className="text-zinc-700">Receba notícias resumidas e curadas por IA diretamente no seu WhatsApp.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 28/01/2026</span>
+          <a href="https://www.dopamine.chat/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Dopamine</span>
+            <p className="text-zinc-700">Plataforma completa para criar, implantar e gerenciar agentes de IA inteligentes para empresas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 29/01/2026</span>
           </a>
-          <a href="https://www.ideabrowser.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Idea Browser</span>
-            <p className="text-zinc-700">Navegador com IA integrada para pesquisa, coleta de ideias e automação de fluxos de marketing.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 28/01/2026</span>
+          <a href="https://www.compyle.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Compyle</span>
+            <p className="text-zinc-700">Agente de código que colabora com você, planejando e confirmando passos antes de realizar alterações.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 29/01/2026</span>
           </a>
-          <a href="https://block.github.io/goose/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Goose</span>
-            <p className="text-zinc-700">Agente de IA open-source que executa e automatiza tarefas de desenvolvimento complexas localmente.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 28/01/2026</span>
+          <a href="https://adam.new/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Adam</span>
+            <p className="text-zinc-700">Agente de CAD com IA para engenheiros mecânicos construírem hardware mais rápido.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 29/01/2026</span>
           </a>
-          <a href="https://www.ami.dev/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> AMI</span>
-            <p className="text-zinc-700">Infraestrutura para construir agentes de IA autônomos que operam em qualquer ambiente digital.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 28/01/2026</span>
+          <a href="https://www.hedra.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Hedra</span>
+            <p className="text-zinc-700">Plataforma de criação de vídeo com IA focada em avatares falantes e personagens expressivos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 29/01/2026</span>
           </a>
         </div>
       </section>

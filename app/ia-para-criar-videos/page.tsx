@@ -4,6 +4,16 @@ import FAQSection from "./FAQSection";
 
 const ferramentas = [
     {
+        nome: "Remotion",
+        url: "https://www.remotion.dev/",
+        descricao: "Crie vídeos programaticamente usando React, permitindo automação, renderização escalável e edição dinâmica.",
+    },
+    {
+        nome: "Hedra",
+        url: "https://www.hedra.com/",
+        descricao: "Plataforma de criação de vídeo com IA focada em avatares falantes e personagens expressivos.",
+    },
+    {
         nome: "Reelive",
         url: "https://reelive.ai/",
         descricao: "Plataforma de IA para criar vídeos curtos e envolventes otimizados para redes sociais.",

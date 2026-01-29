@@ -12,6 +12,16 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Compyle",
+    url: "https://www.compyle.ai/",
+    descricao: "Agente de código que colabora com você, planejando e confirmando passos antes de realizar alterações complexas.",
+  },
+  {
+    nome: "Replit",
+    url: "https://replit.com/",
+    descricao: "IDE colaborativa baseada em nuvem que integra IA para codificação e desenvolvimento ágil.",
+  },
+  {
     nome: "Meku",
     url: "https://meku.dev/",
     descricao: "Ferramenta de vibe coding para prototipar ideias em aplicações funcionais rapidamente.",

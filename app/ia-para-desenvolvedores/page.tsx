@@ -12,6 +12,21 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Mault",
+    url: "https://marketplace.visualstudio.com/items?itemName=Mault.mault-memory-layer-extension",
+    descricao: "Extensão para VS Code com 14 detectores arquitetônicos para garantir qualidade de código e prompts de IA contextuais.",
+  },
+  {
+    nome: "Skills.sh",
+    url: "https://skills.sh/",
+    descricao: "Diretório para descobrir e instalar habilidades para agentes de IA que automatizam fluxos de desenvolvimento.",
+  },
+  {
+    nome: "OS.ninja",
+    url: "https://os.ninja/",
+    descricao: "Explore e aprenda sobre projetos open source com caminhos de aprendizado personalizados e assistidos por IA.",
+  },
+  {
     nome: "Goose",
     url: "https://block.github.io/goose/",
     descricao: "Agente de IA open-source focado em engenharia que executa e automatiza tarefas de desenvolvimento complexas localmente.",

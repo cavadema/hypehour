@@ -11,6 +11,21 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Dopamine",
+    url: "https://www.dopamine.chat/",
+    descricao: "Plataforma completa para criar, implantar e gerenciar agentes de IA inteligentes para necessidades empresariais.",
+  },
+  {
+    nome: "Hyperlink (Nexa)",
+    url: "https://hyperlink.nexa.ai/",
+    descricao: "Transforme qualquer link ou upload em respostas claras e pesquisáveis com IA.",
+  },
+  {
+    nome: "Crow",
+    url: "https://www.usecrow.ai/",
+    descricao: "Permita que seus usuários controlem sua aplicação através do chat, substituindo menus complexos por conversa.",
+  },
+  {
     nome: "AMI",
     url: "https://www.ami.dev/",
     descricao: "Infraestrutura para construir agentes de IA autônomos que operam em qualquer ambiente digital.",

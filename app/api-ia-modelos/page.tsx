@@ -4,6 +4,11 @@ import Link from "next/link";
 
 const ferramentas = [
   {
+    nome: "WhatLLM",
+    url: "https://whatllm.org/",
+    descricao: "Ferramenta definitiva para comparar mais de 100 modelos de linguagem (LLMs) por preço, performance e velocidade.",
+  },
+  {
     nome: "Blackbox AI API",
     url: "https://agent.blackbox.ai/api",
     descricao: "API poderosa para integrar modelos de IA avançados e processamento de linguagem natural.",

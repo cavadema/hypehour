@@ -3,9 +3,14 @@ import Link from "next/link";
 
 const ferramentas = [
   {
-    nome: "Elephan",
-    url: "https://www.elephan.ai/",
-    descricao: "Automação de vendas inteligente para acelerar o pipeline e converter mais leads."
+    nome: "InteractPitch",
+    url: "https://www.interactpitch.ai/",
+    descricao: "Transforme apresentações de pitch em experiências interativas e acompanhe o engajamento de investidores.",
+  },
+  {
+    nome: "Hiver",
+    url: "https://hiverhq.com/",
+    descricao: "Plataforma de help desk para equipas que trabalham no Google Workspace, com agentes de IA incorporados.",
   },
   {
     nome: "Card.biz",

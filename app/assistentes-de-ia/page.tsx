@@ -9,6 +9,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Ayewatch",
+    url: "https://ayewatch.ai/",
+    descricao: "Companheiro de IA em tempo real que monitora a internet e envia alertas personalizados sobre qualquer tópico.",
+  },
+  {
     nome: "ChatPRD",
     url: "https://www.chatprd.ai/",
     descricao: "Assistente de IA sob demanda para gerentes de produto, ajudando a escrever PRDs e estratégias.",

@@ -12,6 +12,16 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Voices.com",
+    url: "https://www.voices.com/",
+    descricao: "Mercado líder para encontrar e contratar dubladores profissionais e gerar vozes com IA eticamente licenciadas.",
+  },
+  {
+    nome: "Inworld",
+    url: "https://inworld.ai/",
+    descricao: "Crie personagens de IA e NPCs inteligentes com personalidades profundas, vozes e inteligência narrativa.",
+  },
+  {
     nome: "Dibur2text",
     url: "https://dibur2text.app/",
     descricao: "Ferramenta de IA para transcrever áudios do WhatsApp e outras plataformas de forma rápida e privada.",

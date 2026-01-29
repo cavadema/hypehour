@@ -4,6 +4,16 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
   {
+    nome: "Noodleseed",
+    url: "https://noodleseed.com/",
+    descricao: "Crie e gerencie sua própria aplicação no ChatGPT em minutos para ser descoberto por milhões de usuários.",
+  },
+  {
+    nome: "Veratainsight",
+    url: "https://www.veratainsight.com/",
+    descricao: "Plataforma de inteligência de relacionamento para Private Equity que conecta talentos executivos a resultados de capital.",
+  },
+  {
     nome: "Box AI Extract",
     url: "https://www.box.com/extract",
     descricao: "Extração inteligente de dados estruturados de documentos e arquivos não estruturados em escala."
