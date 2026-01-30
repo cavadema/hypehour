@@ -48,35 +48,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://noodleseed.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Noodleseed</span>
-            <p className="text-zinc-700">Crie e gerencie sua própria aplicação no ChatGPT em minutos para ser descoberto por milhões de usuários.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 29/01/2026</span>
+          <a href="https://mastra.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Mastra</span>
+            <p className="text-zinc-700">Framework TypeScript para construir agentes com workflows, memória, streaming e interações otimizadas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 30/01/2026</span>
           </a>
-          <a href="https://marketplace.visualstudio.com/items?itemName=Mault.mault-memory-layer-extension" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Mault</span>
-            <p className="text-zinc-700">Extensão para VS Code com 14 detectores arquitetônicos para garantir qualidade de código e prompts de IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 29/01/2026</span>
+          <a href="https://www.pencil.dev/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Pencil</span>
+            <p className="text-zinc-700">Design no canvas que se traduz diretamente em código para acelerar o fluxo de engenharia.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 30/01/2026</span>
           </a>
-          <a href="https://www.dopamine.chat/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Dopamine</span>
-            <p className="text-zinc-700">Plataforma completa para criar, implantar e gerenciar agentes de IA inteligentes para empresas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 29/01/2026</span>
+          <a href="https://benji.org/agentation" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Agentation</span>
+            <p className="text-zinc-700">Ferramenta agnóstica para feedback visual de agentes, permitindo interações de apontar e clicar.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 30/01/2026</span>
           </a>
-          <a href="https://www.compyle.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Compyle</span>
-            <p className="text-zinc-700">Agente de código que colabora com você, planejando e confirmando passos antes de realizar alterações.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 29/01/2026</span>
+          <a href="https://www.blockit.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Blockit</span>
+            <p className="text-zinc-700">Assistente de agendamento autônomo 24/7 via Slack e E-mail para gerenciar seu tempo.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 30/01/2026</span>
           </a>
-          <a href="https://adam.new/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Adam</span>
-            <p className="text-zinc-700">Agente de CAD com IA para engenheiros mecânicos construírem hardware mais rápido.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 29/01/2026</span>
+          <a href="https://www.testudo.co/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BuildingOffice2Icon className="w-5 h-5" /> Testudo</span>
+            <p className="text-zinc-700">Seguro gerado por IA para empresas, quantificando e transferindo riscos de sistemas de IA.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 30/01/2026</span>
           </a>
-          <a href="https://www.hedra.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Hedra</span>
-            <p className="text-zinc-700">Plataforma de criação de vídeo com IA focada em avatares falantes e personagens expressivos.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 29/01/2026</span>
+          <a href="https://ernie.baidu.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CpuChipIcon className="w-5 h-5" /> ERNIE (Baidu)</span>
+            <p className="text-zinc-700">O modelo de linguagem de larga escala da Baidu com capacidades avançadas de compreensão e geração.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 30/01/2026</span>
           </a>
         </div>
       </section>

@@ -11,6 +11,21 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Craft Agents",
+    url: "https://agents.craft.do/",
+    descricao: "Interface desktop aberta para trabalhar com agentes de IA e servidores MCP (Model Context Protocol).",
+  },
+  {
+    nome: "Mastra",
+    url: "https://mastra.ai/",
+    descricao: "Framework TypeScript para construir agentes com workflows, memória, streaming e interações otimizadas.",
+  },
+  {
+    nome: "Auth0 for Agents",
+    url: "https://auth0.com/",
+    descricao: "Autenticação e autorização segura projetada especificamente para agentes de IA e usuários.",
+  },
+  {
     nome: "Dopamine",
     url: "https://www.dopamine.chat/",
     descricao: "Plataforma completa para criar, implantar e gerenciar agentes de IA inteligentes para necessidades empresariais.",

@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
   {
+    nome: "Testudo",
+    url: "https://www.testudo.co/",
+    descricao: "Seguro gerado por IA para empresas, permitindo quantificar, identificar e transferir riscos de sistemas de IA.",
+  },
+  {
     nome: "Noodleseed",
     url: "https://noodleseed.com/",
     descricao: "Crie e gerencie sua própria aplicação no ChatGPT em minutos para ser descoberto por milhões de usuários.",

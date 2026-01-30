@@ -9,6 +9,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Pencil",
+    url: "https://www.pencil.dev/",
+    descricao: "Design no canvas que se traduz diretamente em código para acelerar o fluxo de engenharia.",
+  },
+  {
     nome: "Comfy",
     url: "https://www.comfy.org/",
     descricao: "Interface modular para criar fluxos de trabalho visuais de IA generativa com controle total.",

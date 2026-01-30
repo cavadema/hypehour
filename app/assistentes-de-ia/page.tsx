@@ -9,6 +9,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Blockit",
+    url: "https://www.blockit.com/",
+    descricao: "Assistente de agendamento autônomo 24/7 que funciona via Slack e E-mail para gerenciar seu tempo.",
+  },
+  {
     nome: "Ayewatch",
     url: "https://ayewatch.ai/",
     descricao: "Companheiro de IA em tempo real que monitora a internet e envia alertas personalizados sobre qualquer tópico.",

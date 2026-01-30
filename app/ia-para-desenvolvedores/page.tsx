@@ -12,6 +12,21 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Agentation",
+    url: "https://benji.org/agentation",
+    descricao: "Ferramenta agnóstica para feedback visual de agentes, permitindo interações de apontar e clicar.",
+  },
+  {
+    nome: "nlsh",
+    url: "https://nlsh.vercel.app/",
+    descricao: "Shell em linguagem natural que traduz comandos humanos em scripts de terminal executáveis.",
+  },
+  {
+    nome: "Devin Review",
+    url: "https://app.devin.ai/review",
+    descricao: "Interface de revisão colaborativa para supervisionar e iterar com o engenheiro autônomo Devin.",
+  },
+  {
     nome: "Mault",
     url: "https://marketplace.visualstudio.com/items?itemName=Mault.mault-memory-layer-extension",
     descricao: "Extensão para VS Code com 14 detectores arquitetônicos para garantir qualidade de código e prompts de IA contextuais.",

@@ -3,6 +3,11 @@ import Link from "next/link";
 
 const modelos = [
   {
+    nome: "ERNIE (Baidu)",
+    url: "https://ernie.baidu.com/",
+    descricao: "O modelo de linguagem de larga escala da Baidu com capacidades avançadas de compreensão e geração.",
+  },
+  {
     nome: "NotebookLM",
     url: "https://notebooklm.google/",
     descricao: "Assistente de pesquisa do Google que transforma documentos em insights e áudio.",

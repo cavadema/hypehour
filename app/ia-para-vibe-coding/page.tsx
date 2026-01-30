@@ -12,6 +12,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Nori Skillsets",
+    url: "https://noriskillsets.dev/",
+    descricao: "Habilidades e ferramentas otimizadas para potencializar fluxos de desenvolvimento via vibe coding.",
+  },
+  {
     nome: "Compyle",
     url: "https://www.compyle.ai/",
     descricao: "Agente de código que colabora com você, planejando e confirmando passos antes de realizar alterações complexas.",

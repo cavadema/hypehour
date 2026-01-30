@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Meticulous AI",
+        url: "https://www.meticulous.ai/",
+        descricao: "Testes de frontend automatizados sem escrita de código, focados em fluxo visual."
+    },
+    {
         nome: "Idea Browser",
         url: "https://www.ideabrowser.com/",
         descricao: "Navegador com IA integrada para pesquisa, coleta de ideias e automação de fluxos de marketing."
