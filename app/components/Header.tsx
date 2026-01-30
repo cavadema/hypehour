@@ -34,45 +34,43 @@ export default function Header() {
                 <ChevronDownIcon className="w-4 h-4" />
               </button>
               <div className="absolute top-full right-0 w-72 max-h-[70vh] overflow-y-auto bg-white shadow-lg rounded-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-zinc-100">
-                <Link href="/cursos-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Cursos de IA</Link>
-                <Link href="/ia-para-vibe-coding" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Vibe Coding</Link>
-                <Link href="/criacao-agentes-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Criacao de Agentes</Link>
-                <Link href="/assistentes-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Assistentes de IA</Link>
-                <Link href="/gerador-de-voz-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Gerador de Voz IA</Link>
-                <Link href="/aprender-ingles-com-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Inglês</Link>
-                <Link href="/ia-para-atendimento" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Atendimento</Link>
-                <Link href="/ia-para-desenvolvedores" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Desenvolvedores</Link>
-                <Link href="/ferramentas-de-ia-para-conteudo" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Conteúdo</Link>
-                <Link href="/ia-para-criar-apresentacoes" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Apresentações</Link>
-                <Link href="/ia-para-marketing" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Marketing</Link>
-                <Link href="/ia-para-vendas" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Vendas</Link>
-                <Link href="/automacao-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Automação</Link>
-                <Link href="/fluxos-workflows-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Fluxos e Workflows</Link>
-                <Link href="/crm-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">CRM</Link>
-                <Link href="/investimentos" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Investimentos</Link>
-                <Link href="/ia-para-empresas" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para empresas</Link>
-                <Link href="/planejamento" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Planejamento e Organização</Link>
-                <Link href="/ferramentas-de-ia-rh" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para RH</Link>
-                <Link href="/ferramentas-ia-contabilidade" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Contabilidade</Link>
                 <Link href="/inteligencia-artificial-para-advogados" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Advogados</Link>
-                <Link href="/ia-para-professores" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Professores</Link>
-                <Link href="/ia-para-medicos" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Médicos</Link>
-                <Link href="/ia-para-arquitetura" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Arquitetura</Link>
-                <Link href="/ia-para-design-de-interiores" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Design de Interiores</Link>
-                <Link href="/ia-para-musica" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Música</Link>
-                <Link href="/ia-para-jogos" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Jogos</Link>
                 <Link href="/analise-de-dados" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Análise de dados</Link>
-                <Link href="/modelos-de-llms" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Modelos de LLMs</Link>
                 <Link href="/api-ia-modelos" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">APIs</Link>
+                <Link href="/ia-para-criar-apresentacoes" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Apresentações</Link>
+                <Link href="/ia-para-arquitetura" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Arquitetura</Link>
+                <Link href="/assistentes-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Assistentes de IA</Link>
+                <Link href="/automacao-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Automação</Link>
+                <Link href="/ferramentas-de-ia-para-conteudo" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Conteúdo</Link>
+                <Link href="/ferramentas-ia-contabilidade" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Contabilidade</Link>
+                <Link href="/crm-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">CRM</Link>
+                <Link href="/criacao-agentes-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Criação de Agentes</Link>
+                <Link href="/cursos-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Cursos de IA</Link>
+                <Link href="/ia-para-desenvolvedores" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Desenvolvedores</Link>
+                <Link href="/ia-para-design-de-interiores" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Design de Interiores</Link>
+                <Link href="/ia-para-designers" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Designers</Link>
+                <Link href="/eventos-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Eventos</Link>
+                <Link href="/fluxos-workflows-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Fluxos e Workflows</Link>
+                <Link href="/gerador-de-voz-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Gerador de Voz IA</Link>
+                <Link href="/ia-para-atendimento" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Atendimento</Link>
+                <Link href="/ia-para-empresas" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Empresas</Link>
+                <Link href="/aprender-ingles-com-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Inglês</Link>
+                <Link href="/ia-para-jogos" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Jogos</Link>
+                <Link href="/ferramentas-de-ia-rh" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para RH</Link>
+                <Link href="/investimentos" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Investimentos</Link>
+                <Link href="/ia-para-marketing" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Marketing</Link>
+                <Link href="/ia-para-medicos" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Médicos</Link>
+                <Link href="/modelos-de-llms" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Modelos de LLMs</Link>
+                <Link href="/ia-para-musica" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Música</Link>
                 <Link href="/navegadores-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Navegadores de IA</Link>
                 <Link href="/newsletters-de-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Newsletters</Link>
-                <Link href="/ia-para-pdf" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">PDF</Link>
-                <Link href="/ia-para-designers" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Designers</Link>
+                <Link href="/planejamento" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Planejamento e Organização</Link>
                 <Link href="/ia-para-planilhas" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Planilhas</Link>
+                <Link href="/ia-para-professores" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Professores</Link>
                 <Link href="/repositorios-ia-github" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Repositórios Github</Link>
-                <Link href="/eventos-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Eventos</Link>
                 <Link href="/ia-web-scraping" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Scraping</Link>
-              </div>
+                <Link href="/ia-para-vendas" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Vendas</Link>
+                <Link href="/ia-para-vibe-coding" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Vibe Coding</Link>              </div>
             </li>
           </ul>
 
@@ -94,43 +92,43 @@ export default function Header() {
                 <li><Link href="/ia-para-pdf" className="block py-2" onClick={() => setOpen(false)}>PDF</Link></li>
 
                 <li className="border-t border-zinc-100 pt-2 mt-2 font-semibold text-zinc-400 text-sm">Outras IAs</li>
-                <li><Link href="/ia-para-planilhas" className="block py-2 pl-4" onClick={() => setOpen(false)}>Planilhas</Link></li>
-                <li><Link href="/cursos-de-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Cursos de IA</Link></li>
-                <li><Link href="/ia-para-vibe-coding" className="block py-2 pl-4" onClick={() => setOpen(false)}>Vibe Coding</Link></li>
-                <li><Link href="/criacao-agentes-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Criacao de Agentes</Link></li>
-                <li><Link href="/assistentes-de-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Assistentes de IA</Link></li>
-                <li><Link href="/gerador-de-voz-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Gerador de Voz IA</Link></li>
-                <li><Link href="/aprender-ingles-com-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Inglês</Link></li>
-                <li><Link href="/ia-para-atendimento" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Atendimento</Link></li>
-                <li><Link href="/ia-para-desenvolvedores" className="block py-2 pl-4" onClick={() => setOpen(false)}>Desenvolvedores</Link></li>
-                <li><Link href="/ferramentas-de-ia-para-conteudo" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Conteúdo</Link></li>
-                <li><Link href="/ia-para-criar-apresentacoes" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Apresentações</Link></li>
-                <li><Link href="/ia-para-marketing" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Marketing</Link></li>
-                <li><Link href="/ia-para-vendas" className="block py-2 pl-4" onClick={() => setOpen(false)}>Vendas</Link></li>
-                <li><Link href="/automacao-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Automação</Link></li>
-                <li><Link href="/fluxos-workflows-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Fluxos e Workflows</Link></li>
-                <li><Link href="/crm-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>CRM</Link></li>
-                <li><Link href="/investimentos" className="block py-2 pl-4" onClick={() => setOpen(false)}>Investimentos</Link></li>
-                <li><Link href="/ia-para-empresas" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para empresas</Link></li>
-                <li><Link href="/planejamento" className="block py-2 pl-4" onClick={() => setOpen(false)}>Planejamento e Organização</Link></li>
-                <li><Link href="/ferramentas-de-ia-rh" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para RH</Link></li>
-                <li><Link href="/ferramentas-ia-contabilidade" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Contabilidade</Link></li>
-                <li><Link href="/inteligencia-artificial-para-advogados" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Advogados</Link></li>
-                <li><Link href="/ia-para-professores" className="block py-2 pl-4" onClick={() => setOpen(false)}>Professores</Link></li>
-                <li><Link href="/ia-para-musica" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Música</Link></li>
-                <li><Link href="/ia-para-jogos" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Jogos</Link></li>
-                <li><Link href="/ia-para-arquitetura" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Arquitetura</Link></li>
-                <li><Link href="/ia-para-design-de-interiores" className="block py-2 pl-4" onClick={() => setOpen(false)}>Design de Interiores</Link></li>
+                <li><Link href="/inteligencia-artificial-para-advogados" className="block py-2 pl-4" onClick={() => setOpen(false)}>Advogados</Link></li>
                 <li><Link href="/analise-de-dados" className="block py-2 pl-4" onClick={() => setOpen(false)}>Análise de dados</Link></li>
-                <li><Link href="/modelos-de-llms" className="block py-2 pl-4" onClick={() => setOpen(false)}>Modelos de LLMs</Link></li>
                 <li><Link href="/api-ia-modelos" className="block py-2 pl-4" onClick={() => setOpen(false)}>APIs</Link></li>
+                <li><Link href="/ia-para-criar-apresentacoes" className="block py-2 pl-4" onClick={() => setOpen(false)}>Apresentações</Link></li>
+                <li><Link href="/ia-para-arquitetura" className="block py-2 pl-4" onClick={() => setOpen(false)}>Arquitetura</Link></li>
+                <li><Link href="/assistentes-de-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Assistentes de IA</Link></li>
+                <li><Link href="/automacao-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Automação</Link></li>
+                <li><Link href="/ferramentas-de-ia-para-conteudo" className="block py-2 pl-4" onClick={() => setOpen(false)}>Conteúdo</Link></li>
+                <li><Link href="/ferramentas-ia-contabilidade" className="block py-2 pl-4" onClick={() => setOpen(false)}>Contabilidade</Link></li>
+                <li><Link href="/crm-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>CRM</Link></li>
+                <li><Link href="/criacao-agentes-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Criação de Agentes</Link></li>
+                <li><Link href="/cursos-de-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Cursos de IA</Link></li>
+                <li><Link href="/ia-para-desenvolvedores" className="block py-2 pl-4" onClick={() => setOpen(false)}>Desenvolvedores</Link></li>
+                <li><Link href="/ia-para-design-de-interiores" className="block py-2 pl-4" onClick={() => setOpen(false)}>Design de Interiores</Link></li>
+                <li><Link href="/ia-para-designers" className="block py-2 pl-4" onClick={() => setOpen(false)}>Designers</Link></li>
+                <li><Link href="/eventos-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Eventos</Link></li>
+                <li><Link href="/fluxos-workflows-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Fluxos e Workflows</Link></li>
+                <li><Link href="/gerador-de-voz-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Gerador de Voz IA</Link></li>
+                <li><Link href="/ia-para-atendimento" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Atendimento</Link></li>
+                <li><Link href="/ia-para-empresas" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Empresas</Link></li>
+                <li><Link href="/aprender-ingles-com-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Inglês</Link></li>
+                <li><Link href="/ia-para-jogos" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Jogos</Link></li>
+                <li><Link href="/ferramentas-de-ia-rh" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para RH</Link></li>
+                <li><Link href="/investimentos" className="block py-2 pl-4" onClick={() => setOpen(false)}>Investimentos</Link></li>
+                <li><Link href="/ia-para-marketing" className="block py-2 pl-4" onClick={() => setOpen(false)}>Marketing</Link></li>
+                <li><Link href="/ia-para-medicos" className="block py-2 pl-4" onClick={() => setOpen(false)}>Médicos</Link></li>
+                <li><Link href="/modelos-de-llms" className="block py-2 pl-4" onClick={() => setOpen(false)}>Modelos de LLMs</Link></li>
+                <li><Link href="/ia-para-musica" className="block py-2 pl-4" onClick={() => setOpen(false)}>Música</Link></li>
                 <li><Link href="/navegadores-de-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Navegadores de IA</Link></li>
                 <li><Link href="/newsletters-de-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Newsletters</Link></li>
+                <li><Link href="/planejamento" className="block py-2 pl-4" onClick={() => setOpen(false)}>Planejamento e Organização</Link></li>
+                <li><Link href="/ia-para-planilhas" className="block py-2 pl-4" onClick={() => setOpen(false)}>Planilhas</Link></li>
+                <li><Link href="/ia-para-professores" className="block py-2 pl-4" onClick={() => setOpen(false)}>Professores</Link></li>
                 <li><Link href="/repositorios-ia-github" className="block py-2 pl-4" onClick={() => setOpen(false)}>Repositórios Github</Link></li>
-                <li><Link href="/eventos-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>Eventos</Link></li>
-                <li><Link href="/ia-para-designers" className="block py-2 pl-4" onClick={() => setOpen(false)}>Designers</Link></li>
                 <li><Link href="/ia-web-scraping" className="block py-2 pl-4" onClick={() => setOpen(false)}>Scraping</Link></li>
-              </ul>
+                <li><Link href="/ia-para-vendas" className="block py-2 pl-4" onClick={() => setOpen(false)}>Vendas</Link></li>
+                <li><Link href="/ia-para-vibe-coding" className="block py-2 pl-4" onClick={() => setOpen(false)}>Vibe Coding</Link></li>              </ul>
             </div>
           )}
         </nav>
