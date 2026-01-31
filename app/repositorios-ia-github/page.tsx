@@ -8,8 +8,21 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "ChunkHound", url: "https://github.com/chunkhound/chunkhound", descricao: "Mecanismo de busca de código local-first para assistentes de IA via protocolo MCP." },
+  { nome: "Claude Mem", url: "https://github.com/thedotmack/claude-mem", descricao: "Sistema de memória persistente para sessões do Claude Code usando SQLite local." },
+  { nome: "OpenAI Apps SDK Examples", url: "https://github.com/openai/openai-apps-sdk-examples", descricao: "Exemplos de componentes de UI e servidores MCP para criar aplicações no ChatGPT." },
+  { nome: "Openwork", url: "https://github.com/langchain-ai/openwork", descricao: "Interface desktop para agentes profundos com acesso total ao sistema de arquivos e navegador." },
+  { nome: "Opensync", url: "https://github.com/waynesutton/opensync", descricao: "Dashboards sincronizados na nuvem para rastreamento de sessões do OpenCode e Claude Code." },
+  { nome: "Claude Config", url: "https://github.com/brianlovin/claude-config", descricao: "Configurações pessoais e habilidades reutilizáveis para o ambiente Claude Code." },
+  { nome: "Open Ralph Wiggum", url: "https://github.com/Th0rgal/open-ralph-wiggum", descricao: "Ferramenta de loop agentico autônomo que utiliza técnicas de prompting iterativo." },
+  { nome: "Claudeception", url: "https://github.com/blader/Claudeception", descricao: "Sistema de extração de habilidades para aprendizado contínuo do Claude Code." },
+  { nome: "ShapeR", url: "https://github.com/facebookresearch/ShapeR", descricao: "Reconstrução 3D generativa a partir de imagens casuais usando flow transformers." },
+  { nome: "SkyPilot", url: "https://github.com/skypilot-org/skypilot", descricao: "Framework para rodar LLMs e jobs de IA em qualquer nuvem com máxima economia e facilidade." },
+  { nome: "Kyutai Labs", url: "https://github.com/kyutai-labs", descricao: "Pesquisa aberta em IA de voz com modelos Moshi para conversas em tempo real e ultra-baixa latência." },
+  { nome: "Multiplex Thinking", url: "https://github.com/GMLR-Penn/Multiplex-Thinking", descricao: "Framework de raciocínio branch-and-merge para modelos de linguagem mais eficientes." },
+  { nome: "Mviz", url: "https://github.com/matsonj/mviz", descricao: "Gerador de gráficos e relatórios denso projetado especificamente para visualização de dados por IA." },
+  { nome: "GrepAI", url: "https://github.com/yoanbernabeu/grepai", descricao: "CLI de busca semântica de código 100% local usando embeddings vetoriais." },
   { nome: "Manifold", url: "https://github.com/Esrbwt1/manifold", descricao: "Toolkit para simplificar o deploy e gerenciamento seguro de modelos de IA." },
-  { nome: "Openwork-Repo", url: "https://github.com/different-ai/openwork", descricao: "Repositório do agente desktop Openwork, uma alternativa aberta para automação local." },
   { nome: "Gambit", url: "https://github.com/bolt-foundry/gambit", descricao: "Framework de orquestração para construir e verificar fluxos de trabalho complexos com LLMs." },
   { nome: "1Code-Repo", url: "https://github.com/21st-dev/1code", descricao: "Interface visual para Claude Code, permitindo rodar múltiplos agentes de programação em paralelo." },
   { nome: "Claude-Code-Router", url: "https://github.com/musistudio/claude-code-router", descricao: "Roteador inteligente para Claude Code que otimiza custos e limites de contexto entre provedores." },
@@ -71,11 +84,6 @@ const ferramentas = [
     nome: "Anthropic Skills",
     url: "https://github.com/anthropics/skills",
     descricao: "Repositório público da Anthropic com skills para agentes Claude Code, Claude.ai e API."
-  },
-  {
-    nome: "Claude-Mem",
-    url: "https://github.com/thedotmack/claude-mem",
-    descricao: "Plugin para Claude Code que captura sessões de coding, comprime com IA e injeta contexto relevante."
   },
   {
     nome: "Awesome Agentic Prompting",
