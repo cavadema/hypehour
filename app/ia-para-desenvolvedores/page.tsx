@@ -12,6 +12,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "GeminiCLI",
+    url: "https://geminicli.com/",
+    descricao: "Interface de linha de comando para interagir com os modelos Gemini do Google diretamente no terminal.",
+  },
+  {
     nome: "Agentation",
     url: "https://benji.org/agentation",
     descricao: "Ferramenta agnóstica para feedback visual de agentes, permitindo interações de apontar e clicar.",

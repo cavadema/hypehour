@@ -3,6 +3,16 @@ import Link from "next/link";
 
 const modelos = [
   {
+    nome: "vLLM",
+    url: "https://vllm.ai/",
+    descricao: "Engine de inferência de alto desempenho para LLMs com gerenciamento de memória PagedAttention.",
+  },
+  {
+    nome: "Artificial Analysis Recommend",
+    url: "https://artificialanalysis.ai/models/recommend",
+    descricao: "Ferramenta para comparar e escolher os melhores modelos de IA com base em performance e custo.",
+  },
+  {
     nome: "ERNIE (Baidu)",
     url: "https://ernie.baidu.com/",
     descricao: "O modelo de linguagem de larga escala da Baidu com capacidades avançadas de compreensão e geração.",

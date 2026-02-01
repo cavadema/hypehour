@@ -11,6 +11,16 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Tasklet.ai",
+    url: "https://tasklet.ai/",
+    descricao: "Plataforma para construir, implantar e gerenciar agentes de IA autônomos para tarefas de negócios.",
+  },
+  {
+    nome: "ToolSDK.ai",
+    url: "https://toolsdk.ai/",
+    descricao: "SDK para integrar rapidamente servidores MCP e ferramentas modulares em aplicações de agentes de IA.",
+  },
+  {
     nome: "Craft Agents",
     url: "https://agents.craft.do/",
     descricao: "Interface desktop aberta para trabalhar com agentes de IA e servidores MCP (Model Context Protocol).",

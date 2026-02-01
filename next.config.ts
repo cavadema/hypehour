@@ -14,6 +14,9 @@ const nextConfig: NextConfig = {
   allowedDevOrigins: [
     "http://192.168.15.2:3000", // ajuste a porta se necessário
   ],
+  turbopack: {
+    root: __dirname,
+  },
 };
 
 export default nextConfig;

@@ -2,7 +2,7 @@ import {
   SparklesIcon, PhotoIcon, CodeBracketIcon, CodeBracketSquareIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, Square3Stack3DIcon,
   UserIcon, HeartIcon,
   UserGroupIcon,
-  PhoneIcon, MicrophoneIcon, BuildingStorefrontIcon, CogIcon, ArrowPathIcon, ChartBarIcon, CommandLineIcon, CpuChipIcon
+  PhoneIcon, MicrophoneIcon, BuildingStorefrontIcon, CogIcon, ArrowPathIcon, ChartBarIcon, CommandLineIcon, CpuChipIcon, BoltIcon, RocketLaunchIcon, PuzzlePieceIcon
 } from "@heroicons/react/24/solid";
 
 const jsonLd = {
@@ -48,35 +48,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://github.com/chunkhound/chunkhound" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> ChunkHound</span>
-            <p className="text-zinc-700">Mecanismo de busca de código local-first para assistentes de IA via protocolo MCP.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 31/01/2026</span>
+          <a href="https://vllm.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><BoltIcon className="w-5 h-5" /> vLLM</span>
+            <p className="text-zinc-700">Engine de inferência de alto desempenho para LLMs com gerenciamento de memória PagedAttention.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 01/02/2026</span>
           </a>
-          <a href="https://github.com/langchain-ai/openwork" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Openwork</span>
-            <p className="text-zinc-700">Interface desktop para agentes profundos com acesso total ao sistema de arquivos e navegador.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 31/01/2026</span>
+          <a href="https://geminicli.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> GeminiCLI</span>
+            <p className="text-zinc-700">Interface de linha de comando para interagir com os modelos Gemini do Google diretamente no terminal.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 01/02/2026</span>
           </a>
-          <a href="https://github.com/kyutai-labs" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MicrophoneIcon className="w-5 h-5" /> Kyutai Labs</span>
-            <p className="text-zinc-700">Pesquisa aberta em IA de voz com modelos Moshi para conversas em tempo real e ultra-baixa latência.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 31/01/2026</span>
+          <a href="https://grain.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MicrophoneIcon className="w-5 h-5" /> Grain</span>
+            <p className="text-zinc-700">Gravador e assistente de reuniões com IA que gera transcrições e insights automáticos.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 01/02/2026</span>
           </a>
-          <a href="https://github.com/skypilot-org/skypilot" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CpuChipIcon className="w-5 h-5" /> SkyPilot</span>
-            <p className="text-zinc-700">Framework para rodar LLMs e jobs de IA em qualquer nuvem com máxima economia e facilidade.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 31/01/2026</span>
+          <a href="https://github.com/xai-org/x-algorithm" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> X Algorithm</span>
+            <p className="text-zinc-700">Código-fonte aberto do algoritmo de recomendação da plataforma X (Twitter).</p>
+            <span className="text-xs text-zinc-500">Adicionada em 01/02/2026</span>
           </a>
-          <a href="https://github.com/facebookresearch/ShapeR" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> ShapeR</span>
-            <p className="text-zinc-700">Reconstrução 3D generativa a partir de imagens casuais usando flow transformers.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 31/01/2026</span>
+          <a href="https://tasklet.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><RocketLaunchIcon className="w-5 h-5" /> Tasklet.ai</span>
+            <p className="text-zinc-700">Plataforma para construir e implantar agentes de IA autônomos para tarefas de negócios.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 01/02/2026</span>
           </a>
-          <a href="https://github.com/GMLR-Penn/Multiplex-Thinking" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Multiplex Thinking</span>
-            <p className="text-zinc-700">Framework de raciocínio branch-and-merge para modelos de linguagem mais eficientes.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 31/01/2026</span>
+          <a href="https://toolsdk.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PuzzlePieceIcon className="w-5 h-5" /> ToolSDK.ai</span>
+            <p className="text-zinc-700">SDK para integrar rapidamente servidores MCP e ferramentas modulares em aplicações de agentes.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 01/02/2026</span>
           </a>
         </div>
       </section>
