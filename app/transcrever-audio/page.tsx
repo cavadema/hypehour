@@ -12,6 +12,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Hume AI",
+    url: "https://www.hume.ai/",
+    descricao: "IA com inteligência emocional que oferece vozes expressivas e entende o contexto emocional das conversas.",
+  },
+  {
     nome: "Voices.com",
     url: "https://www.voices.com/",
     descricao: "Mercado líder para encontrar e contratar dubladores profissionais e gerar vozes com IA eticamente licenciadas.",

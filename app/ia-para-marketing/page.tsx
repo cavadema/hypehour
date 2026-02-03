@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "FlashLabs",
+        url: "https://www.flashlabs.ai/",
+        descricao: "Agentes autônomos de IA focados em transformar vendas, experiência do cliente e operações de receita.",
+    },
+    {
         nome: "Meticulous AI",
         url: "https://www.meticulous.ai/",
         descricao: "Testes de frontend automatizados sem escrita de código, focados em fluxo visual."

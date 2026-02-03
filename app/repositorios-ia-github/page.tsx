@@ -8,6 +8,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "VibeVoice", url: "https://github.com/microsoft/VibeVoice", descricao: "Framework da Microsoft Research para geração de áudio conversacional expressivo e transcrição estruturada." },
   { nome: "X Algorithm", url: "https://github.com/xai-org/x-algorithm", descricao: "Código-fonte aberto do algoritmo de recomendação da plataforma X (Twitter)." },
   { nome: "Remotion", url: "https://github.com/remotion-dev/remotion", descricao: "Framework para criar vídeos programaticamente usando React e ferramentas web modernas." },
   { nome: "PersonaPlex", url: "https://github.com/NVIDIA/personaplex", descricao: "Framework da NVIDIA para geração de dados sintéticos personalizados e realistas." },

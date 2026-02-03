@@ -8,6 +8,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Todoist Ramble", url: "https://www.todoist.com/pt-BR/ramble", descricao: "Ferramenta do Todoist que utiliza IA para capturar ideias e tarefas via voz de forma rápida e inteligente." },
   { nome: "Linear", url: "https://linear.app/", descricao: "Sistema de rastreamento de projetos e roteiros focado em velocidade para equipes de produtos modernas, simplificando sprints e issues." },
   { nome: "Northr", url: "https://northr.ai/", descricao: "Sistema de planejamento adaptativo que ajuda a definir direção estratégica e automatiza o gerenciamento semanal com IA." },
   { nome: "Tiimo", url: "https://www.tiimoapp.com/", descricao: "App de planejamento diário e rotinas com foco, lembretes e organização." },

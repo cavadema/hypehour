@@ -12,6 +12,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "NichesHunter",
+    url: "https://nicheshunter.app/",
+    descricao: "Validador de nichos por IA que analisa o potencial de mercado e a concorrência para ideias de apps.",
+  },
+  {
     nome: "GeminiCLI",
     url: "https://geminicli.com/",
     descricao: "Interface de linha de comando para interagir com os modelos Gemini do Google diretamente no terminal.",

@@ -12,6 +12,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Fimo AI",
+    url: "https://fimo.ai/",
+    descricao: "Construtor de sites nativo de IA que integra ferramentas generativas diretamente no CMS e no editor visual.",
+  },
+  {
     nome: "Nori Skillsets",
     url: "https://noriskillsets.dev/",
     descricao: "Habilidades e ferramentas otimizadas para potencializar fluxos de desenvolvimento via vibe coding.",

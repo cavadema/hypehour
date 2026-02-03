@@ -48,35 +48,35 @@ export default function Home() {
       <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://vllm.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><BoltIcon className="w-5 h-5" /> vLLM</span>
-            <p className="text-zinc-700">Engine de inferência de alto desempenho para LLMs com gerenciamento de memória PagedAttention.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 01/02/2026</span>
+          <a href="https://www.hume.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MicrophoneIcon className="w-5 h-5" /> Hume AI</span>
+            <p className="text-zinc-700">IA com inteligência emocional que oferece vozes expressivas e entende o contexto emocional das conversas.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 03/02/2026</span>
           </a>
-          <a href="https://geminicli.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> GeminiCLI</span>
-            <p className="text-zinc-700">Interface de linha de comando para interagir com os modelos Gemini do Google diretamente no terminal.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 01/02/2026</span>
+          <a href="https://github.com/microsoft/VibeVoice" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> VibeVoice</span>
+            <p className="text-zinc-700">Framework da Microsoft Research para geração de áudio conversacional expressivo e transcrição.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 03/02/2026</span>
           </a>
-          <a href="https://grain.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><MicrophoneIcon className="w-5 h-5" /> Grain</span>
-            <p className="text-zinc-700">Gravador e assistente de reuniões com IA que gera transcrições e insights automáticos.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 01/02/2026</span>
+          <a href="https://www.todoist.com/pt-BR/ramble" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> Todoist Ramble</span>
+            <p className="text-zinc-700">Ferramenta do Todoist que utiliza IA para capturar ideias e tarefas via voz de forma rápida e inteligente.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 03/02/2026</span>
           </a>
-          <a href="https://github.com/xai-org/x-algorithm" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> X Algorithm</span>
-            <p className="text-zinc-700">Código-fonte aberto do algoritmo de recomendação da plataforma X (Twitter).</p>
-            <span className="text-xs text-zinc-500">Adicionada em 01/02/2026</span>
+          <a href="https://www.flashlabs.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> FlashLabs</span>
+            <p className="text-zinc-700">Agentes autônomos de IA focados em transformar vendas, experiência do cliente e operações de receita.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 03/02/2026</span>
           </a>
-          <a href="https://tasklet.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><RocketLaunchIcon className="w-5 h-5" /> Tasklet.ai</span>
-            <p className="text-zinc-700">Plataforma para construir e implantar agentes de IA autônomos para tarefas de negócios.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 01/02/2026</span>
+          <a href="https://nicheshunter.app/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><ChartBarIcon className="w-5 h-5" /> NichesHunter</span>
+            <p className="text-zinc-700">Validador de nichos por IA que analisa o potencial de mercado e a concorrência para ideias de apps.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 03/02/2026</span>
           </a>
-          <a href="https://toolsdk.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PuzzlePieceIcon className="w-5 h-5" /> ToolSDK.ai</span>
-            <p className="text-zinc-700">SDK para integrar rapidamente servidores MCP e ferramentas modulares em aplicações de agentes.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 01/02/2026</span>
+          <a href="https://fimo.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Fimo AI</span>
+            <p className="text-zinc-700">Construtor de sites nativo de IA que integra ferramentas generativas diretamente no CMS e no editor visual.</p>
+            <span className="text-xs text-zinc-500">Adicionada em 03/02/2026</span>
           </a>
         </div>
       </section>
