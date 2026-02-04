@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Athyna",
+        url: "https://www.athyna.com/",
+        descricao: "Plataforma global de emprego que utiliza precisão de IA para conectar talentos de classe mundial a equipes ambiciosas.",
+    },
+    {
         nome: "Enhancv Resume Checker",
         url: "https://enhancv.com/resources/resume-checker/",
         descricao: "Ferramenta de IA para analisar e melhorar currículos com feedback instantâneo e pontuação.",

@@ -11,6 +11,11 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Raindrop",
+    url: "https://www.raindrop.ai/",
+    descricao: "Plataforma de monitoramento e observabilidade para agentes de IA, funcionando como o 'Sentry' para agentes.",
+  },
+  {
     nome: "Tasklet.ai",
     url: "https://tasklet.ai/",
     descricao: "Plataforma para construir, implantar e gerenciar agentes de IA autônomos para tarefas de negócios.",

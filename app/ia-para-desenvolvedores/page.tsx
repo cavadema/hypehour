@@ -12,6 +12,26 @@ export const metadata = {
 
 const ferramentas = [
   {
+    nome: "Railway",
+    url: "https://railway.com/",
+    descricao: "Plataforma de nuvem para implantar apps com escalabilidade automática e DevOps assistido por IA.",
+  },
+  {
+    nome: "Airia",
+    url: "https://airia.com/",
+    descricao: "Plataforma empresarial para construir, implantar e gerenciar agentes de IA com segurança e governança.",
+  },
+  {
+    nome: "CopilotKit",
+    url: "https://www.copilotkit.ai/",
+    descricao: "Framework para integrar assistentes de IA e interfaces de chat inteligentes diretamente em aplicações web.",
+  },
+  {
+    nome: "Vite",
+    url: "https://vite.dev/",
+    descricao: "Ferramenta de build frontend ultra-rápida que otimiza o fluxo de desenvolvimento para apps modernos de IA.",
+  },
+  {
     nome: "NichesHunter",
     url: "https://nicheshunter.app/",
     descricao: "Validador de nichos por IA que analisa o potencial de mercado e a concorrência para ideias de apps.",

@@ -8,10 +8,12 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "vLLM", url: "https://github.com/vllm-project/vllm", descricao: "Engine de inferência de alto desempenho para LLMs com gerenciamento de memória PagedAttention." },
+  { nome: "PersonaPlex", url: "https://github.com/NVIDIA/personaplex", descricao: "Framework da NVIDIA para geração de dados sintéticos personalizados e realistas." },
+  { nome: "Flash Attention", url: "https://github.com/Dao-AILab/flash-attention", descricao: "Implementação de atenção rápida e eficiente em memória para acelerar o treinamento e inferência de Transformers." },
   { nome: "VibeVoice", url: "https://github.com/microsoft/VibeVoice", descricao: "Framework da Microsoft Research para geração de áudio conversacional expressivo e transcrição estruturada." },
   { nome: "X Algorithm", url: "https://github.com/xai-org/x-algorithm", descricao: "Código-fonte aberto do algoritmo de recomendação da plataforma X (Twitter)." },
   { nome: "Remotion", url: "https://github.com/remotion-dev/remotion", descricao: "Framework para criar vídeos programaticamente usando React e ferramentas web modernas." },
-  { nome: "PersonaPlex", url: "https://github.com/NVIDIA/personaplex", descricao: "Framework da NVIDIA para geração de dados sintéticos personalizados e realistas." },
   { nome: "ChunkHound", url: "https://github.com/chunkhound/chunkhound", descricao: "Mecanismo de busca de código local-first para assistentes de IA via protocolo MCP." },
   { nome: "Claude Mem", url: "https://github.com/thedotmack/claude-mem", descricao: "Sistema de memória persistente para sessões do Claude Code usando SQLite local." },
   { nome: "OpenAI Apps SDK Examples", url: "https://github.com/openai/openai-apps-sdk-examples", descricao: "Exemplos de componentes de UI e servidores MCP para criar aplicações no ChatGPT." },
