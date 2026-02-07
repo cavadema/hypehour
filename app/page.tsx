@@ -44,43 +44,6 @@ export default function Home() {
         <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-gray-100 rounded-full opacity-20 blur-2xl" />
       </section>
 
-      {/* Últimas IA adicionadas */}
-      <section id="ultimas-ias" className="w-full max-w-5xl mx-auto py-12 px-4">
-        <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />Últimas IA adicionadas</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <a href="https://github.com/vllm-project/vllm" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> vLLM</span>
-            <p className="text-zinc-700">Engine de inferência de alto desempenho para LLMs com gerenciamento de memória PagedAttention.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 04/02/2026</span>
-          </a>
-          <a href="https://www.athyna.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><UserGroupIcon className="w-5 h-5" /> Athyna</span>
-            <p className="text-zinc-700">Plataforma global de emprego que utiliza precisão de IA para conectar talentos a equipes ambiciosas.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 04/02/2026</span>
-          </a>
-          <a href="https://railway.com/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><BoltIcon className="w-5 h-5" /> Railway</span>
-            <p className="text-zinc-700">Plataforma de nuvem para implantar apps com escalabilidade automática e DevOps assistido por IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 04/02/2026</span>
-          </a>
-          <a href="https://www.copilotkit.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> CopilotKit</span>
-            <p className="text-zinc-700">Framework para integrar assistentes de IA e interfaces de chat inteligentes em aplicações web.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 04/02/2026</span>
-          </a>
-          <a href="https://vite.dev/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Vite</span>
-            <p className="text-zinc-700">Ferramenta de build frontend ultra-rápida que otimiza o fluxo de desenvolvimento para apps de IA.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 04/02/2026</span>
-          </a>
-          <a href="https://www.raindrop.ai/" target="_blank" rel="noopener noreferrer" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Raindrop</span>
-            <p className="text-zinc-700">Plataforma de monitoramento e observabilidade para agentes de IA, funcionando como o 'Sentry' para agentes.</p>
-            <span className="text-xs text-zinc-500">Adicionada em 04/02/2026</span>
-          </a>
-        </div>
-      </section>
-
       {/* IA para PDFs */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">
