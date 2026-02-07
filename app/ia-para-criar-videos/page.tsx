@@ -70,7 +70,7 @@ const ferramentas = [
     },
     {
         nome: "Kapwing",
-        url: "https://www.kapwing.com/",
+        url: "/ferramentas/kapwing",
         descricao: "Editor de vídeo online colaborativo com ferramentas de IA para legendas, cortes e melhoria de áudio.",
     },
     {
@@ -85,8 +85,8 @@ const ferramentas = [
     },
     {
         nome: "VEED",
-        url: "https://www.veed.io/",
-        descricao: "Editor online com IA para cortes, legendas, dublagem e geração de vídeos rápidos.",
+        url: "/ferramentas/veed",
+        descricao: "Editor de vídeo online intuitivo com IA para legendas automáticas, tradução e edição rápida.",
     },
     {
         nome: "Vidiio",
@@ -114,9 +114,9 @@ const ferramentas = [
         descricao: "Gerar vídeos a partir de instruções (prompts) textuais ou visuais com estilos variados — desde cenas cinematográficas até animações e composições realistas — incluindo automaticamente som e efeitos.",
     },
     {
-        nome: "InVideo",
-        url: "https://invideo.io/pt/criar/ai-video-generator/",
-        descricao: "Crie vídeos profissionais a partir de prompts de texto, ideal para marketing e social media.",
+        nome: "Invideo",
+        url: "/ferramentas/invideo",
+        descricao: "Plataforma de criação de vídeos com IA que transforma texto em vídeos profissionais em minutos.",
     },
     {
         nome: "Canva Gerador de Videos",
@@ -125,7 +125,7 @@ const ferramentas = [
     },
     {
         nome: "Synthesia",
-        url: "https://www.synthesia.io/pt-br",
+        url: "/ferramentas/synthesia",
         descricao: "Crie vídeos com avatares de IA realistas em mais de 120 idiomas.",
     },
     {
@@ -160,8 +160,8 @@ const ferramentas = [
     },
     {
         nome: "FlexClip",
-        url: "https://www.flexclip.com/pt/",
-        descricao: "Editor de vídeo online com recursos de IA para criar vídeos de marketing.",
+        url: "/ferramentas/flexclip",
+        descricao: "Criador de vídeos online simples com ferramentas de IA para narração e legendagem.",
     },
     {
         nome: "Visla",

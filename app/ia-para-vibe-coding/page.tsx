@@ -60,7 +60,6 @@ const ferramentas = [
   { nome: "Dropstone", url: "https://www.dropstone.io/", descricao: "Runtime de engenharia de software autônomo que substitui IDEs, focado em refatoração e correção automática." },
   { nome: "PromptDC", url: "https://promptdc.com/", descricao: "Extensão para aprimoramento de prompts em tempo real para plataformas como Lovable, Bolt e editores locais." },
   { nome: "Vertical Studio", url: "https://www.verticalstudio.ai/", descricao: "Plataforma no-code para customizar, afinar e implantar modelos de IA descentralizados." },
-  { nome: "Compyle", url: "https://www.compyle.ai/", descricao: "Agente de codificação que planeja e pergunta antes de construir para evitar erros." },
   { nome: "Uimagic", url: "https://www.uimagic.io/", descricao: "Crie sites personalizados e prontos para lançamento em menos de 5 minutos com IA." },
   { nome: "YouTube Playables Builder", url: "https://www.youtube.com/playablesbuilder/", descricao: "Ferramenta do YouTube para criar experiências jogáveis e fluxos interativos que podem ser embutidos." },
   { nome: "Figroot", url: "https://www.figma.com/pt-br/comunidade/plugin/1486825259782611959/figroot-free-figma-to-code-react-tailwind-css-html-css-plugin", descricao: "Plugin gratuito do Figma que converte designs em código React, Tailwind CSS e HTML/CSS com IA." },
@@ -68,7 +67,6 @@ const ferramentas = [
   { nome: "Lovable", url: "/ferramentas/lovable", descricao: "IA para programação, resumos e automações." },
   { nome: "Bolt.new", url: "https://bolt.new/", descricao: "Ferramenta para acelerar desenvolvimento e automações." },
   { nome: "v0", url: "https://v0.dev/", descricao: "Plataforma para criação rápida de interfaces e automações." },
-  { nome: "Replit", url: "https://replit.com", descricao: "IDE online com recursos colaborativos e assistentes de código." },
   { nome: "Base44", url: "https://base44.com", descricao: "Ferramenta/infra de IA para criar apps completos." },
   { nome: "Trae", url: "https://trae.ai", descricao: "IDE adaptativo com IA da ByteDance." },
   { nome: "Cursor", url: "/ferramentas/cursor", descricao: "IDE com assistente de código e recursos AI." },
@@ -97,7 +95,7 @@ const ferramentas = [
   { nome: "BrainGrid", url: "https://www.braingrid.ai/", descricao: "Soluções de IA empresarial para análise, automação e tomada de decisão inteligente." },
   { nome: "Youware", url: "https://www.youware.com/", descricao: "Sistema com IA para gerenciar conhecimento e centralizar perguntas e respostas da sua empresa." },
   { nome: "Webflow Code Gen", url: "https://webflow.com/feature/code-gen", descricao: "Recurso com IA que gera código automaticamente a partir de designs no Webflow." },
-  { nome: "VibeCSS - AI CSS Editor (extensao)", url: "https://chromewebstore.google.com/detail/vibecss-ai-css-editor/colipoagmianjahabfbghhpmeclolgad ", descricao: "Extensão com IA que edita e gera CSS diretamente no navegador para estilizar sites." },
+  { nome: "VibeCSS - AI CSS Editor (extensao)", url: "https://chromewebstore.google.com/detail/vibecss-ai-css-editor/colipoagmianjahabfbghhpmeclolgad", descricao: "Extensão com IA que edita e gera CSS diretamente no navegador para estilizar sites." },
   { nome: "Mocha", url: "https://getmocha.com/", descricao: "Agente/IDE com IA para criar apps via chat e ações." },
   { nome: "PromptGuard", url: "https://promptguard.co/", descricao: "Ferramenta de segurança para proteger prompts e detectar vulnerabilidades em sistemas de IA." },
   { nome: "Bitrig", url: "https://www.bitrig.com/", descricao: "Ferramentas para criar apps com IA rapidamente." },
@@ -125,18 +123,36 @@ export default function IaParaVibeCoding() {
       </div>
       <p className="mb-8 text-gray-600">Ferramentas que ajudam no fluxo de desenvolvimento, automações e geração de código.</p>
       <div className="grid gap-6 sm:grid-cols-2">
-        {ferramentas.map((f) => (
-          <a
-            key={f.nome}
-            href={f.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100"
-          >
-            <h2 className="font-semibold text-lg mb-1">{f.nome}</h2>
-            <div className="text-gray-500 text-sm">{f.descricao}</div>
-          </a>
-        ))}
+        {ferramentas.map((f) => {
+          const isInternal = f.url.startsWith('/');
+          const content = (
+            <>
+              <h2 className="font-semibold text-lg mb-1">{f.nome}</h2>
+              <div className="text-gray-500 text-sm">{f.descricao}</div>
+            </>
+          );
+          const className = "block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100";
+
+          if (isInternal) {
+            return (
+              <Link key={f.nome} href={f.url} className={className}>
+                {content}
+              </Link>
+            );
+          }
+
+          return (
+            <a
+              key={f.nome}
+              href={f.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={className}
+            >
+              {content}
+            </a>
+          );
+        })}
       </div>
 
       <FAQSection />
