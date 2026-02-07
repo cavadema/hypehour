@@ -16,12 +16,12 @@ const ferramentas = [
     },
     {
         nome: "Firecrawl",
-        url: "https://www.firecrawl.dev/",
+        url: "/ferramentas/firecrawl",
         descricao: "API de scraping e crawling projetada para LLMs. Transforma sites inteiros em dados limpos e estruturados (Markdown) prontos para IA."
     },
     {
         nome: "Browse AI",
-        url: "https://www.browse.ai/",
+        url: "/ferramentas/browse-ai",
         descricao: "Monitore e extraia dados de qualquer site sem código. Crie robôs em minutos para automação de extração de dados."
     },
     {
@@ -31,7 +31,7 @@ const ferramentas = [
     },
     {
         nome: "Crawl4AI",
-        url: "https://docs.crawl4ai.com/",
+        url: "/ferramentas/crawl4ai",
         descricao: "Crawler e scraper open-source amigável para LLMs. Otimizado para RAG e processamento de dados para inteligência artificial."
     },
     {
@@ -51,7 +51,7 @@ const ferramentas = [
     },
     {
         nome: "Browserless",
-        url: "https://www.browserless.io/",
+        url: "/ferramentas/browserless",
         descricao: "Serviço de automação de navegadores headless em nuvem. Execute Puppeteer e Playwright em escala sem gerenciar infraestrutura."
     },
     {
@@ -61,7 +61,7 @@ const ferramentas = [
     },
     {
         nome: "ScraperAPI",
-        url: "https://www.scraperapi.com/",
+        url: "/ferramentas/scraperapi",
         descricao: "API que gerencia proxies, browsers e captchas para você focar apenas na extração dos dados HTML."
     },
     {

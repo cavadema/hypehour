@@ -357,6 +357,26 @@
   <url>
     <loc>https://www.hypehour.com.br/ferramentas/first-answer</loc>
     <lastmod>2026-01-24</lastmod>
-  </url>                          
+  </url>
+  <url>
+    <loc>https://www.hypehour.com.br/ferramentas/firecrawl</loc>
+    <lastmod>2026-02-07</lastmod>
+  </url>    
+  <url>
+    <loc>https://www.hypehour.com.br/ferramentas/browse-ai</loc>
+    <lastmod>2026-02-07</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hypehour.com.br/ferramentas/crawl4ai</loc>
+    <lastmod>2026-02-07</lastmod>
+  </url>
+   <url>
+    <loc>https://www.hypehour.com.br/ferramentas/browserless</loc>
+    <lastmod>2026-02-07</lastmod>
+  </url>                                 
+   <url>
+    <loc>https://www.hypehour.com.br/ferramentas/scraperapi</loc>
+    <lastmod>2026-02-07</lastmod>
+  </url>   
 </urlset>
  
