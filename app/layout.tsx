@@ -71,10 +71,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Header />
+      <head>
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-NYLGH2XQES"
@@ -91,6 +88,11 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
+      </head>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <Header />
         <main className="apify-main">{children}</main>
 
         <footer className="site-footer w-full bg-white border-t border-zinc-200 mt-8">
