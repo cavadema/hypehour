@@ -72,21 +72,22 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <head>
-        <Script
+        <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-NYLGH2XQES"
-          strategy="afterInteractive"
         />
-        <Script id="gtag-init" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+        <script
+          id="gtag-init"
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
 
-          gtag('config', 'G-NYLGH2XQES');`}
-        </Script>
-        <Script
+            gtag('config', 'G-NYLGH2XQES');`,
+          }}
+        />
+        <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9327504654029113"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
         />
       </head>
       <body
