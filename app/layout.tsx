@@ -85,6 +85,12 @@ export default function RootLayout({
 
           gtag('config', 'G-NYLGH2XQES');`}
         </Script>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9327504654029113"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <main className="apify-main">{children}</main>
 
         <footer className="site-footer w-full bg-white border-t border-zinc-200 mt-8">
