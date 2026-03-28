@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
     title: "Granola AI - O Bloco de Notas Inteligente para Reuniões | Review Completo",
@@ -344,8 +345,11 @@ export default function GranolaAiPage() {
                     </a>
                 </section>
 
+                {/* Ferramentas Similares */}
+                <SimilarTools />
+
                 {/* Conclusão */}
-                <section className="border-t border-zinc-200 pt-8">
+                <section className="border-t border-zinc-200 pt-8 mt-12">
                     <h2 className="text-2xl font-bold text-black mb-4">Conclusão</h2>
                     <p className="text-zinc-700 leading-relaxed mb-4">
                         A Granola AI se posiciona como um dos assistentes mais profissionais e humanos da categoria. Ao ignorar o modelo de robôs invasivos e focar na melhoria das notas pessoais do usuário, ela cria um valor imediato e de fácil adoção para qualquer fluxo de trabalho moderno.
