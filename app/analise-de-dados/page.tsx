@@ -10,6 +10,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "ChartGen.ai", url: "https://chartgen.ai/", descricao: "Transforme dados brutos em gráficos e diagramas profissionais automaticamente com IA, sem precisar de design ou código." },
   { nome: "Ada.im", url: "https://ada.im/", descricao: "Analista de dados de IA que automatiza limpeza, SQL e geração de relatórios empresariais." },
   { nome: "marimo", url: "https://marimo.io/", descricao: "Notebook reativo para Python, open-source e reprodutível. Alternativa moderna ao Jupyter que roda como app." },
   { nome: "Livedocs", url: "https://livedocs.com/", descricao: "Copiloto de dados com IA para gerar gráficos e insights de CSVs e bancos de dados automaticamente." },

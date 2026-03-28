@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
   {
+    nome: "Proton",
+    url: "https://proton.me",
+    descricao: "Suíte de serviços focada em privacidade e segurança, incluindo assistente de escrita com IA que protege seus dados.",
+  },
+  {
     nome: "Testudo",
     url: "https://www.testudo.co/",
     descricao: "Seguro gerado por IA para empresas, permitindo quantificar, identificar e transferir riscos de sistemas de IA.",

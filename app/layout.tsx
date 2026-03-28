@@ -73,18 +73,19 @@ export default function RootLayout({
     <html lang="pt-BR" suppressHydrationWarning>
       <head>
         <script
+          id="gtag-js"
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-NYLGH2XQES"
         />
         <script
           id="gtag-init"
+          suppressHydrationWarning
           dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
-
-            gtag('config', 'G-NYLGH2XQES');`,
+            __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-NYLGH2XQES');`,
           }}
         />
         <script
+          id="adsense-init"
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9327504654029113"
           crossOrigin="anonymous"

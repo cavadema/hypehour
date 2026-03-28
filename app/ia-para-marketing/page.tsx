@@ -4,6 +4,11 @@ import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
     {
+        nome: "Tofu",
+        url: "https://www.tofuhq.com/",
+        descricao: "Plataforma de automação de marketing para times B2B que escala campanhas personalizadas em múltiplos canais.",
+    },
+    {
         nome: "FlashLabs",
         url: "https://www.flashlabs.ai/",
         descricao: "Agentes autônomos de IA focados em transformar vendas, experiência do cliente e operações de receita.",
