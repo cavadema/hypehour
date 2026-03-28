@@ -1,42 +1,82 @@
-import React from 'react';
+"use client";
 
-const FAQSection = () => {
-    const faqs = [
-        {
-            question: "Como a Granola AI funciona sem um robô na chamada?",
-            answer: "Ela utiliza o acesso direto ao áudio do sistema e à tela do computador para transcrever a reunião e capturar pontos-chave. Com isso, não há um 'bots' entrando na sala ou anunciando a gravação, mantendo a reunião natural."
-        },
-        {
-            question: "A Granola AI transcreve em Português?",
-            answer: "Sim, a Granola suporta transcrição e resumos em diversos idiomas, inclusive o Português (Brasil). Ela detecta o idioma falado automaticamente e gera a ata com alta fidelidade."
-        },
-        {
-            question: "Minhas reuniões são privadas?",
-            answer: "Sim, a Granola foca na privacidade 'local-first'. Os dados não são usados para treinar modelos globais sem permissão e não ficam disponíveis em servidores de terceiros de forma descuidada."
-        },
-        {
-            question: "Posso usar a Granola AI em reuniões presenciais?",
-            answer: "Através do aplicativo móvel, você consegue usar a Granola para reuniões presenciais, palestras e brainstorms, gerando a mesma qualidade de atas das reuniões online."
-        },
-        {
-            question: "Quais são as principais integrações da Granola?",
-            answer: "Ela se integra nativamente ao Notion, Slack, HubSpot, Salesforce e Attio, permitindo que as notas da reunião sejam enviadas automaticamente para o seu CRM ou workflow de equipe."
-        }
-    ];
+import { useState } from "react";
+import { ChevronDownIcon } from "@heroicons/react/24/solid";
+
+const faqs = [
+    {
+        question: "O que é a Granola AI?",
+        answer: "A Granola AI é um bloco de notas inteligente e discreto para reuniões que capta o áudio do seu computador (sem robôs) e aprimora suas próprias anotações usando inteligência artificial."
+    },
+    {
+        question: "A Granola AI é gratuita?",
+        answer: "Sim, a ferramenta possui um plano gratuito generoso que inclui anotações de reuniões com IA essenciais. Para usuários que precisam de histórico ilimitado e recursos avançados de equipe, existem planos pagos."
+    },
+    {
+        question: "Como a Granola funciona sem um robô na chamada?",
+        answer: "Ela roda localmente no seu computador (Mac ou Windows) e captura o áudio do sistema. Isso permite que ela funcione com Zoom, Google Meet, Teams ou Slack sem precisar de um participante extra na sala."
+    },
+    {
+        question: "A Granola AI suporta Português?",
+        answer: "Sim, a Granola tem um excelente suporte para múltiplos idiomas, incluindo Português (Brasil). Ela transcreve e gera os resumos da ata com alta precisão no idioma falado."
+    },
+    {
+        question: "Ela substitui minhas anotações manuais?",
+        answer: "Não, ela as potencializa. O diferencial da Granola é que você continua anotando os pontos que considera importantes, e a IA usa a transcrição completa da reunião para preencher as lacunas e organizar o texto."
+    },
+    {
+        question: "Minhas reuniões são privadas e seguras?",
+        answer: "Sim. A Granola prioriza a privacidade local e os dados não são usados para treinar modelos globais de IA sem permissão explícita, ideal para conversas confidenciais."
+    },
+    {
+        question: "Posso usar a Granola em reuniões presenciais?",
+        answer: "Sim, através do aplicativo móvel, você pode gravar e transcrever reuniões presenciais, palestras e brainstorms com a mesma qualidade de IA das reuniões online."
+    },
+    {
+        question: "Como a Granola integra com outras ferramentas?",
+        answer: "Ela se integra nativamente ao Notion, Slack, HubSpot, Salesforce e Attio, permitindo enviar suas atas e itens de ação diretamente para seu fluxo de trabalho preferido."
+    }
+];
+
+function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
+    const [isOpen, setIsOpen] = useState(index < 4); // Abre as 4 primeiras perguntas por padrão
 
     return (
-        <section className="mt-16 border-t border-zinc-200 pt-12">
-            <h2 className="text-3xl font-bold text-black mb-8">Perguntas Frequentes (FAQ)</h2>
-            <div className="space-y-6">
+        <div className="border-b border-zinc-200 last:border-0">
+            <button
+                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
+                onClick={() => setIsOpen(!isOpen)}
+            >
+                <span className="font-medium text-black">{question}</span>
+                <ChevronDownIcon
+                    className={`h-5 w-5 text-zinc-700 transition-transform duration-200 ${isOpen ? "rotate-180" : ""
+                        }`}
+                />
+            </button>
+            <div
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"
+                    }`}
+            >
+                <p className="text-zinc-700 leading-relaxed">{answer}</p>
+            </div>
+        </div>
+    );
+}
+
+export default function FAQSection() {
+    return (
+        <div className="mt-12 mb-8">
+            <h2 className="text-2xl font-bold mb-6 text-black">Perguntas Frequentes sobre Granola AI</h2>
+            <div className="bg-white rounded-xl shadow-sm border border-zinc-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
-                    <div key={index} className="bg-white p-6 rounded-xl border border-zinc-200">
-                        <h3 className="text-lg font-semibold text-black mb-2">{faq.question}</h3>
-                        <p className="text-zinc-600 leading-relaxed">{faq.answer}</p>
-                    </div>
+                    <FAQItem
+                        key={index}
+                        question={faq.question}
+                        answer={faq.answer}
+                        index={index}
+                    />
                 ))}
             </div>
-        </section>
+        </div>
     );
-};
-
-export default FAQSection;
+}
