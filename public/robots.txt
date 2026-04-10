@@ -163,11 +163,11 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://www.hypehour.com.br/sitemap.xml
 
 # AEO (Answer Engine Optimization) files
 # These help LLMs understand your content better
-# https://example.com/llms.txt
-# https://example.com/llms-full.txt
-# https://example.com/docs.json
-# https://example.com/ai-index.json
+# https://www.hypehour.com.br/llms.txt
+# https://www.hypehour.com.br/llms-full.txt
+# https://www.hypehour.com.br/docs.json
+# https://www.hypehour.com.br/ai-index.json
