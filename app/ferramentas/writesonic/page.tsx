@@ -52,6 +52,11 @@ export default function WritesonicPage() {
                     "@type": "Organization",
                     "name": "Writesonic"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "1"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

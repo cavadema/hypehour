@@ -52,6 +52,11 @@ export default function FirstAnswerPage() {
                     "@type": "Organization",
                     "name": "First Answer"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "5.0",
+                    "ratingCount": "9"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "59",

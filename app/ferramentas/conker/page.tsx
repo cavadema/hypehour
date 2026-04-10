@@ -49,6 +49,11 @@ export default function ConkerPage() {
                     "@type": "Organization",
                     "name": "Conker"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.5",
+                    "ratingCount": "13"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

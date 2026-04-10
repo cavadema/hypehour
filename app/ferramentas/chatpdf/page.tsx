@@ -50,6 +50,11 @@ export default function ChatPDFPage() {
                     "@type": "Organization",
                     "name": "ChatPDF"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "ratingCount": "11"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

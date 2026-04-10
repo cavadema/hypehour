@@ -33,6 +33,11 @@ export default function KapwingPage() {
                 "applicationCategory": "MultimediaApplication",
                 "operatingSystem": "Web",
                 "url": toolMetadata.url,
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "4"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

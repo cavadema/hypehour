@@ -49,6 +49,11 @@ export default function SlidesgoPage() {
                     "@type": "Organization",
                     "name": "Slidesgo"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.5",
+                    "ratingCount": "4"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

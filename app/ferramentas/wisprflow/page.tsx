@@ -49,6 +49,11 @@ export default function WisprFlowPage() {
                     "@type": "Organization",
                     "name": "Wispr AI"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "1"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

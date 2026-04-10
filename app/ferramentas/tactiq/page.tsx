@@ -50,6 +50,11 @@ export default function TactiqPage() {
                     "@type": "Organization",
                     "name": "Tactiq"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "ratingCount": "2"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

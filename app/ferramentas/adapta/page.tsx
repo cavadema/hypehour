@@ -49,6 +49,11 @@ export default function AdaptaPage() {
                     "@type": "Organization",
                     "name": "Adapta"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.6",
+                    "ratingCount": "5"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

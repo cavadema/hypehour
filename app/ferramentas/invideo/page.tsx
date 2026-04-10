@@ -33,6 +33,11 @@ export default function InvideoPage() {
                 "applicationCategory": "MultimediaApplication",
                 "operatingSystem": "Web, iOS, Android",
                 "url": toolMetadata.url,
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.5",
+                    "ratingCount": "1"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

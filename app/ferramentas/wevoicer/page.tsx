@@ -33,6 +33,11 @@ export default function WeVoicerPage() {
                 "applicationCategory": "MultimediaApplication",
                 "operatingSystem": "Web",
                 "url": toolMetadata.url,
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "ratingCount": "14"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

@@ -49,7 +49,12 @@ export default function GPTZeroPage() {
           "@type": "Organization",
           "name": "GPTZero"
         },
-        "offers": {
+        "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "5.0",
+                    "ratingCount": "15"
+                },
+                "offers": {
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "USD",

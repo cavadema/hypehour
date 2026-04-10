@@ -49,6 +49,11 @@ export default function GammaPage() {
                     "@type": "Organization",
                     "name": "Gamma Tech"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "5.0",
+                    "ratingCount": "6"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

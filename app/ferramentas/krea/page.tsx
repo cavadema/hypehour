@@ -52,6 +52,11 @@ export default function KreaPage() {
                     "@type": "Organization",
                     "name": "Krea AI"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "5.0",
+                    "ratingCount": "15"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

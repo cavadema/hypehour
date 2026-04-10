@@ -50,6 +50,11 @@ export default function ChatbasePage() {
                     "@type": "Organization",
                     "name": "Chatbase"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "5.0",
+                    "ratingCount": "3"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "19.00",

@@ -51,6 +51,11 @@ export default function IdeogramPage() {
                     "@type": "Organization",
                     "name": "Ideogram"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.5",
+                    "ratingCount": "1"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

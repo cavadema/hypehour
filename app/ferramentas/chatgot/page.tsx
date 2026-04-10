@@ -49,6 +49,11 @@ export default function ChatgotPage() {
                     "@type": "Organization",
                     "name": "Chatgot"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.7",
+                    "ratingCount": "12"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

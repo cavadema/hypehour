@@ -49,6 +49,11 @@ export default function ExcelmaticPage() {
                     "@type": "Organization",
                     "name": "Excelmatic"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "5.0",
+                    "ratingCount": "6"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

@@ -49,6 +49,11 @@ export default function OpusClipPage() {
                     "@type": "Organization",
                     "name": "Opus Clip"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "10"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

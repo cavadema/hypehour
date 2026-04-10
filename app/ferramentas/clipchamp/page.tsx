@@ -50,6 +50,11 @@ export default function ClipchampPage() {
                     "@type": "Organization",
                     "name": "Microsoft"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "1"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

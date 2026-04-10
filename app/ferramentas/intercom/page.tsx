@@ -50,6 +50,11 @@ export default function IntercomPage() {
                     "@type": "Organization",
                     "name": "Intercom"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.6",
+                    "ratingCount": "11"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0.99",

@@ -49,7 +49,12 @@ export default function LovablePage() {
           "@type": "Organization",
           "name": "Lovable"
         },
-        "offers": {
+        "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "7"
+                },
+                "offers": {
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "USD",

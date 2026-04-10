@@ -33,6 +33,11 @@ export default function SynthesiaPage() {
                 "applicationCategory": "MultimediaApplication",
                 "operatingSystem": "Web",
                 "url": toolMetadata.url,
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.5",
+                    "ratingCount": "10"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

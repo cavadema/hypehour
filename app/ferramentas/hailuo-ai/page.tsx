@@ -49,6 +49,11 @@ export default function HailuoAIPage() {
                     "@type": "Organization",
                     "name": "MiniMax"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.6",
+                    "ratingCount": "5"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

@@ -33,6 +33,11 @@ export default function LuvvoicePage() {
                 "applicationCategory": "MultimediaApplication",
                 "operatingSystem": "Web",
                 "url": toolMetadata.url,
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.6",
+                    "ratingCount": "8"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

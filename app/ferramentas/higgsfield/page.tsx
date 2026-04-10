@@ -51,6 +51,11 @@ export default function HiggsfieldPage() {
                     "@type": "Organization",
                     "name": "Higgsfield AI"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.7",
+                    "ratingCount": "12"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

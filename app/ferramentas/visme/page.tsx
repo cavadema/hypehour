@@ -49,6 +49,11 @@ export default function VismePage() {
                     "@type": "Organization",
                     "name": "Visme"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.7",
+                    "ratingCount": "9"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

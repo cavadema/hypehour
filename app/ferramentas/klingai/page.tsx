@@ -49,7 +49,12 @@ export default function KlingAIPage() {
           "@type": "Organization",
           "name": "KlingAI"
         },
-        "offers": {
+        "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "1"
+                },
+                "offers": {
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "USD",

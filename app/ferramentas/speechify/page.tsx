@@ -49,6 +49,11 @@ export default function SpeechifyPage() {
                     "@type": "Organization",
                     "name": "Speechify"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.5",
+                    "ratingCount": "1"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

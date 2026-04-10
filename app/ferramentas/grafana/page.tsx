@@ -50,6 +50,11 @@ export default function GrafanaPage() {
                     "@type": "Organization",
                     "name": "Grafana Labs"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.5",
+                    "ratingCount": "1"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "19.00",

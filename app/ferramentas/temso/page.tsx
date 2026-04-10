@@ -52,6 +52,11 @@ export default function TemsoPage() {
                     "@type": "Organization",
                     "name": "Temso"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.5",
+                    "ratingCount": "13"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "49",

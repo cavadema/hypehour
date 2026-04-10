@@ -50,6 +50,11 @@ export default function SanaPage() {
                     "@type": "Organization",
                     "name": "Sana Labs"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "13"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

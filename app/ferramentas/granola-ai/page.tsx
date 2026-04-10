@@ -50,6 +50,11 @@ export default function GranolaAiPage() {
                     "@type": "Organization",
                     "name": "Granola"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "13"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

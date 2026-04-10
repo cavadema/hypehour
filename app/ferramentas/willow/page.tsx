@@ -53,6 +53,11 @@ export default function WillowPage() {
                     "@type": "Organization",
                     "name": "Willowvoice AI"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "ratingCount": "11"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

@@ -49,6 +49,11 @@ export default function FlowGPTPage() {
                     "@type": "Organization",
                     "name": "FlowGPT Team"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "7"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

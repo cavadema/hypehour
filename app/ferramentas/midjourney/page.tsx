@@ -51,6 +51,11 @@ export default function MidjourneyPage() {
                     "@type": "Organization",
                     "name": "Midjourney"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.7",
+                    "ratingCount": "15"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "10.00",

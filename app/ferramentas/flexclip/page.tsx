@@ -33,6 +33,11 @@ export default function FlexClipPage() {
                 "applicationCategory": "MultimediaApplication",
                 "operatingSystem": "Web",
                 "url": toolMetadata.url,
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "1"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

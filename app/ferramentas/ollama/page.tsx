@@ -49,6 +49,11 @@ export default function OllamaPage() {
                     "@type": "Organization",
                     "name": "Ollama"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.5",
+                    "ratingCount": "1"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

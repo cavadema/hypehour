@@ -46,6 +46,11 @@ export default function VidnozPage() {
                 "applicationCategory": "MultimediaApplication",
                 "operatingSystem": "Web",
                 "url": "https://pt.vidnoz.com/",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.5",
+                    "ratingCount": "7"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

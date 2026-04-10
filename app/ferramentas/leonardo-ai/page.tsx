@@ -50,7 +50,12 @@ export default function LeonardoAIPage() {
           "@type": "Organization",
           "name": "Leonardo AI"
         },
-        "offers": {
+        "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.6",
+                    "ratingCount": "5"
+                },
+                "offers": {
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "USD",

@@ -50,6 +50,11 @@ export default function CursorPage() {
                     "@type": "Organization",
                     "name": "Anysphere"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "ratingCount": "11"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "20.00",

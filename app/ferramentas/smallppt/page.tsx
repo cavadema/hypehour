@@ -49,6 +49,11 @@ export default function SmallpptPage() {
                     "@type": "Organization",
                     "name": "Smallppt"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.6",
+                    "ratingCount": "8"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

@@ -52,6 +52,11 @@ export default function ProfoundPage() {
                     "@type": "Organization",
                     "name": "Profound"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.6",
+                    "ratingCount": "8"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

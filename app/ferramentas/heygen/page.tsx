@@ -52,6 +52,11 @@ export default function HeyGenPage() {
                     "@type": "Organization",
                     "name": "HeyGen AI"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "ratingCount": "11"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

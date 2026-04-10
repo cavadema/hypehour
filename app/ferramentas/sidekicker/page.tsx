@@ -49,6 +49,11 @@ export default function SidekickerPage() {
                     "@type": "Organization",
                     "name": "Sidekicker"
                 },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "ratingCount": "5"
+                },
                 "offers": {
                     "@type": "Offer",
                     "price": "1.95",
