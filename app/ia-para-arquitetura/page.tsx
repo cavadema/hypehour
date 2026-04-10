@@ -73,7 +73,7 @@ const ferramentas = [
     },
     {
         nome: "Archicad AI Visualizer",
-        url: "https://www.graphisoft.com/solutions/innovation/archicad-ai-visualizer",
+        url: "https://www.graphisoft.com/en-br/plans-and-products/ai-visualizer",
         descricao: "Integração de IA no Archicad para gerar visualizações artísticas de seus modelos BIM.",
     },
     {

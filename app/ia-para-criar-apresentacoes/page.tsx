@@ -80,7 +80,7 @@ const ferramentas = [
     },
     {
         nome: "Tome",
-        url: "https://landing-staging.tome.app/",
+        url: "https://tome.app/",
         descricao: "Crie apresentações narrativas e interativas com IA em segundos.",
     },
     {

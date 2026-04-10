@@ -185,7 +185,7 @@ const ferramentas = [
     },
     {
         nome: "Trugen AI",
-        url: "https://trugen.ai/home",
+        url: "https://trugen.ai/",
         descricao: "Plataforma de geração de vídeos com IA para criar conteúdo visual de alta qualidade.",
     },
     {

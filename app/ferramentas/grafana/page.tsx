@@ -45,7 +45,7 @@ export default function GrafanaPage() {
                 "description": "Uma plataforma de observabilidade líder que integra IA e Machine Learning para detecção de anomalias, previsões e assistência inteligente em incidentes.",
                 "applicationCategory": "DeveloperApplication",
                 "operatingSystem": "Web, Windows, macOS, Linux",
-                "url": "https://grafana.com/products/cloud/ai/",
+                "url": "https://grafana.com/solutions/machine-learning/",
                 "creator": {
                     "@type": "Organization",
                     "name": "Grafana Labs"
@@ -262,7 +262,7 @@ export default function GrafanaPage() {
                     <h2 className="text-3xl font-bold mb-4">Evolua sua observabilidade com IA</h2>
                     <p className="text-lg mb-6 text-zinc-300">Comece no plano gratuito do Grafana Cloud e teste os recursos inteligentes hoje mesmo.</p>
                     <a
-                        href="https://grafana.com/products/cloud/ai/"
+                        href="https://grafana.com/solutions/machine-learning/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block px-8 py-4 bg-[#F47A20] text-white font-bold rounded-lg hover:shadow-xl transition"

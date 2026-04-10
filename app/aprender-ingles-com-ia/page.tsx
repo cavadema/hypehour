@@ -21,7 +21,7 @@ const ferramentas = [
   { nome: "AI Learna", url: "https://ailearna.com/", descricao: "Aulas guiadas por IA com planos personalizados de estudo." },
   { nome: "Promova", url: "https://promova.com/", descricao: "Aplicativo de idiomas com exercícios e revisão inteligente." },
   { nome: "Falou", url: "https://falou.com/pt", descricao: "Simulações de fala do cotidiano com correção de sotaque." },
-  { nome: "Praktika AI", url: "https://praktika.ai/pt-br/", descricao: "Pratique conversação com avatares em inglês e receba dicas." },
+  { nome: "Praktika AI", url: "https://praktika.ai/", descricao: "Pratique conversação com avatares em inglês e receba dicas." },
   { nome: "GetPronounce", url: "https://www.getpronounce.com", descricao: "Treine pronúncia com análise automática por IA." },
   { nome: "LanguaTalk", url: "https://languatalk.com/try-langua", descricao: "Aulas particulares e prática guiada para fluência." },
   { nome: "Univerbal", url: "https://www.univerbal.app/", descricao: "Chat com IA para treinar inglês em cenários reais." },

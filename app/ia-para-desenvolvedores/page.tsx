@@ -439,11 +439,7 @@ const ferramentas = [
     url: "https://www.thesys.dev/",
     descricao: "Plataforma com IA para documentar, visualizar e entender sistemas complexos de software.",
   },
-  {
-    nome: "Beam Game",
-    url: "https://site.beam.game/",
-    descricao: "Plataforma com IA que transforma ideias em jogos interativos em minutos.",
-  },
+
   {
     nome: "Rapid Roboflow",
     url: "https://rapid.roboflow.com/",
@@ -476,7 +472,7 @@ const ferramentas = [
   },
   {
     nome: "Hyperlink",
-    url: "https://hyperlink.nexa.ai/",
+    url: "https://nexa.ai/",
     descricao: "IA que transforma links e uploads em respostas claras e pesquisáveis.",
   },
   {

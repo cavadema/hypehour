@@ -22,7 +22,7 @@ const ferramentas = [
   { nome: "Expertise.ai", url: "https://www.expertise.ai/pt", descricao: "Plataforma de IA para otimizar atendimento ao cliente com automação inteligente e insights." },
   { nome: "Robbu", url: "https://robbu.global/", descricao: "Plataforma de automação de atendimento com IA para otimizar suporte ao cliente." },
   { nome: "Helploom", url: "https://helploom.com/", descricao: "Plataforma de atendimento com IA para automação e gestão integrada." },
-  { nome: "Gladly", url: "https://www.gladly.ai/hp1/", descricao: "Transforma o atendimento ao cliente em suporte inteligente, automatizado e personalizado em todos os canais." },
+  { nome: "Gladly", url: "https://www.gladly.com/", descricao: "Transforma o atendimento ao cliente em suporte inteligente, automatizado e personalizado em todos os canais." },
   { nome: "Darwin", url: "https://www.getdarwin.ai/pt", descricao: "Criar funcionários-IA que respondem clientes em canais como WhatsApp, Instagram e ligações, qualificam leads, atualizam CRMs." },
   { nome: "CallRail Voice Assist", url: "https://www.callrail.com/voice-assist", descricao: "Assistente de voz com IA para melhorar chamadas de atendimento com respostas inteligentes." },
   { nome: "Contentsquare", url: "https://contentsquare.com/", descricao: "Plataforma de experiência digital com IA para otimizar jornada de atendimento." },

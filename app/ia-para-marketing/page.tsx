@@ -238,11 +238,7 @@ const ferramentas = [
         url: "https://www.luppa.ai/",
         descricao: "Plataforma all-in-one de marketing com IA para criar texto, imagens, vídeos e automatizar postagens.",
     },
-    {
-        nome: "Olive",
-        url: "https://fromolive.com/",
-        descricao: "Plataforma de BI impulsionada por IA para criar ferramentas internas rápidas e seguras a partir de prompts.",
-    },
+
     {
         nome: "Aha",
         url: "https://www.aha.inc/",
@@ -288,11 +284,7 @@ const ferramentas = [
         url: "https://www.cashewresearch.com/",
         descricao: "Plataforma de pesquisa de mercado com IA para insights e análise de audiência.",
     },
-    {
-        nome: "LLMs.txt Generator",
-        url: "https://llmstxtgenerator.cc/",
-        descricao: "Gerador de documentação estruturada para LLMs otimizar indexação e descoberta de conteúdo.",
-    },
+
     {
         nome: "Softr Workflows",
         url: "https://www.softr.io/workflows",

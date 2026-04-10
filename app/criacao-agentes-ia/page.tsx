@@ -47,7 +47,7 @@ const ferramentas = [
   },
   {
     nome: "Hyperlink (Nexa)",
-    url: "https://hyperlink.nexa.ai/",
+    url: "https://nexa.ai/",
     descricao: "Transforme qualquer link ou upload em respostas claras e pesquisáveis com IA.",
   },
   {
@@ -67,7 +67,7 @@ const ferramentas = [
   },
   {
     nome: "Letta",
-    url: "https://www.letta.com/developer-platform",
+    url: "https://www.letta.com/",
     descricao: "Plataforma para desenvolvedores criarem agentes de IA com memória persistente e autonomia total.",
   },
   {
@@ -159,7 +159,7 @@ const ferramentas = [
   { nome: "Serval", url: "https://www.serval.com/", descricao: "Plataforma para gerenciar e proteger dados sensíveis em aplicações empresariais." },
   { nome: "Warp Agents", url: "https://www.warp.dev/agents", descricao: "Crie e gerencie agentes de IA que automatizam tarefas no seu terminal e ferramentas." },
   { nome: "Kadabra", url: "https://www.getkadabra.com/", descricao: "IA que otimiza e automatiza respostas de atendimento ao cliente com insights inteligentes." },
-  { nome: "Action State Labs", url: "https://www.actionstatelabs.com/", descricao: "Framework para gerenciar estado e fluxos complexos em aplicações Android." },
+  { nome: "Action State Labs", url: "https://github.com/actionstatelabs", descricao: "Framework para gerenciar estado e fluxos complexos em aplicações Android." },
   { nome: "Zenflow (Zencoder)", url: "https://zencoder.ai/zenflow", descricao: "Construa agentes e fluxos com IA orquestrando ferramentas e memória." },
   { nome: "Databricks AI Agents", url: "https://www.databricks.com/solutions/ai-agents", descricao: "Solução para construir e operar agentes de IA em dados empresariais." },
   { nome: "Nelly", url: "https://nelly.is/", descricao: "Agentes de IA para workflows e automações em escala." },
@@ -172,7 +172,6 @@ const ferramentas = [
   { nome: "Factory AI", url: "https://factory.ai/", descricao: "Plataforma para criar, testar e orquestrar agentes de IA com foco em produção." },
   { nome: "Sim AI", url: "https://www.sim.ai/", descricao: "Construa agentes autônomos para tarefas complexas com monitoramento e segurança." },
   { nome: "Conduit AI", url: "https://www.conduit.ai/", descricao: "Infraestrutura para desenvolver e operar agentes de IA com workflows reutilizáveis." },
-  { nome: "Doco", url: "https://www.trydoco.com/", descricao: "Assistente/agent para edição e revisão de documentos com IA integrada ao Word." },
 ];
 
 export default function CriacaoAgentesIA() {
