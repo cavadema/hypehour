@@ -11,11 +11,11 @@ export default defineConfig({
   // Toggle individual generators
   generators: {
     robotsTxt: true,
-    llmsTxt: true,
-    llmsFullTxt: true,
-    rawMarkdown: true,
-    manifest: true,
-    sitemap: true,
+    llmsTxt: false,
+    llmsFullTxt: false,
+    rawMarkdown: false,
+    manifest: false,
+    sitemap: false,
     aiIndex: true,
   },
 
