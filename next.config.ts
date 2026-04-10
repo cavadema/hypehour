@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { withAeo } from "aeo.js/next";
 
 const nextConfig: NextConfig = {
   /* config options here */
@@ -19,4 +20,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withAeo(nextConfig as any);
