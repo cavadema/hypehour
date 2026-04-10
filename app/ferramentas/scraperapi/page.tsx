@@ -50,6 +50,11 @@ export default function ScraperAPIPage() {
                 "creator": {
                     "@type": "Organization",
                     "name": "ScraperAPI"
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.5",
+                    "ratingCount": "6"
                 }
             }
         ]

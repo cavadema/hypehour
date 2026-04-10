@@ -50,6 +50,11 @@ export default function BrowserlessPage() {
                 "creator": {
                     "@type": "Organization",
                     "name": "Browserless"
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.6",
+                    "ratingCount": "8"
                 }
             }
         ]

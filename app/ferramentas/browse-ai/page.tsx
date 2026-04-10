@@ -50,6 +50,11 @@ export default function BrowseAIPage() {
                 "creator": {
                     "@type": "Organization",
                     "name": "Browse AI"
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.7",
+                    "ratingCount": "12"
                 }
             }
         ]

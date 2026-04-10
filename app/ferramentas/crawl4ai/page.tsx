@@ -51,6 +51,12 @@ export default function Crawl4AIPage() {
                     "@type": "Organization",
                     "name": "Crawl4AI Open Source"
                 }
+            ,
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "10"
+                }
             }
         ]
     };

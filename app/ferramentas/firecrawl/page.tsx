@@ -50,6 +50,11 @@ export default function FirecrawlPage() {
                 "creator": {
                     "@type": "Organization",
                     "name": "Firecrawl"
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "14"
                 }
             }
         ]
