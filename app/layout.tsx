@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "./components/Header";
-import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -64,6 +63,57 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.hypehour.com.br/#organization",
+      "name": "Hypehour",
+      "url": "https://www.hypehour.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.hypehour.com.br/#logo",
+        "url": "https://www.hypehour.com.br/logo.png",
+        "contentUrl": "https://www.hypehour.com.br/logo.png",
+        "caption": "Hypehour Logo"
+      },
+      "image": {
+        "@id": "https://www.hypehour.com.br/#logo"
+      },
+      "sameAs": [
+        "https://x.com/hypehourbr",
+        "https://www.linkedin.com/company/hypehour/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.hypehour.com.br/#website",
+      "url": "https://www.hypehour.com.br",
+      "name": "Hypehour",
+      "description": "Agregador de ferramentas de IA para todos os segmentos",
+      "publisher": {
+        "@id": "https://www.hypehour.com.br/#organization"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.hypehour.com.br/#webpage",
+      "url": "https://www.hypehour.com.br",
+      "name": "Página Inicial | Hypehour",
+      "isPartOf": {
+        "@id": "https://www.hypehour.com.br/#website"
+      },
+      "about": {
+        "@id": "https://www.hypehour.com.br/#organization"
+      },
+      "description": "Hypehour é um agregador de ferramentas de IA para imagens, desenvolvimento, estudos e muito mais.",
+      "inLanguage": "pt-BR"
+    }
+  ]
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -90,6 +140,11 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9327504654029113"
           crossOrigin="anonymous"
         />
+        <script
+          id="schema-jsonld"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -99,7 +154,6 @@ export default function RootLayout({
 
         <footer className="site-footer w-full bg-white border-t border-zinc-200 mt-8">
           <div className="max-w-6xl mx-auto py-12 px-6">
-            {/* Categorias - Categorized Grid */}
             <div className="mb-12 border-b border-zinc-100 pb-12">
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-8">
                 {/* Agentes & Assistentes */}
@@ -225,7 +279,6 @@ export default function RootLayout({
               </div>
             </div>
 
-            {/* Bottom Row: Branding + Seções + Contato */}
             <div className="flex flex-col md:flex-row justify-between gap-8">
               <div className="max-w-xl">
                 <h3 className="font-semibold mb-2 text-sm text-zinc-900">Sobre Nós</h3>
@@ -236,7 +289,6 @@ export default function RootLayout({
                 <div>
                   <h3 className="font-semibold mb-2 text-sm text-zinc-900">Seções</h3>
                   <ul className="space-y-2 text-xs text-zinc-700">
-
                     <li><a href="/sobre-nos" className="hover:underline">Sobre Nós</a></li>
                     <li><Link href="/termos" className="hover:underline">Termos de Serviço</Link></li>
                     <li><Link href="/privacidade" className="hover:underline">Política de Privacidade</Link></li>
