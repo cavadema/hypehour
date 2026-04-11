@@ -137,6 +137,20 @@ export const metadata = {
   alternates: {
     canonical: "https://www.hypehour.com.br/modelos-de-llms",
   },
+  openGraph: {
+    title: "Modelos de LLMs - Large Language Model",
+    description: "Descubra os principais modelos de linguagem do mercado, incluindo OpenAI, Google Gemini, Claude e outros players.",
+    url: "https://www.hypehour.com.br/modelos-de-llms",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Modelos de LLMs - Large Language Model",
+    description: "Descubra os principais modelos de linguagem do mercado, incluindo OpenAI, Google Gemini, Claude e outros players.",
+  },
 };
 
 export default function ModelosDeLLMs() {

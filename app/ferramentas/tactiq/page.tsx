@@ -3,74 +3,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "Tactiq - Transcrição e Resumo de Reuniões com IA | Review",
+  title: "Tactiq - Transcrição e Resumo de Reuniões com IA",
+  description: "Conheça o Tactiq: ferramenta de IA para transcrever reuniões do Google Meet, Zoom e Teams em tempo real. Veja funcionalidades, preço e se vale a pena.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/tactiq",
+  },
+  openGraph: {
+    title: "Tactiq - Transcrição e Resumo de Reuniões com IA",
     description: "Conheça o Tactiq: ferramenta de IA para transcrever reuniões do Google Meet, Zoom e Teams em tempo real. Veja funcionalidades, preço e se vale a pena.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/tactiq",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/tactiq",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Tactiq - Transcrição e Resumo de Reuniões com IA",
+    description: "Conheça o Tactiq: ferramenta de IA para transcrever reuniões do Google Meet, Zoom e Teams em tempo real. Veja funcionalidades, preço e se vale a pena.",
+  },
 };
 
 export default function TactiqPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/tactiq#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Ata de Reunião",
-                        "item": "https://www.hypehour.com.br/ia-para-fazer-ata-reuniao"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Tactiq",
-                        "item": "https://www.hypehour.com.br/ferramentas/tactiq"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/tactiq#software",
-                "name": "Tactiq",
-                "description": "Tactiq é uma ferramenta de IA que transcreve e resume reuniões do Google Meet, Zoom e Microsoft Teams em tempo real, gerando insights e tarefas automaticamente.",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web, Chrome Extension",
-                "url": "https://tactiq.io",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Tactiq"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.9",
-                    "ratingCount": "2"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/tactiq#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Tactiq",
+            "item": "https://www.hypehour.com.br/ferramentas/tactiq"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/tactiq#software",
+        "name": "Tactiq",
+        "description": "Conheça o Tactiq: ferramenta de IA para transcrever reuniões do Google Meet, Zoom e Teams em tempo real. Veja funcionalidades, preço e se vale a pena.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/tactiq",
+        "creator": {
+          "@type": "Organization",
+          "name": "Tactiq"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -172,8 +169,7 @@ export default function TactiqPage() {
                             "Daily scrums e stand-ups",
                             "Reuniões de briefing com clientes",
                             "Aulas e webinars online",
-                            "Documentação de projetos",
-                        ].map((item, index) => (
+                            "Documentação de projetos"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -219,8 +215,7 @@ export default function TactiqPage() {
                             "Fácil de compartilhar informações com quem não participou",
                             "Integração perfeita com ferramentas existentes (Google, Zoom, Teams)",
                             "Plano gratuito funcional para uso moderado (10 reuniões/mês)",
-                            "Segurança e privacidade com certificação SOC-2",
-                        ].map((advantage, index) => (
+                            "Segurança e privacidade com certificação SOC-2"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -238,8 +233,7 @@ export default function TactiqPage() {
                             "A transcrição depende da qualidade do áudio dos participantes",
                             "Plano gratuito tem limite de 10 reuniões por mês",
                             "Pode não capturar nuances de tom ou sarcasmo perfeitamente",
-                            "Funciona apenas em reuniões online (não grava reuniões presenciais diretamente)",
-                        ].map((disadvantage, index) => (
+                            "Funciona apenas em reuniões online (não grava reuniões presenciais diretamente)"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

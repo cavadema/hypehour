@@ -5,74 +5,71 @@ import SimilarTools from "./SimilarTools";
 import { faqs } from "./constants";
 
 export const metadata = {
-    title: "HeyGen - Avatares de IA e Tradução de Vídeo Inteligente | Review",
+  title: "HeyGen - Avatares de IA e Tradução de Vídeo Inteligente",
+  description: "Conheça o HeyGen: a plataforma líder em avatares digitais e tradução de vídeo com lip-sync. Veja como funciona, preços e como criar vídeos profissionais.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/heygen",
+  },
+  openGraph: {
+    title: "HeyGen - Avatares de IA e Tradução de Vídeo Inteligente",
     description: "Conheça o HeyGen: a plataforma líder em avatares digitais e tradução de vídeo com lip-sync. Veja como funciona, preços e como criar vídeos profissionais.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/heygen",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/heygen",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "HeyGen - Avatares de IA e Tradução de Vídeo Inteligente",
+    description: "Conheça o HeyGen: a plataforma líder em avatares digitais e tradução de vídeo com lip-sync. Veja como funciona, preços e como criar vídeos profissionais.",
+  },
 };
 
 export default function HeyGenPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/heygen#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Vídeos",
-                        "item": "https://www.hypehour.com.br/ia-para-criar-videos"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "HeyGen",
-                        "item": "https://www.hypehour.com.br/ferramentas/heygen"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/heygen#software",
-                "name": "HeyGen",
-                "description": "HeyGen é uma plataforma de IA generativa especializada em avatares digitais, tradução de vídeo multilingue e clonagem de voz.",
-                "applicationCategory": "MultimediaApplication",
-                "operatingSystem": "Web",
-                "url": "https://heygen.com",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "HeyGen AI"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.9",
-                    "ratingCount": "11"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/heygen#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "HeyGen",
+            "item": "https://www.hypehour.com.br/ferramentas/heygen"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/heygen#software",
+        "name": "HeyGen",
+        "description": "Conheça o HeyGen: a plataforma líder em avatares digitais e tradução de vídeo com lip-sync. Veja como funciona, preços e como criar vídeos profissionais.",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/heygen",
+        "creator": {
+          "@type": "Organization",
+          "name": "HeyGen"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -214,8 +211,7 @@ export default function HeyGenPage() {
                             "Ampla biblioteca de vozes e idiomas com entonação natural",
                             "Plataforma extremamente intuitiva, ideal para não-editores",
                             "Integração oficial com Canva e outras ferramentas de CRM",
-                            "Escalabilidade para empresas que precisam de centenas de vídeos mensais",
-                        ].map((advantage, index) => (
+                            "Escalabilidade para empresas que precisam de centenas de vídeos mensais"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -232,8 +228,7 @@ export default function HeyGenPage() {
                             "Custo por crédito pode ser elevado para criadores independentes",
                             "Plano gratuito muito limitado para gerações de alta duração",
                             "O processo de criar seu próprio avatar (Instant Avatar) exige boa iluminação",
-                            "Dependência total de conexão com a internet para renderização",
-                        ].map((disadvantage, index) => (
+                            "Dependência total de conexão com a internet para renderização"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

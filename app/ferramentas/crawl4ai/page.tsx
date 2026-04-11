@@ -4,69 +4,71 @@ import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
 export const metadata = {
-    title: "Crawl4AI - Crawler Open-Source de Alta Performance para IA | Review",
+  title: "Crawl4AI - Crawler Open-Source de Alta Performance para IA",
+  description: "Descubra o Crawl4AI: a biblioteca Python de código aberto definitiva para crawling e scraping otimizado para RAG e modelos de linguagem.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/crawl4ai",
+  },
+  openGraph: {
+    title: "Crawl4AI - Crawler Open-Source de Alta Performance para IA",
     description: "Descubra o Crawl4AI: a biblioteca Python de código aberto definitiva para crawling e scraping otimizado para RAG e modelos de linguagem.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/crawl4ai",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/crawl4ai",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Crawl4AI - Crawler Open-Source de Alta Performance para IA",
+    description: "Descubra o Crawl4AI: a biblioteca Python de código aberto definitiva para crawling e scraping otimizado para RAG e modelos de linguagem.",
+  },
 };
 
 export default function Crawl4AIPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/crawl4ai#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Web Scraping",
-                        "item": "https://www.hypehour.com.br/ia-web-scraping"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Crawl4AI",
-                        "item": "https://www.hypehour.com.br/ferramentas/crawl4ai"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/crawl4ai#software",
-                "name": "Crawl4AI",
-                "description": "Crawl4AI é uma biblioteca Python open-source de web crawling dedicada a aplicações de IA e RAG.",
-                "applicationCategory": "DeveloperApplication",
-                "operatingSystem": "Linux, macOS, Windows",
-                "url": "https://docs.crawl4ai.com/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Crawl4AI Open Source"
-                }
-            ,
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "ratingCount": "10"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/crawl4ai#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Crawl4AI",
+            "item": "https://www.hypehour.com.br/ferramentas/crawl4ai"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/crawl4ai#software",
+        "name": "Crawl4AI",
+        "description": "Descubra o Crawl4AI: a biblioteca Python de código aberto definitiva para crawling e scraping otimizado para RAG e modelos de linguagem.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/crawl4ai",
+        "creator": {
+          "@type": "Organization",
+          "name": "Crawl4AI"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -192,8 +194,7 @@ export default function Crawl4AIPage() {
                             "Controle total sobre a infraestrutura de scraping e proxies",
                             "Output em Markdown otimizado para economia drástica de tokens",
                             "Comunidade ativa e constante evolução guiada por feedback real",
-                            "Alta performance comprovada em cenários de larga escala",
-                        ].map((advantage, index) => (
+                            "Alta performance comprovada em cenários de larga escala"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -210,8 +211,7 @@ export default function Crawl4AIPage() {
                             "Exige conhecimento de Python para configuração e deploy",
                             "Você é responsável por gerenciar a infraestrutura de proxies e IPs",
                             "Curva de aprendizado para otimizar crawls recursivos muito grandes",
-                            "Não possui interface visual integrada (dashboard) nativamente",
-                        ].map((disadvantage, index) => (
+                            "Não possui interface visual integrada (dashboard) nativamente"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

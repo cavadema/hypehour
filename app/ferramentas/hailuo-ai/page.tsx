@@ -2,74 +2,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "Hailuo AI - Review Completo: A Revolução do Vídeo por IA da MiniMax",
+  title: "Hailuo AI: A Revolução do Vídeo por IA da MiniMax",
+  description: "Conheça o Hailuo AI: o gerador de vídeos por IA que transforma texto e imagens em clipes cinematográficos de alta qualidade. Saiba como funciona, preços e funcionalidades.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/hailuo-ai",
+  },
+  openGraph: {
+    title: "Hailuo AI: A Revolução do Vídeo por IA da MiniMax",
     description: "Conheça o Hailuo AI: o gerador de vídeos por IA que transforma texto e imagens em clipes cinematográficos de alta qualidade. Saiba como funciona, preços e funcionalidades.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/hailuo-ai",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/hailuo-ai",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Hailuo AI: A Revolução do Vídeo por IA da MiniMax",
+    description: "Conheça o Hailuo AI: o gerador de vídeos por IA que transforma texto e imagens em clipes cinematográficos de alta qualidade. Saiba como funciona, preços e funcionalidades.",
+  },
 };
 
 export default function HailuoAIPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/hailuo-ai#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Vídeos",
-                        "item": "https://www.hypehour.com.br/ia-para-criar-videos"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Hailuo AI",
-                        "item": "https://www.hypehour.com.br/ferramentas/hailuo-ai"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/hailuo-ai#software",
-                "name": "Hailuo AI",
-                "description": "Hailuo AI é uma plataforma de geração de vídeos por IA que transforma prompts de texto e imagens em vídeos de alta qualidade em segundos.",
-                "applicationCategory": "MultimediaApplication",
-                "operatingSystem": "Web, iOS, Android",
-                "url": "https://hailuoai.video/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "MiniMax"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.6",
-                    "ratingCount": "5"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/hailuo-ai#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Hailuo AI: A Revolução do Vídeo por IA da MiniMax",
+            "item": "https://www.hypehour.com.br/ferramentas/hailuo-ai"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/hailuo-ai#software",
+        "name": "Hailuo AI: A Revolução do Vídeo por IA da MiniMax",
+        "description": "Conheça o Hailuo AI: o gerador de vídeos por IA que transforma texto e imagens em clipes cinematográficos de alta qualidade. Saiba como funciona, preços e funcionalidades.",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/hailuo-ai",
+        "creator": {
+          "@type": "Organization",
+          "name": "Hailuo AI: A Revolução do Vídeo por IA da MiniMax"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -162,8 +159,7 @@ export default function HailuoAIPage() {
                             "Transições dinâmicas para vídeos",
                             "Cinematografia de baixo custo",
                             "Postagens de blog visualmente ricas",
-                            "Demos de produtos e serviços",
-                        ].map((item, index) => (
+                            "Demos de produtos e serviços"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -204,8 +200,7 @@ export default function HailuoAIPage() {
                             "Interface intuitiva e fácil de navegar",
                             "Suporte a múltiplos idiomas para prompts (inclusive PT-BR)",
                             "Velocidade de processamento líder de mercado",
-                            "Melhorias constantes nos modelos de física e movimento",
-                        ].map((advantage, index) => (
+                            "Melhorias constantes nos modelos de física e movimento"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -221,8 +216,7 @@ export default function HailuoAIPage() {
                         {[
                             "Plano gratuito limitado e com marca d'água",
                             "Ainda pode haver pequenas inconsistências em movimentos humanos muito rápidos",
-                            "Requer prompts precisos para evitar distorções visuais",
-                        ].map((disadvantage, index) => (
+                            "Requer prompts precisos para evitar distorções visuais"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

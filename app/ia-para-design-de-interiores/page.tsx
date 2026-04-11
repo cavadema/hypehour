@@ -8,6 +8,20 @@ export const metadata = {
   title: "IA para Design de Interiores",
   description: "Ferramentas de IA para design de interiores, decoração e planejamento de ambientes.",
   alternates: { canonical: "https://www.hypehour.com.br/ia-para-design-de-interiores" },
+  openGraph: {
+    title: "IA para Design de Interiores",
+    description: "Ferramentas de IA para design de interiores, decoração e planejamento de ambientes.",
+    url: "https://www.hypehour.com.br/ia-para-design-de-interiores",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "IA para Design de Interiores",
+    description: "Ferramentas de IA para design de interiores, decoração e planejamento de ambientes.",
+  },
 };
 
 const ferramentas = [

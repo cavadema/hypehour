@@ -9,6 +9,20 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.hypehour.com.br/ia-para-desenvolvedores',
   },
+  openGraph: {
+    title: "Inteligência Artificial para desenvolvimento",
+    description: "Ferramentas de IA voltadas para desenvolvedores: assistentes de código, autocompletes e ferramentas colaborativas.",
+    url: "https://www.hypehour.com.br/ia-para-desenvolvedores",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Inteligência Artificial para desenvolvimento",
+    description: "Ferramentas de IA voltadas para desenvolvedores: assistentes de código, autocompletes e ferramentas colaborativas.",
+  },
 };
 
 const ferramentas = [

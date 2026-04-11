@@ -3,74 +3,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "Clipchamp - Editor de Vídeo Online com IA da Microsoft | Review",
+  title: "Clipchamp - Editor de Vídeo Online com IA da Microsoft",
+  description: "Conheça o Clipchamp: editor de vídeo oficial da Microsoft com recursos de IA para legendas, narração e edição automática. Veja funcionalidades, preço e se vale a pena.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/clipchamp",
+  },
+  openGraph: {
+    title: "Clipchamp - Editor de Vídeo Online com IA da Microsoft",
     description: "Conheça o Clipchamp: editor de vídeo oficial da Microsoft com recursos de IA para legendas, narração e edição automática. Veja funcionalidades, preço e se vale a pena.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/clipchamp",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/clipchamp",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Clipchamp - Editor de Vídeo Online com IA da Microsoft",
+    description: "Conheça o Clipchamp: editor de vídeo oficial da Microsoft com recursos de IA para legendas, narração e edição automática. Veja funcionalidades, preço e se vale a pena.",
+  },
 };
 
 export default function ClipchampPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/clipchamp#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Criar Vídeos",
-                        "item": "https://www.hypehour.com.br/ia-para-criar-videos"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Clipchamp",
-                        "item": "https://www.hypehour.com.br/ferramentas/clipchamp"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/clipchamp#software",
-                "name": "Clipchamp",
-                "description": "Clipchamp é o editor de vídeos oficial do Windows e Microsoft 365, oferecendo ferramentas fáceis de usar com integração de IA para criação rápida de conteúdo.",
-                "applicationCategory": "MultimediaApplication",
-                "operatingSystem": "Web, Windows, iOS",
-                "url": "https://clipchamp.com/pt-br/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Microsoft"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "ratingCount": "1"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/clipchamp#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Clipchamp",
+            "item": "https://www.hypehour.com.br/ferramentas/clipchamp"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/clipchamp#software",
+        "name": "Clipchamp",
+        "description": "Conheça o Clipchamp: editor de vídeo oficial da Microsoft com recursos de IA para legendas, narração e edição automática. Veja funcionalidades, preço e se vale a pena.",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/clipchamp",
+        "creator": {
+          "@type": "Organization",
+          "name": "Clipchamp"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -172,8 +169,7 @@ export default function ClipchampPage() {
                             "Highlight de jogos (Gaming)",
                             "Vídeos promocionais de produtos",
                             "Legendar vídeos automaticamente",
-                            "Criar narrações com IA",
-                        ].map((item, index) => (
+                            "Criar narrações com IA"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -219,8 +215,7 @@ export default function ClipchampPage() {
                             "Vem pré-instalado no Windows 11",
                             "Integração nativa com OneDrive, Google Drive e TikTok",
                             "Biblioteca enorme de templates e mídia de estoque",
-                            "Funciona na nuvem (não exige PC super potente para edição básica)",
-                        ].map((advantage, index) => (
+                            "Funciona na nuvem (não exige PC super potente para edição básica)"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -238,8 +233,7 @@ export default function ClipchampPage() {
                             "Acesso completo ao banco de imagens/vídeos é pago (Premium)",
                             "Depende de internet estável (versão Web)",
                             "Falta recursos avançados para editores profissionais (ex: keyframes complexos)",
-                            "Renderização pode ser lenta em projetos muito grandes na versão web",
-                        ].map((disadvantage, index) => (
+                            "Renderização pode ser lenta em projetos muito grandes na versão web"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

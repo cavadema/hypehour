@@ -2,74 +2,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "Chatgot - Review Completo: O Hub de Inteligência Artificial Tudo-em-Um",
+  title: "Chatgot: O Hub de Inteligência Artificial Tudo-em-Um",
+  description: "Descubra o Chatgot: a plataforma que reúne GPT-4, Claude 3 e Gemini em um só lugar. Review completo sobre funcionalidades, preços e como criar seus próprios bots de IA.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/chatgot",
+  },
+  openGraph: {
+    title: "Chatgot: O Hub de Inteligência Artificial Tudo-em-Um",
     description: "Descubra o Chatgot: a plataforma que reúne GPT-4, Claude 3 e Gemini em um só lugar. Review completo sobre funcionalidades, preços e como criar seus próprios bots de IA.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/chatgot",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/chatgot",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Chatgot: O Hub de Inteligência Artificial Tudo-em-Um",
+    description: "Descubra o Chatgot: a plataforma que reúne GPT-4, Claude 3 e Gemini em um só lugar. Review completo sobre funcionalidades, preços e como criar seus próprios bots de IA.",
+  },
 };
 
 export default function ChatgotPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/chatgot#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Agregadores de IA",
-                        "item": "https://www.hypehour.com.br/pacotes-de-ferramentas-e-agregadores-ia"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Chatgot",
-                        "item": "https://www.hypehour.com.br/ferramentas/chatgot"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/chatgot#software",
-                "name": "Chatgot",
-                "description": "Chatgot é um assistente de IA abrangente que combina chat e pesquisa em tempo real com acesso a múltiplos modelos como GPT-4, Claude e Gemini.",
-                "applicationCategory": "ProductivityApplication",
-                "operatingSystem": "Web, Windows, macOS, Android, iOS",
-                "url": "https://www.chatgot.io/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Chatgot"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.7",
-                    "ratingCount": "12"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/chatgot#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Chatgot: O Hub de Inteligência Artificial Tudo-em-Um",
+            "item": "https://www.hypehour.com.br/ferramentas/chatgot"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/chatgot#software",
+        "name": "Chatgot: O Hub de Inteligência Artificial Tudo-em-Um",
+        "description": "Descubra o Chatgot: a plataforma que reúne GPT-4, Claude 3 e Gemini em um só lugar. Review completo sobre funcionalidades, preços e como criar seus próprios bots de IA.",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/chatgot",
+        "creator": {
+          "@type": "Organization",
+          "name": "Chatgot: O Hub de Inteligência Artificial Tudo-em-Um"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -162,8 +159,7 @@ export default function ChatgotPage() {
                             "Brainstorming de ideias de negócios",
                             "Tutoria para aprendizado de línguas",
                             "Gestão de conhecimento pessoal",
-                            "Suporte ao cliente via bots customizados",
-                        ].map((item, index) => (
+                            "Suporte ao cliente via bots customizados"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -204,8 +200,7 @@ export default function ChatgotPage() {
                             "Histórico unificado: todas as suas conversas em um só lugar, independente da IA",
                             "Privacidade garantida e proteção de dados sensíveis",
                             "Extensão de navegador poderosa para Chrome e Edge",
-                            "Suporte a mais de 100 idiomas com precisão nativa",
-                        ].map((advantage, index) => (
+                            "Suporte a mais de 100 idiomas com precisão nativa"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -221,8 +216,7 @@ export default function ChatgotPage() {
                         {[
                             "Plano gratuito possui limites diários de mensagens",
                             "Modelos mais potentes (como GPT-4) costumam ter limites menores no plano básico",
-                            "Depende totalmente de uma conexão estável com a internet",
-                        ].map((disadvantage, index) => (
+                            "Depende totalmente de uma conexão estável com a internet"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

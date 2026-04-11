@@ -2,10 +2,24 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-  title: "Lovable - Gerador de Apps com IA | Análise e Review",
+  title: "Lovable - Gerador de Apps com IA",
   description: "Conheça o Lovable: ferramenta de IA para criar aplicações completas (front-end, back-end, testes) em minutos. Veja vantagens, desvantagens e se é ideal para você.",
   alternates: {
     canonical: "https://www.hypehour.com.br/ferramentas/lovable",
+  },
+  openGraph: {
+    title: "Lovable - Gerador de Apps com IA",
+    description: "Conheça o Lovable: ferramenta de IA para criar aplicações completas (front-end, back-end, testes) em minutos. Veja vantagens, desvantagens e se é ideal para você.",
+    url: "https://www.hypehour.com.br/ferramentas/lovable",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Lovable - Gerador de Apps com IA",
+    description: "Conheça o Lovable: ferramenta de IA para criar aplicações completas (front-end, back-end, testes) em minutos. Veja vantagens, desvantagens e se é ideal para você.",
   },
 };
 
@@ -25,12 +39,6 @@ export default function LovablePage() {
           },
           {
             "@type": "ListItem",
-            "position": 2,
-            "name": "IA para Vibe Coding",
-            "item": "https://www.hypehour.com.br/ia-para-vibe-coding"
-          },
-          {
-            "@type": "ListItem",
             "position": 3,
             "name": "Lovable",
             "item": "https://www.hypehour.com.br/ferramentas/lovable"
@@ -41,271 +49,14 @@ export default function LovablePage() {
         "@type": "SoftwareApplication",
         "@id": "https://www.hypehour.com.br/ferramentas/lovable#software",
         "name": "Lovable",
-        "description": "Lovable é uma ferramenta de vibe coding com inteligência artificial que ajuda desenvolvedores a criar, editar e melhorar código de forma rápida, intuitiva e criativa.",
+        "description": "Conheça o Lovable: ferramenta de IA para criar aplicações completas (front-end, back-end, testes) em minutos. Veja vantagens, desvantagens e se é ideal para você.",
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
-        "url": "https://lovable.dev",
+        "url": "https://www.hypehour.com.br/ferramentas/lovable",
         "creator": {
           "@type": "Organization",
           "name": "Lovable"
-        },
-        "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "ratingCount": "7"
-                },
-                "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD",
-          "category": "Freemium"
         }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://www.hypehour.com.br/ferramentas/lovable#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "O que é o Lovable?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Lovable é uma ferramenta de vibe coding que usa inteligência artificial para ajudar a criar código de forma rápida, intuitiva e criativa."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Para que serve o Lovable?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "O Lovable serve para gerar, editar e melhorar código a partir de linguagem natural, focando em produtividade e fluxo criativo."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable é uma IA para programação?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim. O Lovable é uma IA voltada para programação, com foco em vibe coding e desenvolvimento assistido."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable é indicado para iniciantes?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim. O Lovable facilita a criação de código mesmo para quem está começando a programar."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable funciona para desenvolvedores experientes?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim. Ele acelera tarefas repetitivas e ajuda na prototipação rápida."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Quais linguagens o Lovable suporta?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "O Lovable suporta múltiplas linguagens populares, dependendo do contexto do projeto."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable cria código do zero?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim. Você pode descrever o que deseja e a IA gera o código inicial."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable ajuda a corrigir bugs?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim. Ele analisa trechos de código e sugere correções e melhorias."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable funciona via navegador ou IDE?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Geralmente funciona via interface web, com foco em simplicidade e fluxo."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable é gratuito?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "O Lovable pode oferecer plano gratuito ou testes, além de planos pagos."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable é bom para vibe coding?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim. Ele é projetado justamente para manter o fluxo criativo enquanto você programa."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable pode substituir um programador?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Não. Ele é uma ferramenta de apoio, não um substituto humano."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable é seguro para projetos reais?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim, desde que o código seja revisado antes do uso em produção."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable é usado em projetos profissionais?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim. Pode ser usado para protótipos, MVPs e até partes de projetos reais."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Vale a pena usar o Lovable para programar?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim. Ele aumenta produtividade e reduz fricção no desenvolvimento."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable é melhor que ChatGPT para programar?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Depende do uso, mas o Lovable é mais focado em vibe coding e fluxo criativo."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable substitui o GitHub Copilot?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Não exatamente. Ele oferece uma experiência diferente, mais conversacional."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Dá para criar projetos completos com o Lovable?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim, especialmente MVPs e protótipos rápidos."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable precisa de conhecimento técnico?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Não necessariamente. Ele aceita comandos em linguagem natural."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable gera código limpo?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Na maioria dos casos, sim, mas revisão humana é recomendada."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable funciona para front-end e back-end?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim. Ele pode auxiliar em ambos os contextos."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable é bom para vibe coding diário?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim. Ele foi pensado para manter fluidez no desenvolvimento."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable funciona offline?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Não. Ele depende de conexão com a internet."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable aprende com meu código?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ele pode se adaptar ao contexto do projeto durante a sessão."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable é indicado para freelancers?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim. Ajuda a entregar projetos mais rápido."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable é bom para startups?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim. É muito usado para prototipação rápida e MVPs."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable suporta frameworks modernos?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim, conforme o stack solicitado pelo usuário."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable gera código pronto para produção?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ele gera código funcional, mas ajustes finais são recomendados."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable é uma ferramenta de vibe coding brasileira?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Depende da origem da empresa, mas é usada globalmente."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Lovable vale a pena em comparação com outras IAs?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim, especialmente se o foco for vibe coding e rapidez."
-            }
-          }
-        ]
       }
     ]
   };
@@ -423,8 +174,7 @@ export default function LovablePage() {
               "Criação de dashboards e painéis",
               "Apps web full-stack",
               "Prototipação rápida de interfaces",
-              "Automação de tarefas repetitivas",
-            ].map((item, index) => (
+              "Automação de tarefas repetitivas"].map((item, index) => (
               <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                 <p className="text-zinc-700 text-sm">{item}</p>
               </div>
@@ -473,8 +223,7 @@ export default function LovablePage() {
               "Permite colaboração fluida entre PMs, devs e stakeholders no mesmo painel",
               "Mantém histórico de versões e permite ajustes rápidos sem perder controle",
               "Inclui testes automáticos, critérios de aceite e padrões de qualidade integrados",
-              "Código legível e extensível — você pode customizar manualmente quando necessário",
-            ].map((advantage, index) => (
+              "Código legível e extensível — você pode customizar manualmente quando necessário"].map((advantage, index) => (
               <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                 <p className="text-zinc-700">{advantage}</p>
@@ -492,8 +241,7 @@ export default function LovablePage() {
               "Projetos muito específicos ou complexos podem precisar de ajustes manuais significativos",
               "Custos escalam com uso frequente — cada geração consome créditos de API",
               "Dependência de qualidade do prompt — quanto melhor a descrição, melhor o resultado",
-              "Ainda em evolução — atualizações frequentes podem afetar workflows estabelecidos",
-            ].map((disadvantage, index) => (
+              "Ainda em evolução — atualizações frequentes podem afetar workflows estabelecidos"].map((disadvantage, index) => (
               <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                 <p className="text-zinc-700">{disadvantage}</p>
@@ -559,21 +307,7 @@ export default function LovablePage() {
           </div>
         </section>
 
-        {/* Vídeo do YouTube */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-black mb-6">Veja o Lovable em ação</h2>
-          <div className="rounded-xl overflow-hidden shadow-lg border border-zinc-200">
-            <div className="relative pb-[56.25%] h-0">
-              <iframe
-                className="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/kcOrTOT7Kko?list=PLbVHz4urQBZmRdbhoQz4GjyYolr95fXfc"
-                title="Lovable Demo"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-          </div>
-        </section>
+        
 
         {/* CTA */}
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">

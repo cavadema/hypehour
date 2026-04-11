@@ -82,6 +82,20 @@ export const metadata = {
   alternates: {
     canonical: "https://www.hypehour.com.br/ferramenta-de-deteccao-de-ia",
   },
+  openGraph: {
+    title: "Ferramentas para detectar uso de Inteligência Artificial",
+    description: "Lista curada de ferramentas para identificar conteúdos gerados por inteligência artificial.",
+    url: "https://www.hypehour.com.br/ferramenta-de-deteccao-de-ia",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Ferramentas para detectar uso de Inteligência Artificial",
+    description: "Lista curada de ferramentas para identificar conteúdos gerados por inteligência artificial.",
+  },
 };
 
 export default function FerramentaDeteccaoIA() {

@@ -4,68 +4,71 @@ import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
 export const metadata = {
-    title: "Browse AI - Web Scraping e Monitoramento sem Código | Review",
+  title: "Browse AI - Web Scraping e Monitoramento sem Código",
+  description: "Descubra o Browse AI: a ferramenta mais fácil para extrair e monitorar dados de qualquer site sem escrever uma linha de código.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/browse-ai",
+  },
+  openGraph: {
+    title: "Browse AI - Web Scraping e Monitoramento sem Código",
     description: "Descubra o Browse AI: a ferramenta mais fácil para extrair e monitorar dados de qualquer site sem escrever uma linha de código.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/browse-ai",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/browse-ai",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Browse AI - Web Scraping e Monitoramento sem Código",
+    description: "Descubra o Browse AI: a ferramenta mais fácil para extrair e monitorar dados de qualquer site sem escrever uma linha de código.",
+  },
 };
 
 export default function BrowseAIPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/browse-ai#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Web Scraping",
-                        "item": "https://www.hypehour.com.br/ia-web-scraping"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Browse AI",
-                        "item": "https://www.hypehour.com.br/ferramentas/browse-ai"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/browse-ai#software",
-                "name": "Browse AI",
-                "description": "Browse AI é uma plataforma de web scraping sem código para extração e monitoramento de dados.",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web",
-                "url": "https://www.browse.ai",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Browse AI"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.7",
-                    "ratingCount": "12"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/browse-ai#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Browse AI",
+            "item": "https://www.hypehour.com.br/ferramentas/browse-ai"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/browse-ai#software",
+        "name": "Browse AI",
+        "description": "Descubra o Browse AI: a ferramenta mais fácil para extrair e monitorar dados de qualquer site sem escrever uma linha de código.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/browse-ai",
+        "creator": {
+          "@type": "Organization",
+          "name": "Browse AI"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -191,8 +194,7 @@ export default function BrowseAIPage() {
                             "Execução 100% na nuvem, sem ocupar recursos do seu computador",
                             "Ecossistema de integrações maduro (Zapier, Make, Google Sheets)",
                             "Resolução automática de CAPTCHAs e gestão de proxies inclusa",
-                            "Monitoramento robusto com histórico de mudanças detalhado",
-                        ].map((advantage, index) => (
+                            "Monitoramento robusto com histórico de mudanças detalhado"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -209,8 +211,7 @@ export default function BrowseAIPage() {
                             "Custo por crédito pode ser elevado para projetos de milhões de requisições",
                             "Menos flexível que scrapers programáticos para sites com lógica interna complexa",
                             "Robôs podem precisar de re-treinamento se o site mudar drasticamente",
-                            "Dependência total da infraestrutura da plataforma (não é open-source)",
-                        ].map((disadvantage, index) => (
+                            "Dependência total da infraestrutura da plataforma (não é open-source)"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

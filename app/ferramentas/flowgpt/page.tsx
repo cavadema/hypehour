@@ -2,74 +2,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "FlowGPT - O Maior Marketplace de Prompts e Agregador de IA | Review",
+  title: "FlowGPT - O Maior Marketplace de Prompts e Agregador de IA",
+  description: "Conheça o FlowGPT, a plataforma líder para descobrir prompts de IA, gerenciar modelos como GPT-4 e Claude, e criar seus próprios aplicativos inteligentes.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/flowgpt",
+  },
+  openGraph: {
+    title: "FlowGPT - O Maior Marketplace de Prompts e Agregador de IA",
     description: "Conheça o FlowGPT, a plataforma líder para descobrir prompts de IA, gerenciar modelos como GPT-4 e Claude, e criar seus próprios aplicativos inteligentes.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/flowgpt",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/flowgpt",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "FlowGPT - O Maior Marketplace de Prompts e Agregador de IA",
+    description: "Conheça o FlowGPT, a plataforma líder para descobrir prompts de IA, gerenciar modelos como GPT-4 e Claude, e criar seus próprios aplicativos inteligentes.",
+  },
 };
 
 export default function FlowGPTPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/flowgpt#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Agregadores de IA",
-                        "item": "https://www.hypehour.com.br/pacotes-de-ferramentas-e-agregadores-ia"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "FlowGPT",
-                        "item": "https://www.hypehour.com.br/ferramentas/flowgpt"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/flowgpt#software",
-                "name": "FlowGPT",
-                "description": "FlowGPT é uma plataforma comunitária para descoberta e compartilhamento de prompts de IA, além de ser um agregador de múltiplos modelos de linguagem.",
-                "applicationCategory": "DeveloperApplication",
-                "operatingSystem": "Web Browser, iOS, Android",
-                "url": "https://flowgpt.com",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "FlowGPT Team"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "ratingCount": "7"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/flowgpt#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "FlowGPT",
+            "item": "https://www.hypehour.com.br/ferramentas/flowgpt"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/flowgpt#software",
+        "name": "FlowGPT",
+        "description": "Conheça o FlowGPT, a plataforma líder para descobrir prompts de IA, gerenciar modelos como GPT-4 e Claude, e criar seus próprios aplicativos inteligentes.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/flowgpt",
+        "creator": {
+          "@type": "Organization",
+          "name": "FlowGPT"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -180,8 +177,7 @@ export default function FlowGPTPage() {
                             "Suporte Técnico especializado",
                             "Geração de Ideias para Blog",
                             "Tutoria Acadêmica",
-                            "Análise de Dados Complexos",
-                        ].map((item, index) => (
+                            "Análise de Dados Complexos"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -222,8 +218,7 @@ export default function FlowGPTPage() {
                             "Comunidade ativa com milhares de criadores experientes",
                             "Economia de tempo drástica na criação de instruções complexas",
                             "Aplicativos móveis nativos para acesso rápido",
-                            "Oportunidade de monetizar seu conhecimento em prompts",
-                        ].map((advantage, index) => (
+                            "Oportunidade de monetizar seu conhecimento em prompts"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -240,8 +235,7 @@ export default function FlowGPTPage() {
                             "Muitos prompts excelentes estão disponíveis apenas em inglês",
                             "Interface pode ser um pouco complexa e poluída para iniciantes",
                             "Modelos premium (como GPT-4) possuem limites de uso no plano grátis",
-                            "A grande quantidade de prompts exige filtragem para achar o que realmente funciona",
-                        ].map((disadvantage, index) => (
+                            "A grande quantidade de prompts exige filtragem para achar o que realmente funciona"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

@@ -7,6 +7,20 @@ export const metadata = {
   title: "Análise de dados com IA",
   description: "Ferramentas de IA para análise, visualização e processamento de dados.",
   alternates: { canonical: "https://www.hypehour.com.br/analise-de-dados" },
+  openGraph: {
+    title: "Análise de dados com IA",
+    description: "Ferramentas de IA para análise, visualização e processamento de dados.",
+    url: "https://www.hypehour.com.br/analise-de-dados",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Análise de dados com IA",
+    description: "Ferramentas de IA para análise, visualização e processamento de dados.",
+  },
 };
 
 const ferramentas = [

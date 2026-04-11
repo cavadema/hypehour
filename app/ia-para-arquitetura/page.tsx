@@ -9,6 +9,20 @@ export const metadata = {
     alternates: {
         canonical: 'https://www.hypehour.com.br/ia-para-arquitetura',
     },
+  openGraph: {
+    title: "IA para Arquitetura - Ferramentas de Inteligência Artificial para Projetos",
+    description: "Descubra ferramentas de IA para arquitetura: renderização, modelagem 3D e design generativo.",
+    url: "https://www.hypehour.com.br/ia-para-arquitetura",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "IA para Arquitetura - Ferramentas de Inteligência Artificial para Projetos",
+    description: "Descubra ferramentas de IA para arquitetura: renderização, modelagem 3D e design generativo.",
+  },
 };
 
 const ferramentas = [

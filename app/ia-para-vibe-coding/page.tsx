@@ -9,6 +9,20 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.hypehour.com.br/ia-para-vibe-coding',
   },
+  openGraph: {
+    title: "Ferramentas de Inteligência Artificial para vibe coding",
+    description: "Ferramentas e IAs para acelerar seu fluxo de desenvolvimento: editores, assistentes e automações.",
+    url: "https://www.hypehour.com.br/ia-para-vibe-coding",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Ferramentas de Inteligência Artificial para vibe coding",
+    description: "Ferramentas e IAs para acelerar seu fluxo de desenvolvimento: editores, assistentes e automações.",
+  },
 };
 
 const ferramentas = [

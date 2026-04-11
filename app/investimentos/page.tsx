@@ -20,6 +20,20 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.hypehour.com.br/investimentos',
   },
+  openGraph: {
+    title: "IA para investimentos gratuitos",
+    description: "Ferramentas de inteligência artificial para análise de investimentos, trading e gestão de portfólio.",
+    url: "https://www.hypehour.com.br/investimentos",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "IA para investimentos gratuitos",
+    description: "Ferramentas de inteligência artificial para análise de investimentos, trading e gestão de portfólio.",
+  },
 };
 
 export default function InvestimentosPage() {

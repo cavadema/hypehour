@@ -38,6 +38,20 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.hypehour.com.br/cursos-de-ia',
   },
+  openGraph: {
+    title: "Cursos de IA gratuitos e pagos",
+    description: "Descubra os melhores cursos de Inteligência Artificial gratuitos e pagos para impulsionar sua carreira e aprender IA do zero ao avançado.",
+    url: "https://www.hypehour.com.br/cursos-de-ia",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Cursos de IA gratuitos e pagos",
+    description: "Descubra os melhores cursos de Inteligência Artificial gratuitos e pagos para impulsionar sua carreira e aprender IA do zero ao avançado.",
+  },
 };
 
 export default function CursosDeIA() {

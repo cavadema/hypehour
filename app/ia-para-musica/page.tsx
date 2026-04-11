@@ -108,6 +108,20 @@ export const metadata = {
     alternates: {
         canonical: 'https://www.hypehour.com.br/ia-para-musica',
     },
+  openGraph: {
+    title: "Ferramentas de Inteligência Artificial para Música",
+    description: "Descubra as melhores ferramentas de inteligência artificial para criação e edição de música e áudio.",
+    url: "https://www.hypehour.com.br/ia-para-musica",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Ferramentas de Inteligência Artificial para Música",
+    description: "Descubra as melhores ferramentas de inteligência artificial para criação e edição de música e áudio.",
+  },
 };
 
 

@@ -5,74 +5,71 @@ import SimilarTools from "./SimilarTools";
 import { faqs } from "./constants";
 
 export const metadata = {
-    title: "Temso - Monitoramento de Visibilidade de Marca em IA | Review",
+  title: "Temso - Monitoramento de Visibilidade de Marca em IA",
+  description: "Descubra o Temso: a plataforma líder em AEO e GEO para garantir que sua marca seja citada no ChatGPT, Gemini e Google AI Overviews.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/temso",
+  },
+  openGraph: {
+    title: "Temso - Monitoramento de Visibilidade de Marca em IA",
     description: "Descubra o Temso: a plataforma líder em AEO e GEO para garantir que sua marca seja citada no ChatGPT, Gemini e Google AI Overviews.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/temso",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/temso",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Temso - Monitoramento de Visibilidade de Marca em IA",
+    description: "Descubra o Temso: a plataforma líder em AEO e GEO para garantir que sua marca seja citada no ChatGPT, Gemini e Google AI Overviews.",
+  },
 };
 
 export default function TemsoPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/temso#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Marketing",
-                        "item": "https://www.hypehour.com.br/ia-para-marketing"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Temso",
-                        "item": "https://www.hypehour.com.br/ferramentas/temso"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/temso#software",
-                "name": "Temso",
-                "description": "Temso é uma plataforma de visibilidade em IA focada em Answer Engine Optimization (AEO) e Generative Engine Optimization (GEO).",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web",
-                "url": "https://www.temso.ai",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Temso"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.5",
-                    "ratingCount": "13"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "49",
-                    "priceCurrency": "EUR",
-                    "category": "Premium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/temso#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Temso",
+            "item": "https://www.hypehour.com.br/ferramentas/temso"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/temso#software",
+        "name": "Temso",
+        "description": "Descubra o Temso: a plataforma líder em AEO e GEO para garantir que sua marca seja citada no ChatGPT, Gemini e Google AI Overviews.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/temso",
+        "creator": {
+          "@type": "Organization",
+          "name": "Temso"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -198,8 +195,7 @@ export default function TemsoPage() {
                             "Dashboards intuitivos para equipes de marketing e founders",
                             "Geração de insights práticos para estratégias de AEO/GEO",
                             "Benchmarking direto com concorrentes em tempo real",
-                            "Monitoramento global e em diversos idiomas",
-                        ].map((advantage, index) => (
+                            "Monitoramento global e em diversos idiomas"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -216,8 +212,7 @@ export default function TemsoPage() {
                             "Mercado muito novo, ainda em constante evolução tecnológica",
                             "Planos profissionais podem ter custo elevado para microempresas",
                             "Otimizar para IA exige paciência, pois depende do treino de novos modelos",
-                            "Atualmente focado mais em marcas e produtos já conhecidos ou citados",
-                        ].map((disadvantage, index) => (
+                            "Atualmente focado mais em marcas e produtos já conhecidos ou citados"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

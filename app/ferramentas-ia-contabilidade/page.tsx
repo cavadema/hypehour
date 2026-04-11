@@ -48,6 +48,20 @@ export const metadata = {
     alternates: {
         canonical: "https://www.hypehour.com.br/ferramentas-ia-contabilidade",
     },
+  openGraph: {
+    title: "Ferramentas de IA para Contabilidade",
+    description: "Descubra as melhores ferramentas de IA para contabilidade: automação fiscal, reconciliação e gestão financeira.",
+    url: "https://www.hypehour.com.br/ferramentas-ia-contabilidade",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Ferramentas de IA para Contabilidade",
+    description: "Descubra as melhores ferramentas de IA para contabilidade: automação fiscal, reconciliação e gestão financeira.",
+  },
 };
 
 export default function IaParaContabilidade() {

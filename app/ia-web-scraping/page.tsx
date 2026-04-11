@@ -8,6 +8,20 @@ export const metadata = {
     title: "Web Scraping com IA",
     description: "Ferramentas e APIs de IA para Web Scraping, extração de dados e automação de navegação.",
     alternates: { canonical: "https://www.hypehour.com.br/ia-web-scraping" },
+  openGraph: {
+    title: "Web Scraping com IA",
+    description: "Ferramentas e APIs de IA para Web Scraping, extração de dados e automação de navegação.",
+    url: "https://www.hypehour.com.br/ia-web-scraping",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Web Scraping com IA",
+    description: "Ferramentas e APIs de IA para Web Scraping, extração de dados e automação de navegação.",
+  },
 };
 
 const ferramentas = [

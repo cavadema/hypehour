@@ -2,10 +2,24 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-  title: "ZeroGPT - Detector de IA Gratuito | Análise e Review",
+  title: "ZeroGPT - Detector de IA Gratuito",
   description: "Conheça o ZeroGPT: ferramenta gratuita para detectar textos gerados por IA com precisão. Veja como funciona, vantagens, desvantagens e se é ideal para você.",
   alternates: {
     canonical: "https://www.hypehour.com.br/ferramentas/zerogpt",
+  },
+  openGraph: {
+    title: "ZeroGPT - Detector de IA Gratuito",
+    description: "Conheça o ZeroGPT: ferramenta gratuita para detectar textos gerados por IA com precisão. Veja como funciona, vantagens, desvantagens e se é ideal para você.",
+    url: "https://www.hypehour.com.br/ferramentas/zerogpt",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "ZeroGPT - Detector de IA Gratuito",
+    description: "Conheça o ZeroGPT: ferramenta gratuita para detectar textos gerados por IA com precisão. Veja como funciona, vantagens, desvantagens e se é ideal para você.",
   },
 };
 
@@ -25,12 +39,6 @@ export default function ZeroGPTPage() {
           },
           {
             "@type": "ListItem",
-            "position": 2,
-            "name": "Detecção de IA",
-            "item": "https://www.hypehour.com.br/ferramenta-de-deteccao-de-ia"
-          },
-          {
-            "@type": "ListItem",
             "position": 3,
             "name": "ZeroGPT",
             "item": "https://www.hypehour.com.br/ferramentas/zerogpt"
@@ -41,24 +49,13 @@ export default function ZeroGPTPage() {
         "@type": "SoftwareApplication",
         "@id": "https://www.hypehour.com.br/ferramentas/zerogpt#software",
         "name": "ZeroGPT",
-        "description": "ZeroGPT é um detector de textos gerados por IA gratuito e preciso, ideal para educadores, criadores de conteúdo e profissionais que precisam verificar autenticidade.",
+        "description": "Conheça o ZeroGPT: ferramenta gratuita para detectar textos gerados por IA com precisão. Veja como funciona, vantagens, desvantagens e se é ideal para você.",
         "applicationCategory": "UtilitiesApplication",
         "operatingSystem": "Web",
-        "url": "https://www.zerogpt.com",
+        "url": "https://www.hypehour.com.br/ferramentas/zerogpt",
         "creator": {
           "@type": "Organization",
           "name": "ZeroGPT"
-        },
-        "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "5.0",
-                    "ratingCount": "15"
-                },
-                "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD",
-          "category": "Gratuito"
         }
       }
     ]
@@ -194,8 +191,7 @@ export default function ZeroGPTPage() {
               "Analisar relatórios e documentos",
               "Verificar traduções automáticas",
               "Auditar content marketing",
-              "Detectar automação em redes sociais",
-            ].map((item, index) => (
+              "Detectar automação em redes sociais"].map((item, index) => (
               <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                 <p className="text-zinc-700 text-sm">{item}</p>
               </div>
@@ -244,8 +240,7 @@ export default function ZeroGPTPage() {
               "Interface simples e direta — basta colar o texto e clicar em verificar",
               "Funciona em português e outros 15 idiomas com qualidade consistente",
               "Destaca trechos suspeitos — você vê exatamente onde a IA foi usada",
-              "Sem necessidade de cadastro ou login para uso básico",
-            ].map((advantage, index) => (
+              "Sem necessidade de cadastro ou login para uso básico"].map((advantage, index) => (
               <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                 <p className="text-zinc-700">{advantage}</p>
@@ -263,8 +258,7 @@ export default function ZeroGPTPage() {
               "Limite de 15.000 caracteres por verificação na versão gratuita",
               "Recursos avançados (API, relatórios detalhados) requerem plano pago",
               "Pode ter dificuldade com textos altamente técnicos ou especializados",
-              "Não detecta todos os modelos de IA — ferramentas novas podem passar despercebidas",
-            ].map((disadvantage, index) => (
+              "Não detecta todos os modelos de IA — ferramentas novas podem passar despercebidas"].map((disadvantage, index) => (
               <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                 <p className="text-zinc-700">{disadvantage}</p>
@@ -330,21 +324,7 @@ export default function ZeroGPTPage() {
           </div>
         </section>
 
-        {/* Vídeo do YouTube */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-black mb-6">Veja o ZeroGPT em ação</h2>
-          <div className="rounded-xl overflow-hidden shadow-lg border border-zinc-200">
-            <div className="relative pb-[56.25%] h-0">
-              <iframe
-                className="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/zwGeKbDXhq8"
-                title="ZeroGPT Demo"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-          </div>
-        </section>
+        
 
         {/* CTA */}
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">

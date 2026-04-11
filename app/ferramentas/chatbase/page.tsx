@@ -3,85 +3,71 @@ import FAQSection from "./FAQSection";
 import { faqs } from "./constants";
 
 export const metadata = {
-    title: "Chatbase - Crie seu Próprio Chatbot de IA | Review e Guia Completo",
+  title: "Chatbase - Crie seu Próprio Chatbot de IA e Guia Completo",
+  description: "Conheça o Chatbase: a ferramenta líder para criar chatbots treinados com seus dados. Veja como funciona, preços, integrações e se vale a pena.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/chatbase",
+  },
+  openGraph: {
+    title: "Chatbase - Crie seu Próprio Chatbot de IA e Guia Completo",
     description: "Conheça o Chatbase: a ferramenta líder para criar chatbots treinados com seus dados. Veja como funciona, preços, integrações e se vale a pena.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/chatbase",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/chatbase",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Chatbase - Crie seu Próprio Chatbot de IA e Guia Completo",
+    description: "Conheça o Chatbase: a ferramenta líder para criar chatbots treinados com seus dados. Veja como funciona, preços, integrações e se vale a pena.",
+  },
 };
 
 export default function ChatbasePage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/chatbase#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Atendimento",
-                        "item": "https://www.hypehour.com.br/ia-para-atendimento"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Chatbase",
-                        "item": "https://www.hypehour.com.br/ferramentas/chatbase"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/chatbase#software",
-                "name": "Chatbase",
-                "description": "Uma plataforma no-code que permite construir chatbots de IA personalizados treinados em seus próprios documentos, sites e base de conhecimento.",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web",
-                "url": "https://www.chatbase.co/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Chatbase"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "5.0",
-                    "ratingCount": "3"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "19.00",
-                    "priceCurrency": "USD",
-                    "category": "Paid"
-                }
-            },
-            {
-                "@type": "FAQPage",
-                "mainEntity": faqs.map((faq: { question: string; answer: string }) => ({
-                    "@type": "Question",
-                    "name": faq.question,
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": faq.answer
-                    }
-                }))
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/chatbase#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Chatbase",
+            "item": "https://www.hypehour.com.br/ferramentas/chatbase"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/chatbase#software",
+        "name": "Chatbase",
+        "description": "Conheça o Chatbase: a ferramenta líder para criar chatbots treinados com seus dados. Veja como funciona, preços, integrações e se vale a pena.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/chatbase",
+        "creator": {
+          "@type": "Organization",
+          "name": "Chatbase"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -174,8 +160,7 @@ export default function ChatbasePage() {
                             "Automação de Orçamentos",
                             "Chatbot para Eventos",
                             "Tradução de FAQ Instantânea",
-                            "Assistente de Vendas Educativo",
-                        ].map((item, index) => (
+                            "Assistente de Vendas Educativo"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -193,8 +178,7 @@ export default function ChatbasePage() {
                             "Suporte a dezenas de idiomas nativamente",
                             "Possibilidade de handoff (transição) para humanos",
                             "Integração rápida com WhatsApp e Slack",
-                            "Preço acessível para startups e pequenas empresas",
-                        ].map((advantage, index) => (
+                            "Preço acessível para startups e pequenas empresas"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -211,8 +195,7 @@ export default function ChatbasePage() {
                             "Remoção da marca Chatbase exige pagamento extra",
                             "Planos básicos podem ter limites de mensagens baixos para sites grandes",
                             "Interface de chat é simples e com poucas opções de design avançado nativo",
-                            "Pode alucinar se a base de conhecimento for muito confusa ou contraditória",
-                        ].map((disadvantage, index) => (
+                            "Pode alucinar se a base de conhecimento for muito confusa ou contraditória"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

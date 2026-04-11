@@ -5,74 +5,71 @@ import SimilarTools from "./SimilarTools";
 import { faqs } from "./constants";
 
 export const metadata = {
-    title: "First Answer - Visibilidade e Otimização para IA (GEO) | Review",
+  title: "First Answer - Visibilidade e Otimização para IA (GEO)",
+  description: "Descubra como o First Answer ajuda sua marca a dominar as respostas do ChatGPT, Gemini e Google AI Overviews através de monitoramento GEO e AEO.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/first-answer",
+  },
+  openGraph: {
+    title: "First Answer - Visibilidade e Otimização para IA (GEO)",
     description: "Descubra como o First Answer ajuda sua marca a dominar as respostas do ChatGPT, Gemini e Google AI Overviews através de monitoramento GEO e AEO.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/first-answer",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/first-answer",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "First Answer - Visibilidade e Otimização para IA (GEO)",
+    description: "Descubra como o First Answer ajuda sua marca a dominar as respostas do ChatGPT, Gemini e Google AI Overviews através de monitoramento GEO e AEO.",
+  },
 };
 
 export default function FirstAnswerPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/first-answer#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Marketing",
-                        "item": "https://www.hypehour.com.br/ia-para-marketing"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "First Answer",
-                        "item": "https://www.hypehour.com.br/ferramentas/first-answer"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/first-answer#software",
-                "name": "First Answer",
-                "description": "First Answer é uma plataforma de visibilidade em IA focada em Generative Engine Optimization (GEO) e Answer Engine Optimization (AEO).",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web",
-                "url": "https://firstanswer.ai/br/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "First Answer"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "5.0",
-                    "ratingCount": "9"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "59",
-                    "priceCurrency": "USD",
-                    "category": "Premium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/first-answer#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "First Answer",
+            "item": "https://www.hypehour.com.br/ferramentas/first-answer"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/first-answer#software",
+        "name": "First Answer",
+        "description": "Descubra como o First Answer ajuda sua marca a dominar as respostas do ChatGPT, Gemini e Google AI Overviews através de monitoramento GEO e AEO.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/first-answer",
+        "creator": {
+          "@type": "Organization",
+          "name": "First Answer"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -198,8 +195,7 @@ export default function FirstAnswerPage() {
                             "Planos acessíveis para startups e times de médio porte",
                             "Monitoramento preciso do Google AI Overviews (SGE)",
                             "Fácil configuração e curva de aprendizado rápida",
-                            "Métricas claras de crescimento de autoridade conversacional",
-                        ].map((advantage, index) => (
+                            "Métricas claras de crescimento de autoridade conversacional"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -216,8 +212,7 @@ export default function FirstAnswerPage() {
                             "Os planos básicos possuem limitações no número total de prompts",
                             "Exige uma estratégia ativa de conteúdo para ver resultados no monitoramento",
                             "Alguns modelos mais novos (como Grok) podem ter suporte limitado conforme a versão",
-                            "Dashboard focado em branding e marketing, menos foco em infraestrutura técnica",
-                        ].map((disadvantage, index) => (
+                            "Dashboard focado em branding e marketing, menos foco em infraestrutura técnica"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

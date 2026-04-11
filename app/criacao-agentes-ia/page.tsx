@@ -9,6 +9,20 @@ export const metadata = {
   alternates: {
     canonical: "https://www.hypehour.com.br/criacao-agentes-ia",
   },
+  openGraph: {
+    title: "Criação de Agentes de IA",
+    description: "Ferramentas para criar e orquestrar agentes de IA rapidamente.",
+    url: "https://www.hypehour.com.br/criacao-agentes-ia",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Criação de Agentes de IA",
+    description: "Ferramentas para criar e orquestrar agentes de IA rapidamente.",
+  },
 };
 
 const ferramentas = [

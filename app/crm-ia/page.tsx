@@ -22,6 +22,20 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.hypehour.com.br/crm-ia',
   },
+  openGraph: {
+    title: "CRM com IA",
+    description: "Ferramentas de CRM com inteligência artificial para gerenciar vendas, leads e relacionamento com clientes.",
+    url: "https://www.hypehour.com.br/crm-ia",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "CRM com IA",
+    description: "Ferramentas de CRM com inteligência artificial para gerenciar vendas, leads e relacionamento com clientes.",
+  },
 };
 
 export default function CRMIAPage() {

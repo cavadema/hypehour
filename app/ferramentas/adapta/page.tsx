@@ -2,104 +2,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "Adapta - Plataforma All-in-One de IA | Análise e Review",
+  title: "Adapta - Plataforma All-in-One de IA",
+  description: "Conheça o Adapta: plataforma integrada com +15 modelos de IA (GPT, Claude, Gemini), cursos práticos e newsletter. Tudo o que você precisa de IA em um só lugar.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/adapta",
+  },
+  openGraph: {
+    title: "Adapta - Plataforma All-in-One de IA",
     description: "Conheça o Adapta: plataforma integrada com +15 modelos de IA (GPT, Claude, Gemini), cursos práticos e newsletter. Tudo o que você precisa de IA em um só lugar.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/adapta",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/adapta",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Adapta - Plataforma All-in-One de IA",
+    description: "Conheça o Adapta: plataforma integrada com +15 modelos de IA (GPT, Claude, Gemini), cursos práticos e newsletter. Tudo o que você precisa de IA em um só lugar.",
+  },
 };
 
 export default function AdaptaPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/adapta#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Pacotes de Ferramentas e Agregadores IA",
-                        "item": "https://www.hypehour.com.br/pacotes-de-ferramentas-e-agregadores-ia"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Adapta",
-                        "item": "https://www.hypehour.com.br/ferramentas/adapta"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/adapta#software",
-                "name": "Adapta",
-                "description": "Adapta é uma plataforma all-in-one que reúne os melhores modelos de IA do mundo, cursos práticos e newsletter completa em uma única assinatura.",
-                "applicationCategory": "ProductivityApplication",
-                "operatingSystem": "Web",
-                "url": "https://adapta.org",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Adapta"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.6",
-                    "ratingCount": "5"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "BRL",
-                    "category": "Subscription"
-                }
-            },
-            {
-                "@type": "FAQPage",
-                "@id": "https://www.hypehour.com.br/ferramentas/adapta#faq",
-                "mainEntity": [
-                    {
-                        "@type": "Question",
-                        "name": "O que é o Adapta?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Adapta é uma plataforma all-in-one que reúne os melhores modelos de IA, cursos práticos e newsletter em uma única assinatura."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Quantos modelos de IA o Adapta oferece?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "O Adapta oferece acesso a mais de 15 modelos de IA, incluindo GPT, Claude, Gemini, Deepseek, Llama e outros."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "O Adapta é seguro?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Sim. O Adapta usa tecnologia Advanced Encryption Standard para manter seus dados sempre seguros."
-                        }
-                    }
-                ]
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/adapta#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Adapta",
+            "item": "https://www.hypehour.com.br/ferramentas/adapta"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/adapta#software",
+        "name": "Adapta",
+        "description": "Conheça o Adapta: plataforma integrada com +15 modelos de IA (GPT, Claude, Gemini), cursos práticos e newsletter. Tudo o que você precisa de IA em um só lugar.",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/adapta",
+        "creator": {
+          "@type": "Organization",
+          "name": "Adapta"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -205,8 +172,7 @@ export default function AdaptaPage() {
                             "Cursos práticos de IA",
                             "Newsletter semanal",
                             "Segurança e privacidade",
-                            "Suporte em português",
-                        ].map((item, index) => (
+                            "Suporte em português"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -257,8 +223,7 @@ export default function AdaptaPage() {
                             "Cursos práticos em português com foco em aplicação real no trabalho",
                             "Newsletter curada com as principais novidades de IA",
                             "Suporte e comunidade brasileira",
-                            "Segurança e privacidade com criptografia AES",
-                        ].map((advantage, index) => (
+                            "Segurança e privacidade com criptografia AES"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -275,8 +240,7 @@ export default function AdaptaPage() {
                             "Requer assinatura paga — não há plano gratuito para acesso aos modelos de IA",
                             "Dependência de conexão com internet — não funciona offline",
                             "Curva de aprendizado inicial para aproveitar todas as funcionalidades",
-                            "Alguns recursos avançados podem ter limites de uso dependendo do plano",
-                        ].map((disadvantage, index) => (
+                            "Alguns recursos avançados podem ter limites de uso dependendo do plano"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>
@@ -342,21 +306,7 @@ export default function AdaptaPage() {
                     </div>
                 </section>
 
-                {/* Vídeo do YouTube */}
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-black mb-6">Veja o Adapta em ação</h2>
-                    <div className="rounded-xl overflow-hidden shadow-lg border border-zinc-200">
-                        <div className="relative pb-[56.25%] h-0">
-                            <iframe
-                                className="absolute top-0 left-0 w-full h-full"
-                                src="https://www.youtube.com/embed/3VorOdW2iQM"
-                                title="Adapta Demo"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
-                            />
-                        </div>
-                    </div>
-                </section>
+                
 
                 {/* CTA */}
                 <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">

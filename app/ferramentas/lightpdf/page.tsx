@@ -3,74 +3,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "LightPDF - Editor e Conversor de PDF com IA | Review",
+  title: "LightPDF - Editor e Conversor de PDF com IA",
+  description: "Conheça o LightPDF: ferramenta completa de IA para editar, converter, resumir e interagir com PDFs. Veja funcionalidades, preço e se vale a pena.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/lightpdf",
+  },
+  openGraph: {
+    title: "LightPDF - Editor e Conversor de PDF com IA",
     description: "Conheça o LightPDF: ferramenta completa de IA para editar, converter, resumir e interagir com PDFs. Veja funcionalidades, preço e se vale a pena.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/lightpdf",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/lightpdf",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "LightPDF - Editor e Conversor de PDF com IA",
+    description: "Conheça o LightPDF: ferramenta completa de IA para editar, converter, resumir e interagir com PDFs. Veja funcionalidades, preço e se vale a pena.",
+  },
 };
 
 export default function LightPDFPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/lightpdf#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para PDF",
-                        "item": "https://www.hypehour.com.br/ia-para-pdf"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "LightPDF",
-                        "item": "https://www.hypehour.com.br/ferramentas/lightpdf"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/lightpdf#software",
-                "name": "LightPDF",
-                "description": "LightPDF é uma ferramenta all-in-one baseada em nuvem que usa IA para editar, converter, assinar, OCR e conversar com documentos PDF.",
-                "applicationCategory": "ProductivityApplication",
-                "operatingSystem": "Web, Windows, iOS, Android",
-                "url": "https://lightpdf.com/pt/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Wangxu Technology"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.9",
-                    "ratingCount": "11"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/lightpdf#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "LightPDF",
+            "item": "https://www.hypehour.com.br/ferramentas/lightpdf"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/lightpdf#software",
+        "name": "LightPDF",
+        "description": "Conheça o LightPDF: ferramenta completa de IA para editar, converter, resumir e interagir com PDFs. Veja funcionalidades, preço e se vale a pena.",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/lightpdf",
+        "creator": {
+          "@type": "Organization",
+          "name": "LightPDF"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -172,8 +169,7 @@ export default function LightPDFPage() {
                             "Adicionar marcas d'água",
                             "Preencher formulários interativos",
                             "Converter imagens para PDF e vice-versa",
-                            "Organizar páginas de documentos",
-                        ].map((item, index) => (
+                            "Organizar páginas de documentos"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -219,8 +215,7 @@ export default function LightPDFPage() {
                             "Processamento rápido na nuvem",
                             "Recurso de IA gratuito para testar",
                             "OCR de alta qualidade que suporta múltiplos idiomas",
-                            "Funciona em Windows, Mac, iOS e Android",
-                        ].map((advantage, index) => (
+                            "Funciona em Windows, Mac, iOS e Android"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -237,8 +232,7 @@ export default function LightPDFPage() {
                             "Alguns recursos avançados exigem conta VIP (paga)",
                             "Limite de tamanho de arquivo na versão gratuita",
                             "Depende de conexão com internet (na versão Web)",
-                            "O Chat com IA pode ter limites de perguntas no plano grátis",
-                        ].map((disadvantage, index) => (
+                            "O Chat com IA pode ter limites de perguntas no plano grátis"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

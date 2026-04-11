@@ -167,6 +167,20 @@ export const metadata = {
   alternates: {
     canonical: "https://www.hypehour.com.br/ferramentas-de-ia-para-conteudo",
   },
+  openGraph: {
+    title: "Ferramentas de IA para Conteúdo",
+    description: "Descubra as melhores ferramentas de IA para criar artigos, posts, e-mails e copys de alta conversão.",
+    url: "https://www.hypehour.com.br/ferramentas-de-ia-para-conteudo",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Ferramentas de IA para Conteúdo",
+    description: "Descubra as melhores ferramentas de IA para criar artigos, posts, e-mails e copys de alta conversão.",
+  },
 };
 
 

@@ -77,6 +77,20 @@ export const metadata = {
     alternates: {
         canonical: 'https://www.hypehour.com.br/ia-para-jogos',
     },
+  openGraph: {
+    title: "Criar jogos com IA",
+    description: "Descubra as melhores ferramentas de IA para criar jogos. De desenvolvimento sem código a geração de assets, estas plataformas usam inteligência artificial para transformar suas ideias em jogos reais.",
+    url: "https://www.hypehour.com.br/ia-para-jogos",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Criar jogos com IA",
+    description: "Descubra as melhores ferramentas de IA para criar jogos. De desenvolvimento sem código a geração de assets, estas plataformas usam inteligência artificial para transformar suas ideias em jogos reais.",
+  },
 };
 
 export default function IAparaJogos() {

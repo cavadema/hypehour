@@ -4,68 +4,71 @@ import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
 export const metadata = {
-    title: "Browserless - Automação de Navegador Headless em Nuvem | Review",
+  title: "Browserless - Automação de Navegador Headless em Nuvem",
+  description: "Conheça o Browserless: a solução líder para executar Puppeteer e Playwright em escala na nuvem sem gerenciar servidores.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/browserless",
+  },
+  openGraph: {
+    title: "Browserless - Automação de Navegador Headless em Nuvem",
     description: "Conheça o Browserless: a solução líder para executar Puppeteer e Playwright em escala na nuvem sem gerenciar servidores.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/browserless",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/browserless",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Browserless - Automação de Navegador Headless em Nuvem",
+    description: "Conheça o Browserless: a solução líder para executar Puppeteer e Playwright em escala na nuvem sem gerenciar servidores.",
+  },
 };
 
 export default function BrowserlessPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/browserless#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Web Scraping",
-                        "item": "https://www.hypehour.com.br/ia-web-scraping"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Browserless",
-                        "item": "https://www.hypehour.com.br/ferramentas/browserless"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/browserless#software",
-                "name": "Browserless",
-                "description": "Browserless é um serviço de automação de navegadores headless em nuvem para Puppeteer e Playwright.",
-                "applicationCategory": "DeveloperApplication",
-                "operatingSystem": "Web",
-                "url": "https://www.browserless.io/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Browserless"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.6",
-                    "ratingCount": "8"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/browserless#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Browserless",
+            "item": "https://www.hypehour.com.br/ferramentas/browserless"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/browserless#software",
+        "name": "Browserless",
+        "description": "Conheça o Browserless: a solução líder para executar Puppeteer e Playwright em escala na nuvem sem gerenciar servidores.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/browserless",
+        "creator": {
+          "@type": "Organization",
+          "name": "Browserless"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -191,8 +194,7 @@ export default function BrowserlessPage() {
                             "Debugger visual que torna a correção de bugs 10x mais rápida",
                             "Escala horizontal infinita para processamento de milhares de páginas",
                             "Gestão inteligente de processos zumbis e vazamentos de memória",
-                            "Opção de deploy local via Docker para controle total de latência",
-                        ].map((advantage, index) => (
+                            "Opção de deploy local via Docker para controle total de latência"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -209,8 +211,7 @@ export default function BrowserlessPage() {
                             "Pode ser mais caro que rodar um VPS simples se o uso for constante 24/7",
                             "Latência de rede por estar conectando a um servidor remoto (WebSocket)",
                             "Curva de aprendizado para configurar limites de recursos ideais",
-                            "Dependência de conectividade estável para sessões de longa duração",
-                        ].map((disadvantage, index) => (
+                            "Dependência de conectividade estável para sessões de longa duração"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

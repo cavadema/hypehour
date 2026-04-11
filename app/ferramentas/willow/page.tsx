@@ -5,75 +5,71 @@ import SimilarTools from "./SimilarTools";
 import { faqs } from "./constants";
 
 export const metadata = {
-    title: "Willow - Ditado de Voz com IA e Transcrição Inteligente | Review",
+  title: "Willow - Ditado de Voz com IA e Transcrição Inteligente",
+  description: "Conheça o Willow (Willowvoice): o assistente de ditado com IA que edita enquanto você fala. Veja recursos, preços, integração e se vale a pena.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/willow",
+  },
+  openGraph: {
+    title: "Willow - Ditado de Voz com IA e Transcrição Inteligente",
     description: "Conheça o Willow (Willowvoice): o assistente de ditado com IA que edita enquanto você fala. Veja recursos, preços, integração e se vale a pena.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/willow",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/willow",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Willow - Ditado de Voz com IA e Transcrição Inteligente",
+    description: "Conheça o Willow (Willowvoice): o assistente de ditado com IA que edita enquanto você fala. Veja recursos, preços, integração e se vale a pena.",
+  },
 };
 
 export default function WillowPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/willow#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Transcrever Áudio",
-                        "item": "https://www.hypehour.com.br/transcrever-audio"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Willow",
-                        "item": "https://www.hypehour.com.br/ferramentas/willow"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/willow#software",
-                "name": "Willow",
-                "nameAlternative": "Willowvoice",
-                "description": "Willow é um assistente de ditado por voz com IA que oferece transcrição ultra-precisa e edição automática de texto em tempo real.",
-                "applicationCategory": "MultimediaApplication",
-                "operatingSystem": "Mac, Windows, iOS",
-                "url": "https://willowvoice.com",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Willowvoice AI"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.9",
-                    "ratingCount": "11"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/willow#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Willow",
+            "item": "https://www.hypehour.com.br/ferramentas/willow"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/willow#software",
+        "name": "Willow",
+        "description": "Conheça o Willow (Willowvoice): o assistente de ditado com IA que edita enquanto você fala. Veja recursos, preços, integração e se vale a pena.",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/willow",
+        "creator": {
+          "@type": "Organization",
+          "name": "Willow"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -199,8 +195,7 @@ export default function WillowPage() {
                             "Suporte multiplataforma (Desktop e Mobile)",
                             "Foco extremo em privacidade e segurança de dados",
                             "Ideal para pessoas com dificuldades motoras ou RSI (LER)",
-                            "Permite ditar sussurros com o 'Quiet Mode'",
-                        ].map((advantage, index) => (
+                            "Permite ditar sussurros com o 'Quiet Mode'"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -217,8 +212,7 @@ export default function WillowPage() {
                             "Exige conexão ativa com a internet para máxima precisão",
                             "Assinatura mensal pode ser cara para usuários casuais",
                             "Requer tempo de adaptação para confiar na edição automática",
-                            "Alguns recursos de personalização exigem o plano Premium",
-                        ].map((disadvantage, index) => (
+                            "Alguns recursos de personalização exigem o plano Premium"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

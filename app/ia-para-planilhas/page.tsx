@@ -30,6 +30,20 @@ export const metadata = {
   alternates: {
     canonical: "https://www.hypehour.com.br/ia-para-planilhas",
   },
+  openGraph: {
+    title: "IA para Criar Planilhas | Ferramentas de IA para Excel e Google Sheets",
+    description: "Descubra as melhores ferramentas de IA para criar, automatizar e analisar planilhas no Excel e Google Sheets.",
+    url: "https://www.hypehour.com.br/ia-para-planilhas",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "IA para Criar Planilhas | Ferramentas de IA para Excel e Google Sheets",
+    description: "Descubra as melhores ferramentas de IA para criar, automatizar e analisar planilhas no Excel e Google Sheets.",
+  },
 };
 
 export default function IaParaPlanilhas() {

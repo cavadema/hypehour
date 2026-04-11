@@ -4,11 +4,25 @@ import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
 export const metadata = {
-    title: `${toolMetadata.nome} - Gerador de Vídeos com IA | Análise e Review`,
+  title: `${toolMetadata.nome}`,
+  description: toolMetadata.descricao,
+  alternates: {
+    canonical: `https://www.hypehour.com.br/ferramentas/synthesia`,
+  },
+  openGraph: {
+    title: `${toolMetadata.nome}`,
     description: toolMetadata.descricao,
-    alternates: {
-        canonical: `https://www.hypehour.com.br/ferramentas/synthesia`,
-    },
+    url: `https://www.hypehour.com.br/ferramentas/synthesia`,
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: `${toolMetadata.nome}`,
+    description: toolMetadata.descricao,
+  },
 };
 
 export default function SynthesiaPage() {
@@ -44,18 +58,6 @@ export default function SynthesiaPage() {
                     "priceCurrency": "USD",
                     "category": "Freemium"
                 }
-            },
-            {
-                "@type": "FAQPage",
-                "@id": `https://www.hypehour.com.br/ferramentas/synthesia#faq`,
-                "mainEntity": faqs.map(faq => ({
-                    "@type": "Question",
-                    "name": faq.question,
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": faq.answer
-                    }
-                }))
             }
         ]
     };

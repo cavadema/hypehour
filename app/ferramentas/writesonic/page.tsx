@@ -5,74 +5,71 @@ import SimilarTools from "./SimilarTools";
 import { faqs } from "./constants";
 
 export const metadata = {
-    title: "Writesonic - IA para Escrita, SEO e Automação de Conteúdo | Review",
+  title: "Writesonic - IA para Escrita",
+  description: "Conheça o Writesonic: a ferramenta líder para criar artigos otimizados, cópias de anúncios e monitorar sua marca em IAs. Veja preços e recursos.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/writesonic",
+  },
+  openGraph: {
+    title: "Writesonic - IA para Escrita",
     description: "Conheça o Writesonic: a ferramenta líder para criar artigos otimizados, cópias de anúncios e monitorar sua marca em IAs. Veja preços e recursos.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/writesonic",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/writesonic",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Writesonic - IA para Escrita",
+    description: "Conheça o Writesonic: a ferramenta líder para criar artigos otimizados, cópias de anúncios e monitorar sua marca em IAs. Veja preços e recursos.",
+  },
 };
 
 export default function WritesonicPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/writesonic#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Marketing",
-                        "item": "https://www.hypehour.com.br/ia-para-marketing"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Writesonic",
-                        "item": "https://www.hypehour.com.br/ferramentas/writesonic"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/writesonic#software",
-                "name": "Writesonic",
-                "description": "Writesonic é uma plataforma de IA para marketing que combina geração de conteúdo de alta qualidade com automação e visibilidade de SEO.",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web",
-                "url": "https://writesonic.com",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Writesonic"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "ratingCount": "1"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/writesonic#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Writesonic",
+            "item": "https://www.hypehour.com.br/ferramentas/writesonic"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/writesonic#software",
+        "name": "Writesonic",
+        "description": "Conheça o Writesonic: a ferramenta líder para criar artigos otimizados, cópias de anúncios e monitorar sua marca em IAs. Veja preços e recursos.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/writesonic",
+        "creator": {
+          "@type": "Organization",
+          "name": "Writesonic"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -198,8 +195,7 @@ export default function WritesonicPage() {
                             "Ferramentas exclusivas para visibilidade em buscas de IA (GEO)",
                             "Suporte especializado para mais de 25 idiomas",
                             "Plano gratuito flexível para começar sem riscos",
-                            "Exportação direta para WordPress facilitando o deploy",
-                        ].map((advantage, index) => (
+                            "Exportação direta para WordPress facilitando o deploy"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -216,8 +212,7 @@ export default function WritesonicPage() {
                             "Pode exigir revisão manual para garantir o tom de voz da marca",
                             "Planos de SEO avançados podem ser caros para freelancers",
                             "Curva de aprendizado inicial devido à grande quantidade de recursos",
-                            "Alguns modelos de IA de elite exigem créditos extras no plano básico",
-                        ].map((disadvantage, index) => (
+                            "Alguns modelos de IA de elite exigem créditos extras no plano básico"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

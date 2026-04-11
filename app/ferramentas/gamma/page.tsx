@@ -2,74 +2,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "Gamma AI - Crie Apresentações, Sites e Documentos com IA | Review",
+  title: "Gamma AI - Crie Apresentações",
+  description: "Descubra o Gamma AI: a ferramenta que transforma prompts em apresentações, documentos e sites visualmente impressionantes em segundos. Veja como funciona.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/gamma",
+  },
+  openGraph: {
+    title: "Gamma AI - Crie Apresentações",
     description: "Descubra o Gamma AI: a ferramenta que transforma prompts em apresentações, documentos e sites visualmente impressionantes em segundos. Veja como funciona.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/gamma",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/gamma",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Gamma AI - Crie Apresentações",
+    description: "Descubra o Gamma AI: a ferramenta que transforma prompts em apresentações, documentos e sites visualmente impressionantes em segundos. Veja como funciona.",
+  },
 };
 
 export default function GammaPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/gamma#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Apresentações",
-                        "item": "https://www.hypehour.com.br/ia-para-criar-apresentacoes"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Gamma AI",
-                        "item": "https://www.hypehour.com.br/ferramentas/gamma"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/gamma#software",
-                "name": "Gamma",
-                "description": "Gamma é uma ferramenta de IA generativa que cria apresentações, documentos e sites a partir de comandos de texto.",
-                "applicationCategory": "DesignApplication",
-                "operatingSystem": "Web Browser",
-                "url": "https://gamma.app",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Gamma Tech"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "5.0",
-                    "ratingCount": "6"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/gamma#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Gamma AI",
+            "item": "https://www.hypehour.com.br/ferramentas/gamma"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/gamma#software",
+        "name": "Gamma AI",
+        "description": "Descubra o Gamma AI: a ferramenta que transforma prompts em apresentações, documentos e sites visualmente impressionantes em segundos. Veja como funciona.",
+        "applicationCategory": "DesignApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/gamma",
+        "creator": {
+          "@type": "Organization",
+          "name": "Gamma AI"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -185,8 +182,7 @@ export default function GammaPage() {
                             "E-books visuais",
                             "Convites de Eventos",
                             "Apresentações Corporativas",
-                            "Criação de Conteúdo LinkedIn",
-                        ].map((item, index) => (
+                            "Criação de Conteúdo LinkedIn"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -227,8 +223,7 @@ export default function GammaPage() {
                             "Interface de edição intuitiva baseada em blocos e cartões",
                             "Integração de mídias ricas sem necessidade de plugins",
                             "Excelente entendimento de português e contexto",
-                            "Exportação flexível para PDF e PowerPoint",
-                        ].map((advantage, index) => (
+                            "Exportação flexível para PDF e PowerPoint"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -245,8 +240,7 @@ export default function GammaPage() {
                             "A formatação muito rígida pode frustrar quem deseja controle total de pixels",
                             "Sistema de créditos pode acabar rapidamente no plano gratuito",
                             "Exige conexão constante com a internet para funcionar",
-                            "A marca d'água do Gamma está presente no plano gratuito",
-                        ].map((disadvantage, index) => (
+                            "A marca d'água do Gamma está presente no plano gratuito"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>
@@ -300,21 +294,7 @@ export default function GammaPage() {
                     </div>
                 </section>
 
-                {/* Vídeo do YouTube */}
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-black mb-6">Veja o Gamma em ação</h2>
-                    <div className="rounded-xl overflow-hidden shadow-lg border border-zinc-200">
-                        <div className="relative pb-[56.25%] h-0">
-                            <iframe
-                                className="absolute top-0 left-0 w-full h-full"
-                                src="https://www.youtube.com/embed/NuFo-G62xXk"
-                                title="Gamma AI Demo"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
-                            />
-                        </div>
-                    </div>
-                </section>
+                
 
                 {/* CTA */}
                 <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">

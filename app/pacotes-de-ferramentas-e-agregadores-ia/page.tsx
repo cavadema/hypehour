@@ -118,6 +118,20 @@ export const metadata = {
     alternates: {
         canonical: 'https://www.hypehour.com.br/pacotes-de-ferramentas-e-agregadores-ia',
     },
+  openGraph: {
+    title: "Pacotes de Ferramentas IA e Agregadores",
+    description: "Descubra as melhores plataformas que agregam múltiplas ferramentas e modelos de inteligência artificial.",
+    url: "https://www.hypehour.com.br/pacotes-de-ferramentas-e-agregadores-ia",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Pacotes de Ferramentas IA e Agregadores",
+    description: "Descubra as melhores plataformas que agregam múltiplas ferramentas e modelos de inteligência artificial.",
+  },
 };
 
 export default function PacotesFerramentas() {

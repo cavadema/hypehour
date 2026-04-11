@@ -3,74 +3,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "ChatPDF - Converse com seus PDFs usando IA | Review",
+  title: "ChatPDF - Converse com seus PDFs usando IA",
+  description: "Conheça o ChatPDF: ferramenta de IA que permite conversar com documentos PDF, resumir textos, traduzir e responder perguntas instantaneamente.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/chatpdf",
+  },
+  openGraph: {
+    title: "ChatPDF - Converse com seus PDFs usando IA",
     description: "Conheça o ChatPDF: ferramenta de IA que permite conversar com documentos PDF, resumir textos, traduzir e responder perguntas instantaneamente.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/chatpdf",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/chatpdf",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "ChatPDF - Converse com seus PDFs usando IA",
+    description: "Conheça o ChatPDF: ferramenta de IA que permite conversar com documentos PDF, resumir textos, traduzir e responder perguntas instantaneamente.",
+  },
 };
 
 export default function ChatPDFPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/chatpdf#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para PDF",
-                        "item": "https://www.hypehour.com.br/ia-para-pdf"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "ChatPDF",
-                        "item": "https://www.hypehour.com.br/ferramentas/chatpdf"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/chatpdf#software",
-                "name": "ChatPDF",
-                "description": "ChatPDF é uma ferramenta de IA que permite conversar com arquivos PDF como se fosse um humano, resumindo documentos, respondendo perguntas e extraindo informações.",
-                "applicationCategory": "ProductivityApplication",
-                "operatingSystem": "Web",
-                "url": "https://www.chatpdf.com",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "ChatPDF"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.9",
-                    "ratingCount": "11"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/chatpdf#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "ChatPDF",
+            "item": "https://www.hypehour.com.br/ferramentas/chatpdf"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/chatpdf#software",
+        "name": "ChatPDF",
+        "description": "Conheça o ChatPDF: ferramenta de IA que permite conversar com documentos PDF, resumir textos, traduzir e responder perguntas instantaneamente.",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/chatpdf",
+        "creator": {
+          "@type": "Organization",
+          "name": "ChatPDF"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -172,8 +169,7 @@ export default function ChatPDFPage() {
                             "Escrever essays e redações",
                             "Preparar apresentações baseadas em relatórios",
                             "Consultar normas e regulamentos",
-                            "Sintetizar livros e ebooks",
-                        ].map((item, index) => (
+                            "Sintetizar livros e ebooks"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -219,8 +215,7 @@ export default function ChatPDFPage() {
                             "Citações clicáveis aumentam a confiança na resposta",
                             "Funciona em qualquer dispositivo (mobile, tablet, desktop)",
                             "Plano gratuito generoso (2 PDFs/dia até 120 páginas)",
-                            "Capacidade de traduzir e explicar termos complexos",
-                        ].map((advantage, index) => (
+                            "Capacidade de traduzir e explicar termos complexos"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -237,8 +232,7 @@ export default function ChatPDFPage() {
                             "O plano gratuito tem limite de páginas por PDF (geralmente 120)",
                             "Não interpreta imagens ou gráficos dentro do PDF com perfeição",
                             "Depende da qualidade do texto do PDF (PDFs digitalizados como imagem podem falhar sem OCR)",
-                            "A IA pode ocasionalmente alucinar informações se o textos for ambíguo",
-                        ].map((disadvantage, index) => (
+                            "A IA pode ocasionalmente alucinar informações se o textos for ambíguo"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

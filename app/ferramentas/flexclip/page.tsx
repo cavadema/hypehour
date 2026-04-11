@@ -4,11 +4,25 @@ import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
 export const metadata = {
-    title: `${toolMetadata.nome} - Editor de Vídeos com IA | Análise e Review`,
+  title: `${toolMetadata.nome}`,
+  description: toolMetadata.descricao,
+  alternates: {
+    canonical: `https://www.hypehour.com.br/ferramentas/flexclip`,
+  },
+  openGraph: {
+    title: `${toolMetadata.nome}`,
     description: toolMetadata.descricao,
-    alternates: {
-        canonical: `https://www.hypehour.com.br/ferramentas/flexclip`,
-    },
+    url: `https://www.hypehour.com.br/ferramentas/flexclip`,
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: `${toolMetadata.nome}`,
+    description: toolMetadata.descricao,
+  },
 };
 
 export default function FlexClipPage() {
@@ -44,18 +58,6 @@ export default function FlexClipPage() {
                     "priceCurrency": "USD",
                     "category": "Freemium"
                 }
-            },
-            {
-                "@type": "FAQPage",
-                "@id": `https://www.hypehour.com.br/ferramentas/flexclip#faq`,
-                "mainEntity": faqs.map(faq => ({
-                    "@type": "Question",
-                    "name": faq.question,
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": faq.answer
-                    }
-                }))
             }
         ]
     };

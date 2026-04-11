@@ -7,6 +7,20 @@ export const metadata = {
   title: "Faça seu Design com IA",
   description: "Ferramentas de IA para designers criarem e iterarem projetos visuais com mais rapidez.",
   alternates: { canonical: "https://www.hypehour.com.br/ia-para-designers" },
+  openGraph: {
+    title: "Faça seu Design com IA",
+    description: "Ferramentas de IA para designers criarem e iterarem projetos visuais com mais rapidez.",
+    url: "https://www.hypehour.com.br/ia-para-designers",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Faça seu Design com IA",
+    description: "Ferramentas de IA para designers criarem e iterarem projetos visuais com mais rapidez.",
+  },
 };
 
 const ferramentas = [

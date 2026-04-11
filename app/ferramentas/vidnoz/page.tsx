@@ -3,70 +3,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "Vidnoz AI - Gerador de Vídeo com Avatar e Voz IA Grátis | Review",
+  title: "Vidnoz AI - Gerador de Vídeo com Avatar e Voz IA Grátis",
+  description: "Conheça o Vidnoz AI: plataforma líder para criar vídeos com avatares realistas, clonagem de voz e templates prontos. Teste grátis e transforme texto em vídeo em minutos.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/vidnoz",
+  },
+  openGraph: {
+    title: "Vidnoz AI - Gerador de Vídeo com Avatar e Voz IA Grátis",
     description: "Conheça o Vidnoz AI: plataforma líder para criar vídeos com avatares realistas, clonagem de voz e templates prontos. Teste grátis e transforme texto em vídeo em minutos.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/vidnoz",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/vidnoz",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Vidnoz AI - Gerador de Vídeo com Avatar e Voz IA Grátis",
+    description: "Conheça o Vidnoz AI: plataforma líder para criar vídeos com avatares realistas, clonagem de voz e templates prontos. Teste grátis e transforme texto em vídeo em minutos.",
+  },
 };
 
 export default function VidnozPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/vidnoz#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Criar Vídeos",
-                        "item": "https://www.hypehour.com.br/ia-para-criar-videos"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Vidnoz",
-                        "item": "https://www.hypehour.com.br/ferramentas/vidnoz"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/vidnoz#software",
-                "name": "Vidnoz AI",
-                "description": "Vidnoz AI é uma plataforma de geração de vídeos que usa inteligência artificial para criar apresentadores virtuais (avatares) realistas e clonar vozes, permitindo transformar texto em vídeo rapidamente.",
-                "applicationCategory": "MultimediaApplication",
-                "operatingSystem": "Web",
-                "url": "https://pt.vidnoz.com/",
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.5",
-                    "ratingCount": "7"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/vidnoz#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Vidnoz AI",
+            "item": "https://www.hypehour.com.br/ferramentas/vidnoz"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/vidnoz#software",
+        "name": "Vidnoz AI",
+        "description": "Conheça o Vidnoz AI: plataforma líder para criar vídeos com avatares realistas, clonagem de voz e templates prontos. Teste grátis e transforme texto em vídeo em minutos.",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/vidnoz",
+        "creator": {
+          "@type": "Organization",
+          "name": "Vidnoz AI"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -168,8 +169,7 @@ export default function VidnozPage() {
                             "Criar conteúdo multilíngue facilmente",
                             "Vídeos explicativos de produtos",
                             "Mensagens de boas-vindas",
-                            "Convites virtuais animados",
-                        ].map((item, index) => (
+                            "Convites virtuais animados"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -215,8 +215,7 @@ export default function VidnozPage() {
                             "Redução drástica de custos com atores e produção",
                             "Escalabilidade: crie centenas de vídeos personalizados rapidamente",
                             "Avatares de alta qualidade com sincronização labial precisa",
-                            "Ferramentas extras como Face Swap gratuito e removedor de fundo",
-                        ].map((advantage, index) => (
+                            "Ferramentas extras como Face Swap gratuito e removedor de fundo"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -234,8 +233,7 @@ export default function VidnozPage() {
                             "O tempo de geração do vídeo pode variar dependendo da fila do servidor",
                             "Alguns movimentos dos avatares ainda podem parecer levemente robóticos",
                             "Limitação de minutos por mês nos planos mais básicos",
-                            "Requer conexão constante com a internet",
-                        ].map((disadvantage, index) => (
+                            "Requer conexão constante com a internet"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

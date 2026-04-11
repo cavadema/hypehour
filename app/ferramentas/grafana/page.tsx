@@ -3,85 +3,71 @@ import FAQSection from "./FAQSection";
 import { faqs } from "./constants";
 
 export const metadata = {
+  title: "Grafana AI - Observabilidade Inteligente e Dashboards | Análise",
+  description: "Conheça os recursos de IA do Grafana: detecção de anomalias, assistente inteligente e diagnóstico automatizado de incidentes.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/grafana",
+  },
+  openGraph: {
     title: "Grafana AI - Observabilidade Inteligente e Dashboards | Análise",
     description: "Conheça os recursos de IA do Grafana: detecção de anomalias, assistente inteligente e diagnóstico automatizado de incidentes.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/grafana",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/grafana",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Grafana AI - Observabilidade Inteligente e Dashboards | Análise",
+    description: "Conheça os recursos de IA do Grafana: detecção de anomalias, assistente inteligente e diagnóstico automatizado de incidentes.",
+  },
 };
 
 export default function GrafanaPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/grafana#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Desenvolvedores",
-                        "item": "https://www.hypehour.com.br/ia-para-desenvolvedores"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Grafana",
-                        "item": "https://www.hypehour.com.br/ferramentas/grafana"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/grafana#software",
-                "name": "Grafana Cloud AI",
-                "description": "Uma plataforma de observabilidade líder que integra IA e Machine Learning para detecção de anomalias, previsões e assistência inteligente em incidentes.",
-                "applicationCategory": "DeveloperApplication",
-                "operatingSystem": "Web, Windows, macOS, Linux",
-                "url": "https://grafana.com/solutions/machine-learning/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Grafana Labs"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.5",
-                    "ratingCount": "1"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "19.00",
-                    "priceCurrency": "USD",
-                    "category": "Paid"
-                }
-            },
-            {
-                "@type": "FAQPage",
-                "mainEntity": faqs.map((faq: { question: string; answer: string }) => ({
-                    "@type": "Question",
-                    "name": faq.question,
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": faq.answer
-                    }
-                }))
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/grafana#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Grafana AI",
+            "item": "https://www.hypehour.com.br/ferramentas/grafana"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/grafana#software",
+        "name": "Grafana AI",
+        "description": "Conheça os recursos de IA do Grafana: detecção de anomalias, assistente inteligente e diagnóstico automatizado de incidentes.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/grafana",
+        "creator": {
+          "@type": "Organization",
+          "name": "Grafana AI"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -169,8 +155,7 @@ export default function GrafanaPage() {
                             "Visualização de Dados de IoT",
                             "Dashboards de Business Intelligence",
                             "Monitoramento de LLMs Próprios",
-                            "Automação de Runbooks",
-                        ].map((item, index) => (
+                            "Automação de Runbooks"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -188,8 +173,7 @@ export default function GrafanaPage() {
                             "Diagnóstico de causa raiz muito mais rápido com o SRE Agent",
                             "Otimização real de custos de armazenamento e ingestão de dados",
                             "Interface amigável para usuários não-técnicos usarem telemetria",
-                            "Escalabilidade massiva para empresas globais",
-                        ].map((advantage, index) => (
+                            "Escalabilidade massiva para empresas globais"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -206,8 +190,7 @@ export default function GrafanaPage() {
                             "Os recursos mais potentes de IA são exclusivos da versão Cloud (Paga)",
                             "Exige uma configuração correta de telemetria inicial para a IA ser eficaz",
                             "Curva de aprendizado pode ser íngreme para extrair o máximo das métricas",
-                            "Custos podem escalar rapidamente em ambientes com milhões de métricas",
-                        ].map((disadvantage, index) => (
+                            "Custos podem escalar rapidamente em ambientes com milhões de métricas"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

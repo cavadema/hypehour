@@ -10,6 +10,20 @@ export const metadata = {
     alternates: {
         canonical: 'https://www.hypehour.com.br/ia-para-medicos',
     },
+  openGraph: {
+    title: "IA para Médicos - Ferramentas de Inteligência Artificial para Saúde",
+    description: "Descubra ferramentas de IA para médicos, clínicas e hospitais: diagnósticos, anotações automáticas e pesquisa.",
+    url: "https://www.hypehour.com.br/ia-para-medicos",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "IA para Médicos - Ferramentas de Inteligência Artificial para Saúde",
+    description: "Descubra ferramentas de IA para médicos, clínicas e hospitais: diagnósticos, anotações automáticas e pesquisa.",
+  },
 };
 
 const ferramentas = [

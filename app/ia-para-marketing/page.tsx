@@ -469,6 +469,20 @@ export const metadata = {
     alternates: {
         canonical: "https://www.hypehour.com.br/ia-para-marketing",
     },
+  openGraph: {
+    title: "Ferramentas de Inteligência Artificial para Marketing",
+    description: "Descubra as melhores ferramentas de IA para marketing: automação, criação de conteúdo, SEO e vídeo.",
+    url: "https://www.hypehour.com.br/ia-para-marketing",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Ferramentas de Inteligência Artificial para Marketing",
+    description: "Descubra as melhores ferramentas de IA para marketing: automação, criação de conteúdo, SEO e vídeo.",
+  },
 };
 
 export default function IaParaMarketing() {

@@ -2,74 +2,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "Visme AI - Criador de Conteúdo Visual e Apresentações | Review",
+  title: "Visme AI - Criador de Conteúdo Visual e Apresentações",
+  description: "Descubra o Visme AI: ferramenta multifuncional para criar apresentações, infográficos e conteúdos interativos com inteligência artificial. Veja como funciona.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/visme",
+  },
+  openGraph: {
+    title: "Visme AI - Criador de Conteúdo Visual e Apresentações",
     description: "Descubra o Visme AI: ferramenta multifuncional para criar apresentações, infográficos e conteúdos interativos com inteligência artificial. Veja como funciona.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/visme",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/visme",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Visme AI - Criador de Conteúdo Visual e Apresentações",
+    description: "Descubra o Visme AI: ferramenta multifuncional para criar apresentações, infográficos e conteúdos interativos com inteligência artificial. Veja como funciona.",
+  },
 };
 
 export default function VismePage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/visme#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Apresentações",
-                        "item": "https://www.hypehour.com.br/ia-para-criar-apresentacoes"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Visme",
-                        "item": "https://www.hypehour.com.br/ferramentas/visme"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/visme#software",
-                "name": "Visme AI",
-                "description": "Uma plataforma de comunicação visual completa que utiliza IA para gerar apresentações, infográficos, vídeos e relatórios interativos a partir de prompts simples.",
-                "applicationCategory": "DesignApplication",
-                "operatingSystem": "Web",
-                "url": "https://www.visme.co/pt-br/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Visme"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.7",
-                    "ratingCount": "9"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/visme#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Visme AI",
+            "item": "https://www.hypehour.com.br/ferramentas/visme"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/visme#software",
+        "name": "Visme AI",
+        "description": "Descubra o Visme AI: ferramenta multifuncional para criar apresentações, infográficos e conteúdos interativos com inteligência artificial. Veja como funciona.",
+        "applicationCategory": "DesignApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/visme",
+        "creator": {
+          "@type": "Organization",
+          "name": "Visme AI"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -189,8 +186,7 @@ export default function VismePage() {
                             "Checklists animados",
                             "Manuais de marca",
                             "E-books profissionais",
-                            "Apresentações de webinars",
-                        ].map((item, index) => (
+                            "Apresentações de webinars"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -239,8 +235,7 @@ export default function VismePage() {
                             "Recursos de interatividade exclusivos no mercado",
                             "Analytics integrado para medir o sucesso da sua apresentação",
                             "Exportação flexível, incluindo formatos web (HTML5) e offline",
-                            "Curadoria de marca (Branding) automatizada e rigorosa",
-                        ].map((advantage, index) => (
+                            "Curadoria de marca (Branding) automatizada e rigorosa"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -258,8 +253,7 @@ export default function VismePage() {
                             "A interface pode parecer 'cheia' ou intimidadora para usuários muito casuais",
                             "Preço da assinatura Pro é superior a concorrentes como Canva",
                             "Interface principal ainda não traduzida (apenas o conteúdo da IA)",
-                            "O download em PowerPoint pode perder algumas interações web exclusivas",
-                        ].map((disadvantage, index) => (
+                            "O download em PowerPoint pode perder algumas interações web exclusivas"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

@@ -95,6 +95,20 @@ export const metadata = {
   alternates: {
     canonical: "https://www.hypehour.com.br/api-ia-modelos",
   },
+  openGraph: {
+    title: "APIs e Modelos de Linguagem de IA",
+    description: "Explore as principais APIs e modelos de linguagem para integrar IA em seus projetos.",
+    url: "https://www.hypehour.com.br/api-ia-modelos",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "APIs e Modelos de Linguagem de IA",
+    description: "Explore as principais APIs e modelos de linguagem para integrar IA em seus projetos.",
+  },
 };
 
 export default function APIsIA() {

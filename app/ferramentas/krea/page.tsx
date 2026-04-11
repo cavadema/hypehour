@@ -5,74 +5,71 @@ import SimilarTools from "./SimilarTools";
 import { faqs } from "./constants";
 
 export const metadata = {
-    title: "Krea AI - Geração de Imagem em Tempo Real e Upscaling | Review",
+  title: "Krea AI - Geração de Imagem em Tempo Real e Upscaling",
+  description: "Conheça o Krea AI: a ferramenta líder em inteligência artificial generativa em tempo real. Veja como funciona o AI Enhancer, preços e recursos para criativos.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/krea",
+  },
+  openGraph: {
+    title: "Krea AI - Geração de Imagem em Tempo Real e Upscaling",
     description: "Conheça o Krea AI: a ferramenta líder em inteligência artificial generativa em tempo real. Veja como funciona o AI Enhancer, preços e recursos para criativos.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/krea",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/krea",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Krea AI - Geração de Imagem em Tempo Real e Upscaling",
+    description: "Conheça o Krea AI: a ferramenta líder em inteligência artificial generativa em tempo real. Veja como funciona o AI Enhancer, preços e recursos para criativos.",
+  },
 };
 
 export default function KreaPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/krea#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Imagens",
-                        "item": "https://www.hypehour.com.br/ia-para-imagens"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Krea AI",
-                        "item": "https://www.hypehour.com.br/ferramentas/krea"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/krea#software",
-                "name": "Krea AI",
-                "description": "Krea AI é uma plataforma de design criativo que oferece geração de imagens e vídeos em tempo real, além de um upscaler/enhancer de alta fidelidade.",
-                "applicationCategory": "MultimediaApplication",
-                "operatingSystem": "Web",
-                "url": "https://krea.ai",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Krea AI"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "5.0",
-                    "ratingCount": "15"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/krea#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Krea AI",
+            "item": "https://www.hypehour.com.br/ferramentas/krea"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/krea#software",
+        "name": "Krea AI",
+        "description": "Conheça o Krea AI: a ferramenta líder em inteligência artificial generativa em tempo real. Veja como funciona o AI Enhancer, preços e recursos para criativos.",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/krea",
+        "creator": {
+          "@type": "Organization",
+          "name": "Krea AI"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -203,8 +200,7 @@ export default function KreaPage() {
                             "Interface de canvas que permite trabalhar múltiplas imagens ao mesmo tempo",
                             "Recurso de geração constante enquanto você desenha ou move elementos",
                             "Excelente para corrigir e detalhar imagens geradas por outras IAs",
-                            "Facilidade no uso de padrões e logotipos escondidos em imagens",
-                        ].map((advantage, index) => (
+                            "Facilidade no uso de padrões e logotipos escondidos em imagens"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -221,8 +217,7 @@ export default function KreaPage() {
                             "Imagens em tempo real podem ser menos detalhadas antes de passar pelo Enhancer",
                             "Plano gratuito tem limites que podem ser atingidos rapidamente em fluxos de vídeo",
                             "Para altas resoluções (4K), é necessário o upgrade para os planos Pro",
-                            "Não possui controle de tipografia tão preciso quanto o Ideogram",
-                        ].map((disadvantage, index) => (
+                            "Não possui controle de tipografia tão preciso quanto o Ideogram"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

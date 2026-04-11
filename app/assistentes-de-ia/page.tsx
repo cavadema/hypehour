@@ -7,6 +7,20 @@ export const metadata = {
   title: "Assistentes de IA e pessoais",
   description: "Ferramentas para criar e usar assistentes de IA pessoais e profissionais.",
   alternates: { canonical: "https://www.hypehour.com.br/assistentes-de-ia" },
+  openGraph: {
+    title: "Assistentes de IA e pessoais",
+    description: "Ferramentas para criar e usar assistentes de IA pessoais e profissionais.",
+    url: "https://www.hypehour.com.br/assistentes-de-ia",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Assistentes de IA e pessoais",
+    description: "Ferramentas para criar e usar assistentes de IA pessoais e profissionais.",
+  },
 };
 
 const ferramentas = [

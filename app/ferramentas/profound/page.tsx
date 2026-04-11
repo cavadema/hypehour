@@ -5,74 +5,71 @@ import SimilarTools from "./SimilarTools";
 import { faqs } from "./constants";
 
 export const metadata = {
-    title: "Profound - Visibilidade de IA e GEO para Empresas | Review",
+  title: "Profound - Visibilidade de IA e GEO para Empresas",
+  description: "Conheça o Profound: a plataforma enterprise líder em monitorar citações de marca no ChatGPT, Grok, Meta AI e Google Gemini. Veja recursos e planos.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/profound",
+  },
+  openGraph: {
+    title: "Profound - Visibilidade de IA e GEO para Empresas",
     description: "Conheça o Profound: a plataforma enterprise líder em monitorar citações de marca no ChatGPT, Grok, Meta AI e Google Gemini. Veja recursos e planos.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/profound",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/profound",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Profound - Visibilidade de IA e GEO para Empresas",
+    description: "Conheça o Profound: a plataforma enterprise líder em monitorar citações de marca no ChatGPT, Grok, Meta AI e Google Gemini. Veja recursos e planos.",
+  },
 };
 
 export default function ProfoundPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/profound#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Marketing",
-                        "item": "https://www.hypehour.com.br/ia-para-marketing"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Profound",
-                        "item": "https://www.hypehour.com.br/ferramentas/profound"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/profound#software",
-                "name": "Profound",
-                "description": "Profound é uma plataforma enterprise de visibilidade em IA focada em Generative Engine Optimization (GEO) e monitoramento de marca em Answer Engines.",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web",
-                "url": "https://tryprofound.com",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Profound"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.6",
-                    "ratingCount": "8"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/profound#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Profound",
+            "item": "https://www.hypehour.com.br/ferramentas/profound"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/profound#software",
+        "name": "Profound",
+        "description": "Conheça o Profound: a plataforma enterprise líder em monitorar citações de marca no ChatGPT, Grok, Meta AI e Google Gemini. Veja recursos e planos.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/profound",
+        "creator": {
+          "@type": "Organization",
+          "name": "Profound"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -198,8 +195,7 @@ export default function ProfoundPage() {
                             "Capacidades avançadas de sentiment analysis e rastreamento de narrativa",
                             "Módulo de shopping especializado para dominar o e-commerce em IA",
                             "Planos iniciais gratuitos para testes rápidos de visibilidade",
-                            "Integração premium com suporte a SSO e account management dedicado",
-                        ].map((advantage, index) => (
+                            "Integração premium com suporte a SSO e account management dedicado"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -216,8 +212,7 @@ export default function ProfoundPage() {
                             "Preços de nível enterprise podem ser proibitivos para freelancers",
                             "O plano 'Growth' possui custo por prompt significativamente mais alto que a média",
                             "Atualmente menos configurável para agências que gerenciam dezenas de contas pequenas",
-                            "Dashboard focado em insights macro, podendo faltar detalhamento micro para SEOs",
-                        ].map((disadvantage, index) => (
+                            "Dashboard focado em insights macro, podendo faltar detalhamento micro para SEOs"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

@@ -3,85 +3,71 @@ import FAQSection from "./FAQSection";
 import { faqs } from "./constants";
 
 export const metadata = {
-    title: "Cursor AI - O Editor de Código com Inteligência Artificial | Review",
+  title: "Cursor AI - O Editor de Código com Inteligência Artificial",
+  description: "Conheça o Cursor: o editor focado em IA que está substituindo o VS Code para muitos desenvolvedores. Veja como funciona, recursos e preços.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/cursor",
+  },
+  openGraph: {
+    title: "Cursor AI - O Editor de Código com Inteligência Artificial",
     description: "Conheça o Cursor: o editor focado em IA que está substituindo o VS Code para muitos desenvolvedores. Veja como funciona, recursos e preços.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/cursor",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/cursor",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Cursor AI - O Editor de Código com Inteligência Artificial",
+    description: "Conheça o Cursor: o editor focado em IA que está substituindo o VS Code para muitos desenvolvedores. Veja como funciona, recursos e preços.",
+  },
 };
 
 export default function CursorPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/cursor#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Desenvolvedores",
-                        "item": "https://www.hypehour.com.br/ia-para-desenvolvedores"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Cursor",
-                        "item": "https://www.hypehour.com.br/ferramentas/cursor"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/cursor#software",
-                "name": "Cursor AI",
-                "description": "Um editor de código focado em IA, fork do VS Code, que oferece assistência inteligente profunda, chat contextual e edição automática de arquivos.",
-                "applicationCategory": "DeveloperApplication",
-                "operatingSystem": "Windows, macOS, Linux",
-                "url": "https://www.cursor.com/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Anysphere"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.9",
-                    "ratingCount": "11"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "20.00",
-                    "priceCurrency": "USD",
-                    "category": "Paid"
-                }
-            },
-            {
-                "@type": "FAQPage",
-                "mainEntity": faqs.map((faq: { question: string; answer: string }) => ({
-                    "@type": "Question",
-                    "name": faq.question,
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": faq.answer
-                    }
-                }))
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/cursor#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Cursor AI",
+            "item": "https://www.hypehour.com.br/ferramentas/cursor"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/cursor#software",
+        "name": "Cursor AI",
+        "description": "Conheça o Cursor: o editor focado em IA que está substituindo o VS Code para muitos desenvolvedores. Veja como funciona, recursos e preços.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/cursor",
+        "creator": {
+          "@type": "Organization",
+          "name": "Cursor AI"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -169,8 +155,7 @@ export default function CursorPage() {
                             "Migração de Frameworks",
                             "Busca Semântica no Projeto",
                             "Integração de Bibliotecas Novas",
-                            "Debug de Logs de Erro",
-                        ].map((item, index) => (
+                            "Debug de Logs de Erro"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -188,8 +173,7 @@ export default function CursorPage() {
                             "Suporte aos modelos de linguagem mais potentes (Claude 3.5 Sonnet)",
                             "Recurso Composer que atua como um verdadeiro agente de software",
                             "Velocidade de desenvolvimento aumentada em até 3x",
-                            "Privacidade de dados com o 'Privacy Mode'",
-                        ].map((advantage, index) => (
+                            "Privacidade de dados com o 'Privacy Mode'"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -206,8 +190,7 @@ export default function CursorPage() {
                             "Pode ser mais pesado em memória que o VS Code puro",
                             "O plano gratuito é limitado para uso intensivo de IA",
                             "Dependência da internet para os recursos de chat e geração",
-                            "Ocasionalmente pode sugerir abordagens 'preguiçosas' se não monitorado",
-                        ].map((disadvantage, index) => (
+                            "Ocasionalmente pode sugerir abordagens 'preguiçosas' se não monitorado"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

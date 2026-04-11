@@ -7,6 +7,20 @@ export const metadata = {
   title: "Gerador de Voz com IA",
   description: "Ferramentas de IA para gerar voz natural em português (TTS).",
   alternates: { canonical: "https://www.hypehour.com.br/gerador-de-voz-ia" },
+  openGraph: {
+    title: "Gerador de Voz com IA",
+    description: "Ferramentas de IA para gerar voz natural em português (TTS).",
+    url: "https://www.hypehour.com.br/gerador-de-voz-ia",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Gerador de Voz com IA",
+    description: "Ferramentas de IA para gerar voz natural em português (TTS).",
+  },
 };
 
 const ferramentas = [

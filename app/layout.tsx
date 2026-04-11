@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://www.hypehour.com.br'),
   title: {
     default: "Hypehour — Ferramentas de IA para todos os segmentos",
-    template: "%s | Hypehour"
+    template: "%s"
   },
   description: "Hypehour é um agregador de ferramentas de IA para imagens, desenvolvimento, estudos e muito mais.",
   openGraph: {
@@ -138,6 +138,7 @@ export default function RootLayout({
         <script
           id="schema-global-jsonld"
           type="application/ld+json"
+          suppressHydrationWarning
           dangerouslySetInnerHTML={{ __html: JSON.stringify(unifiedGlobalJsonLd) }}
         />
       </head>

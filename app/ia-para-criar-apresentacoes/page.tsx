@@ -102,6 +102,20 @@ export const metadata = {
     alternates: {
         canonical: "https://www.hypehour.com.br/ia-para-criar-apresentacoes",
     },
+  openGraph: {
+    title: "Inteligência Artificial para Criar Apresentações e Slides",
+    description: "Descubra as melhores ferramentas de IA para criar apresentações, slides e pitch decks automaticamente.",
+    url: "https://www.hypehour.com.br/ia-para-criar-apresentacoes",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Inteligência Artificial para Criar Apresentações e Slides",
+    description: "Descubra as melhores ferramentas de IA para criar apresentações, slides e pitch decks automaticamente.",
+  },
 };
 
 

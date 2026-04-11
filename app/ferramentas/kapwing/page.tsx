@@ -4,11 +4,25 @@ import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
 export const metadata = {
-    title: `${toolMetadata.nome} - Editor de Vídeo com IA | Análise e Review`,
+  title: `${toolMetadata.nome}`,
+  description: toolMetadata.descricao,
+  alternates: {
+    canonical: `https://www.hypehour.com.br/ferramentas/kapwing`,
+  },
+  openGraph: {
+    title: `${toolMetadata.nome}`,
     description: toolMetadata.descricao,
-    alternates: {
-        canonical: `https://www.hypehour.com.br/ferramentas/kapwing`,
-    },
+    url: `https://www.hypehour.com.br/ferramentas/kapwing`,
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: `${toolMetadata.nome}`,
+    description: toolMetadata.descricao,
+  },
 };
 
 export default function KapwingPage() {
@@ -44,18 +58,6 @@ export default function KapwingPage() {
                     "priceCurrency": "USD",
                     "category": "Freemium"
                 }
-            },
-            {
-                "@type": "FAQPage",
-                "@id": `https://www.hypehour.com.br/ferramentas/kapwing#faq`,
-                "mainEntity": faqs.map(faq => ({
-                    "@type": "Question",
-                    "name": faq.question,
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": faq.answer
-                    }
-                }))
             }
         ]
     };

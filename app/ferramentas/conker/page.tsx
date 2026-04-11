@@ -2,200 +2,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "Conker AI - Gerador de Quizzes e Avaliações | Review Completo",
+  title: "Conker AI - Gerador de Quizzes e Avaliações",
+  description: "Conheça o Conker AI: a ferramenta que ajuda professores a criar quizzes e avaliações instantâneas com IA. Veja como funciona, preços e funcionalidades.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/conker",
+  },
+  openGraph: {
+    title: "Conker AI - Gerador de Quizzes e Avaliações",
     description: "Conheça o Conker AI: a ferramenta que ajuda professores a criar quizzes e avaliações instantâneas com IA. Veja como funciona, preços e funcionalidades.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/conker",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/conker",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Conker AI - Gerador de Quizzes e Avaliações",
+    description: "Conheça o Conker AI: a ferramenta que ajuda professores a criar quizzes e avaliações instantâneas com IA. Veja como funciona, preços e funcionalidades.",
+  },
 };
 
 export default function ConkerPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/conker#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Professores",
-                        "item": "https://www.hypehour.com.br/ia-para-professores"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Conker AI",
-                        "item": "https://www.hypehour.com.br/ferramentas/conker"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/conker#software",
-                "name": "Conker AI",
-                "description": "Conker AI é uma plataforma intuitiva que utiliza inteligência artificial para ajudar professores a criar quizzes, avaliações e atividades alinhadas a padrões curriculares rapidamente.",
-                "applicationCategory": "EducationalApplication",
-                "operatingSystem": "Web",
-                "url": "https://www.conker.ai/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Conker"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.5",
-                    "ratingCount": "13"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            },
-            {
-                "@type": "FAQPage",
-                "@id": "https://www.hypehour.com.br/ferramentas/conker#faq",
-                "mainEntity": [
-                    {
-                        "@type": "Question",
-                        "name": "O que é o Conker AI?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "O Conker AI é uma ferramenta inovadora baseada em inteligência artificial que permite aos professores criar quizzes, avaliações e materiais didáticos de forma instantânea e personalizada."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "O Conker AI é gratuito?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Sim, o Conker oferece um plano gratuito que permite criar e exportar quizzes. Existem planos premium para usuários que precisam de recursos avançados e maior volume de geração."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Como o Conker gera os quizzes?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Você pode gerar quizzes inserindo um tópico específico, colando um texto de referência ou selecionando padrões educacionais (como K-12). A IA processa essas informações e cria perguntas variadas em segundos."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Quais tipos de perguntas o Conker suporta?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "A plataforma suporta mais de 10 tipos de questões, incluindo múltipla escolha, verdadeiro ou falso, preenchimento de lacunas, correspondência e respostas curtas."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "O Conker está alinhado a padrões curriculares?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Sim, o Conker possui milhares de avaliações já alinhadas a padrões internacionais e americanos (como NGSS e TEKS), facilitando o trabalho de professores que seguem currículos estruturados."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Posso exportar os quizzes para onde?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Os quizzes podem ser exportados diretamente para o Google Forms, impressos em PDF ou compartilhados via link direto com os alunos."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "O Conker integra com o Google Classroom?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Sim, ele possui integração direta com o Google Classroom e também com o Canvas LMS, permitindo atribuir tarefas facilmente."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Os alunos precisam de conta para fazer os quizzes?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Não. Os professores precisam de uma conta (Google) para criar, mas os alunos podem acessar e responder aos quizzes apenas através do link compartilhado."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "O Conker funciona em português?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Sim, a ferramenta suporta múltiplos idiomas, incluindo o português, permitindo a criação de materiais didáticos para o contexto brasileiro."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Quanto tempo leva para criar um quiz completo?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Com o Conker, um quiz bem estruturado de 10 questões pode ser gerado e revisado em menos de 5 minutos."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Posso editar as perguntas geradas pela IA?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Com certeza. O professor tem controle total para editar, excluir ou adicionar novas perguntas após a geração automática da IA."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "O Conker possui recursos de acessibilidade?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Sim, ele inclui uma funcionalidade de 'leitura em voz alta' integrada em todos os quizzes para apoiar alunos com diferentes necessidades de aprendizagem."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "A IA do Conker é precisa?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "A IA é altamente capaz, mas como qualquer ferramenta generativa, recomenda-se que o professor revise as questões e respostas para garantir a precisão pedagógica total."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Quais disciplinas o Conker atende?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Ele funciona para praticamente todas as disciplinas do ensino fundamental e médio, como Matemática, Ciências, História, Português e Línguas Estrangeiras."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Como os professores podem validar as respostas geradas?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "O Conker oferece uma ferramenta de validação que permite pesquisar no Google diretamente pela interface para confirmar se os dados gerados pela IA estão corretos."
-                        }
-                    }
-                ]
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/conker#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Conker AI",
+            "item": "https://www.hypehour.com.br/ferramentas/conker"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/conker#software",
+        "name": "Conker AI",
+        "description": "Conheça o Conker AI: a ferramenta que ajuda professores a criar quizzes e avaliações instantâneas com IA. Veja como funciona, preços e funcionalidades.",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/conker",
+        "creator": {
+          "@type": "Organization",
+          "name": "Conker AI"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -320,8 +191,7 @@ export default function ConkerPage() {
                             "Criar quizzes interativos",
                             "Avaliar progresso da turma",
                             "Diversificar tipos de questões",
-                            "Ganhar tempo no planejamento",
-                        ].map((item, index) => (
+                            "Ganhar tempo no planejamento"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -366,8 +236,7 @@ export default function ConkerPage() {
                             "Suporte robusto para acessibilidade com leitura de áudio",
                             "Exportação facilitada para a suíte de educação do Google",
                             "Ideal para avaliações constantes e rápidas (formais ou informais)",
-                            "Alinhamento com padrões curriculares mundiais",
-                        ].map((advantage, index) => (
+                            "Alinhamento com padrões curriculares mundiais"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -384,8 +253,7 @@ export default function ConkerPage() {
                             "A IA pode precisar de pequenos ajustes finos no vocabulário",
                             "Dependência de conexão à internet para gerar novos quizzes",
                             "A versão gratuita possui limites de exportação",
-                            "Pode ser simples demais para professores que buscam LMS complexos",
-                        ].map((disadvantage, index) => (
+                            "Pode ser simples demais para professores que buscam LMS complexos"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

@@ -37,6 +37,20 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.hypehour.com.br/automacao-ia',
   },
+  openGraph: {
+    title: "Automação com Inteligência Artificial",
+    description: "Ferramentas de IA para automatizar processos, workflows e tarefas repetitivas em sua empresa.",
+    url: "https://www.hypehour.com.br/automacao-ia",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Automação com Inteligência Artificial",
+    description: "Ferramentas de IA para automatizar processos, workflows e tarefas repetitivas em sua empresa.",
+  },
 };
 
 export default function AutomacaoIAPage() {

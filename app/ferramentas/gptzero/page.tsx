@@ -2,10 +2,24 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-  title: "GPTZero - Detector de IA para Educadores | Análise e Review",
+  title: "GPTZero - Detector de IA para Educadores",
   description: "Conheça o GPTZero: ferramenta de detecção de IA popular entre professores com métricas claras. Veja como funciona, vantagens, desvantagens e se é ideal para você.",
   alternates: {
     canonical: "https://www.hypehour.com.br/ferramentas/gptzero",
+  },
+  openGraph: {
+    title: "GPTZero - Detector de IA para Educadores",
+    description: "Conheça o GPTZero: ferramenta de detecção de IA popular entre professores com métricas claras. Veja como funciona, vantagens, desvantagens e se é ideal para você.",
+    url: "https://www.hypehour.com.br/ferramentas/gptzero",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "GPTZero - Detector de IA para Educadores",
+    description: "Conheça o GPTZero: ferramenta de detecção de IA popular entre professores com métricas claras. Veja como funciona, vantagens, desvantagens e se é ideal para você.",
   },
 };
 
@@ -25,12 +39,6 @@ export default function GPTZeroPage() {
           },
           {
             "@type": "ListItem",
-            "position": 2,
-            "name": "Detecção de IA",
-            "item": "https://www.hypehour.com.br/ferramenta-de-deteccao-de-ia"
-          },
-          {
-            "@type": "ListItem",
             "position": 3,
             "name": "GPTZero",
             "item": "https://www.hypehour.com.br/ferramentas/gptzero"
@@ -41,24 +49,13 @@ export default function GPTZeroPage() {
         "@type": "SoftwareApplication",
         "@id": "https://www.hypehour.com.br/ferramentas/gptzero#software",
         "name": "GPTZero",
-        "description": "GPTZero é um detector de conteúdo gerado por IA focado em educadores, oferecendo métricas claras e intuitivas para identificar textos artificiais.",
+        "description": "Conheça o GPTZero: ferramenta de detecção de IA popular entre professores com métricas claras. Veja como funciona, vantagens, desvantagens e se é ideal para você.",
         "applicationCategory": "UtilitiesApplication",
         "operatingSystem": "Web",
-        "url": "https://gptzero.me",
+        "url": "https://www.hypehour.com.br/ferramentas/gptzero",
         "creator": {
           "@type": "Organization",
           "name": "GPTZero"
-        },
-        "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "5.0",
-                    "ratingCount": "15"
-                },
-                "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD",
-          "category": "Freemium"
         }
       }
     ]
@@ -194,8 +191,7 @@ export default function GPTZeroPage() {
               "Checar originalidade de teses",
               "Verificar trabalhos em grupo",
               "Auditar cursos online",
-              "Detectar uso indevido de IA",
-            ].map((item, index) => (
+              "Detectar uso indevido de IA"].map((item, index) => (
               <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                 <p className="text-zinc-700 text-sm">{item}</p>
               </div>
@@ -244,8 +240,7 @@ export default function GPTZeroPage() {
               "Métricas visuais claras que facilitam a interpretação dos resultados",
               "Suporte especializado para educadores e instituições acadêmicas",
               "Destaca trechos específicos de conteúdo gerado por IA para análise detalhada",
-              "Aceita múltiplos formatos de arquivo para maior flexibilidade",
-            ].map((advantage, index) => (
+              "Aceita múltiplos formatos de arquivo para maior flexibilidade"].map((advantage, index) => (
               <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                 <p className="text-zinc-700">{advantage}</p>
@@ -263,8 +258,7 @@ export default function GPTZeroPage() {
               "Limite de análises na versão gratuita, requerendo upgrade para uso intensivo",
               "Menos preciso com textos muito curtos ou fragmentados",
               "Não detecta todos os novos modelos de IA no mercado",
-              "Requer conexão à internet, não funciona offline",
-            ].map((disadvantage, index) => (
+              "Requer conexão à internet, não funciona offline"].map((disadvantage, index) => (
               <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                 <p className="text-zinc-700">{disadvantage}</p>
@@ -330,21 +324,7 @@ export default function GPTZeroPage() {
           </div>
         </section>
 
-        {/* Vídeo do YouTube */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-black mb-6">Veja o GPTZero em ação</h2>
-          <div className="rounded-xl overflow-hidden shadow-lg border border-zinc-200">
-            <div className="relative pb-[56.25%] h-0">
-              <iframe
-                className="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/7ssBWBsptPk"
-                title="GPTZero Demo"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-          </div>
-        </section>
+        
 
         {/* CTA */}
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">

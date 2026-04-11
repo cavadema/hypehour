@@ -3,96 +3,71 @@ import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
 export const metadata = {
-    title: "Granola AI - O Bloco de Notas Inteligente para Reuniões | Review Completo",
+  title: "Granola AI - O Bloco de Notas Inteligente para Reuniões",
+  description: "Conheça a Granola AI: o assistente de reuniões que potencializa suas notas sem robôs, com transcrição e resumos estruturados via inteligência artificial.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/granola-ai",
+  },
+  openGraph: {
+    title: "Granola AI - O Bloco de Notas Inteligente para Reuniões",
     description: "Conheça a Granola AI: o assistente de reuniões que potencializa suas notas sem robôs, com transcrição e resumos estruturados via inteligência artificial.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/granola-ai",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/granola-ai",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Granola AI - O Bloco de Notas Inteligente para Reuniões",
+    description: "Conheça a Granola AI: o assistente de reuniões que potencializa suas notas sem robôs, com transcrição e resumos estruturados via inteligência artificial.",
+  },
 };
 
 export default function GranolaAiPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/granola-ai#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para fazer ata de reunião",
-                        "item": "https://www.hypehour.com.br/ia-para-fazer-ata-reuniao"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Granola AI",
-                        "item": "https://www.hypehour.com.br/ferramentas/granola-ai"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/granola-ai#software",
-                "name": "Granola AI",
-                "description": "Granola AI é um bloco de notas inteligente e discreto para reuniões, capaz de transcrever conversas e organizar notas manuais com IA sem o uso de robôs participantes.",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Mac, Windows, iOS",
-                "url": "https://www.granola.sh/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Granola"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "ratingCount": "13"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            },
-            {
-                "@type": "FAQPage",
-                "@id": "https://www.hypehour.com.br/ferramentas/granola-ai#faq",
-                "mainEntity": [
-                    {
-                        "@type": "Question",
-                        "name": "O que é a Granola AI?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "A Granola AI é um bloco de notas inteligente e discreto para reuniões que capta o áudio do seu computador (sem robôs) e aprimora suas próprias anotações usando inteligência artificial."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "A Granola AI é gratuita?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Sim, a ferramenta possui um plano gratuito generoso que inclui anotações de reuniões com IA essenciais. Para usuários que precisam de histórico ilimitado e recursos avançados de equipe, existem planos pagos."
-                        }
-                    }
-                ]
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/granola-ai#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Granola AI",
+            "item": "https://www.hypehour.com.br/ferramentas/granola-ai"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/granola-ai#software",
+        "name": "Granola AI",
+        "description": "Conheça a Granola AI: o assistente de reuniões que potencializa suas notas sem robôs, com transcrição e resumos estruturados via inteligência artificial.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/granola-ai",
+        "creator": {
+          "@type": "Organization",
+          "name": "Granola AI"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -217,8 +192,7 @@ export default function GranolaAiPage() {
                             "Integração com Slack e HubSpot",
                             "Documentar brainstorms",
                             "Busca rápida por palavras-chave",
-                            "Gravar reuniões locais no Mac/Win",
-                        ].map((item, index) => (
+                            "Gravar reuniões locais no Mac/Win"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -259,8 +233,7 @@ export default function GranolaAiPage() {
                             "Qualidade de resumo muito superior por levar em conta suas notas",
                             "Integração perfeita com o fluxo de trabalho moderno (Notion/Slack)",
                             "Suporte para reuniões presenciais via aplicativo móvel",
-                            "Plano gratuito generoso e funcional para profissionais solo",
-                        ].map((advantage, index) => (
+                            "Plano gratuito generoso e funcional para profissionais solo"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -277,8 +250,7 @@ export default function GranolaAiPage() {
                             "Requer instalação de software no Mac ou Windows (não é 100% web)",
                             "A versão gratuita possui um limite de histórico de 30 dias para reuniões antigas",
                             "Diferente de ferramentas concorrentes, ela não grava o vídeo da chamada",
-                            "O processamento detalhado de IA requer conexão estável com a internet",
-                        ].map((disadvantage, index) => (
+                            "O processamento detalhado de IA requer conexão estável com a internet"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

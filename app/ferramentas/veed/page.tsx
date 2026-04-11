@@ -4,11 +4,25 @@ import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
 export const metadata = {
-    title: `${toolMetadata.nome} - Editor de Vídeo Profissional Online | HypeHour`,
+  title: `${toolMetadata.nome}`,
+  description: toolMetadata.description,
+  alternates: {
+    canonical: `https://www.hypehour.com.br/ferramentas/veed`,
+  },
+  openGraph: {
+    title: `${toolMetadata.nome}`,
     description: toolMetadata.description,
-    alternates: {
-        canonical: `https://www.hypehour.com.br/ferramentas/veed`,
-    },
+    url: `https://www.hypehour.com.br/ferramentas/veed`,
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: `${toolMetadata.nome}`,
+    description: toolMetadata.description,
+  },
 };
 
 export default function VeedPage() {
@@ -44,18 +58,6 @@ export default function VeedPage() {
                     "priceCurrency": "USD",
                     "category": "Freemium"
                 }
-            },
-            {
-                "@type": "FAQPage",
-                "@id": `https://www.hypehour.com.br/ferramentas/veed#faq`,
-                "mainEntity": faqs.map(faq => ({
-                    "@type": "Question",
-                    "name": faq.question,
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": faq.answer
-                    }
-                }))
             }
         ]
     };

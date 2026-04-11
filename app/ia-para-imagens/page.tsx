@@ -254,6 +254,20 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.hypehour.com.br/ia-para-imagens',
   },
+  openGraph: {
+    title: "Ferramentas de Inteligência Artificial para Imagens",
+    description: "Descubra as melhores ferramentas de inteligência artificial para criação, edição e geração de imagens.",
+    url: "https://www.hypehour.com.br/ia-para-imagens",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Ferramentas de Inteligência Artificial para Imagens",
+    description: "Descubra as melhores ferramentas de inteligência artificial para criação, edição e geração de imagens.",
+  },
 };
 
 export default function IaParaImagens() {

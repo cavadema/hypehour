@@ -9,6 +9,20 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.hypehour.com.br/transcrever-audio',
   },
+  openGraph: {
+    title: "Inteligência Artificial para Transcrever áudio",
+    description: "As melhores ferramentas de IA para transcrever áudio em texto com precisão e rapidez.",
+    url: "https://www.hypehour.com.br/transcrever-audio",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Inteligência Artificial para Transcrever áudio",
+    description: "As melhores ferramentas de IA para transcrever áudio em texto com precisão e rapidez.",
+  },
 };
 
 const ferramentas = [

@@ -3,85 +3,71 @@ import FAQSection from "./FAQSection";
 import { faqs } from "./constants";
 
 export const metadata = {
-    title: "Intercom Fin AI - Agente de Atendimento Inteligente | Review e Análise",
+  title: "Intercom Fin AI - Agente de Atendimento Inteligente e Análise",
+  description: "Conheça o Intercom Fin: o agente de IA que resolve até 50% dos chamados de suporte automaticamente. Veja como funciona, preços, vantagens e desvantagens.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/intercom",
+  },
+  openGraph: {
+    title: "Intercom Fin AI - Agente de Atendimento Inteligente e Análise",
     description: "Conheça o Intercom Fin: o agente de IA que resolve até 50% dos chamados de suporte automaticamente. Veja como funciona, preços, vantagens e desvantagens.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/intercom",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/intercom",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Intercom Fin AI - Agente de Atendimento Inteligente e Análise",
+    description: "Conheça o Intercom Fin: o agente de IA que resolve até 50% dos chamados de suporte automaticamente. Veja como funciona, preços, vantagens e desvantagens.",
+  },
 };
 
 export default function IntercomPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/intercom#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Atendimento",
-                        "item": "https://www.hypehour.com.br/ia-para-atendimento"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Intercom Fin AI",
-                        "item": "https://www.hypehour.com.br/ferramentas/intercom"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/intercom#software",
-                "name": "Intercom Fin AI",
-                "description": "Um agente de atendimento ao cliente baseado em IA que resolve dúvidas complexas de forma autônoma usando a base de conhecimento da empresa.",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web",
-                "url": "https://www.intercom.com/ai",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Intercom"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.6",
-                    "ratingCount": "11"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0.99",
-                    "priceCurrency": "USD",
-                    "category": "Paid"
-                }
-            },
-            {
-                "@type": "FAQPage",
-                "mainEntity": faqs.map((faq: { question: string; answer: string }) => ({
-                    "@type": "Question",
-                    "name": faq.question,
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": faq.answer
-                    }
-                }))
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/intercom#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Intercom Fin AI",
+            "item": "https://www.hypehour.com.br/ferramentas/intercom"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/intercom#software",
+        "name": "Intercom Fin AI",
+        "description": "Conheça o Intercom Fin: o agente de IA que resolve até 50% dos chamados de suporte automaticamente. Veja como funciona, preços, vantagens e desvantagens.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/intercom",
+        "creator": {
+          "@type": "Organization",
+          "name": "Intercom Fin AI"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -174,8 +160,7 @@ export default function IntercomPage() {
                             "Coleta de CSAT/NPS",
                             "Triagem de Problemas Técnicos",
                             "Busca em Documentação Interna",
-                            "Apoio em Vendas Self-Service",
-                        ].map((item, index) => (
+                            "Apoio em Vendas Self-Service"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -193,8 +178,7 @@ export default function IntercomPage() {
                             "Integração nativa com a melhor plataforma de atendimento do mundo",
                             "Qualidade de resposta superior baseada em GPT-4",
                             "Capacidade de realizar ações via API (Procedures)",
-                            "Handoff (passagem) invisível e suave para humanos quando necessário",
-                        ].map((advantage, index) => (
+                            "Handoff (passagem) invisível e suave para humanos quando necessário"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -211,8 +195,7 @@ export default function IntercomPage() {
                             "Custo por resolução pode escalar em volumes massivos se não monitorado",
                             "Dependência total da qualidade da sua base de conhecimento",
                             "Algumas personalizações avançadas exigem os planos mais caros da plataforma",
-                            "A IA pode ocasionalmente falhar em temas extremamente subjetivos",
-                        ].map((disadvantage, index) => (
+                            "A IA pode ocasionalmente falhar em temas extremamente subjetivos"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

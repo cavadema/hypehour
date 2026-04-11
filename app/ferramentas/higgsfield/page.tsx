@@ -4,74 +4,71 @@ import FAQSection from "./FAQSection";
 import { faqs } from "./constants";
 
 export const metadata = {
-    title: "Higgsfield - IA para Criação de Imagens e Vídeos Mobile | Review",
+  title: "Higgsfield - IA para Criação de Imagens e Vídeos Mobile",
+  description: "Conheça o Higgsfield: a IA multimodal focada em mobile que cria imagens e vídeos cinematográficos. Veja como funciona, preços e recursos para social media.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/higgsfield",
+  },
+  openGraph: {
+    title: "Higgsfield - IA para Criação de Imagens e Vídeos Mobile",
     description: "Conheça o Higgsfield: a IA multimodal focada em mobile que cria imagens e vídeos cinematográficos. Veja como funciona, preços e recursos para social media.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/higgsfield",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/higgsfield",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Higgsfield - IA para Criação de Imagens e Vídeos Mobile",
+    description: "Conheça o Higgsfield: a IA multimodal focada em mobile que cria imagens e vídeos cinematográficos. Veja como funciona, preços e recursos para social media.",
+  },
 };
 
 export default function HiggsfieldPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/higgsfield#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Imagens",
-                        "item": "https://www.hypehour.com.br/ia-para-imagens"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Higgsfield",
-                        "item": "https://www.hypehour.com.br/ferramentas/higgsfield"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/higgsfield#software",
-                "name": "Higgsfield",
-                "description": "Higgsfield é uma plataforma de IA multimodal mobile-first que permite a criação de conteúdo visual (imagem e vídeo) de alta fidelidade.",
-                "applicationCategory": "MultimediaApplication",
-                "operatingSystem": "iOS, Android, Web",
-                "url": "https://higgsfield.ai",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Higgsfield AI"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.7",
-                    "ratingCount": "12"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/higgsfield#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Higgsfield",
+            "item": "https://www.hypehour.com.br/ferramentas/higgsfield"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/higgsfield#software",
+        "name": "Higgsfield",
+        "description": "Conheça o Higgsfield: a IA multimodal focada em mobile que cria imagens e vídeos cinematográficos. Veja como funciona, preços e recursos para social media.",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/higgsfield",
+        "creator": {
+          "@type": "Organization",
+          "name": "Higgsfield"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -213,8 +210,7 @@ export default function HiggsfieldPage() {
                             "Consistência de personagens excepcional para narrativas visuais",
                             "Controles de câmera intuitivos sem precisar de prompts complexos",
                             "Ideal para criadores de Reels, TikTok e anúncios rápidos",
-                            "Sistema de créditos que permite testar a ferramenta gratuitamente",
-                        ].map((advantage, index) => (
+                            "Sistema de créditos que permite testar a ferramenta gratuitamente"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -231,8 +227,7 @@ export default function HiggsfieldPage() {
                             "O foco mobile pode ser limitante para profissionais que preferem fluxos desktop complexos",
                             "A duração total dos vídeos gerados ainda é curta (alguns segundos por clipe)",
                             "Requer conexão estável com a internet para processamento em nuvem",
-                            "Dependência de créditos para gerações de alta qualidade",
-                        ].map((disadvantage, index) => (
+                            "Dependência de créditos para gerações de alta qualidade"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

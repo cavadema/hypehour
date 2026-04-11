@@ -7,6 +7,20 @@ export const metadata = {
     alternates: {
         canonical: "https://www.hypehour.com.br/termos",
     },
+  openGraph: {
+    title: "Termos de Serviço",
+    description: "Leia os Termos de Serviço do Hypehour. Entenda as regras e diretrizes para o uso do nosso site e serviços.",
+    url: "https://www.hypehour.com.br/termos",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Termos de Serviço",
+    description: "Leia os Termos de Serviço do Hypehour. Entenda as regras e diretrizes para o uso do nosso site e serviços.",
+  },
 };
 
 export default function TermosDeServico() {

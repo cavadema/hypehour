@@ -9,6 +9,20 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.hypehour.com.br/ia-para-fazer-ata-reuniao',
   },
+  openGraph: {
+    title: "Inteligência Artificial para Ata de Reunião",
+    description: "As melhores ferramentas de IA para gerar atas de reunião automaticamente com precisão e velocidade.",
+    url: "https://www.hypehour.com.br/ia-para-fazer-ata-reuniao",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Inteligência Artificial para Ata de Reunião",
+    description: "As melhores ferramentas de IA para gerar atas de reunião automaticamente com precisão e velocidade.",
+  },
 };
 
 const ferramentas = [

@@ -6,6 +6,20 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.hypehour.com.br/sobre-nos',
   },
+  openGraph: {
+    title: "Sobre Nós",
+    description: "descubra as melhores ferramentas de IA em um site só. Encontre IA generativa, IA para marketing, professores, conteúdo, gerar imagens e muito mais.",
+    url: "https://www.hypehour.com.br/sobre-nos",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Sobre Nós",
+    description: "descubra as melhores ferramentas de IA em um site só. Encontre IA generativa, IA para marketing, professores, conteúdo, gerar imagens e muito mais.",
+  },
 };
 
 export default function SobreNos() {

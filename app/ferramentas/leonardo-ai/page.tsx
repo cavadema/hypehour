@@ -3,10 +3,24 @@ import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
 export const metadata = {
-  title: "Leonardo AI - Gerador de Imagens com IA | Análise e Review",
+  title: "Leonardo AI - Gerador de Imagens com IA",
   description: "Conheça o Leonardo AI: ferramenta de IA para criar imagens, ilustrações e arte digital de alta qualidade em segundos. Veja vantagens, desvantagens e se é ideal para você.",
   alternates: {
     canonical: "https://www.hypehour.com.br/ferramentas/leonardo-ai",
+  },
+  openGraph: {
+    title: "Leonardo AI - Gerador de Imagens com IA",
+    description: "Conheça o Leonardo AI: ferramenta de IA para criar imagens, ilustrações e arte digital de alta qualidade em segundos. Veja vantagens, desvantagens e se é ideal para você.",
+    url: "https://www.hypehour.com.br/ferramentas/leonardo-ai",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Leonardo AI - Gerador de Imagens com IA",
+    description: "Conheça o Leonardo AI: ferramenta de IA para criar imagens, ilustrações e arte digital de alta qualidade em segundos. Veja vantagens, desvantagens e se é ideal para você.",
   },
 };
 
@@ -26,12 +40,6 @@ export default function LeonardoAIPage() {
           },
           {
             "@type": "ListItem",
-            "position": 2,
-            "name": "IA para Imagens",
-            "item": "https://www.hypehour.com.br/ia-para-imagens"
-          },
-          {
-            "@type": "ListItem",
             "position": 3,
             "name": "Leonardo AI",
             "item": "https://www.hypehour.com.br/ferramentas/leonardo-ai"
@@ -42,55 +50,14 @@ export default function LeonardoAIPage() {
         "@type": "SoftwareApplication",
         "@id": "https://www.hypehour.com.br/ferramentas/leonardo-ai#software",
         "name": "Leonardo AI",
-        "description": "Leonardo AI é uma ferramenta de inteligência artificial para criar imagens, ilustrações e arte digital de alta qualidade a partir de texto.",
+        "description": "Conheça o Leonardo AI: ferramenta de IA para criar imagens, ilustrações e arte digital de alta qualidade em segundos. Veja vantagens, desvantagens e se é ideal para você.",
         "applicationCategory": "DesignApplication",
         "operatingSystem": "Web",
-        "url": "https://leonardo.ai",
+        "url": "https://www.hypehour.com.br/ferramentas/leonardo-ai",
         "creator": {
           "@type": "Organization",
           "name": "Leonardo AI"
-        },
-        "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.6",
-                    "ratingCount": "5"
-                },
-                "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD",
-          "category": "Freemium"
         }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://www.hypehour.com.br/ferramentas/leonardo-ai#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "O que é o Leonardo AI?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Leonardo AI é uma ferramenta de IA que cria imagens, ilustrações e arte digital de alta qualidade a partir de descrições em texto."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Para que serve o Leonardo AI?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Serve para gerar imagens personalizadas para jogos, marketing, design, ilustrações e projetos criativos."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O Leonardo AI é gratuito?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim, oferece plano gratuito com créditos limitados, além de planos pagos com mais recursos."
-            }
-          }
-        ]
       }
     ]
   };
@@ -208,8 +175,7 @@ export default function LeonardoAIPage() {
               "Arte para apresentações",
               "Designs para camisetas",
               "Animações frame-a-frame",
-              "Prototipação visual",
-            ].map((item, index) => (
+              "Prototipação visual"].map((item, index) => (
               <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                 <p className="text-zinc-700 text-sm">{item}</p>
               </div>
@@ -258,8 +224,7 @@ export default function LeonardoAIPage() {
               "Modelos customizáveis — treine com suas próprias imagens para manter consistência de marca",
               "Geração rápida — crie dezenas de imagens em minutos para testar conceitos",
               "Plano gratuito generoso — experimente sem compromisso antes de assinar",
-              "Interface intuitiva — fácil de usar mesmo para quem nunca trabalhou com IA",
-            ].map((advantage, index) => (
+              "Interface intuitiva — fácil de usar mesmo para quem nunca trabalhou com IA"].map((advantage, index) => (
               <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                 <p className="text-zinc-700">{advantage}</p>
@@ -277,8 +242,7 @@ export default function LeonardoAIPage() {
               "Resultados imprevisíveis — nem sempre a primeira geração sai como esperado",
               "Curva de aprendizado para prompts — escrever boas descrições é uma habilidade",
               "Limitações em textos e tipografia — ainda não gera texto legível de forma confiável",
-              "Direitos autorais complexos — verifique termos de uso para projetos comerciais",
-            ].map((disadvantage, index) => (
+              "Direitos autorais complexos — verifique termos de uso para projetos comerciais"].map((disadvantage, index) => (
               <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                 <p className="text-zinc-700">{disadvantage}</p>
@@ -344,21 +308,7 @@ export default function LeonardoAIPage() {
           </div>
         </section>
 
-        {/* Vídeo do YouTube */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-black mb-6">Veja o Leonardo AI em ação</h2>
-          <div className="rounded-xl overflow-hidden shadow-lg border border-zinc-200">
-            <div className="relative pb-[56.25%] h-0">
-              <iframe
-                className="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/njiDF7nqwk4"
-                title="Leonardo AI Demo"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-          </div>
-        </section>
+        
 
         {/* CTA */}
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">

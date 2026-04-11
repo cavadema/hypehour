@@ -305,6 +305,20 @@ export const metadata = {
     alternates: {
         canonical: "https://www.hypehour.com.br/ia-para-criar-videos",
     },
+  openGraph: {
+    title: "IA para Criar Vídeos - Ferramentas de Inteligência Artificial",
+    description: "Descubra as melhores ferramentas de IA para criar, editar e gerar vídeos automaticamente.",
+    url: "https://www.hypehour.com.br/ia-para-criar-videos",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "IA para Criar Vídeos - Ferramentas de Inteligência Artificial",
+    description: "Descubra as melhores ferramentas de IA para criar, editar e gerar vídeos automaticamente.",
+  },
 };
 
 export default function IaParaCriarVideos() {

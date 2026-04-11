@@ -7,6 +7,20 @@ export const metadata = {
     alternates: {
         canonical: "https://www.hypehour.com.br/privacidade",
     },
+  openGraph: {
+    title: "Política de Privacidade",
+    description: "Leia a Política de Privacidade do Hypehour. Saiba como coletamos, usamos e protegemos suas informações.",
+    url: "https://www.hypehour.com.br/privacidade",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Política de Privacidade",
+    description: "Leia a Política de Privacidade do Hypehour. Saiba como coletamos, usamos e protegemos suas informações.",
+  },
 };
 
 export default function PoliticaDePrivacidade() {

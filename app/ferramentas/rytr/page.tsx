@@ -3,74 +3,71 @@ import FAQSection from "./FAQSection";
 import { CheckCircleIcon, XCircleIcon } from "@heroicons/react/24/solid";
 
 export const metadata = {
-    title: "Rytr - Assistente de Escrita com IA e Gerador de Conteúdo | Review",
+  title: "Rytr - Assistente de Escrita com IA e Gerador de Conteúdo",
+  description: "Conheça o Rytr: assistente de escrita com IA que ajuda a criar blogs, emails e anúncios 10x mais rápido. Veja como funciona, preços, vantagens e se vale a pena.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/rytr",
+  },
+  openGraph: {
+    title: "Rytr - Assistente de Escrita com IA e Gerador de Conteúdo",
     description: "Conheça o Rytr: assistente de escrita com IA que ajuda a criar blogs, emails e anúncios 10x mais rápido. Veja como funciona, preços, vantagens e se vale a pena.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/rytr",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/rytr",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Rytr - Assistente de Escrita com IA e Gerador de Conteúdo",
+    description: "Conheça o Rytr: assistente de escrita com IA que ajuda a criar blogs, emails e anúncios 10x mais rápido. Veja como funciona, preços, vantagens e se vale a pena.",
+  },
 };
 
 export default function RytrPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/rytr#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Conteúdo",
-                        "item": "https://www.hypehour.com.br/ferramentas-de-ia-para-conteudo"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Rytr",
-                        "item": "https://www.hypehour.com.br/ferramentas/rytr"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/rytr#software",
-                "name": "Rytr",
-                "description": "Rytr é um assistente de escrita com IA que ajuda você a criar conteúdo de alta qualidade em poucos segundos, por uma fração do custo.",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web, Chrome Extension",
-                "url": "https://rytr.me",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Rytr"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "ratingCount": "1"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/rytr#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Rytr",
+            "item": "https://www.hypehour.com.br/ferramentas/rytr"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/rytr#software",
+        "name": "Rytr",
+        "description": "Conheça o Rytr: assistente de escrita com IA que ajuda a criar blogs, emails e anúncios 10x mais rápido. Veja como funciona, preços, vantagens e se vale a pena.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/rytr",
+        "creator": {
+          "@type": "Organization",
+          "name": "Rytr"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -193,8 +190,7 @@ export default function RytrPage() {
                             "Gerar slogans criativos",
                             "Escrever bios de perfil",
                             "Gerar parágrafos de conclusão",
-                            "Escrever histórias criativas",
-                        ].map((item, index) => (
+                            "Escrever histórias criativas"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -243,8 +239,7 @@ export default function RytrPage() {
                             "Gera conteúdo de alta qualidade e originalidade",
                             "Suporte a Português funciona muito bem",
                             "Ferramenta de reescrita e melhoria de texto ajuda a polir o conteúdo",
-                            "Plano gratuito generoso para testar e uso leve",
-                        ].map((advantage, index) => (
+                            "Plano gratuito generoso para testar e uso leve"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <CheckCircleIcon className="w-6 h-6 text-black flex-shrink-0" />
                                 <p className="text-zinc-700">{advantage}</p>
@@ -262,8 +257,7 @@ export default function RytrPage() {
                             "A verificação de plágio pode ser limitada nos planos mais baratos",
                             "As imagens geradas por IA são funcionais, mas não de nível 'midjourney'",
                             "Alguns templates são muito parecidos entre si",
-                            "O limite de caracteres no plano gratuito pode acabar rápido se usado intensamente",
-                        ].map((disadvantage, index) => (
+                            "O limite de caracteres no plano gratuito pode acabar rápido se usado intensamente"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <XCircleIcon className="w-6 h-6 text-zinc-500 flex-shrink-0" />
                                 <p className="text-zinc-700">{disadvantage}</p>

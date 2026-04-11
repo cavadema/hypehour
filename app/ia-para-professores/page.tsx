@@ -102,6 +102,20 @@ export const metadata = {
   alternates: {
     canonical: "https://www.hypehour.com.br/ia-para-professores",
   },
+  openGraph: {
+    title: "Ferramentas de Inteligência Artificial para Professores",
+    description: "Seleção de IAs que ajudam educadores a planejar aulas, gerar quizzes e acompanhar estudantes.",
+    url: "https://www.hypehour.com.br/ia-para-professores",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Ferramentas de Inteligência Artificial para Professores",
+    description: "Seleção de IAs que ajudam educadores a planejar aulas, gerar quizzes e acompanhar estudantes.",
+  },
 };
 
 export default function IaParaProfessores() {

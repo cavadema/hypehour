@@ -71,6 +71,20 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.hypehour.com.br/ia-para-empresas',
   },
+  openGraph: {
+    title: "Inteligência Artificial para Empresas",
+    description: "Ferramentas de IA para empresas otimizarem processos, automação e gestão empresarial.",
+    url: "https://www.hypehour.com.br/ia-para-empresas",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Inteligência Artificial para Empresas",
+    description: "Ferramentas de IA para empresas otimizarem processos, automação e gestão empresarial.",
+  },
 };
 
 export default function IAParaEmpresasPage() {

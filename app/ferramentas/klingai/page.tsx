@@ -2,10 +2,24 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-  title: "KlingAI - Gerador de Vídeos com IA | Análise e Review",
+  title: "KlingAI - Gerador de Vídeos com IA",
   description: "Conheça o KlingAI: ferramenta de IA para criar vídeos realistas com movimentos complexos e alta qualidade. Veja vantagens, desvantagens e se é ideal para você.",
   alternates: {
     canonical: "https://www.hypehour.com.br/ferramentas/klingai",
+  },
+  openGraph: {
+    title: "KlingAI - Gerador de Vídeos com IA",
+    description: "Conheça o KlingAI: ferramenta de IA para criar vídeos realistas com movimentos complexos e alta qualidade. Veja vantagens, desvantagens e se é ideal para você.",
+    url: "https://www.hypehour.com.br/ferramentas/klingai",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "KlingAI - Gerador de Vídeos com IA",
+    description: "Conheça o KlingAI: ferramenta de IA para criar vídeos realistas com movimentos complexos e alta qualidade. Veja vantagens, desvantagens e se é ideal para você.",
   },
 };
 
@@ -25,12 +39,6 @@ export default function KlingAIPage() {
           },
           {
             "@type": "ListItem",
-            "position": 2,
-            "name": "IA para Criar Vídeos",
-            "item": "https://www.hypehour.com.br/ia-para-criar-videos"
-          },
-          {
-            "@type": "ListItem",
             "position": 3,
             "name": "KlingAI",
             "item": "https://www.hypehour.com.br/ferramentas/klingai"
@@ -41,55 +49,14 @@ export default function KlingAIPage() {
         "@type": "SoftwareApplication",
         "@id": "https://www.hypehour.com.br/ferramentas/klingai#software",
         "name": "KlingAI",
-        "description": "KlingAI é uma plataforma de inteligência artificial para criação de vídeos realistas com movimentos complexos, física avançada e alta fidelidade visual.",
+        "description": "Conheça o KlingAI: ferramenta de IA para criar vídeos realistas com movimentos complexos e alta qualidade. Veja vantagens, desvantagens e se é ideal para você.",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
-        "url": "https://klingai.com/global/",
+        "url": "https://www.hypehour.com.br/ferramentas/klingai",
         "creator": {
           "@type": "Organization",
           "name": "KlingAI"
-        },
-        "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "ratingCount": "1"
-                },
-                "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD",
-          "category": "Freemium"
         }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://www.hypehour.com.br/ferramentas/klingai#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "O que é o KlingAI?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "KlingAI é uma ferramenta de IA para criar vídeos realistas com movimentos complexos, física avançada e alta qualidade visual."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Para que serve o KlingAI?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "O KlingAI serve para gerar vídeos a partir de texto ou imagens, criar animações realistas e produzir conteúdo visual para marketing, redes sociais e projetos criativos."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "O KlingAI é gratuito?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "O KlingAI oferece plano gratuito com limitações e planos pagos com mais recursos e créditos."
-            }
-          }
-        ]
       }
     ]
   };
@@ -207,8 +174,7 @@ export default function KlingAIPage() {
               "Vídeos para e-commerce",
               "Motion graphics",
               "Cenas com física realista",
-              "Transições cinematográficas",
-            ].map((item, index) => (
+              "Transições cinematográficas"].map((item, index) => (
               <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                 <p className="text-zinc-700 text-sm">{item}</p>
               </div>
@@ -257,8 +223,7 @@ export default function KlingAIPage() {
               "Suporte a movimentos complexos de câmera — dolly, pan, zoom e tracking shots",
               "Rápido e eficiente — gera vídeos em minutos sem necessidade de equipamento",
               "Interface intuitiva — fácil de usar mesmo sem experiência em edição de vídeo",
-              "Versátil — serve tanto para redes sociais quanto para projetos corporativos",
-            ].map((advantage, index) => (
+              "Versátil — serve tanto para redes sociais quanto para projetos corporativos"].map((advantage, index) => (
               <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                 <p className="text-zinc-700">{advantage}</p>
@@ -276,8 +241,7 @@ export default function KlingAIPage() {
               "Tempo de processamento varia — vídeos complexos podem levar vários minutos",
               "Resultados dependem da qualidade do prompt — descrições vagas geram vídeos genéricos",
               "Limitações criativas — nem sempre consegue reproduzir exatamente o que você imaginou",
-              "Requer revisão humana — pode gerar artefatos visuais ou movimentos estranhos ocasionalmente",
-            ].map((disadvantage, index) => (
+              "Requer revisão humana — pode gerar artefatos visuais ou movimentos estranhos ocasionalmente"].map((disadvantage, index) => (
               <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                 <p className="text-zinc-700">{disadvantage}</p>
@@ -343,21 +307,7 @@ export default function KlingAIPage() {
           </div>
         </section>
 
-        {/* Vídeo do YouTube */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-black mb-6">Veja o KlingAI em ação</h2>
-          <div className="rounded-xl overflow-hidden shadow-lg border border-zinc-200">
-            <div className="relative pb-[56.25%] h-0">
-              <iframe
-                className="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/TuFqvD6PR54"
-                title="KlingAI Demo"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-          </div>
-        </section>
+        
 
         {/* CTA */}
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">

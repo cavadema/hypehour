@@ -4,68 +4,71 @@ import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
 export const metadata = {
-    title: "Firecrawl - API de Crawling e Scraping para LLMs | Review",
+  title: "Firecrawl - API de Crawling e Scraping para LLMs",
+  description: "Descubra o Firecrawl: a API líder para transformar sites em Markdown limpo e estruturado para alimentar sua Inteligência Artificial.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/firecrawl",
+  },
+  openGraph: {
+    title: "Firecrawl - API de Crawling e Scraping para LLMs",
     description: "Descubra o Firecrawl: a API líder para transformar sites em Markdown limpo e estruturado para alimentar sua Inteligência Artificial.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/firecrawl",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/firecrawl",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Firecrawl - API de Crawling e Scraping para LLMs",
+    description: "Descubra o Firecrawl: a API líder para transformar sites em Markdown limpo e estruturado para alimentar sua Inteligência Artificial.",
+  },
 };
 
 export default function FirecrawlPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/firecrawl#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Web Scraping",
-                        "item": "https://www.hypehour.com.br/ia-web-scraping"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Firecrawl",
-                        "item": "https://www.hypehour.com.br/ferramentas/firecrawl"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/firecrawl#software",
-                "name": "Firecrawl",
-                "description": "Firecrawl é uma API de scraping e crawling que transforma sites em dados limpos (Markdown) puros para LLMs.",
-                "applicationCategory": "DeveloperApplication",
-                "operatingSystem": "Web",
-                "url": "https://www.firecrawl.dev",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Firecrawl"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "ratingCount": "14"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/firecrawl#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Firecrawl",
+            "item": "https://www.hypehour.com.br/ferramentas/firecrawl"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/firecrawl#software",
+        "name": "Firecrawl",
+        "description": "Descubra o Firecrawl: a API líder para transformar sites em Markdown limpo e estruturado para alimentar sua Inteligência Artificial.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/firecrawl",
+        "creator": {
+          "@type": "Organization",
+          "name": "Firecrawl"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -191,8 +194,7 @@ export default function FirecrawlPage() {
                             "Lida com JavaScript e carregamento dinâmico nativamente",
                             "Integração de um clique com LangChain, LlamaIndex e Vercel AI SDK",
                             "Extração de metadados completa (título, descrição, autor, etc)",
-                            "Opção de hospedagem própria (Open Source) para controle total",
-                        ].map((advantage, index) => (
+                            "Opção de hospedagem própria (Open Source) para controle total"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -209,8 +211,7 @@ export default function FirecrawlPage() {
                             "Uso intenso de recursos pode ser caro para crawling de milhões de páginas",
                             "Curva de aprendizado inicial para configurar esquemas de extração complexos",
                             "Dependência de APIs de terceiros se não for self-hosted",
-                            "Velocidade de renderização de JS pode atrasar crawlings massivos",
-                        ].map((disadvantage, index) => (
+                            "Velocidade de renderização de JS pode atrasar crawlings massivos"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

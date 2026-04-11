@@ -2,74 +2,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "Speechify - Text to Speech e Voice Typing com IA | Análise e Review",
+  title: "Speechify - Text to Speech e Voice Typing com IA",
+  description: "Conheça o Speechify: assistente de voz com IA para converter texto em áudio natural e digitar por voz 5x mais rápido. Veja como funciona, vantagens e se é ideal para você.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/speechify",
+  },
+  openGraph: {
+    title: "Speechify - Text to Speech e Voice Typing com IA",
     description: "Conheça o Speechify: assistente de voz com IA para converter texto em áudio natural e digitar por voz 5x mais rápido. Veja como funciona, vantagens e se é ideal para você.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/speechify",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/speechify",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Speechify - Text to Speech e Voice Typing com IA",
+    description: "Conheça o Speechify: assistente de voz com IA para converter texto em áudio natural e digitar por voz 5x mais rápido. Veja como funciona, vantagens e se é ideal para você.",
+  },
 };
 
 export default function SpeechifyPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/speechify#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Transcrever Áudio",
-                        "item": "https://www.hypehour.com.br/transcrever-audio"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Speechify",
-                        "item": "https://www.hypehour.com.br/ferramentas/speechify"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/speechify#software",
-                "name": "Speechify",
-                "description": "Speechify é um assistente de voz com IA que converte texto em áudio natural e permite digitar por voz 5x mais rápido, com mais de 50 milhões de usuários.",
-                "applicationCategory": "ProductivityApplication",
-                "operatingSystem": "Web, iOS, Android, Chrome Extension",
-                "url": "https://speechify.com",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Speechify"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.5",
-                    "ratingCount": "1"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/speechify#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Speechify",
+            "item": "https://www.hypehour.com.br/ferramentas/speechify"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/speechify#software",
+        "name": "Speechify",
+        "description": "Conheça o Speechify: assistente de voz com IA para converter texto em áudio natural e digitar por voz 5x mais rápido. Veja como funciona, vantagens e se é ideal para você.",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/speechify",
+        "creator": {
+          "@type": "Organization",
+          "name": "Speechify"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -194,8 +191,7 @@ export default function SpeechifyPage() {
                             "Ler páginas web",
                             "Criar notas de voz",
                             "Revisar código ouvindo",
-                            "Estudar para provas",
-                        ].map((item, index) => (
+                            "Estudar para provas"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -244,8 +240,7 @@ export default function SpeechifyPage() {
                             "Voice typing permite escrever 5x mais rápido do que digitando manualmente",
                             "Ideal para acessibilidade - ajuda pessoas com dislexia, ADHD e deficiências visuais",
                             "Velocidade ajustável até 4.5x para consumir conteúdo mais rapidamente",
-                            "Plano gratuito disponível para testar todas as funcionalidades básicas",
-                        ].map((advantage, index) => (
+                            "Plano gratuito disponível para testar todas as funcionalidades básicas"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -263,8 +258,7 @@ export default function SpeechifyPage() {
                             "Requer conexão à internet para funcionar - não há modo offline completo",
                             "Algumas vozes premium são pagas e podem ter custo adicional",
                             "Voice typing pode ter dificuldade com sotaques muito fortes ou ambientes barulhentos",
-                            "Assinatura premium pode ser cara para uso individual prolongado",
-                        ].map((disadvantage, index) => (
+                            "Assinatura premium pode ser cara para uso individual prolongado"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>
@@ -330,21 +324,7 @@ export default function SpeechifyPage() {
                     </div>
                 </section>
 
-                {/* Vídeo do YouTube */}
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-black mb-6">Veja o Speechify em ação</h2>
-                    <div className="rounded-xl overflow-hidden shadow-lg border border-zinc-200">
-                        <div className="relative pb-[56.25%] h-0">
-                            <iframe
-                                className="absolute top-0 left-0 w-full h-full"
-                                src="https://www.youtube.com/embed/q14VyQqZjQA"
-                                title="Speechify Demo"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
-                            />
-                        </div>
-                    </div>
-                </section>
+                
 
                 {/* CTA */}
                 <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">

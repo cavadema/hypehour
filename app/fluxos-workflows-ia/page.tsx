@@ -19,6 +19,20 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.hypehour.com.br/fluxos-workflows-ia',
   },
+  openGraph: {
+    title: "Inteligencia artificial para Fluxos e Workflows",
+    description: "Ferramentas de IA para criar, orquestrar e automatizar fluxos e workflows em sua empresa.",
+    url: "https://www.hypehour.com.br/fluxos-workflows-ia",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Inteligencia artificial para Fluxos e Workflows",
+    description: "Ferramentas de IA para criar, orquestrar e automatizar fluxos e workflows em sua empresa.",
+  },
 };
 
 export default function FluxosWorkflowsIAPage() {

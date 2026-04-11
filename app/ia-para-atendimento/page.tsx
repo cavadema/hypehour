@@ -7,6 +7,20 @@ export const metadata = {
   title: "Atendimento com Inteligencia Artificial",
   description: "Ferramentas com IA para melhorar atendimento ao cliente, automatizar respostas e aumentar satisfação.",
   alternates: { canonical: "https://www.hypehour.com.br/ia-para-atendimento" },
+  openGraph: {
+    title: "Atendimento com Inteligencia Artificial",
+    description: "Ferramentas com IA para melhorar atendimento ao cliente, automatizar respostas e aumentar satisfação.",
+    url: "https://www.hypehour.com.br/ia-para-atendimento",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Atendimento com Inteligencia Artificial",
+    description: "Ferramentas com IA para melhorar atendimento ao cliente, automatizar respostas e aumentar satisfação.",
+  },
 };
 
 const ferramentas = [

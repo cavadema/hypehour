@@ -7,6 +7,20 @@ export const metadata = {
   title: "IA para Planejamento, Organização e Produtividade",
   description: "Ferramentas com IA para planejar rotinas, organizar projetos e aumentar a produtividade.",
   alternates: { canonical: "https://www.hypehour.com.br/planejamento" },
+  openGraph: {
+    title: "IA para Planejamento, Organização e Produtividade",
+    description: "Ferramentas com IA para planejar rotinas, organizar projetos e aumentar a produtividade.",
+    url: "https://www.hypehour.com.br/planejamento",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "IA para Planejamento, Organização e Produtividade",
+    description: "Ferramentas com IA para planejar rotinas, organizar projetos e aumentar a produtividade.",
+  },
 };
 
 const ferramentas = [

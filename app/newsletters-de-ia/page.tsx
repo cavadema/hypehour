@@ -87,6 +87,20 @@ export const metadata = {
   alternates: {
     canonical: "https://www.hypehour.com.br/newsletters-de-ia",
   },
+  openGraph: {
+    title: "Newsletters de Inteligência Artificial",
+    description: "Lista completa de newsletters sobre inteligência artificial para se manter atualizado com as principais novidades e tendências.",
+    url: "https://www.hypehour.com.br/newsletters-de-ia",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Newsletters de Inteligência Artificial",
+    description: "Lista completa de newsletters sobre inteligência artificial para se manter atualizado com as principais novidades e tendências.",
+  },
 };
 
 export default function NewslettersDeIA() {

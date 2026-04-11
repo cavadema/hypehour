@@ -3,74 +3,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "Sana (Sana Labs) - Plataforma de IA para Gestão do Conhecimento | Review",
+  title: "Sana (Sana Labs) - Plataforma de IA para Gestão do Conhecimento",
+  description: "Conheça a Sana: a plataforma de IA que unifica busca, aprendizado e conhecimento corporativo. Saiba como ela transforma a produtividade da sua empresa.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/sanalabs",
+  },
+  openGraph: {
+    title: "Sana (Sana Labs) - Plataforma de IA para Gestão do Conhecimento",
     description: "Conheça a Sana: a plataforma de IA que unifica busca, aprendizado e conhecimento corporativo. Saiba como ela transforma a produtividade da sua empresa.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/sanalabs",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/sanalabs",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Sana (Sana Labs) - Plataforma de IA para Gestão do Conhecimento",
+    description: "Conheça a Sana: a plataforma de IA que unifica busca, aprendizado e conhecimento corporativo. Saiba como ela transforma a produtividade da sua empresa.",
+  },
 };
 
 export default function SanaPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/sanalabs#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Assistentes de IA",
-                        "item": "https://www.hypehour.com.br/assistentes-de-ia"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Sana",
-                        "item": "https://www.hypehour.com.br/ferramentas/sanalabs"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/sanalabs#software",
-                "name": "Sana",
-                "description": "Sana é uma plataforma de IA para empresas que unifica gestão do conhecimento, busca universal e aprendizado (LMS) em uma única interface inteligente.",
-                "applicationCategory": "BusinessApplication",
-                "operatingSystem": "Web",
-                "url": "https://sanalabs.com",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Sana Labs"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "ratingCount": "13"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Enterprise"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/sanalabs#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Sana (Sana Labs)",
+            "item": "https://www.hypehour.com.br/ferramentas/sanalabs"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/sanalabs#software",
+        "name": "Sana (Sana Labs)",
+        "description": "Conheça a Sana: a plataforma de IA que unifica busca, aprendizado e conhecimento corporativo. Saiba como ela transforma a produtividade da sua empresa.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/sanalabs",
+        "creator": {
+          "@type": "Organization",
+          "name": "Sana (Sana Labs)"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -178,8 +175,7 @@ export default function SanaPage() {
                             "Respostas rápidas de RH",
                             "Conformidade e Compliance",
                             "Centralização de informações",
-                            "Análise de dados de múltiplos apps",
-                        ].map((item, index) => (
+                            "Análise de dados de múltiplos apps"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -225,8 +221,7 @@ export default function SanaPage() {
                             "Segurança de nível empresarial (seus dados não treinam modelos públicos)",
                             "Interface moderna e intuitiva, muito superior a intranets antigas",
                             "IA que realmente entende o contexto do seu negócio",
-                            "Integração com praticamente todas as ferramentas de SaaS modernas",
-                        ].map((advantage, index) => (
+                            "Integração com praticamente todas as ferramentas de SaaS modernas"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -243,8 +238,7 @@ export default function SanaPage() {
                             "Focado em empresas (B2B), pode ser caro para times muito pequenos",
                             "Requer integração inicial e permissões de acesso aos dados da empresa",
                             "A qualidade das respostas depende da qualidade da documentação interna existente",
-                            "Curva de aprendizado para times acostumados com processos manuais",
-                        ].map((disadvantage, index) => (
+                            "Curva de aprendizado para times acostumados com processos manuais"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

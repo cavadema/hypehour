@@ -4,74 +4,71 @@ import FAQSection from "./FAQSection";
 import { faqs } from "./constants";
 
 export const metadata = {
-    title: "Ideogram - A Melhor IA para Tipografia e Design Gráfico | Review",
+  title: "Ideogram - A Melhor IA para Tipografia e Design Gráfico",
+  description: "Descubra o Ideogram: a inteligência artificial líder em renderização de texto e design. Veja como funciona, preços, Magic Prompt e se é ideal para seus projetos.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/ideogram",
+  },
+  openGraph: {
+    title: "Ideogram - A Melhor IA para Tipografia e Design Gráfico",
     description: "Descubra o Ideogram: a inteligência artificial líder em renderização de texto e design. Veja como funciona, preços, Magic Prompt e se é ideal para seus projetos.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/ideogram",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/ideogram",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Ideogram - A Melhor IA para Tipografia e Design Gráfico",
+    description: "Descubra o Ideogram: a inteligência artificial líder em renderização de texto e design. Veja como funciona, preços, Magic Prompt e se é ideal para seus projetos.",
+  },
 };
 
 export default function IdeogramPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/ideogram#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Imagens",
-                        "item": "https://www.hypehour.com.br/ia-para-imagens"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Ideogram",
-                        "item": "https://www.hypehour.com.br/ferramentas/ideogram"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/ideogram#software",
-                "name": "Ideogram",
-                "description": "Ideogram é uma plataforma de IA generativa avançada focada em design gráfico e tipografia de alta precisão.",
-                "applicationCategory": "MultimediaApplication",
-                "operatingSystem": "Web",
-                "url": "https://ideogram.ai",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Ideogram"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.5",
-                    "ratingCount": "1"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/ideogram#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Ideogram",
+            "item": "https://www.hypehour.com.br/ferramentas/ideogram"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/ideogram#software",
+        "name": "Ideogram",
+        "description": "Descubra o Ideogram: a inteligência artificial líder em renderização de texto e design. Veja como funciona, preços, Magic Prompt e se é ideal para seus projetos.",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/ideogram",
+        "creator": {
+          "@type": "Organization",
+          "name": "Ideogram"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -202,8 +199,7 @@ export default function IdeogramPage() {
                             "Magic Prompt que facilita a criação para quem não sabe fazer prompts",
                             "Plano gratuito disponível para uso casual",
                             "Ferramentas de controle de cor excelentes para designers de marcas",
-                            "Geração rápida e eficiente de logotipos e posters",
-                        ].map((advantage, index) => (
+                            "Geração rápida e eficiente de logotipos e posters"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -220,8 +216,7 @@ export default function IdeogramPage() {
                             "Limites diários no plano gratuito podem ser atingidos rapidamente",
                             "Imagens são públicas por padrão, exceto nos planos mais caros",
                             "Estilos artísticos 'místicos' podem ser menos complexos que no Midjourney",
-                            "O download de arquivos vetoriais (.svg) ainda é limitado",
-                        ].map((disadvantage, index) => (
+                            "O download de arquivos vetoriais (.svg) ainda é limitado"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

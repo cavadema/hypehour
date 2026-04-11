@@ -72,6 +72,20 @@ export const metadata = {
   alternates: {
     canonical: "https://www.hypehour.com.br/navegadores-de-ia",
   },
+  openGraph: {
+    title: "Navegadores com uso de Inteligência Artificial",
+    description: "Descubra navegadores que já chegam com inteligência artificial integrada para pesquisar, resumir e automatizar tarefas.",
+    url: "https://www.hypehour.com.br/navegadores-de-ia",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Navegadores com uso de Inteligência Artificial",
+    description: "Descubra navegadores que já chegam com inteligência artificial integrada para pesquisar, resumir e automatizar tarefas.",
+  },
 };
 
 export default function NavegadoresDeIA() {

@@ -7,6 +7,20 @@ export const metadata = {
   title: "Repositórios de IA no Github",
   description: "Repositórios de IA no Github com projetos open-source para inteligência artificial.",
   alternates: { canonical: "https://www.hypehour.com.br/repositorios-ia-github" },
+  openGraph: {
+    title: "Repositórios de IA no Github",
+    description: "Repositórios de IA no Github com projetos open-source para inteligência artificial.",
+    url: "https://www.hypehour.com.br/repositorios-ia-github",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Repositórios de IA no Github",
+    description: "Repositórios de IA no Github com projetos open-source para inteligência artificial.",
+  },
 };
 
 const ferramentas = [

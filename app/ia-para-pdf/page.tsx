@@ -33,6 +33,20 @@ export const metadata = {
   alternates: {
     canonical: "https://www.hypehour.com.br/ia-para-pdf",
   },
+  openGraph: {
+    title: "IA para PDS: resumir, ler, criar e traduzir",
+    description: "Ferramentas de IA para PDFs: resuma, leia, traduza e extraia dados com automação completa.",
+    url: "https://www.hypehour.com.br/ia-para-pdf",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "IA para PDS: resumir, ler, criar e traduzir",
+    description: "Ferramentas de IA para PDFs: resuma, leia, traduza e extraia dados com automação completa.",
+  },
 };
 
 export default function IaParaPDF() {

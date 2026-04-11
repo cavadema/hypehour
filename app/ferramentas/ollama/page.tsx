@@ -2,74 +2,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "Ollama - Execute Modelos de IA (LLMs) Localmente | Review Completo",
+  title: "Ollama - Execute Modelos de IA (LLMs) Localmente",
+  description: "Conheça o Ollama: a ferramenta open-source para rodar modelos como Llama 3, Mistral e Gemma no seu PC com total privacidade e sem internet.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/ollama",
+  },
+  openGraph: {
+    title: "Ollama - Execute Modelos de IA (LLMs) Localmente",
     description: "Conheça o Ollama: a ferramenta open-source para rodar modelos como Llama 3, Mistral e Gemma no seu PC com total privacidade e sem internet.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/ollama",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/ollama",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Ollama - Execute Modelos de IA (LLMs) Localmente",
+    description: "Conheça o Ollama: a ferramenta open-source para rodar modelos como Llama 3, Mistral e Gemma no seu PC com total privacidade e sem internet.",
+  },
 };
 
 export default function OllamaPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/ollama#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Pacotes e Agregadores",
-                        "item": "https://www.hypehour.com.br/pacotes-de-ferramentas-e-agregadores-ia"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Ollama",
-                        "item": "https://www.hypehour.com.br/ferramentas/ollama"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/ollama#software",
-                "name": "Ollama",
-                "description": "Ollama é uma ferramenta de código aberto que permite configurar e rodar modelos de linguagem grandes localmente no macOS, Linux e Windows.",
-                "applicationCategory": "DeveloperApplication",
-                "operatingSystem": "macOS, Linux, Windows",
-                "url": "https://ollama.com",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Ollama"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.5",
-                    "ratingCount": "1"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Open Source"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/ollama#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Ollama",
+            "item": "https://www.hypehour.com.br/ferramentas/ollama"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/ollama#software",
+        "name": "Ollama",
+        "description": "Conheça o Ollama: a ferramenta open-source para rodar modelos como Llama 3, Mistral e Gemma no seu PC com total privacidade e sem internet.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/ollama",
+        "creator": {
+          "@type": "Organization",
+          "name": "Ollama"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -171,8 +168,7 @@ export default function OllamaPage() {
                             "Processamento de dados sensíveis",
                             "Estudo e aprendizado de LLMs",
                             "Integração com Docker e servidores",
-                            "Uso em locais sem conexão estável",
-                        ].map((item, index) => (
+                            "Uso em locais sem conexão estável"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -213,8 +209,7 @@ export default function OllamaPage() {
                             "Funciona Offline: Use a IA mesmo sem internet",
                             "Velocidade: Respostas instantâneas dependendo do seu hardware",
                             "Versatilidade: Suporta os melhores modelos open-source do mercado",
-                            "Fácil Gerenciamento: Atualize e mude de modelos com um comando",
-                        ].map((advantage, index) => (
+                            "Fácil Gerenciamento: Atualize e mude de modelos com um comando"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-green-600 font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -231,8 +226,7 @@ export default function OllamaPage() {
                             "Depende do seu hardware (exige boa RAM e preferencialmente GPU)",
                             "Consome recursos do sistema enquanto está processando",
                             "Modelos muito grandes (ex: 70B) podem ser lentos no PC comum",
-                            "Requer conhecimentos básicos de terminal para algumas configurações",
-                        ].map((disadvantage, index) => (
+                            "Requer conhecimentos básicos de terminal para algumas configurações"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-600 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

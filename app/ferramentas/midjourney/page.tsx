@@ -4,74 +4,71 @@ import FAQSection from "./FAQSection";
 import { faqs } from "./constants";
 
 export const metadata = {
-    title: "Midjourney - O Líder em Geração de Imagens Artísticas | Review",
+  title: "Midjourney - O Líder em Geração de Imagens Artísticas",
+  description: "Conheça o Midjourney: a IA com maior qualidade artística e fotorrealista do mercado. Veja como funciona via Discord, preços, v6 e se é ideal para você.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/midjourney",
+  },
+  openGraph: {
+    title: "Midjourney - O Líder em Geração de Imagens Artísticas",
     description: "Conheça o Midjourney: a IA com maior qualidade artística e fotorrealista do mercado. Veja como funciona via Discord, preços, v6 e se é ideal para você.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/midjourney",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/midjourney",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Midjourney - O Líder em Geração de Imagens Artísticas",
+    description: "Conheça o Midjourney: a IA com maior qualidade artística e fotorrealista do mercado. Veja como funciona via Discord, preços, v6 e se é ideal para você.",
+  },
 };
 
 export default function MidjourneyPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/midjourney#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Imagens",
-                        "item": "https://www.hypehour.com.br/ia-para-imagens"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Midjourney",
-                        "item": "https://www.hypehour.com.br/ferramentas/midjourney"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/midjourney#software",
-                "name": "Midjourney",
-                "description": "Midjourney é um laboratório de pesquisa independente que produz um modelo de inteligência artificial de ponta para criar imagens a partir de descrições textuais.",
-                "applicationCategory": "MultimediaApplication",
-                "operatingSystem": "Web (Discord-based)",
-                "url": "https://www.midjourney.com",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Midjourney"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.7",
-                    "ratingCount": "15"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "10.00",
-                    "priceCurrency": "USD",
-                    "category": "Paid"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/midjourney#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Midjourney",
+            "item": "https://www.hypehour.com.br/ferramentas/midjourney"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/midjourney#software",
+        "name": "Midjourney",
+        "description": "Conheça o Midjourney: a IA com maior qualidade artística e fotorrealista do mercado. Veja como funciona via Discord, preços, v6 e se é ideal para você.",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/midjourney",
+        "creator": {
+          "@type": "Organization",
+          "name": "Midjourney"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -191,8 +188,7 @@ export default function MidjourneyPage() {
                             "Templates de landing pages",
                             "Infográficos visuais",
                             "Retratos fotorrealistas",
-                            "Mockups publicitários",
-                        ].map((item, index) => (
+                            "Mockups publicitários"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm font-medium">{item}</p>
                             </div>
@@ -233,8 +229,7 @@ export default function MidjourneyPage() {
                             "Recursos de edição interna (Vary Region) de alta precisão",
                             "Modo 'Relax' ilimitado para quem gera centenas de imagens mensais",
                             "Comunidade vibrante e galeria de milhões de prompts para inspiração",
-                            "Capacidade de gerar textos curtos de forma legível (v6)",
-                        ].map((advantage, index) => (
+                            "Capacidade de gerar textos curtos de forma legível (v6)"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-green-600 font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -252,8 +247,7 @@ export default function MidjourneyPage() {
                             "Ausência de um plano gratuito para testes pontuais",
                             "Privacidade das imagens só está disponível nos planos mais caros (Pro/Mega)",
                             "Curva de aprendizado para entender parâmetros técnicos (--ar, --stylize, --iw)",
-                            "Dependência quase total de prompts em inglês para resultados de alta fidelidade",
-                        ].map((disadvantage, index) => (
+                            "Dependência quase total de prompts em inglês para resultados de alta fidelidade"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

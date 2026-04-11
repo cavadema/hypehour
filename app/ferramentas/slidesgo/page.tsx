@@ -2,74 +2,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "Slidesgo AI - Gerador de Apresentações Inteligente | Análise e Review",
+  title: "Slidesgo AI - Gerador de Apresentações Inteligente",
+  description: "Conheça o Slidesgo AI: o gerador de apresentações que une a maior biblioteca de templates com inteligência artificial. Veja como funciona, preços e vantagens.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/slidesgo",
+  },
+  openGraph: {
+    title: "Slidesgo AI - Gerador de Apresentações Inteligente",
     description: "Conheça o Slidesgo AI: o gerador de apresentações que une a maior biblioteca de templates com inteligência artificial. Veja como funciona, preços e vantagens.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/slidesgo",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/slidesgo",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Slidesgo AI - Gerador de Apresentações Inteligente",
+    description: "Conheça o Slidesgo AI: o gerador de apresentações que une a maior biblioteca de templates com inteligência artificial. Veja como funciona, preços e vantagens.",
+  },
 };
 
 export default function SlidesgoPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/slidesgo#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Apresentações",
-                        "item": "https://www.hypehour.com.br/ia-para-criar-apresentacoes"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Slidesgo",
-                        "item": "https://www.hypehour.com.br/ferramentas/slidesgo"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/slidesgo#software",
-                "name": "Slidesgo AI",
-                "description": "O Slidesgo AI combina uma vasta biblioteca de modelos de design com inteligência artificial para criar apresentações completas a partir de prompts simples.",
-                "applicationCategory": "DesignApplication",
-                "operatingSystem": "Web",
-                "url": "https://slidesgo.com/pt/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Slidesgo"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.5",
-                    "ratingCount": "4"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/slidesgo#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Slidesgo AI",
+            "item": "https://www.hypehour.com.br/ferramentas/slidesgo"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/slidesgo#software",
+        "name": "Slidesgo AI",
+        "description": "Conheça o Slidesgo AI: o gerador de apresentações que une a maior biblioteca de templates com inteligência artificial. Veja como funciona, preços e vantagens.",
+        "applicationCategory": "DesignApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/slidesgo",
+        "creator": {
+          "@type": "Organization",
+          "name": "Slidesgo AI"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -194,8 +191,7 @@ export default function SlidesgoPage() {
                             "Resumos de projetos",
                             "Marketing e vendas",
                             "Educação executiva",
-                            "Trabalhos de conclusão (TCC)",
-                        ].map((item, index) => (
+                            "Trabalhos de conclusão (TCC)"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -244,8 +240,7 @@ export default function SlidesgoPage() {
                             "Acesso a bancos de imagens premium (Freepik) integrado",
                             "Opção gratuita robusta para usuários casuais e educadores",
                             "Facilidade extrema de uso para quem não domina ferramentas de design",
-                            "Economia colossal de tempo na estruturação de apresentações",
-                        ].map((advantage, index) => (
+                            "Economia colossal de tempo na estruturação de apresentações"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -263,8 +258,7 @@ export default function SlidesgoPage() {
                             "A IA pode ser um pouco genérica em temas muito técnicos ou nichados",
                             "Limite de downloads diários no plano gratuito para layouts manuais",
                             "A edição avançada fora da plataforma (PPT) pode requerer pequenos ajustes manuais",
-                            "Necessita de conexão constante com a internet para gerar conteúdo",
-                        ].map((disadvantage, index) => (
+                            "Necessita de conexão constante com a internet para gerar conteúdo"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

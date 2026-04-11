@@ -2,74 +2,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "Wispr Flow - Ditado por Voz com IA e Comandos | Review",
+  title: "Wispr Flow - Ditado por Voz com IA e Comandos",
+  description: "Conheça o Wispr Flow: a ferramenta de ditado com IA que escreve 3x mais rápido que você digita. Transcrição perfeita, comandos de voz e formatação automática em qualquer app.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/wisprflow",
+  },
+  openGraph: {
+    title: "Wispr Flow - Ditado por Voz com IA e Comandos",
     description: "Conheça o Wispr Flow: a ferramenta de ditado com IA que escreve 3x mais rápido que você digita. Transcrição perfeita, comandos de voz e formatação automática em qualquer app.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/wisprflow",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/wisprflow",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Wispr Flow - Ditado por Voz com IA e Comandos",
+    description: "Conheça o Wispr Flow: a ferramenta de ditado com IA que escreve 3x mais rápido que você digita. Transcrição perfeita, comandos de voz e formatação automática em qualquer app.",
+  },
 };
 
 export default function WisprFlowPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/wisprflow#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Transcrever Áudio",
-                        "item": "https://www.hypehour.com.br/transcrever-audio"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Wispr Flow",
-                        "item": "https://www.hypehour.com.br/ferramentas/wisprflow"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/wisprflow#software",
-                "name": "Wispr Flow",
-                "description": "Wispr Flow é uma aplicação de ditado por voz baseada em IA que permite escrever textos complexos e formatados apenas falando, em qualquer lugar do seu computador.",
-                "applicationCategory": "ProductivityApplication",
-                "operatingSystem": "macOS, Windows, iOS",
-                "url": "https://wisprflow.ai",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Wispr AI"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "ratingCount": "1"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/wisprflow#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Wispr Flow",
+            "item": "https://www.hypehour.com.br/ferramentas/wisprflow"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/wisprflow#software",
+        "name": "Wispr Flow",
+        "description": "Conheça o Wispr Flow: a ferramenta de ditado com IA que escreve 3x mais rápido que você digita. Transcrição perfeita, comandos de voz e formatação automática em qualquer app.",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/wisprflow",
+        "creator": {
+          "@type": "Organization",
+          "name": "Wispr Flow"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -171,8 +168,7 @@ export default function WisprFlowPage() {
                             "Escrever relatórios detalhados",
                             "Criar descrições de produtos",
                             "Legendar vídeos mentalmente",
-                            "Documentação de código",
-                        ].map((item, index) => (
+                            "Documentação de código"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -217,8 +213,7 @@ export default function WisprFlowPage() {
                             "Funciona em QUALQUER lugar (sistema operacional, navegador, apps nativos)",
                             "Reduz fadiga nas mãos e pulsos (ergonomia)",
                             "Plano gratuito útil para testar e uso leve",
-                            "Privacidade: dados não são usados para treinar modelos públicos (no plano Enterprise)",
-                        ].map((advantage, index) => (
+                            "Privacidade: dados não são usados para treinar modelos públicos (no plano Enterprise)"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -235,8 +230,7 @@ export default function WisprFlowPage() {
                             "Requer conexão com a internet para funcionar",
                             "Plano gratuito tem limite semanal de palavras",
                             "Pode demorar um pouco para se acostumar a 'falar pontuando' (embora a IA ajude)",
-                            "Ainda não disponível para Android (apenas iOS, Mac e Windows)",
-                        ].map((disadvantage, index) => (
+                            "Ainda não disponível para Android (apenas iOS, Mac e Windows)"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>
@@ -290,21 +284,7 @@ export default function WisprFlowPage() {
                     </div>
                 </section>
 
-                {/* Vídeo do YouTube */}
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-black mb-6">Veja o Wispr Flow em ação</h2>
-                    <div className="rounded-xl overflow-hidden shadow-lg border border-zinc-200">
-                        <div className="relative pb-[56.25%] h-0">
-                            <iframe
-                                className="absolute top-0 left-0 w-full h-full"
-                                src="https://www.youtube.com/embed/G7G5duVu3P4"
-                                title="Wispr Flow Demo"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
-                            />
-                        </div>
-                    </div>
-                </section>
+                
 
                 {/* CTA */}
                 <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">

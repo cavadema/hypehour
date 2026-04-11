@@ -67,6 +67,20 @@ export const metadata = {
     alternates: {
         canonical: 'https://www.hypehour.com.br/eventos-ia',
     },
+  openGraph: {
+    title: "Eventos de Inteligência Artificial 2026 - Brasil e Mundo",
+    description: "Descubra os principais eventos de IA em 2026 no Brasil e no mundo. Conferências, summits e festivais de inteligência artificial.",
+    url: "https://www.hypehour.com.br/eventos-ia",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Eventos de Inteligência Artificial 2026 - Brasil e Mundo",
+    description: "Descubra os principais eventos de IA em 2026 no Brasil e no mundo. Conferências, summits e festivais de inteligência artificial.",
+  },
 };
 
 export default function EventosIA() {

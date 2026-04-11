@@ -4,68 +4,71 @@ import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
 export const metadata = {
-    title: "ScraperAPI - API de Proxy e Bypass de Bloqueios | Review",
+  title: "ScraperAPI - API de Proxy e Bypass de Bloqueios",
+  description: "Conheça o ScraperAPI: a solução definitiva para gerenciar proxies, rotacionar IPs e burlar CAPTCHAs em escala com uma simples chamada de API.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/scraperapi",
+  },
+  openGraph: {
+    title: "ScraperAPI - API de Proxy e Bypass de Bloqueios",
     description: "Conheça o ScraperAPI: a solução definitiva para gerenciar proxies, rotacionar IPs e burlar CAPTCHAs em escala com uma simples chamada de API.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/scraperapi",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/scraperapi",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "ScraperAPI - API de Proxy e Bypass de Bloqueios",
+    description: "Conheça o ScraperAPI: a solução definitiva para gerenciar proxies, rotacionar IPs e burlar CAPTCHAs em escala com uma simples chamada de API.",
+  },
 };
 
 export default function ScraperAPIPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/scraperapi#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Web Scraping",
-                        "item": "https://www.hypehour.com.br/ia-web-scraping"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "ScraperAPI",
-                        "item": "https://www.hypehour.com.br/ferramentas/scraperapi"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/scraperapi#software",
-                "name": "ScraperAPI",
-                "description": "ScraperAPI é uma ferramenta de proxy que gerencia proxies, navegadores e CAPTCHAs automaticamente.",
-                "applicationCategory": "DeveloperApplication",
-                "operatingSystem": "Web",
-                "url": "https://www.scraperapi.com/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "ScraperAPI"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.5",
-                    "ratingCount": "6"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/scraperapi#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "ScraperAPI",
+            "item": "https://www.hypehour.com.br/ferramentas/scraperapi"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/scraperapi#software",
+        "name": "ScraperAPI",
+        "description": "Conheça o ScraperAPI: a solução definitiva para gerenciar proxies, rotacionar IPs e burlar CAPTCHAs em escala com uma simples chamada de API.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/scraperapi",
+        "creator": {
+          "@type": "Organization",
+          "name": "ScraperAPI"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -191,8 +194,7 @@ export default function ScraperAPIPage() {
                             "Rede global massiva com proxies residenciais de alta qualidade",
                             "Resolução automática de CAPTCHA e bypass de Cloudflare incluso",
                             "Cobrança baseada em requisições bem-sucedidas (você não paga por falhas)",
-                            "Totalmente agnóstico a linguagem, fácil de integrar via REST ou Proxy",
-                        ].map((advantage, index) => (
+                            "Totalmente agnóstico a linguagem, fácil de integrar via REST ou Proxy"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -209,8 +211,7 @@ export default function ScraperAPIPage() {
                             "Custo pode escalar rapidamente para projetos que exigem JS e proxies residenciais",
                             "Você ainda precisa escrever a lógica de parsing (extração dos dados do HTML)",
                             "Planos gratuitos possuem limitações significativas de concorrência",
-                            "Dependência de internet estável para chamadas de API de longa espera",
-                        ].map((disadvantage, index) => (
+                            "Dependência de internet estável para chamadas de API de longa espera"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>

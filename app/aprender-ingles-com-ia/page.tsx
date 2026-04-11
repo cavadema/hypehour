@@ -7,6 +7,20 @@ export const metadata = {
   title: "Aprender Inglês com IA",
   description: "Ferramentas com IA para estudar, praticar conversação e melhorar a pronúncia em inglês.",
   alternates: { canonical: "https://www.hypehour.com.br/aprender-ingles-com-ia" },
+  openGraph: {
+    title: "Aprender Inglês com IA",
+    description: "Ferramentas com IA para estudar, praticar conversação e melhorar a pronúncia em inglês.",
+    url: "https://www.hypehour.com.br/aprender-ingles-com-ia",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Aprender Inglês com IA",
+    description: "Ferramentas com IA para estudar, praticar conversação e melhorar a pronúncia em inglês.",
+  },
 };
 
 const ferramentas = [

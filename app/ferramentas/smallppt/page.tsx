@@ -2,74 +2,71 @@ import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-    title: "Smallppt AI - Criador de Apresentações Multifuncional | Review",
+  title: "Smallppt AI - Criador de Apresentações Multifuncional",
+  description: "Conheça o Smallppt AI: a ferramenta de IA que cria slides a partir de Word, PDF, URLs e até áudio. Veja como funciona, preços e funcionalidades exclusivas.",
+  alternates: {
+    canonical: "https://www.hypehour.com.br/ferramentas/smallppt",
+  },
+  openGraph: {
+    title: "Smallppt AI - Criador de Apresentações Multifuncional",
     description: "Conheça o Smallppt AI: a ferramenta de IA que cria slides a partir de Word, PDF, URLs e até áudio. Veja como funciona, preços e funcionalidades exclusivas.",
-    alternates: {
-        canonical: "https://www.hypehour.com.br/ferramentas/smallppt",
-    },
+    url: "https://www.hypehour.com.br/ferramentas/smallppt",
+    siteName: 'Hypehour',
+    images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: "Smallppt AI - Criador de Apresentações Multifuncional",
+    description: "Conheça o Smallppt AI: a ferramenta de IA que cria slides a partir de Word, PDF, URLs e até áudio. Veja como funciona, preços e funcionalidades exclusivas.",
+  },
 };
 
 export default function SmallpptPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://www.hypehour.com.br/ferramentas/smallppt#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://www.hypehour.com.br/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "IA para Apresentações",
-                        "item": "https://www.hypehour.com.br/ia-para-criar-apresentacoes"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Smallppt",
-                        "item": "https://www.hypehour.com.br/ferramentas/smallppt"
-                    }
-                ]
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": "https://www.hypehour.com.br/ferramentas/smallppt#software",
-                "name": "Smallppt AI",
-                "description": "Uma plataforma de IA versátil que automatiza a criação de apresentações a partir de múltiplos formatos de entrada, incluindo áudio e documentos complexos.",
-                "applicationCategory": "DesignApplication",
-                "operatingSystem": "Web",
-                "url": "https://smallppt.com/",
-                "creator": {
-                    "@type": "Organization",
-                    "name": "Smallppt"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.6",
-                    "ratingCount": "8"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/smallppt#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Smallppt AI",
+            "item": "https://www.hypehour.com.br/ferramentas/smallppt"
+          }
         ]
-    };
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/smallppt#software",
+        "name": "Smallppt AI",
+        "description": "Conheça o Smallppt AI: a ferramenta de IA que cria slides a partir de Word, PDF, URLs e até áudio. Veja como funciona, preços e funcionalidades exclusivas.",
+        "applicationCategory": "DesignApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.hypehour.com.br/ferramentas/smallppt",
+        "creator": {
+          "@type": "Organization",
+          "name": "Smallppt AI"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
             <div className="max-w-6xl mx-auto px-4 py-10">
                 {/* Breadcrumb */}
                 <nav className="flex items-center gap-2 text-zinc-700 mb-8">
@@ -189,8 +186,7 @@ export default function SmallpptPage() {
                             "Resumos de artigos web",
                             "Documentação técnica",
                             "Treinamentos internos",
-                            "Pitch decks profissionais",
-                        ].map((item, index) => (
+                            "Pitch decks profissionais"].map((item, index) => (
                             <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
                                 <p className="text-zinc-700 text-sm">{item}</p>
                             </div>
@@ -239,8 +235,7 @@ export default function SmallpptPage() {
                             "Disponibilidade de um plano Vitalício (pagamento único)",
                             "Interface limpa e rica em ferramentas auxiliares (PDF, Mapas Mentais)",
                             "IA extremamente precisa na tradução e escrita em português",
-                            "Facilidade para transformar conteúdos densos em slides简洁 (concisos)",
-                        ].map((advantage, index) => (
+                            "Facilidade para transformar conteúdos densos em slides简洁 (concisos)"].map((advantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
                                 <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
                                 <p className="text-zinc-700">{advantage}</p>
@@ -258,8 +253,7 @@ export default function SmallpptPage() {
                             "Grande quantidade de ferramentas pode exigir tempo para explorar tudo",
                             "Assinaturas mensais individuais têm custo superior a algumas opções básicas",
                             "Necessita de internet estável para o processamento da IA",
-                            "As imagens geradas pela IA podem precisar de substituição para temas muito específicos",
-                        ].map((disadvantage, index) => (
+                            "As imagens geradas pela IA podem precisar de substituição para temas muito específicos"].map((disadvantage, index) => (
                             <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
                                 <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
                                 <p className="text-zinc-700">{disadvantage}</p>
