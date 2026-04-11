@@ -1,3 +1,4 @@
+import ExpandableContent from "./ExpandableContent";
 import { CodeBracketIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
@@ -120,6 +121,7 @@ export default function IaParaVibeCoding() {
         <CodeBracketIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">IA para Vibe Coding</h1>
       </div>
+      <ExpandableContent />
       <p className="mb-8 text-gray-600">Ferramentas que ajudam no fluxo de desenvolvimento, automações e geração de código.</p>
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => {

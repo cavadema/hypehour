@@ -1,3 +1,4 @@
+import ExpandableContent from "./ExpandableContent";
 import { MusicalNoteIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
@@ -247,6 +248,7 @@ export default function IaParaMusica() {
                 <MusicalNoteIcon className="w-10 h-10 text-gray-900" />
                 <h1 className="text-3xl font-bold">IA para Música</h1>
             </div>
+      <ExpandableContent />
             <p className="mb-8 text-gray-600">
                 Descubra as melhores ferramentas de inteligência artificial para criação, edição e geração de música e áudio.
             </p>

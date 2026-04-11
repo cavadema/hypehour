@@ -1,3 +1,4 @@
+import ExpandableContent from "./ExpandableContent";
 import { VideoCameraIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
@@ -316,6 +317,7 @@ export default function IaParaCriarVideos() {
                 <VideoCameraIcon className="w-10 h-10 text-gray-900" />
                 <h1 className="text-3xl font-bold">IA para Criar Vídeos</h1>
             </div>
+      <ExpandableContent />
             <p className="mb-8 text-gray-600">
                 Ferramentas de inteligência artificial para revolucionar sua produção de vídeo: geração a partir de texto, avatares, edição automática e muito mais.
             </p>

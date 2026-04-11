@@ -1,3 +1,4 @@
+import ExpandableContent from "./ExpandableContent";
 import { SparklesIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
@@ -147,6 +148,7 @@ export default function ModelosDeLLMs() {
         <SparklesIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">Modelos de LLMs</h1>
       </div>
+      <ExpandableContent />
       <p className="mb-8 text-gray-600">
         Explore os modelos de linguagem que estão impulsionando copilotos, buscas inteligentes e agentes autônomos.
       </p>

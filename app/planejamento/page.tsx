@@ -1,3 +1,4 @@
+import ExpandableContent from "./ExpandableContent";
 import { DocumentTextIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
@@ -27,6 +28,7 @@ export default function PlanejamentoPage() {
         <DocumentTextIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">IA para Planejamento</h1>
       </div>
+      <ExpandableContent />
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => (
           <a key={f.nome} href={f.url} target="_blank" rel="noopener noreferrer" className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100">

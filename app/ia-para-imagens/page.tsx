@@ -1,3 +1,4 @@
+import ExpandableContent from "./ExpandableContent";
 import { PhotoIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
@@ -265,6 +266,7 @@ export default function IaParaImagens() {
         <PhotoIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">IA para Imagens</h1>
       </div>
+      <ExpandableContent />
       <p className="mb-8 text-gray-600">
         Descubra as melhores ferramentas de inteligência artificial para criação, edição e geração de imagens.
       </p>

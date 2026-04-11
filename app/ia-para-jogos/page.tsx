@@ -1,3 +1,4 @@
+import ExpandableContent from "./ExpandableContent";
 import { RocketLaunchIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
@@ -88,6 +89,7 @@ export default function IAparaJogos() {
                 <RocketLaunchIcon className="w-10 h-10 text-gray-900" />
                 <h1 className="text-3xl font-bold">IA para Jogos</h1>
             </div>
+      <ExpandableContent />
             <p className="mb-8 text-gray-600">
                 Descubra as melhores ferramentas de inteligência artificial para criar jogos. De desenvolvimento sem código a geração de assets, estas plataformas usam IA para transformar suas ideias em jogos reais.
             </p>

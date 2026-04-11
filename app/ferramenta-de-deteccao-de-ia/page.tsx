@@ -1,3 +1,4 @@
+import ExpandableContent from "./ExpandableContent";
 import { ArrowLeftIcon, ShieldCheckIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
@@ -93,6 +94,7 @@ export default function FerramentaDeteccaoIA() {
         <ShieldCheckIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">Ferramentas de detecção de IA</h1>
       </div>
+      <ExpandableContent />
       <p className="mb-8 text-gray-600">
         Explore detectores especializados para verificar se um texto foi escrito por inteligência artificial. Escolha a
         ferramenta que melhor se adapta ao seu fluxo de trabalho.

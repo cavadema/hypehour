@@ -1,3 +1,4 @@
+import ExpandableContent from "./ExpandableContent";
 
 import { GlobeAltIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
@@ -91,6 +92,7 @@ export default function WebScrapingPage() {
                 <GlobeAltIcon className="w-10 h-10 text-gray-900" />
                 <h1 className="text-3xl font-bold">IA para Web Scraping</h1>
             </div>
+      <ExpandableContent />
             <p className="mb-8 text-gray-600">
                 Ferramentas essenciais para extração de dados, monitoramento de sites e automação de navegação web, potencializadas por Inteligência Artificial.
             </p>

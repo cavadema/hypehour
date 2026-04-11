@@ -1,3 +1,4 @@
+import ExpandableContent from "./ExpandableContent";
 import { UserIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
@@ -205,6 +206,7 @@ export default function AssistentesDeIA() {
         <UserIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">Assistentes de IA e pessoais</h1>
       </div>
+      <ExpandableContent />
       <p className="mb-8 text-gray-600">Assistentes de IA para produtividade, organização e automação de tarefas.</p>
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => (

@@ -1,3 +1,4 @@
+import ExpandableContent from "./ExpandableContent";
 import { EnvelopeIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
@@ -97,6 +98,7 @@ export default function NewslettersDeIA() {
         <EnvelopeIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">Newsletters de IA</h1>
       </div>
+      <ExpandableContent />
       <p className="mb-8 text-gray-600">
         Fique por dentro das principais novidades de IA com newsletters curadas e atualizadas regularmente. Escolha as que melhor se adaptam ao seu perfil e mantenha-se informado sobre o futuro da inteligência artificial.
       </p>

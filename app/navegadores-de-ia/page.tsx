@@ -1,3 +1,4 @@
+import ExpandableContent from "./ExpandableContent";
 import { GlobeAltIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
@@ -82,6 +83,7 @@ export default function NavegadoresDeIA() {
         <GlobeAltIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">Navegadores de IA</h1>
       </div>
+      <ExpandableContent />
       <p className="mb-8 text-gray-600">
         Conheça browsers que já vêm com copilotos, automações e integrações de inteligência artificial para acelerar sua
         navegação e produtividade.

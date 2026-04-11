@@ -1,3 +1,4 @@
+import ExpandableContent from "./ExpandableContent";
 import { ArchiveBoxIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
@@ -128,6 +129,7 @@ export default function PacotesFerramentas() {
                 <ArchiveBoxIcon className="w-10 h-10 text-gray-900" />
                 <h1 className="text-3xl font-bold">Pacotes de Ferramentas IA e Agregadores</h1>
             </div>
+      <ExpandableContent />
             <p className="mb-8 text-gray-600">
                 Descubra as melhores plataformas que agregam múltiplas ferramentas e modelos de inteligência artificial em um só lugar.
             </p>

@@ -1,3 +1,4 @@
+import ExpandableContent from "./ExpandableContent";
 import { ArrowPathIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
@@ -30,6 +31,7 @@ export default function FluxosWorkflowsIAPage() {
         <ArrowPathIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">Fluxos e Workflows com IA</h1>
       </div>
+      <ExpandableContent />
 
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((ferramenta) => (
