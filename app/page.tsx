@@ -22,7 +22,11 @@ const webpageJsonLd = {
     "logo": {
       "@type": "ImageObject",
       "url": "https://www.hypehour.com.br/logo.png"
-    }
+    },
+    "sameAs": [
+      "https://x.com/hypehourbr",
+      "https://www.linkedin.com/company/hypehour/"
+    ]
   },
   "inLanguage": "pt-BR"
 };
