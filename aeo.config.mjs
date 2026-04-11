@@ -26,6 +26,17 @@ export default defineConfig({
     crawlDelay: 0,
   },
 
+  // Schema configuration
+  schema: {
+    enabled: true,
+    organization: {
+      name: 'Hypehour',
+      url: 'https://www.hypehour.com.br',
+      logo: 'https://www.hypehour.com.br/logo.png',
+    },
+    defaultType: 'WebPage',
+  },
+
   // Widget configuration
   widget: {
     enabled: false,
