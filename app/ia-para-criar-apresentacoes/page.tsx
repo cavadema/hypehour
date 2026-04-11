@@ -243,9 +243,6 @@ export default function IaParaCriarApresentacoes() {
                 <h1 className="text-3xl font-bold">IA para Criar Apresentações</h1>
             </div>
       <ExpandableContent />
-            <p className="mb-8 text-gray-600">
-                Ferramentas de inteligência artificial que transformam ideias em apresentações visuais impactantes em poucos minutos.
-            </p>
             <div className="grid gap-6 sm:grid-cols-2">
                 {ferramentas.map((ferramenta) => (
                     <a

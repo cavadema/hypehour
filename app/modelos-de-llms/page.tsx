@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import ExpandableContent from "./ExpandableContent";
 import { SparklesIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
@@ -149,9 +150,6 @@ export default function ModelosDeLLMs() {
         <h1 className="text-3xl font-bold">Modelos de LLMs</h1>
       </div>
       <ExpandableContent />
-      <p className="mb-8 text-gray-600">
-        Explore os modelos de linguagem que estão impulsionando copilotos, buscas inteligentes e agentes autônomos.
-      </p>
       <div className="grid gap-6 sm:grid-cols-2">
         {modelos.map((modelo) => (
           <a
@@ -239,6 +237,7 @@ export default function ModelosDeLLMs() {
           </div>
         </div>
       </section>
+          <FAQSection />
     </main>
   );
 }

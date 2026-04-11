@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import ExpandableContent from "./ExpandableContent";
 import { ArchiveBoxIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
@@ -106,6 +107,7 @@ export default function IaParaDesigners() {
           </a>
         ))}
       </div>
+          <FAQSection />
     </main>
   );
 }

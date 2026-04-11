@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import ExpandableContent from "./ExpandableContent";
 import { GlobeAltIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
@@ -84,10 +85,6 @@ export default function NavegadoresDeIA() {
         <h1 className="text-3xl font-bold">Navegadores de IA</h1>
       </div>
       <ExpandableContent />
-      <p className="mb-8 text-gray-600">
-        Conheça browsers que já vêm com copilotos, automações e integrações de inteligência artificial para acelerar sua
-        navegação e produtividade.
-      </p>
       <div className="grid gap-6 sm:grid-cols-2">
         {navegadores.map((nav) => (
           <a
@@ -102,6 +99,7 @@ export default function NavegadoresDeIA() {
           </a>
         ))}
       </div>
+          <FAQSection />
     </main>
   );
 }

@@ -5,124 +5,124 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        question: "O que são cursos de IA?",
-        answer: "Cursos de IA ensinam conceitos de inteligência artificial, como machine learning, automação, análise de dados e uso prático de ferramentas de IA."
+        "q": "O que é IA para cursos de ia?",
+        "a": "IA para cursos de ia são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a cursos de ia."
     },
     {
-        question: "Para quem os cursos de IA são indicados?",
-        answer: "São indicados para estudantes, profissionais, empreendedores e curiosos que querem aprender ou aplicar IA."
+        "q": "Para que serve a inteligência artificial em cursos de ia?",
+        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de cursos de ia."
     },
     {
-        question: "Existe curso de IA para iniciantes?",
-        answer: "Sim. Há cursos de IA para iniciantes que ensinam do zero, sem exigir programação."
+        "q": "Como funciona uma IA voltada para cursos de ia?",
+        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de cursos de ia."
     },
     {
-        question: "Curso de IA gratuito vale a pena?",
-        answer: "Sim. Muitos cursos gratuitos oferecem ótima base teórica e prática inicial."
+        "q": "Qual a melhor IA para cursos de ia em 2026?",
+        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de cursos de ia."
     },
     {
-        question: "O que se aprende em um curso de IA para iniciantes?",
-        answer: "Conceitos básicos, aplicações práticas, uso de ferramentas e fundamentos de IA."
+        "q": "IA para cursos de ia é gratuita?",
+        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
     },
     {
-        question: "Cursos de IA ensinam programação?",
-        answer: "Alguns sim, outros focam apenas no uso prático de IA sem código."
+        "q": "Funciona em português?",
+        "a": "Sim, a maioria das ferramentas modernas de IA para cursos de ia já oferece suporte completo ou parcial ao idioma português."
     },
     {
-        question: "Cursos de IA ajudam na carreira profissional?",
-        answer: "Sim. Conhecimento em IA é cada vez mais valorizado no mercado."
+        "q": "É seguro usar IA para cursos de ia?",
+        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
     },
     {
-        question: "Qual a duração média de um curso de IA?",
-        answer: "Pode variar de poucas horas a vários meses, dependendo do nível."
+        "q": "Inteligência artificial substitui profissionais de cursos de ia?",
+        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
     },
     {
-        question: "Cursos de IA online são confiáveis?",
-        answer: "Sim, especialmente quando oferecidos por plataformas reconhecidas."
+        "q": "Preciso saber programar para usar essas ferramentas?",
+        "a": "Na maioria das vezes não. O foco das novas IAs para cursos de ia é a facilidade de uso via interface intuitiva."
     },
     {
-        question: "Curso de IA gratuito tem certificado?",
-        answer: "Alguns oferecem certificado gratuito ou pago opcional."
+        "q": "Vale a pena investir em ferramentas de IA para cursos de ia?",
+        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
     },
     {
-        question: "Cursos de IA ensinam ferramentas como ChatGPT?",
-        answer: "Sim. Muitos cursos focam no uso prático de ferramentas de IA generativa."
+        "q": "Principais vantagens da IA em cursos de ia",
+        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de cursos de ia."
     },
     {
-        question: "Curso de IA para iniciantes é difícil?",
-        answer: "Não. Os cursos introdutórios são pensados para facilitar o aprendizado."
+        "q": "Desvantagens de usar IA para cursos de ia",
+        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
     },
     {
-        question: "Cursos de IA exigem conhecimento técnico prévio?",
-        answer: "Não necessariamente. Muitos começam do básico."
+        "q": "Como escolher a ferramenta ideal de cursos de ia?",
+        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em cursos de ia."
     },
     {
-        question: "Cursos de IA podem ser feitos no próprio ritmo?",
-        answer: "Sim. A maioria dos cursos online é sob demanda."
+        "q": "IA para cursos de ia para iniciantes",
+        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em cursos de ia."
     },
     {
-        question: "Vale a pena investir em cursos de IA?",
-        answer: "Sim. É um conhecimento com alta demanda e crescimento contínuo."
+        "q": "Ferramentas de cursos de ia para empresas",
+        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
     },
     {
-        question: "Qual é o melhor curso de IA atualmente?",
-        answer: "Depende do objetivo, mas cursos introdutórios online são os mais procurados."
+        "q": "Tendências de IA para cursos de ia para o futuro",
+        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de cursos de ia."
     },
     {
-        question: "Existe curso de IA totalmente gratuito?",
-        answer: "Sim. Há opções gratuitas em plataformas educacionais e universidades."
+        "q": "Diferença entre IA tradicional e IA Generativa para cursos de ia",
+        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para cursos de ia."
     },
     {
-        question: "Curso de IA gratuito é bom para iniciantes?",
-        answer: "Sim. É uma ótima forma de começar sem investimento."
+        "q": "Como aprender a usar IA para cursos de ia?",
+        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
     },
     {
-        question: "Quanto custa em média um curso de IA?",
-        answer: "Pode variar de gratuito até valores mais altos em formações completas."
+        "q": "Melhor custo-benefício em ferramentas de cursos de ia",
+        "a": "Avaliamos diversas opções para que você encontre a ferramenta de cursos de ia que cabe no seu bolso sem sacrificar a qualidade."
     },
     {
-        question: "Curso de IA ensina machine learning?",
-        answer: "Cursos intermediários e avançados geralmente ensinam."
+        "q": "Onde encontrar novidades sobre IA para cursos de ia?",
+        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para cursos de ia."
     },
     {
-        question: "Dá para aprender IA sozinho com cursos online?",
-        answer: "Sim. Muitos aprendem IA apenas com cursos online."
+        "q": "Existe IA gratuita para cursos de ia?",
+        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
     },
     {
-        question: "Cursos de IA ajudam a mudar de carreira?",
-        answer: "Sim. IA é uma área com muitas oportunidades."
+        "q": "Qual o impacto da IA no mercado de cursos de ia?",
+        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em cursos de ia."
     },
     {
-        question: "Curso de IA para iniciantes precisa de matemática?",
-        answer: "Não nos cursos básicos. Matemática aparece mais em níveis avançados."
+        "q": "Como automatizar processos de cursos de ia com IA?",
+        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
     },
     {
-        question: "Cursos de IA têm aulas práticas?",
-        answer: "Sim. A maioria inclui exercícios e projetos."
+        "q": "IA para cursos de ia funciona no celular?",
+        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
     },
     {
-        question: "Curso de IA gratuito prepara para o mercado?",
-        answer: "Ele prepara a base, mas cursos pagos costumam aprofundar mais."
+        "q": "Melhores prompts para IA de cursos de ia",
+        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
     },
     {
-        question: "Cursos de IA são reconhecidos pelo mercado?",
-        answer: "O conhecimento prático costuma valer mais que o certificado."
+        "q": "IA para cursos de ia é uma moda passageira?",
+        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de cursos de ia é realizado globalmente."
     },
     {
-        question: "Curso de IA ensina ética e uso responsável?",
-        answer: "Muitos cursos já abordam esse tema."
+        "q": "Quais dados as ferramentas de cursos de ia coletam?",
+        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
     },
     {
-        question: "Cursos de IA são indicados para empreendedores?",
-        answer: "Sim. IA pode otimizar processos e reduzir custos."
+        "q": "Dá para ganhar dinheiro usando IA para cursos de ia?",
+        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em cursos de ia."
     },
     {
-        question: "Curso de IA para iniciantes é o primeiro passo ideal?",
-        answer: "Sim. Ele cria a base para estudos mais avançados."
+        "q": "Existe suporte em português para essas ferramentas?",
+        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
     },
     {
-        question: "Onde encontrar bons cursos de IA?",
-        answer: "Em plataformas online, universidades e iniciativas educacionais."
+        "q": "Como o Hypehour seleciona as IAs de cursos de ia?",
+        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
     }
 ];
 
@@ -137,13 +137,11 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
             >
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""
-                        }`}
+                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
                 />
             </button>
             <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"
-                    }`}
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
             >
                 <p className="text-gray-600 leading-relaxed">{answer}</p>
             </div>
@@ -157,10 +155,10 @@ export default function FAQSection() {
         "@type": "FAQPage",
         "mainEntity": faqs.map(faq => ({
             "@type": "Question",
-            "name": faq.question,
+            "name": faq.q,
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": faq.answer
+                "text": faq.a
             }
         }))
     };
@@ -171,13 +169,13 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Cursos de IA</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Cursos De Ia</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem
                         key={index}
-                        question={faq.question}
-                        answer={faq.answer}
+                        question={faq.q}
+                        answer={faq.a}
                         index={index}
                     />
                 ))}

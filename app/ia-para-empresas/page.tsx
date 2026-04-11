@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import { BuildingOfficeIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
@@ -98,6 +99,7 @@ export default function IAParaEmpresasPage() {
           </a>
         ))}
       </div>
+          <FAQSection />
     </main>
   );
 }

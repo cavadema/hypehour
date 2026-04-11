@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import ExpandableContent from "./ExpandableContent";
 import { ArchiveBoxIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
@@ -130,9 +131,6 @@ export default function PacotesFerramentas() {
                 <h1 className="text-3xl font-bold">Pacotes de Ferramentas IA e Agregadores</h1>
             </div>
       <ExpandableContent />
-            <p className="mb-8 text-gray-600">
-                Descubra as melhores plataformas que agregam múltiplas ferramentas e modelos de inteligência artificial em um só lugar.
-            </p>
             <div className="grid gap-6 sm:grid-cols-2">
                 {ferramentas.map((ferramenta) => (
                     <a
@@ -147,6 +145,7 @@ export default function PacotesFerramentas() {
                     </a>
                 ))}
             </div>
-        </main>
+              <FAQSection />
+    </main>
     );
 }

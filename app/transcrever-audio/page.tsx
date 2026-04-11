@@ -63,9 +63,6 @@ export default function TranscreverAudio() {
         <h1 className="text-3xl font-bold">Transcrever áudio</h1>
       </div>
       <ExpandableContent />
-      <p className="mb-8 text-gray-600">
-        Ferramentas de IA para transcrever áudio em texto com precisão, rapidez e suporte a múltiplos idiomas.
-      </p>
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => (
           <a
@@ -83,49 +80,7 @@ export default function TranscreverAudio() {
 
       <FAQSection />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "O que é transcrever áudio?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Transcrever áudio é o processo de converter fala em texto escrito. Com ferramentas de IA, esse processo se tornou automático, rápido e preciso, permitindo transcrever reuniões, podcasts, entrevistas e palestras em segundos."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Qual a melhor IA para transcrever áudio em texto?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "As melhores IAs para transcrever áudio em texto incluem Speechify, Wisprflow, Willowvoice, Superwhisper e VibeVoice, oferecendo alta precisão, suporte multilíngue e edição integrada."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Como funciona a IA para transcrever áudio?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "A IA para transcrever áudio utiliza modelos de reconhecimento de fala treinados em milhões de horas de áudio, identificando padrões de voz, sotaques e contextos para converter com precisão o que foi dito em texto."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Text to speech IA é o mesmo que transcrição?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Não. Text to speech (TTS) converte texto em áudio falado, enquanto transcrição faz o oposto: converte áudio em texto escrito. Ambas tecnologias usam IA, mas com objetivos inversos."
-                }
-              }
-            ]
-          })
-        }}
-      />
+      
     </main>
   );
 }

@@ -5,69 +5,129 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        question: "O que é uma IA para fazer slides?",
-        answer: "Uma IA para fazer slides é uma ferramenta capaz de gerar automaticamente apresentações completas, criando textos, layouts e imagens a partir de um tema ou prompt digitado pelo usuário, simplificando totalmente o processo de produção de slides."
+        "q": "O que é IA para ia para criar apresentacoes?",
+        "a": "IA para ia para criar apresentacoes são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ia para criar apresentacoes."
     },
     {
-        question: "Qual é a melhor IA para criar apresentações?",
-        answer: "As melhores IAs para criar apresentações atualmente são Gamma, Beautiful.ai, Tome, Canva com IA, Pitch, PowerPoint Copilot, Google Slides com Gemini e Zoho Show AI, variando conforme o objetivo do usuário, como velocidade, personalização, design ou uso corporativo."
+        "q": "Para que serve a inteligência artificial em ia para criar apresentacoes?",
+        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ia para criar apresentacoes."
     },
     {
-        question: "Existem IAs para criar apresentações de slides grátis?",
-        answer: "Sim. Existem opções gratuitas como Canva, Gamma, Tome, Google Slides com Gemini, Beautiful.ai (versão limitada) e alguns recursos gratuitos do PowerPoint Copilot, todas com funcionalidades suficientes para criar apresentações completas sem custo."
+        "q": "Como funciona uma IA voltada para ia para criar apresentacoes?",
+        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ia para criar apresentacoes."
     },
     {
-        question: "Como funciona uma ferramenta de IA para criar apresentações?",
-        answer: "A ferramenta recebe um tema, texto ou documento e, com base nisso, gera automaticamente a estrutura dos tópicos, os textos principais, o design visual, o layout dos slides, imagens complementares e até infográficos, permitindo edição manual caso o usuário deseje ajustar."
+        "q": "Qual a melhor IA para ia para criar apresentacoes em 2026?",
+        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ia para criar apresentacoes."
     },
     {
-        question: "Qual é a IA mais rápida para fazer slides automaticamente?",
-        answer: "As IAs mais rápidas para gerar apresentações completas em poucos segundos são Gamma e Tome, que criam slides com textos, imagens, design e estrutura praticamente prontos para uso."
+        "q": "IA para ia para criar apresentacoes é gratuita?",
+        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
     },
     {
-        question: "Existe IA que cria apresentação a partir de texto, artigo ou PDF?",
-        answer: "Sim. Ferramentas como Gamma, Canva, PowerPoint Copilot, Beautiful.ai e Google Gemini conseguem transformar textos longos, PDFs, artigos, documentos e resumos em apresentações prontas automaticamente."
+        "q": "Funciona em português?",
+        "a": "Sim, a maioria das ferramentas modernas de IA para ia para criar apresentacoes já oferece suporte completo ou parcial ao idioma português."
     },
     {
-        question: "Posso usar IA para criar apresentações profissionais?",
-        answer: "Sim. A maioria dessas ferramentas gera apresentações com qualidade profissional, sendo usadas para reuniões empresariais, propostas comerciais, pitches, aulas, treinamentos, trabalhos acadêmicos e eventos corporativos. Entre as mais indicadas para uso profissional estão Pitch, Beautiful.ai e Canva."
+        "q": "É seguro usar IA para ia para criar apresentacoes?",
+        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
     },
     {
-        question: "Qual IA cria apresentações com melhor design?",
-        answer: "As IAs que se destacam no design são Beautiful.ai, Gamma, Tome e Pitch, que oferecem modelos modernos, animações elegantes e ajustes automáticos que deixam os slides visualmente equilibrados e profissionais."
+        "q": "Inteligência artificial substitui profissionais de ia para criar apresentacoes?",
+        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
     },
     {
-        question: "IA para criar apresentação é melhor que usar PowerPoint manualmente?",
-        answer: "Para quem prioriza rapidez, sim. A IA cria automaticamente a estrutura, organiza os textos, ajusta o design e gera imagens, economizando horas de trabalho. Depois, o usuário ainda pode exportar e finalizar tudo no PowerPoint, se desejar."
+        "q": "Preciso saber programar para usar essas ferramentas?",
+        "a": "Na maioria das vezes não. O foco das novas IAs para ia para criar apresentacoes é a facilidade de uso via interface intuitiva."
     },
     {
-        question: "Tem IA que cria slides com imagens e gráficos automaticamente?",
-        answer: "Sim. Plataformas como Gamma, Tome, Canva e Beautiful.ai geram gráficos, tabelas, ilustrações e imagens automaticamente com base no conteúdo inserido pelo usuário."
+        "q": "Vale a pena investir em ferramentas de IA para ia para criar apresentacoes?",
+        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
     },
     {
-        question: "Posso baixar a apresentação criada pela IA em PowerPoint (PPT)?",
-        answer: "Sim. A maioria das ferramentas permite exportar os slides em formatos como PPTX, PDF ou imagens, especialmente Canva, Gamma e Beautiful.ai."
+        "q": "Principais vantagens da IA em ia para criar apresentacoes",
+        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ia para criar apresentacoes."
     },
     {
-        question: "IA para criar apresentações funciona para estudar e fazer trabalhos?",
-        answer: "Sim. Estudantes usam essas ferramentas para criar resumos, apresentações de livros, seminários, TCCs e trabalhos escolares com rapidez. As opções mais populares para estudos são Canva, Google Slides e Gamma."
+        "q": "Desvantagens de usar IA para ia para criar apresentacoes",
+        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
     },
     {
-        question: "IA para criar slides é segura?",
-        answer: "Sim, desde que você utilize plataformas confiáveis. Ferramentas como Canva, Microsoft Copilot, Google Gemini, Gamma e Beautiful.ai seguem padrões de segurança e privacidade que protegem os dados enviados pelos usuários."
+        "q": "Como escolher a ferramenta ideal de ia para criar apresentacoes?",
+        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ia para criar apresentacoes."
     },
     {
-        question: "Qual IA cria apresentação no estilo PowerPoint tradicional?",
-        answer: "As melhores opções para quem prefere o estilo tradicional do PowerPoint são PowerPoint Copilot, Canva (com exportação para PPT) e Google Slides, que mantêm layouts mais clássicos e fáceis de editar."
+        "q": "IA para ia para criar apresentacoes para iniciantes",
+        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ia para criar apresentacoes."
     },
     {
-        question: "Qual IA é melhor para apresentações em português?",
-        answer: "As ferramentas que melhor compreendem e geram conteúdo em português são Gamma, Canva, Tome, Microsoft Copilot e Google Gemini, garantindo textos mais naturais e bem estruturados no idioma."
+        "q": "Ferramentas de ia para criar apresentacoes para empresas",
+        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
+    },
+    {
+        "q": "Tendências de IA para ia para criar apresentacoes para o futuro",
+        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ia para criar apresentacoes."
+    },
+    {
+        "q": "Diferença entre IA tradicional e IA Generativa para ia para criar apresentacoes",
+        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ia para criar apresentacoes."
+    },
+    {
+        "q": "Como aprender a usar IA para ia para criar apresentacoes?",
+        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
+    },
+    {
+        "q": "Melhor custo-benefício em ferramentas de ia para criar apresentacoes",
+        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ia para criar apresentacoes que cabe no seu bolso sem sacrificar a qualidade."
+    },
+    {
+        "q": "Onde encontrar novidades sobre IA para ia para criar apresentacoes?",
+        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ia para criar apresentacoes."
+    },
+    {
+        "q": "Existe IA gratuita para ia para criar apresentacoes?",
+        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
+    },
+    {
+        "q": "Qual o impacto da IA no mercado de ia para criar apresentacoes?",
+        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ia para criar apresentacoes."
+    },
+    {
+        "q": "Como automatizar processos de ia para criar apresentacoes com IA?",
+        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
+    },
+    {
+        "q": "IA para ia para criar apresentacoes funciona no celular?",
+        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
+    },
+    {
+        "q": "Melhores prompts para IA de ia para criar apresentacoes",
+        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
+    },
+    {
+        "q": "IA para ia para criar apresentacoes é uma moda passageira?",
+        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ia para criar apresentacoes é realizado globalmente."
+    },
+    {
+        "q": "Quais dados as ferramentas de ia para criar apresentacoes coletam?",
+        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
+    },
+    {
+        "q": "Dá para ganhar dinheiro usando IA para ia para criar apresentacoes?",
+        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ia para criar apresentacoes."
+    },
+    {
+        "q": "Existe suporte em português para essas ferramentas?",
+        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
+    },
+    {
+        "q": "Como o Hypehour seleciona as IAs de ia para criar apresentacoes?",
+        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5); // Primeiros 5 abertos por padrão
+    const [isOpen, setIsOpen] = useState(index < 5);
 
     return (
         <div className="border-b border-gray-200 last:border-0">
@@ -77,13 +137,11 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
             >
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""
-                        }`}
+                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
                 />
             </button>
             <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"
-                    }`}
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
             >
                 <p className="text-gray-600 leading-relaxed">{answer}</p>
             </div>
@@ -92,15 +150,32 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
 }
 
 export default function FAQSection() {
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(faq => ({
+            "@type": "Question",
+            "name": faq.q,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.a
+            }
+        }))
+    };
+
     return (
         <div className="mt-12 mb-8">
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Apresentações</h2>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+            />
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ia Para Criar Apresentacoes</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem
                         key={index}
-                        question={faq.question}
-                        answer={faq.answer}
+                        question={faq.q}
+                        answer={faq.a}
                         index={index}
                     />
                 ))}

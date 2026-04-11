@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import { CodeBracketIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
@@ -570,6 +571,7 @@ export default function IaParaDesenvolvedores() {
           </a>
         ))}
       </div>
+          <FAQSection />
     </main>
   );
 }

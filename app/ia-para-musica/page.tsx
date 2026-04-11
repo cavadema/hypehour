@@ -249,9 +249,6 @@ export default function IaParaMusica() {
                 <h1 className="text-3xl font-bold">IA para Música</h1>
             </div>
       <ExpandableContent />
-            <p className="mb-8 text-gray-600">
-                Descubra as melhores ferramentas de inteligência artificial para criação, edição e geração de música e áudio.
-            </p>
             <div className="grid gap-6 sm:grid-cols-2">
                 {ferramentas.map((ferramenta) => (
                     <a

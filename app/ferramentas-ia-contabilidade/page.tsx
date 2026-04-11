@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import { CalculatorIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
@@ -75,6 +76,7 @@ export default function IaParaContabilidade() {
                     </a>
                 ))}
             </div>
-        </main>
+              <FAQSection />
+    </main>
     );
 }

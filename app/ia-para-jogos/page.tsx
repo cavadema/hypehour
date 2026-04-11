@@ -90,9 +90,6 @@ export default function IAparaJogos() {
                 <h1 className="text-3xl font-bold">IA para Jogos</h1>
             </div>
       <ExpandableContent />
-            <p className="mb-8 text-gray-600">
-                Descubra as melhores ferramentas de inteligência artificial para criar jogos. De desenvolvimento sem código a geração de assets, estas plataformas usam IA para transformar suas ideias em jogos reais.
-            </p>
             <div className="grid gap-6 sm:grid-cols-2">
                 {ferramentas.map((ferramenta) => (
                     <a

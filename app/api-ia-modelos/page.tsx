@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import ExpandableContent from "./ExpandableContent";
 
 import { SparklesIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
@@ -107,9 +108,6 @@ export default function APIsIA() {
         <h1 className="text-3xl font-bold">APIs de IA</h1>
       </div>
       <ExpandableContent />
-      <p className="mb-8 text-gray-600">
-        Descubra as principais APIs, modelos de linguagem e plataformas para integrar inteligência artificial em seus projetos.
-      </p>
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((api) => (
           <a
@@ -124,6 +122,7 @@ export default function APIsIA() {
           </a>
         ))}
       </div>
+          <FAQSection />
     </main>
   );
 }

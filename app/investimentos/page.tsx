@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import { ChartBarIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
@@ -47,6 +48,7 @@ export default function InvestimentosPage() {
           </a>
         ))}
       </div>
+          <FAQSection />
     </main>
   );
 }

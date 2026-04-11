@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import { HeartIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
@@ -196,6 +197,7 @@ export default function IaParaMedicos() {
                     </a>
                 ))}
             </div>
-        </main>
+              <FAQSection />
+    </main>
     );
 }

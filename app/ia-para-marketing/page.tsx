@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import { MegaphoneIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
@@ -495,6 +496,7 @@ export default function IaParaMarketing() {
                     </a>
                 ))}
             </div>
-        </main>
+              <FAQSection />
+    </main>
     );
 }

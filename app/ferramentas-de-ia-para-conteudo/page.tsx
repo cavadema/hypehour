@@ -348,9 +348,6 @@ export default function IaParaConteudo() {
         <h1 className="text-3xl font-bold">IA para Conteúdo</h1>
       </div>
       <ExpandableContent />
-      <p className="mb-8 text-gray-600">
-        Descubra as melhores ferramentas de IA para criar artigos, posts, e-mails e copys de alta conversão.
-      </p>
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((ferramenta) => (
           <a

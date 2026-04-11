@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import { AcademicCapIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
@@ -129,6 +130,7 @@ export default function IaParaProfessores() {
           </a>
         ))}
       </div>
+          <FAQSection />
     </main>
   );
 }

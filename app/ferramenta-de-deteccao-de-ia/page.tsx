@@ -95,10 +95,6 @@ export default function FerramentaDeteccaoIA() {
         <h1 className="text-3xl font-bold">Ferramentas de detecção de IA</h1>
       </div>
       <ExpandableContent />
-      <p className="mb-8 text-gray-600">
-        Explore detectores especializados para verificar se um texto foi escrito por inteligência artificial. Escolha a
-        ferramenta que melhor se adapta ao seu fluxo de trabalho.
-      </p>
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((ferramenta) => (
           <a

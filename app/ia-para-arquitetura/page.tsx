@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import { BuildingOffice2Icon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
@@ -115,6 +116,7 @@ export default function IaParaArquitetura() {
                     </a>
                 ))}
             </div>
-        </main>
+              <FAQSection />
+    </main>
     );
 }

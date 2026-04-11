@@ -4,92 +4,182 @@ import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
-  { question: "O que é CRM com IA?", answer: "CRM com IA é um sistema de gestão de clientes que usa inteligência artificial para automatizar processos, analisar dados e melhorar decisões comerciais." },
-  { question: "Como funciona a IA para CRM?", answer: "A IA analisa dados de clientes, histórico de vendas e interações para gerar insights, previsões e automações." },
-  { question: "Quais são os benefícios do CRM com inteligência artificial?", answer: "Automação de tarefas, melhor previsibilidade de vendas, personalização de atendimento e aumento de conversão." },
-  { question: "IA para CRM ajuda a vender mais?", answer: "Sim. Ela identifica leads mais qualificados e sugere as melhores ações de venda." },
-  { question: "Automação de CRM com IA substitui vendedores?", answer: "Não. Ela apoia o time comercial, mas não substitui o fator humano." },
-  { question: "CRM com IA é indicado para pequenas empresas?", answer: "Sim. Existem CRMs com IA acessíveis para PMEs." },
-  { question: "IA para CRM funciona em vendas e marketing?", answer: "Sim. Ela integra dados de marketing, vendas e atendimento." },
-  { question: "CRM inteligente melhora o relacionamento com clientes?", answer: "Sim. Ele personaliza comunicações e acompanha o ciclo do cliente." },
-  { question: "CRM com IA pode prever churn?", answer: "Sim. A IA identifica sinais de cancelamento antecipadamente." },
-  { question: "CRM com inteligência artificial gera relatórios automáticos?", answer: "Sim. Dashboards e relatórios são gerados em tempo real." },
-  { question: "IA para CRM ajuda no atendimento ao cliente?", answer: "Sim. Ela pode integrar chatbots e respostas automáticas." },
-  { question: "CRM com IA funciona integrado a outros sistemas?", answer: "Sim. Ele se conecta a ERPs, ferramentas de marketing e canais de comunicação." },
-  { question: "Automação de CRM com IA é difícil de configurar?", answer: "Não. Muitos sistemas são no-code ou low-code." },
-  { question: "CRM com IA é seguro?", answer: "Sim, desde que siga boas práticas de segurança e LGPD." },
-  { question: "Vale a pena investir em CRM com IA?", answer: "Sim. Ele aumenta produtividade e eficiência comercial." },
-  { question: "Qual o melhor CRM com IA atualmente?", answer: "Depende do porte da empresa e objetivos, mas soluções modernas já incluem IA nativa." },
-  { question: "IA para CRM é cara?", answer: "Não necessariamente. Há planos acessíveis e escaláveis." },
-  { question: "CRM com IA funciona para e-commerce?", answer: "Sim. Ele ajuda na retenção e personalização de ofertas." },
-  { question: "Automação de CRM com IA precisa de programador?", answer: "Não. Muitas automações são feitas por interface visual." },
-  { question: "IA no CRM substitui planilhas?", answer: "Sim. O CRM centraliza dados e automatiza análises." },
-  { question: "CRM inteligente ajuda na qualificação de leads?", answer: "Sim. Ele classifica leads com base em comportamento." },
-  { question: "IA para CRM pode sugerir próximas ações?", answer: "Sim. A IA recomenda follow-ups e abordagens." },
-  { question: "CRM com IA melhora o funil de vendas?", answer: "Sim. Ele identifica gargalos e oportunidades." },
-  { question: "IA para CRM funciona em tempo real?", answer: "Sim. Muitos sistemas atualizam dados instantaneamente." },
-  { question: "CRM com inteligência artificial ajuda no pós-venda?", answer: "Sim. Ele acompanha satisfação e oportunidades de upsell." },
-  { question: "Automação de CRM com IA reduz custos?", answer: "Sim. Menos tarefas manuais e maior eficiência." },
-  { question: "CRM com IA é indicado para equipes remotas?", answer: "Sim. Centraliza informações e comunicação." },
-  { question: "IA para CRM ajuda no marketing personalizado?", answer: "Sim. Ela segmenta públicos automaticamente." },
-  { question: "CRM com IA pode integrar WhatsApp e e-mail?", answer: "Sim. Muitos CRMs já oferecem essas integrações." },
-  { question: "CRM com IA vale a pena para empresas em crescimento?", answer: "Sim. Ele escala junto com o negócio." },
+    {
+        "q": "O que é IA para crm ia?",
+        "a": "IA para crm ia são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a crm ia."
+    },
+    {
+        "q": "Para que serve a inteligência artificial em crm ia?",
+        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de crm ia."
+    },
+    {
+        "q": "Como funciona uma IA voltada para crm ia?",
+        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de crm ia."
+    },
+    {
+        "q": "Qual a melhor IA para crm ia em 2026?",
+        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de crm ia."
+    },
+    {
+        "q": "IA para crm ia é gratuita?",
+        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+    },
+    {
+        "q": "Funciona em português?",
+        "a": "Sim, a maioria das ferramentas modernas de IA para crm ia já oferece suporte completo ou parcial ao idioma português."
+    },
+    {
+        "q": "É seguro usar IA para crm ia?",
+        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+    },
+    {
+        "q": "Inteligência artificial substitui profissionais de crm ia?",
+        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+    },
+    {
+        "q": "Preciso saber programar para usar essas ferramentas?",
+        "a": "Na maioria das vezes não. O foco das novas IAs para crm ia é a facilidade de uso via interface intuitiva."
+    },
+    {
+        "q": "Vale a pena investir em ferramentas de IA para crm ia?",
+        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+    },
+    {
+        "q": "Principais vantagens da IA em crm ia",
+        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de crm ia."
+    },
+    {
+        "q": "Desvantagens de usar IA para crm ia",
+        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
+    },
+    {
+        "q": "Como escolher a ferramenta ideal de crm ia?",
+        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em crm ia."
+    },
+    {
+        "q": "IA para crm ia para iniciantes",
+        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em crm ia."
+    },
+    {
+        "q": "Ferramentas de crm ia para empresas",
+        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
+    },
+    {
+        "q": "Tendências de IA para crm ia para o futuro",
+        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de crm ia."
+    },
+    {
+        "q": "Diferença entre IA tradicional e IA Generativa para crm ia",
+        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para crm ia."
+    },
+    {
+        "q": "Como aprender a usar IA para crm ia?",
+        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
+    },
+    {
+        "q": "Melhor custo-benefício em ferramentas de crm ia",
+        "a": "Avaliamos diversas opções para que você encontre a ferramenta de crm ia que cabe no seu bolso sem sacrificar a qualidade."
+    },
+    {
+        "q": "Onde encontrar novidades sobre IA para crm ia?",
+        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para crm ia."
+    },
+    {
+        "q": "Existe IA gratuita para crm ia?",
+        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
+    },
+    {
+        "q": "Qual o impacto da IA no mercado de crm ia?",
+        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em crm ia."
+    },
+    {
+        "q": "Como automatizar processos de crm ia com IA?",
+        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
+    },
+    {
+        "q": "IA para crm ia funciona no celular?",
+        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
+    },
+    {
+        "q": "Melhores prompts para IA de crm ia",
+        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
+    },
+    {
+        "q": "IA para crm ia é uma moda passageira?",
+        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de crm ia é realizado globalmente."
+    },
+    {
+        "q": "Quais dados as ferramentas de crm ia coletam?",
+        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
+    },
+    {
+        "q": "Dá para ganhar dinheiro usando IA para crm ia?",
+        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em crm ia."
+    },
+    {
+        "q": "Existe suporte em português para essas ferramentas?",
+        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
+    },
+    {
+        "q": "Como o Hypehour seleciona as IAs de crm ia?",
+        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+    }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-  const [isOpen, setIsOpen] = useState(index < 5);
+    const [isOpen, setIsOpen] = useState(index < 5);
 
-  return (
-    <div className="border-b border-gray-200 last:border-0">
-      <button
-        className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <span className="font-medium text-gray-900">{question}</span>
-        <ChevronDownIcon
-          className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
-        />
-      </button>
-      <div
-        className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-      >
-        <p className="text-gray-600 leading-relaxed">{answer}</p>
-      </div>
-    </div>
-  );
+    return (
+        <div className="border-b border-gray-200 last:border-0">
+            <button
+                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
+                onClick={() => setIsOpen(!isOpen)}
+            >
+                <span className="font-medium text-gray-900">{question}</span>
+                <ChevronDownIcon
+                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                />
+            </button>
+            <div
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
+            >
+                <p className="text-gray-600 leading-relaxed">{answer}</p>
+            </div>
+        </div>
+    );
 }
 
 export default function FAQSection() {
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqs.map((faq) => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer
-      }
-    }))
-  };
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(faq => ({
+            "@type": "Question",
+            "name": faq.q,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.a
+            }
+        }))
+    };
 
-  return (
-    <div className="mt-12 mb-8">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre CRM com IA</h2>
-      <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
-        {faqs.map((faq, index) => (
-          <FAQItem
-            key={index}
-            question={faq.question}
-            answer={faq.answer}
-            index={index}
-          />
-        ))}
-      </div>
-    </div>
-  );
+    return (
+        <div className="mt-12 mb-8">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+            />
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Crm Ia</h2>
+            <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
+                {faqs.map((faq, index) => (
+                    <FAQItem
+                        key={index}
+                        question={faq.q}
+                        answer={faq.a}
+                        index={index}
+                    />
+                ))}
+            </div>
+        </div>
+    );
 }

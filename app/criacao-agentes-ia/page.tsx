@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import ExpandableContent from "./ExpandableContent";
 import { GlobeAltIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
@@ -186,7 +187,6 @@ export default function CriacaoAgentesIA() {
         <h1 className="text-3xl font-bold">Criação de Agentes de IA</h1>
       </div>
       <ExpandableContent />
-      <p className="mb-8 text-gray-600">Ferramentas de IA para criar, testar e operar agentes com rapidez.</p>
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => (
           <a
@@ -201,6 +201,7 @@ export default function CriacaoAgentesIA() {
           </a>
         ))}
       </div>
+          <FAQSection />
     </main>
   );
 }

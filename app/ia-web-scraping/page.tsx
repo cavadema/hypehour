@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import ExpandableContent from "./ExpandableContent";
 
 import { GlobeAltIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
@@ -93,9 +94,6 @@ export default function WebScrapingPage() {
                 <h1 className="text-3xl font-bold">IA para Web Scraping</h1>
             </div>
       <ExpandableContent />
-            <p className="mb-8 text-gray-600">
-                Ferramentas essenciais para extração de dados, monitoramento de sites e automação de navegação web, potencializadas por Inteligência Artificial.
-            </p>
             <div className="grid gap-6 sm:grid-cols-2">
                 {ferramentas.map((f) => (
                     <a key={f.nome} href={f.url} target="_blank" rel="noopener noreferrer" className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100">
@@ -104,6 +102,7 @@ export default function WebScrapingPage() {
                     </a>
                 ))}
             </div>
-        </main>
+              <FAQSection />
+    </main>
     );
 }

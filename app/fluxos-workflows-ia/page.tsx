@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import ExpandableContent from "./ExpandableContent";
 import { ArrowPathIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
@@ -47,6 +48,7 @@ export default function FluxosWorkflowsIAPage() {
           </a>
         ))}
       </div>
+          <FAQSection />
     </main>
   );
 }

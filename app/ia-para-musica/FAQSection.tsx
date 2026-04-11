@@ -5,69 +5,129 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        question: "O que é IA para música?",
-        answer: "IA para música é tecnologia que usa inteligência artificial para gerar melodias, letras, arranjos e vozes automaticamente. Ela aprende padrões musicais e cria composições originais com base em prompts textuais, estilos específicos ou referências sonoras fornecidas pelo usuário."
+        "q": "O que é IA para ia para musica?",
+        "a": "IA para ia para musica são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ia para musica."
     },
     {
-        question: "Para que serve a inteligência artificial para música?",
-        answer: "Inteligência artificial para música serve para criar composições, gerar letras, produzir vocais, montar arranjos, criar trilhas sonoras e acelerar processos de produção musical. Ela auxilia músicos, criadores de conteúdo, produtores e pessoas sem conhecimento técnico."
+        "q": "Para que serve a inteligência artificial em ia para musica?",
+        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ia para musica."
     },
     {
-        question: "Como funciona a IA para criar música?",
-        answer: "IA para criar música funciona analisando grandes bases de dados musicais e usando modelos generativos para produzir melodias, harmonias e letras. O usuário descreve o estilo em um prompt e a ferramenta transforma essa descrição em uma música completa."
+        "q": "Como funciona uma IA voltada para ia para musica?",
+        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ia para musica."
     },
     {
-        question: "Como usar IA para fazer música?",
-        answer: "Para usar IA para fazer música, basta escrever um prompt com estilo, ritmo e tema. A IA gera letra, melodia, voz e arranjo automaticamente. Plataformas como Suno e Udio permitem criar músicas completas sem conhecimento de produção musical."
+        "q": "Qual a melhor IA para ia para musica em 2026?",
+        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ia para musica."
     },
     {
-        question: "Quais são as melhores IAs para música?",
-        answer: "As melhores IAs para música incluem Suno, Udio, AIVA, Soundraw e Amper Music. Elas geram músicas completas, vocais, trilhas instrumentais e até mixagens automáticas. A escolha depende do tipo de projeto e do uso comercial desejado."
+        "q": "IA para ia para musica é gratuita?",
+        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
     },
     {
-        question: "IA para criar música é boa?",
-        answer: "IA para criar música é eficaz porque gera composições completas com qualidade profissional, incluindo letra, voz, harmonia e mixagem automática. Ela é usada tanto por amadores quanto por músicos profissionais para acelerar processos criativos."
+        "q": "Funciona em português?",
+        "a": "Sim, a maioria das ferramentas modernas de IA para ia para musica já oferece suporte completo ou parcial ao idioma português."
     },
     {
-        question: "IA substitui músicos?",
-        answer: "IA não substitui músicos, porque depende de direção artística humana. Ela automatiza tarefas repetitivas e ajuda na criatividade, mas conceitos como interpretação, emoção e escolha estética continuam sendo responsabilidade dos artistas."
+        "q": "É seguro usar IA para ia para musica?",
+        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
     },
     {
-        question: "É possível criar músicas completas com IA?",
-        answer: "Sim. É possível criar músicas completas com IA, incluindo letra, melodia, instrumentos, arranjos e vocais sintéticos. Ferramentas modernas geram faixas finalizadas prontas para uso em vídeos, jogos, publicidade e plataformas de streaming."
+        "q": "Inteligência artificial substitui profissionais de ia para musica?",
+        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
     },
     {
-        question: "IA para música pode imitar estilos de artistas famosos?",
-        answer: "IA para música pode gerar músicas inspiradas em estilos específicos, mas sem copiar vozes ou melodias protegidas por direitos autorais. Ela recria características gerais, como ritmo, harmonia e atmosfera."
+        "q": "Preciso saber programar para usar essas ferramentas?",
+        "a": "Na maioria das vezes não. O foco das novas IAs para ia para musica é a facilidade de uso via interface intuitiva."
     },
     {
-        question: "Posso usar músicas criadas com IA comercialmente?",
-        answer: "Sim, mas depende da plataforma usada. Algumas IAs liberam uso comercial total, enquanto outras exigem licenciamento. É essencial verificar os termos de uso antes de publicar ou monetizar músicas geradas por IA."
+        "q": "Vale a pena investir em ferramentas de IA para ia para musica?",
+        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
     },
     {
-        question: "IA para fazer música é gratuita?",
-        answer: "IA para fazer música pode ser gratuita em planos básicos, mas normalmente com limites de geração. Ferramentas pagas oferecem mais qualidade, velocidade e direitos comerciais. Suno, Udio e AIVA têm versões free e versões premium."
+        "q": "Principais vantagens da IA em ia para musica",
+        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ia para musica."
     },
     {
-        question: "Como a IA cria letras de música?",
-        answer: "A IA cria letras de música analisando padrões linguísticos e estruturais de milhares de composições. Ela usa prompts para definir tema, estilo e emoção, gerando letras completas em poucos segundos."
+        "q": "Desvantagens de usar IA para ia para musica",
+        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
     },
     {
-        question: "IA para música funciona em português?",
-        answer: "IA para música funciona em português e consegue gerar letras e vocais em PT-BR. Ferramentas modernas entendem prompts em português e são capazes de cantar com boa pronúncia e prosódia."
+        "q": "Como escolher a ferramenta ideal de ia para musica?",
+        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ia para musica."
     },
     {
-        question: "Como escolher a melhor IA para criar música?",
-        answer: "Para escolher a melhor IA para criar música, defina o objetivo: músicas completas (Suno, Udio), trilhas instrumentais (AIVA, Soundraw), vocais (Kits.AI), ou mixagem e edição (iZotope). Também verifique direitos comerciais e limitações do plano."
+        "q": "IA para ia para musica para iniciantes",
+        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ia para musica."
     },
     {
-        question: "IA para música é segura em relação a direitos autorais?",
-        answer: "IA para música é segura quando a plataforma garante que as obras são originais. Porém, cada serviço possui regras próprias de copyright. É importante conferir se a música pode ser usada comercialmente e se há restrições de distribuição."
+        "q": "Ferramentas de ia para musica para empresas",
+        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
+    },
+    {
+        "q": "Tendências de IA para ia para musica para o futuro",
+        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ia para musica."
+    },
+    {
+        "q": "Diferença entre IA tradicional e IA Generativa para ia para musica",
+        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ia para musica."
+    },
+    {
+        "q": "Como aprender a usar IA para ia para musica?",
+        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
+    },
+    {
+        "q": "Melhor custo-benefício em ferramentas de ia para musica",
+        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ia para musica que cabe no seu bolso sem sacrificar a qualidade."
+    },
+    {
+        "q": "Onde encontrar novidades sobre IA para ia para musica?",
+        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ia para musica."
+    },
+    {
+        "q": "Existe IA gratuita para ia para musica?",
+        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
+    },
+    {
+        "q": "Qual o impacto da IA no mercado de ia para musica?",
+        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ia para musica."
+    },
+    {
+        "q": "Como automatizar processos de ia para musica com IA?",
+        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
+    },
+    {
+        "q": "IA para ia para musica funciona no celular?",
+        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
+    },
+    {
+        "q": "Melhores prompts para IA de ia para musica",
+        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
+    },
+    {
+        "q": "IA para ia para musica é uma moda passageira?",
+        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ia para musica é realizado globalmente."
+    },
+    {
+        "q": "Quais dados as ferramentas de ia para musica coletam?",
+        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
+    },
+    {
+        "q": "Dá para ganhar dinheiro usando IA para ia para musica?",
+        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ia para musica."
+    },
+    {
+        "q": "Existe suporte em português para essas ferramentas?",
+        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
+    },
+    {
+        "q": "Como o Hypehour seleciona as IAs de ia para musica?",
+        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5); // Primeiros 5 abertos por padrão
+    const [isOpen, setIsOpen] = useState(index < 5);
 
     return (
         <div className="border-b border-gray-200 last:border-0">
@@ -77,13 +137,11 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
             >
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""
-                        }`}
+                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
                 />
             </button>
             <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"
-                    }`}
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
             >
                 <p className="text-gray-600 leading-relaxed">{answer}</p>
             </div>
@@ -92,15 +150,32 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
 }
 
 export default function FAQSection() {
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(faq => ({
+            "@type": "Question",
+            "name": faq.q,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.a
+            }
+        }))
+    };
+
     return (
         <div className="mt-12 mb-8">
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Música</h2>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+            />
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ia Para Musica</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem
                         key={index}
-                        question={faq.question}
-                        answer={faq.answer}
+                        question={faq.q}
+                        answer={faq.a}
                         index={index}
                     />
                 ))}

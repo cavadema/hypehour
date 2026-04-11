@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import { ScaleIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
@@ -105,6 +106,7 @@ export default function IaParaAdvogados() {
                     </a>
                 ))}
             </div>
-        </main>
+              <FAQSection />
+    </main>
     );
 }

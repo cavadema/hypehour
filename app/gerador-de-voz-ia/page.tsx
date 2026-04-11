@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import ExpandableContent from "./ExpandableContent";
 import { MegaphoneIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
@@ -51,7 +52,6 @@ export default function GeradorDeVozIA() {
         <h1 className="text-3xl font-bold">Gerador de Voz com IA</h1>
       </div>
       <ExpandableContent />
-      <p className="mb-8 text-gray-600">Ferramentas TTS para criar narrações e vozes naturais em português.</p>
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => (
           <a key={f.nome} href={f.url} target="_blank" rel="noopener noreferrer" className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100">
@@ -60,6 +60,7 @@ export default function GeradorDeVozIA() {
           </a>
         ))}
       </div>
+          <FAQSection />
     </main>
   );
 }

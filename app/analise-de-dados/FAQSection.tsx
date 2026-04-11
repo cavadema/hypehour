@@ -4,92 +4,182 @@ import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
-  { question: "O que é IA para análise de dados?", answer: "É o uso de inteligência artificial para interpretar grandes volumes de dados, identificar padrões, gerar insights e automatizar análises." },
-  { question: "Como funciona a análise de dados com IA?", answer: "A IA aplica algoritmos estatísticos e modelos de machine learning para encontrar correlações, tendências e previsões automaticamente." },
-  { question: "Qual a melhor IA para análise de dados hoje?", answer: "Ferramentas como Power BI com Copilot, Tableau AI, Google BigQuery ML e ChatGPT são amplamente utilizadas." },
-  { question: "IA de análise de dados substitui um analista humano?", answer: "Não. A IA acelera análises, mas a interpretação estratégica ainda depende do profissional." },
-  { question: "IA para análise de dados é indicada para iniciantes?", answer: "Sim. Muitas ferramentas usam linguagem natural, facilitando o uso mesmo sem conhecimento técnico avançado." },
-  { question: "Existe IA para análise de dados gratuita?", answer: "Sim. Google Colab, versões gratuitas do Power BI, ChatGPT e ferramentas open source oferecem recursos sem custo." },
-  { question: "IA para análise de dados funciona com grandes volumes?", answer: "Sim. Ela é especialmente eficiente em big data e conjuntos complexos." },
-  { question: "Ciência de dados e IA são a mesma coisa?", answer: "Não. Ciência de dados é a área; IA é uma das tecnologias usadas dentro dela." },
-  { question: "IA para análise de dados ajuda na tomada de decisão?", answer: "Sim. Ela gera insights rápidos e previsões que apoiam decisões estratégicas." },
-  { question: "IA para análise de dados é usada em empresas?", answer: "Sim. É amplamente usada em marketing, finanças, logística, saúde e tecnologia." },
-  { question: "IA para análise de dados funciona em tempo real?", answer: "Sim. Algumas ferramentas analisam dados em tempo real para monitoramento contínuo." },
-  { question: "Análise de dados com IA melhora a precisão?", answer: "Em muitos casos, sim, pois reduz erros humanos e detecta padrões ocultos." },
-  { question: "IA para análise de dados pode gerar relatórios automaticamente?", answer: "Sim. Ela cria dashboards, gráficos e relatórios de forma automática." },
-  { question: "IA para análise de dados Excel é possível?", answer: "Sim. Excel com Copilot e plugins de IA permitem análises avançadas direto na planilha." },
-  { question: "IA de análise de dados exige programação?", answer: "Não necessariamente. Muitas plataformas funcionam via interface visual ou linguagem natural." },
-  { question: "Como usar IA para análise de dados na prática?", answer: "Basta conectar a IA à base de dados e fazer perguntas ou gerar relatórios automaticamente." },
-  { question: "Qual IA é melhor para análise de dados empresarial?", answer: "Power BI, Tableau AI e BigQuery ML são líderes no ambiente corporativo." },
-  { question: "IA para análise de dados é segura?", answer: "Sim, desde que sejam seguidas boas práticas de segurança e privacidade." },
-  { question: "IA de análise de dados funciona para pequenas empresas?", answer: "Sim. Existem ferramentas acessíveis e até gratuitas para PMEs." },
-  { question: "IA pode analisar dados sem intervenção humana?", answer: "Parcialmente. Ela executa análises, mas a validação final é humana." },
-  { question: "Qual a diferença entre análise tradicional e análise com IA?", answer: "A IA automatiza e escala análises, enquanto a tradicional é mais manual." },
-  { question: "IA para análise de dados pode prever tendências?", answer: "Sim. Modelos preditivos estimam comportamentos futuros com base em dados históricos." },
-  { question: "IA para análise de dados funciona com dados não estruturados?", answer: "Sim. Textos, imagens e áudios também podem ser analisados." },
-  { question: "IA para análise de dados é difícil de aprender?", answer: "Não. Ferramentas modernas focam em usabilidade e linguagem natural." },
-  { question: "IA para análise de dados ajuda no Excel?", answer: "Sim. Ela sugere fórmulas, gráficos e insights automaticamente." },
-  { question: "IA pode analisar dados de marketing e vendas?", answer: "Sim. É um dos usos mais comuns para prever conversões e comportamento do cliente." },
-  { question: "Ciência de dados e IA trabalham juntas?", answer: "Sim. A IA é uma das principais ferramentas da ciência de dados moderna." },
-  { question: "IA para análise de dados é cara?", answer: "Não necessariamente. Há opções gratuitas e planos acessíveis." },
-  { question: "IA para análise de dados substitui BI tradicional?", answer: "Ela complementa e evolui o BI, mas não elimina completamente." },
-  { question: "Vale a pena usar IA para análise de dados?", answer: "Sim. Ela aumenta produtividade, precisão e velocidade de análise." },
+    {
+        "q": "O que é IA para analise de dados?",
+        "a": "IA para analise de dados são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a analise de dados."
+    },
+    {
+        "q": "Para que serve a inteligência artificial em analise de dados?",
+        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de analise de dados."
+    },
+    {
+        "q": "Como funciona uma IA voltada para analise de dados?",
+        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de analise de dados."
+    },
+    {
+        "q": "Qual a melhor IA para analise de dados em 2026?",
+        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de analise de dados."
+    },
+    {
+        "q": "IA para analise de dados é gratuita?",
+        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+    },
+    {
+        "q": "Funciona em português?",
+        "a": "Sim, a maioria das ferramentas modernas de IA para analise de dados já oferece suporte completo ou parcial ao idioma português."
+    },
+    {
+        "q": "É seguro usar IA para analise de dados?",
+        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+    },
+    {
+        "q": "Inteligência artificial substitui profissionais de analise de dados?",
+        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+    },
+    {
+        "q": "Preciso saber programar para usar essas ferramentas?",
+        "a": "Na maioria das vezes não. O foco das novas IAs para analise de dados é a facilidade de uso via interface intuitiva."
+    },
+    {
+        "q": "Vale a pena investir em ferramentas de IA para analise de dados?",
+        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+    },
+    {
+        "q": "Principais vantagens da IA em analise de dados",
+        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de analise de dados."
+    },
+    {
+        "q": "Desvantagens de usar IA para analise de dados",
+        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
+    },
+    {
+        "q": "Como escolher a ferramenta ideal de analise de dados?",
+        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em analise de dados."
+    },
+    {
+        "q": "IA para analise de dados para iniciantes",
+        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em analise de dados."
+    },
+    {
+        "q": "Ferramentas de analise de dados para empresas",
+        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
+    },
+    {
+        "q": "Tendências de IA para analise de dados para o futuro",
+        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de analise de dados."
+    },
+    {
+        "q": "Diferença entre IA tradicional e IA Generativa para analise de dados",
+        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para analise de dados."
+    },
+    {
+        "q": "Como aprender a usar IA para analise de dados?",
+        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
+    },
+    {
+        "q": "Melhor custo-benefício em ferramentas de analise de dados",
+        "a": "Avaliamos diversas opções para que você encontre a ferramenta de analise de dados que cabe no seu bolso sem sacrificar a qualidade."
+    },
+    {
+        "q": "Onde encontrar novidades sobre IA para analise de dados?",
+        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para analise de dados."
+    },
+    {
+        "q": "Existe IA gratuita para analise de dados?",
+        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
+    },
+    {
+        "q": "Qual o impacto da IA no mercado de analise de dados?",
+        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em analise de dados."
+    },
+    {
+        "q": "Como automatizar processos de analise de dados com IA?",
+        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
+    },
+    {
+        "q": "IA para analise de dados funciona no celular?",
+        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
+    },
+    {
+        "q": "Melhores prompts para IA de analise de dados",
+        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
+    },
+    {
+        "q": "IA para analise de dados é uma moda passageira?",
+        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de analise de dados é realizado globalmente."
+    },
+    {
+        "q": "Quais dados as ferramentas de analise de dados coletam?",
+        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
+    },
+    {
+        "q": "Dá para ganhar dinheiro usando IA para analise de dados?",
+        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em analise de dados."
+    },
+    {
+        "q": "Existe suporte em português para essas ferramentas?",
+        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
+    },
+    {
+        "q": "Como o Hypehour seleciona as IAs de analise de dados?",
+        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+    }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-  const [isOpen, setIsOpen] = useState(index < 5);
+    const [isOpen, setIsOpen] = useState(index < 5);
 
-  return (
-    <div className="border-b border-gray-200 last:border-0">
-      <button
-        className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <span className="font-medium text-gray-900">{question}</span>
-        <ChevronDownIcon
-          className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
-        />
-      </button>
-      <div
-        className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-      >
-        <p className="text-gray-600 leading-relaxed">{answer}</p>
-      </div>
-    </div>
-  );
+    return (
+        <div className="border-b border-gray-200 last:border-0">
+            <button
+                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
+                onClick={() => setIsOpen(!isOpen)}
+            >
+                <span className="font-medium text-gray-900">{question}</span>
+                <ChevronDownIcon
+                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                />
+            </button>
+            <div
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
+            >
+                <p className="text-gray-600 leading-relaxed">{answer}</p>
+            </div>
+        </div>
+    );
 }
 
 export default function FAQSection() {
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqs.map((faq) => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer
-      }
-    }))
-  };
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(faq => ({
+            "@type": "Question",
+            "name": faq.q,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.a
+            }
+        }))
+    };
 
-  return (
-    <div className="mt-12 mb-8">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Análise de Dados</h2>
-      <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
-        {faqs.map((faq, index) => (
-          <FAQItem
-            key={index}
-            question={faq.question}
-            answer={faq.answer}
-            index={index}
-          />
-        ))}
-      </div>
-    </div>
-  );
+    return (
+        <div className="mt-12 mb-8">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+            />
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Analise De Dados</h2>
+            <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
+                {faqs.map((faq, index) => (
+                    <FAQItem
+                        key={index}
+                        question={faq.q}
+                        answer={faq.a}
+                        index={index}
+                    />
+                ))}
+            </div>
+        </div>
+    );
 }

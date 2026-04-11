@@ -4,162 +4,182 @@ import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
-  {
-    question: "O que é IA para PDFs?",
-    answer: "IA para PDFs são ferramentas que usam inteligência artificial para ler, resumir, traduzir, criar e analisar arquivos em PDF automaticamente."
-  },
-  {
-    question: "Para que serve uma IA para PDF?",
-    answer: "Ela serve para facilitar tarefas como leitura, resumo, extração de informações e edição de PDFs."
-  },
-  {
-    question: "O que é uma IA que resume PDF?",
-    answer: "É uma ferramenta que analisa o conteúdo do PDF e gera um resumo automático dos principais pontos."
-  },
-  {
-    question: "IA para PDFs funciona com arquivos grandes?",
-    answer: "Sim. Muitas ferramentas conseguem processar PDFs longos, como livros e relatórios."
-  },
-  {
-    question: "Existe leitor de PDF com IA?",
-    answer: "Sim. Um leitor de PDF IA permite fazer perguntas sobre o documento e obter respostas instantâneas."
-  },
-  {
-    question: "IA para traduzir PDF mantém a formatação?",
-    answer: "Na maioria dos casos, sim. A IA traduz o texto preservando a estrutura do arquivo."
-  },
-  {
-    question: "IA para criação de PDF funciona como editor?",
-    answer: "Sim. Algumas ferramentas criam PDFs do zero ou a partir de texto e outros arquivos."
-  },
-  {
-    question: "IA para PDFs é gratuita?",
-    answer: "Existem opções gratuitas, geralmente com limites de uso."
-  },
-  {
-    question: "Usar IA para PDFs é seguro?",
-    answer: "Sim, desde que você evite enviar documentos sensíveis para ferramentas não confiáveis."
-  },
-  {
-    question: "IA para PDFs funciona em português?",
-    answer: "Sim. Muitas ferramentas já oferecem suporte ao português."
-  },
-  {
-    question: "IA para PDF ajuda estudantes?",
-    answer: "Sim. É muito usada para resumir artigos, livros e materiais acadêmicos."
-  },
-  {
-    question: "IA para PDFs é útil para empresas?",
-    answer: "Sim. Ajuda em contratos, relatórios, propostas e documentos internos."
-  },
-  {
-    question: "IA que resume PDF substitui a leitura completa?",
-    answer: "Não totalmente, mas ajuda a entender rapidamente os pontos principais."
-  },
-  {
-    question: "IA para PDFs pode extrair dados automaticamente?",
-    answer: "Sim. Ela identifica textos, tabelas e informações relevantes."
-  },
-  {
-    question: "Vale a pena usar IA para PDFs?",
-    answer: "Sim. Economiza tempo e facilita o trabalho com documentos."
-  },
-  {
-    question: "Qual a melhor IA para resumir PDF?",
-    answer: "Depende do tipo de documento, mas ferramentas modernas já oferecem resumos precisos."
-  },
-  {
-    question: "Dá para conversar com um PDF usando IA?",
-    answer: "Sim. Alguns leitores de PDF IA permitem fazer perguntas ao documento."
-  },
-  {
-    question: "IA para PDF funciona com PDFs escaneados?",
-    answer: "Sim, desde que tenha OCR integrado."
-  },
-  {
-    question: "IA consegue traduzir PDF automaticamente?",
-    answer: "Sim. A IA identifica o idioma e traduz o conteúdo."
-  },
-  {
-    question: "IA para traduzir PDF é gratuita?",
-    answer: "Algumas ferramentas oferecem tradução gratuita com limitações."
-  },
-  {
-    question: "IA para PDFs funciona offline?",
-    answer: "Geralmente não. A maioria depende de conexão com a internet."
-  },
-  {
-    question: "IA pode resumir PDF em poucos segundos?",
-    answer: "Sim. O resumo costuma ser gerado rapidamente."
-  },
-  {
-    question: "Leitor de PDF IA substitui o Adobe Reader?",
-    answer: "Não. Ele complementa, oferecendo recursos inteligentes."
-  },
-  {
-    question: "IA para PDFs funciona em dispositivos móveis?",
-    answer: "Sim. Muitas ferramentas são acessíveis via navegador no celular."
-  },
-  {
-    question: "IA para PDFs ajuda em contratos jurídicos?",
-    answer: "Sim. É muito usada para leitura e análise de contratos."
-  },
-  {
-    question: "IA para criação de PDF pode gerar relatórios automaticamente?",
-    answer: "Sim. Basta informar os dados ou o texto desejado."
-  },
-  {
-    question: "IA para PDF entende tabelas e gráficos?",
-    answer: "Sim. Muitas ferramentas analisam tabelas e dados estruturados."
-  },
-  {
-    question: "IA para PDFs pode corrigir erros no texto?",
-    answer: "Sim. Ela pode sugerir correções e melhorias."
-  },
-  {
-    question: "IA para PDFs funciona para equipes?",
-    answer: "Sim. Especialmente quando integrada a ferramentas colaborativas."
-  },
-  {
-    question: "IA para PDFs vale a pena para profissionais?",
-    answer: "Sim. É útil para advogados, estudantes, analistas e gestores."
-  }
+    {
+        "q": "O que é IA para ia para pdf?",
+        "a": "IA para ia para pdf são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ia para pdf."
+    },
+    {
+        "q": "Para que serve a inteligência artificial em ia para pdf?",
+        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ia para pdf."
+    },
+    {
+        "q": "Como funciona uma IA voltada para ia para pdf?",
+        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ia para pdf."
+    },
+    {
+        "q": "Qual a melhor IA para ia para pdf em 2026?",
+        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ia para pdf."
+    },
+    {
+        "q": "IA para ia para pdf é gratuita?",
+        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+    },
+    {
+        "q": "Funciona em português?",
+        "a": "Sim, a maioria das ferramentas modernas de IA para ia para pdf já oferece suporte completo ou parcial ao idioma português."
+    },
+    {
+        "q": "É seguro usar IA para ia para pdf?",
+        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+    },
+    {
+        "q": "Inteligência artificial substitui profissionais de ia para pdf?",
+        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+    },
+    {
+        "q": "Preciso saber programar para usar essas ferramentas?",
+        "a": "Na maioria das vezes não. O foco das novas IAs para ia para pdf é a facilidade de uso via interface intuitiva."
+    },
+    {
+        "q": "Vale a pena investir em ferramentas de IA para ia para pdf?",
+        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+    },
+    {
+        "q": "Principais vantagens da IA em ia para pdf",
+        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ia para pdf."
+    },
+    {
+        "q": "Desvantagens de usar IA para ia para pdf",
+        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
+    },
+    {
+        "q": "Como escolher a ferramenta ideal de ia para pdf?",
+        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ia para pdf."
+    },
+    {
+        "q": "IA para ia para pdf para iniciantes",
+        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ia para pdf."
+    },
+    {
+        "q": "Ferramentas de ia para pdf para empresas",
+        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
+    },
+    {
+        "q": "Tendências de IA para ia para pdf para o futuro",
+        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ia para pdf."
+    },
+    {
+        "q": "Diferença entre IA tradicional e IA Generativa para ia para pdf",
+        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ia para pdf."
+    },
+    {
+        "q": "Como aprender a usar IA para ia para pdf?",
+        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
+    },
+    {
+        "q": "Melhor custo-benefício em ferramentas de ia para pdf",
+        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ia para pdf que cabe no seu bolso sem sacrificar a qualidade."
+    },
+    {
+        "q": "Onde encontrar novidades sobre IA para ia para pdf?",
+        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ia para pdf."
+    },
+    {
+        "q": "Existe IA gratuita para ia para pdf?",
+        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
+    },
+    {
+        "q": "Qual o impacto da IA no mercado de ia para pdf?",
+        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ia para pdf."
+    },
+    {
+        "q": "Como automatizar processos de ia para pdf com IA?",
+        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
+    },
+    {
+        "q": "IA para ia para pdf funciona no celular?",
+        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
+    },
+    {
+        "q": "Melhores prompts para IA de ia para pdf",
+        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
+    },
+    {
+        "q": "IA para ia para pdf é uma moda passageira?",
+        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ia para pdf é realizado globalmente."
+    },
+    {
+        "q": "Quais dados as ferramentas de ia para pdf coletam?",
+        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
+    },
+    {
+        "q": "Dá para ganhar dinheiro usando IA para ia para pdf?",
+        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ia para pdf."
+    },
+    {
+        "q": "Existe suporte em português para essas ferramentas?",
+        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
+    },
+    {
+        "q": "Como o Hypehour seleciona as IAs de ia para pdf?",
+        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+    }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-  const [isOpen, setIsOpen] = useState(index < 5); // Primeiros 5 abertos por padrão
+    const [isOpen, setIsOpen] = useState(index < 5);
 
-  return (
-    <div className="border-b border-gray-200 last:border-0">
-      <button
-        className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <span className="font-medium text-gray-900">{question}</span>
-        <ChevronDownIcon
-          className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
-        />
-      </button>
-      <div
-        className={`overflow-hidden transition-all duration-300 ease-in-out ${
-          isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"
-        }`}
-      >
-        <p className="text-gray-600 leading-relaxed">{answer}</p>
-      </div>
-    </div>
-  );
+    return (
+        <div className="border-b border-gray-200 last:border-0">
+            <button
+                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
+                onClick={() => setIsOpen(!isOpen)}
+            >
+                <span className="font-medium text-gray-900">{question}</span>
+                <ChevronDownIcon
+                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                />
+            </button>
+            <div
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
+            >
+                <p className="text-gray-600 leading-relaxed">{answer}</p>
+            </div>
+        </div>
+    );
 }
 
 export default function FAQSection() {
-  return (
-    <div className="mt-12 mb-8">
-      <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para PDFs</h2>
-      <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
-        {faqs.map((faq, index) => (
-          <FAQItem key={index} question={faq.question} answer={faq.answer} index={index} />
-        ))}
-      </div>
-    </div>
-  );
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(faq => ({
+            "@type": "Question",
+            "name": faq.q,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.a
+            }
+        }))
+    };
+
+    return (
+        <div className="mt-12 mb-8">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+            />
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ia Para Pdf</h2>
+            <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
+                {faqs.map((faq, index) => (
+                    <FAQItem
+                        key={index}
+                        question={faq.q}
+                        answer={faq.a}
+                        index={index}
+                    />
+                ))}
+            </div>
+        </div>
+    );
 }

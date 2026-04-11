@@ -1,3 +1,4 @@
+import FAQSection from "./FAQSection";
 import ExpandableContent from "./ExpandableContent";
 import { SparklesIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
@@ -81,10 +82,6 @@ export default function EventosIA() {
             </div>
       <ExpandableContent />
 
-            <p className="mb-8 text-gray-600">
-                Participe dos principais eventos de inteligência artificial em 2026. Conecte-se com especialistas, descubra tendências e explore cases reais de IA no Brasil e no mundo.
-            </p>
-
             <div className="grid gap-6 sm:grid-cols-2">
                 {eventos.map((evento) => (
                     <a
@@ -99,6 +96,7 @@ export default function EventosIA() {
                     </a>
                 ))}
             </div>
-        </main>
+              <FAQSection />
+    </main>
     );
 }

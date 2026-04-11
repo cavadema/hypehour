@@ -5,124 +5,124 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        question: "O que é IA para aprender inglês?",
-        answer: "É o uso de inteligência artificial para personalizar o aprendizado de inglês, adaptando lições, exercícios e conversação ao nível do aluno."
+        "q": "O que é IA para aprender ingles com ia?",
+        "a": "IA para aprender ingles com ia são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a aprender ingles com ia."
     },
     {
-        question: "Como funciona aprender inglês com IA?",
-        answer: "A IA analisa erros, acertos e ritmo de estudo para sugerir conteúdos personalizados em tempo real."
+        "q": "Para que serve a inteligência artificial em aprender ingles com ia?",
+        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de aprender ingles com ia."
     },
     {
-        question: "IA para aprender inglês realmente funciona?",
-        answer: "Sim. Estudos e usuários mostram evolução mais rápida com práticas personalizadas e feedback imediato."
+        "q": "Como funciona uma IA voltada para aprender ingles com ia?",
+        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de aprender ingles com ia."
     },
     {
-        question: "Qual o melhor aplicativo para aprender inglês com IA?",
-        answer: "Aplicativos como Duolingo, Elsa Speak e TalkPal usam IA para personalizar o aprendizado."
+        "q": "Qual a melhor IA para aprender ingles com ia em 2026?",
+        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de aprender ingles com ia."
     },
     {
-        question: "IA ajuda a aprender inglês do zero?",
-        answer: "Sim. A IA ajusta o conteúdo para iniciantes, intermediários e avançados."
+        "q": "IA para aprender ingles com ia é gratuita?",
+        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
     },
     {
-        question: "IA para aprender inglês é melhor que curso tradicional?",
-        answer: "Ela complementa muito bem cursos tradicionais, oferecendo prática constante e personalizada."
+        "q": "Funciona em português?",
+        "a": "Sim, a maioria das ferramentas modernas de IA para aprender ingles com ia já oferece suporte completo ou parcial ao idioma português."
     },
     {
-        question: "Dá para aprender inglês conversando com IA?",
-        answer: "Sim. Muitas IAs simulam diálogos reais para treinar conversação."
+        "q": "É seguro usar IA para aprender ingles com ia?",
+        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
     },
     {
-        question: "IA para aprender inglês melhora a pronúncia?",
-        answer: "Sim. Ferramentas com reconhecimento de voz corrigem pronúncia em tempo real."
+        "q": "Inteligência artificial substitui profissionais de aprender ingles com ia?",
+        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
     },
     {
-        question: "Aprender inglês com IA é indicado para crianças?",
-        answer: "Sim, desde que use aplicativos com foco educacional e controle de conteúdo."
+        "q": "Preciso saber programar para usar essas ferramentas?",
+        "a": "Na maioria das vezes não. O foco das novas IAs para aprender ingles com ia é a facilidade de uso via interface intuitiva."
     },
     {
-        question: "IA para aprender inglês ajuda em vocabulário?",
-        answer: "Sim. A IA apresenta palavras novas conforme o contexto e nível do aluno."
+        "q": "Vale a pena investir em ferramentas de IA para aprender ingles com ia?",
+        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
     },
     {
-        question: "IA para aprender inglês ajuda na gramática?",
-        answer: "Sim. Ela identifica padrões de erro e explica regras de forma simples."
+        "q": "Principais vantagens da IA em aprender ingles com ia",
+        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de aprender ingles com ia."
     },
     {
-        question: "Aplicativo para aprender inglês com IA é pago?",
-        answer: "Existem opções gratuitas e planos premium com mais recursos."
+        "q": "Desvantagens de usar IA para aprender ingles com ia",
+        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
     },
     {
-        question: "IA para aprender inglês funciona offline?",
-        answer: "Alguns aplicativos oferecem conteúdos offline, mas a IA completa requer internet."
+        "q": "Como escolher a ferramenta ideal de aprender ingles com ia?",
+        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em aprender ingles com ia."
     },
     {
-        question: "IA para aprender inglês é indicada para viagens?",
-        answer: "Sim. Ajuda com frases, escuta e pronúncia para situações reais."
+        "q": "IA para aprender ingles com ia para iniciantes",
+        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em aprender ingles com ia."
     },
     {
-        question: "Vale a pena usar IA para aprender inglês?",
-        answer: "Sim. A personalização acelera o aprendizado e aumenta a motivação."
+        "q": "Ferramentas de aprender ingles com ia para empresas",
+        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
     },
     {
-        question: "Qual IA é melhor para aprender inglês rápido?",
-        answer: "Depende do objetivo, mas Duolingo e Elsa Speak são muito populares."
+        "q": "Tendências de IA para aprender ingles com ia para o futuro",
+        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de aprender ingles com ia."
     },
     {
-        question: "Dá para aprender inglês só com IA?",
-        answer: "Sim, especialmente para leitura, escrita, escuta e conversação básica."
+        "q": "Diferença entre IA tradicional e IA Generativa para aprender ingles com ia",
+        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para aprender ingles com ia."
     },
     {
-        question: "IA para aprender inglês é gratuita?",
-        answer: "Sim. Muitos aplicativos oferecem versões grátis."
+        "q": "Como aprender a usar IA para aprender ingles com ia?",
+        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
     },
     {
-        question: "Qual aplicativo para aprender inglês usa IA?",
-        answer: "Duolingo, Elsa Speak, Busuu e TalkPal usam IA."
+        "q": "Melhor custo-benefício em ferramentas de aprender ingles com ia",
+        "a": "Avaliamos diversas opções para que você encontre a ferramenta de aprender ingles com ia que cabe no seu bolso sem sacrificar a qualidade."
     },
     {
-        question: "IA consegue corrigir erros de pronúncia?",
-        answer: "Sim. Ela analisa sua fala e indica ajustes."
+        "q": "Onde encontrar novidades sobre IA para aprender ingles com ia?",
+        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para aprender ingles com ia."
     },
     {
-        question: "Aprender inglês com IA substitui professor?",
-        answer: "Não totalmente, mas reduz muito a dependência inicial."
+        "q": "Existe IA gratuita para aprender ingles com ia?",
+        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
     },
     {
-        question: "IA ajuda a treinar listening em inglês?",
-        answer: "Sim. Ela adapta áudios ao seu nível."
+        "q": "Qual o impacto da IA no mercado de aprender ingles com ia?",
+        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em aprender ingles com ia."
     },
     {
-        question: "IA para aprender inglês funciona para adultos?",
-        answer: "Sim. Adultos se beneficiam muito do aprendizado personalizado."
+        "q": "Como automatizar processos de aprender ingles com ia com IA?",
+        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
     },
     {
-        question: "IA ajuda a aprender inglês para trabalho?",
-        answer: "Sim. Ela foca em vocabulário profissional e situações reais."
+        "q": "IA para aprender ingles com ia funciona no celular?",
+        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
     },
     {
-        question: "IA para aprender inglês é confiável?",
-        answer: "Sim, especialmente em aplicativos bem avaliados."
+        "q": "Melhores prompts para IA de aprender ingles com ia",
+        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
     },
     {
-        question: "Dá para praticar conversação todos os dias com IA?",
-        answer: "Sim. A IA está disponível 24h por dia."
+        "q": "IA para aprender ingles com ia é uma moda passageira?",
+        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de aprender ingles com ia é realizado globalmente."
     },
     {
-        question: "IA para aprender inglês ajuda no TOEFL ou IELTS?",
-        answer: "Algumas ferramentas focam em provas de proficiência."
+        "q": "Quais dados as ferramentas de aprender ingles com ia coletam?",
+        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
     },
     {
-        question: "Aprender inglês com IA é mais barato?",
-        answer: "Sim. Normalmente custa menos que cursos presenciais."
+        "q": "Dá para ganhar dinheiro usando IA para aprender ingles com ia?",
+        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em aprender ingles com ia."
     },
     {
-        question: "IA ajuda a manter a consistência nos estudos?",
-        answer: "Sim. Ela envia lembretes e adapta metas."
+        "q": "Existe suporte em português para essas ferramentas?",
+        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
     },
     {
-        question: "Qual o melhor aplicativo para aprender inglês hoje?",
-        answer: "Depende do objetivo, mas Duolingo e Elsa Speak lideram."
+        "q": "Como o Hypehour seleciona as IAs de aprender ingles com ia?",
+        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
     }
 ];
 
@@ -137,13 +137,11 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
             >
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""
-                        }`}
+                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
                 />
             </button>
             <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"
-                    }`}
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
             >
                 <p className="text-gray-600 leading-relaxed">{answer}</p>
             </div>
@@ -157,10 +155,10 @@ export default function FAQSection() {
         "@type": "FAQPage",
         "mainEntity": faqs.map(faq => ({
             "@type": "Question",
-            "name": faq.question,
+            "name": faq.q,
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": faq.answer
+                "text": faq.a
             }
         }))
     };
@@ -171,13 +169,13 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Aprender Inglês</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Aprender Ingles Com Ia</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem
                         key={index}
-                        question={faq.question}
-                        answer={faq.answer}
+                        question={faq.q}
+                        answer={faq.a}
                         index={index}
                     />
                 ))}
