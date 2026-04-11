@@ -5,25 +5,20 @@ import {
   PhoneIcon, MicrophoneIcon, BuildingStorefrontIcon, CogIcon, ArrowPathIcon, ChartBarIcon, CommandLineIcon, CpuChipIcon, BoltIcon, RocketLaunchIcon, PuzzlePieceIcon
 } from "@heroicons/react/24/solid";
 
-const jsonLd = {
+const webpageJsonLd = {
   "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://www.hypehour.com.br/#organization",
-      "name": "Hypehour",
-      "url": "https://www.hypehour.com.br"
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.hypehour.com.br/#website",
-      "name": "Hypehour",
-      "url": "https://www.hypehour.com.br",
-      "publisher": {
-        "@id": "https://www.hypehour.com.br/#organization"
-      }
-    }
-  ]
+  "@type": "WebPage",
+  "@id": "https://www.hypehour.com.br/#webpage",
+  "url": "https://www.hypehour.com.br",
+  "name": "Hypehour — Ferramentas de IA para todos os segmentos",
+  "description": "Hypehour é um agregador de ferramentas de IA para imagens, desenvolvimento, estudos e muito mais.",
+  "isPartOf": {
+    "@id": "https://www.hypehour.com.br/#website"
+  },
+  "about": {
+    "@id": "https://www.hypehour.com.br/#organization"
+  },
+  "inLanguage": "pt-BR"
 };
 
 export default function Home() {
@@ -31,7 +26,7 @@ export default function Home() {
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans -mt-20">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webpageJsonLd) }}
       />
       {/* Primeira dobra */}
       <section className="w-full flex flex-col items-center justify-center py-20 bg-gradient-to-br from-gray-50 via-white to-gray-100 border-b border-zinc-200 relative overflow-hidden">

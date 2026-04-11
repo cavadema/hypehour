@@ -63,55 +63,39 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+const organizationJsonLd = {
   "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://www.hypehour.com.br/#organization",
-      "name": "Hypehour",
-      "url": "https://www.hypehour.com.br",
-      "logo": {
-        "@type": "ImageObject",
-        "@id": "https://www.hypehour.com.br/#logo",
-        "url": "https://www.hypehour.com.br/logo.png",
-        "contentUrl": "https://www.hypehour.com.br/logo.png",
-        "caption": "Hypehour Logo"
-      },
-      "image": {
-        "@id": "https://www.hypehour.com.br/#logo"
-      },
-      "sameAs": [
-        "https://x.com/hypehourbr",
-        "https://www.linkedin.com/company/hypehour/"
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.hypehour.com.br/#website",
-      "url": "https://www.hypehour.com.br",
-      "name": "Hypehour",
-      "description": "Agregador de ferramentas de IA para todos os segmentos",
-      "publisher": {
-        "@id": "https://www.hypehour.com.br/#organization"
-      },
-      "inLanguage": "pt-BR"
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://www.hypehour.com.br/#webpage",
-      "url": "https://www.hypehour.com.br",
-      "name": "Página Inicial | Hypehour",
-      "isPartOf": {
-        "@id": "https://www.hypehour.com.br/#website"
-      },
-      "about": {
-        "@id": "https://www.hypehour.com.br/#organization"
-      },
-      "description": "Hypehour é um agregador de ferramentas de IA para imagens, desenvolvimento, estudos e muito mais.",
-      "inLanguage": "pt-BR"
-    }
+  "@type": "Organization",
+  "@id": "https://www.hypehour.com.br/#organization",
+  "name": "Hypehour",
+  "url": "https://www.hypehour.com.br",
+  "logo": {
+    "@type": "ImageObject",
+    "@id": "https://www.hypehour.com.br/#logo",
+    "url": "https://www.hypehour.com.br/logo.png",
+    "contentUrl": "https://www.hypehour.com.br/logo.png",
+    "caption": "Hypehour Logo"
+  },
+  "image": {
+    "@id": "https://www.hypehour.com.br/#logo"
+  },
+  "sameAs": [
+    "https://x.com/hypehourbr",
+    "https://www.linkedin.com/company/hypehour/"
   ]
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://www.hypehour.com.br/#website",
+  "url": "https://www.hypehour.com.br",
+  "name": "Hypehour",
+  "description": "Agregador de ferramentas de IA para todos os segmentos",
+  "publisher": {
+    "@id": "https://www.hypehour.com.br/#organization"
+  },
+  "inLanguage": "pt-BR"
 };
 
 export default function RootLayout({
@@ -141,9 +125,14 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <script
-          id="schema-jsonld"
+          id="schema-org-jsonld"
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+        <script
+          id="schema-website-jsonld"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
       </head>
       <body
