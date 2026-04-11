@@ -1,0 +1,526 @@
+{
+  "version": "1.0",
+  "generated": "2026-04-11T04:09:27.329Z",
+  "site": {
+    "title": "Hypehour",
+    "description": "Agregador de ferramentas de IA para todos os segmentos",
+    "url": "https://www.hypehour.com.br"
+  },
+  "documents": [
+    {
+      "url": "https://www.hypehour.com.br/",
+      "title": "Home",
+      "description": "Encontre mais sobre Home no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-desenvolvedores",
+      "title": "Ia Para Desenvolvedores",
+      "description": "Encontre mais sobre Ia Para Desenvolvedores no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-imagens",
+      "title": "Ia Para Imagens",
+      "description": "Encontre mais sobre Ia Para Imagens no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-musica",
+      "title": "Ia Para Musica",
+      "description": "Encontre mais sobre Ia Para Musica no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/pacotes-de-ferramentas-e-agregadores-ia",
+      "title": "Pacotes De Ferramentas E Agregadores Ia",
+      "description": "Encontre mais sobre Pacotes De Ferramentas E Agregadores Ia no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-vibe-coding",
+      "title": "Ia Para Vibe Coding",
+      "description": "Encontre mais sobre Ia Para Vibe Coding no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/sobre-nos",
+      "title": "Sobre Nos",
+      "description": "Encontre mais sobre Sobre Nos no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-professores",
+      "title": "Ia Para Professores",
+      "description": "Encontre mais sobre Ia Para Professores no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramenta-de-deteccao-de-ia",
+      "title": "Ferramenta De Deteccao De Ia",
+      "description": "Encontre mais sobre Ferramenta De Deteccao De Ia no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/newsletters-de-ia",
+      "title": "Newsletters De Ia",
+      "description": "Encontre mais sobre Newsletters De Ia no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/modelos-de-llms",
+      "title": "Modelos De Llms",
+      "description": "Encontre mais sobre Modelos De Llms no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/navegadores-de-ia",
+      "title": "Navegadores De Ia",
+      "description": "Encontre mais sobre Navegadores De Ia no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas-de-ia-para-conteudo",
+      "title": "Ferramentas De Ia Para Conteudo",
+      "description": "Encontre mais sobre Ferramentas De Ia Para Conteudo no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-marketing",
+      "title": "Ia Para Marketing",
+      "description": "Encontre mais sobre Ia Para Marketing no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-criar-apresentacoes",
+      "title": "Ia Para Criar Apresentacoes",
+      "description": "Encontre mais sobre Ia Para Criar Apresentacoes no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/inteligencia-artificial-para-advogados",
+      "title": "Inteligencia Artificial Para Advogados",
+      "description": "Encontre mais sobre Inteligencia Artificial Para Advogados no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas-de-ia-rh",
+      "title": "Ferramentas De Ia Rh",
+      "description": "Encontre mais sobre Ferramentas De Ia Rh no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas-ia-contabilidade",
+      "title": "Ferramentas Ia Contabilidade",
+      "description": "Encontre mais sobre Ferramentas Ia Contabilidade no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/termos",
+      "title": "Termos",
+      "description": "Encontre mais sobre Termos no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/privacidade",
+      "title": "Privacidade",
+      "description": "Encontre mais sobre Privacidade no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-criar-videos",
+      "title": "Ia Para Criar Videos",
+      "description": "Encontre mais sobre Ia Para Criar Videos no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-medicos",
+      "title": "Ia Para Medicos",
+      "description": "Encontre mais sobre Ia Para Medicos no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-arquitetura",
+      "title": "Ia Para Arquitetura",
+      "description": "Encontre mais sobre Ia Para Arquitetura no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/transcrever-audio",
+      "title": "Transcrever Audio",
+      "description": "Encontre mais sobre Transcrever Audio no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-fazer-ata-reuniao",
+      "title": "Ia Para Fazer Ata Reuniao",
+      "description": "Encontre mais sobre Ia Para Fazer Ata Reuniao no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/criacao-agentes-ia",
+      "title": "Criacao Agentes Ia",
+      "description": "Encontre mais sobre Criacao Agentes Ia no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/assistentes-de-ia",
+      "title": "Assistentes De Ia",
+      "description": "Encontre mais sobre Assistentes De Ia no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/gerador-de-voz-ia",
+      "title": "Gerador De Voz Ia",
+      "description": "Encontre mais sobre Gerador De Voz Ia no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/aprender-ingles-com-ia",
+      "title": "Aprender Ingles Com Ia",
+      "description": "Encontre mais sobre Aprender Ingles Com Ia no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-atendimento",
+      "title": "Ia Para Atendimento",
+      "description": "Encontre mais sobre Ia Para Atendimento no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/cursos-de-ia",
+      "title": "Cursos De Ia",
+      "description": "Encontre mais sobre Cursos De Ia no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/analise-de-dados",
+      "title": "Analise De Dados",
+      "description": "Encontre mais sobre Analise De Dados no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-jogos",
+      "title": "Ia Para Jogos",
+      "description": "Encontre mais sobre Ia Para Jogos no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-vendas",
+      "title": "Ia Para Vendas",
+      "description": "Encontre mais sobre Ia Para Vendas no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/automacao-ia",
+      "title": "Automacao Ia",
+      "description": "Encontre mais sobre Automacao Ia no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/fluxos-workflows-ia",
+      "title": "Fluxos Workflows Ia",
+      "description": "Encontre mais sobre Fluxos Workflows Ia no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/crm-ia",
+      "title": "Crm Ia",
+      "description": "Encontre mais sobre Crm Ia no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/investimentos",
+      "title": "Investimentos",
+      "description": "Encontre mais sobre Investimentos no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-empresas",
+      "title": "Ia Para Empresas",
+      "description": "Encontre mais sobre Ia Para Empresas no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/api-ia-modelos",
+      "title": "Api Ia Modelos",
+      "description": "Encontre mais sobre Api Ia Modelos no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-planilhas",
+      "title": "Ia Para Planilhas",
+      "description": "Encontre mais sobre Ia Para Planilhas no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-pdf",
+      "title": "Ia Para Pdf",
+      "description": "Encontre mais sobre Ia Para Pdf no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/repositorios-ia-github",
+      "title": "Repositorios Ia Github",
+      "description": "Encontre mais sobre Repositorios Ia Github no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-designers",
+      "title": "Ia Para Designers",
+      "description": "Encontre mais sobre Ia Para Designers no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-para-design-de-interiores",
+      "title": "Ia Para Design De Interiores",
+      "description": "Encontre mais sobre Ia Para Design De Interiores no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/planejamento",
+      "title": "Planejamento",
+      "description": "Encontre mais sobre Planejamento no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/eventos-ia",
+      "title": "Eventos Ia",
+      "description": "Encontre mais sobre Eventos Ia no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ia-web-scraping",
+      "title": "Ia Web Scraping",
+      "description": "Encontre mais sobre Ia Web Scraping no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/lovable",
+      "title": "Lovable",
+      "description": "Encontre mais sobre Lovable no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/hailuo-ai",
+      "title": "Hailuo Ai",
+      "description": "Encontre mais sobre Hailuo Ai no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/klingai",
+      "title": "Klingai",
+      "description": "Encontre mais sobre Klingai no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/leonardo-ai",
+      "title": "Leonardo Ai",
+      "description": "Encontre mais sobre Leonardo Ai no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/zerogpt",
+      "title": "Zerogpt",
+      "description": "Encontre mais sobre Zerogpt no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/gptzero",
+      "title": "Gptzero",
+      "description": "Encontre mais sobre Gptzero no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/adapta",
+      "title": "Adapta",
+      "description": "Encontre mais sobre Adapta no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/speechify",
+      "title": "Speechify",
+      "description": "Encontre mais sobre Speechify no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/rytr",
+      "title": "Rytr",
+      "description": "Encontre mais sobre Rytr no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/chatpdf",
+      "title": "Chatpdf",
+      "description": "Encontre mais sobre Chatpdf no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/lightpdf",
+      "title": "Lightpdf",
+      "description": "Encontre mais sobre Lightpdf no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/clipchamp",
+      "title": "Clipchamp",
+      "description": "Encontre mais sobre Clipchamp no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/vidnoz",
+      "title": "Vidnoz",
+      "description": "Encontre mais sobre Vidnoz no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/sanalabs",
+      "title": "Sanalabs",
+      "description": "Encontre mais sobre Sanalabs no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/wisprflow",
+      "title": "Wisprflow",
+      "description": "Encontre mais sobre Wisprflow no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/ollama",
+      "title": "Ollama",
+      "description": "Encontre mais sobre Ollama no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/gamma",
+      "title": "Gamma",
+      "description": "Encontre mais sobre Gamma no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/opusclip",
+      "title": "Opusclip",
+      "description": "Encontre mais sobre Opusclip no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/flowgpt",
+      "title": "Flowgpt",
+      "description": "Encontre mais sobre Flowgpt no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/chatgot",
+      "title": "Chatgot",
+      "description": "Encontre mais sobre Chatgot no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/hailuo-ai",
+      "title": "Hailuo Ai",
+      "description": "Encontre mais sobre Hailuo Ai no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/sidekicker",
+      "title": "Sidekicker",
+      "description": "Encontre mais sobre Sidekicker no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/excelmatic",
+      "title": "Excelmatic",
+      "description": "Encontre mais sobre Excelmatic no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/conker",
+      "title": "Conker",
+      "description": "Encontre mais sobre Conker no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/slidesgo",
+      "title": "Slidesgo",
+      "description": "Encontre mais sobre Slidesgo no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/visme",
+      "title": "Visme",
+      "description": "Encontre mais sobre Visme no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/smallppt",
+      "title": "Smallppt",
+      "description": "Encontre mais sobre Smallppt no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/intercom",
+      "title": "Intercom",
+      "description": "Encontre mais sobre Intercom no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/chatbase",
+      "title": "Chatbase",
+      "description": "Encontre mais sobre Chatbase no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/cursor",
+      "title": "Cursor",
+      "description": "Encontre mais sobre Cursor no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/grafana",
+      "title": "Grafana",
+      "description": "Encontre mais sobre Grafana no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/midjourney",
+      "title": "Midjourney",
+      "description": "Encontre mais sobre Midjourney no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/krea",
+      "title": "Krea",
+      "description": "Encontre mais sobre Krea no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/ideogram",
+      "title": "Ideogram",
+      "description": "Encontre mais sobre Ideogram no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/heygen",
+      "title": "Heygen",
+      "description": "Encontre mais sobre Heygen no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/higgsfield",
+      "title": "Higgsfield",
+      "description": "Encontre mais sobre Higgsfield no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/willow",
+      "title": "Willow",
+      "description": "Encontre mais sobre Willow no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/writesonic",
+      "title": "Writesonic",
+      "description": "Encontre mais sobre Writesonic no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/temso",
+      "title": "Temso",
+      "description": "Encontre mais sobre Temso no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/profound",
+      "title": "Profound",
+      "description": "Encontre mais sobre Profound no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/first-answer",
+      "title": "First Answer",
+      "description": "Encontre mais sobre First Answer no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/firecrawl",
+      "title": "Firecrawl",
+      "description": "Encontre mais sobre Firecrawl no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/browse-ai",
+      "title": "Browse Ai",
+      "description": "Encontre mais sobre Browse Ai no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/crawl4ai",
+      "title": "Crawl4ai",
+      "description": "Encontre mais sobre Crawl4ai no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/browserless",
+      "title": "Browserless",
+      "description": "Encontre mais sobre Browserless no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/scraperapi",
+      "title": "Scraperapi",
+      "description": "Encontre mais sobre Scraperapi no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/invideo",
+      "title": "Invideo",
+      "description": "Encontre mais sobre Invideo no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/synthesia",
+      "title": "Synthesia",
+      "description": "Encontre mais sobre Synthesia no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/kapwing",
+      "title": "Kapwing",
+      "description": "Encontre mais sobre Kapwing no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/flexclip",
+      "title": "Flexclip",
+      "description": "Encontre mais sobre Flexclip no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/veed",
+      "title": "Veed",
+      "description": "Encontre mais sobre Veed no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/wevoicer",
+      "title": "Wevoicer",
+      "description": "Encontre mais sobre Wevoicer no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/luvvoice",
+      "title": "Luvvoice",
+      "description": "Encontre mais sobre Luvvoice no Hypehour."
+    },
+    {
+      "url": "https://www.hypehour.com.br/ferramentas/granola-ai",
+      "title": "Granola Ai",
+      "description": "Encontre mais sobre Granola Ai no Hypehour."
+    }
+  ],
+  "metadata": {
+    "totalDocuments": 102,
+    "generator": "Manual AI script",
+    "generatorUrl": "https://www.hypehour.com.br"
+  }
+}
