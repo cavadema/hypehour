@@ -1,23 +1,15 @@
 import type { NextConfig } from "next";
-import { withAeo } from "aeo.js/next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  async redirects() {
-    return [
+  images: {
+    remotePatterns: [
       {
-        source: "/lovable",
-        destination: "/ferramentas/lovable",
-        permanent: true,
+        protocol: "https",
+        hostname: "**",
       },
-    ];
-  },
-  allowedDevOrigins: [
-    "http://192.168.15.2:3000", // ajuste a porta se necessário
-  ],
-  turbopack: {
-    root: __dirname,
+    ],
   },
 };
 
-export default withAeo(nextConfig as any);
+export default nextConfig;
