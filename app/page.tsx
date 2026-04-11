@@ -15,8 +15,14 @@ const webpageJsonLd = {
   "isPartOf": {
     "@id": "https://www.hypehour.com.br/#website"
   },
-  "about": {
-    "@id": "https://www.hypehour.com.br/#organization"
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.hypehour.com.br/#organization",
+    "name": "Hypehour",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.hypehour.com.br/logo.png"
+    }
   },
   "inLanguage": "pt-BR"
 };
