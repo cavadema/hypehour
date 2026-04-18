@@ -97,9 +97,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Newsletters de Inteligência Artificial",
     description: "Lista completa de newsletters sobre inteligência artificial para se manter atualizado com as principais novidades e tendências.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

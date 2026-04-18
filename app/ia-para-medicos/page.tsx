@@ -20,9 +20,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "IA para Médicos - Ferramentas de Inteligência Artificial para Saúde",
     description: "Descubra ferramentas de IA para médicos, clínicas e hospitais: diagnósticos, anotações automáticas e pesquisa.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

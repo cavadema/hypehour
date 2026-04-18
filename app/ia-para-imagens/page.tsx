@@ -264,9 +264,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Ferramentas de Inteligência Artificial para Imagens",
     description: "Descubra as melhores ferramentas de inteligência artificial para criação, edição e geração de imagens.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

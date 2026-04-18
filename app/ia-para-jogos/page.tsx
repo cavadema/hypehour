@@ -87,9 +87,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Criar jogos com IA",
     description: "Descubra as melhores ferramentas de IA para criar jogos. De desenvolvimento sem código a geração de assets, estas plataformas usam inteligência artificial para transformar suas ideias em jogos reais.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

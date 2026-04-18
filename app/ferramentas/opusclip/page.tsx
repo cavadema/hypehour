@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Opus Clip - Transforme Vídeos Longos em Curtos Virais com IA",
     description: "Conheça o Opus Clip: a ferramenta de IA que transforma podcasts e vídeos longos em clipes virais para TikTok, Reels e Shorts em segundos. Veja como funciona.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function OpusClipPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Vídeos",
+            "item": "https://www.hypehour.com.br/ia-para-criar-videos"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Opus Clip",
             "item": "https://www.hypehour.com.br/ferramentas/opusclip"
@@ -52,7 +60,8 @@ export default function OpusClipPage() {
         "description": "Conheça o Opus Clip: a ferramenta de IA que transforma podcasts e vídeos longos em clipes virais para TikTok, Reels e Shorts em segundos. Veja como funciona.",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/opusclip",
+        "url": "https://www.opus.pro",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/opusclip",
         "creator": {
           "@type": "Organization",
           "name": "Opus Clip"

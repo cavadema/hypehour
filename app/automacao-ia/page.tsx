@@ -47,9 +47,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Automação com Inteligência Artificial",
     description: "Ferramentas de IA para automatizar processos, workflows e tarefas repetitivas em sua empresa.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

@@ -20,9 +20,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Willow - Ditado de Voz com IA e Transcrição Inteligente",
     description: "Conheça o Willow (Willowvoice): o assistente de ditado com IA que edita enquanto você fala. Veja recursos, preços, integração e se vale a pena.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -42,6 +44,12 @@ export default function WillowPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "Transcrever Áudio",
+            "item": "https://www.hypehour.com.br/transcrever-audio"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Willow",
             "item": "https://www.hypehour.com.br/ferramentas/willow"
@@ -55,7 +63,8 @@ export default function WillowPage() {
         "description": "Conheça o Willow (Willowvoice): o assistente de ditado com IA que edita enquanto você fala. Veja recursos, preços, integração e se vale a pena.",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/willow",
+        "url": "https://willowvoice.com",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/willow",
         "creator": {
           "@type": "Organization",
           "name": "Willow"

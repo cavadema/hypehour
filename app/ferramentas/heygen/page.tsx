@@ -20,9 +20,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "HeyGen - Avatares de IA e Tradução de Vídeo Inteligente",
     description: "Conheça o HeyGen: a plataforma líder em avatares digitais e tradução de vídeo com lip-sync. Veja como funciona, preços e como criar vídeos profissionais.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -42,6 +44,12 @@ export default function HeyGenPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Vídeos",
+            "item": "https://www.hypehour.com.br/ia-para-criar-videos"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "HeyGen",
             "item": "https://www.hypehour.com.br/ferramentas/heygen"
@@ -55,7 +63,8 @@ export default function HeyGenPage() {
         "description": "Conheça o HeyGen: a plataforma líder em avatares digitais e tradução de vídeo com lip-sync. Veja como funciona, preços e como criar vídeos profissionais.",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/heygen",
+        "url": "https://heygen.com",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/heygen",
         "creator": {
           "@type": "Organization",
           "name": "HeyGen"

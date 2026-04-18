@@ -19,9 +19,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Browse AI - Web Scraping e Monitoramento sem Código",
     description: "Descubra o Browse AI: a ferramenta mais fácil para extrair e monitorar dados de qualquer site sem escrever uma linha de código.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -41,6 +43,12 @@ export default function BrowseAIPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Web Scraping",
+            "item": "https://www.hypehour.com.br/ia-web-scraping"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Browse AI",
             "item": "https://www.hypehour.com.br/ferramentas/browse-ai"
@@ -54,7 +62,8 @@ export default function BrowseAIPage() {
         "description": "Descubra o Browse AI: a ferramenta mais fácil para extrair e monitorar dados de qualquer site sem escrever uma linha de código.",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/browse-ai",
+        "url": "https://www.browse.ai",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/browse-ai",
         "creator": {
           "@type": "Organization",
           "name": "Browse AI"

@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "GPTZero - Detector de IA para Educadores",
     description: "Conheça o GPTZero: ferramenta de detecção de IA popular entre professores com métricas claras. Veja como funciona, vantagens, desvantagens e se é ideal para você.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function GPTZeroPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "Detecção de IA",
+            "item": "https://www.hypehour.com.br/ferramenta-de-deteccao-de-ia"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "GPTZero",
             "item": "https://www.hypehour.com.br/ferramentas/gptzero"
@@ -52,7 +60,8 @@ export default function GPTZeroPage() {
         "description": "Conheça o GPTZero: ferramenta de detecção de IA popular entre professores com métricas claras. Veja como funciona, vantagens, desvantagens e se é ideal para você.",
         "applicationCategory": "UtilitiesApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/gptzero",
+        "url": "https://gptzero.me",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/gptzero",
         "creator": {
           "@type": "Organization",
           "name": "GPTZero"

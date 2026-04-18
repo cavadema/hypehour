@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Adapta - Plataforma All-in-One de IA",
     description: "Conheça o Adapta: plataforma integrada com +15 modelos de IA (GPT, Claude, Gemini), cursos práticos e newsletter. Tudo o que você precisa de IA em um só lugar.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function AdaptaPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "Agregadores de IA",
+            "item": "https://www.hypehour.com.br/pacotes-de-ferramentas-e-agregadores-ia"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Adapta",
             "item": "https://www.hypehour.com.br/ferramentas/adapta"
@@ -52,7 +60,8 @@ export default function AdaptaPage() {
         "description": "Conheça o Adapta: plataforma integrada com +15 modelos de IA (GPT, Claude, Gemini), cursos práticos e newsletter. Tudo o que você precisa de IA em um só lugar.",
         "applicationCategory": "ProductivityApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/adapta",
+        "url": "https://adapta.org/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/adapta",
         "creator": {
           "@type": "Organization",
           "name": "Adapta"

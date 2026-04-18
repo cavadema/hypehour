@@ -18,9 +18,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Chatbase - Crie seu Próprio Chatbot de IA e Guia Completo",
     description: "Conheça o Chatbase: a ferramenta líder para criar chatbots treinados com seus dados. Veja como funciona, preços, integrações e se vale a pena.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -40,6 +42,12 @@ export default function ChatbasePage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Atendimento",
+            "item": "https://www.hypehour.com.br/ia-para-atendimento"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Chatbase",
             "item": "https://www.hypehour.com.br/ferramentas/chatbase"
@@ -53,7 +61,8 @@ export default function ChatbasePage() {
         "description": "Conheça o Chatbase: a ferramenta líder para criar chatbots treinados com seus dados. Veja como funciona, preços, integrações e se vale a pena.",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/chatbase",
+        "url": "https://www.chatbase.co/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/chatbase",
         "creator": {
           "@type": "Organization",
           "name": "Chatbase"

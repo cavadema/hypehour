@@ -177,9 +177,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Ferramentas de IA para Conteúdo",
     description: "Descubra as melhores ferramentas de IA para criar artigos, posts, e-mails e copys de alta conversão.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

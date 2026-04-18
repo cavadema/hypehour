@@ -18,9 +18,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Cursor AI - O Editor de Código com Inteligência Artificial",
     description: "Conheça o Cursor: o editor focado em IA que está substituindo o VS Code para muitos desenvolvedores. Veja como funciona, recursos e preços.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -40,6 +42,12 @@ export default function CursorPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Desenvolvedores",
+            "item": "https://www.hypehour.com.br/ia-para-desenvolvedores"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Cursor AI",
             "item": "https://www.hypehour.com.br/ferramentas/cursor"
@@ -53,7 +61,8 @@ export default function CursorPage() {
         "description": "Conheça o Cursor: o editor focado em IA que está substituindo o VS Code para muitos desenvolvedores. Veja como funciona, recursos e preços.",
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/cursor",
+        "url": "https://www.cursor.com/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/cursor",
         "creator": {
           "@type": "Organization",
           "name": "Cursor AI"

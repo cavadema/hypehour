@@ -30,9 +30,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "IA para investimentos gratuitos",
     description: "Ferramentas de inteligência artificial para análise de investimentos, trading e gestão de portfólio.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

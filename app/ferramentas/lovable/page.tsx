@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Lovable - Gerador de Apps com IA",
     description: "Conheça o Lovable: ferramenta de IA para criar aplicações completas (front-end, back-end, testes) em minutos. Veja vantagens, desvantagens e se é ideal para você.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function LovablePage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Vibe Coding",
+            "item": "https://www.hypehour.com.br/ia-para-vibe-coding"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Lovable",
             "item": "https://www.hypehour.com.br/ferramentas/lovable"
@@ -52,7 +60,8 @@ export default function LovablePage() {
         "description": "Conheça o Lovable: ferramenta de IA para criar aplicações completas (front-end, back-end, testes) em minutos. Veja vantagens, desvantagens e se é ideal para você.",
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/lovable",
+        "url": "https://lovable.dev",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/lovable",
         "creator": {
           "@type": "Organization",
           "name": "Lovable"

@@ -82,9 +82,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Navegadores com uso de Inteligência Artificial",
     description: "Descubra navegadores que já chegam com inteligência artificial integrada para pesquisar, resumir e automatizar tarefas.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

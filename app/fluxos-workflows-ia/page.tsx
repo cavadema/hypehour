@@ -29,9 +29,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Inteligencia artificial para Fluxos e Workflows",
     description: "Ferramentas de IA para criar, orquestrar e automatizar fluxos e workflows em sua empresa.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

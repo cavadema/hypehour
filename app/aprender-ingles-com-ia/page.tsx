@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Aprender Inglês com IA",
     description: "Ferramentas com IA para estudar, praticar conversação e melhorar a pronúncia em inglês.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

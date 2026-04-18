@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "ZeroGPT - Detector de IA Gratuito",
     description: "Conheça o ZeroGPT: ferramenta gratuita para detectar textos gerados por IA com precisão. Veja como funciona, vantagens, desvantagens e se é ideal para você.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function ZeroGPTPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "Detecção de IA",
+            "item": "https://www.hypehour.com.br/ferramenta-de-deteccao-de-ia"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "ZeroGPT",
             "item": "https://www.hypehour.com.br/ferramentas/zerogpt"
@@ -52,7 +60,8 @@ export default function ZeroGPTPage() {
         "description": "Conheça o ZeroGPT: ferramenta gratuita para detectar textos gerados por IA com precisão. Veja como funciona, vantagens, desvantagens e se é ideal para você.",
         "applicationCategory": "UtilitiesApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/zerogpt",
+        "url": "https://www.zerogpt.com",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/zerogpt",
         "creator": {
           "@type": "Organization",
           "name": "ZeroGPT"

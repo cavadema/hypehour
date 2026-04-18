@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Smallppt AI - Criador de Apresentações Multifuncional",
     description: "Conheça o Smallppt AI: a ferramenta de IA que cria slides a partir de Word, PDF, URLs e até áudio. Veja como funciona, preços e funcionalidades exclusivas.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function SmallpptPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Apresentações",
+            "item": "https://www.hypehour.com.br/ia-para-criar-apresentacoes"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Smallppt AI",
             "item": "https://www.hypehour.com.br/ferramentas/smallppt"
@@ -52,7 +60,8 @@ export default function SmallpptPage() {
         "description": "Conheça o Smallppt AI: a ferramenta de IA que cria slides a partir de Word, PDF, URLs e até áudio. Veja como funciona, preços e funcionalidades exclusivas.",
         "applicationCategory": "DesignApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/smallppt",
+        "url": "https://smallppt.com/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/smallppt",
         "creator": {
           "@type": "Organization",
           "name": "Smallppt AI"

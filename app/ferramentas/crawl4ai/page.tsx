@@ -19,9 +19,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Crawl4AI - Crawler Open-Source de Alta Performance para IA",
     description: "Descubra o Crawl4AI: a biblioteca Python de código aberto definitiva para crawling e scraping otimizado para RAG e modelos de linguagem.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -41,6 +43,12 @@ export default function Crawl4AIPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Web Scraping",
+            "item": "https://www.hypehour.com.br/ia-web-scraping"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Crawl4AI",
             "item": "https://www.hypehour.com.br/ferramentas/crawl4ai"
@@ -54,7 +62,8 @@ export default function Crawl4AIPage() {
         "description": "Descubra o Crawl4AI: a biblioteca Python de código aberto definitiva para crawling e scraping otimizado para RAG e modelos de linguagem.",
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/crawl4ai",
+        "url": "https://docs.crawl4ai.com/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/crawl4ai",
         "creator": {
           "@type": "Organization",
           "name": "Crawl4AI"

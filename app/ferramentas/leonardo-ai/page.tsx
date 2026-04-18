@@ -18,9 +18,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Leonardo AI - Gerador de Imagens com IA",
     description: "Conheça o Leonardo AI: ferramenta de IA para criar imagens, ilustrações e arte digital de alta qualidade em segundos. Veja vantagens, desvantagens e se é ideal para você.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -40,6 +42,12 @@ export default function LeonardoAIPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Imagens",
+            "item": "https://www.hypehour.com.br/ia-para-imagens"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Leonardo AI",
             "item": "https://www.hypehour.com.br/ferramentas/leonardo-ai"
@@ -53,7 +61,8 @@ export default function LeonardoAIPage() {
         "description": "Conheça o Leonardo AI: ferramenta de IA para criar imagens, ilustrações e arte digital de alta qualidade em segundos. Veja vantagens, desvantagens e se é ideal para você.",
         "applicationCategory": "DesignApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/leonardo-ai",
+        "url": "https://leonardo.ai",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/leonardo-ai",
         "creator": {
           "@type": "Organization",
           "name": "Leonardo AI"

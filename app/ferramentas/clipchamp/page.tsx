@@ -18,9 +18,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Clipchamp - Editor de Vídeo Online com IA da Microsoft",
     description: "Conheça o Clipchamp: editor de vídeo oficial da Microsoft com recursos de IA para legendas, narração e edição automática. Veja funcionalidades, preço e se vale a pena.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -40,6 +42,12 @@ export default function ClipchampPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Criar Vídeos",
+            "item": "https://www.hypehour.com.br/ia-para-criar-videos"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Clipchamp",
             "item": "https://www.hypehour.com.br/ferramentas/clipchamp"
@@ -53,7 +61,8 @@ export default function ClipchampPage() {
         "description": "Conheça o Clipchamp: editor de vídeo oficial da Microsoft com recursos de IA para legendas, narração e edição automática. Veja funcionalidades, preço e se vale a pena.",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/clipchamp",
+        "url": "https://clipchamp.com/pt-br/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/clipchamp",
         "creator": {
           "@type": "Organization",
           "name": "Clipchamp"

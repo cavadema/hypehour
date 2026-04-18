@@ -20,9 +20,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Writesonic - IA para Escrita",
     description: "Conheça o Writesonic: a ferramenta líder para criar artigos otimizados, cópias de anúncios e monitorar sua marca em IAs. Veja preços e recursos.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -42,6 +44,12 @@ export default function WritesonicPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Marketing",
+            "item": "https://www.hypehour.com.br/ia-para-marketing"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Writesonic",
             "item": "https://www.hypehour.com.br/ferramentas/writesonic"
@@ -55,7 +63,8 @@ export default function WritesonicPage() {
         "description": "Conheça o Writesonic: a ferramenta líder para criar artigos otimizados, cópias de anúncios e monitorar sua marca em IAs. Veja preços e recursos.",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/writesonic",
+        "url": "https://writesonic.com",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/writesonic",
         "creator": {
           "@type": "Organization",
           "name": "Writesonic"

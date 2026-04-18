@@ -18,9 +18,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Grafana AI - Observabilidade Inteligente e Dashboards | Análise",
     description: "Conheça os recursos de IA do Grafana: detecção de anomalias, assistente inteligente e diagnóstico automatizado de incidentes.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -40,6 +42,12 @@ export default function GrafanaPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Desenvolvedores",
+            "item": "https://www.hypehour.com.br/ia-para-desenvolvedores"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Grafana AI",
             "item": "https://www.hypehour.com.br/ferramentas/grafana"
@@ -53,7 +61,8 @@ export default function GrafanaPage() {
         "description": "Conheça os recursos de IA do Grafana: detecção de anomalias, assistente inteligente e diagnóstico automatizado de incidentes.",
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/grafana",
+        "url": "https://grafana.com/solutions/machine-learning/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/grafana",
         "creator": {
           "@type": "Organization",
           "name": "Grafana AI"

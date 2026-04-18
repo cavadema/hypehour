@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Conker AI - Gerador de Quizzes e Avaliações",
     description: "Conheça o Conker AI: a ferramenta que ajuda professores a criar quizzes e avaliações instantâneas com IA. Veja como funciona, preços e funcionalidades.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function ConkerPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Professores",
+            "item": "https://www.hypehour.com.br/ia-para-professores"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Conker AI",
             "item": "https://www.hypehour.com.br/ferramentas/conker"
@@ -52,7 +60,8 @@ export default function ConkerPage() {
         "description": "Conheça o Conker AI: a ferramenta que ajuda professores a criar quizzes e avaliações instantâneas com IA. Veja como funciona, preços e funcionalidades.",
         "applicationCategory": "EducationalApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/conker",
+        "url": "https://www.conker.ai/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/conker",
         "creator": {
           "@type": "Organization",
           "name": "Conker AI"

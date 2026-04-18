@@ -128,9 +128,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Pacotes de Ferramentas IA e Agregadores",
     description: "Descubra as melhores plataformas que agregam múltiplas ferramentas e modelos de inteligência artificial.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

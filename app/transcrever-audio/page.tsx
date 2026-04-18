@@ -19,9 +19,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Inteligência Artificial para Transcrever áudio",
     description: "As melhores ferramentas de IA para transcrever áudio em texto com precisão e rapidez.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

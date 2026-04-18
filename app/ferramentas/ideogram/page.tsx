@@ -19,9 +19,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Ideogram - A Melhor IA para Tipografia e Design Gráfico",
     description: "Descubra o Ideogram: a inteligência artificial líder em renderização de texto e design. Veja como funciona, preços, Magic Prompt e se é ideal para seus projetos.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -41,6 +43,12 @@ export default function IdeogramPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Imagens",
+            "item": "https://www.hypehour.com.br/ia-para-imagens"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Ideogram",
             "item": "https://www.hypehour.com.br/ferramentas/ideogram"
@@ -54,7 +62,8 @@ export default function IdeogramPage() {
         "description": "Descubra o Ideogram: a inteligência artificial líder em renderização de texto e design. Veja como funciona, preços, Magic Prompt e se é ideal para seus projetos.",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/ideogram",
+        "url": "https://ideogram.ai",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/ideogram",
         "creator": {
           "@type": "Organization",
           "name": "Ideogram"

@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Chatgot: O Hub de Inteligência Artificial Tudo-em-Um",
     description: "Descubra o Chatgot: a plataforma que reúne GPT-4, Claude 3 e Gemini em um só lugar. Review completo sobre funcionalidades, preços e como criar seus próprios bots de IA.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function ChatgotPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "Agregadores de IA",
+            "item": "https://www.hypehour.com.br/pacotes-de-ferramentas-e-agregadores-ia"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Chatgot: O Hub de Inteligência Artificial Tudo-em-Um",
             "item": "https://www.hypehour.com.br/ferramentas/chatgot"
@@ -52,7 +60,8 @@ export default function ChatgotPage() {
         "description": "Descubra o Chatgot: a plataforma que reúne GPT-4, Claude 3 e Gemini em um só lugar. Review completo sobre funcionalidades, preços e como criar seus próprios bots de IA.",
         "applicationCategory": "ProductivityApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/chatgot",
+        "url": "https://www.chatgot.io/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/chatgot",
         "creator": {
           "@type": "Organization",
           "name": "Chatgot: O Hub de Inteligência Artificial Tudo-em-Um"

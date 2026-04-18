@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Sidekicker AI - Detector de IA e Humanizador",
     description: "Descubra o Sidekicker AI: o detector de IA que também humaniza textos e verifica plágio. Veja como funciona, preços e se vale a pena.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function SidekickerPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "Detecção de IA",
+            "item": "https://www.hypehour.com.br/ferramenta-de-deteccao-de-ia"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Sidekicker AI",
             "item": "https://www.hypehour.com.br/ferramentas/sidekicker"
@@ -52,7 +60,8 @@ export default function SidekickerPage() {
         "description": "Descubra o Sidekicker AI: o detector de IA que também humaniza textos e verifica plágio. Veja como funciona, preços e se vale a pena.",
         "applicationCategory": "UtilitiesApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/sidekicker",
+        "url": "https://sidekicker.ai/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/sidekicker",
         "creator": {
           "@type": "Organization",
           "name": "Sidekicker AI"

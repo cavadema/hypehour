@@ -19,9 +19,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Higgsfield - IA para Criação de Imagens e Vídeos Mobile",
     description: "Conheça o Higgsfield: a IA multimodal focada em mobile que cria imagens e vídeos cinematográficos. Veja como funciona, preços e recursos para social media.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -41,6 +43,12 @@ export default function HiggsfieldPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Imagens",
+            "item": "https://www.hypehour.com.br/ia-para-imagens"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Higgsfield",
             "item": "https://www.hypehour.com.br/ferramentas/higgsfield"
@@ -54,7 +62,8 @@ export default function HiggsfieldPage() {
         "description": "Conheça o Higgsfield: a IA multimodal focada em mobile que cria imagens e vídeos cinematográficos. Veja como funciona, preços e recursos para social media.",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/higgsfield",
+        "url": "https://higgsfield.ai",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/higgsfield",
         "creator": {
           "@type": "Organization",
           "name": "Higgsfield"

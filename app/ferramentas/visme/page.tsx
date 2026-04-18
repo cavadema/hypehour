@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Visme AI - Criador de Conteúdo Visual e Apresentações",
     description: "Descubra o Visme AI: ferramenta multifuncional para criar apresentações, infográficos e conteúdos interativos com inteligência artificial. Veja como funciona.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function VismePage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Apresentações",
+            "item": "https://www.hypehour.com.br/ia-para-criar-apresentacoes"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Visme AI",
             "item": "https://www.hypehour.com.br/ferramentas/visme"
@@ -52,7 +60,8 @@ export default function VismePage() {
         "description": "Descubra o Visme AI: ferramenta multifuncional para criar apresentações, infográficos e conteúdos interativos com inteligência artificial. Veja como funciona.",
         "applicationCategory": "DesignApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/visme",
+        "url": "https://www.visme.co/pt-br/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/visme",
         "creator": {
           "@type": "Organization",
           "name": "Visme AI"

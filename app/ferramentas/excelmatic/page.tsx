@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Excelmatic AI - Gerador de Fórmulas e Automação",
     description: "Conheça o Excelmatic AI: a ferramenta de inteligência artificial que cria fórmulas de Excel, scripts VBA e analisa dados via chat. Veja como funciona e preços.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function ExcelmaticPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Planilhas",
+            "item": "https://www.hypehour.com.br/ia-para-planilhas"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Excelmatic AI",
             "item": "https://www.hypehour.com.br/ferramentas/excelmatic"
@@ -52,7 +60,8 @@ export default function ExcelmaticPage() {
         "description": "Conheça o Excelmatic AI: a ferramenta de inteligência artificial que cria fórmulas de Excel, scripts VBA e analisa dados via chat. Veja como funciona e preços.",
         "applicationCategory": "UtilitiesApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/excelmatic",
+        "url": "https://excelmatic.ai/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/excelmatic",
         "creator": {
           "@type": "Organization",
           "name": "Excelmatic AI"

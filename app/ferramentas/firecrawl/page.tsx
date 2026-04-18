@@ -19,9 +19,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Firecrawl - API de Crawling e Scraping para LLMs",
     description: "Descubra o Firecrawl: a API líder para transformar sites em Markdown limpo e estruturado para alimentar sua Inteligência Artificial.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -41,6 +43,12 @@ export default function FirecrawlPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Web Scraping",
+            "item": "https://www.hypehour.com.br/ia-web-scraping"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Firecrawl",
             "item": "https://www.hypehour.com.br/ferramentas/firecrawl"
@@ -54,7 +62,8 @@ export default function FirecrawlPage() {
         "description": "Descubra o Firecrawl: a API líder para transformar sites em Markdown limpo e estruturado para alimentar sua Inteligência Artificial.",
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/firecrawl",
+        "url": "https://www.firecrawl.dev",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/firecrawl",
         "creator": {
           "@type": "Organization",
           "name": "Firecrawl"

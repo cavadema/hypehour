@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Ollama - Execute Modelos de IA (LLMs) Localmente",
     description: "Conheça o Ollama: a ferramenta open-source para rodar modelos como Llama 3, Mistral e Gemma no seu PC com total privacidade e sem internet.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function OllamaPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "Agregadores de IA",
+            "item": "https://www.hypehour.com.br/pacotes-de-ferramentas-e-agregadores-ia"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Ollama",
             "item": "https://www.hypehour.com.br/ferramentas/ollama"
@@ -52,7 +60,8 @@ export default function OllamaPage() {
         "description": "Conheça o Ollama: a ferramenta open-source para rodar modelos como Llama 3, Mistral e Gemma no seu PC com total privacidade e sem internet.",
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/ollama",
+        "url": "https://ollama.com",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/ollama",
         "creator": {
           "@type": "Organization",
           "name": "Ollama"

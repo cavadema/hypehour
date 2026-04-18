@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Hailuo AI: A Revolução do Vídeo por IA da MiniMax",
     description: "Conheça o Hailuo AI: o gerador de vídeos por IA que transforma texto e imagens em clipes cinematográficos de alta qualidade. Saiba como funciona, preços e funcionalidades.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function HailuoAIPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Vídeos",
+            "item": "https://www.hypehour.com.br/ia-para-criar-videos"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Hailuo AI: A Revolução do Vídeo por IA da MiniMax",
             "item": "https://www.hypehour.com.br/ferramentas/hailuo-ai"
@@ -52,7 +60,8 @@ export default function HailuoAIPage() {
         "description": "Conheça o Hailuo AI: o gerador de vídeos por IA que transforma texto e imagens em clipes cinematográficos de alta qualidade. Saiba como funciona, preços e funcionalidades.",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/hailuo-ai",
+        "url": "https://hailuoai.video/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/hailuo-ai",
         "creator": {
           "@type": "Organization",
           "name": "Hailuo AI: A Revolução do Vídeo por IA da MiniMax"

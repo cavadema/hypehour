@@ -92,9 +92,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Ferramentas para detectar uso de Inteligência Artificial",
     description: "Lista curada de ferramentas para identificar conteúdos gerados por inteligência artificial.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

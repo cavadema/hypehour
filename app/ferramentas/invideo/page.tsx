@@ -19,7 +19,7 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: `${toolMetadata.nome}`,
     description: toolMetadata.descricao,
   },
@@ -47,6 +47,7 @@ export default function InvideoPage() {
                 "applicationCategory": "MultimediaApplication",
                 "operatingSystem": "Web, iOS, Android",
                 "url": toolMetadata.url,
+                "mainEntityOfPage": `https://www.hypehour.com.br/ferramentas/invideo`,
                 "aggregateRating": {
                     "@type": "AggregateRating",
                     "ratingValue": "4.5",

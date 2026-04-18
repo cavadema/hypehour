@@ -43,9 +43,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "IA para PDS: resumir, ler, criar e traduzir",
     description: "Ferramentas de IA para PDFs: resuma, leia, traduza e extraia dados com automação completa.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

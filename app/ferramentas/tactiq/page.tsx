@@ -18,9 +18,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Tactiq - Transcrição e Resumo de Reuniões com IA",
     description: "Conheça o Tactiq: ferramenta de IA para transcrever reuniões do Google Meet, Zoom e Teams em tempo real. Veja funcionalidades, preço e se vale a pena.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -40,6 +42,12 @@ export default function TactiqPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Ata de Reunião",
+            "item": "https://www.hypehour.com.br/ia-para-fazer-ata-reuniao"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Tactiq",
             "item": "https://www.hypehour.com.br/ferramentas/tactiq"
@@ -53,7 +61,8 @@ export default function TactiqPage() {
         "description": "Conheça o Tactiq: ferramenta de IA para transcrever reuniões do Google Meet, Zoom e Teams em tempo real. Veja funcionalidades, preço e se vale a pena.",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/tactiq",
+        "url": "https://tactiq.io",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/tactiq",
         "creator": {
           "@type": "Organization",
           "name": "Tactiq"

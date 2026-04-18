@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Wispr Flow - Ditado por Voz com IA e Comandos",
     description: "Conheça o Wispr Flow: a ferramenta de ditado com IA que escreve 3x mais rápido que você digita. Transcrição perfeita, comandos de voz e formatação automática em qualquer app.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function WisprFlowPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "Transcrever Áudio",
+            "item": "https://www.hypehour.com.br/transcrever-audio"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Wispr Flow",
             "item": "https://www.hypehour.com.br/ferramentas/wisprflow"
@@ -52,7 +60,8 @@ export default function WisprFlowPage() {
         "description": "Conheça o Wispr Flow: a ferramenta de ditado com IA que escreve 3x mais rápido que você digita. Transcrição perfeita, comandos de voz e formatação automática em qualquer app.",
         "applicationCategory": "ProductivityApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/wisprflow",
+        "url": "https://wisprflow.ai",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/wisprflow",
         "creator": {
           "@type": "Organization",
           "name": "Wispr Flow"

@@ -18,9 +18,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "LightPDF - Editor e Conversor de PDF com IA",
     description: "Conheça o LightPDF: ferramenta completa de IA para editar, converter, resumir e interagir com PDFs. Veja funcionalidades, preço e se vale a pena.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -40,6 +42,12 @@ export default function LightPDFPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para PDF",
+            "item": "https://www.hypehour.com.br/ia-para-pdf"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "LightPDF",
             "item": "https://www.hypehour.com.br/ferramentas/lightpdf"
@@ -53,7 +61,8 @@ export default function LightPDFPage() {
         "description": "Conheça o LightPDF: ferramenta completa de IA para editar, converter, resumir e interagir com PDFs. Veja funcionalidades, preço e se vale a pena.",
         "applicationCategory": "ProductivityApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/lightpdf",
+        "url": "https://lightpdf.com/pt/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/lightpdf",
         "creator": {
           "@type": "Organization",
           "name": "LightPDF"

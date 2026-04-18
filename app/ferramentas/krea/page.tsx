@@ -20,9 +20,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Krea AI - Geração de Imagem em Tempo Real e Upscaling",
     description: "Conheça o Krea AI: a ferramenta líder em inteligência artificial generativa em tempo real. Veja como funciona o AI Enhancer, preços e recursos para criativos.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -42,6 +44,12 @@ export default function KreaPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Imagens",
+            "item": "https://www.hypehour.com.br/ia-para-imagens"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Krea AI",
             "item": "https://www.hypehour.com.br/ferramentas/krea"
@@ -55,7 +63,8 @@ export default function KreaPage() {
         "description": "Conheça o Krea AI: a ferramenta líder em inteligência artificial generativa em tempo real. Veja como funciona o AI Enhancer, preços e recursos para criativos.",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/krea",
+        "url": "https://krea.ai",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/krea",
         "creator": {
           "@type": "Organization",
           "name": "Krea AI"

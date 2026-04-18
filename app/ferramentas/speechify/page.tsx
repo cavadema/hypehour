@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Speechify - Text to Speech e Voice Typing com IA",
     description: "Conheça o Speechify: assistente de voz com IA para converter texto em áudio natural e digitar por voz 5x mais rápido. Veja como funciona, vantagens e se é ideal para você.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function SpeechifyPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "Transcrever Áudio",
+            "item": "https://www.hypehour.com.br/transcrever-audio"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Speechify",
             "item": "https://www.hypehour.com.br/ferramentas/speechify"
@@ -52,7 +60,8 @@ export default function SpeechifyPage() {
         "description": "Conheça o Speechify: assistente de voz com IA para converter texto em áudio natural e digitar por voz 5x mais rápido. Veja como funciona, vantagens e se é ideal para você.",
         "applicationCategory": "ProductivityApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/speechify",
+        "url": "https://speechify.com",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/speechify",
         "creator": {
           "@type": "Organization",
           "name": "Speechify"

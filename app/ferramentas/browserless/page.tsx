@@ -19,9 +19,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Browserless - Automação de Navegador Headless em Nuvem",
     description: "Conheça o Browserless: a solução líder para executar Puppeteer e Playwright em escala na nuvem sem gerenciar servidores.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -41,6 +43,12 @@ export default function BrowserlessPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Web Scraping",
+            "item": "https://www.hypehour.com.br/ia-web-scraping"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Browserless",
             "item": "https://www.hypehour.com.br/ferramentas/browserless"
@@ -54,7 +62,8 @@ export default function BrowserlessPage() {
         "description": "Conheça o Browserless: a solução líder para executar Puppeteer e Playwright em escala na nuvem sem gerenciar servidores.",
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/browserless",
+        "url": "https://www.browserless.io/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/browserless",
         "creator": {
           "@type": "Organization",
           "name": "Browserless"

@@ -87,9 +87,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Inteligência Artificial para Advogados",
     description: "Descubra as melhores ferramentas de IA para advogados: pesquisa jurídica, automação de contratos e jurimetria.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

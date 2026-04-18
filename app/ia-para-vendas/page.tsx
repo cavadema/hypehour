@@ -142,9 +142,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Inteligência Artificial para vendas",
     description: "Descubra as melhores ferramentas de IA para vendas: prospecção, qualificação de leads, outreach e automação de vendas.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

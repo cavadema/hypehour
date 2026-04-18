@@ -19,9 +19,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "IA para Arquitetura - Ferramentas de Inteligência Artificial para Projetos",
     description: "Descubra ferramentas de IA para arquitetura: renderização, modelagem 3D e design generativo.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

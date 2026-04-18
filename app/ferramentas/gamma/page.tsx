@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Gamma AI - Crie Apresentações",
     description: "Descubra o Gamma AI: a ferramenta que transforma prompts em apresentações, documentos e sites visualmente impressionantes em segundos. Veja como funciona.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function GammaPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Apresentações",
+            "item": "https://www.hypehour.com.br/ia-para-criar-apresentacoes"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Gamma AI",
             "item": "https://www.hypehour.com.br/ferramentas/gamma"
@@ -52,7 +60,8 @@ export default function GammaPage() {
         "description": "Descubra o Gamma AI: a ferramenta que transforma prompts em apresentações, documentos e sites visualmente impressionantes em segundos. Veja como funciona.",
         "applicationCategory": "DesignApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/gamma",
+        "url": "https://gamma.app",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/gamma",
         "creator": {
           "@type": "Organization",
           "name": "Gamma AI"

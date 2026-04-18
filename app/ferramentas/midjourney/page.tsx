@@ -19,9 +19,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Midjourney - O Líder em Geração de Imagens Artísticas",
     description: "Conheça o Midjourney: a IA com maior qualidade artística e fotorrealista do mercado. Veja como funciona via Discord, preços, v6 e se é ideal para você.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -41,6 +43,12 @@ export default function MidjourneyPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Imagens",
+            "item": "https://www.hypehour.com.br/ia-para-imagens"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Midjourney",
             "item": "https://www.hypehour.com.br/ferramentas/midjourney"
@@ -54,7 +62,8 @@ export default function MidjourneyPage() {
         "description": "Conheça o Midjourney: a IA com maior qualidade artística e fotorrealista do mercado. Veja como funciona via Discord, preços, v6 e se é ideal para você.",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/midjourney",
+        "url": "https://www.midjourney.com",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/midjourney",
         "creator": {
           "@type": "Organization",
           "name": "Midjourney"

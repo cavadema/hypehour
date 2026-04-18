@@ -112,9 +112,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Ferramentas de Inteligência Artificial para Professores",
     description: "Seleção de IAs que ajudam educadores a planejar aulas, gerar quizzes e acompanhar estudantes.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

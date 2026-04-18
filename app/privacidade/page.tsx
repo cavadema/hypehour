@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Política de Privacidade",
     description: "Leia a Política de Privacidade do Hypehour. Saiba como coletamos, usamos e protegemos suas informações.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

@@ -20,9 +20,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Profound - Visibilidade de IA e GEO para Empresas",
     description: "Conheça o Profound: a plataforma enterprise líder em monitorar citações de marca no ChatGPT, Grok, Meta AI e Google Gemini. Veja recursos e planos.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -42,6 +44,12 @@ export default function ProfoundPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Marketing",
+            "item": "https://www.hypehour.com.br/ia-para-marketing"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Profound",
             "item": "https://www.hypehour.com.br/ferramentas/profound"
@@ -55,7 +63,8 @@ export default function ProfoundPage() {
         "description": "Conheça o Profound: a plataforma enterprise líder em monitorar citações de marca no ChatGPT, Grok, Meta AI e Google Gemini. Veja recursos e planos.",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/profound",
+        "url": "https://tryprofound.com",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/profound",
         "creator": {
           "@type": "Organization",
           "name": "Profound"

@@ -32,9 +32,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "CRM com IA",
     description: "Ferramentas de CRM com inteligência artificial para gerenciar vendas, leads e relacionamento com clientes.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

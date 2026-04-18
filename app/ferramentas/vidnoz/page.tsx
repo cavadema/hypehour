@@ -18,9 +18,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Vidnoz AI - Gerador de Vídeo com Avatar e Voz IA Grátis",
     description: "Conheça o Vidnoz AI: plataforma líder para criar vídeos com avatares realistas, clonagem de voz e templates prontos. Teste grátis e transforme texto em vídeo em minutos.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -40,6 +42,12 @@ export default function VidnozPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Criar Vídeos",
+            "item": "https://www.hypehour.com.br/ia-para-criar-videos"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Vidnoz AI",
             "item": "https://www.hypehour.com.br/ferramentas/vidnoz"
@@ -53,7 +61,8 @@ export default function VidnozPage() {
         "description": "Conheça o Vidnoz AI: plataforma líder para criar vídeos com avatares realistas, clonagem de voz e templates prontos. Teste grátis e transforme texto em vídeo em minutos.",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/vidnoz",
+        "url": "https://pt.vidnoz.com/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/vidnoz",
         "creator": {
           "@type": "Organization",
           "name": "Vidnoz AI"

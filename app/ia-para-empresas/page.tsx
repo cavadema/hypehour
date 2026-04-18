@@ -81,9 +81,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Inteligência Artificial para Empresas",
     description: "Ferramentas de IA para empresas otimizarem processos, automação e gestão empresarial.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

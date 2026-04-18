@@ -92,9 +92,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Ferramentas de Inteligência Artificial para Recursos Humanos",
     description: "Descubra as melhores ferramentas de IA para Recursos Humanos: recrutamento, onboarding e gestão de talentos.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

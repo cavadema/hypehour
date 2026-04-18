@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Slidesgo AI - Gerador de Apresentações Inteligente",
     description: "Conheça o Slidesgo AI: o gerador de apresentações que une a maior biblioteca de templates com inteligência artificial. Veja como funciona, preços e vantagens.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function SlidesgoPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Apresentações",
+            "item": "https://www.hypehour.com.br/ia-para-criar-apresentacoes"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Slidesgo AI",
             "item": "https://www.hypehour.com.br/ferramentas/slidesgo"
@@ -52,7 +60,8 @@ export default function SlidesgoPage() {
         "description": "Conheça o Slidesgo AI: o gerador de apresentações que une a maior biblioteca de templates com inteligência artificial. Veja como funciona, preços e vantagens.",
         "applicationCategory": "DesignApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/slidesgo",
+        "url": "https://slidesgo.com/pt/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/slidesgo",
         "creator": {
           "@type": "Organization",
           "name": "Slidesgo AI"

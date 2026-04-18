@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Termos de Serviço",
     description: "Leia os Termos de Serviço do Hypehour. Entenda as regras e diretrizes para o uso do nosso site e serviços.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

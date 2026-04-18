@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "FlowGPT - O Maior Marketplace de Prompts e Agregador de IA",
     description: "Conheça o FlowGPT, a plataforma líder para descobrir prompts de IA, gerenciar modelos como GPT-4 e Claude, e criar seus próprios aplicativos inteligentes.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function FlowGPTPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "Agregadores de IA",
+            "item": "https://www.hypehour.com.br/pacotes-de-ferramentas-e-agregadores-ia"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "FlowGPT",
             "item": "https://www.hypehour.com.br/ferramentas/flowgpt"
@@ -52,7 +60,8 @@ export default function FlowGPTPage() {
         "description": "Conheça o FlowGPT, a plataforma líder para descobrir prompts de IA, gerenciar modelos como GPT-4 e Claude, e criar seus próprios aplicativos inteligentes.",
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/flowgpt",
+        "url": "https://flowgpt.com",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/flowgpt",
         "creator": {
           "@type": "Organization",
           "name": "FlowGPT"

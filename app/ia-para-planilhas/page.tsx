@@ -40,9 +40,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "IA para Criar Planilhas | Ferramentas de IA para Excel e Google Sheets",
     description: "Descubra as melhores ferramentas de IA para criar, automatizar e analisar planilhas no Excel e Google Sheets.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

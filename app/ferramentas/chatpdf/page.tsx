@@ -18,9 +18,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "ChatPDF - Converse com seus PDFs usando IA",
     description: "Conheça o ChatPDF: ferramenta de IA que permite conversar com documentos PDF, resumir textos, traduzir e responder perguntas instantaneamente.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -40,6 +42,12 @@ export default function ChatPDFPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para PDF",
+            "item": "https://www.hypehour.com.br/ia-para-pdf"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "ChatPDF",
             "item": "https://www.hypehour.com.br/ferramentas/chatpdf"
@@ -53,7 +61,8 @@ export default function ChatPDFPage() {
         "description": "Conheça o ChatPDF: ferramenta de IA que permite conversar com documentos PDF, resumir textos, traduzir e responder perguntas instantaneamente.",
         "applicationCategory": "ProductivityApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/chatpdf",
+        "url": "https://www.chatpdf.com",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/chatpdf",
         "creator": {
           "@type": "Organization",
           "name": "ChatPDF"

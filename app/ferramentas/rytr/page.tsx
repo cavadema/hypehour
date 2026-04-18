@@ -18,9 +18,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Rytr - Assistente de Escrita com IA e Gerador de Conteúdo",
     description: "Conheça o Rytr: assistente de escrita com IA que ajuda a criar blogs, emails e anúncios 10x mais rápido. Veja como funciona, preços, vantagens e se vale a pena.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -40,6 +42,12 @@ export default function RytrPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Conteúdo",
+            "item": "https://www.hypehour.com.br/ferramentas-de-ia-para-conteudo"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Rytr",
             "item": "https://www.hypehour.com.br/ferramentas/rytr"
@@ -53,7 +61,8 @@ export default function RytrPage() {
         "description": "Conheça o Rytr: assistente de escrita com IA que ajuda a criar blogs, emails e anúncios 10x mais rápido. Veja como funciona, preços, vantagens e se vale a pena.",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/rytr",
+        "url": "https://rytr.me",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/rytr",
         "creator": {
           "@type": "Organization",
           "name": "Rytr"

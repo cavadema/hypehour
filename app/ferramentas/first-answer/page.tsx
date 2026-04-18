@@ -20,9 +20,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "First Answer - Visibilidade e Otimização para IA (GEO)",
     description: "Descubra como o First Answer ajuda sua marca a dominar as respostas do ChatGPT, Gemini e Google AI Overviews através de monitoramento GEO e AEO.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -42,6 +44,12 @@ export default function FirstAnswerPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Marketing",
+            "item": "https://www.hypehour.com.br/ia-para-marketing"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "First Answer",
             "item": "https://www.hypehour.com.br/ferramentas/first-answer"
@@ -55,7 +63,8 @@ export default function FirstAnswerPage() {
         "description": "Descubra como o First Answer ajuda sua marca a dominar as respostas do ChatGPT, Gemini e Google AI Overviews através de monitoramento GEO e AEO.",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/first-answer",
+        "url": "https://firstanswer.ai/br/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/first-answer",
         "creator": {
           "@type": "Organization",
           "name": "First Answer"

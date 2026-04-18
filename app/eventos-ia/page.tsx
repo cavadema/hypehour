@@ -77,9 +77,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Eventos de Inteligência Artificial 2026 - Brasil e Mundo",
     description: "Descubra os principais eventos de IA em 2026 no Brasil e no mundo. Conferências, summits e festivais de inteligência artificial.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

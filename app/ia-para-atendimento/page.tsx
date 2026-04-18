@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Atendimento com Inteligencia Artificial",
     description: "Ferramentas com IA para melhorar atendimento ao cliente, automatizar respostas e aumentar satisfação.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

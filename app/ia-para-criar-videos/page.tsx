@@ -315,9 +315,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "IA para Criar Vídeos - Ferramentas de Inteligência Artificial",
     description: "Descubra as melhores ferramentas de IA para criar, editar e gerar vídeos automaticamente.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

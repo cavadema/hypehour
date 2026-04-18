@@ -17,9 +17,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "KlingAI - Gerador de Vídeos com IA",
     description: "Conheça o KlingAI: ferramenta de IA para criar vídeos realistas com movimentos complexos e alta qualidade. Veja vantagens, desvantagens e se é ideal para você.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -39,6 +41,12 @@ export default function KlingAIPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Criar Vídeos",
+            "item": "https://www.hypehour.com.br/ia-para-criar-videos"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "KlingAI",
             "item": "https://www.hypehour.com.br/ferramentas/klingai"
@@ -52,7 +60,8 @@ export default function KlingAIPage() {
         "description": "Conheça o KlingAI: ferramenta de IA para criar vídeos realistas com movimentos complexos e alta qualidade. Veja vantagens, desvantagens e se é ideal para você.",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/klingai",
+        "url": "https://klingai.com/global/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/klingai",
         "creator": {
           "@type": "Organization",
           "name": "KlingAI"

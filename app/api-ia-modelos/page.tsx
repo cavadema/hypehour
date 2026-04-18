@@ -105,9 +105,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "APIs e Modelos de Linguagem de IA",
     description: "Explore as principais APIs e modelos de linguagem para integrar IA em seus projetos.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

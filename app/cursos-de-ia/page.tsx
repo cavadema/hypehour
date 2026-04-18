@@ -48,9 +48,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Cursos de IA gratuitos e pagos",
     description: "Descubra os melhores cursos de Inteligência Artificial gratuitos e pagos para impulsionar sua carreira e aprender IA do zero ao avançado.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 

@@ -20,9 +20,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Temso - Monitoramento de Visibilidade de Marca em IA",
     description: "Descubra o Temso: a plataforma líder em AEO e GEO para garantir que sua marca seja citada no ChatGPT, Gemini e Google AI Overviews.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -42,6 +44,12 @@ export default function TemsoPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Marketing",
+            "item": "https://www.hypehour.com.br/ia-para-marketing"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Temso",
             "item": "https://www.hypehour.com.br/ferramentas/temso"
@@ -55,7 +63,8 @@ export default function TemsoPage() {
         "description": "Descubra o Temso: a plataforma líder em AEO e GEO para garantir que sua marca seja citada no ChatGPT, Gemini e Google AI Overviews.",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/temso",
+        "url": "https://www.temso.ai",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/temso",
         "creator": {
           "@type": "Organization",
           "name": "Temso"

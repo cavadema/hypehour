@@ -18,9 +18,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Intercom Fin AI - Agente de Atendimento Inteligente e Análise",
     description: "Conheça o Intercom Fin: o agente de IA que resolve até 50% dos chamados de suporte automaticamente. Veja como funciona, preços, vantagens e desvantagens.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -40,6 +42,12 @@ export default function IntercomPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Atendimento",
+            "item": "https://www.hypehour.com.br/ia-para-atendimento"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Intercom Fin AI",
             "item": "https://www.hypehour.com.br/ferramentas/intercom"
@@ -53,7 +61,8 @@ export default function IntercomPage() {
         "description": "Conheça o Intercom Fin: o agente de IA que resolve até 50% dos chamados de suporte automaticamente. Veja como funciona, preços, vantagens e desvantagens.",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/intercom",
+        "url": "https://www.intercom.com/ai",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/intercom",
         "creator": {
           "@type": "Organization",
           "name": "Intercom Fin AI"

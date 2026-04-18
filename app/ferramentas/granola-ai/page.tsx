@@ -18,9 +18,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Granola AI - O Bloco de Notas Inteligente para Reuniões",
     description: "Conheça a Granola AI: o assistente de reuniões que potencializa suas notas sem robôs, com transcrição e resumos estruturados via inteligência artificial.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -40,6 +42,12 @@ export default function GranolaAiPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para fazer ata de reunião",
+            "item": "https://www.hypehour.com.br/ia-para-fazer-ata-reuniao"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Granola AI",
             "item": "https://www.hypehour.com.br/ferramentas/granola-ai"
@@ -53,7 +61,8 @@ export default function GranolaAiPage() {
         "description": "Conheça a Granola AI: o assistente de reuniões que potencializa suas notas sem robôs, com transcrição e resumos estruturados via inteligência artificial.",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/granola-ai",
+        "url": "https://www.granola.sh/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/granola-ai",
         "creator": {
           "@type": "Organization",
           "name": "Granola AI"

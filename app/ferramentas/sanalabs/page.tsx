@@ -18,9 +18,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Sana (Sana Labs) - Plataforma de IA para Gestão do Conhecimento",
     description: "Conheça a Sana: a plataforma de IA que unifica busca, aprendizado e conhecimento corporativo. Saiba como ela transforma a produtividade da sua empresa.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -40,6 +42,12 @@ export default function SanaPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "Assistentes de IA",
+            "item": "https://www.hypehour.com.br/assistentes-de-ia"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "Sana (Sana Labs)",
             "item": "https://www.hypehour.com.br/ferramentas/sanalabs"
@@ -53,7 +61,8 @@ export default function SanaPage() {
         "description": "Conheça a Sana: a plataforma de IA que unifica busca, aprendizado e conhecimento corporativo. Saiba como ela transforma a produtividade da sua empresa.",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/sanalabs",
+        "url": "https://sanalabs.com",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/sanalabs",
         "creator": {
           "@type": "Organization",
           "name": "Sana (Sana Labs)"

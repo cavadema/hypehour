@@ -19,9 +19,11 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "ScraperAPI - API de Proxy e Bypass de Bloqueios",
     description: "Conheça o ScraperAPI: a solução definitiva para gerenciar proxies, rotacionar IPs e burlar CAPTCHAs em escala com uma simples chamada de API.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
@@ -41,6 +43,12 @@ export default function ScraperAPIPage() {
           },
           {
             "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Web Scraping",
+            "item": "https://www.hypehour.com.br/ia-web-scraping"
+          },
+          {
+            "@type": "ListItem",
             "position": 3,
             "name": "ScraperAPI",
             "item": "https://www.hypehour.com.br/ferramentas/scraperapi"
@@ -54,7 +62,8 @@ export default function ScraperAPIPage() {
         "description": "Conheça o ScraperAPI: a solução definitiva para gerenciar proxies, rotacionar IPs e burlar CAPTCHAs em escala com uma simples chamada de API.",
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
-        "url": "https://www.hypehour.com.br/ferramentas/scraperapi",
+        "url": "https://www.scraperapi.com/",
+        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/scraperapi",
         "creator": {
           "@type": "Organization",
           "name": "ScraperAPI"
