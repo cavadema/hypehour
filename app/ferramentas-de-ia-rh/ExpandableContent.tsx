@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     As <strong>ferramentas de IA para RH</strong> estão transformando a gestão de pessoas e otimizando processos de recursos humanos em empresas de todos os portes. A <strong>inteligência artificial para RH</strong> oferece soluções inovadoras para recrutamento, seleção, engajamento de colaboradores e análise de dados estratégicos.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         Com o uso de <strong>IA para RH</strong>, profissionais de recursos humanos podem automatizar triagens de currículos, identificar os melhores candidatos com base em análise preditiva e melhorar a experiência do colaborador desde o onboarding até o offboarding. As <strong>ferramentas de inteligência artificial para RH</strong> também auxiliam na redução de vieses inconscientes nos processos seletivos e na tomada de decisões baseadas em dados concretos.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como o RH Pode Usar IA ao Seu Favor</h3>
 
                     <ul className="space-y-3 mb-4">

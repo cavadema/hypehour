@@ -2,8 +2,16 @@ import ExpandableContent from "./ExpandableContent";
 import { PencilSquareIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 
 const ferramentas = [
+  {
+    nome: "QuillBot",
+    url: "/ferramentas/quilbot",
+    descricao: "Ferramenta de IA para paráfrase, correção gramatical, sumarização e tradução — com múltiplos modos de escrita e integração com Word e Google Docs.",
+  },
   {
     nome: "Jasper",
     url: "https://www.jasper.ai/",
@@ -378,7 +386,11 @@ export default function IaParaConteudo() {
           </a>
         ))}
       </div>
-
+      <div className="mt-12">
+        <ComparativoFerramentas />
+      </div>
+      <ComoEscolher />
+      <ProTips />
       <FAQSection />
       <script
         type="application/ld+json"

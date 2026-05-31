@@ -2,6 +2,9 @@ import { DocumentTextIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 
 export const metadata = {
   title: "Inteligência Artificial para Ata de Reunião",
@@ -37,7 +40,7 @@ const ferramentas = [
   { nome: "Tactiq", url: "/ferramentas/tactiq", descricao: "Gerador de atas com IA para Zoom, Meet e Teams." },
   { nome: "Read.ai", url: "https://www.read.ai/pt", descricao: "IA para transcrever, resumir e gerar insights de reuniões em tempo real." },
   { nome: "MeetGeek", url: "https://meetgeek.ai/pt/ai-meeting-minutes", descricao: "Plataforma que gera atas automáticas e identifica pontos de ação em reuniões." },
-  { nome: "Otter.ai", url: "https://otter.ai/", descricao: "Transcrição e resumo de reuniões com IA, suportando múltiplas plataformas." },
+  { nome: "Otter AI", url: "/ferramentas/otter-ai", descricao: "Transcrição e resumo de reuniões com IA, suportando múltiplas plataformas." },
   { nome: "Fathom", url: "https://www.fathom.ai/", descricao: "Registra, transcreve e resume reuniões automaticamente com resumos acionáveis." },
   { nome: "Supernormal", url: "https://www.supernormal.com/", descricao: "Gera atas de qualidade profissional diretamente de suas reuniões com IA." },
   { nome: "Fireflies", url: "https://fireflies.ai/", descricao: "Transcrição de reuniões, pesquisa e análise de conversas com IA." },
@@ -75,6 +78,11 @@ export default function IaParaFazerAtaReuniao() {
           </a>
         ))}
       </div>
+      <div className="mt-12">
+        <ComparativoFerramentas />
+      </div>
+      <ComoEscolher />
+      <ProTips />
       <FAQSection />
     </main>
   );

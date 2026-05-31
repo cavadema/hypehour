@@ -1,4 +1,7 @@
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 import { PhoneIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
@@ -43,7 +46,7 @@ const ferramentas = [
   { nome: "Darwin", url: "https://www.getdarwin.ai/pt", descricao: "Criar funcionários-IA que respondem clientes em canais como WhatsApp, Instagram e ligações, qualificam leads, atualizam CRMs." },
   { nome: "CallRail Voice Assist", url: "https://www.callrail.com/voice-assist", descricao: "Assistente de voz com IA para melhorar chamadas de atendimento com respostas inteligentes." },
   { nome: "Contentsquare", url: "https://contentsquare.com/", descricao: "Plataforma de experiência digital com IA para otimizar jornada de atendimento." },
-  { nome: "Poly.ai", url: "https://poly.ai/", descricao: "Assistente de voz com IA para atendimento ao cliente por telefone e canais digitais." },
+  { nome: "Poly.ai", url: "/ferramentas/poly-ai", descricao: "Assistente de voz com IA para atendimento ao cliente por telefone e canais digitais, com resolução autônoma de chamadas e integração com CRM." },
   { nome: "Keplar Voice", url: "https://www.keplar.io/voice", descricao: "Agente de voz com IA para atendimento em chamadas." },
   { nome: "Intercom", url: "/ferramentas/intercom", descricao: "Plataforma de atendimento ao cliente com IA para chatbots e suporte automatizado." },
   { nome: "NeoAgent", url: "https://neoagent.co/", descricao: "Assistência ao cliente com IA 24/7 para WhatsApp, web e telefone." },
@@ -69,6 +72,11 @@ export default function IAParaAtendimento() {
           </a>
         ))}
       </div>
+          <div className="mt-12">
+            <ComparativoFerramentas />
+          </div>
+          <ComoEscolher />
+          <ProTips />
           <FAQSection />
     </main>
   );

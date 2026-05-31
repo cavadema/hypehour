@@ -1,4 +1,7 @@
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 import { CogIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
@@ -81,6 +84,11 @@ export default function AutomacaoIAPage() {
           </a>
         ))}
       </div>
+          <div className="mt-12">
+            <ComparativoFerramentas />
+          </div>
+          <ComoEscolher />
+          <ProTips />
           <FAQSection />
     </main>
   );

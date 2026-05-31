@@ -26,6 +26,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Discover (Test-Time Training)", url: "https://github.com/test-time-training/discover", descricao: "Framework de test-time training que permite aos modelos de IA aprender e se adaptar durante a inferência." },
+  { nome: "Stable-DiffCoder (ByteDance)", url: "https://github.com/ByteDance-Seed/Stable-DiffCoder", descricao: "Repositório da ByteDance com modelos de difusão estável voltados para geração de código e tasks de programação." },
   { nome: "vLLM", url: "https://github.com/vllm-project/vllm", descricao: "Engine de inferência de alto desempenho para LLMs com gerenciamento de memória PagedAttention." },
   { nome: "PersonaPlex", url: "https://github.com/NVIDIA/personaplex", descricao: "Framework da NVIDIA para geração de dados sintéticos personalizados e realistas." },
   { nome: "Flash Attention", url: "https://github.com/Dao-AILab/flash-attention", descricao: "Implementação de atenção rápida e eficiente em memória para acelerar o treinamento e inferência de Transformers." },

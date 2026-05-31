@@ -1,14 +1,14 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Sobre Nós",
-  description: "descubra as melhores ferramentas de IA em um site só. Encontre IA generativa, IA para marketing, professores, conteúdo, gerar imagens e muito mais.",
+  title: "Sobre Nós — Hypehour",
+  description: "Conheça a história por trás da Hypehour, o que nos motivou a criar um diretório de ferramentas de IA em português e como selecionamos cada ferramenta listada.",
   alternates: {
     canonical: 'https://www.hypehour.com.br/sobre-nos',
   },
   openGraph: {
-    title: "Sobre Nós",
-    description: "descubra as melhores ferramentas de IA em um site só. Encontre IA generativa, IA para marketing, professores, conteúdo, gerar imagens e muito mais.",
+    title: "Sobre Nós — Hypehour",
+    description: "Conheça a história por trás da Hypehour, o que nos motivou a criar um diretório de ferramentas de IA em português e como selecionamos cada ferramenta listada.",
     url: "https://www.hypehour.com.br/sobre-nos",
     siteName: 'Hypehour',
     images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
@@ -17,8 +17,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Sobre Nós",
-    description: "descubra as melhores ferramentas de IA em um site só. Encontre IA generativa, IA para marketing, professores, conteúdo, gerar imagens e muito mais.",
+    title: "Sobre Nós — Hypehour",
+    description: "Conheça a história por trás da Hypehour e como selecionamos as ferramentas de IA listadas.",
     images: ['https://www.hypehour.com.br/logo.png'],
     creator: '@hypehourbr',
   },
@@ -31,41 +31,70 @@ export default function SobreNos() {
         <Link href="/" className="text-black hover:underline">&larr; Voltar para a home</Link>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-8">Melhores ferramentas de IA em um site só</h1>
+      <h1 className="text-3xl font-bold mb-3">Sobre a Hypehour</h1>
+      <p className="text-zinc-500 text-sm mb-10">Atualizado em maio de 2026</p>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">Sobre a HypeHour</h2>
-      <p className="text-zinc-700 mb-6">
-        A <strong>HypeHour</strong> reúne em um só lugar as melhores ferramentas de <strong>IA</strong> para <strong>gerar imagens</strong>, <strong>criar conteúdo</strong>, <strong>automatizar tarefas</strong> e impulsionar projetos em qualquer área.
-      </p>
+      <section className="space-y-6 text-zinc-700 leading-relaxed">
 
-      <section className="prose prose-blue max-w-none text-gray-700">
-        <p className="mb-4">
-          A <strong>HypeHour</strong> é uma plataforma criada para quem busca as melhores ferramentas de <strong>IA</strong> em um só site, facilitando a descoberta de soluções para <strong>criação</strong>, <strong>automação</strong> e <strong>produtividade</strong>. Nosso objetivo é ajudar usuários, profissionais e empresas a encontrar rapidamente <strong>ferramentas de IA generativa</strong>, <strong>ferramentas de IA para marketing</strong>, <strong>ferramentas de IA para educação</strong>, <strong>ferramentas de IA para conteúdo</strong> e muito mais.
-        </p>
-
-        <p className="mb-4">
-          Aqui você encontra desde ferramentas para <strong>gerar imagens por IA</strong> até soluções completas para gerar <strong>foto IA</strong>, criar artes, otimizar textos, analisar dados e melhorar fluxos de trabalho. Para quem precisa validar conteúdo, também listamos opções de <strong>ferramentas de detecção de IA</strong>, essenciais para garantir autenticidade e confiança.
-        </p>
-
-        <p className="mb-4">
-          Na HypeHour, você pode explorar:
-        </p>
-
-        <ul className="list-disc pl-5 mb-6 space-y-2">
-          <li><strong>Ferramentas de IA generativa</strong> para imagens, textos, vídeos e áudio;</li>
-          <li><strong>Ferramentas de IA para professores</strong>, com suporte para aulas, avaliações e atividades;</li>
-          <li><strong>Ferramentas de IA para marketing</strong>, ideais para campanhas, anúncios, social media e automação;</li>
-          <li><strong>Melhores ferramentas de IA para conteúdo</strong>, perfeitas para criadores, influenciadores e negócios digitais;</li>
-          <li><strong>IAs para desenvolvimento, análise, produtividade e design</strong>;</li>
-        </ul>
-
-        <p className="mb-4">
-          Nosso compromisso é oferecer um diretório completo e atualizado com as tecnologias mais relevantes do mercado. A <strong>HypeHour</strong> existe para melhorar sua forma de trabalhar, criar e inovar por meio da inteligência artificial.
+        <p>
+          A Hypehour nasceu de uma frustração simples: em 2024, quando a quantidade de ferramentas de IA explodia, não havia um lugar em português que organizasse esse universo de forma clara, honesta e útil para quem não é especialista em tecnologia.
         </p>
 
         <p>
-          Se você busca um portal confiável para comparar soluções, encontrar novas plataformas e descobrir tudo o que a <strong>IA</strong> pode fazer por você, a <strong>HypeHour</strong> é o lugar certo.
+          A maioria dos diretórios existentes estava em inglês, focava em ferramentas para o mercado americano e raramente explicava <em>quando</em> usar cada opção — apenas listava. Faltava contexto, comparação e orientação prática para profissionais brasileiros que queriam adotar IA no trabalho mas não sabiam por onde começar.
         </p>
+
+        <h2 className="text-xl font-bold text-gray-900 mt-10 mb-2">O que fazemos</h2>
+
+        <p>
+          A Hypehour é um diretório editorial de ferramentas de inteligência artificial. Pesquisamos, testamos e organizamos ferramentas de IA por caso de uso — de marketing e design até medicina, direito e educação — para que você encontre exatamente o que precisa sem precisar vasculhar dezenas de sites.
+        </p>
+
+        <p>
+          Cada categoria no site vai além da lista: trazemos uma tabela comparativa das principais opções, um guia de qual ferramenta faz mais sentido para cada perfil de usuário, e dicas práticas para extrair o melhor resultado. Nosso objetivo é que você saia da página sabendo o que usar e como começar — não apenas que a ferramenta existe.
+        </p>
+
+        <h2 className="text-xl font-bold text-gray-900 mt-10 mb-2">Como selecionamos as ferramentas</h2>
+
+        <p>
+          Não cobramos para listar ferramentas na Hypehour. Nossa curadoria é independente e segue critérios editoriais próprios:
+        </p>
+
+        <ul className="list-disc pl-6 space-y-2">
+          <li><strong>Funcionalidade real:</strong> a ferramenta entrega o que promete? Testamos ou verificamos avaliações de usuários reais antes de incluir.</li>
+          <li><strong>Relevância para o mercado brasileiro:</strong> priorizamos ferramentas com interface em português ou com casos de uso aplicáveis à realidade do Brasil.</li>
+          <li><strong>Diversidade de preços:</strong> para cada categoria, incluímos opções gratuitas, freemium e pagas, para que qualquer profissional encontre algo acessível.</li>
+          <li><strong>Atualização contínua:</strong> o mercado de IA muda rápido. Revisamos as categorias regularmente para incluir novas ferramentas e remover as que saíram do ar ou perderam relevância.</li>
+        </ul>
+
+        <h2 className="text-xl font-bold text-gray-900 mt-10 mb-2">Para quem é a Hypehour</h2>
+
+        <p>
+          A Hypehour foi construída pensando em três perfis principais:
+        </p>
+
+        <p>
+          <strong>Profissionais que querem adotar IA no trabalho</strong> mas não têm tempo para testar dezenas de ferramentas por conta própria. Se você é de marketing, RH, jurídico, saúde ou qualquer outra área, aqui você encontra o que está sendo usado na sua profissão, com contexto sobre por que funciona.
+        </p>
+
+        <p>
+          <strong>Empreendedores e pequenos negócios</strong> que precisam fazer mais com menos. O site tem atenção especial a ferramentas gratuitas e de custo acessível, porque nem todo negócio tem orçamento para as soluções enterprise.
+        </p>
+
+        <p>
+          <strong>Entusiastas e early adopters</strong> que gostam de acompanhar o que há de novo em IA. Atualizamos o diretório constantemente com ferramentas recém-lançadas e tendências emergentes.
+        </p>
+
+        <h2 className="text-xl font-bold text-gray-900 mt-10 mb-2">Transparência e contato</h2>
+
+        <p>
+          Se você encontrou uma ferramenta desatualizada, quer sugerir uma nova, ou tem alguma dúvida sobre o site, entre em <Link href="/contato" className="underline hover:text-black">contato com a gente</Link>. Lemos todas as mensagens e valorizamos o feedback de quem usa a Hypehour no dia a dia.
+        </p>
+
+        <p>
+          O site também está presente no <a href="https://x.com/hypehourbr" target="_blank" rel="noopener noreferrer" className="underline hover:text-black">X (@hypehourbr)</a> e no <a href="https://www.linkedin.com/company/hypehour/" target="_blank" rel="noopener noreferrer" className="underline hover:text-black">LinkedIn</a>, onde compartilhamos novidades sobre ferramentas e tendências de IA com mais frequência.
+        </p>
+
       </section>
     </main>
   );

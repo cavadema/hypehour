@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     As <strong>ferramentas de IA para professores</strong> estão transformando a educação e revolucionando a forma como educadores planejam aulas, avaliam alunos e personalizam o ensino. A <strong>inteligência artificial para professores</strong> oferece soluções práticas para economizar tempo, aumentar o engajamento e melhorar os resultados de aprendizagem.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         Com o uso de <strong>IA para professores</strong>, educadores podem criar planos de aula personalizados em minutos, gerar quizzes adaptativos e receber feedback instantâneo sobre o progresso dos alunos. As <strong>ferramentas de inteligência artificial para professores</strong> também auxiliam na diferenciação do ensino, permitindo que cada estudante aprenda no seu próprio ritmo e estilo.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como Professores Podem Usar IA ao Seu Favor</h3>
 
                     <ul className="space-y-3 mb-4">

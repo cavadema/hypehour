@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     Os <strong>cursos de IA</strong> estão revolucionando a forma como profissionais aprendem e aplicam inteligência artificial em suas carreiras. Com um <strong>curso de IA gratuito</strong>, qualquer pessoa pode começar a explorar o mundo da IA sem investimento inicial. Para quem está começando, um <strong>curso de IA para iniciantes</strong> oferece fundamentos sólidos e aplicações práticas desde o primeiro dia.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         A demanda por <strong>cursos de IA</strong> cresceu exponencialmente nos últimos anos, com profissionais buscando capacitação para se destacar no mercado. Um bom <strong>curso de IA gratuito</strong> pode ser o ponto de partida ideal, oferecendo conhecimento teórico e prático sem barreiras financeiras. Para iniciantes, escolher um <strong>curso de IA para iniciantes</strong> adequado é fundamental para construir uma base sólida.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">O Que Você Aprende em Cursos de IA</h3>
 
                     <ul className="space-y-3 mb-4">

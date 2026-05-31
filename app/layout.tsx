@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "./components/Header";
+import CookieBanner from "./components/CookieBanner";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -147,6 +148,7 @@ export default function RootLayout({
       >
         <Header />
         <main className="apify-main">{children}</main>
+        <CookieBanner />
 
         <footer className="site-footer w-full bg-white border-t border-zinc-200 mt-8">
           <div className="max-w-6xl mx-auto py-12 px-6">
@@ -223,6 +225,7 @@ export default function RootLayout({
                     <li><a href="/cursos-de-ia" className="hover:underline">Cursos de IA</a></li>
                     <li><a href="/eventos-ia" className="hover:underline">Eventos</a></li>
                     <li><a href="/aprender-ingles-com-ia" className="hover:underline">IA para Inglês</a></li>
+                    <li><a href="/livros-inteligencia-artificial" className="hover:underline">Livros de IA</a></li>
                     <li><a href="/newsletters-de-ia" className="hover:underline">Newsletters</a></li>
                   </ul>
                 </div>
@@ -245,6 +248,7 @@ export default function RootLayout({
                   <ul className="space-y-2 text-xs text-zinc-600">
                     <li><Link href="/ia-para-design-de-interiores" className="hover:underline">Design de Interiores</Link></li>
                     <li><a href="/ia-para-designers" className="hover:underline">Designers</a></li>
+                    <li><a href="/ia-para-criar-logo" className="hover:underline">Criar Logo</a></li>
                     <li><a href="/ia-para-imagens" className="hover:underline">Imagens</a></li>
                     <li><a href="/ia-para-criar-videos" className="hover:underline">Vídeos</a></li>
                   </ul>
@@ -269,6 +273,7 @@ export default function RootLayout({
                     <li><Link href="/inteligencia-artificial-para-advogados" className="hover:underline">Advogados</Link></li>
                     <li><Link href="/ia-para-arquitetura" className="hover:underline">Arquitetura</Link></li>
                     <li><Link href="/ia-para-medicos" className="hover:underline">Médicos</Link></li>
+                    <li><Link href="/nutricionista-ia" className="hover:underline">Nutricionistas</Link></li>
                     <li><Link href="/ia-para-professores" className="hover:underline">Professores</Link></li>
                   </ul>
                 </div>
@@ -286,6 +291,7 @@ export default function RootLayout({
                   <h3 className="font-semibold mb-2 text-sm text-zinc-900">Seções</h3>
                   <ul className="space-y-2 text-xs text-zinc-700">
                     <li><a href="/sobre-nos" className="hover:underline">Sobre Nós</a></li>
+                    <li><Link href="/contato" className="hover:underline">Contato</Link></li>
                     <li><Link href="/termos" className="hover:underline">Termos de Serviço</Link></li>
                     <li><Link href="/privacidade" className="hover:underline">Política de Privacidade</Link></li>
                   </ul>

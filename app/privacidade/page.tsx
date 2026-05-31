@@ -64,12 +64,16 @@ export default function PoliticaDePrivacidade() {
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">4. Cookies</h2>
                 <p>
-                    Como é prática comum em quase todos os sites profissionais, este site usa cookies, que são pequenos arquivos baixados no seu computador, para melhorar sua experiência.
+                    Como é prática comum em quase todos os sites profissionais, este site usa cookies, que são pequenos arquivos baixados no seu computador, para melhorar sua experiência. Você pode optar por recusar cookies não essenciais por meio do banner de consentimento exibido na sua primeira visita.
                 </p>
                 <ul className="list-disc pl-5 mb-4 space-y-2">
                     <li><strong>Cookies necessários:</strong> São essenciais para o funcionamento do site.</li>
-                    <li><strong>Cookies de análise:</strong> Utilizamos o Google Analytics para entender como os visitantes interagem com o site.</li>
+                    <li><strong>Cookies de análise:</strong> Utilizamos o Google Analytics para entender como os visitantes interagem com o site. Os dados são anonimizados e agregados.</li>
+                    <li><strong>Cookies de publicidade:</strong> Utilizamos o Google AdSense para exibir anúncios neste site. O Google AdSense usa cookies, incluindo o cookie DoubleClick, para veicular anúncios relevantes aos visitantes com base em visitas anteriores a este e a outros sites na internet. Os usuários podem recusar o uso do cookie DoubleClick visitando as <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="underline text-blue-700">Configurações de anúncios do Google</a>. Como alternativa, você pode recusar o uso de cookies de terceiros visitando <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer" className="underline text-blue-700">aboutads.info</a>.</li>
                 </ul>
+                <p>
+                    Para mais informações sobre como o Google usa dados quando você utiliza sites ou aplicativos dos nossos parceiros, consulte <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer" className="underline text-blue-700">policies.google.com/technologies/partner-sites</a>.
+                </p>
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">5. Compromisso do Usuário</h2>
                 <p>

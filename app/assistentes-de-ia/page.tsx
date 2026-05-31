@@ -1,4 +1,7 @@
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 import ExpandableContent from "./ExpandableContent";
 import { UserIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
@@ -26,6 +29,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Janitor AI", url: "/ferramentas/janitor-ai", descricao: "Plataforma de chat com personagens de IA para roleplay e escrita criativa, com alta personalização e galeria de personagens da comunidade." },
+  { nome: "Macaron", url: "/ferramentas/macaron", descricao: "Assistente de IA pessoal com interface elegante e acesso a modelos de linguagem avançados para produtividade diária." },
   {
     nome: "Grain",
     url: "https://grain.com/",
@@ -232,6 +237,11 @@ export default function AssistentesDeIA() {
           </a>
         ))}
       </div>
+          <div className="mt-12">
+            <ComparativoFerramentas />
+          </div>
+          <ComoEscolher />
+          <ProTips />
           <FAQSection />
     </main>
   );

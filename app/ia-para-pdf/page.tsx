@@ -2,6 +2,9 @@ import { DocumentTextIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 
 const ferramentas = [
   {
@@ -76,7 +79,11 @@ export default function IaParaPDF() {
           </a>
         ))}
       </div>
-
+      <div className="mt-12">
+        <ComparativoFerramentas />
+      </div>
+      <ComoEscolher />
+      <ProTips />
       <FAQSection />
 
       

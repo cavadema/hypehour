@@ -1,4 +1,7 @@
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 import ExpandableContent from "./ExpandableContent";
 import { GlobeAltIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
@@ -28,6 +31,10 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "OpenClaw", url: "/ferramentas/openclaw", descricao: "Plataforma para criar e orquestrar agentes de IA autônomos com memória persistente e integrações flexíveis." },
+  { nome: "Claw Syndicate", url: "/ferramentas/claw-syndicate", descricao: "Plataforma de orquestração multi-agente para criar equipes de agentes de IA especializados trabalhando em conjunto." },
+  { nome: "Tonkotsu AI", url: "/ferramentas/tonkotsu", descricao: "Plataforma visual para construir fluxos de agentes de IA com memória, ferramentas e execução autônoma." },
+  { nome: "Gobii AI", url: "/ferramentas/gobii", descricao: "Plataforma no-code para criar agentes de IA personalizados com base de conhecimento e integração multicanal." },
   {
     nome: "Raindrop",
     url: "https://www.raindrop.ai/",
@@ -217,6 +224,11 @@ export default function CriacaoAgentesIA() {
           </a>
         ))}
       </div>
+          <div className="mt-12">
+            <ComparativoFerramentas />
+          </div>
+          <ComoEscolher />
+          <ProTips />
           <FAQSection />
     </main>
   );

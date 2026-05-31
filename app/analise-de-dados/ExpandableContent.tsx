@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     A <strong>IA para análise de dados</strong> está revolucionando a forma como empresas interpretam informações e tomam decisões estratégicas. Com <strong>ciência de dados e IA</strong> trabalhando juntas, é possível processar grandes volumes de informações, identificar padrões ocultos e gerar insights acionáveis em tempo real.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         A <strong>análise de dados com IA</strong> democratiza o acesso a insights sofisticados, permitindo que profissionais sem conhecimento técnico avançado realizem análises complexas. Ferramentas de <strong>IA de análise de dados</strong> automatizam processos que antes levavam dias ou semanas, entregando resultados precisos em minutos.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como Usar IA para Análise de Dados na Prática</h3>
 
                     <ul className="space-y-3 mb-4">

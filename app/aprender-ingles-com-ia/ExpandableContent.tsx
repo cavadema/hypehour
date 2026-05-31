@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     A <strong>IA para aprender inglês</strong> está transformando o ensino de idiomas ao oferecer experiências personalizadas e adaptativas. Com <strong>aprender inglês com IA</strong>, estudantes de todos os níveis podem praticar conversação, melhorar pronúncia e expandir vocabulário de forma eficiente. Um <strong>aplicativo para aprender inglês</strong> com inteligência artificial analisa erros em tempo real e adapta o conteúdo conforme o progresso do aluno.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         As ferramentas de <strong>IA para aprender inglês</strong> utilizam reconhecimento de voz, processamento de linguagem natural e machine learning para criar experiências imersivas. Ao <strong>aprender inglês com IA</strong>, você tem acesso a feedback instantâneo sobre pronúncia, gramática e vocabulário, acelerando seu desenvolvimento no idioma.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como a IA Acelera o Aprendizado de Inglês</h3>
 
                     <ul className="space-y-3 mb-4">

@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     As <strong>ferramentas de IA para desenvolvedores</strong> estão revolucionando o desenvolvimento de software. A <strong>IA para desenvolvimento de software</strong> oferece assistentes inteligentes que aceleram a codificação, automatizam testes, revisam código e aumentam a produtividade de programadores em todas as linguagens.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         Encontrar a <strong>melhor IA para desenvolvedores</strong> pode transformar completamente seu fluxo de trabalho. As <strong>melhores IA para desenvolvedores</strong> incluem assistentes de código como GitHub Copilot, Cursor, Codeium e outras ferramentas especializadas que entendem contexto, sugerem soluções e até geram funções completas.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como Usar IA para Desenvolvedores no Dia a Dia</h3>
 
                     <ul className="space-y-3 mb-4">

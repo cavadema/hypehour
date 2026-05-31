@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     Encontre <strong>IA que resume PDF</strong> para extrair pontos-chave em segundos, use um <strong>leitor de PDF IA</strong> para navegar por documentos extensos, aplique <strong>IA para criação de PDF</strong> a partir de texto ou formulários e escolha <strong>IA para traduzir PDF</strong> mantendo formatação e contexto.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"}`}>
+
                     <p className="mb-4">
                         Com um <strong>leitor de PDF IA</strong>, você faz buscas rápidas por termos, pergunta sobre tabelas e recebe respostas contextuais. Ferramentas de <strong>IA que resume PDF</strong> geram resumos executivos, listas de tópicos e insights acionáveis para estudos, jurídico ou negócios.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como usar IA para PDFs</h3>
                     <ul className="space-y-3 mb-4">
                         <li className="flex gap-2">

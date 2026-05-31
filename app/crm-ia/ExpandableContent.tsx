@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     As <strong>ferramentas de CRM com IA</strong> estão revolucionando a forma como empresas gerenciam relacionamentos com clientes e otimizam seus processos de vendas. <strong>IA para CRM</strong> oferece soluções inteligentes que automatizam tarefas repetitivas, aumentam a produtividade das equipes e melhoram significativamente as taxas de conversão. Com <strong>automação de CRM com IA</strong>, as organizações conseguem acompanhar cada interação com clientes de forma mais eficiente e estratégica.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         A integração de <strong>inteligência artificial em CRM</strong> permite que os sistemas aprendam padrões de comportamento dos clientes, identifiquem oportunidades de venda e gerem insights valiosos para a tomada de decisão. <strong>CRM com IA</strong> não é apenas sobre guardar contatos, mas sobre criar uma visão 360° de cada cliente e otimizar cada ponto de contato na jornada de compra.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como Usar IA para Potencializar Seu CRM</h3>
 
                     <ul className="space-y-3 mb-4">

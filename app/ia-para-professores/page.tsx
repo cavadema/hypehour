@@ -1,9 +1,17 @@
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 import { AcademicCapIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
+  {
+    nome: "SciSpace",
+    url: "/ferramentas/scispace",
+    descricao: "Plataforma de IA para leitura, compreensão e pesquisa de artigos científicos — explica conceitos complexos, resume papers e responde dúvidas sobre qualquer estudo acadêmico.",
+  },
   {
     nome: "Aristotle",
     url: "https://aristotle.harmonic.fun/",
@@ -146,6 +154,11 @@ export default function IaParaProfessores() {
           </a>
         ))}
       </div>
+          <div className="mt-12">
+            <ComparativoFerramentas />
+          </div>
+          <ComoEscolher />
+          <ProTips />
           <FAQSection />
     </main>
   );

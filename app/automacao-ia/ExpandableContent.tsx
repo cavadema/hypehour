@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     As <strong>ferramentas de automação com IA</strong> estão transformando a forma como empresas otimizam seus processos operacionais. <strong>IA para automação</strong> oferece soluções inteligentes que eliminam tarefas manuais repetitivas, aumentam a eficiência das equipes e reduzem erros humanos significativamente. Com <strong>automação inteligente com IA</strong>, as organizações conseguem executar fluxos de trabalho complexos de forma automática e otimizada.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         A integração de <strong>IA para processos de automação</strong> permite que sistemas inteligentes aprendam padrões operacionais, tomem decisões autônomas e adaptem-se a mudanças em tempo real. <strong>Automação com IA</strong> vai além da simples automação tradicional, adicionando capacidades cognitivas que aumentam a flexibilidade e a inteligência dos fluxos de trabalho.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como Usar IA para Potencializar Sua Automação</h3>
 
                     <ul className="space-y-3 mb-4">

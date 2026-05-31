@@ -2,6 +2,9 @@ import ExpandableContent from "./ExpandableContent";
 import { MicrophoneIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 
 export const metadata = {
   title: "Inteligência Artificial para Transcrever áudio",
@@ -28,6 +31,7 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "TurboScribe", url: "/ferramentas/turboscribe", descricao: "Transcrição de áudio com IA baseada no Whisper da OpenAI em 98+ idiomas, com diarização de falantes e exportação em SRT." },
   {
     nome: "Hume AI",
     url: "https://www.hume.ai/",
@@ -94,7 +98,11 @@ export default function TranscreverAudio() {
           </a>
         ))}
       </div>
-
+      <div className="mt-12">
+        <ComparativoFerramentas />
+      </div>
+      <ComoEscolher />
+      <ProTips />
       <FAQSection />
 
       

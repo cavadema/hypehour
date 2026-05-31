@@ -1,9 +1,27 @@
 import ExpandableContent from "./ExpandableContent";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
+import ComparativoFerramentas from "./ComparativoFerramentas";
 import { VideoCameraIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
 
 const ferramentas = [
+    { nome: "Pixverse", url: "/ferramentas/pixverse", descricao: "Gerador de vídeos com IA em múltiplos estilos — realista, anime, cartoon e cinematográfico — a partir de texto ou imagem, com plano gratuito disponível." },
+    { nome: "Viggle AI", url: "/ferramentas/viggle-ai", descricao: "Anime qualquer personagem com movimentos realistas usando vídeos de referência — ideal para criar vídeos de dança e motion virais para redes sociais." },
+    { nome: "Renderforest", url: "https://www.renderforest.com/pt/ai-video-generator", descricao: "Plataforma de criação de vídeos, animações, logos e mockups com templates profissionais e IA, pensada para marcas, agências e negócios que precisam de conteúdo visual em escala." },
+    { nome: "Pixelcut", url: "https://www.pixelcut.ai/pt-br/criar-videos-com-ia", descricao: "Crie vídeos com IA de forma rápida, com remoção de fundo automática, edição simplificada e ferramentas otimizadas para e-commerce, produtos e redes sociais." },
+    { nome: "MindVideo", url: "https://www.mindvideo.ai/pt/", descricao: "Gera vídeos a partir de descrições textuais com modelos de IA de última geração, com controle de câmera, consistência de personagens e alta qualidade visual." },
+    { nome: "Easy-Peasy.AI", url: "https://easy-peasy.ai/pt/ai-video-generator", descricao: "Plataforma all-in-one com gerador de vídeos por IA, criação de imagens, roteiros e conteúdo de marketing, tudo em um único ambiente para criadores de conteúdo." },
+    { nome: "EaseMate", url: "https://www.easemate.ai/br/ai-video-generator", descricao: "Ferramenta de geração de vídeos com IA que transforma texto e imagens em vídeos profissionais com múltiplos estilos, formatos e trilha sonora automática." },
+    { nome: "Vivideo", url: "https://vivideo.ai/pt-br/ferramentas/gerador-de-video-ia", descricao: "Gerador de vídeos com inteligência artificial que transforma descrições textuais em vídeos dinâmicos e criativos com alta qualidade visual e variedade de estilos." },
+    { nome: "AI Studios", url: "https://www.aistudios.com/pt", descricao: "Crie vídeos profissionais com avatares de IA realistas e narração em mais de 80 idiomas a partir de texto, ideal para treinamentos corporativos, marketing e e-learning." },
+    { nome: "TopMediai", url: "https://br.topmediai.com/ai-video-generator/", descricao: "Suite completa de ferramentas de IA para geração de vídeos, edição inteligente, síntese de voz e criação de conteúdo multimídia em uma única plataforma acessível." },
+    { nome: "WayIn AI", url: "https://wayin.ai/pt/tools/ai-video-generator/", descricao: "Plataforma de criação de conteúdo com IA que gera vídeos automaticamente para redes sociais, campanhas de marketing e comunicação digital com templates personalizáveis." },
+    { nome: "Magnific", url: "https://www.magnific.com/br/ai/gerador-video", descricao: "Ferramenta de geração e upscaling de imagens e vídeos com IA de ultra-alta resolução, transformando conteúdo comum em material de qualidade fotográfica e cinematográfica." },
+    { nome: "PicLumen", url: "/ferramentas/piclumen", descricao: "Plataforma criativa com IA para gerar vídeos e imagens usando modelos avançados como Kling, Seedance e Seedream com múltiplos takes e áudio nativo." },
+    { nome: "Fliki", url: "/ferramentas/fliki", descricao: "Gera vídeos completos com narração realista, clipes automáticos e legendas a partir de texto ou roteiro, sem precisar gravar ou editar." },
+    { nome: "Vidwud", url: "/ferramentas/vidwud", descricao: "Converte imagens e textos em vídeos dinâmicos com IA, com efeitos de movimento e transformações de estilo." },
     {
         nome: "Remotion",
         url: "https://www.remotion.dev/",
@@ -11,18 +29,13 @@ const ferramentas = [
     },
     {
         nome: "Hedra",
-        url: "https://www.hedra.com/",
-        descricao: "Plataforma de criação de vídeo com IA focada em avatares falantes e personagens expressivos.",
+        url: "/ferramentas/hedra",
+        descricao: "Plataforma de criação de vídeo com IA focada em avatares falantes e personagens expressivos — transforma imagens e áudio em vídeos com sincronização labial realista.",
     },
     {
         nome: "Reelive",
         url: "https://reelive.ai/",
         descricao: "Plataforma de IA para criar vídeos curtos e envolventes otimizados para redes sociais.",
-    },
-    {
-        nome: "Pixverse",
-        url: "https://app.pixverse.ai/",
-        descricao: "Gerador de vídeos cinemáticos a partir de texto e imagens com alta fidelidade visual.",
     },
     {
         nome: "Clipwise",
@@ -295,7 +308,7 @@ const ferramentas = [
         descricao: "Estúdio de criação de vídeos com IA para efeitos avançados.",
     },
     { nome: "Luma Labs", url: "https://lumalabs.ai/", descricao: "Plataforma de IA para gerar vídeos de alta qualidade com Dream Machine e modelos de geração avançados." },
-    { nome: "Descript", url: "https://www.descript.com/", descricao: "Editor de vídeo e podcast com IA que permite editar pelo texto, gerar B-roll e aplicar layouts automaticamente." },
+    { nome: "Descript", url: "/ferramentas/descript", descricao: "Editor de vídeo e podcast com IA que permite editar pelo texto, gerar B-roll, remover silêncios e aplicar layouts automaticamente." },
     { nome: "Detail", url: "https://detail.co/", descricao: "Grave, edite e compartilhe com AI em um toque: Auto Edit, teleprompter e clips para social." },
 ];
 
@@ -349,6 +362,11 @@ export default function IaParaCriarVideos() {
                 ))}
             </div>
 
+      <div className="mt-12">
+        <ComparativoFerramentas />
+      </div>
+      <ComoEscolher />
+      <ProTips />
             <FAQSection />
 
             

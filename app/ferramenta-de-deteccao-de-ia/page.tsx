@@ -2,6 +2,9 @@ import ExpandableContent from "./ExpandableContent";
 import { ArrowLeftIcon, ShieldCheckIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 
 const ferramentas = [
   {
@@ -45,9 +48,9 @@ const ferramentas = [
     descricao: "Detector com foco em criadores de conteúdo e equipes de marketing.",
   },
   {
-    nome: "Undetectable",
-    url: "https://undetectable.ai/pt-br",
-    descricao: "Verifica conteúdos e também oferece recursos para melhorar a naturalidade.",
+    nome: "Undetectable AI",
+    url: "/ferramentas/undetectable",
+    descricao: "Detecta textos gerados por IA com múltiplos detectores e oferece humanização para torná-los naturais.",
   },
   {
     nome: "Plagium",
@@ -125,6 +128,11 @@ export default function FerramentaDeteccaoIA() {
           </a>
         ))}
       </div>
+      <div className="mt-12">
+        <ComparativoFerramentas />
+      </div>
+      <ComoEscolher />
+      <ProTips />
       <FAQSection />
     </main>
   );

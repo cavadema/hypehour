@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     A <strong>automação de atendimento com IA</strong> está transformando a forma como empresas se relacionam com seus clientes. As soluções de <strong>IA para atendimento</strong> oferecem recursos avançados para personalizar interações, reduzir tempo de resposta e aumentar a satisfação do cliente em todos os canais de comunicação.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         Com <strong>IA para atendimento no WhatsApp</strong> e outros canais digitais, empresas podem atender clientes 24/7 de forma automatizada e inteligente. O <strong>atendimento com IA</strong> permite resolver dúvidas frequentes, qualificar leads e direcionar casos complexos para atendentes humanos de forma eficiente.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como Usar IA para Atendimento ao Cliente</h3>
 
                     <ul className="space-y-3 mb-4">

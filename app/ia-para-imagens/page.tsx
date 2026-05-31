@@ -2,8 +2,16 @@ import ExpandableContent from "./ExpandableContent";
 import { PhotoIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 
 const ferramentas = [
+  { nome: "ClipDrop", url: "/ferramentas/clipdrop", descricao: "Suite completa de ferramentas de IA para edição de imagens: remoção de fundo, upscaling, limpeza de objetos, remoção de texto e geração de imagens com Stable Diffusion." },
+  { nome: "Thumbfast", url: "/ferramentas/thumbfast", descricao: "Gerador de thumbnails profissionais para YouTube, Instagram e redes sociais com IA otimizadas para cliques." },
+  { nome: "Upscayl", url: "/ferramentas/upscayl", descricao: "Upscaler de imagens com IA gratuito e open-source que aumenta a resolução em até 16x, disponível para Windows, Mac e Linux." },
+  { nome: "insMind", url: "/ferramentas/insmind", descricao: "Editor de fotos com IA para remover fundos, gerar cenários e criar imagens profissionais de produtos para e-commerce." },
+  { nome: "AI Ease", url: "/ferramentas/ai-ease", descricao: "Gerador de headshots profissionais com IA que transforma selfies em fotos de estúdio para LinkedIn e currículo." },
   {
     nome: "Caricature.life",
     url: "https://caricature.life/",
@@ -21,8 +29,8 @@ const ferramentas = [
   },
   {
     nome: "Dzine",
-    url: "https://www.dzine.ai/",
-    descricao: "Ferramenta de design e edição de imagem/vídeo com IA para criadores, com recursos de generative fill e face swap.",
+    url: "/ferramentas/dzine",
+    descricao: "Ferramenta de design e edição de imagem com IA para criadores, com generative fill, face swap, geração de imagens e edição inteligente em uma interface simples.",
   },
   {
     nome: "Vectr",
@@ -297,6 +305,11 @@ export default function IaParaImagens() {
           </a>
         ))}
       </div>
+      <div className="mt-12">
+        <ComparativoFerramentas />
+      </div>
+      <ComoEscolher />
+      <ProTips />
       <FAQSection />
     </main>
   );

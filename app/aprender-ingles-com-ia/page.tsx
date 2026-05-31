@@ -1,6 +1,9 @@
 import { AcademicCapIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 import ExpandableContent from "./ExpandableContent";
 
 export const metadata = {
@@ -66,6 +69,11 @@ export default function AprenderInglesComIA() {
           </a>
         ))}
       </div>
+      <div className="mt-12">
+        <ComparativoFerramentas />
+      </div>
+      <ComoEscolher />
+      <ProTips />
       <FAQSection />
     </main>
   );

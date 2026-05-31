@@ -2,6 +2,9 @@ import ExpandableContent from "./ExpandableContent";
 import { CodeBracketIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 
 export const metadata = {
   title: "Ferramentas de Inteligência Artificial para vibe coding",
@@ -28,6 +31,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Scaffold", url: "/ferramentas/scaffold", descricao: "Gera a estrutura completa de projetos de software com IA a partir de uma descrição em linguagem natural." },
+  { nome: "Soloist AI", url: "/ferramentas/soloist", descricao: "Assistente de desenvolvimento com IA para desenvolvedores solo, com contexto persistente e pair programming." },
   {
     nome: "Fimo AI",
     url: "https://fimo.ai/",
@@ -170,7 +175,11 @@ export default function IaParaVibeCoding() {
           );
         })}
       </div>
-
+      <div className="mt-12">
+        <ComparativoFerramentas />
+      </div>
+      <ComoEscolher />
+      <ProTips />
       <FAQSection />
       
     </main>

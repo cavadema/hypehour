@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     A <strong>inteligência artificial para médicos</strong> está transformando o cenário da saúde, oferecendo ferramentas poderosas para auxiliar no diagnóstico, tratamento e gestão clínica. O uso de <strong>ia para medicos</strong> permite que profissionais de saúde analisem grandes volumes de dados, identifiquem padrões complexos e tomem decisões mais precisas e rápidas.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         Com o avanço da tecnologia, surgiram diversas opções de <strong>app de inteligencia artificial para medicos</strong>, que vão desde assistentes virtuais para agendamento de consultas até sistemas avançados de suporte à decisão clínica. O uso de <strong>chat ia para medicos</strong> também tem crescido, facilitando a comunicação com pacientes e o acesso rápido a informações médicas atualizadas.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Benefícios da IA na Medicina</h3>
 
                     <ul className="space-y-3 mb-4">

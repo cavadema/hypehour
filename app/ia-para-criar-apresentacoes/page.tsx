@@ -2,6 +2,9 @@ import ExpandableContent from "./ExpandableContent";
 import { PresentationChartLineIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 
 const ferramentas = [
     {
@@ -273,7 +276,11 @@ export default function IaParaCriarApresentacoes() {
                     </a>
                 ))}
             </div>
-
+            <div className="mt-12">
+              <ComparativoFerramentas />
+            </div>
+            <ComoEscolher />
+            <ProTips />
             <FAQSection />
             <script
                 type="application/ld+json"

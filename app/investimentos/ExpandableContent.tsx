@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     As <strong>ferramentas de IA para investimentos</strong> estão revolucionando o mercado financeiro, oferecendo análises avançadas e recomendações inteligentes para investidores de todos os níveis. Com <strong>IA para investimentos gratuito</strong>, até iniciantes podem acessar tecnologias de ponta que antes eram exclusivas de grandes instituições financeiras. A <strong>melhor IA para investimentos</strong> oferece análise de mercado em tempo real, identificação de oportunidades e gestão automatizada de portfólio.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         A integração de <strong>IA para investimentos financeiros</strong> permite que investidores tomem decisões mais informadas com base em análise de dados históricos, tendências de mercado e padrões de comportamento. Ferramentas de <strong>IA para análise de investimentos</strong> processam milhares de variáveis simultaneamente, identificando oportunidades que passariam despercebidas em análises tradicionais.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como Usar IA para Potencializar Seus Investimentos</h3>
 
                     <ul className="space-y-3 mb-4">

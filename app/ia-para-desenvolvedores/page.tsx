@@ -1,4 +1,7 @@
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 import { CodeBracketIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
@@ -28,6 +31,12 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "shadcn/ui Create", url: "/ferramentas/shadcn-create", descricao: "Gerador de componentes React shadcn/ui personalizados com IA a partir de descrições em linguagem natural." },
+  {
+    nome: "Meticulous",
+    url: "https://www.meticulous.ai/",
+    descricao: "Gera e mantém automaticamente testes E2E para UI sem nenhum esforço do desenvolvedor, com cobertura quase exaustiva.",
+  },
   {
     nome: "Railway",
     url: "https://railway.com/",
@@ -587,6 +596,11 @@ export default function IaParaDesenvolvedores() {
           </a>
         ))}
       </div>
+          <div className="mt-12">
+            <ComparativoFerramentas />
+          </div>
+          <ComoEscolher />
+          <ProTips />
           <FAQSection />
     </main>
   );

@@ -13,11 +13,12 @@ export default function ExpandableContent() {
           As ferramentas de IA para marketing estão transformando a forma como empresas criam, analisam e otimizam ações digitais. A IA para marketing permite apoiar decisões estratégicas, automatizar tarefas e interpretar dados em diferentes canais, sem substituir o trabalho humano.
         </p>
 
-        <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"}`}>
+
           <p className="mb-4">
             No contexto do marketing com IA, essas soluções são utilizadas para dar escala a processos, melhorar a organização de fluxos e ampliar a eficiência das equipes. Ao integrar ferramentas de IA para marketing ao dia a dia, profissionais conseguem concentrar esforços em planejamento, criatividade e análise.
           </p>
 
+        <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"}`}>
           <p className="mb-4">De forma geral, a IA para marketing digital oferece suporte em áreas como:</p>
           <ul className="space-y-3 mb-4">
             <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span>apoio à criação e otimização de conteúdo e anúncios</span></li>

@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     A <strong>inteligência artificial para advogados</strong> está revolucionando a prática jurídica no Brasil e no mundo. As <strong>ferramentas de IA para advogados</strong> oferecem soluções especializadas para aumentar a produtividade, otimizar pesquisas jurídicas e automatizar tarefas repetitivas do dia a dia.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         Com o uso de <strong>IA para advogados</strong>, profissionais do direito podem realizar análises de jurisprudência em segundos, identificar padrões em milhares de decisões judiciais e gerar minutas contratuais personalizadas com precisão. A <strong>inteligência artificial para advogados</strong> também auxilia na gestão de prazos processuais, reduzindo significativamente o risco de perda de prazos e melhorando a organização do escritório.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como Advogados Podem Usar IA ao Seu Favor</h3>
 
                     <ul className="space-y-3 mb-4">

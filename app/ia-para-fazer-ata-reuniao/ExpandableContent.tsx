@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     As <strong>ferramentas de IA para fazer ata de reunião</strong> estão transformando a forma como profissionais documentam e acompanham suas reuniões. Ferramentas de IA para gerar atas de reunião automaticamente, economizando tempo e garantindo registros precisos. A <strong>inteligência artificial para reunião</strong> oferece soluções práticas para economizar tempo, garantir registros precisos e melhorar o acompanhamento de ações.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         Com o uso de <strong>IA para transcrever reunião</strong>, profissionais podem capturar automaticamente cada detalhe importante, identificar pontos de ação e gerar atas estruturadas em minutos. As <strong>ferramentas de IA para fazer ata de reunião</strong> também auxiliam na organização de informações, permitindo buscas rápidas e compartilhamento eficiente com toda a equipe.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como Usar IA para Otimizar Suas Reuniões</h3>
 
                     <ul className="space-y-3 mb-4">

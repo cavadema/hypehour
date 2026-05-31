@@ -1,8 +1,7 @@
 import {
-  SparklesIcon, PhotoIcon, CodeBracketIcon, CodeBracketSquareIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon, Square3Stack3DIcon,
-  UserIcon, HeartIcon,
-  UserGroupIcon,
-  PhoneIcon, MicrophoneIcon, BuildingStorefrontIcon, CogIcon, ArrowPathIcon, ChartBarIcon, CommandLineIcon, CpuChipIcon, BoltIcon, RocketLaunchIcon, PuzzlePieceIcon
+  SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon,
+  UserIcon,
+  PhoneIcon,
 } from "@heroicons/react/24/solid";
 
 const webpageJsonLd = {
@@ -1053,64 +1052,64 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> GPT-5.2</span>
-            <p className="text-zinc-700">Modelo multimodal avançado da OpenAI para raciocínio, código e criação pro.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Dez/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> GPT-5.5</span>
+            <p className="text-zinc-700">Modelo flagship multimodal da OpenAI com foco em agentes, raciocínio avançado, código, vídeo, áudio e contexto de até 1M tokens.</p>
+            <span className="text-xs text-zinc-500">OpenAI</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Gemini 3.0</span>
-            <p className="text-zinc-700">Modelo multimodal do Google capaz de operar em texto, imagem e vídeo.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Nov/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Gemini 3.1 Pro</span>
+            <p className="text-zinc-700">Modelo multimodal nativo do Google com forte desempenho em agentes, planilhas, raciocínio científico e contexto gigante.</p>
+            <span className="text-xs text-zinc-500">Google DeepMind</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Opus 4.5</span>
-            <p className="text-zinc-700">Atualização da Anthropic focada em respostas mais seguras e assertivas.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Out/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Claude Opus 4.7</span>
+            <p className="text-zinc-700">Modelo mais avançado da Anthropic para reasoning profundo, coding e tarefas agentic longas. Janela de 1M tokens e suporte visual avançado.</p>
+            <span className="text-xs text-zinc-500">Anthropic</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Sonnet 4.5</span>
-            <p className="text-zinc-700">Equilíbrio entre custo e performance para fluxos de automação avançados.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Out/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Claude Sonnet 4.6</span>
+            <p className="text-zinc-700">Variante da Anthropic otimizada para equilíbrio entre velocidade, custo e raciocínio. Muito forte em programação e automação corporativa.</p>
+            <span className="text-xs text-zinc-500">Anthropic</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Grok 4.1</span>
-            <p className="text-zinc-700">Modelo da xAI com acesso em tempo real aos dados públicos da plataforma X.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Set/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Grok 4.3</span>
+            <p className="text-zinc-700">Modelo da xAI com conhecimento em tempo real, integração com X, contexto massivo de 2M tokens e entrada multimodal incluindo vídeo.</p>
+            <span className="text-xs text-zinc-500">xAI</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Llama 4</span>
-            <p className="text-zinc-700">Nova geração open-source da Meta com melhorias significativas em raciocínio e performance.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Dez/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Llama 4 Maverick</span>
+            <p className="text-zinc-700">Principal modelo open-weight da Meta com arquitetura MoE, otimizado para inferência eficiente e deploy local em empresas.</p>
+            <span className="text-xs text-zinc-500">Meta AI</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Perplexity Sonar</span>
-            <p className="text-zinc-700">Modelo focado em busca e raciocínio em tempo real, baseado no Llama 3.1.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Dez/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Sonar Ultra</span>
+            <p className="text-zinc-700">Modelo da Perplexity orientado a busca e pesquisa profunda, com respostas baseadas em citações verificadas em tempo real.</p>
+            <span className="text-xs text-zinc-500">Perplexity AI</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> DeepSeek 3.2</span>
-            <p className="text-zinc-700">Modelo open-weights com desempenho de ponta e custo reduzido.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Dez/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> DeepSeek V4</span>
+            <p className="text-zinc-700">Modelo open-weight MoE com até 1,6T parâmetros, contexto de 1M tokens e destaque em STEM, matemática e coding com custo extremamente baixo.</p>
+            <span className="text-xs text-zinc-500">DeepSeek</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Qwen3</span>
-            <p className="text-zinc-700">Família de modelos da Alibaba com excelência em código e matemática.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Set/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Qwen 3.6 Max</span>
+            <p className="text-zinc-700">Família avançada da Alibaba focada em matemática, multilíngue, coding e reasoning híbrido, com excelente eficiência open-weight.</p>
+            <span className="text-xs text-zinc-500">Alibaba Cloud</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Mistral 3</span>
-            <p className="text-zinc-700">Modelo fronteira da Mistral AI com raciocínio avançado e eficiência.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Jan/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Mistral Large 3</span>
+            <p className="text-zinc-700">Linha europeia da Mistral AI focada em eficiência, inferência rápida e excelente suporte multilíngue, especialmente idiomas europeus e código.</p>
+            <span className="text-xs text-zinc-500">Mistral AI</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Maritaca - Sabiazinho-4</span>
-            <p className="text-zinc-700">LLM brasileiro treinado especificamente para o português e cultura nacional.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Fev/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Sabiá-4</span>
+            <p className="text-zinc-700">LLM brasileiro especializado em português, documentos jurídicos, contexto longo e aplicações corporativas nacionais.</p>
+            <span className="text-xs text-zinc-500">Maritaca AI</span>
           </div>
           <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> manus 1.6</span>
-            <p className="text-zinc-700">um passo significativo em direção a um futuro onde a AI pode lidar de forma confiável com a maior parte do seu trabalho mais complexo.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Mar/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Phi-4</span>
+            <p className="text-zinc-700">Modelo compacto da Microsoft de alta eficiência, otimizado para reasoning, edge AI e execução local com baixo custo computacional.</p>
+            <span className="text-xs text-zinc-500">Microsoft AI</span>
           </div>
         </div>
       </section>
@@ -1192,26 +1191,6 @@ export default function Home() {
       </section>
 
 
-      {/* Depoimentos */}
-      <section id="depoimentos" className="w-full max-w-5xl mx-auto py-12 px-4">
-        <h2 className="apify-section-title mb-8">Depoimentos</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="apify-card p-6">
-            <p className="text-zinc-700">&quot;Esse site me ajudou a descobrir várias IAs do mercado e para meu segmento de trabalho.&quot;</p>
-            <div className="mt-4 text-sm text-zinc-500">— Usuário satisfeito</div>
-          </div>
-
-          <div className="apify-card p-6">
-            <p className="text-zinc-700">&quot;Não imaginava que tinha tantas IAs para gerar imagens.&quot;</p>
-            <div className="mt-4 text-sm text-zinc-500">— Designer visual</div>
-          </div>
-
-          <div className="apify-card p-6">
-            <p className="text-zinc-700">&quot;Eu estava pesquisando IAs para um trabalho e acabei descobrindo um novo mercado para aprender a programar.&quot;</p>
-            <div className="mt-4 text-sm text-zinc-500">— Estudante</div>
-          </div>
-        </div>
-      </section>
     </div >
   );
 }

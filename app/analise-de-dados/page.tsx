@@ -1,6 +1,9 @@
 import { ArchiveBoxIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 import ExpandableContent from "./ExpandableContent";
 
 export const metadata = {
@@ -52,7 +55,7 @@ const ferramentas = [
   { nome: "Voxel51", url: "https://voxel51.com/", descricao: "Análise de dados visuais e modelos de IA para visão computacional." },
   { nome: "Zoho Analytics Zia", url: "https://www.zoho.com/pt-br/analytics/zia/", descricao: "Assistente de IA para análise de dados e insights automatizados." },
   { nome: "Google Cloud AI Data Analytics", url: "https://cloud.google.com/use-cases/ai-data-analytics?hl=pt-BR", descricao: "Soluções de análise de dados com IA no Google Cloud." },
-  { nome: "Julius AI", url: "https://julius.ai/", descricao: "Assistente de IA para análise de dados e visualizações inteligentes." },
+  { nome: "Julius AI", url: "/ferramentas/julius-ai", descricao: "Analisa planilhas e dados em linguagem natural, gerando gráficos, análises estatísticas e insights automaticamente sem código." },
   { nome: "Coupler.io", url: "https://www.coupler.io/", descricao: "Integração e análise de dados com automação via IA." },
   { nome: "PowerDrill", url: "https://powerdrill.ai/", descricao: "IA para análise de dados e geração de insights de negócio." },
   { nome: "DataCamp DataLab", url: "https://www.datacamp.com/datalab", descricao: "Ambiente de análise de dados com IA para cientistas de dados." },
@@ -81,6 +84,11 @@ export default function AnaliseDeDados() {
           </a>
         ))}
       </div>
+      <div className="mt-12">
+        <ComparativoFerramentas />
+      </div>
+      <ComoEscolher />
+      <ProTips />
       <FAQSection />
     </main>
   );

@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     As <strong>ferramentas de IA para contabilidade</strong> estão revolucionando a forma como contadores e empresas gerenciam suas finanças. A <strong>inteligência artificial para contabilidade</strong> oferece soluções inovadoras para automatizar processos, reduzir erros e otimizar a gestão fiscal e financeira.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         Com o uso de <strong>IA para contabilidade</strong>, profissionais contábeis podem automatizar lançamentos, classificar transações automaticamente e gerar relatórios financeiros complexos em minutos. As <strong>ferramentas de inteligência artificial para contabilidade</strong> também auxiliam na conformidade fiscal, identificando possíveis inconsistências e sugerindo otimizações tributárias.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como Contadores Podem Usar IA ao Seu Favor</h3>
 
                     <ul className="space-y-3 mb-4">

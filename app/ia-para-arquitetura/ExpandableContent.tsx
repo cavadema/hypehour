@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     A <strong>inteligência artificial para arquitetura</strong> está revolucionando a forma como projetamos e construímos o mundo ao nosso redor. As ferramentas de <strong>ia para arquitetos</strong> oferecem soluções inovadoras para otimizar fluxos de trabalho, desde a concepção inicial até a renderização final e análise de dados construtivos.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         Com o uso de <strong>inteligencia artificial para arquitetura</strong>, profissionais podem gerar variações de design em segundos, criar renderizações fotorrealistas a partir de esboços simples e automatizar tarefas repetitivas como o planejamento de layouts. A <strong>ia para arquitetura</strong> também auxilia na análise de eficiência energética e na viabilidade de projetos, garantindo construções mais sustentáveis e econômicas.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como Arquitetos Podem Usar IA ao Seu Favor</h3>
 
                     <ul className="space-y-3 mb-4">

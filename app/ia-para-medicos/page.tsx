@@ -1,4 +1,7 @@
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 import { HeartIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
@@ -29,6 +32,11 @@ export const metadata = {
 };
 
 const ferramentas = [
+    {
+        nome: "Amazon Health AI",
+        url: "https://health.amazon.com/onemedical",
+        descricao: "Assistente de saúde agentico do Amazon One Medical que responde perguntas, agenda consultas e renova receitas com base no histórico médico do paciente.",
+    },
     {
         nome: "Biomni",
         url: "https://biomni.stanford.edu/",
@@ -213,6 +221,11 @@ export default function IaParaMedicos() {
                     </a>
                 ))}
             </div>
+              <div className="mt-12">
+                <ComparativoFerramentas />
+              </div>
+              <ComoEscolher />
+              <ProTips />
               <FAQSection />
     </main>
     );

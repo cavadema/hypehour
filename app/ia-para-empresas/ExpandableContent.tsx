@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     As <strong>ferramentas de IA para empresas</strong> estão transformando a forma como organizações operam, automatizam processos e tomam decisões estratégicas. <strong>Inteligência artificial para empresas</strong> oferece soluções que aumentam produtividade, reduzem custos operacionais e melhoram a competitividade no mercado. Com <strong>IA empresarial</strong>, negócios de todos os portes podem escalar operações e otimizar recursos de forma inteligente.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         A implementação de <strong>soluções de IA para empresas</strong> permite automatizar tarefas repetitivas, analisar grandes volumes de dados e identificar oportunidades de melhoria que passariam despercebidas em análises manuais. <strong>IA para negócios</strong> vai além da simples automação, oferecendo insights estratégicos que impulsionam crescimento e inovação.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como Usar IA para Transformar Sua Empresa</h3>
 
                     <ul className="space-y-3 mb-4">

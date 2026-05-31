@@ -2,6 +2,9 @@ import { HomeIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 import Script from "next/script";
 
 export const metadata = {
@@ -27,6 +30,8 @@ export const metadata = {
 };
 
 const ferramentas = [
+  { nome: "Collov AI", url: "/ferramentas/collov-ai", descricao: "Plataforma de design de interiores com IA que redesenha ambientes com produtos reais de lojas parceiras, permitindo visualizar e comprar os móveis e itens de decoração diretamente." },
+  { nome: "RoomX AI", url: "/ferramentas/roomxai", descricao: "Ferramenta de IA para transformar fotos de ambientes em designs de interiores profissionais com dezenas de estilos." },
   { nome: "Planner 5D", url: "https://planner5d.com/pt/use/ia-decoracao", descricao: "Plataforma de design 3D com IA para planejar e decorar interiores de forma realista." },
   { nome: "RoomGPT", url: "https://www.roomgpt.io/", descricao: "Gere designs de interiores personalizados com IA a partir de fotos de ambientes." },
   { nome: "Leonardo AI Interior Design", url: "https://leonardo.ai/ai-interior-design/", descricao: "Crie designs de interiores impressionantes com IA generativa e modelos personalizados." },
@@ -68,6 +73,11 @@ export default function IAParaDesignDeInteriores() {
           </a>
         ))}
       </div>
+      <div className="mt-12">
+        <ComparativoFerramentas />
+      </div>
+      <ComoEscolher />
+      <ProTips />
       <FAQSection />
       <Script id="faq-json-ld-interiores" type="application/ld+json" strategy="afterInteractive">
         {JSON.stringify({

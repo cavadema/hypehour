@@ -13,11 +13,12 @@ export default function ExpandableContent() {
                     As <strong>ferramentas de IA para criar planilhas</strong> estão revolucionando a forma como profissionais trabalham com dados e planilhas. Com a ajuda de <strong>IA que faz planilha</strong>, você pode automatizar tarefas complexas, gerar fórmulas inteligentes e organizar dados em segundos. A <strong>IA para criar planilhas grátis</strong> oferece soluções acessíveis para economizar tempo e evitar erros manuais.
                 </p>
 
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+
                     <p className="mb-4">
                         Com o uso de <strong>criar planilha com IA</strong>, profissionais podem automatizar análises complexas, gerar relatórios estruturados e criar dashboards em minutos. As <strong>ferramentas de IA para criar planilhas</strong> também auxiliam na limpeza de dados, identificação de padrões e geração automática de fórmulas otimizadas para seus cálculos.
                     </p>
 
+                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <h3 className="font-semibold text-lg mb-3 text-gray-900">Como Usar IA para Otimizar Suas Planilhas</h3>
 
                     <ul className="space-y-3 mb-4">

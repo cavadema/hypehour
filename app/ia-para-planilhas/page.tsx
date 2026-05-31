@@ -2,8 +2,12 @@ import { TableCellsIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 
 const ferramentas = [
+  { nome: "Claude for Excel", url: "/ferramentas/claude-for-excel", descricao: "Add-in oficial da Anthropic que integra o Claude AI ao Microsoft Excel para análise de dados e geração de fórmulas em linguagem natural." },
   {
     nome: "Lido",
     url: "https://www.lido.app/",
@@ -73,6 +77,11 @@ export default function IaParaPlanilhas() {
           </a>
         ))}
       </div>
+      <div className="mt-12">
+        <ComparativoFerramentas />
+      </div>
+      <ComoEscolher />
+      <ProTips />
       <FAQSection />
 
       

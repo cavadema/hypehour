@@ -1,9 +1,13 @@
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
+import ComoEscolher from "./ComoEscolher";
+import ProTips from "./ProTips";
 import { MegaphoneIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 
 const ferramentas = [
+    { nome: "Citable", url: "/ferramentas/citable", descricao: "Plataforma de marketing de visibilidade em IA que ajuda marcas a serem citadas por ChatGPT, Claude e Perplexity." },
     {
         nome: "Tofu",
         url: "https://www.tofuhq.com/",
@@ -512,6 +516,11 @@ export default function IaParaMarketing() {
                     </a>
                 ))}
             </div>
+              <div className="mt-12">
+                <ComparativoFerramentas />
+              </div>
+              <ComoEscolher />
+              <ProTips />
               <FAQSection />
     </main>
     );
