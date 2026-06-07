@@ -199,8 +199,8 @@ export default function BoltNewPage() {
           <p className="text-zinc-700 leading-relaxed">Para quem quer criar protótipos funcionais rapidamente, validar ideias de produto ou construir ferramentas simples sem montar um ambiente de desenvolvimento completo, o Bolt.new é uma das opções mais poderosas disponíveis hoje.</p>
         </section>
 
-        <SimilarTools />
         <FAQSection />
+        <SimilarTools />
       </div>
     </main>
   );

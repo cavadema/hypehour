@@ -199,8 +199,8 @@ export default function V0Page() {
           <p className="text-zinc-700 leading-relaxed">Para desenvolvedores que já usam o stack React/Next.js/Tailwind, o v0 é uma adição natural ao fluxo de trabalho — especialmente para criar rapidamente componentes de UI que depois serão customizados com lógica de negócio.</p>
         </section>
 
-        <SimilarTools />
         <FAQSection />
+        <SimilarTools />
       </div>
     </main>
   );

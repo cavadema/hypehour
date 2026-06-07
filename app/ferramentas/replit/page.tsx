@@ -199,8 +199,8 @@ export default function ReplitPage() {
           <p className="text-zinc-700 leading-relaxed">Para quem quer programar sem fricção — seja aprendendo, prototipando ou colaborando — o Replit é uma das melhores escolhas disponíveis, especialmente considerando que o plano gratuito já oferece acesso real às funcionalidades principais.</p>
         </section>
 
-        <SimilarTools />
         <FAQSection />
+        <SimilarTools />
       </div>
     </main>
   );

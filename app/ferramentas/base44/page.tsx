@@ -199,8 +199,8 @@ export default function Base44Page() {
           <p className="text-zinc-700 leading-relaxed">Para quem quer criar uma ferramenta interna, validar um MVP ou construir um produto simples sem equipe técnica, o Base44 é um dos caminhos mais diretos da descrição à aplicação em produção.</p>
         </section>
 
-        <SimilarTools />
         <FAQSection />
+        <SimilarTools />
       </div>
     </main>
   );
