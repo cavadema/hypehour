@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "Visme AI - Criador de Conteúdo Visual e Apresentações",
@@ -355,6 +356,9 @@ export default function VismePage() {
 
                 {/* FAQ */}
                 <FAQSection />
+
+                {/* Ferramentas Similares */}
+                <SimilarTools />
             </div>
         </main>
     );

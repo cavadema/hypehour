@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "Hailuo AI: A Revolução do Vídeo por IA da MiniMax",
@@ -302,6 +303,9 @@ export default function HailuoAIPage() {
 
                 {/* FAQ */}
                 <FAQSection />
+
+                {/* Ferramentas Similares */}
+                <SimilarTools />
             </div>
         </main>
     );

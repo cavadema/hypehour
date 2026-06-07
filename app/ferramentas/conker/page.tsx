@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "Conker AI - Gerador de Quizzes e Avaliações",
@@ -347,6 +348,9 @@ export default function ConkerPage() {
 
                 {/* FAQ */}
                 <FAQSection />
+
+                {/* Ferramentas Similares */}
+                <SimilarTools />
             </div>
         </main>
     );

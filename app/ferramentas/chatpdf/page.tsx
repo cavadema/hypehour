@@ -1,6 +1,7 @@
 
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "ChatPDF - Converse com seus PDFs usando IA",
@@ -326,6 +327,9 @@ export default function ChatPDFPage() {
 
                 {/* FAQ */}
                 <FAQSection />
+
+                {/* Ferramentas Similares */}
+                <SimilarTools />
             </div>
         </main>
     );

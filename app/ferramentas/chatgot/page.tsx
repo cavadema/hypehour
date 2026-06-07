@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "Chatgot: O Hub de Inteligência Artificial Tudo-em-Um",
@@ -302,6 +303,9 @@ export default function ChatgotPage() {
 
                 {/* FAQ */}
                 <FAQSection />
+
+                {/* Ferramentas Similares */}
+                <SimilarTools />
             </div>
         </main>
     );

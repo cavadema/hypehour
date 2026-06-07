@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "QuillBot - Ferramenta de IA para Paráfrase e Escrita",
@@ -315,6 +316,11 @@ export default function QuillBotPage() {
         </section>
 
         <FAQSection />
+
+
+        {/* Ferramentas Similares */}
+
+        <SimilarTools />
       </div>
     </main>
   );

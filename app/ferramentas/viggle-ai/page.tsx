@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "Viggle AI - Anime Personagens com Movimentos Realistas",
@@ -311,6 +312,11 @@ export default function ViggleAIPage() {
         </section>
 
         <FAQSection />
+
+
+        {/* Ferramentas Similares */}
+
+        <SimilarTools />
       </div>
     </main>
   );

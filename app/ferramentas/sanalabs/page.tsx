@@ -1,6 +1,7 @@
 
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "Sana (Sana Labs) - Plataforma de IA para Gestão do Conhecimento",
@@ -332,6 +333,9 @@ export default function SanaPage() {
 
                 {/* FAQ */}
                 <FAQSection />
+
+                {/* Ferramentas Similares */}
+                <SimilarTools />
             </div>
         </main>
     );

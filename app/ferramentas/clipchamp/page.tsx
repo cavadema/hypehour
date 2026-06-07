@@ -1,6 +1,7 @@
 
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "Clipchamp - Editor de Vídeo Online com IA da Microsoft",
@@ -327,6 +328,9 @@ export default function ClipchampPage() {
 
                 {/* FAQ */}
                 <FAQSection />
+
+                {/* Ferramentas Similares */}
+                <SimilarTools />
             </div>
         </main>
     );

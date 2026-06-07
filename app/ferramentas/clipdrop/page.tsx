@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "ClipDrop - Suite de Ferramentas de IA para Edição de Imagens",
@@ -269,6 +270,11 @@ export default function ClipDropPage() {
         </section>
 
         <FAQSection />
+
+
+        {/* Ferramentas Similares */}
+
+        <SimilarTools />
       </div>
     </main>
   );

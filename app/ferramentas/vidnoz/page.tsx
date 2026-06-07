@@ -1,6 +1,7 @@
 
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "Vidnoz AI - Gerador de Vídeo com Avatar e Voz IA Grátis",
@@ -327,6 +328,9 @@ export default function VidnozPage() {
 
                 {/* FAQ */}
                 <FAQSection />
+
+                {/* Ferramentas Similares */}
+                <SimilarTools />
             </div>
         </main>
     );

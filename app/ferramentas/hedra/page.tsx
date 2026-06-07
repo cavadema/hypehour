@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "Hedra - Crie Avatares Falantes com IA",
@@ -270,6 +271,11 @@ export default function HedraPage() {
         </section>
 
         <FAQSection />
+
+
+        {/* Ferramentas Similares */}
+
+        <SimilarTools />
       </div>
     </main>
   );

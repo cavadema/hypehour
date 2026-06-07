@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "SciSpace - IA para Leitura e Pesquisa de Artigos Científicos",
@@ -268,6 +269,11 @@ export default function SciSpacePage() {
         </section>
 
         <FAQSection />
+
+
+        {/* Ferramentas Similares */}
+
+        <SimilarTools />
       </div>
     </main>
   );

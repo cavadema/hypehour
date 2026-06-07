@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "Lovable - Gerador de Apps com IA",
@@ -345,6 +346,9 @@ export default function LovablePage() {
 
         {/* FAQ */}
         <FAQSection />
+
+        {/* Ferramentas Similares */}
+        <SimilarTools />
       </div>
     </main>
   );

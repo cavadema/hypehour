@@ -50,7 +50,7 @@ const ferramentas = [
   },
   {
     nome: "Replit",
-    url: "https://replit.com/",
+    url: "/ferramentas/replit",
     descricao: "IDE colaborativa baseada em nuvem que integra IA para codificação e desenvolvimento ágil.",
   },
   {
@@ -87,9 +87,9 @@ const ferramentas = [
   { nome: "Figroot", url: "https://www.figma.com/pt-br/comunidade/plugin/1486825259782611959/figroot-free-figma-to-code-react-tailwind-css-html-css-plugin", descricao: "Plugin gratuito do Figma que converte designs em código React, Tailwind CSS e HTML/CSS com IA." },
   { nome: "Creao AI", url: "https://creao.ai/", descricao: "Plataforma de IA para desenvolvimento rápido de aplicações com assistente inteligente." },
   { nome: "Lovable", url: "/ferramentas/lovable", descricao: "IA para programação, resumos e automações." },
-  { nome: "Bolt.new", url: "https://bolt.new/", descricao: "Ferramenta para acelerar desenvolvimento e automações." },
-  { nome: "v0", url: "https://v0.dev/", descricao: "Plataforma para criação rápida de interfaces e automações." },
-  { nome: "Base44", url: "https://base44.com", descricao: "Ferramenta/infra de IA para criar apps completos." },
+  { nome: "Bolt.new", url: "/ferramentas/bolt-new", descricao: "Ambiente de desenvolvimento full-stack no navegador com IA que gera, executa e deploya aplicações completas a partir de um prompt." },
+  { nome: "v0", url: "/ferramentas/v0", descricao: "Ferramenta da Vercel que gera interfaces React prontas a partir de prompts de texto, com exportação direta para Next.js." },
+  { nome: "Base44", url: "/ferramentas/base44", descricao: "Plataforma de vibe coding com IA que transforma descrições em aplicações web completas com backend, banco de dados e autenticação." },
   { nome: "Trae", url: "https://trae.ai", descricao: "IDE adaptativo com IA da ByteDance." },
   { nome: "Cursor", url: "/ferramentas/cursor", descricao: "IDE com assistente de código e recursos AI." },
   { nome: "Tempo", url: "https://tempo.new", descricao: "Ferramenta focada em produtividade para devs React." },

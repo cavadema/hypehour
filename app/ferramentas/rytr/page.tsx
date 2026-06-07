@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 import { CheckCircleIcon, XCircleIcon } from "@heroicons/react/24/solid";
 
 export const metadata = {
@@ -358,6 +359,9 @@ export default function RytrPage() {
 
                 {/* FAQ */}
                 <FAQSection />
+
+                {/* Ferramentas Similares */}
+                <SimilarTools />
             </div>
         </main>
     );

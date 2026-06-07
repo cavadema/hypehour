@@ -1,7 +1,6 @@
 import {
   SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon,
-  UserIcon,
-  PhoneIcon,
+  UserIcon, PhoneIcon, SwatchIcon, CurrencyDollarIcon, BookOpenIcon, HeartIcon, WrenchScrewdriverIcon, BriefcaseIcon, FunnelIcon,
 } from "@heroicons/react/24/solid";
 
 const webpageJsonLd = {
@@ -11,24 +10,66 @@ const webpageJsonLd = {
   "url": "https://www.hypehour.com.br",
   "name": "Hypehour — Ferramentas de IA para todos os segmentos",
   "description": "Hypehour é um agregador de ferramentas de IA para imagens, desenvolvimento, estudos e muito mais.",
-  "isPartOf": {
-    "@id": "https://www.hypehour.com.br/#website"
-  },
+  "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
   "publisher": {
     "@type": "Organization",
     "@id": "https://www.hypehour.com.br/#organization",
     "name": "Hypehour",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.hypehour.com.br/logo.png"
-    },
-    "sameAs": [
-      "https://x.com/hypehourbr",
-      "https://www.linkedin.com/company/hypehour/"
-    ]
+    "logo": { "@type": "ImageObject", "url": "https://www.hypehour.com.br/logo.png" },
+    "sameAs": ["https://x.com/hypehourbr", "https://www.linkedin.com/company/hypehour/"]
   },
   "inLanguage": "pt-BR"
 };
+
+const categorias = [
+  { nome: "Imagens", url: "/ia-para-imagens", Icon: PhotoIcon },
+  { nome: "Vídeos", url: "/ia-para-criar-videos", Icon: VideoCameraIcon },
+  { nome: "Criar Logo", url: "/ia-para-criar-logo", Icon: SwatchIcon },
+  { nome: "PDF", url: "/ia-para-pdf", Icon: DocumentTextIcon },
+  { nome: "Planilhas", url: "/ia-para-planilhas", Icon: PencilSquareIcon },
+  { nome: "Transcrever Áudio", url: "/transcrever-audio", Icon: MusicalNoteIcon },
+  { nome: "Ata de Reunião", url: "/ia-para-fazer-ata-reuniao", Icon: DocumentTextIcon },
+  { nome: "Detecção de IA", url: "/ferramenta-de-deteccao-de-ia", Icon: ShieldCheckIcon },
+  { nome: "Agregadores", url: "/pacotes-de-ferramentas-e-agregadores-ia", Icon: ArchiveBoxIcon },
+  { nome: "Assistentes", url: "/assistentes-de-ia", Icon: UserIcon },
+  { nome: "Atendimento", url: "/ia-para-atendimento", Icon: PhoneIcon },
+  { nome: "Automação", url: "/automacao-ia", Icon: WrenchScrewdriverIcon },
+  { nome: "Conteúdo", url: "/ferramentas-de-ia-para-conteudo", Icon: PencilSquareIcon },
+  { nome: "Marketing", url: "/ia-para-marketing", Icon: MegaphoneIcon },
+  { nome: "Vendas", url: "/ia-para-vendas", Icon: CurrencyDollarIcon },
+  { nome: "CRM", url: "/crm-ia", Icon: BriefcaseIcon },
+  { nome: "Apresentações", url: "/ia-para-criar-apresentacoes", Icon: PresentationChartLineIcon },
+  { nome: "Vibe Coding", url: "/ia-para-vibe-coding", Icon: CodeBracketIcon },
+  { nome: "Desenvolvedores", url: "/ia-para-desenvolvedores", Icon: CodeBracketIcon },
+  { nome: "APIs", url: "/api-ia-modelos", Icon: CodeBracketIcon },
+  { nome: "Agentes de IA", url: "/criacao-agentes-ia", Icon: SparklesIcon },
+  { nome: "Fluxos e Workflows", url: "/fluxos-workflows-ia", Icon: FunnelIcon },
+  { nome: "Scraping", url: "/ia-web-scraping", Icon: GlobeAltIcon },
+  { nome: "Análise de Dados", url: "/analise-de-dados", Icon: ArchiveBoxIcon },
+  { nome: "Gerador de Voz", url: "/gerador-de-voz-ia", Icon: MusicalNoteIcon },
+  { nome: "Música", url: "/ia-para-musica", Icon: MusicalNoteIcon },
+  { nome: "Designers", url: "/ia-para-designers", Icon: PhotoIcon },
+  { nome: "Design de Interiores", url: "/ia-para-design-de-interiores", Icon: BuildingOffice2Icon },
+  { nome: "Arquitetura", url: "/ia-para-arquitetura", Icon: BuildingOffice2Icon },
+  { nome: "Médicos", url: "/ia-para-medicos", Icon: HeartIcon },
+  { nome: "Nutricionistas", url: "/nutricionista-ia", Icon: HeartIcon },
+  { nome: "Advogados", url: "/inteligencia-artificial-para-advogados", Icon: ShieldCheckIcon },
+  { nome: "Professores", url: "/ia-para-professores", Icon: AcademicCapIcon },
+  { nome: "Inglês com IA", url: "/aprender-ingles-com-ia", Icon: AcademicCapIcon },
+  { nome: "Jogos", url: "/ia-para-jogos", Icon: SparklesIcon },
+  { nome: "Contabilidade", url: "/ferramentas-ia-contabilidade", Icon: CurrencyDollarIcon },
+  { nome: "RH", url: "/ferramentas-de-ia-rh", Icon: UserIcon },
+  { nome: "Empresas", url: "/ia-para-empresas", Icon: BriefcaseIcon },
+  { nome: "Investimentos", url: "/investimentos", Icon: CurrencyDollarIcon },
+  { nome: "Navegadores", url: "/navegadores-de-ia", Icon: GlobeAltIcon },
+  { nome: "Planejamento", url: "/planejamento", Icon: DocumentTextIcon },
+  { nome: "Modelos de LLMs", url: "/modelos-de-llms", Icon: SparklesIcon },
+  { nome: "Livros de IA", url: "/livros-inteligencia-artificial", Icon: BookOpenIcon },
+  { nome: "Cursos de IA", url: "/cursos-de-ia", Icon: AcademicCapIcon },
+  { nome: "Newsletters", url: "/newsletters-de-ia", Icon: EnvelopeIcon },
+  { nome: "Eventos", url: "/eventos-ia", Icon: EnvelopeIcon },
+  { nome: "Repositórios Github", url: "/repositorios-ia-github", Icon: CodeBracketIcon },
+];
 
 export default function Home() {
   return (
@@ -37,127 +78,42 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webpageJsonLd) }}
       />
-      {/* Primeira dobra */}
+
+      {/* Hero */}
       <section className="w-full flex flex-col items-center justify-center py-20 bg-gradient-to-br from-gray-50 via-white to-gray-100 border-b border-zinc-200 relative overflow-hidden">
         <SparklesIcon className="w-16 h-16 text-gray-700 mb-4 animate-pulse" />
         <h1 className="apify-title text-center drop-shadow-lg">Ferramentas de IA</h1>
         <p className="apify-subtitle text-center max-w-2xl mx-auto">
           Seu guia completo de Inteligência Artificial. Descubra, compare e escolha as melhores ferramentas de IA para transformar cada área do seu negócio.
         </p>
+        <a
+          href="#categorias"
+          className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-black text-white font-semibold rounded-full hover:bg-zinc-800 transition-colors shadow-md"
+        >
+          Explorar todas as categorias ↓
+        </a>
         <div className="absolute -top-10 -right-10 w-40 h-40 bg-gray-200 rounded-full opacity-30 blur-2xl" />
         <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-gray-100 rounded-full opacity-20 blur-2xl" />
       </section>
 
-      {/* IA para PDFs */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <DocumentTextIcon className="w-6 h-6 text-gray-700" />
-            IA para PDFs
-          </h2>
-          <a href="/ia-para-pdf" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA para PDFs
-          </a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> Doctly</span>
-            <p className="text-zinc-700">IA para ler, resumir e organizar PDFs com extração segura.</p>
-            <span className="text-xs text-zinc-500">Categoria: PDFs</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> Docparser</span>
-            <p className="text-zinc-700">Extraia dados estruturados de PDFs e automatize processos.</p>
-            <span className="text-xs text-zinc-500">Categoria: PDFs</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><DocumentTextIcon className="w-5 h-5" /> ChatPDF</span>
-            <p className="text-zinc-700">Converse com seus PDFs em português para resumos e respostas.</p>
-            <span className="text-xs text-zinc-500">Categoria: PDFs</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/ia-para-pdf" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA para PDFs
-          </a>
+      {/* Grid de categorias */}
+      <section id="categorias" className="w-full max-w-5xl mx-auto py-14 px-4">
+        <h2 className="apify-section-title text-center mb-2">Todas as categorias</h2>
+        <p className="text-center text-zinc-500 text-sm mb-8">47 categorias com centenas de ferramentas curadas</p>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+          {categorias.map(({ nome, url, Icon }) => (
+            <a
+              key={url}
+              href={url}
+              className="flex flex-col items-center gap-2 p-4 bg-white rounded-xl border border-zinc-200 hover:border-zinc-400 hover:shadow-md transition-all text-center group"
+            >
+              <Icon className="w-6 h-6 text-zinc-500 group-hover:text-black transition-colors" />
+              <span className="text-xs font-medium text-zinc-700 group-hover:text-black transition-colors leading-tight">{nome}</span>
+            </a>
+          ))}
         </div>
       </section>
 
-      {/* IA para Criar Planilhas */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <PencilSquareIcon className="w-6 h-6 text-gray-700" />
-            IA para Criar Planilhas
-          </h2>
-          <a href="/ia-para-planilhas" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA para planilhas
-          </a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Quadratic</span>
-            <p className="text-zinc-700">Torna o trabalho com planilhas simples, com resultados impressionantes.</p>
-            <span className="text-xs text-zinc-500">Categoria: Planilhas</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Shortcut</span>
-            <p className="text-zinc-700">Automatiza tarefas de Excel/Sheets com IA, gerando fórmulas e análises.</p>
-            <span className="text-xs text-zinc-500">Categoria: Planilhas</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Sheets Organizer</span>
-            <p className="text-zinc-700">Automatize planilhas e dashboards com IA para relatórios e análises.</p>
-            <span className="text-xs text-zinc-500">Categoria: Planilhas</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/ia-para-planilhas" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA para planilhas
-          </a>
-        </div>
-      </section>
-
-      {/* IA para Aprender inglês */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <AcademicCapIcon className="w-6 h-6 text-gray-700" />
-            IA para Aprender inglês
-          </h2>
-          <a href="/aprender-ingles-com-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA para inglês
-          </a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <AcademicCapIcon className="w-5 h-5" /> Speak
-            </span>
-            <p className="text-zinc-700">Aulas personalizadas com IA e feedback de pronúncia.</p>
-            <span className="text-xs text-zinc-500">Categoria: Inglês</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <AcademicCapIcon className="w-5 h-5" /> BeConfident
-            </span>
-            <p className="text-zinc-700">Treino de conversação com correções e simulações.</p>
-            <span className="text-xs text-zinc-500">Categoria: Inglês</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <AcademicCapIcon className="w-5 h-5" /> Duolingo
-            </span>
-            <p className="text-zinc-700">Curso gamificado com suporte de IA e prática diária.</p>
-            <span className="text-xs text-zinc-500">Categoria: Inglês</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/aprender-ingles-com-ia" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA para inglês
-          </a>
-        </div>
-      </section>
 
       {/* IA para Atendimento */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
@@ -166,189 +122,79 @@ export default function Home() {
             <PhoneIcon className="w-6 h-6 text-gray-700" />
             IA para Atendimento
           </h2>
-          <a href="/ia-para-atendimento" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA para atendimento
-          </a>
+          <a href="/ia-para-atendimento" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <PhoneIcon className="w-5 h-5" /> Helploom
-            </span>
+          <a href="/ia-para-atendimento" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhoneIcon className="w-5 h-5" /> Helploom</span>
             <p className="text-zinc-700">Plataforma de atendimento com IA para automação e gestão integrada.</p>
-            <span className="text-xs text-zinc-500">Categoria: Atendimento</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <PhoneIcon className="w-5 h-5" /> Gladly
-            </span>
+          </a>
+          <a href="/ia-para-atendimento" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhoneIcon className="w-5 h-5" /> Gladly</span>
             <p className="text-zinc-700">Transforma o atendimento em suporte inteligente, automatizado e personalizado.</p>
-            <span className="text-xs text-zinc-500">Categoria: Atendimento</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <PhoneIcon className="w-5 h-5" /> Darwin
-            </span>
-            <p className="text-zinc-700">Funcionários-IA que respondem em múltiplos canais e qualificam leads.</p>
-            <span className="text-xs text-zinc-500">Categoria: Atendimento</span>
-          </div>
+          </a>
+          <a href="/ferramentas/poly-ai" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhoneIcon className="w-5 h-5" /> Poly.ai</span>
+            <p className="text-zinc-700">Assistente de voz com IA para atendimento ao cliente por telefone 24h.</p>
+          </a>
         </div>
         <div className="mt-4 md:hidden">
-          <a href="/ia-para-atendimento" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA para atendimento
-          </a>
+          <a href="/ia-para-atendimento" className="text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
       </section>
 
-      {/* Gerador de Voz com IA */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <GlobeAltIcon className="w-6 h-6 text-gray-700" />
-            Gerador de Voz com IA
-          </h2>
-          <a href="/gerador-de-voz-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA de voz
-          </a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <GlobeAltIcon className="w-5 h-5" /> Deevid
-            </span>
-            <p className="text-zinc-700">Geração de voz em português com alta naturalidade.</p>
-            <span className="text-xs text-zinc-500">Categoria: Voz IA</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <GlobeAltIcon className="w-5 h-5" /> Canva
-            </span>
-            <p className="text-zinc-700">Gerador de voz integrado ao editor Canva.</p>
-            <span className="text-xs text-zinc-500">Categoria: Voz IA</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <GlobeAltIcon className="w-5 h-5" /> ElevenLabs
-            </span>
-            <p className="text-zinc-700">Referência em TTS com vozes realistas e clonagem de voz.</p>
-            <span className="text-xs text-zinc-500">Categoria: Voz IA</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/gerador-de-voz-ia" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA de voz
-          </a>
-        </div>
-      </section>
 
       {/* Assistentes de IA e pessoais */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">
           <h2 className="apify-section-title flex items-center gap-2">
             <UserIcon className="w-6 h-6 text-gray-700" />
-            Assistentes de IA e pessoais
+            Assistentes de IA
           </h2>
-          <a href="/assistentes-de-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA assistentes
-          </a>
+          <a href="/assistentes-de-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <UserIcon className="w-5 h-5" /> Remio
-            </span>
+          <a href="/assistentes-de-ia" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Remio</span>
             <p className="text-zinc-700">Assistente de IA para organizar e automatizar tarefas.</p>
-            <span className="text-xs text-zinc-500">Categoria: Assistentes</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <UserIcon className="w-5 h-5" /> Yutori Scouts
-            </span>
-            <p className="text-zinc-700">Scouts/assistentes para busca e acompanhamento de tarefas.</p>
-            <span className="text-xs text-zinc-500">Categoria: Assistentes</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <UserIcon className="w-5 h-5" /> Huxe
-            </span>
-            <p className="text-zinc-700">Assistente pessoal com automações e integrações.</p>
-            <span className="text-xs text-zinc-500">Categoria: Assistentes</span>
-          </div>
+          </a>
+          <a href="/ferramentas/janitor-ai" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Janitor AI</span>
+            <p className="text-zinc-700">Chat com personagens de IA para roleplay e escrita criativa.</p>
+          </a>
+          <a href="/ferramentas/macaron" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><UserIcon className="w-5 h-5" /> Macaron</span>
+            <p className="text-zinc-700">Assistente de IA pessoal com interface elegante para produtividade diária.</p>
+          </a>
         </div>
         <div className="mt-4 md:hidden">
-          <a href="/assistentes-de-ia" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA assistentes
-          </a>
+          <a href="/assistentes-de-ia" className="text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
       </section>
 
-
-      {/* IA para Música */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <MusicalNoteIcon className="w-6 h-6 text-gray-700" />
-            IA para Música
-          </h2>
-          <a href="/ia-para-musica" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA para música
-          </a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <MusicalNoteIcon className="w-5 h-5" /> Suno
-            </span>
-            <p className="text-zinc-700">Crie músicas completas com vocais e instrumentais usando IA.</p>
-            <span className="text-xs text-zinc-500">Categoria: Música</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <MusicalNoteIcon className="w-5 h-5" /> Udio
-            </span>
-            <p className="text-zinc-700">Plataforma de criação musical com alta fidelidade e controle criativo.</p>
-            <span className="text-xs text-zinc-500">Categoria: Música</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <MusicalNoteIcon className="w-5 h-5" /> Stable Audio
-            </span>
-            <p className="text-zinc-700">Geração de música e efeitos sonoros de alta qualidade pela Stability AI.</p>
-            <span className="text-xs text-zinc-500">Categoria: Música</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/ia-para-musica" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA para música
-          </a>
-        </div>
-      </section>
 
       {/* IA para imagens */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2"><PhotoIcon className="w-6 h-6 text-gray-700" />IA para imagens</h2>
-          <a href="/ia-para-imagens" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas as IA para imagens</a>
+          <h2 className="apify-section-title flex items-center gap-2"><PhotoIcon className="w-6 h-6 text-gray-700" />IA para Imagens</h2>
+          <a href="/ia-para-imagens" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Whisk</span>
-            <p className="text-zinc-700">IA do Google para geração e edição de imagens.</p>
-            <span className="text-xs text-zinc-500">Categoria: Imagens</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Pixlr</span>
-            <p className="text-zinc-700">Editor de imagens com IA e recursos avançados.</p>
-            <span className="text-xs text-zinc-500">Categoria: Imagens</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+          <a href="/ferramentas/midjourney" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Midjourney</span>
             <p className="text-zinc-700">Geração de imagens artísticas por IA via Discord.</p>
-            <span className="text-xs text-zinc-500">Categoria: Imagens</span>
-          </div>
+          </a>
+          <a href="/ferramentas/clipdrop" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> ClipDrop</span>
+            <p className="text-zinc-700">Suite de IA para remover fundos, upscaling e edição inteligente de imagens.</p>
+          </a>
+          <a href="/ferramentas/dzine" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PhotoIcon className="w-5 h-5" /> Dzine</span>
+            <p className="text-zinc-700">Geração e edição de imagens com IA, face swap e generative fill.</p>
+          </a>
         </div>
         <div className="mt-4 md:hidden">
-          <a href="/ia-para-imagens" className="text-black text-sm font-medium hover:underline">Ver todas as IA para imagens</a>
+          <a href="/ia-para-imagens" className="text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
       </section>
 
@@ -359,37 +205,24 @@ export default function Home() {
             <VideoCameraIcon className="w-6 h-6 text-gray-700" />
             IA para Vídeos
           </h2>
-          <a href="/ia-para-criar-videos" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA para vídeos
-          </a>
+          <a href="/ia-para-criar-videos" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <VideoCameraIcon className="w-5 h-5" /> Google Gemini Veo 3.1
-            </span>
-            <p className="text-zinc-700">Modelo de geração de vídeo mais capaz do Google, criando vídeos 1080p de alta qualidade.</p>
-            <span className="text-xs text-zinc-500">Categoria: Vídeos</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <VideoCameraIcon className="w-5 h-5" /> Adobe Firefly Video
-            </span>
-            <p className="text-zinc-700">Gere vídeos a partir de texto ou imagens com controle criativo e segurança comercial.</p>
-            <span className="text-xs text-zinc-500">Categoria: Vídeos</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <VideoCameraIcon className="w-5 h-5" /> KlingAI
-            </span>
+          <a href="/ferramentas/klingai" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> KlingAI</span>
             <p className="text-zinc-700">Ferramenta poderosa para criar vídeos realistas com movimentos complexos.</p>
-            <span className="text-xs text-zinc-500">Categoria: Vídeos</span>
-          </div>
+          </a>
+          <a href="/ferramentas/hedra" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Hedra</span>
+            <p className="text-zinc-700">Transforme fotos e áudio em avatares falantes com sincronização labial realista.</p>
+          </a>
+          <a href="/ferramentas/descript" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><VideoCameraIcon className="w-5 h-5" /> Descript</span>
+            <p className="text-zinc-700">Editor de vídeo e podcast que permite editar pelo texto transcrito com IA.</p>
+          </a>
         </div>
         <div className="mt-4 md:hidden">
-          <a href="/ia-para-criar-videos" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA para vídeos
-          </a>
+          <a href="/ia-para-criar-videos" className="text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
       </section>
 
@@ -400,37 +233,24 @@ export default function Home() {
             <PencilSquareIcon className="w-6 h-6 text-gray-700" />
             IA para Conteúdo
           </h2>
-          <a href="/ferramentas-de-ia-para-conteudo" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA para conteúdo
-          </a>
+          <a href="/ferramentas-de-ia-para-conteudo" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <PencilSquareIcon className="w-5 h-5" /> Contentor
-            </span>
-            <p className="text-zinc-700">IA de SEO para criar conteúdo de qualidade com análise de SERP, briefing e geração ilimitada.</p>
-            <span className="text-xs text-zinc-500">Categoria: Conteúdo</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <PencilSquareIcon className="w-5 h-5" /> Copy.ai
-            </span>
-            <p className="text-zinc-700">Gerador de textos para blogs, redes sociais e e-mails com foco em conversão.</p>
-            <span className="text-xs text-zinc-500">Categoria: Conteúdo</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <PencilSquareIcon className="w-5 h-5" /> HubSpot Content Hub
-            </span>
-            <p className="text-zinc-700">Hub de conteúdo da HubSpot com ferramentas de IA para criar e gerenciar blogs e sites.</p>
-            <span className="text-xs text-zinc-500">Categoria: Conteúdo</span>
-          </div>
+          <a href="/ferramentas-de-ia-para-conteudo" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Jasper</span>
+            <p className="text-zinc-700">Plataforma avançada de IA para criação de conteúdo de marketing e copy.</p>
+          </a>
+          <a href="/ferramentas/quilbot" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> QuillBot</span>
+            <p className="text-zinc-700">Paráfrase, correção gramatical, sumarização e tradução com IA.</p>
+          </a>
+          <a href="/ferramentas/rytr" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PencilSquareIcon className="w-5 h-5" /> Rytr</span>
+            <p className="text-zinc-700">Gerador de textos acessível com dezenas de casos de uso e múltiplos idiomas.</p>
+          </a>
         </div>
         <div className="mt-4 md:hidden">
-          <a href="/ferramentas-de-ia-para-conteudo" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA para conteúdo
-          </a>
+          <a href="/ferramentas-de-ia-para-conteudo" className="text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
       </section>
 
@@ -441,121 +261,28 @@ export default function Home() {
             <MusicalNoteIcon className="w-6 h-6 text-gray-700" />
             IA para Transcrever Áudio
           </h2>
-          <a href="/transcrever-audio" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA para transcrever áudio
-          </a>
+          <a href="/transcrever-audio" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <MusicalNoteIcon className="w-5 h-5" /> Speechify
-            </span>
+          <a href="/ferramentas/speechify" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MusicalNoteIcon className="w-5 h-5" /> Speechify</span>
             <p className="text-zinc-700">Plataforma de IA para transcrição e conversão de texto em áudio com vozes naturais.</p>
-            <span className="text-xs text-zinc-500">Categoria: Transcrição</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <MusicalNoteIcon className="w-5 h-5" /> Wisprflow
-            </span>
-            <p className="text-zinc-700">Transcrição automática de áudio com IA para fluxos de trabalho profissionais.</p>
-            <span className="text-xs text-zinc-500">Categoria: Transcrição</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <MusicalNoteIcon className="w-5 h-5" /> Willowvoice
-            </span>
-            <p className="text-zinc-700">Ferramenta de transcrição de voz com IA para criar textos precisos.</p>
-            <span className="text-xs text-zinc-500">Categoria: Transcrição</span>
-          </div>
+          </a>
+          <a href="/ferramentas/otter-ai" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MusicalNoteIcon className="w-5 h-5" /> Otter AI</span>
+            <p className="text-zinc-700">Transcrição automática de reuniões com identificação de falantes e resumos.</p>
+          </a>
+          <a href="/ferramentas/turboscribe" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MusicalNoteIcon className="w-5 h-5" /> TurboScribe</span>
+            <p className="text-zinc-700">Transcrição rápida de áudio e vídeo com alta precisão em português.</p>
+          </a>
         </div>
         <div className="mt-4 md:hidden">
-          <a href="/transcrever-audio" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA para transcrever áudio
-          </a>
+          <a href="/transcrever-audio" className="text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
       </section>
 
-      {/* IA para Fazer Ata de Reunião */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <DocumentTextIcon className="w-6 h-6 text-gray-700" />
-            IA para Fazer Ata de Reunião
-          </h2>
-          <a href="/ia-para-fazer-ata-reuniao" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA para ata de reunião
-          </a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <DocumentTextIcon className="w-5 h-5" /> Fellow
-            </span>
-            <p className="text-zinc-700">Plataforma IA para gerenciar reuniões, criar atas e acompanhar ações automaticamente.</p>
-            <span className="text-xs text-zinc-500">Categoria: Ata de Reunião</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <DocumentTextIcon className="w-5 h-5" /> Reclaim
-            </span>
-            <p className="text-zinc-700">Assistente de IA para otimizar agenda e gerar resumos de reuniões.</p>
-            <span className="text-xs text-zinc-500">Categoria: Ata de Reunião</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <DocumentTextIcon className="w-5 h-5" /> tldv
-            </span>
-            <p className="text-zinc-700">Transcrição e resumo automático de reuniões com IA em português.</p>
-            <span className="text-xs text-zinc-500">Categoria: Ata de Reunião</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/ia-para-fazer-ata-reuniao" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA para ata de reunião
-          </a>
-        </div>
-      </section>
 
-      {/* Criação de Agentes de IA */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <GlobeAltIcon className="w-6 h-6 text-gray-700" />
-            Criação de Agentes de IA
-          </h2>
-          <a href="/criacao-agentes-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA para criação de agentes
-          </a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <GlobeAltIcon className="w-5 h-5" /> Incredible
-            </span>
-            <p className="text-zinc-700">Plataforma para criar agentes de IA com orquestração de fluxos.</p>
-            <span className="text-xs text-zinc-500">Categoria: Agentes</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <GlobeAltIcon className="w-5 h-5" /> Tate A Tate
-            </span>
-            <p className="text-zinc-700">Construa agentes conversacionais com recursos avançados.</p>
-            <span className="text-xs text-zinc-500">Categoria: Agentes</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <GlobeAltIcon className="w-5 h-5" /> Okareo
-            </span>
-            <p className="text-zinc-700">Teste e monitore agentes de IA em produção.</p>
-            <span className="text-xs text-zinc-500">Categoria: Agentes</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/criacao-agentes-ia" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA para criação de agentes
-          </a>
-        </div>
-      </section>
 
       {/* IA para Marketing */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
@@ -564,37 +291,24 @@ export default function Home() {
             <MegaphoneIcon className="w-6 h-6 text-gray-700" />
             IA para Marketing
           </h2>
-          <a href="/ia-para-marketing" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA para marketing
-          </a>
+          <a href="/ia-para-marketing" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <MegaphoneIcon className="w-5 h-5" /> eKyte
-            </span>
+          <a href="/ia-para-marketing" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> eKyte</span>
             <p className="text-zinc-700">Plataforma de gestão de marketing digital com IA para planejar e executar campanhas.</p>
-            <span className="text-xs text-zinc-500">Categoria: Marketing</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <MegaphoneIcon className="w-5 h-5" /> Writesonic
-            </span>
+          </a>
+          <a href="/ferramentas/writesonic" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Writesonic</span>
             <p className="text-zinc-700">Ferramenta de escrita com IA para criar conteúdo de marketing otimizado para SEO.</p>
-            <span className="text-xs text-zinc-500">Categoria: Marketing</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <MegaphoneIcon className="w-5 h-5" /> Lumen5
-            </span>
+          </a>
+          <a href="/ia-para-marketing" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><MegaphoneIcon className="w-5 h-5" /> Lumen5</span>
             <p className="text-zinc-700">Transforme textos e artigos em vídeos engajadores para redes sociais com IA.</p>
-            <span className="text-xs text-zinc-500">Categoria: Marketing</span>
-          </div>
+          </a>
         </div>
         <div className="mt-4 md:hidden">
-          <a href="/ia-para-marketing" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA para marketing
-          </a>
+          <a href="/ia-para-marketing" className="text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
       </section>
 
@@ -605,416 +319,77 @@ export default function Home() {
             <PresentationChartLineIcon className="w-6 h-6 text-gray-700" />
             IA para Criar Apresentações
           </h2>
-          <a href="/ia-para-criar-apresentacoes" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA para apresentações
-          </a>
+          <a href="/ia-para-criar-apresentacoes" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <PresentationChartLineIcon className="w-5 h-5" /> Genspark
-            </span>
-            <p className="text-zinc-700">Crie apresentações impressionantes a partir de prompts simples com IA generativa.</p>
-            <span className="text-xs text-zinc-500">Categoria: Apresentações</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <PresentationChartLineIcon className="w-5 h-5" /> Presentations.ai
-            </span>
+          <a href="/ferramentas/gamma" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PresentationChartLineIcon className="w-5 h-5" /> Gamma</span>
+            <p className="text-zinc-700">Crie apresentações, documentos e sites com IA em minutos a partir de um prompt.</p>
+          </a>
+          <a href="/ia-para-criar-apresentacoes" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PresentationChartLineIcon className="w-5 h-5" /> Presentations.ai</span>
             <p className="text-zinc-700">Plataforma de design de apresentações focada em empresas e colaboração em tempo real.</p>
-            <span className="text-xs text-zinc-500">Categoria: Apresentações</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <PresentationChartLineIcon className="w-5 h-5" /> AiPPT
-            </span>
+          </a>
+          <a href="/ia-para-criar-apresentacoes" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-black font-bold"><PresentationChartLineIcon className="w-5 h-5" /> AiPPT</span>
             <p className="text-zinc-700">Gerador de PPTs com inteligência artificial que transforma tópicos em slides prontos.</p>
-            <span className="text-xs text-zinc-500">Categoria: Apresentações</span>
-          </div>
+          </a>
         </div>
         <div className="mt-4 md:hidden">
-          <a href="/ia-para-criar-apresentacoes" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA para apresentações
-          </a>
+          <a href="/ia-para-criar-apresentacoes" className="text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
       </section>
 
       {/* IA para vibe coding */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2"><CodeBracketIcon className="w-6 h-6 text-gray-700" />IA para vibe coding</h2>
-          <a href="/ia-para-vibe-coding" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas as IA para vibe coding</a>
+          <h2 className="apify-section-title flex items-center gap-2"><CodeBracketIcon className="w-6 h-6 text-gray-700" />IA para Vibe Coding</h2>
+          <a href="/ia-para-vibe-coding" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+          <a href="/ferramentas/lovable" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Lovable</span>
-            <p className="text-zinc-700">IA para programação, resumos e automações.</p>
-            <span className="text-xs text-zinc-500">Categoria: Coding</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <p className="text-zinc-700">Crie aplicações web completas com IA apenas descrevendo o que quer.</p>
+          </a>
+          <a href="/ia-para-vibe-coding" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Bolt.new</span>
             <p className="text-zinc-700">Ferramenta de IA para acelerar o desenvolvimento e automação de código.</p>
-            <span className="text-xs text-zinc-500">Categoria: Coding</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+          </a>
+          <a href="/ia-para-vibe-coding" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> v0</span>
             <p className="text-zinc-700">Plataforma de IA para criação rápida de interfaces e automações.</p>
-            <span className="text-xs text-zinc-500">Categoria: Coding</span>
-          </div>
+          </a>
         </div>
         <div className="mt-4 md:hidden">
-          <a href="/ia-para-vibe-coding" className="text-black text-sm font-medium hover:underline">Ver todas as IA para vibe coding</a>
+          <a href="/ia-para-vibe-coding" className="text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
       </section>
 
       {/* IA para desenvolvedores */}
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2"><CodeBracketIcon className="w-6 h-6 text-gray-700" />IA para desenvolvedores</h2>
-          <a href="/ia-para-desenvolvedores" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas as IA para desenvolvedores</a>
+          <h2 className="apify-section-title flex items-center gap-2"><CodeBracketIcon className="w-6 h-6 text-gray-700" />IA para Desenvolvedores</h2>
+          <a href="/ia-para-desenvolvedores" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+          <a href="/ia-para-desenvolvedores" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> GitHub Copilot</span>
             <p className="text-zinc-700">Assistente de código da GitHub/OpenAI para autocompletar e gerar trechos de código.</p>
-            <span className="text-xs text-zinc-500">Categoria: Desenvolvedores</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+          </a>
+          <a href="/ferramentas/cursor" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Cursor</span>
-            <p className="text-zinc-700">IDE com assistente de código e recursos de AI.</p>
-            <span className="text-xs text-zinc-500">Categoria: Desenvolvedores</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <p className="text-zinc-700">IDE com assistente de código e recursos de IA para acelerar o desenvolvimento.</p>
+          </a>
+          <a href="/ia-para-desenvolvedores" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><CodeBracketIcon className="w-5 h-5" /> Google AntiGravity</span>
             <p className="text-zinc-700">Plataforma da Google para impulsionar produtividade de desenvolvedores com IA.</p>
-            <span className="text-xs text-zinc-500">Categoria: Desenvolvedores</span>
-          </div>
+          </a>
         </div>
         <div className="mt-4 md:hidden">
-          <a href="/ia-para-desenvolvedores" className="text-black text-sm font-medium hover:underline">Ver todas as IA para desenvolvedores</a>
+          <a href="/ia-para-desenvolvedores" className="text-black text-sm font-medium hover:underline">Ver todas →</a>
         </div>
       </section>
 
-      {/* IA para Médicos */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <ShieldCheckIcon className="w-6 h-6 text-gray-700" />
-            IA para Médicos
-          </h2>
-          <a href="/ia-para-medicos" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA para médicos
-          </a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <ShieldCheckIcon className="w-5 h-5" /> IBM Watson Healthcare
-            </span>
-            <p className="text-zinc-700">Soluções de IA para saúde, oncologia e pesquisa clínica.</p>
-            <span className="text-xs text-zinc-500">Categoria: Médicos</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <ShieldCheckIcon className="w-5 h-5" /> Ada
-            </span>
-            <p className="text-zinc-700">App de avaliação de sintomas com IA e guia de saúde pessoal.</p>
-            <span className="text-xs text-zinc-500">Categoria: Médicos</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <ShieldCheckIcon className="w-5 h-5" /> Voa Health
-            </span>
-            <p className="text-zinc-700">Assistente que gera documentos clínicos como anamnese e receitas automaticamente.</p>
-            <span className="text-xs text-zinc-500">Categoria: Médicos</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/ia-para-medicos" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA para médicos
-          </a>
-        </div>
-      </section>
-
-      {/* IA para Arquitetura */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <BuildingOffice2Icon className="w-6 h-6 text-gray-700" />
-            IA para Arquitetura
-          </h2>
-          <a href="/ia-para-arquitetura" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA para arquitetura
-          </a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <BuildingOffice2Icon className="w-5 h-5" /> Redraw
-            </span>
-            <p className="text-zinc-700">Transforme seus esboços em renderizações fotorrealistas em segundos.</p>
-            <span className="text-xs text-zinc-500">Categoria: Arquitetura</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <BuildingOffice2Icon className="w-5 h-5" /> PromeAI
-            </span>
-            <p className="text-zinc-700">Gerador de arquitetura com IA para criar designs e renderizações impressionantes.</p>
-            <span className="text-xs text-zinc-500">Categoria: Arquitetura</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <BuildingOffice2Icon className="w-5 h-5" /> Leonardo AI
-            </span>
-            <p className="text-zinc-700">Crie ativos de arquitetura e designs conceituais com ferramentas avançadas.</p>
-            <span className="text-xs text-zinc-500">Categoria: Arquitetura</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/ia-para-arquitetura" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA para arquitetura
-          </a>
-        </div>
-      </section>
-
-      {/* IA para professores */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <AcademicCapIcon className="w-6 h-6 text-gray-700" />
-            IA para professores
-          </h2>
-          <a href="/ia-para-professores" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as IA para professores
-          </a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Conker.AI</span>
-            <p className="text-zinc-700">Gerador de quizzes alinhados a padrões educacionais em poucos cliques.</p>
-            <span className="text-xs text-zinc-500">Categoria: Professores</span>
-          </div>
-
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Diffit.me</span>
-            <p className="text-zinc-700">Crie leituras adaptadas e planos de aula personalizados automaticamente.</p>
-            <span className="text-xs text-zinc-500">Categoria: Professores</span>
-          </div>
-
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Socratic</span>
-            <p className="text-zinc-700">Suite de IA para planejar aulas, tarefas e acompanhar alunos.</p>
-            <span className="text-xs text-zinc-500">Categoria: Professores</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/ia-para-professores" className="text-black text-sm font-medium hover:underline">
-            Ver todas as IA para professores
-          </a>
-        </div>
-      </section>
-
-      {/* Detecção de IA */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <ShieldCheckIcon className="w-6 h-6 text-gray-700" />
-            Detecção de IA
-          </h2>
-          <a href="/ferramenta-de-deteccao-de-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas as ferramentas de detecção</a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ShieldCheckIcon className="w-5 h-5" /> QuillBot Detector de IA</span>
-            <p className="text-zinc-700">Ferramenta do QuillBot para analisar textos e apontar traços de IA.</p>
-            <span className="text-xs text-zinc-500">Categoria: Detecção de IA</span>
-          </div>
-
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ShieldCheckIcon className="w-5 h-5" /> Sidekicker</span>
-            <p className="text-zinc-700">Detector de conteúdo alimentado por IA com análise rápida e dashboards.</p>
-            <span className="text-xs text-zinc-500">Categoria: Detecção de IA</span>
-          </div>
-
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ShieldCheckIcon className="w-5 h-5" /> WinstonAI</span>
-            <p className="text-zinc-700">Detector especializado em identificar conteúdos acadêmicos escritos por IA.</p>
-            <span className="text-xs text-zinc-500">Categoria: Detecção de IA</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/ferramenta-de-deteccao-de-ia" className="text-black text-sm font-medium hover:underline">Ver todas as ferramentas de detecção</a>
-        </div>
-      </section>
-
-      {/* Navegadores de IA */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <GlobeAltIcon className="w-6 h-6 text-gray-700" />
-            Navegadores de IA
-          </h2>
-          <a href="/navegadores-de-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todos os navegadores de IA
-          </a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> ChatGPT Atlas</span>
-            <p className="text-zinc-700">Experiência de navegação com Copilot do ChatGPT integrada ao browser Atlas.</p>
-            <span className="text-xs text-zinc-500">Categoria: Navegadores de IA</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Perplexity Comet</span>
-            <p className="text-zinc-700">Navegador que traz respostas da Perplexity diretamente na aba atual.</p>
-            <span className="text-xs text-zinc-500">Categoria: Navegadores de IA</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><GlobeAltIcon className="w-5 h-5" /> Opera One</span>
-            <p className="text-zinc-700">Browser com Aria e módulos multimídia para uso de IA integrado.</p>
-            <span className="text-xs text-zinc-500">Categoria: Navegadores de IA</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/navegadores-de-ia" className="text-black text-sm font-medium hover:underline">
-            Ver todos os navegadores de IA
-          </a>
-        </div>
-      </section>
-
-      {/* Pacotes de Ferramentas de IA */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <ArchiveBoxIcon className="w-6 h-6 text-gray-700" />
-            Pacotes de Ferramentas de IA
-          </h2>
-          <a href="/pacotes-de-ferramentas-e-agregadores-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todos os pacotes e agregadores
-          </a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <ArchiveBoxIcon className="w-5 h-5" /> Adapta
-            </span>
-            <p className="text-zinc-700">Plataforma que conecta ferramentas de IA para otimizar fluxos de trabalho.</p>
-            <span className="text-xs text-zinc-500">Categoria: Agregadores</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <ArchiveBoxIcon className="w-5 h-5" /> InnerAI
-            </span>
-            <p className="text-zinc-700">Ecossistema de IA para empresas, integrando diversos modelos e ferramentas.</p>
-            <span className="text-xs text-zinc-500">Categoria: Agregadores</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <ArchiveBoxIcon className="w-5 h-5" /> Tess
-            </span>
-            <p className="text-zinc-700">Assistente de IA que agrega múltiplos modelos em uma única interface.</p>
-            <span className="text-xs text-zinc-500">Categoria: Agregadores</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/pacotes-de-ferramentas-e-agregadores-ia" className="text-black text-sm font-medium hover:underline">
-            Ver todos os pacotes e agregadores
-          </a>
-        </div>
-      </section>
-
-      {/* Cursos de IA */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <AcademicCapIcon className="w-6 h-6 text-gray-700" />
-            Cursos de IA gratuitos e pagos
-          </h2>
-          <a href="/cursos-de-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todos os cursos</a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Escola Virtual Gov.br</span>
-            <p className="text-zinc-700">Curso gratuito de IA oferecido pelo Governo Federal.</p>
-            <span className="text-xs text-zinc-500">Categoria: Cursos</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Inteligência Artificial e o Novo Contexto da Cultura Digital</span>
-            <p className="text-zinc-700">Curso sobre IA e cultura digital oferecido pela Fundação Getúlio Vargas.</p>
-            <span className="text-xs text-zinc-500">Categoria: Cursos</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><AcademicCapIcon className="w-5 h-5" /> Inteligência Artificial na Alura</span>
-            <p className="text-zinc-700">Aprenda IA com cursos práticos e estruturados da Alura.</p>
-            <span className="text-xs text-zinc-500">Categoria: Cursos</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/cursos-de-ia" className="text-black text-sm font-medium hover:underline">Ver todos os cursos</a>
-        </div>
-      </section>
-
-      {/* IA para Análise de Dados */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <ArchiveBoxIcon className="w-6 h-6 text-gray-700" />
-            IA para Análise de Dados
-          </h2>
-          <a href="/analise-de-dados" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas as IAs para análise de dados</a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Zettadata</span>
-            <p className="text-zinc-700">Plataforma de análise de dados com IA para insights automatizados.</p>
-            <span className="text-xs text-zinc-500">Categoria: Análise de dados</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Basedash</span>
-            <p className="text-zinc-700">Interface de IA para visualizar e editar dados do seu banco.</p>
-            <span className="text-xs text-zinc-500">Categoria: Análise de dados</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><ArchiveBoxIcon className="w-5 h-5" /> Rybbit</span>
-            <p className="text-zinc-700">Análise de dados com IA e automações para decisões rápidas.</p>
-            <span className="text-xs text-zinc-500">Categoria: Análise de dados</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/analise-de-dados" className="text-black text-sm font-medium hover:underline">Ver todas as IAs para análise de dados</a>
-        </div>
-      </section>
-
-      {/* Newsletters de IA */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <EnvelopeIcon className="w-6 h-6 text-gray-700" />
-            Newsletters de IA
-          </h2>
-          <a href="/newsletters-de-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">Ver todas as newsletters de IA</a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><EnvelopeIcon className="w-5 h-5" /> AiDrop</span>
-            <p className="text-zinc-700">Resumos semanais de avanços em IA: ferramentas, prompts e modelos novos.</p>
-            <span className="text-xs text-zinc-500">Newsletter</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><EnvelopeIcon className="w-5 h-5" /> AI Factory News</span>
-            <p className="text-zinc-700">Newsletter do Distrito focada em inteligência artificial e inovação.</p>
-            <span className="text-xs text-zinc-500">Newsletter</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><EnvelopeIcon className="w-5 h-5" /> IAí?</span>
-            <p className="text-zinc-700">Newsletter do O Globo sobre como a IA transforma o dia a dia.</p>
-            <span className="text-xs text-zinc-500">Newsletter</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/newsletters-de-ia" className="text-black text-sm font-medium hover:underline">Ver todas as newsletters de IA</a>
-        </div>
-      </section>
 
       {/* Estatísticas do site */}
       <section className="w-full bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 py-16 px-4">
@@ -1022,20 +397,20 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-white text-center mb-12">Hypehour em Números</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">30+</div>
+              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">47+</div>
               <div className="text-white/90 text-sm md:text-base font-medium">Categorias</div>
             </div>
             <div className="text-center">
-              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">250+</div>
+              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">400+</div>
               <div className="text-white/90 text-sm md:text-base font-medium">Ferramentas IA</div>
             </div>
             <div className="text-center">
-              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">10+</div>
-              <div className="text-white/90 text-sm md:text-base font-medium">Newsletters</div>
+              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">80+</div>
+              <div className="text-white/90 text-sm md:text-base font-medium">Páginas dedicadas</div>
             </div>
             <div className="text-center">
-              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">15+</div>
-              <div className="text-white/90 text-sm md:text-base font-medium">Modelos de IA</div>
+              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">12+</div>
+              <div className="text-white/90 text-sm md:text-base font-medium">Modelos de LLMs</div>
             </div>
           </div>
         </div>
@@ -1045,152 +420,49 @@ export default function Home() {
       <section className="w-full max-w-5xl mx-auto py-12 px-4">
         <h2 className="apify-section-title flex items-center gap-2">
           <SparklesIcon className="w-6 h-6 text-gray-700" />
-          Versões de Modelos de LLMs (Large Language Models)
+          Versões de Modelos de LLMs
         </h2>
         <p className="text-zinc-600 mb-8">
           Acompanhe os lançamentos e atualizações das principais famílias de modelos de linguagem do mercado.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+          <a href="/modelos-de-llms" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> GPT-5.5</span>
-            <p className="text-zinc-700">Modelo flagship multimodal da OpenAI com foco em agentes, raciocínio avançado, código, vídeo, áudio e contexto de até 1M tokens.</p>
+            <p className="text-zinc-700">Modelo flagship multimodal da OpenAI com foco em agentes, raciocínio avançado e contexto de até 1M tokens.</p>
             <span className="text-xs text-zinc-500">OpenAI</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+          </a>
+          <a href="/modelos-de-llms" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Gemini 3.1 Pro</span>
-            <p className="text-zinc-700">Modelo multimodal nativo do Google com forte desempenho em agentes, planilhas, raciocínio científico e contexto gigante.</p>
+            <p className="text-zinc-700">Modelo multimodal nativo do Google com forte desempenho em agentes e raciocínio científico.</p>
             <span className="text-xs text-zinc-500">Google DeepMind</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+          </a>
+          <a href="/modelos-de-llms" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Claude Opus 4.7</span>
-            <p className="text-zinc-700">Modelo mais avançado da Anthropic para reasoning profundo, coding e tarefas agentic longas. Janela de 1M tokens e suporte visual avançado.</p>
+            <p className="text-zinc-700">Modelo mais avançado da Anthropic para reasoning profundo, coding e tarefas agentic longas.</p>
             <span className="text-xs text-zinc-500">Anthropic</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Claude Sonnet 4.6</span>
-            <p className="text-zinc-700">Variante da Anthropic otimizada para equilíbrio entre velocidade, custo e raciocínio. Muito forte em programação e automação corporativa.</p>
-            <span className="text-xs text-zinc-500">Anthropic</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+          </a>
+          <a href="/modelos-de-llms" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Grok 4.3</span>
-            <p className="text-zinc-700">Modelo da xAI com conhecimento em tempo real, integração com X, contexto massivo de 2M tokens e entrada multimodal incluindo vídeo.</p>
+            <p className="text-zinc-700">Modelo da xAI com conhecimento em tempo real, integração com X e contexto massivo de 2M tokens.</p>
             <span className="text-xs text-zinc-500">xAI</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+          </a>
+          <a href="/modelos-de-llms" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Llama 4 Maverick</span>
-            <p className="text-zinc-700">Principal modelo open-weight da Meta com arquitetura MoE, otimizado para inferência eficiente e deploy local em empresas.</p>
+            <p className="text-zinc-700">Principal modelo open-weight da Meta com arquitetura MoE, otimizado para inferência eficiente.</p>
             <span className="text-xs text-zinc-500">Meta AI</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Sonar Ultra</span>
-            <p className="text-zinc-700">Modelo da Perplexity orientado a busca e pesquisa profunda, com respostas baseadas em citações verificadas em tempo real.</p>
-            <span className="text-xs text-zinc-500">Perplexity AI</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+          </a>
+          <a href="/modelos-de-llms" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> DeepSeek V4</span>
-            <p className="text-zinc-700">Modelo open-weight MoE com até 1,6T parâmetros, contexto de 1M tokens e destaque em STEM, matemática e coding com custo extremamente baixo.</p>
+            <p className="text-zinc-700">Modelo open-weight MoE com até 1,6T parâmetros e custo extremamente baixo de inferência.</p>
             <span className="text-xs text-zinc-500">DeepSeek</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Qwen 3.6 Max</span>
-            <p className="text-zinc-700">Família avançada da Alibaba focada em matemática, multilíngue, coding e reasoning híbrido, com excelente eficiência open-weight.</p>
-            <span className="text-xs text-zinc-500">Alibaba Cloud</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Mistral Large 3</span>
-            <p className="text-zinc-700">Linha europeia da Mistral AI focada em eficiência, inferência rápida e excelente suporte multilíngue, especialmente idiomas europeus e código.</p>
-            <span className="text-xs text-zinc-500">Mistral AI</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Sabiá-4</span>
-            <p className="text-zinc-700">LLM brasileiro especializado em português, documentos jurídicos, contexto longo e aplicações corporativas nacionais.</p>
-            <span className="text-xs text-zinc-500">Maritaca AI</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Phi-4</span>
-            <p className="text-zinc-700">Modelo compacto da Microsoft de alta eficiência, otimizado para reasoning, edge AI e execução local com baixo custo computacional.</p>
-            <span className="text-xs text-zinc-500">Microsoft AI</span>
-          </div>
-        </div>
-      </section>
-
-      {/* Modelos de LLMs */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <SparklesIcon className="w-6 h-6 text-gray-700" />
-            Modelos de LLMs em destaque
-          </h2>
-          <a href="/modelos-de-llms" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todos os modelos de LLMs
           </a>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> OpenAI ChatGPT</span>
-            <p className="text-zinc-700">Modelo multimodal da OpenAI com resultados de texto, voz e imagem.</p>
-            <span className="text-xs text-zinc-500">Modelo proprietário</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Google Gemini</span>
-            <p className="text-zinc-700">Família Gemini com suporte a texto, imagem, áudio e agentes.</p>
-            <span className="text-xs text-zinc-500">Modelo proprietário</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Anthropic Claude</span>
-            <p className="text-zinc-700">Linha Claude com foco em segurança e respostas confiáveis.</p>
-            <span className="text-xs text-zinc-500">Modelo proprietário</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/modelos-de-llms" className="text-black text-sm font-medium hover:underline">
-            Ver todos os modelos de LLMs
-          </a>
-        </div>
-      </section>
-
-      {/* Automação */}
-      <section className="w-full max-w-5xl mx-auto py-12 px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="apify-section-title flex items-center gap-2">
-            <SparklesIcon className="w-6 h-6 text-gray-700" />
-            Automação
-          </h2>
-          <a href="/automacao-ia" className="hidden md:inline-flex text-black text-sm font-medium hover:underline">
-            Ver todas as ferramentas de automação
-          </a>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <SparklesIcon className="w-5 h-5" /> Atlassian Rovo
-            </span>
-            <p className="text-zinc-700">Automação e busca inteligente com IA para equipes Atlassian.</p>
-            <span className="text-xs text-zinc-500">Categoria: Automação</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <SparklesIcon className="w-5 h-5" /> Thesys N8N
-            </span>
-            <p className="text-zinc-700">Plataforma de automação de workflows com IA e integração de ferramentas.</p>
-            <span className="text-xs text-zinc-500">Categoria: Automação</span>
-          </div>
-          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold">
-              <SparklesIcon className="w-5 h-5" /> Kadabra
-            </span>
-            <p className="text-zinc-700">Automação de processos com IA para simplificar tarefas empresariais.</p>
-            <span className="text-xs text-zinc-500">Categoria: Automação</span>
-          </div>
-        </div>
-        <div className="mt-4 md:hidden">
-          <a href="/automacao-ia" className="text-black text-sm font-medium hover:underline">
-            Ver todas as ferramentas de automação
-          </a>
+        <div className="mt-6">
+          <a href="/modelos-de-llms" className="text-black text-sm font-medium hover:underline">Ver todos os modelos de LLMs →</a>
         </div>
       </section>
 
 
-    </div >
+    </div>
   );
 }

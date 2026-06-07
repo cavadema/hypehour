@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import SimilarTools from "./SimilarTools";
 
 export const metadata = {
   title: "GPTZero - Detector de IA para Educadores",
@@ -362,6 +363,9 @@ export default function GPTZeroPage() {
 
         {/* FAQ */}
         <FAQSection />
+
+        {/* Ferramentas Similares */}
+        <SimilarTools />
       </div>
     </main>
   );
