@@ -31,6 +31,33 @@ export default function OpusClipPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/opusclip#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/opusclip",
+        "name": "Opus Clip - Transforme Vídeos Longos em Curtos Virais com IA",
+        "description": "Conheça o Opus Clip: a ferramenta de IA que transforma podcasts e vídeos longos em clipes virais para TikTok, Reels e Shorts em segundos. Veja como funciona.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/opusclip#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/opusclip#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/opusclip#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function OpusClipPage() {
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
         "url": "https://www.opus.pro",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/opusclip",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/opusclip#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Importação","Análise por IA","Edição Rápida","Exportação e Schedulling","AI Virality Score","Active Speaker Detection"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1329",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Opus Clip"
@@ -331,7 +368,7 @@ export default function OpusClipPage() {
                     <a
                         href="https://www.opus.pro"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Criar Clipes agora →

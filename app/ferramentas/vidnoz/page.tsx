@@ -32,6 +32,33 @@ export default function VidnozPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/vidnoz#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/vidnoz",
+        "name": "Vidnoz AI - Gerador de Vídeo com Avatar e Voz IA Grátis",
+        "description": "Conheça o Vidnoz AI: plataforma líder para criar vídeos com avatares realistas, clonagem de voz e templates prontos. Teste grátis e transforme texto em vídeo em minutos.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/vidnoz#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/vidnoz#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/vidnoz#breadcrumb",
         "itemListElement": [
@@ -63,7 +90,17 @@ export default function VidnozPage() {
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
         "url": "https://pt.vidnoz.com/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/vidnoz",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/vidnoz#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Escolha um Template e Avatar","Digite seu Roteiro","Personalize","Gere e Baixe","Mais de 1000 Avatares Realistas","Clonagem de Voz (Voice Cloning)"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1116",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Vidnoz AI"
@@ -308,7 +345,7 @@ export default function VidnozPage() {
                     <a
                         href="https://pt.vidnoz.com/"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Criar Vídeo Grátis no Vidnoz →

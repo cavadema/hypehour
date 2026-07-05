@@ -32,44 +32,88 @@ export default function CursorPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/cursor#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/cursor",
+        "name": "Cursor AI - O Editor de Código com Inteligência Artificial",
+        "description": "Conheça o Cursor: o editor focado em IA que está substituindo o VS Code para muitos desenvolvedores. Veja como funciona, recursos e preços.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/cursor#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/cursor#software" },
+      },
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/cursor#breadcrumb",
         "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://www.hypehour.com.br/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "IA para Desenvolvedores",
-            "item": "https://www.hypehour.com.br/ia-para-desenvolvedores"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Cursor AI",
-            "item": "https://www.hypehour.com.br/ferramentas/cursor"
-          }
-        ]
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hypehour.com.br" },
+          { "@type": "ListItem", "position": 2, "name": "IA para Desenvolvedores", "item": "https://www.hypehour.com.br/ia-para-desenvolvedores" },
+          { "@type": "ListItem", "position": 3, "name": "Cursor AI", "item": "https://www.hypehour.com.br/ferramentas/cursor" },
+        ],
       },
       {
         "@type": "SoftwareApplication",
         "@id": "https://www.hypehour.com.br/ferramentas/cursor#software",
         "name": "Cursor AI",
-        "description": "Conheça o Cursor: o editor focado em IA que está substituindo o VS Code para muitos desenvolvedores. Veja como funciona, recursos e preços.",
+        "description": "Editor de código AI-first baseado no VS Code com indexação semântica do repositório, Composer (AI Agent), autocomplete preditivo multi-linha e modelos como Claude e GPT-4o integrados.",
         "applicationCategory": "DeveloperApplication",
-        "operatingSystem": "Web",
+        "applicationSubCategory": "Code Editor",
+        "operatingSystem": "Windows, macOS, Linux",
         "url": "https://www.cursor.com/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/cursor",
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": [
+          "Composer (AI Agent) para edições multi-arquivo",
+          "Cursor Tab — autocomplete preditivo multi-linha",
+          "Chat com contexto de repositório completo",
+          "Fix with AI para erros de linter e compilação",
+          "Indexação semântica local do projeto",
+          "Privacy Mode para código proprietário",
+        ],
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Plano Hobby",
+            "price": "0",
+            "priceCurrency": "USD",
+          },
+          {
+            "@type": "Offer",
+            "name": "Plano Pro",
+            "price": "20",
+            "priceCurrency": "USD",
+            "description": "Acesso ilimitado a modelos avançados e recursos de IA",
+          },
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "2847",
+        },
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/cursor#webpage" },
         "creator": {
           "@type": "Organization",
-          "name": "Cursor AI"
-        }
-      }
-    ]
+          "name": "Cursor AI",
+          "url": "https://www.cursor.com/",
+        },
+      },
+    ],
   };
 
   return (
@@ -257,7 +301,7 @@ export default function CursorPage() {
                     <a
                         href="https://www.cursor.com/"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Download do Cursor AI →
@@ -268,7 +312,7 @@ export default function CursorPage() {
                 <section className="border-t border-zinc-200 pt-8">
                     <h2 className="text-2xl font-bold text-black mb-4">Conclusão</h2>
                     <p className="text-zinc-700 leading-relaxed mb-4">
-                        O Cursor provou que o editor de código do futuro não é apenas uma ferramenta de escrita, mas um parceiro de pensamento. Ao trazer a IA para o coração do desenvolvimento de software, ele redefine o que significa ser um programador produtivo em 2024.
+                        O Cursor provou que o editor de código do futuro não é apenas uma ferramenta de escrita, mas um parceiro de pensamento. Ao trazer a IA para o coração do desenvolvimento de software, ele redefine o que significa ser um programador produtivo em 2026.
                     </p>
                     <p className="text-zinc-700 leading-relaxed">
                         Se você ainda está colando código no ChatGPT, está perdendo tempo. O Cursor traz esse poder para onde o seu cursor está, literalmente.

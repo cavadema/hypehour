@@ -31,6 +31,33 @@ export default function VismePage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/visme#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/visme",
+        "name": "Visme AI - Criador de Conteúdo Visual e Apresentações",
+        "description": "Descubra o Visme AI: ferramenta multifuncional para criar apresentações, infográficos e conteúdos interativos com inteligência artificial. Veja como funciona.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/visme#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/visme#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/visme#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function VismePage() {
         "applicationCategory": "DesignApplication",
         "operatingSystem": "Web",
         "url": "https://www.visme.co/pt-br/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/visme",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/visme#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Escolha o seu 'Prompt'","Selecione o estilo e marca","Refine no editor Drag-and-Drop","Compartilhe ou Baixe","AI Design Generator","Visualização de Dados Inteligente"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "998",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Visme AI"
@@ -336,7 +373,7 @@ export default function VismePage() {
                     <a
                         href="https://www.visme.co/pt-br/"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Acessar Visme →

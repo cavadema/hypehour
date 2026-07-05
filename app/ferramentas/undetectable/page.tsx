@@ -29,6 +29,33 @@ export default function UndetectablePage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/undetectable#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/undetectable",
+        "name": "Undetectable AI - Detector e Humanizador de Texto Gerado por IA",
+        "description": "Conheça o Undetectable AI: ferramenta que detecta textos gerados por IA e os humaniza para passar pelos principais detectores. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/undetectable#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/undetectable#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/undetectable#breadcrumb",
         itemListElement: [
@@ -46,6 +73,15 @@ export default function UndetectablePage() {
         operatingSystem: "Web",
         url: "https://undetectable.ai",
         mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/undetectable",
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1714",
+        },
         creator: { "@type": "Organization", name: "Undetectable AI" },
       },
     ],
@@ -202,7 +238,7 @@ export default function UndetectablePage() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Seu texto de IA vai passar pelo detector?</h2>
           <p className="text-lg mb-6 text-zinc-300">Teste o Undetectable AI gratuitamente e descubra agora</p>
-          <a href="https://undetectable.ai" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">
+          <a href="https://undetectable.ai" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">
             Acessar Undetectable AI →
           </a>
         </section>

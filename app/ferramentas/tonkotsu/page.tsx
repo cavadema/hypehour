@@ -18,8 +18,45 @@ export const metadata = {
 export default function TonkotsuPage() {
   const schemaData = {
     "@context": "https://schema.org", "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/tonkotsu#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/tonkotsu",
+        "name": "Tonkotsu AI - Construtor de Fluxos de Agentes de IA",
+        "description": "Conheça o Tonkotsu AI: plataforma visual para construir e orquestrar fluxos de agentes de IA com ferramentas, memória e execução autônoma. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/tonkotsu#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/tonkotsu#software" },
+      },
+
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/tonkotsu#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "Criação de Agentes de IA", item: "https://www.hypehour.com.br/criacao-agentes-ia" }, { "@type": "ListItem", position: 3, name: "Tonkotsu AI", item: "https://www.hypehour.com.br/ferramentas/tonkotsu" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/tonkotsu#software", name: "Tonkotsu AI", description: "Plataforma visual para criação de fluxos de agentes de IA com suporte a ferramentas, memória persistente e execução autônoma de tarefas.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://tonkotsu.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/tonkotsu", creator: { "@type": "Organization", name: "Tonkotsu AI" } },
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/tonkotsu#software", name: "Tonkotsu AI", description: "Plataforma visual para criação de fluxos de agentes de IA com suporte a ferramentas, memória persistente e execução autônoma de tarefas.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://tonkotsu.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/tonkotsu", 
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1353",
+        },
+        creator: { "@type": "Organization", name: "Tonkotsu AI" } },
     ],
   };
 
@@ -120,7 +157,7 @@ export default function TonkotsuPage() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Construa agentes de IA robustos com fluxos visuais</h2>
           <p className="text-lg mb-6 text-zinc-300">Experimente o Tonkotsu AI e crie seu primeiro agente autônomo hoje</p>
-          <a href="https://tonkotsu.ai" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Tonkotsu AI →</a>
+          <a href="https://tonkotsu.ai" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Tonkotsu AI →</a>
         </section>
         <section className="border-t border-zinc-200 pt-8">
           <h2 className="text-2xl font-bold text-black mb-4">Conclusão</h2>

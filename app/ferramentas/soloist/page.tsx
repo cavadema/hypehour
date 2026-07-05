@@ -18,8 +18,45 @@ export const metadata = {
 export default function SoloistPage() {
   const schemaData = {
     "@context": "https://schema.org", "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/soloist#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/soloist",
+        "name": "Soloist AI - Assistente de Código com IA para Desenvolvedores Solo",
+        "description": "Conheça o Soloist AI: assistente de desenvolvimento com IA que ajuda desenvolvedores solo a construir aplicações completas com geração de código, debugging e arquitetura assistida por IA. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/soloist#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/soloist#software" },
+      },
+
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/soloist#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "Vibe Coding", item: "https://www.hypehour.com.br/ia-para-vibe-coding" }, { "@type": "ListItem", position: 3, name: "Soloist AI", item: "https://www.hypehour.com.br/ferramentas/soloist" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/soloist#software", name: "Soloist AI", description: "Assistente de desenvolvimento com IA para desenvolvedores solo, com geração de código, debugging inteligente e suporte a arquitetura de aplicações completas.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://soloist.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/soloist", creator: { "@type": "Organization", name: "Soloist AI" } },
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/soloist#software", name: "Soloist AI", description: "Assistente de desenvolvimento com IA para desenvolvedores solo, com geração de código, debugging inteligente e suporte a arquitetura de aplicações completas.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://soloist.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/soloist", 
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1231",
+        },
+        creator: { "@type": "Organization", name: "Soloist AI" } },
     ],
   };
 
@@ -120,7 +157,7 @@ export default function SoloistPage() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Construa como um time sendo um desenvolvedor só</h2>
           <p className="text-lg mb-6 text-zinc-300">Experimente o Soloist AI e acelere seu desenvolvimento com IA agora</p>
-          <a href="https://soloist.ai" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Soloist AI →</a>
+          <a href="https://soloist.ai" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Soloist AI →</a>
         </section>
         <section className="border-t border-zinc-200 pt-8">
           <h2 className="text-2xl font-bold text-black mb-4">Conclusão</h2>

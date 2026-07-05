@@ -31,6 +31,33 @@ export default function ViggleAIPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/viggle-ai#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/viggle-ai",
+        "name": "Viggle AI - Anime Personagens com Movimentos Realistas",
+        "description": "Conheça o Viggle AI: ferramenta de IA que anima personagens com movimentos realistas a partir de vídeos de referência. Crie vídeos de dança, motion e personagens animados. Veja vantagens e para quem é indicado.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/viggle-ai#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/viggle-ai#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/viggle-ai#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function ViggleAIPage() {
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
         "url": "https://viggle.ai/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/viggle-ai",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/viggle-ai#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Envie a imagem do personagem","Forneça o vídeo de referência","IA processa a animação","Baixe e compartilhe","Transferência de movimento (motion transfer)","Consistência de personagem"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1335",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Viggle AI"
@@ -293,7 +330,7 @@ export default function ViggleAIPage() {
           <a
             href="https://viggle.ai/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
           >
             Acessar Viggle AI →

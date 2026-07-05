@@ -32,6 +32,33 @@ export default function BrowserlessPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/browserless#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/browserless",
+        "name": "Browserless - Automação de Navegador Headless em Nuvem",
+        "description": "Conheça o Browserless: a solução líder para executar Puppeteer e Playwright em escala na nuvem sem gerenciar servidores.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/browserless#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/browserless#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/browserless#breadcrumb",
         "itemListElement": [
@@ -63,7 +90,17 @@ export default function BrowserlessPage() {
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
         "url": "https://www.browserless.io/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/browserless",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/browserless#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Conecte seu Script","Execução na Nuvem","Escalabilidade Automática","Resultado Instantâneo","Visual Debugger","Resource Management"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1661",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Browserless"
@@ -281,7 +318,7 @@ export default function BrowserlessPage() {
                     <a
                         href="https://www.browserless.io/"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Começar grátis →

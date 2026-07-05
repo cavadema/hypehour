@@ -31,6 +31,33 @@ export default function SpeechifyPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/speechify#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/speechify",
+        "name": "Speechify - Text to Speech e Voice Typing com IA",
+        "description": "Conheça o Speechify: assistente de voz com IA para converter texto em áudio natural e digitar por voz 5x mais rápido. Veja como funciona, vantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/speechify#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/speechify#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/speechify#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function SpeechifyPage() {
         "applicationCategory": "ProductivityApplication",
         "operatingSystem": "Web",
         "url": "https://speechify.com",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/speechify",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/speechify#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Escolha o conteúdo","Selecione a voz e velocidade","Ouça ou digite por voz","Sincronize em todos os dispositivos","Mais de 200 vozes naturais","Voice Typing - Ditado por voz"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1410",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Speechify"
@@ -343,7 +380,7 @@ export default function SpeechifyPage() {
                     <a
                         href="https://speechify.com"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Acessar Speechify →

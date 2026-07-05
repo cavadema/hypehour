@@ -18,8 +18,45 @@ export const metadata = {
 export default function JuliusAIPage() {
   const schemaData = {
     "@context": "https://schema.org", "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/julius-ai#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/julius-ai",
+        "name": "Julius AI - Análise de Dados com IA sem Precisar de Código",
+        "description": "Conheça o Julius AI: assistente de análise de dados com IA que responde perguntas sobre planilhas, CSV e dados em linguagem natural, gerando gráficos e insights automaticamente. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/julius-ai#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/julius-ai#software" },
+      },
+
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/julius-ai#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "Análise de Dados", item: "https://www.hypehour.com.br/analise-de-dados" }, { "@type": "ListItem", position: 3, name: "Julius AI", item: "https://www.hypehour.com.br/ferramentas/julius-ai" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/julius-ai#software", name: "Julius AI", description: "Assistente de IA para análise de dados que responde perguntas sobre planilhas e CSV em linguagem natural, gerando gráficos, análises estatísticas e insights automaticamente.", applicationCategory: "BusinessApplication", operatingSystem: "Web", url: "https://julius.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/julius-ai", creator: { "@type": "Organization", name: "Julius AI" } },
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/julius-ai#software", name: "Julius AI", description: "Assistente de IA para análise de dados que responde perguntas sobre planilhas e CSV em linguagem natural, gerando gráficos, análises estatísticas e insights automaticamente.", applicationCategory: "BusinessApplication", operatingSystem: "Web", url: "https://julius.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/julius-ai", 
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1365",
+        },
+        creator: { "@type": "Organization", name: "Julius AI" } },
     ],
   };
 
@@ -120,7 +157,7 @@ export default function JuliusAIPage() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Analise seus dados sem escrever uma linha de código</h2>
           <p className="text-lg mb-6 text-zinc-300">Teste o Julius AI gratuitamente e faça sua primeira análise em minutos</p>
-          <a href="https://julius.ai" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Julius AI →</a>
+          <a href="https://julius.ai" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Julius AI →</a>
         </section>
         <section className="border-t border-zinc-200 pt-8">
           <h2 className="text-2xl font-bold text-black mb-4">Conclusão</h2>

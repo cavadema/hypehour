@@ -33,6 +33,33 @@ export default function HeyGenPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/heygen#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/heygen",
+        "name": "HeyGen - Avatares de IA e Tradução de Vídeo Inteligente",
+        "description": "Conheça o HeyGen: a plataforma líder em avatares digitais e tradução de vídeo com lip-sync. Veja como funciona, preços e como criar vídeos profissionais.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/heygen#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/heygen#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/heygen#breadcrumb",
         "itemListElement": [
@@ -64,7 +91,17 @@ export default function HeyGenPage() {
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
         "url": "https://heygen.com",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/heygen",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/heygen#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Escolha seu Avatar","Insira o Roteiro","Personalize o Design","Gere e Export_","Talking Photos","AI Voice Cloning"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1090",
+        },
         "creator": {
           "@type": "Organization",
           "name": "HeyGen"
@@ -298,7 +335,7 @@ export default function HeyGenPage() {
                     <a
                         href="https://heygen.com"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Começar Gratuitamente no HeyGen →

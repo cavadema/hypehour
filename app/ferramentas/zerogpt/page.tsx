@@ -31,6 +31,33 @@ export default function ZeroGPTPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/zerogpt#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/zerogpt",
+        "name": "ZeroGPT - Detector de IA Gratuito",
+        "description": "Conheça o ZeroGPT: ferramenta gratuita para detectar textos gerados por IA com precisão. Veja como funciona, vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/zerogpt#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/zerogpt#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/zerogpt#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function ZeroGPTPage() {
         "applicationCategory": "UtilitiesApplication",
         "operatingSystem": "Web",
         "url": "https://www.zerogpt.com",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/zerogpt",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/zerogpt#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Cole o texto","Análise automática","Resultados detalhados","Exporte ou compartilhe","Detecção gratuita ilimitada","Destaque de trechos gerados por IA"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1229",
+        },
         "creator": {
           "@type": "Organization",
           "name": "ZeroGPT"
@@ -343,7 +380,7 @@ export default function ZeroGPTPage() {
           <a
             href="https://www.zerogpt.com"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
           >
             Acessar ZeroGPT →

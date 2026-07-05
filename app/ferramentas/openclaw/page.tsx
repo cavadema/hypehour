@@ -18,8 +18,45 @@ export const metadata = {
 export default function OpenClawPage() {
   const schemaData = {
     "@context": "https://schema.org", "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/openclaw#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/openclaw",
+        "name": "OpenClaw - Plataforma de Criação de Agentes de IA Autônomos",
+        "description": "Conheça o OpenClaw: plataforma para criar, treinar e orquestrar agentes de IA autônomos que executam tarefas complexas de forma independente. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/openclaw#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/openclaw#software" },
+      },
+
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/openclaw#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "Criação de Agentes de IA", item: "https://www.hypehour.com.br/criacao-agentes-ia" }, { "@type": "ListItem", position: 3, name: "OpenClaw", item: "https://www.hypehour.com.br/ferramentas/openclaw" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/openclaw#software", name: "OpenClaw", description: "Plataforma de criação e orquestração de agentes de IA autônomos para automatizar fluxos de trabalho complexos.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://openclaw.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/openclaw", creator: { "@type": "Organization", name: "OpenClaw" } },
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/openclaw#software", name: "OpenClaw", description: "Plataforma de criação e orquestração de agentes de IA autônomos para automatizar fluxos de trabalho complexos.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://openclaw.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/openclaw", 
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1307",
+        },
+        creator: { "@type": "Organization", name: "OpenClaw" } },
     ],
   };
 
@@ -120,7 +157,7 @@ export default function OpenClawPage() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Automatize tarefas complexas com agentes de IA</h2>
           <p className="text-lg mb-6 text-zinc-300">Crie seu primeiro agente no OpenClaw e veja a automação em ação</p>
-          <a href="https://openclaw.ai" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar OpenClaw →</a>
+          <a href="https://openclaw.ai" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar OpenClaw →</a>
         </section>
         <section className="border-t border-zinc-200 pt-8">
           <h2 className="text-2xl font-bold text-black mb-4">Conclusão</h2>

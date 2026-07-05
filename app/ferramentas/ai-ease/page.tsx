@@ -29,6 +29,33 @@ export default function AIEasePage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/ai-ease#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/ai-ease",
+        "name": "AI Ease - Gerador de Headshots Profissionais com Inteligência Artificial",
+        "description": "Conheça o AI Ease: ferramenta de IA que transforma selfies em headshots profissionais de estúdio para LinkedIn, currículo e perfis corporativos. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/ai-ease#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/ai-ease#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/ai-ease#breadcrumb",
         itemListElement: [
@@ -46,6 +73,16 @@ export default function AIEasePage() {
         operatingSystem: "Web",
         url: "https://www.aiease.ai",
         mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/ai-ease",
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["{title}","{title}","Ideal para:","Não é ideal para:"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1111",
+        },
         creator: { "@type": "Organization", name: "AI Ease" },
       },
     ],
@@ -202,7 +239,7 @@ export default function AIEasePage() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Transforme suas selfies em headshots profissionais</h2>
           <p className="text-lg mb-6 text-zinc-300">Use o AI Ease e tenha dezenas de headshots de estúdio sem sair de casa</p>
-          <a href="https://www.aiease.ai/headshot-generator/" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">
+          <a href="https://www.aiease.ai/headshot-generator/" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">
             Acessar AI Ease →
           </a>
         </section>

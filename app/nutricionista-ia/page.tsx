@@ -70,56 +70,6 @@ const ferramentas = [
   },
 ];
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://www.hypehour.com.br/#organization",
-      "name": "Hypehour",
-      "url": "https://www.hypehour.com.br",
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.hypehour.com.br/#website",
-      "name": "Hypehour",
-      "url": "https://www.hypehour.com.br",
-      "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.hypehour.com.br/nutricionista-ia/#breadcrumb",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hypehour.com.br" },
-        { "@type": "ListItem", "position": 2, "name": "IA para Nutricionistas", "item": "https://www.hypehour.com.br/nutricionista-ia" },
-      ],
-    },
-    {
-      "@type": "CollectionPage",
-      "@id": "https://www.hypehour.com.br/nutricionista-ia/#collectionpage",
-      "name": "IA para Nutricionistas",
-      "description": "Seleção das melhores ferramentas de inteligência artificial para nutricionistas, incluindo software de planos alimentares, cálculo nutricional e gestão de pacientes.",
-      "url": "https://www.hypehour.com.br/nutricionista-ia",
-      "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
-      "breadcrumb": { "@id": "https://www.hypehour.com.br/nutricionista-ia/#breadcrumb" },
-      "mainEntity": {
-        "@type": "ItemList",
-        "@id": "https://www.hypehour.com.br/nutricionista-ia/#itemlist",
-        "itemListOrder": "http://schema.org/ItemListOrderAscending",
-        "numberOfItems": 7,
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "The Pom" },
-          { "@type": "ListItem", "position": 2, "name": "Rayfit" },
-          { "@type": "ListItem", "position": 3, "name": "Pencil" },
-          { "@type": "ListItem", "position": 4, "name": "DietSystem" },
-          { "@type": "ListItem", "position": 5, "name": "Nutria by GreenTable" },
-          { "@type": "ListItem", "position": 6, "name": "IPPO" },
-          { "@type": "ListItem", "position": 7, "name": "Dietitian.com.br" },
-        ],
-      },
-    },
-  ],
-};
 
 export default function NutricionistaIA() {
   return (
@@ -133,10 +83,6 @@ export default function NutricionistaIA() {
         <HeartIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">IA para Nutricionistas</h1>
       </div>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
       <ExpandableContent />
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => (
@@ -154,6 +100,7 @@ export default function NutricionistaIA() {
         title="IA para Nutricionistas — Melhores Ferramentas de Inteligência Artificial em 2026"
         description="Descubra as melhores ferramentas de IA para nutricionistas: software de planos alimentares, cálculo nutricional automático e gestão de pacientes com inteligência artificial."
         canonicalUrl="https://www.hypehour.com.br/nutricionista-ia"
+        breadcrumbName="IA para Nutricionistas"
         ferramentas={ferramentas}
       />
     </main>

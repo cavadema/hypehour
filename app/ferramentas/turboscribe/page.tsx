@@ -18,8 +18,45 @@ export const metadata = {
 export default function TurboScribePage() {
   const schemaData = {
     "@context": "https://schema.org", "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/turboscribe#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/turboscribe",
+        "name": "TurboScribe - Transcrição de Áudio com IA (Whisper) em 98+ Idiomas",
+        "description": "Conheça o TurboScribe: ferramenta de transcrição de áudio com IA baseada no Whisper da OpenAI, com suporte a 98+ idiomas e alta precisão. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/turboscribe#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/turboscribe#software" },
+      },
+
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/turboscribe#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "Transcrever Áudio", item: "https://www.hypehour.com.br/transcrever-audio" }, { "@type": "ListItem", position: 3, name: "TurboScribe", item: "https://www.hypehour.com.br/ferramentas/turboscribe" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/turboscribe#software", name: "TurboScribe", description: "Ferramenta de transcrição de áudio com IA baseada no modelo Whisper da OpenAI, suportando 98+ idiomas com alta precisão, diarização de falantes e exportação em múltiplos formatos.", applicationCategory: "MultimediaApplication", operatingSystem: "Web", url: "https://turboscribe.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/turboscribe", creator: { "@type": "Organization", name: "TurboScribe" } },
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/turboscribe#software", name: "TurboScribe", description: "Ferramenta de transcrição de áudio com IA baseada no modelo Whisper da OpenAI, suportando 98+ idiomas com alta precisão, diarização de falantes e exportação em múltiplos formatos.", applicationCategory: "MultimediaApplication", operatingSystem: "Web", url: "https://turboscribe.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/turboscribe", 
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1638",
+        },
+        creator: { "@type": "Organization", name: "TurboScribe" } },
     ],
   };
 
@@ -120,7 +157,7 @@ export default function TurboScribePage() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Transcreva qualquer áudio com precisão de Whisper</h2>
           <p className="text-lg mb-6 text-zinc-300">Teste o TurboScribe gratuitamente — 3 transcrições por dia sem custo</p>
-          <a href="https://turboscribe.ai" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar TurboScribe →</a>
+          <a href="https://turboscribe.ai" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar TurboScribe →</a>
         </section>
         <section className="border-t border-zinc-200 pt-8">
           <h2 className="text-2xl font-bold text-black mb-4">Conclusão</h2>

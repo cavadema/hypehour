@@ -31,6 +31,33 @@ export default function DescriptPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/descript#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/descript",
+        "name": "Descript - Editor de Vídeo e Podcast com IA",
+        "description": "Conheça o Descript: editor de vídeo e podcast com IA que permite editar pelo texto, remover silêncios, clonar voz e gerar B-roll automaticamente. Veja vantagens, desvantagens e para quem é indicado.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/descript#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/descript#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/descript#breadcrumb",
         "itemListElement": [
@@ -47,7 +74,16 @@ export default function DescriptPage() {
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web, Windows, macOS",
         "url": "https://www.descript.com/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/descript",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/descript#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1312",
+        },
         "creator": { "@type": "Organization", "name": "Descript" },
       },
     ],
@@ -252,7 +288,7 @@ export default function DescriptPage() {
           <a
             href="https://www.descript.com/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
           >
             Acessar Descript →

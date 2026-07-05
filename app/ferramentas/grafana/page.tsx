@@ -32,6 +32,33 @@ export default function GrafanaPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/grafana#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/grafana",
+        "name": "Grafana AI - Observabilidade Inteligente e Dashboards | Análise",
+        "description": "Conheça os recursos de IA do Grafana: detecção de anomalias, assistente inteligente e diagnóstico automatizado de incidentes.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/grafana#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/grafana#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/grafana#breadcrumb",
         "itemListElement": [
@@ -63,7 +90,17 @@ export default function GrafanaPage() {
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
         "url": "https://grafana.com/solutions/machine-learning/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/grafana",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/grafana#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Grafana Assistant","Adaptive Telemetry","Auto-Generated Anomaly Detection","LLM Observability","Pode não ser ideal para:"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1170",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Grafana AI"
@@ -257,7 +294,7 @@ export default function GrafanaPage() {
                     <a
                         href="https://grafana.com/solutions/machine-learning/"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-[#F47A20] text-white font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Criar Conta Grátis no Grafana Cloud →

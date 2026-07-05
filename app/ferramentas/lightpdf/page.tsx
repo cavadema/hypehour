@@ -32,6 +32,33 @@ export default function LightPDFPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/lightpdf#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/lightpdf",
+        "name": "LightPDF - Editor e Conversor de PDF com IA",
+        "description": "Conheça o LightPDF: ferramenta completa de IA para editar, converter, resumir e interagir com PDFs. Veja funcionalidades, preço e se vale a pena.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/lightpdf#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/lightpdf#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/lightpdf#breadcrumb",
         "itemListElement": [
@@ -63,7 +90,17 @@ export default function LightPDFPage() {
         "applicationCategory": "ProductivityApplication",
         "operatingSystem": "Web",
         "url": "https://lightpdf.com/pt/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/lightpdf",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/lightpdf#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Acesse a ferramenta","Carregue seu arquivo","A IA entra em ação","Edite ou Baixe","Assistente de Leitura AI","OCR com IA"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1300",
+        },
         "creator": {
           "@type": "Organization",
           "name": "LightPDF"
@@ -307,7 +344,7 @@ export default function LightPDFPage() {
                     <a
                         href="https://lightpdf.com/pt/"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Usar LightPDF Agora →

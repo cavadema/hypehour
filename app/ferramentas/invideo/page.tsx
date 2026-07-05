@@ -29,6 +29,33 @@ export default function InvideoPage() {
     const schemaData = {
         "@context": "https://schema.org",
         "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/invideo#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/invideo",
+        "name": "${toolMetadata.nome}",
+        "description": "",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/invideo#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/invideo#software" },
+      },
+
             {
                 "@type": "BreadcrumbList",
                 "@id": `https://www.hypehour.com.br/ferramentas/invideo#breadcrumb`,
@@ -267,7 +294,7 @@ export default function InvideoPage() {
                     <a
                         href={toolMetadata.url}
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Experimentar Invideo Gratuitamente →

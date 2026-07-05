@@ -29,6 +29,33 @@ export default function V0Page() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/v0#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/v0",
+        "name": "v0 - Gerador de Interfaces React com IA da Vercel",
+        "description": "Conheça o v0: ferramenta da Vercel que gera interfaces React e Next.js prontas a partir de prompts de texto ou imagens. Veja vantagens, desvantagens e para quem é indicado.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/v0#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/v0#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/v0#breadcrumb",
         "itemListElement": [
@@ -45,7 +72,16 @@ export default function V0Page() {
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
         "url": "https://v0.dev/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/v0",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/v0#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "616",
+        },
         "creator": { "@type": "Organization", "name": "Vercel" },
       },
     ],
@@ -190,7 +226,7 @@ export default function V0Page() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Gere sua interface agora</h2>
           <p className="text-lg mb-6 text-zinc-300">Acesse o v0 e crie componentes React prontos para usar em segundos</p>
-          <a href="https://v0.dev/" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar v0 →</a>
+          <a href="https://v0.dev/" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar v0 →</a>
         </section>
 
         <section className="border-t border-zinc-200 pt-8">

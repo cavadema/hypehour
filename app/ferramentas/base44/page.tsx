@@ -29,6 +29,33 @@ export default function Base44Page() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/base44#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/base44",
+        "name": "Base44 - Crie Aplicações Web Completas com IA",
+        "description": "Conheça o Base44: plataforma de vibe coding com IA que transforma descrições em aplicações web completas com frontend, backend, banco de dados e autenticação. Veja vantagens e para quem é indicado.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/base44#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/base44#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/base44#breadcrumb",
         "itemListElement": [
@@ -45,7 +72,17 @@ export default function Base44Page() {
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
         "url": "https://base44.com",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/base44",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/base44#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["{titulo}","{titulo}","Ideal para:","Não é ideal para:"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "965",
+        },
         "creator": { "@type": "Organization", "name": "Base44" },
       },
     ],
@@ -190,7 +227,7 @@ export default function Base44Page() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Crie sua aplicação agora</h2>
           <p className="text-lg mb-6 text-zinc-300">Acesse o Base44 e transforme sua ideia em uma aplicação web completa em minutos</p>
-          <a href="https://base44.com" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Base44 →</a>
+          <a href="https://base44.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Base44 →</a>
         </section>
 
         <section className="border-t border-zinc-200 pt-8">

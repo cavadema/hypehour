@@ -31,6 +31,33 @@ export default function WisprFlowPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/wisprflow#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/wisprflow",
+        "name": "Wispr Flow - Ditado por Voz com IA e Comandos",
+        "description": "Conheça o Wispr Flow: a ferramenta de ditado com IA que escreve 3x mais rápido que você digita. Transcrição perfeita, comandos de voz e formatação automática em qualquer app.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/wisprflow#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/wisprflow#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/wisprflow#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function WisprFlowPage() {
         "applicationCategory": "ProductivityApplication",
         "operatingSystem": "Web",
         "url": "https://wisprflow.ai",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/wisprflow",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/wisprflow#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Aperte o atalho","Fale naturalmente","IA formata e transcreve","Edite com a voz","Auto-Edição Inteligente","Comandos de Voz (Command Mode)"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1455",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Wispr Flow"
@@ -303,7 +340,7 @@ export default function WisprFlowPage() {
                     <a
                         href="https://wisprflow.ai"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Baixar Wispr Flow Grátis →

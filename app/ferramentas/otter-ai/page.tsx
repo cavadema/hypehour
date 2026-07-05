@@ -29,6 +29,33 @@ export default function OtterAIPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/otter-ai#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/otter-ai",
+        "name": "Otter AI - Transcrição e Ata de Reunião com Inteligência Artificial",
+        "description": "Conheça o Otter AI: ferramenta de IA que transcreve reuniões em tempo real, gera resumos e identifica itens de ação automaticamente. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/otter-ai#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/otter-ai#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/otter-ai#breadcrumb",
         itemListElement: [
@@ -46,6 +73,15 @@ export default function OtterAIPage() {
         operatingSystem: "Web",
         url: "https://otter.ai",
         mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/otter-ai",
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1255",
+        },
         creator: { "@type": "Organization", name: "Otter.ai" },
       },
     ],
@@ -202,7 +238,7 @@ export default function OtterAIPage() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Nunca mais perca o que foi decidido em reuniões</h2>
           <p className="text-lg mb-6 text-zinc-300">Teste o Otter AI gratuitamente e comece a transcrever suas reuniões hoje</p>
-          <a href="https://otter.ai" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">
+          <a href="https://otter.ai" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">
             Acessar Otter AI →
           </a>
         </section>

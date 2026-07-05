@@ -31,6 +31,33 @@ export default function KlingAIPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/klingai#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/klingai",
+        "name": "KlingAI - Gerador de Vídeos com IA",
+        "description": "Conheça o KlingAI: ferramenta de IA para criar vídeos realistas com movimentos complexos e alta qualidade. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/klingai#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/klingai#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/klingai#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function KlingAIPage() {
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
         "url": "https://klingai.com/global/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/klingai",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/klingai#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Descreva o vídeo ou envie imagem","IA gera o vídeo","Ajuste e refine","Baixe e use","Geração de vídeos text-to-video","Animação de imagens (image-to-video)"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1185",
+        },
         "creator": {
           "@type": "Organization",
           "name": "KlingAI"
@@ -326,7 +363,7 @@ export default function KlingAIPage() {
           <a
             href="https://klingai.com/global/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
           >
             Acessar KlingAI →

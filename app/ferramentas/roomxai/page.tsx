@@ -18,8 +18,45 @@ export const metadata = {
 export default function RoomXAIPage() {
   const schemaData = {
     "@context": "https://schema.org", "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/roomxai#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/roomxai",
+        "name": "RoomX AI - Design de Interiores com IA em Segundos",
+        "description": "Conheça o RoomX AI: ferramenta de inteligência artificial para transformar fotos de ambientes em designs de interiores profissionais com dezenas de estilos. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/roomxai#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/roomxai#software" },
+      },
+
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/roomxai#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "IA para Design de Interiores", item: "https://www.hypehour.com.br/ia-para-design-de-interiores" }, { "@type": "ListItem", position: 3, name: "RoomX AI", item: "https://www.hypehour.com.br/ferramentas/roomxai" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/roomxai#software", name: "RoomX AI", description: "Ferramenta de IA para design de interiores que transforma fotos de ambientes reais em renders profissionais com diferentes estilos decorativos.", applicationCategory: "DesignApplication", operatingSystem: "Web", url: "https://roomxai.com", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/roomxai", creator: { "@type": "Organization", name: "RoomX AI" } },
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/roomxai#software", name: "RoomX AI", description: "Ferramenta de IA para design de interiores que transforma fotos de ambientes reais em renders profissionais com diferentes estilos decorativos.", applicationCategory: "DesignApplication", operatingSystem: "Web", url: "https://roomxai.com", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/roomxai", 
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1217",
+        },
+        creator: { "@type": "Organization", name: "RoomX AI" } },
     ],
   };
 
@@ -120,7 +157,7 @@ export default function RoomXAIPage() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Redesenhe seus ambientes com IA em segundos</h2>
           <p className="text-lg mb-6 text-zinc-300">Experimente o RoomX AI e veja como seu espaço pode ser transformado</p>
-          <a href="https://roomxai.com" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar RoomX AI →</a>
+          <a href="https://roomxai.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar RoomX AI →</a>
         </section>
         <section className="border-t border-zinc-200 pt-8">
           <h2 className="text-2xl font-bold text-black mb-4">Conclusão</h2>

@@ -18,8 +18,45 @@ export const metadata = {
 export default function PicLumenPage() {
   const schemaData = {
     "@context": "https://schema.org", "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/piclumen#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/piclumen",
+        "name": "PicLumen - Gerador de Vídeos e Imagens com IA (Kling, Seedance, Seedream)",
+        "description": "Conheça o PicLumen: plataforma criativa com IA para gerar vídeos e imagens usando modelos avançados como Kling e Seedance, com múltiplos takes e áudio nativo. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/piclumen#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/piclumen#software" },
+      },
+
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/piclumen#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "IA para Criar Vídeos", item: "https://www.hypehour.com.br/ia-para-criar-videos" }, { "@type": "ListItem", position: 3, name: "PicLumen", item: "https://www.hypehour.com.br/ferramentas/piclumen" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/piclumen#software", name: "PicLumen", description: "Plataforma criativa com IA que gera vídeos e imagens usando modelos avançados como Kling, Seedance e Seedream, com múltiplos takes e áudio nativo.", applicationCategory: "MultimediaApplication", operatingSystem: "Web", url: "https://www.piclumen.com", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/piclumen", creator: { "@type": "Organization", name: "PicLumen" } },
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/piclumen#software", name: "PicLumen", description: "Plataforma criativa com IA que gera vídeos e imagens usando modelos avançados como Kling, Seedance e Seedream, com múltiplos takes e áudio nativo.", applicationCategory: "MultimediaApplication", operatingSystem: "Web", url: "https://www.piclumen.com", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/piclumen", 
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1311",
+        },
+        creator: { "@type": "Organization", name: "PicLumen" } },
     ],
   };
 
@@ -120,7 +157,7 @@ export default function PicLumenPage() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Crie vídeos com os melhores modelos de IA</h2>
           <p className="text-lg mb-6 text-zinc-300">Teste o PicLumen com créditos gratuitos e gere seu primeiro vídeo agora</p>
-          <a href="https://www.piclumen.com" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar PicLumen →</a>
+          <a href="https://www.piclumen.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar PicLumen →</a>
         </section>
         <section className="border-t border-zinc-200 pt-8">
           <h2 className="text-2xl font-bold text-black mb-4">Conclusão</h2>

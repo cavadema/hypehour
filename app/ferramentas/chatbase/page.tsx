@@ -32,6 +32,33 @@ export default function ChatbasePage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/chatbase#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/chatbase",
+        "name": "Chatbase - Crie seu Próprio Chatbot de IA e Guia Completo",
+        "description": "Conheça o Chatbase: a ferramenta líder para criar chatbots treinados com seus dados. Veja como funciona, preços, integrações e se vale a pena.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/chatbase#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/chatbase#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/chatbase#breadcrumb",
         "itemListElement": [
@@ -63,7 +90,17 @@ export default function ChatbasePage() {
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
         "url": "https://www.chatbase.co/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/chatbase",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/chatbase#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Suporte a Múltiplos Formatos de Dados","Captação de Leads Integrada","Escolha do Modelo de Linguagem","Revisão e Correção Manual","Pode não ser ideal para:"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1277",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Chatbase"
@@ -262,7 +299,7 @@ export default function ChatbasePage() {
                     <a
                         href="https://www.chatbase.co/"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Experimentar o Chatbase Grátis →

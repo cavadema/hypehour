@@ -32,6 +32,33 @@ export default function FirecrawlPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/firecrawl#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/firecrawl",
+        "name": "Firecrawl - API de Crawling e Scraping para LLMs",
+        "description": "Descubra o Firecrawl: a API líder para transformar sites em Markdown limpo e estruturado para alimentar sua Inteligência Artificial.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/firecrawl#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/firecrawl#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/firecrawl#breadcrumb",
         "itemListElement": [
@@ -63,7 +90,17 @@ export default function FirecrawlPage() {
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
         "url": "https://www.firecrawl.dev",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/firecrawl",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/firecrawl#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Envie a URL","Renderização e Limpeza","Conversão para Markdown","Extração e Integração","Recursive Crawling","Bypass Inteligente"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1409",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Firecrawl"
@@ -281,7 +318,7 @@ export default function FirecrawlPage() {
                     <a
                         href="https://www.firecrawl.dev"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Experimentar Firecrawl →

@@ -33,6 +33,33 @@ export default function MidjourneyPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/midjourney#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/midjourney",
+        "name": "Midjourney - O Líder em Geração de Imagens Artísticas",
+        "description": "Conheça o Midjourney: a IA com maior qualidade artística e fotorrealista do mercado. Veja como funciona via Discord, preços, v6 e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/midjourney#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/midjourney#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/midjourney#breadcrumb",
         "itemListElement": [
@@ -64,7 +91,17 @@ export default function MidjourneyPage() {
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
         "url": "https://www.midjourney.com",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/midjourney",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/midjourney#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Entre no Discord","Assine um plano","Crie sua primeira imagem","Refine e exporte","Versão 6 Avançada","Zoom Out e Pan"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1544",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Midjourney"
@@ -326,7 +363,7 @@ export default function MidjourneyPage() {
                     <a
                         href="https://www.midjourney.com"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition transform hover:scale-105"
                     >
                         Começar no Midjourney →

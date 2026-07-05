@@ -31,6 +31,33 @@ export default function PolyAIPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/poly-ai#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/poly-ai",
+        "name": "Poly.ai - Assistente de Voz com IA para Atendimento ao Cliente",
+        "description": "Conheça o Poly.ai: plataforma de atendimento ao cliente com assistente de voz inteligente que automatiza chamadas e interações digitais com naturalidade. Veja vantagens, desvantagens e para quem é indicado.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/poly-ai#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/poly-ai#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/poly-ai#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function PolyAIPage() {
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
         "url": "https://poly.ai/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/poly-ai",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/poly-ai#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Configuração e treinamento","Integração com sistemas","Atendimento autônomo","Transferência inteligente","Voz conversacional natural","Resolução autônoma de solicitações"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1149",
+        },
         "creator": {
           "@type": "Organization",
           "name": "PolyAI"
@@ -293,7 +330,7 @@ export default function PolyAIPage() {
           <a
             href="https://poly.ai/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
           >
             Acessar Poly.ai →

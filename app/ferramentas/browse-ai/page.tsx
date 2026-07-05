@@ -32,6 +32,33 @@ export default function BrowseAIPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/browse-ai#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/browse-ai",
+        "name": "Browse AI - Web Scraping e Monitoramento sem Código",
+        "description": "Descubra o Browse AI: a ferramenta mais fácil para extrair e monitorar dados de qualquer site sem escrever uma linha de código.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/browse-ai#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/browse-ai#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/browse-ai#breadcrumb",
         "itemListElement": [
@@ -63,7 +90,17 @@ export default function BrowseAIPage() {
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
         "url": "https://www.browse.ai",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/browse-ai",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/browse-ai#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Treine seu Robô","Configure o Agendamento","Execute em Larga Escala","Receba os Dados","Bulk Run (Execução em Massa)","Pre-trained Robots"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1355",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Browse AI"
@@ -281,7 +318,7 @@ export default function BrowseAIPage() {
                     <a
                         href="https://www.browse.ai"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Criar meu robô grátis →

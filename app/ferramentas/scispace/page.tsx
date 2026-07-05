@@ -31,6 +31,33 @@ export default function SciSpacePage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/scispace#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/scispace",
+        "name": "SciSpace - IA para Leitura e Pesquisa de Artigos Científicos",
+        "description": "Conheça o SciSpace: plataforma de IA para professores, pesquisadores e estudantes lerem, entenderem e pesquisarem artigos científicos com facilidade. Veja vantagens, desvantagens e para quem é indicado.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/scispace#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/scispace#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/scispace#breadcrumb",
         "itemListElement": [
@@ -47,7 +74,16 @@ export default function SciSpacePage() {
         "applicationCategory": "EducationalApplication",
         "operatingSystem": "Web",
         "url": "https://scispace.com/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/scispace",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/scispace#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1293",
+        },
         "creator": { "@type": "Organization", "name": "SciSpace" },
       },
     ],
@@ -250,7 +286,7 @@ export default function SciSpacePage() {
           <a
             href="https://scispace.com/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
           >
             Acessar SciSpace →

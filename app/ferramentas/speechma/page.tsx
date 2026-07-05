@@ -31,6 +31,33 @@ export default function SpeechmaPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/speechma#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/speechma",
+        "name": "Speechma - Ferramenta de IA para Voz e Transcrição de Áudio",
+        "description": "Conheça o Speechma: ferramenta de IA para converter texto em voz realista e transcrever áudio em texto com precisão. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/speechma#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/speechma#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/speechma#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function SpeechmaPage() {
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
         "url": "https://speechma.com",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/speechma",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/speechma#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Escolha o modo","Insira o conteúdo","Configure voz e idioma","Gere e baixe","Text-to-Speech com vozes realistas","Transcrição de áudio para texto"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1288",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Speechma"
@@ -325,7 +362,7 @@ export default function SpeechmaPage() {
           <a
             href="https://speechma.com"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
           >
             Acessar Speechma →

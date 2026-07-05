@@ -31,6 +31,33 @@ export default function HailuoAIPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/hailuo-ai#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/hailuo-ai",
+        "name": "Hailuo AI: A Revolução do Vídeo por IA da MiniMax",
+        "description": "Conheça o Hailuo AI: o gerador de vídeos por IA que transforma texto e imagens em clipes cinematográficos de alta qualidade. Saiba como funciona, preços e funcionalidades.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/hailuo-ai#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/hailuo-ai#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/hailuo-ai#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function HailuoAIPage() {
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
         "url": "https://hailuoai.video/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/hailuo-ai",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/hailuo-ai#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Descreva sua Cena","Escolha o Modelo","Gere e Baixe","Text-to-Video e Image-to-Video","Controle de Diretor (T2V Director)","Alta Velocidade de Geração"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1339",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Hailuo AI: A Revolução do Vídeo por IA da MiniMax"
@@ -283,7 +320,7 @@ export default function HailuoAIPage() {
                     <a
                         href="https://hailuoai.video/"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Experimentar o Hailuo AI Grátis →

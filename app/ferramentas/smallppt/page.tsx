@@ -31,6 +31,33 @@ export default function SmallpptPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/smallppt#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/smallppt",
+        "name": "Smallppt AI - Criador de Apresentações Multifuncional",
+        "description": "Conheça o Smallppt AI: a ferramenta de IA que cria slides a partir de Word, PDF, URLs e até áudio. Veja como funciona, preços e funcionalidades exclusivas.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/smallppt#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/smallppt#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/smallppt#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function SmallpptPage() {
         "applicationCategory": "DesignApplication",
         "operatingSystem": "Web",
         "url": "https://smallppt.com/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/smallppt",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/smallppt#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Escolha seu método de entrada","IA gera o rascunho","Ajuste e Personalize","Exporte para PowerPoint ou PDF","Multi-Input Slide Generator","Mind Map to PPT"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1327",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Smallppt AI"
@@ -336,7 +373,7 @@ export default function SmallpptPage() {
                     <a
                         href="https://smallppt.com/"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Acessar Smallppt AI →

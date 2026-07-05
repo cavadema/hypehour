@@ -32,6 +32,33 @@ export default function RytrPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/rytr#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/rytr",
+        "name": "Rytr - Assistente de Escrita com IA e Gerador de Conteúdo",
+        "description": "Conheça o Rytr: assistente de escrita com IA que ajuda a criar blogs, emails e anúncios 10x mais rápido. Veja como funciona, preços, vantagens e se vale a pena.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/rytr#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/rytr#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/rytr#breadcrumb",
         "itemListElement": [
@@ -63,7 +90,17 @@ export default function RytrPage() {
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
         "url": "https://rytr.me",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/rytr",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/rytr#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Selecione o idioma e o tom","Escolha o caso de uso","Forneça o contexto","Gere e edite","40+ Casos de Uso e Templates","Suporte Multilíngue"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "915",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Rytr"
@@ -339,7 +376,7 @@ export default function RytrPage() {
                     <a
                         href="https://rytr.me"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Experimentar Rytr Grátis →

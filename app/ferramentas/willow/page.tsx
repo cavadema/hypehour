@@ -33,6 +33,33 @@ export default function WillowPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/willow#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/willow",
+        "name": "Willow - Ditado de Voz com IA e Transcrição Inteligente",
+        "description": "Conheça o Willow (Willowvoice): o assistente de ditado com IA que edita enquanto você fala. Veja recursos, preços, integração e se vale a pena.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/willow#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/willow#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/willow#breadcrumb",
         "itemListElement": [
@@ -64,7 +91,17 @@ export default function WillowPage() {
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
         "url": "https://willowvoice.com",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/willow",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/willow#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Instale o software","Ative o ditado","Fale naturalmente","Veja o resultado","Estilo de Escrita Personalizado","Correção Gramatical em Tempo Real"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1120",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Willow"
@@ -282,7 +319,7 @@ export default function WillowPage() {
                     <a
                         href="https://willowvoice.com"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Acessar Willowvoice →

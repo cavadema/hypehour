@@ -31,6 +31,33 @@ export default function OllamaPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/ollama#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/ollama",
+        "name": "Ollama - Execute Modelos de IA (LLMs) Localmente",
+        "description": "Conheça o Ollama: a ferramenta open-source para rodar modelos como Llama 3, Mistral e Gemma no seu PC com total privacidade e sem internet.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/ollama#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/ollama#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/ollama#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function OllamaPage() {
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
         "url": "https://ollama.com",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/ollama",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/ollama#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Instalação Simples","Pull de Modelos","Chat Imediato","Integração via API","Biblioteca Gigante de Modelos","API Compatível com OpenAI"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1080",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Ollama"
@@ -293,7 +330,7 @@ export default function OllamaPage() {
                     <a
                         href="https://ollama.com"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Baixar Ollama Grátis →

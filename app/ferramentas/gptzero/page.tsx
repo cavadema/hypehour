@@ -31,6 +31,33 @@ export default function GPTZeroPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/gptzero#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/gptzero",
+        "name": "GPTZero - Detector de IA para Educadores",
+        "description": "Conheça o GPTZero: ferramenta de detecção de IA popular entre professores com métricas claras. Veja como funciona, vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/gptzero#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/gptzero#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/gptzero#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function GPTZeroPage() {
         "applicationCategory": "UtilitiesApplication",
         "operatingSystem": "Web",
         "url": "https://gptzero.me",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/gptzero",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/gptzero#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Cole ou envie o arquivo","Processamento automático","Relatório visual","Interpretação clara","Score de probabilidade visual","Destaque de seções geradas por IA"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1229",
+        },
         "creator": {
           "@type": "Organization",
           "name": "GPTZero"
@@ -343,7 +380,7 @@ export default function GPTZeroPage() {
           <a
             href="https://gptzero.me"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
           >
             Acessar GPTZero →

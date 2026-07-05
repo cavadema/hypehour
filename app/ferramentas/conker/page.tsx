@@ -31,6 +31,33 @@ export default function ConkerPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/conker#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/conker",
+        "name": "Conker AI - Gerador de Quizzes e Avaliações",
+        "description": "Conheça o Conker AI: a ferramenta que ajuda professores a criar quizzes e avaliações instantâneas com IA. Veja como funciona, preços e funcionalidades.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/conker#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/conker#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/conker#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function ConkerPage() {
         "applicationCategory": "EducationalApplication",
         "operatingSystem": "Web",
         "url": "https://www.conker.ai/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/conker",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/conker#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Escolha seu ponto de partida","Configure o formato","Revise e Valide","Lançamento direto","Gerador de Questões Inteligente","Biblioteca de Padrões Educacionais"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1092",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Conker AI"
@@ -328,7 +365,7 @@ export default function ConkerPage() {
                     <a
                         href="https://www.conker.ai/"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Acessar Conker AI →

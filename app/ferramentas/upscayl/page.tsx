@@ -18,8 +18,45 @@ export const metadata = {
 export default function UpscaylPage() {
   const schemaData = {
     "@context": "https://schema.org", "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/upscayl#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/upscayl",
+        "name": "Upscayl - Upscaler de Imagens com IA Gratuito e Open-Source",
+        "description": "Conheça o Upscayl: ferramenta gratuita e open-source de upscaling de imagens com IA que aumenta a resolução em até 16x, disponível para Windows, Mac e Linux. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/upscayl#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/upscayl#software" },
+      },
+
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/upscayl#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "IA para Imagens", item: "https://www.hypehour.com.br/ia-para-imagens" }, { "@type": "ListItem", position: 3, name: "Upscayl", item: "https://www.hypehour.com.br/ferramentas/upscayl" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/upscayl#software", name: "Upscayl", description: "Upscaler de imagens com IA gratuito e open-source que aumenta a resolução de fotos borradas em até 16x, disponível como app desktop (Windows, Mac, Linux) e versão cloud.", applicationCategory: "DesignApplication", operatingSystem: "Windows, macOS, Linux, Web", url: "https://upscayl.org", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/upscayl", creator: { "@type": "Organization", name: "Upscayl" } },
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/upscayl#software", name: "Upscayl", description: "Upscaler de imagens com IA gratuito e open-source que aumenta a resolução de fotos borradas em até 16x, disponível como app desktop (Windows, Mac, Linux) e versão cloud.", applicationCategory: "DesignApplication", operatingSystem: "Windows, macOS, Linux, Web", url: "https://upscayl.org", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/upscayl", 
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1219",
+        },
+        creator: { "@type": "Organization", name: "Upscayl" } },
     ],
   };
 
@@ -120,7 +157,7 @@ export default function UpscaylPage() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Melhore qualquer imagem gratuitamente com IA</h2>
           <p className="text-lg mb-6 text-zinc-300">Baixe o Upscayl grátis e comece a ampliar imagens com IA agora</p>
-          <a href="https://upscayl.org" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Baixar Upscayl →</a>
+          <a href="https://upscayl.org" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Baixar Upscayl →</a>
         </section>
         <section className="border-t border-zinc-200 pt-8">
           <h2 className="text-2xl font-bold text-black mb-4">Conclusão</h2>

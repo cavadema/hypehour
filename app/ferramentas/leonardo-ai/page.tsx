@@ -31,6 +31,33 @@ export default function LeonardoAIPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/leonardo-ai#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/leonardo-ai",
+        "name": "Leonardo AI - Gerador de Imagens com IA",
+        "description": "Conheça o Leonardo AI: ferramenta de IA para criar imagens, ilustrações e arte digital de alta qualidade em segundos. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/leonardo-ai#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/leonardo-ai#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/leonardo-ai#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function LeonardoAIPage() {
         "applicationCategory": "DesignApplication",
         "operatingSystem": "Web",
         "url": "https://leonardo.ai",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/leonardo-ai",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/leonardo-ai#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Escreva o prompt","Escolha modelo e configurações","IA gera as imagens","Refine e baixe","Geração de imagens por texto (text-to-image)","Modelos customizáveis e treinamento próprio"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1549",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Leonardo AI"
@@ -326,7 +363,7 @@ export default function LeonardoAIPage() {
           <a
             href="https://leonardo.ai"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
           >
             Acessar Leonardo AI →

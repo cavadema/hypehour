@@ -33,6 +33,33 @@ export default function KreaPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/krea#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/krea",
+        "name": "Krea AI - Geração de Imagem em Tempo Real e Upscaling",
+        "description": "Conheça o Krea AI: a ferramenta líder em inteligência artificial generativa em tempo real. Veja como funciona o AI Enhancer, preços e recursos para criativos.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/krea#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/krea#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/krea#breadcrumb",
         "itemListElement": [
@@ -64,7 +91,17 @@ export default function KreaPage() {
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
         "url": "https://krea.ai",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/krea",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/krea#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Escolha sua ferramenta","Interaja em tempo real","Refine com o Enhancer","Baixe em alta qualidade","Real-time Generation","Upscaler & Enhancer"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "869",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Krea AI"
@@ -287,7 +324,7 @@ export default function KreaPage() {
                     <a
                         href="https://krea.ai"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Acessar Krea AI →

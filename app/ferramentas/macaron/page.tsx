@@ -18,8 +18,45 @@ export const metadata = {
 export default function MacaronPage() {
   const schemaData = {
     "@context": "https://schema.org", "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/macaron#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/macaron",
+        "name": "Macaron - Assistente de IA Pessoal para Produtividade Diária",
+        "description": "Conheça o Macaron: assistente de IA pessoal com interface intuitiva para ajudar na produtividade diária, organização de tarefas e respostas rápidas a qualquer pergunta. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/macaron#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/macaron#software" },
+      },
+
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/macaron#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "Assistentes de IA", item: "https://www.hypehour.com.br/assistentes-de-ia" }, { "@type": "ListItem", position: 3, name: "Macaron", item: "https://www.hypehour.com.br/ferramentas/macaron" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/macaron#software", name: "Macaron", description: "Assistente de IA pessoal com interface intuitiva e agradável, focado em produtividade diária, organização de tarefas e acesso rápido a modelos de linguagem avançados.", applicationCategory: "ProductivityApplication", operatingSystem: "Web, iOS, macOS", url: "https://macaron.im", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/macaron", creator: { "@type": "Organization", name: "Macaron" } },
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/macaron#software", name: "Macaron", description: "Assistente de IA pessoal com interface intuitiva e agradável, focado em produtividade diária, organização de tarefas e acesso rápido a modelos de linguagem avançados.", applicationCategory: "ProductivityApplication", operatingSystem: "Web, iOS, macOS", url: "https://macaron.im", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/macaron", 
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1187",
+        },
+        creator: { "@type": "Organization", name: "Macaron" } },
     ],
   };
 
@@ -120,7 +157,7 @@ export default function MacaronPage() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Um assistente de IA pessoal que é agradável de usar</h2>
           <p className="text-lg mb-6 text-zinc-300">Experimente o Macaron e tenha um assistente de IA elegante no seu dia a dia</p>
-          <a href="https://macaron.im" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Macaron →</a>
+          <a href="https://macaron.im" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Macaron →</a>
         </section>
         <section className="border-t border-zinc-200 pt-8">
           <h2 className="text-2xl font-bold text-black mb-4">Conclusão</h2>

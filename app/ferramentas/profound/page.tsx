@@ -33,6 +33,33 @@ export default function ProfoundPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/profound#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/profound",
+        "name": "Profound - Visibilidade de IA e GEO para Empresas",
+        "description": "Conheça o Profound: a plataforma enterprise líder em monitorar citações de marca no ChatGPT, Grok, Meta AI e Google Gemini. Veja recursos e planos.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/profound#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/profound#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/profound#breadcrumb",
         "itemListElement": [
@@ -64,7 +91,17 @@ export default function ProfoundPage() {
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
         "url": "https://tryprofound.com",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/profound",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/profound#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Escaneamento Global","Análise de Sentiment & Narrativa","Engenharia de Citação","Otimização de Conversão em IA","Answer Engine Tracking","Conversation Explorer"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1327",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Profound"
@@ -282,7 +319,7 @@ export default function ProfoundPage() {
                     <a
                         href="https://tryprofound.com"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Acesse o Profound →

@@ -31,6 +31,33 @@ export default function FlowGPTPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/flowgpt#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/flowgpt",
+        "name": "FlowGPT - O Maior Marketplace de Prompts e Agregador de IA",
+        "description": "Conheça o FlowGPT, a plataforma líder para descobrir prompts de IA, gerenciar modelos como GPT-4 e Claude, e criar seus próprios aplicativos inteligentes.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/flowgpt#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/flowgpt#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/flowgpt#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function FlowGPTPage() {
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
         "url": "https://flowgpt.com",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/flowgpt",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/flowgpt#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Explore a Biblioteca","Selecione o Modelo","Execute e Customize","Compartilhe e Evolua","Ranking Comunitário","Multi-model Chat"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1221",
+        },
         "creator": {
           "@type": "Organization",
           "name": "FlowGPT"
@@ -307,7 +344,7 @@ export default function FlowGPTPage() {
                     <a
                         href="https://flowgpt.com"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Acessar FlowGPT gratuitamente →

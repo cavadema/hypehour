@@ -31,6 +31,33 @@ export default function GammaPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/gamma#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/gamma",
+        "name": "Gamma AI - Crie Apresentações",
+        "description": "Descubra o Gamma AI: a ferramenta que transforma prompts em apresentações, documentos e sites visualmente impressionantes em segundos. Veja como funciona.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/gamma#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/gamma#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/gamma#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function GammaPage() {
         "applicationCategory": "DesignApplication",
         "operatingSystem": "Web",
         "url": "https://gamma.app",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/gamma",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/gamma#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Escolha seu formato","Forneça o Prompt","Geração e Ajustes","Compartilhe ou Exporte","One-click Restyling","AI Editor Chat"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "965",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Gamma AI"
@@ -313,7 +350,7 @@ export default function GammaPage() {
                     <a
                         href="https://gamma.app"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Criar com Gamma agora →

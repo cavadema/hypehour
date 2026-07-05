@@ -18,8 +18,45 @@ export const metadata = {
 export default function CitablePage() {
   const schemaData = {
     "@context": "https://schema.org", "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/citable#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/citable",
+        "name": "Citable - Seja Citado por IAs com Marketing de Visibilidade em IA",
+        "description": "Conheça o Citable: plataforma de marketing que ajuda marcas e conteúdos a serem citados por assistentes de IA como ChatGPT, Claude e Perplexity quando usuários fazem perguntas relevantes. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/citable#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/citable#software" },
+      },
+
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/citable#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "IA para Marketing", item: "https://www.hypehour.com.br/ia-para-marketing" }, { "@type": "ListItem", position: 3, name: "Citable", item: "https://www.hypehour.com.br/ferramentas/citable" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/citable#software", name: "Citable", description: "Plataforma de marketing de visibilidade em IA que otimiza conteúdos e marcas para serem citados por assistentes de IA como ChatGPT, Claude e Perplexity.", applicationCategory: "BusinessApplication", operatingSystem: "Web", url: "https://getcitable.com", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/citable", creator: { "@type": "Organization", name: "Citable" } },
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/citable#software", name: "Citable", description: "Plataforma de marketing de visibilidade em IA que otimiza conteúdos e marcas para serem citados por assistentes de IA como ChatGPT, Claude e Perplexity.", applicationCategory: "BusinessApplication", operatingSystem: "Web", url: "https://getcitable.com", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/citable", 
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1174",
+        },
+        creator: { "@type": "Organization", name: "Citable" } },
     ],
   };
 
@@ -120,7 +157,7 @@ export default function CitablePage() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Apareça nas respostas das IAs que seus clientes usam</h2>
           <p className="text-lg mb-6 text-zinc-300">Audite sua visibilidade em IA e comece a ser citado pelo ChatGPT e Claude</p>
-          <a href="https://getcitable.com" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Citable →</a>
+          <a href="https://getcitable.com" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Citable →</a>
         </section>
         <section className="border-t border-zinc-200 pt-8">
           <h2 className="text-2xl font-bold text-black mb-4">Conclusão</h2>

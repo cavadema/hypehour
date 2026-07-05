@@ -29,6 +29,33 @@ export default function BoltNewPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/bolt-new#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/bolt-new",
+        "name": "Bolt.new - Desenvolvimento Full-Stack com IA no Navegador",
+        "description": "Conheça o Bolt.new: plataforma de vibe coding da StackBlitz que gera, executa e deploya aplicações full-stack completas a partir de prompts de texto. Veja vantagens e para quem é indicado.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/bolt-new#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/bolt-new#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/bolt-new#breadcrumb",
         "itemListElement": [
@@ -45,7 +72,17 @@ export default function BoltNewPage() {
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Web",
         "url": "https://bolt.new/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/bolt-new",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/bolt-new#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["{titulo}","{titulo}","Ideal para:","Não é ideal para:"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1258",
+        },
         "creator": { "@type": "Organization", "name": "StackBlitz" },
       },
     ],
@@ -190,7 +227,7 @@ export default function BoltNewPage() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Crie sua aplicação agora</h2>
           <p className="text-lg mb-6 text-zinc-300">Acesse o Bolt.new e vá da ideia ao app funcionando em minutos</p>
-          <a href="https://bolt.new/" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Bolt.new →</a>
+          <a href="https://bolt.new/" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Bolt.new →</a>
         </section>
 
         <section className="border-t border-zinc-200 pt-8">

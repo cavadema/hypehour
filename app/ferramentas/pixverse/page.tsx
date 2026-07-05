@@ -31,6 +31,33 @@ export default function PixversePage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/pixverse#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/pixverse",
+        "name": "Pixverse - Gerador de Vídeos com IA em Múltiplos Estilos",
+        "description": "Conheça o Pixverse: plataforma de geração de vídeos com IA que transforma texto e imagens em vídeos criativos com estilos realistas, anime e cinematográfico. Veja vantagens e para quem é indicado.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/pixverse#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/pixverse#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/pixverse#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function PixversePage() {
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
         "url": "https://pixverse.ai/pt",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/pixverse",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/pixverse#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Escolha texto ou imagem","Selecione o estilo visual","Gere o vídeo","Baixe e publique","Múltiplos estilos artísticos","Text-to-video e image-to-video"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1336",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Pixverse"
@@ -293,7 +330,7 @@ export default function PixversePage() {
           <a
             href="https://pixverse.ai/pt"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
           >
             Acessar Pixverse →

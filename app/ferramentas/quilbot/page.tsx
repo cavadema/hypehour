@@ -31,6 +31,33 @@ export default function QuillBotPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/quilbot#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/quilbot",
+        "name": "QuillBot - Ferramenta de IA para Paráfrase e Escrita",
+        "description": "Conheça o QuillBot: ferramenta de IA para paráfrase, verificação gramatical, sumarização e melhoria de textos. Ideal para estudantes, escritores e profissionais. Veja vantagens e como usar.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/quilbot#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/quilbot#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/quilbot#breadcrumb",
         "itemListElement": [
@@ -62,7 +89,17 @@ export default function QuillBotPage() {
         "applicationCategory": "UtilitiesApplication",
         "operatingSystem": "Web",
         "url": "https://quillbot.com/",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/quilbot",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/quilbot#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Cole o texto","Escolha o modo","Gere a paráfrase","Revise e use","Paráfrase com múltiplos modos","Grammar Checker avançado"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1218",
+        },
         "creator": {
           "@type": "Organization",
           "name": "QuillBot"
@@ -297,7 +334,7 @@ export default function QuillBotPage() {
           <a
             href="https://quillbot.com/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
           >
             Acessar QuillBot →

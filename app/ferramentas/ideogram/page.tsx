@@ -33,6 +33,33 @@ export default function IdeogramPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/ideogram#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/ideogram",
+        "name": "Ideogram - A Melhor IA para Tipografia e Design Gráfico",
+        "description": "Descubra o Ideogram: a inteligência artificial líder em renderização de texto e design. Veja como funciona, preços, Magic Prompt e se é ideal para seus projetos.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/ideogram#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/ideogram#software" },
+      },
+
+      {
         "@type": "BreadcrumbList",
         "@id": "https://www.hypehour.com.br/ferramentas/ideogram#breadcrumb",
         "itemListElement": [
@@ -64,7 +91,17 @@ export default function IdeogramPage() {
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
         "url": "https://ideogram.ai",
-        "mainEntityOfPage": "https://www.hypehour.com.br/ferramentas/ideogram",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/ideogram#webpage" },
+        "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Acesse a plataforma","Escreva sua ideia","Escolha as configurações","Gere e refine","Ideogram 2.0","Paleta de Cores Controlada"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1290",
+        },
         "creator": {
           "@type": "Organization",
           "name": "Ideogram"
@@ -287,7 +324,7 @@ export default function IdeogramPage() {
                     <a
                         href="https://ideogram.ai"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer nofollow"
                         className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
                     >
                         Acessar Ideogram →

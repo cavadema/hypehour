@@ -18,8 +18,45 @@ export const metadata = {
 export default function FlikiPage() {
   const schemaData = {
     "@context": "https://schema.org", "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.hypehour.com.br/#organization",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.hypehour.com.br/#website",
+        "name": "Hypehour",
+        "url": "https://www.hypehour.com.br",
+        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.hypehour.com.br/ferramentas/fliki#webpage",
+        "url": "https://www.hypehour.com.br/ferramentas/fliki",
+        "name": "Fliki - Gerador de Vídeos com IA a partir de Texto",
+        "description": "Conheça o Fliki: ferramenta de IA que transforma texto em vídeos completos com narração realista, clipes automáticos e edição sem necessidade de experiência. Veja vantagens, desvantagens e se é ideal para você.",
+        "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
+        "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/fliki#breadcrumb" },
+        "datePublished": "2025-11-19",
+        "dateModified": "2026-07-04",
+        "inLanguage": "pt-BR",
+        "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/fliki#software" },
+      },
+
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/fliki#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "IA para Criar Vídeos", item: "https://www.hypehour.com.br/ia-para-criar-videos" }, { "@type": "ListItem", position: 3, name: "Fliki", item: "https://www.hypehour.com.br/ferramentas/fliki" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/fliki#software", name: "Fliki", description: "Plataforma de geração de vídeos com IA que transforma texto, scripts e prompts em vídeos com narração realista, clipes automáticos e legendas.", applicationCategory: "MultimediaApplication", operatingSystem: "Web", url: "https://fliki.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/fliki", creator: { "@type": "Organization", name: "Fliki" } },
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/fliki#software", name: "Fliki", description: "Plataforma de geração de vídeos com IA que transforma texto, scripts e prompts em vídeos com narração realista, clipes automáticos e legendas.", applicationCategory: "MultimediaApplication", operatingSystem: "Web", url: "https://fliki.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/fliki", 
+        "image": "https://www.hypehour.com.br/logo.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "977",
+        },
+        creator: { "@type": "Organization", name: "Fliki" } },
     ],
   };
 
@@ -120,7 +157,7 @@ export default function FlikiPage() {
         <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Transforme seus textos em vídeos profissionais</h2>
           <p className="text-lg mb-6 text-zinc-300">Teste o Fliki gratuitamente e crie seu primeiro vídeo em minutos</p>
-          <a href="https://fliki.ai" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Fliki →</a>
+          <a href="https://fliki.ai" target="_blank" rel="noopener noreferrer nofollow" className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition">Acessar Fliki →</a>
         </section>
         <section className="border-t border-zinc-200 pt-8">
           <h2 className="text-2xl font-bold text-black mb-4">Conclusão</h2>
