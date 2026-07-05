@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para ia para atendimento?",
-        "a": "IA para ia para atendimento são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ia para atendimento."
+        "q": "Como a IA melhora o atendimento ao cliente?",
+        "a": "A IA automatiza respostas a dúvidas frequentes, triagem de tickets, roteamento inteligente para o agente certo e personalização das interações com base no histórico do cliente — reduzindo tempo de espera e aumentando satisfação."
     },
     {
-        "q": "Para que serve a inteligência artificial em ia para atendimento?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ia para atendimento."
+        "q": "O que é um chatbot com IA e como difere de um chatbot tradicional?",
+        "a": "Chatbots tradicionais seguem fluxos fixos de perguntas e respostas pré-programadas. Chatbots com IA (baseados em LLMs) entendem linguagem natural, lidam com variações de pergunta e mantêm contexto ao longo da conversa."
     },
     {
-        "q": "Como funciona uma IA voltada para ia para atendimento?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ia para atendimento."
+        "q": "Quais ferramentas de IA são melhores para atendimento ao cliente?",
+        "a": "Intercom com Fin AI, Zendesk AI, Freshdesk com Freddy AI e soluções customizadas com Chatbase ou Voiceflow são as mais adotadas por empresas que buscam automação inteligente no suporte ao cliente."
     },
     {
-        "q": "Qual a melhor IA para ia para atendimento em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ia para atendimento."
+        "q": "É possível criar um chatbot de IA para WhatsApp Business?",
+        "a": "Sim. Integrando a API oficial do WhatsApp Business com ferramentas como ManyChat, Typebot, n8n ou soluções customizadas com LangChain, é possível criar assistentes que respondem clientes no WhatsApp com qualidade profissional."
     },
     {
-        "q": "IA para ia para atendimento é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "IA de atendimento funciona em português do Brasil?",
+        "a": "Sim. Os principais modelos LLM (GPT-4o, Claude, Gemini) têm excelente desempenho em português brasileiro. A maior parte das plataformas de chatbot permite configurar o assistente para responder exclusivamente em português."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para ia para atendimento já oferece suporte completo ou parcial ao idioma português."
+        "q": "Como a IA ajuda no suporte técnico de nível 1?",
+        "a": "A IA resolve automaticamente as dúvidas mais comuns (senha, status de pedido, procedimentos padrão), escalando apenas os casos complexos para agentes humanos — reduzindo em 40 a 70% o volume de tickets que chegam ao time técnico."
     },
     {
-        "q": "É seguro usar IA para ia para atendimento?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "Quanto custa implementar IA no atendimento ao cliente?",
+        "a": "Soluções prontas como Intercom Fin custam a partir de US$0,99 por resolução. Chatbots customizados com Chatbase partem de US$19/mês. Soluções enterprise com Salesforce Service Cloud têm custo sob demanda com contratos anuais."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de ia para atendimento?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "Como treinar um chatbot de IA com o conteúdo da minha empresa?",
+        "a": "Ferramentas como Chatbase, Botpress e Voiceflow permitem fazer upload de documentos, FAQs, bases de conhecimento e URLs do seu site para criar um assistente especializado no seu negócio, sem programação."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para ia para atendimento é a facilidade de uso via interface intuitiva."
+        "q": "IA no atendimento pode lidar com reclamações e clientes insatisfeitos?",
+        "a": "Sim, com configurações adequadas. A IA identifica sentimento negativo nas mensagens e pode acionar protocolos específicos — como escalar para atendente humano sênior ou oferecer compensação pré-aprovada automaticamente."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para ia para atendimento?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Como medir a eficácia de um chatbot de IA no atendimento?",
+        "a": "Monitore taxa de resolução automática (sem escalada humana), CSAT (satisfação pós-atendimento), tempo médio de resposta e taxa de abandono. Compare com o baseline pré-IA para calcular o ROI da implementação."
     },
     {
-        "q": "Principais vantagens da IA em ia para atendimento",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ia para atendimento."
+        "q": "IA de atendimento funciona em múltiplos canais simultaneamente?",
+        "a": "Sim. Plataformas como Intercom, Zendesk e soluções customizadas podem ser configuradas para atender simultaneamente no site (widget), WhatsApp, Instagram Direct, Telegram e e-mail com o mesmo assistente."
     },
     {
-        "q": "Desvantagens de usar IA para ia para atendimento",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de ia para atendimento?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ia para atendimento."
-    },
-    {
-        "q": "IA para ia para atendimento para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ia para atendimento."
-    },
-    {
-        "q": "Ferramentas de ia para atendimento para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para ia para atendimento para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ia para atendimento."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para ia para atendimento",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ia para atendimento."
-    },
-    {
-        "q": "Como aprender a usar IA para ia para atendimento?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de ia para atendimento",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ia para atendimento que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para ia para atendimento?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ia para atendimento."
-    },
-    {
-        "q": "Existe IA gratuita para ia para atendimento?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de ia para atendimento?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ia para atendimento."
-    },
-    {
-        "q": "Como automatizar processos de ia para atendimento com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para ia para atendimento funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de ia para atendimento",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para ia para atendimento é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ia para atendimento é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de ia para atendimento coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para ia para atendimento?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ia para atendimento."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de ia para atendimento?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Quando é necessário manter atendentes humanos no suporte com IA?",
+        "a": "Para situações emocionais complexas, problemas críticos de conta, negociações comerciais, casos legais e clientes VIP que preferem atendimento humano. A IA não substitui — ela filtra e qualifica para que humanos foquem no que mais importa."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ia Para Atendimento</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Atendimento ao Cliente</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

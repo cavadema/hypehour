@@ -1,63 +1,29 @@
-"use client";
-
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
-import { useState } from "react";
-
 export default function ExpandableContent() {
-    const [isExpanded, setIsExpanded] = useState(false);
-
     return (
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    As <strong>ferramentas de IA para ia para criar apresentacoes</strong> estão revolucionando a maneira como profissionais e empresas lidam com processos complexos. A <strong>inteligência artificial aplicada a ia para criar apresentacoes</strong> permite automatizar tarefas repetitivas, aumentar a precisão dos resultados e liberar tempo criativo para o que realmente importa. Explore nossa curadoria de ferramentas e descubra como a tecnologia pode elevar seu patamar de produtividade.
+                    As <strong>ferramentas de IA para criar apresentações</strong> eliminaram uma das tarefas mais demoradas do mundo corporativo: montar slides do zero. Com plataformas como <strong>Gamma, Tome e Beautiful.ai</strong>, você descreve o tema em um parágrafo e recebe uma apresentação completa com estrutura lógica, design profissional e conteúdo organizado — em menos de 2 minutos. O que antes levava horas agora é questão de segundos.
                 </p>
-
-
-                    <p className="mb-4">
-                        Ao escolher uma <strong>IA para ia para criar apresentacoes</strong>, é fundamental observar a integração com seus fluxos atuais e a facilidade de uso. As melhores soluções do mercado oferecem não apenas automação, mas também insights estratégicos que ajudam na tomada de decisão. Com o avanço constante dos modelos de linguagem e visão computacional, as possibilidades para <strong>ia para criar apresentacoes com IA</strong> são praticamente ilimitadas.
-                    </p>
-
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
-                    <h3 className="font-semibold text-lg mb-3 text-gray-900">Benefícios de usar IA para Ia Para Criar Apresentacoes</h3>
-
-                    <ul className="space-y-3 mb-4">
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Produtividade Aumentada:</strong> Execute em minutos o que antes levava horas através de processamento inteligente.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Redução de Erros:</strong> A IA mantém a consistência em tarefas de ia para criar apresentacoes, minimizando falhas humanas.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Customização Total:</strong> Adapte as ferramentas às necessidades específicas do seu negócio ou projeto pessoal.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Vantagem Competitiva:</strong> Esteja à frente no mercado utilizando as tecnologias mais avançadas de inteligência artificial.</span>
-                        </li>
-                    </ul>
-
-                    <p className="mb-4">
-                        Lembre-se que a <strong>IA para ia para criar apresentacoes</strong> deve ser vista como um copiloto que potencializa suas habilidades. A revisão humana e o direcionamento estratégico continuam sendo os diferenciais de um trabalho de excelência.
-                    </p>
-
-                    <p>
-                        Abaixo, você encontrará uma lista completa com as melhores <strong>ferramentas de IA para Ia Para Criar Apresentacoes</strong>, selecionadas para ajudar você a transformar seus desafios em resultados concretos.
-                    </p>
-                </div>
+                <p className="mb-4">
+                    Para profissionais brasileiros que precisam de <strong>apresentações no PowerPoint, Google Slides ou PDF</strong>, essas ferramentas de IA são especialmente valiosas. Seja um pitch para investidores, relatório trimestral para a diretoria, material de treinamento para a equipe ou proposta comercial para um cliente, a IA entrega a estrutura e o visual — e você adiciona os dados específicos e o toque pessoal que fazem a diferença.
+                </p>
             </div>
-
-            <button
-                onClick={() => setIsExpanded(!isExpanded)}
-                className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors"
-                aria-expanded={isExpanded}
-            >
-                <span>{isExpanded ? 'Ver menos' : 'Ver mais'}</span>
-                <ChevronDownIcon className={`w-5 h-5 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} />
-            </button>
+            <details className="group">
+                <summary className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors cursor-pointer list-none">
+                    <span>Ver mais</span>
+                    <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
+                </summary>
+                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Vantagens de Criar Apresentações com IA</h3>
+                <ul className="space-y-3 mb-4">
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Velocidade sem precedentes:</strong> Do prompt à apresentação completa em menos de 2 minutos — deixe de perder horas em formatação e foco em conteúdo estratégico.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Design profissional automático:</strong> IA garante consistência visual, hierarquia tipográfica e paletas de cores coerentes — mesmo para quem não tem habilidade em design gráfico.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Estrutura lógica inteligente:</strong> A IA organiza o conteúdo em fluxo persuasivo — problema, solução, dados, call to action — adaptando a estrutura ao objetivo da apresentação.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Iteração rápida:</strong> Ajuste o tom, a profundidade do conteúdo ou o estilo visual com um clique — experimentar diferentes abordagens visuais nunca foi tão fácil.</span></li>
+                </ul>
+                <p>Explore as ferramentas de IA para criar apresentações listadas abaixo e nunca mais passe horas formatando slides manualmente.</p>
+            </details>
         </div>
     );
 }

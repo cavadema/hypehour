@@ -1,63 +1,29 @@
-"use client";
-
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
-import { useState } from "react";
-
 export default function ExpandableContent() {
-    const [isExpanded, setIsExpanded] = useState(false);
-
     return (
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    As <strong>ferramentas de IA para repositorios ia github</strong> estão revolucionando a maneira como profissionais e empresas lidam com processos complexos. A <strong>inteligência artificial aplicada a repositorios ia github</strong> permite automatizar tarefas repetitivas, aumentar a precisão dos resultados e liberar tempo criativo para o que realmente importa. Explore nossa curadoria de ferramentas e descubra como a tecnologia pode elevar seu patamar de produtividade.
+                    O <strong>GitHub é a maior vitrine do ecossistema de IA open source</strong>. Repositórios com centenas de milhares de stars como <strong>LLaMA (Meta), Stable Diffusion, LangChain, Ollama e Hugging Face Transformers</strong> formam a infraestrutura sobre a qual grande parte das ferramentas de IA comerciais são construídas. Para desenvolvedores brasileiros, explorar esse ecossistema significa acesso gratuito às tecnologias mais avançadas do mundo — sem depender de APIs pagas.
                 </p>
-
-
-                    <p className="mb-4">
-                        Ao escolher uma <strong>IA para repositorios ia github</strong>, é fundamental observar a integração com seus fluxos atuais e a facilidade de uso. As melhores soluções do mercado oferecem não apenas automação, mas também insights estratégicos que ajudam na tomada de decisão. Com o avanço constante dos modelos de linguagem e visão computacional, as possibilidades para <strong>repositorios ia github com IA</strong> são praticamente ilimitadas.
-                    </p>
-
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
-                    <h3 className="font-semibold text-lg mb-3 text-gray-900">Benefícios de usar IA para Repositorios Ia Github</h3>
-
-                    <ul className="space-y-3 mb-4">
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Produtividade Aumentada:</strong> Execute em minutos o que antes levava horas através de processamento inteligente.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Redução de Erros:</strong> A IA mantém a consistência em tarefas de repositorios ia github, minimizando falhas humanas.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Customização Total:</strong> Adapte as ferramentas às necessidades específicas do seu negócio ou projeto pessoal.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Vantagem Competitiva:</strong> Esteja à frente no mercado utilizando as tecnologias mais avançadas de inteligência artificial.</span>
-                        </li>
-                    </ul>
-
-                    <p className="mb-4">
-                        Lembre-se que a <strong>IA para repositorios ia github</strong> deve ser vista como um copiloto que potencializa suas habilidades. A revisão humana e o direcionamento estratégico continuam sendo os diferenciais de um trabalho de excelência.
-                    </p>
-
-                    <p>
-                        Abaixo, você encontrará uma lista completa com as melhores <strong>ferramentas de IA para Repositorios Ia Github</strong>, selecionadas para ajudar você a transformar seus desafios em resultados concretos.
-                    </p>
-                </div>
+                <p className="mb-4">
+                    A <strong>IA open source no GitHub</strong> democratizou o que antes era privilégio de grandes labs: qualquer desenvolvedor pode hoje rodar modelos de linguagem localmente com Ollama, treinar modelos customizados com Hugging Face, construir agentes com CrewAI ou criar pipelines de processamento de dados com LangChain — tudo de graça, com código auditável e comunidade global de colaboradores.
+                </p>
             </div>
-
-            <button
-                onClick={() => setIsExpanded(!isExpanded)}
-                className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors"
-                aria-expanded={isExpanded}
-            >
-                <span>{isExpanded ? 'Ver menos' : 'Ver mais'}</span>
-                <ChevronDownIcon className={`w-5 h-5 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} />
-            </button>
+            <details className="group">
+                <summary className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors cursor-pointer list-none">
+                    <span>Ver mais</span>
+                    <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
+                </summary>
+                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Categorias Essenciais de Repositórios de IA para Explorar</h3>
+                <ul className="space-y-3 mb-4">
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Modelos e inferência:</strong> Ollama, LM Studio e llama.cpp permitem rodar LLMs como LLaMA 3 e Mistral localmente — privacidade total, zero custo de API, latência baixa.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Frameworks de agentes:</strong> CrewAI, LangChain e AutoGen para construir sistemas de agentes autônomos — do protótipo simples ao pipeline de produção com múltiplos agentes especializados.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Geração de imagens:</strong> Automatic1111 (Stable Diffusion WebUI) e ComfyUI oferecem interfaces completas para geração e edição de imagens com centenas de modelos e extensions.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Processamento de voz:</strong> Whisper da OpenAI para transcrição de áudio em português com qualidade excepcional — gratuito, open source e rodando localmente sem limite de uso.</span></li>
+                </ul>
+                <p>Explore os repositórios de IA open source listados abaixo e descubra as ferramentas, modelos e frameworks que a comunidade global de desenvolvedores usa para construir o futuro da inteligência artificial.</p>
+            </details>
         </div>
     );
 }

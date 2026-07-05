@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para ia para vendas?",
-        "a": "IA para ia para vendas são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ia para vendas."
+        "q": "Como a IA está transformando as vendas B2B e B2C?",
+        "a": "A IA automatiza prospecção, qualificação de leads, personalização de e-mails, previsão de receita, coaching de vendedores e análise de chamadas — permitindo que equipes comerciais foquem em conversas de alto valor em vez de tarefas administrativas."
     },
     {
-        "q": "Para que serve a inteligência artificial em ia para vendas?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ia para vendas."
+        "q": "Quais ferramentas de IA são mais úteis para times de vendas?",
+        "a": "Clay para enriquecimento de leads, Gong para análise de chamadas de vendas, Outreach com IA para sequências, HubSpot AI para CRM inteligente, Apollo para prospecção, e ChatGPT para personalização de propostas em escala."
     },
     {
-        "q": "Como funciona uma IA voltada para ia para vendas?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ia para vendas."
+        "q": "Como usar IA para prospectar clientes de forma mais eficiente?",
+        "a": "Ferramentas como Apollo e Clay combinam dados de empresas, cargos, tecnologias usadas e sinais de intenção de compra para identificar e priorizar automaticamente os prospects com maior fit e probabilidade de conversão."
     },
     {
-        "q": "Qual a melhor IA para ia para vendas em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ia para vendas."
+        "q": "IA pode escrever e-mails de vendas personalizados em escala?",
+        "a": "Sim. Ferramentas como Lemlist, Apollo e Instantly usam IA para personalizar cada e-mail com informações específicas do prospect (cargo, empresa, setor, notícia recente) — aumentando taxas de resposta sem trabalho manual por contato."
     },
     {
-        "q": "IA para ia para vendas é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "O que é análise de chamada de vendas com IA?",
+        "a": "Ferramentas como Gong, Chorus e Clari.io gravam e transcrevem chamadas de vendas, identificam objeções mais comuns, analisam o tempo de fala de cada pessoa, detectam palavras-gatilho e comparam padrões de conversas que converteram versus as que não converteram."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para ia para vendas já oferece suporte completo ou parcial ao idioma português."
+        "q": "Como IA ajuda na previsão de receita (sales forecast)?",
+        "a": "Modelos de IA analisam o pipeline atual, histórico de conversão por etapa, sazonalidade e comportamento do vendedor para gerar previsões de fechamento muito mais precisas do que estimativas subjetivas — reduzindo surpresas no fechamento do mês."
     },
     {
-        "q": "É seguro usar IA para ia para vendas?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "IA pode criar propostas comerciais personalizadas automaticamente?",
+        "a": "Sim. Com Claude ou ChatGPT, defina um template base e automatize a geração de propostas customizadas para cada cliente — incorporando dados da empresa, dores específicas identificadas na prospecção e argumentos de valor alinhados ao contexto de cada negociação."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de ia para vendas?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "Como usar IA para treinar novos vendedores mais rapidamente?",
+        "a": "Ferramentas de role-play com IA simulam clientes com diferentes objeções para que novos vendedores pratiquem antes de falar com prospects reais. Análise de chamadas com IA fornece feedback específico sobre o que cada vendedor precisa melhorar."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para ia para vendas é a facilidade de uso via interface intuitiva."
+        "q": "IA pode identificar o melhor momento para entrar em contato com um cliente?",
+        "a": "Sim. Sistemas de sales intelligence rastreiam sinais de intenção como visitas ao site, abertura de e-mails, mudanças de cargo, novos financiamentos ou expansões de equipe — alertando o vendedor quando o prospect está mais propenso à conversa."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para ia para vendas?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Como usar IA para reduzir churn e aumentar retenção de clientes?",
+        "a": "Modelos de IA analisam padrões de uso do produto, frequência de acesso, volume de chamados de suporte e outros sinais para identificar clientes em risco. O time de CS é alertado para agir proativamente antes que o cliente decida não renovar."
     },
     {
-        "q": "Principais vantagens da IA em ia para vendas",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ia para vendas."
+        "q": "IA no WhatsApp pode ajudar em vendas para pequenas empresas?",
+        "a": "Sim. Chatbots de IA no WhatsApp Business qualificam leads automaticamente, tiram dúvidas de produto, enviam propostas e agendam reuniões — funcionando 24 horas e escalando o atendimento comercial sem contratar mais vendedores."
     },
     {
-        "q": "Desvantagens de usar IA para ia para vendas",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de ia para vendas?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ia para vendas."
-    },
-    {
-        "q": "IA para ia para vendas para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ia para vendas."
-    },
-    {
-        "q": "Ferramentas de ia para vendas para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para ia para vendas para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ia para vendas."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para ia para vendas",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ia para vendas."
-    },
-    {
-        "q": "Como aprender a usar IA para ia para vendas?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de ia para vendas",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ia para vendas que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para ia para vendas?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ia para vendas."
-    },
-    {
-        "q": "Existe IA gratuita para ia para vendas?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de ia para vendas?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ia para vendas."
-    },
-    {
-        "q": "Como automatizar processos de ia para vendas com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para ia para vendas funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de ia para vendas",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para ia para vendas é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ia para vendas é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de ia para vendas coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para ia para vendas?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ia para vendas."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de ia para vendas?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Qual o ROI típico de implementar IA nas vendas?",
+        "a": "Empresas que adotam IA em vendas reportam aumento de 10 a 30% na taxa de conversão, redução de 20 a 40% no ciclo de vendas e ganho de 2 a 5 horas semanais por vendedor em tarefas administrativas automatizadas — com retorno geralmente em 3 a 6 meses."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ia Para Vendas</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Vendas</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

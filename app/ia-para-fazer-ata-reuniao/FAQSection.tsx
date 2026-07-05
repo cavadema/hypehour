@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para ia para fazer ata reuniao?",
-        "a": "IA para ia para fazer ata reuniao são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ia para fazer ata reuniao."
+        "q": "O que são ferramentas de IA para fazer ata de reunião?",
+        "a": "São aplicativos que gravam reuniões, transcrevem automaticamente o áudio em texto e geram atas estruturadas com participantes, decisões tomadas, itens de ação e prazos — eliminando a necessidade de alguém fazer anotações manualmente."
     },
     {
-        "q": "Para que serve a inteligência artificial em ia para fazer ata reuniao?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ia para fazer ata reuniao."
+        "q": "Quais as melhores ferramentas de IA para transcrição e ata de reunião?",
+        "a": "Granola AI, Fireflies.ai, Otter.ai, Tactiq (para Google Meet) e Notion AI são as mais usadas. Para reuniões em português, o Granola e o Fireflies têm boa performance com o idioma brasileiro."
     },
     {
-        "q": "Como funciona uma IA voltada para ia para fazer ata reuniao?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ia para fazer ata reuniao."
+        "q": "Essas ferramentas funcionam em reuniões no Google Meet, Zoom e Teams?",
+        "a": "Sim. Fireflies, Otter.ai e Tactiq se integram nativamente ao Google Meet, Zoom e Microsoft Teams, entrando automaticamente como participante virtual para gravar e transcrever sem ação manual."
     },
     {
-        "q": "Qual a melhor IA para ia para fazer ata reuniao em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ia para fazer ata reuniao."
+        "q": "IA para ata de reunião funciona bem em português brasileiro?",
+        "a": "A performance em português melhorou muito. Granola AI e Fireflies têm boa acurácia para português, especialmente em falas claras. Em reuniões com muito ruído de fundo, sotaques fortes ou muitos participantes simultâneos, a precisão reduz."
     },
     {
-        "q": "IA para ia para fazer ata reuniao é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Como a IA organiza os itens de ação de uma reunião?",
+        "a": "Modelos de linguagem identificam automaticamente frases que indicam comprometimento ('vou enviar', 'precisamos definir', 'João fica responsável por') e as transformam em itens de ação com responsável e prazo, estruturados na ata final."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para ia para fazer ata reuniao já oferece suporte completo ou parcial ao idioma português."
+        "q": "É ético gravar reuniões com IA sem informar os participantes?",
+        "a": "Não. No Brasil, gravar conversas sem consentimento pode violar a LGPD e o Código Penal. Sempre informe os participantes no início da reunião que ela será gravada e transcrita por IA — a maioria das ferramentas exige isso nos termos de uso."
     },
     {
-        "q": "É seguro usar IA para ia para fazer ata reuniao?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "IA para ata de reunião funciona em conversas no WhatsApp ou áudios gravados?",
+        "a": "Sim. Ferramentas como Speak AI e alguns planos do Otter.ai permitem fazer upload de arquivos de áudio ou vídeo previamente gravados para transcrição e geração de resumo — não apenas gravações em tempo real."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de ia para fazer ata reuniao?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "Como integrar as atas geradas por IA com o Notion, Slack ou Jira?",
+        "a": "Fireflies e Otter.ai têm integrações nativas com Notion, Slack, HubSpot e Jira. A ata é enviada automaticamente para o canal ou projeto correto logo após o término da reunião, sem cópia manual."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para ia para fazer ata reuniao é a facilidade de uso via interface intuitiva."
+        "q": "IA consegue distinguir quem está falando em uma reunião com múltiplos participantes?",
+        "a": "Sim. Ferramentas como Fireflies e Otter.ai fazem diarização de falantes — identificam e atribuem falas a cada participante, seja pelo perfil de conta conectado ou por reconhecimento de padrões de voz únicos."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para ia para fazer ata reuniao?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Quanto custa uma ferramenta de IA para ata de reunião?",
+        "a": "Otter.ai tem plano gratuito com 600 minutos/mês. Fireflies custa a partir de US$10/mês por usuário. Granola AI tem plano gratuito generoso para uso individual. Para times corporativos, os planos Business começam em US$19/usuário/mês."
     },
     {
-        "q": "Principais vantagens da IA em ia para fazer ata reuniao",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ia para fazer ata reuniao."
+        "q": "Dados das reuniões gravadas ficam armazenados em servidores seguros?",
+        "a": "As principais ferramentas (Fireflies, Otter.ai) usam criptografia em trânsito e em repouso e têm planos Enterprise com contratos de privacidade. Para reuniões com informações altamente confidenciais, verifique as políticas de retenção de dados."
     },
     {
-        "q": "Desvantagens de usar IA para ia para fazer ata reuniao",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de ia para fazer ata reuniao?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ia para fazer ata reuniao."
-    },
-    {
-        "q": "IA para ia para fazer ata reuniao para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ia para fazer ata reuniao."
-    },
-    {
-        "q": "Ferramentas de ia para fazer ata reuniao para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para ia para fazer ata reuniao para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ia para fazer ata reuniao."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para ia para fazer ata reuniao",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ia para fazer ata reuniao."
-    },
-    {
-        "q": "Como aprender a usar IA para ia para fazer ata reuniao?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de ia para fazer ata reuniao",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ia para fazer ata reuniao que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para ia para fazer ata reuniao?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ia para fazer ata reuniao."
-    },
-    {
-        "q": "Existe IA gratuita para ia para fazer ata reuniao?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de ia para fazer ata reuniao?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ia para fazer ata reuniao."
-    },
-    {
-        "q": "Como automatizar processos de ia para fazer ata reuniao com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para ia para fazer ata reuniao funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de ia para fazer ata reuniao",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para ia para fazer ata reuniao é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ia para fazer ata reuniao é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de ia para fazer ata reuniao coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para ia para fazer ata reuniao?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ia para fazer ata reuniao."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de ia para fazer ata reuniao?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "É possível pesquisar em transcrições de reuniões antigas com IA?",
+        "a": "Sim. Ferramentas como Fireflies e Otter.ai indexam todas as transcrições e permitem buscar por palavra-chave ou perguntar em linguagem natural 'em qual reunião discutimos o orçamento de Q3?' e encontrar o trecho relevante."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ia Para Fazer Ata Reuniao</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Ata de Reunião</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

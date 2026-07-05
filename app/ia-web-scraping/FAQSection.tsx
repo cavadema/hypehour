@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para ia web scraping?",
-        "a": "IA para ia web scraping são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ia web scraping."
+        "q": "O que é web scraping com IA e como funciona?",
+        "a": "Web scraping com IA combina técnicas tradicionais de extração de dados com modelos de linguagem que entendem estruturas de página variáveis, limpam dados automaticamente e extraem informações específicas em linguagem natural sem necessidade de xpath ou seletores CSS rígidos."
     },
     {
-        "q": "Para que serve a inteligência artificial em ia web scraping?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ia web scraping."
+        "q": "Quais as melhores ferramentas de IA para web scraping?",
+        "a": "Firecrawl, Browse AI, Crawl4AI, Apify e ScraperAPI são as mais usadas. Firecrawl converte páginas web em markdown limpo para uso com LLMs. Browse AI permite criar scrapers visuais sem código. Crawl4AI é open source e gratuito."
     },
     {
-        "q": "Como funciona uma IA voltada para ia web scraping?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ia web scraping."
+        "q": "Web scraping com IA é legal?",
+        "a": "Depende do contexto. Extrair dados públicos para uso pessoal e não comercial é geralmente permitido. Para fins comerciais, verifique os termos de uso do site, o arquivo robots.txt e a legislação local. Dados pessoais têm proteção adicional pela LGPD."
     },
     {
-        "q": "Qual a melhor IA para ia web scraping em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ia web scraping."
+        "q": "Como usar Firecrawl para extrair dados de sites?",
+        "a": "Firecrawl converte páginas web em texto estruturado (markdown) via API, eliminando HTML, anúncios e elementos visuais. Ideal para alimentar RAG com conteúdo da web ou extrair informações específicas para análise com LLMs."
     },
     {
-        "q": "IA para ia web scraping é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "É possível fazer scraping de sites com JavaScript dinâmico usando IA?",
+        "a": "Sim. Ferramentas como Browserless, Playwright com IA e Apify suportam rendering de JavaScript antes da extração, coletando dados que só aparecem após o carregamento dinâmico da página — cobrindo SPAs e sites modernos."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para ia web scraping já oferece suporte completo ou parcial ao idioma português."
+        "q": "Como evitar bloqueios ao fazer web scraping?",
+        "a": "Use rotação de IPs e proxies, implemente delays aleatórios entre requisições, respeite o robots.txt, use User Agents reais e faça scraping em horários de menor tráfego. Serviços como ScraperAPI gerenciam tudo isso automaticamente."
     },
     {
-        "q": "É seguro usar IA para ia web scraping?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "IA pode extrair dados estruturados de qualquer página web?",
+        "a": "Com bom desempenho. LLMs como GPT-4o e Claude conseguem identificar e extrair dados específicos de páginas com layouts variados — como preços de produtos, contatos de empresas ou informações de imóveis — sem seletores pré-programados por página."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de ia web scraping?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "O que é Crawl4AI e por que é popular entre desenvolvedores?",
+        "a": "Crawl4AI é uma biblioteca Python open source otimizada para preparar conteúdo web para uso com LLMs — extraindo conteúdo limpo, gerando embeddings e facilitando a construção de pipelines de RAG com dados da web de forma gratuita."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para ia web scraping é a facilidade de uso via interface intuitiva."
+        "q": "Como monitorar mudanças em sites automaticamente com IA?",
+        "a": "Browse AI e Visualping permitem criar monitores de página que alertam quando preços mudam, novos produtos aparecem ou conteúdos são atualizados. Com n8n e Firecrawl, você cria pipelines customizados de monitoramento e notificação."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para ia web scraping?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Web scraping com IA pode coletar dados de PDFs e documentos online?",
+        "a": "Sim. Ferramentas como LlamaParse e Unstructured extraem dados de PDFs, planilhas e apresentações online com alta fidelidade, preservando estrutura de tabelas e hierarquia de seções para uso em análises e RAG."
     },
     {
-        "q": "Principais vantagens da IA em ia web scraping",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ia web scraping."
+        "q": "Quanto custa fazer web scraping com IA em produção?",
+        "a": "Crawl4AI é gratuito. ScraperAPI tem plano gratuito com 1.000 requisições/mês. Firecrawl custa a partir de US$16/mês para 3.000 créditos. Para alto volume, avaliar custo de proxies e API de LLM para extração inteligente é essencial."
     },
     {
-        "q": "Desvantagens de usar IA para ia web scraping",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de ia web scraping?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ia web scraping."
-    },
-    {
-        "q": "IA para ia web scraping para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ia web scraping."
-    },
-    {
-        "q": "Ferramentas de ia web scraping para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para ia web scraping para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ia web scraping."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para ia web scraping",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ia web scraping."
-    },
-    {
-        "q": "Como aprender a usar IA para ia web scraping?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de ia web scraping",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ia web scraping que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para ia web scraping?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ia web scraping."
-    },
-    {
-        "q": "Existe IA gratuita para ia web scraping?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de ia web scraping?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ia web scraping."
-    },
-    {
-        "q": "Como automatizar processos de ia web scraping com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para ia web scraping funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de ia web scraping",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para ia web scraping é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ia web scraping é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de ia web scraping coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para ia web scraping?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ia web scraping."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de ia web scraping?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "IA pode limpar e normalizar dados extraídos de sites automaticamente?",
+        "a": "Sim. Após a extração, LLMs podem normalizar formatos de data, padronizar nomes de entidades, deduplicar registros e classificar itens em categorias — produzindo dados estruturados e consistentes prontos para análise."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ia Web Scraping</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Web Scraping</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

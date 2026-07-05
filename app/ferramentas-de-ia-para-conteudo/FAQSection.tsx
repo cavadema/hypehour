@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para ferramentas de ia para conteudo?",
-        "a": "IA para ferramentas de ia para conteudo são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ferramentas de ia para conteudo."
+        "q": "Quais são as melhores ferramentas de IA para criar conteúdo em português?",
+        "a": "Jasper e Copy.ai lideram na geração de textos em português com qualidade. Claude (Anthropic) e ChatGPT são excelentes para textos longos e nuançados. Para SEO integrado, Surfer SEO com Jasper é a combinação mais usada por times de marketing brasileiros."
     },
     {
-        "q": "Para que serve a inteligência artificial em ferramentas de ia para conteudo?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ferramentas de ia para conteudo."
+        "q": "IA consegue escrever conteúdo com a voz e o tom da minha marca?",
+        "a": "Sim. Ferramentas como Jasper permitem criar 'Brand Voice' com exemplos de textos da sua marca. Claude e ChatGPT com instruções detalhadas no sistema prompt mantêm tom e estilo consistentes. O segredo está em alimentar a IA com exemplos reais do seu conteúdo e um guia de voz da marca."
     },
     {
-        "q": "Como funciona uma IA voltada para ferramentas de ia para conteudo?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ferramentas de ia para conteudo."
+        "q": "Como usar IA para criar conteúdo para redes sociais em escala?",
+        "a": "Buffer AI e Lately AI especializam-se em repurposing para redes sociais — transformam artigos longos em dezenas de posts. Para Instagram e TikTok, ferramentas como OpusClip cortam vídeos longos em clips curtos automaticamente. ChatGPT e Claude geram variações de copy para testes A/B."
     },
     {
-        "q": "Qual a melhor IA para ferramentas de ia para conteudo em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ferramentas de ia para conteudo."
+        "q": "Conteúdo gerado por IA é detectado pelo Google e penalizado?",
+        "a": "O Google afirma que não penaliza conteúdo de IA per se, mas sim conteúdo de baixa qualidade, sem utilidade ou criado para manipular rankings. Conteúdo de IA revisado, enriquecido com experiência real e dados únicos performa bem. O foco deve ser na qualidade final, não na origem do texto."
     },
     {
-        "q": "IA para ferramentas de ia para conteudo é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Qual a diferença entre Jasper, Copy.ai e Writesonic para criação de conteúdo?",
+        "a": "Jasper foca em times de marketing com brand voice e integrações robustas — é o mais completo, mas também o mais caro. Copy.ai tem interface mais simples e workflows prontos para e-commerce e anúncios. Writesonic é mais acessível e tem boa geração para landing pages e artigos de blog."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para ferramentas de ia para conteudo já oferece suporte completo ou parcial ao idioma português."
+        "q": "Como criar uma estratégia de conteúdo completa usando IA?",
+        "a": "Use Perplexity AI ou ChatGPT para pesquisar tópicos e gaps de conteúdo, Semrush ou Surfer para análise de palavras-chave, Claude ou Jasper para redigir os artigos, Canva AI para criar os visuais e Buffer ou Notion AI para organizar o calendário editorial."
     },
     {
-        "q": "É seguro usar IA para ferramentas de ia para conteudo?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "IA pode criar conteúdo para YouTube — roteiros, descrições e tags?",
+        "a": "Sim. Claude e ChatGPT são excelentes para roteiros de YouTube quando alimentados com o tópico, duração e estilo do canal. VidIQ e TubeBuddy têm IA integrada para gerar títulos, descrições e tags otimizados para busca no YouTube especificamente."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de ferramentas de ia para conteudo?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "Como usar IA para criar e-mails de marketing e nutrição?",
+        "a": "ActiveCampaign, HubSpot e Mailchimp têm IA integrada para sugerir assuntos e body de e-mails com base em histórico de performance. Para sequências completas, Claude e Jasper geram fluxos de nutrição inteiros a partir de uma briefing com persona, produto e objetivo de conversão."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para ferramentas de ia para conteudo é a facilidade de uso via interface intuitiva."
+        "q": "Ferramentas de IA para conteúdo têm planos gratuitos?",
+        "a": "Copy.ai e Writesonic oferecem planos gratuitos com limites de palavras. ChatGPT gratuito (GPT-4o mini) funciona para criação de conteúdo básica. Claude tem tier gratuito generoso. Canva AI está disponível no plano gratuito do Canva com recursos limitados."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para ferramentas de ia para conteudo?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Como manter autenticidade e experiência humana no conteúdo gerado por IA?",
+        "a": "Adicione exemplos pessoais, dados originais de pesquisas próprias, opiniões e perspectivas que a IA não pode ter. Use IA para estrutura, rascunho e pesquisa — mas enriqueça com insights únicos da sua experiência. Textos que combinam velocidade da IA com perspectiva humana são os mais eficazes."
     },
     {
-        "q": "Principais vantagens da IA em ferramentas de ia para conteudo",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ferramentas de ia para conteudo."
+        "q": "IA pode criar conteúdo técnico e especializado com precisão?",
+        "a": "Sim, com os prompts certos e verificação adequada. Claude e GPT-4o são os mais capazes em conteúdo técnico. Para áreas de alta responsabilidade (médica, jurídica, financeira), o conteúdo gerado deve ser sempre revisado por especialistas. Perplexity AI cita fontes e ajuda a verificar dados."
     },
     {
-        "q": "Desvantagens de usar IA para ferramentas de ia para conteudo",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de ferramentas de ia para conteudo?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ferramentas de ia para conteudo."
-    },
-    {
-        "q": "IA para ferramentas de ia para conteudo para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ferramentas de ia para conteudo."
-    },
-    {
-        "q": "Ferramentas de ferramentas de ia para conteudo para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para ferramentas de ia para conteudo para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ferramentas de ia para conteudo."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para ferramentas de ia para conteudo",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ferramentas de ia para conteudo."
-    },
-    {
-        "q": "Como aprender a usar IA para ferramentas de ia para conteudo?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de ferramentas de ia para conteudo",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ferramentas de ia para conteudo que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para ferramentas de ia para conteudo?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ferramentas de ia para conteudo."
-    },
-    {
-        "q": "Existe IA gratuita para ferramentas de ia para conteudo?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de ferramentas de ia para conteudo?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ferramentas de ia para conteudo."
-    },
-    {
-        "q": "Como automatizar processos de ferramentas de ia para conteudo com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para ferramentas de ia para conteudo funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de ferramentas de ia para conteudo",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para ferramentas de ia para conteudo é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ferramentas de ia para conteudo é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de ferramentas de ia para conteudo coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para ferramentas de ia para conteudo?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ferramentas de ia para conteudo."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de ferramentas de ia para conteudo?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Como calcular o ROI de usar ferramentas de IA para conteúdo?",
+        "a": "Compare o tempo gasto na produção manual versus com IA, multiplique pela hora do profissional e some o custo da ferramenta. Times que adotam IA para conteúdo relatam 3x a 10x mais velocidade de produção. O ROI também inclui SEO melhorado, mais frequência de publicação e menor dependência de freelancers."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ferramentas De Ia Para Conteudo</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ferramentas de IA para Criação de Conteúdo</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

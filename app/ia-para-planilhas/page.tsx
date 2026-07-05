@@ -1,10 +1,12 @@
-import { TableCellsIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
+import { TableCellsIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 import FAQSection from "./FAQSection";
 import ComparativoFerramentas from "./ComparativoFerramentas";
 import ComoEscolher from "./ComoEscolher";
 import ProTips from "./ProTips";
+import CategoryPageSchema from "@/app/components/CategoryPageSchema";
+import ToolCard from "@/app/components/ToolCard";
 
 const ferramentas = [
   { nome: "Claude for Excel", url: "/ferramentas/claude-for-excel", descricao: "Add-in oficial da Anthropic que integra o Claude AI ao Microsoft Excel para análise de dados e geração de fórmulas em linguagem natural." },
@@ -55,9 +57,11 @@ export const metadata = {
 export default function IaParaPlanilhas() {
   return (
     <main className="max-w-6xl mx-auto py-10 px-4">
-      <Link href="/" className="inline-flex items-center gap-2 text-black hover:underline mb-8">
-        <ArrowLeftIcon className="w-5 h-5" /> Voltar para a home
-      </Link>
+      <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6" aria-label="Breadcrumb">
+        <Link href="/" className="hover:text-black transition-colors">Home</Link>
+        <span>/</span>
+        <span className="text-black font-medium">IA para Planilhas</span>
+      </nav>
       <div className="flex items-center gap-3 mb-8">
         <TableCellsIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">IA para Planilhas</h1>
@@ -65,16 +69,7 @@ export default function IaParaPlanilhas() {
       <ExpandableContent />
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((ferramenta) => (
-          <a
-            key={ferramenta.nome}
-            href={ferramenta.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100"
-          >
-            <h2 className="font-semibold text-lg mb-1">{ferramenta.nome}</h2>
-            <div className="text-gray-500 text-sm">{ferramenta.descricao}</div>
-          </a>
+          <ToolCard key={ferramenta.nome} nome={ferramenta.nome} url={ferramenta.url} descricao={ferramenta.descricao} />
         ))}
       </div>
       <div className="mt-12">
@@ -85,6 +80,13 @@ export default function IaParaPlanilhas() {
       <FAQSection />
 
       
+
+      <CategoryPageSchema
+        title="IA para Criar Planilhas | Ferramentas de IA para Excel e Google Sheets"
+        description="Descubra as melhores ferramentas de IA para criar, automatizar e analisar planilhas no Excel e Google Sheets."
+        canonicalUrl="https://www.hypehour.com.br/ia-para-planilhas"
+        ferramentas={ferramentas}
+      />
     </main>
   );
 }

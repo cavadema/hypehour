@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para ia para pdf?",
-        "a": "IA para ia para pdf são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ia para pdf."
+        "q": "O que são ferramentas de IA para PDF?",
+        "a": "São aplicativos que usam inteligência artificial para analisar, resumir, extrair informações e responder perguntas sobre documentos PDF — permitindo interagir com contratos, relatórios, artigos e livros por meio de chat em linguagem natural."
     },
     {
-        "q": "Para que serve a inteligência artificial em ia para pdf?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ia para pdf."
+        "q": "Qual a melhor ferramenta de IA para analisar PDFs?",
+        "a": "ChatPDF, NotebookLM (Google), Claude com upload de documentos e LightPDF são as mais usadas. NotebookLM se destaca por fontes múltiplas e audio overview. Claude suporta PDFs muito longos com sua janela de contexto de 200k tokens."
     },
     {
-        "q": "Como funciona uma IA voltada para ia para pdf?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ia para pdf."
+        "q": "É possível fazer perguntas sobre um contrato em PDF usando IA?",
+        "a": "Sim. Ferramentas como ChatPDF, DocuAsk e Claude permitem fazer upload de contratos e perguntar 'quais são as penalidades por rescisão?', 'qual o prazo de vigência?' ou 'existe cláusula de exclusividade?' — recebendo respostas precisas com citação do trecho."
     },
     {
-        "q": "Qual a melhor IA para ia para pdf em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ia para pdf."
+        "q": "IA para PDF funciona com documentos em português?",
+        "a": "Sim. As principais ferramentas (ChatPDF, Claude, ChatGPT) processam PDFs em português com alta qualidade, entendendo jargões jurídicos, técnicos e científicos em língua portuguesa."
     },
     {
-        "q": "IA para ia para pdf é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Como usar o Google NotebookLM para estudar com PDFs?",
+        "a": "Faça upload de PDFs, artigos, slides e notas no NotebookLM. A ferramenta cria um assistente especializado nesses materiais, permite fazer perguntas, gera guias de estudo e até cria podcasts de audio overview dos conteúdos enviados."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para ia para pdf já oferece suporte completo ou parcial ao idioma português."
+        "q": "IA consegue resumir relatórios e documentos longos com precisão?",
+        "a": "Sim. Ferramentas como Claude e ChatGPT com Code Interpreter resumem PDFs de centenas de páginas mantendo os pontos-chave, identificando dados críticos e gerando sumários executivos em formato especificado pelo usuário."
     },
     {
-        "q": "É seguro usar IA para ia para pdf?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "É possível usar IA para comparar dois PDFs e identificar diferenças?",
+        "a": "Sim. Com Claude ou ChatGPT, faça upload dos dois documentos e peça para comparar as versões de um contrato, identificar cláusulas novas ou alteradas, ou destacar diferenças entre dois relatórios técnicos."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de ia para pdf?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "IA pode extrair dados de tabelas dentro de PDFs?",
+        "a": "Sim, com bom desempenho. Claude e ferramentas especializadas como LlamaParse e Unstructured extraem dados de tabelas em PDF, convertendo para formato estruturado (JSON, CSV) para análise posterior — mesmo em documentos com layout complexo."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para ia para pdf é a facilidade de uso via interface intuitiva."
+        "q": "Meus documentos ficam seguros ao usar ferramentas de IA para PDF?",
+        "a": "Depende da ferramenta. Para documentos confidenciais (contratos, dados financeiros, laudos médicos), prefira ferramentas com criptografia de dados, política de não retenção de uploads e opções enterprise com contratos de privacidade."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para ia para pdf?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Quanto custa usar ferramentas de IA para análise de PDF?",
+        "a": "ChatPDF tem plano gratuito com 3 PDFs/dia. Claude.ai permite upload de arquivos no plano gratuito com limitações. ChatGPT Plus (R$100/mês) suporta PDFs ilimitados. NotebookLM é gratuito com conta Google."
     },
     {
-        "q": "Principais vantagens da IA em ia para pdf",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ia para pdf."
+        "q": "IA pode criar citations e referências a partir de um PDF acadêmico?",
+        "a": "Sim. Ferramentas como SciSpace (anteriormente Typeset) e Elicit especializam em artigos científicos — gerando citações em formato ABNT, APA ou Vancouver e resumindo metodologia, resultados e limitações de estudos."
     },
     {
-        "q": "Desvantagens de usar IA para ia para pdf",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de ia para pdf?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ia para pdf."
-    },
-    {
-        "q": "IA para ia para pdf para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ia para pdf."
-    },
-    {
-        "q": "Ferramentas de ia para pdf para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para ia para pdf para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ia para pdf."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para ia para pdf",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ia para pdf."
-    },
-    {
-        "q": "Como aprender a usar IA para ia para pdf?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de ia para pdf",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ia para pdf que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para ia para pdf?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ia para pdf."
-    },
-    {
-        "q": "Existe IA gratuita para ia para pdf?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de ia para pdf?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ia para pdf."
-    },
-    {
-        "q": "Como automatizar processos de ia para pdf com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para ia para pdf funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de ia para pdf",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para ia para pdf é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ia para pdf é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de ia para pdf coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para ia para pdf?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ia para pdf."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de ia para pdf?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Como usar IA para estudar livros inteiros em formato PDF?",
+        "a": "Faça upload do livro no NotebookLM ou Claude e crie um plano de estudos: peça resumo por capítulo, questões de revisão para cada seção, mapas mentais dos conceitos principais e analogias para os temas mais difíceis."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ia Para Pdf</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Analisar PDFs</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

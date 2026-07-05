@@ -2,9 +2,11 @@ import FAQSection from "./FAQSection";
 import ComparativoFerramentas from "./ComparativoFerramentas";
 import ComoEscolher from "./ComoEscolher";
 import ProTips from "./ProTips";
-import { CogIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
+import { CogIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
+import CategoryPageSchema from "@/app/components/CategoryPageSchema";
+import ToolCard from "@/app/components/ToolCard";
 
 const ferramentas = [
   { nome: "n8ncoder", url: "https://n8ncoder.com/", descricao: "Extensão de chat com IA para o n8n que permite criar, editar e depurar fluxos de automação usando linguagem natural." },
@@ -61,9 +63,11 @@ export const metadata = {
 export default function AutomacaoIAPage() {
   return (
     <main className="max-w-6xl mx-auto py-10 px-4">
-      <Link href="/" className="inline-flex items-center gap-2 text-black hover:underline mb-8">
-        <ArrowLeftIcon className="w-5 h-5" /> Voltar para a home
-      </Link>
+      <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6" aria-label="Breadcrumb">
+        <Link href="/" className="hover:text-black transition-colors">Home</Link>
+        <span>/</span>
+        <span className="text-black font-medium">IA para Automação</span>
+      </nav>
 
       <div className="flex items-center gap-3 mb-8">
         <CogIcon className="w-10 h-10 text-gray-900" />
@@ -72,16 +76,7 @@ export default function AutomacaoIAPage() {
       <ExpandableContent />
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((ferramenta, index) => (
-          <a
-            key={index}
-            href={ferramenta.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100"
-          >
-            <h2 className="font-semibold text-lg mb-1">{ferramenta.nome}</h2>
-            <div className="text-gray-500 text-sm">{ferramenta.descricao}</div>
-          </a>
+          <ToolCard key={ferramenta.nome} nome={ferramenta.nome} url={ferramenta.url} descricao={ferramenta.descricao} />
         ))}
       </div>
           <div className="mt-12">
@@ -90,6 +85,13 @@ export default function AutomacaoIAPage() {
           <ComoEscolher />
           <ProTips />
           <FAQSection />
+
+      <CategoryPageSchema
+        title="Automação com Inteligência Artificial"
+        description="Ferramentas de IA para automatizar processos, workflows e tarefas repetitivas em sua empresa."
+        canonicalUrl="https://www.hypehour.com.br/automacao-ia"
+        ferramentas={ferramentas}
+      />
     </main>
   );
 }

@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para ia para imagens?",
-        "a": "IA para ia para imagens são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ia para imagens."
+        "q": "Quais as melhores ferramentas de IA para gerar imagens em 2026?",
+        "a": "Midjourney continua líder em qualidade artística. DALL-E 3 (integrado ao ChatGPT) é o mais acessível. Stable Diffusion é a opção open source mais poderosa. Adobe Firefly é o melhor para uso comercial seguro. Ideogram se destaca para imagens com texto legível."
     },
     {
-        "q": "Para que serve a inteligência artificial em ia para imagens?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ia para imagens."
+        "q": "Midjourney vs DALL-E 3: qual é melhor para criar imagens com IA?",
+        "a": "Midjourney produz imagens com estética mais artística e cinematográfica, ideal para arte conceitual e design. DALL-E 3 segue instruções com mais precisão e está disponível direto no ChatGPT. Para uso comercial, Adobe Firefly elimina riscos de direitos autorais."
     },
     {
-        "q": "Como funciona uma IA voltada para ia para imagens?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ia para imagens."
+        "q": "Como criar imagens com IA de alta qualidade? Quais prompts usar?",
+        "a": "Seja específico: descreva o estilo artístico, iluminação, composição, paleta de cores e referências. Por exemplo: 'fotografia profissional de produto, fundo branco limpo, iluminação de estúdio, câmera Sony, ultra-realista'. A qualidade do prompt define o resultado."
     },
     {
-        "q": "Qual a melhor IA para ia para imagens em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ia para imagens."
+        "q": "Imagens geradas por IA têm direitos autorais?",
+        "a": "A questão jurídica ainda evolui mundialmente. Em geral, você tem direitos sobre o que gerou nas plataformas pagas, mas os modelos foram treinados em obras de artistas sem compensação direta. Adobe Firefly foi projetado para eliminar esse risco com dataset licenciado."
     },
     {
-        "q": "IA para ia para imagens é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "É possível usar Stable Diffusion gratuitamente?",
+        "a": "Sim. O modelo é open source e pode ser rodado localmente com GPU adequada. Plataformas como Automatic1111 e ComfyUI permitem instalação gratuita. Alternativas online como Leonardo AI e Playground AI oferecem créditos gratuitos mensais."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para ia para imagens já oferece suporte completo ou parcial ao idioma português."
+        "q": "IA consegue gerar fotos realistas de pessoas que não existem?",
+        "a": "Sim, com alta fidelidade. Modelos como Stable Diffusion com LoRA e Midjourney geram rostos fotorrealistas convincentes. Isso levanta questões éticas sérias sobre desinformação e criação de perfis falsos — use com responsabilidade."
     },
     {
-        "q": "É seguro usar IA para ia para imagens?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "Como usar IA para melhorar e editar fotos existentes?",
+        "a": "Adobe Firefly no Photoshop (Generative Fill), ClipDrop, Krea AI e Remove.bg permitem editar, ampliar, remover objetos e refinar fotos reais com IA. É possível mudar fundos, adicionar elementos e melhorar qualidade de imagens antigas."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de ia para imagens?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "Quanto custa usar Midjourney para criar imagens?",
+        "a": "O plano Basic custa US$10/mês com 200 gerações. O plano Standard (US$30/mês) oferece gerações ilimitadas em modo relaxed. Para uso profissional intenso, o plano Pro (US$60/mês) com GPU prioritária é recomendado."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para ia para imagens é a facilidade de uso via interface intuitiva."
+        "q": "IA para imagens funciona para criar assets de jogos e animações?",
+        "a": "Sim. Stable Diffusion com ControlNet é amplamente usado por game artists para criar assets, sprites e concept art. Krea AI e Leonardo AI têm ferramentas específicas para geração de assets de jogos com estilos consistentes."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para ia para imagens?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Como criar um estilo visual consistente em imagens geradas por IA?",
+        "a": "Use seeds fixos, reference images, ou treine um modelo personalizado (LoRA) com exemplos do estilo desejado. Para marcas, isso garante que todas as imagens geradas mantenham identidade visual coerente."
     },
     {
-        "q": "Principais vantagens da IA em ia para imagens",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ia para imagens."
+        "q": "IA consegue gerar infográficos e imagens com dados?",
+        "a": "Para infográficos com dados precisos, ferramentas específicas como Canva com IA ou DataWrapper funcionam melhor. Geradores de imagem como Midjourney não são bons para textos e dados — use Ideogram para o melhor resultado com texto em imagens."
     },
     {
-        "q": "Desvantagens de usar IA para ia para imagens",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de ia para imagens?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ia para imagens."
-    },
-    {
-        "q": "IA para ia para imagens para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ia para imagens."
-    },
-    {
-        "q": "Ferramentas de ia para imagens para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para ia para imagens para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ia para imagens."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para ia para imagens",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ia para imagens."
-    },
-    {
-        "q": "Como aprender a usar IA para ia para imagens?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de ia para imagens",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ia para imagens que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para ia para imagens?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ia para imagens."
-    },
-    {
-        "q": "Existe IA gratuita para ia para imagens?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de ia para imagens?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ia para imagens."
-    },
-    {
-        "q": "Como automatizar processos de ia para imagens com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para ia para imagens funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de ia para imagens",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para ia para imagens é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ia para imagens é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de ia para imagens coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para ia para imagens?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ia para imagens."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de ia para imagens?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Como aumentar a resolução de imagens geradas por IA?",
+        "a": "Ferramentas de upscaling como Upscayl (gratuito e open source), Topaz Gigapixel AI e a função de upscale nativa do Midjourney aumentam a resolução de imagens sem perda de qualidade, chegando a 4K ou mais."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ia Para Imagens</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Geração de Imagens</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

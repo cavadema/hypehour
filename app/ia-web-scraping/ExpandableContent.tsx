@@ -1,63 +1,29 @@
-"use client";
-
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
-import { useState } from "react";
-
 export default function ExpandableContent() {
-    const [isExpanded, setIsExpanded] = useState(false);
-
     return (
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    As <strong>ferramentas de IA para ia web scraping</strong> estão revolucionando a maneira como profissionais e empresas lidam com processos complexos. A <strong>inteligência artificial aplicada a ia web scraping</strong> permite automatizar tarefas repetitivas, aumentar a precisão dos resultados e liberar tempo criativo para o que realmente importa. Explore nossa curadoria de ferramentas e descubra como a tecnologia pode elevar seu patamar de produtividade.
+                    O <strong>web scraping com IA</strong> revolucionou a coleta e processamento de dados da web. Com ferramentas como <strong>Firecrawl, Browse AI e Crawl4AI</strong>, é possível extrair informações de qualquer site em formato estruturado, monitorar mudanças de preço automaticamente, alimentar bases de conhecimento para RAG e coletar dados de concorrência — sem escrever seletores CSS frágeis para cada página ou gerenciar infraestrutura complexa de proxies.
                 </p>
-
-
-                    <p className="mb-4">
-                        Ao escolher uma <strong>IA para ia web scraping</strong>, é fundamental observar a integração com seus fluxos atuais e a facilidade de uso. As melhores soluções do mercado oferecem não apenas automação, mas também insights estratégicos que ajudam na tomada de decisão. Com o avanço constante dos modelos de linguagem e visão computacional, as possibilidades para <strong>ia web scraping com IA</strong> são praticamente ilimitadas.
-                    </p>
-
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
-                    <h3 className="font-semibold text-lg mb-3 text-gray-900">Benefícios de usar IA para Ia Web Scraping</h3>
-
-                    <ul className="space-y-3 mb-4">
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Produtividade Aumentada:</strong> Execute em minutos o que antes levava horas através de processamento inteligente.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Redução de Erros:</strong> A IA mantém a consistência em tarefas de ia web scraping, minimizando falhas humanas.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Customização Total:</strong> Adapte as ferramentas às necessidades específicas do seu negócio ou projeto pessoal.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Vantagem Competitiva:</strong> Esteja à frente no mercado utilizando as tecnologias mais avançadas de inteligência artificial.</span>
-                        </li>
-                    </ul>
-
-                    <p className="mb-4">
-                        Lembre-se que a <strong>IA para ia web scraping</strong> deve ser vista como um copiloto que potencializa suas habilidades. A revisão humana e o direcionamento estratégico continuam sendo os diferenciais de um trabalho de excelência.
-                    </p>
-
-                    <p>
-                        Abaixo, você encontrará uma lista completa com as melhores <strong>ferramentas de IA para Ia Web Scraping</strong>, selecionadas para ajudar você a transformar seus desafios em resultados concretos.
-                    </p>
-                </div>
+                <p className="mb-4">
+                    O diferencial da <strong>IA no web scraping</strong> está em lidar com a variabilidade da web: páginas com layouts diferentes, conteúdo dinâmico carregado por JavaScript e formatos de dados inconsistentes. Modelos de linguagem entendem o contexto da página e extraem a informação certa mesmo quando a estrutura HTML muda — eliminando a manutenção constante que scrapers tradicionais exigem.
+                </p>
             </div>
-
-            <button
-                onClick={() => setIsExpanded(!isExpanded)}
-                className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors"
-                aria-expanded={isExpanded}
-            >
-                <span>{isExpanded ? 'Ver menos' : 'Ver mais'}</span>
-                <ChevronDownIcon className={`w-5 h-5 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} />
-            </button>
+            <details className="group">
+                <summary className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors cursor-pointer list-none">
+                    <span>Ver mais</span>
+                    <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
+                </summary>
+                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Casos de Uso de Web Scraping com IA para Empresas</h3>
+                <ul className="space-y-3 mb-4">
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Monitoramento de concorrência:</strong> Acompanhe preços, lançamentos de produtos e mudanças de estratégia de concorrentes automaticamente — recebendo alertas quando algo relevante muda.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Geração de leads B2B:</strong> Extraia contatos, cargos e informações de empresas-alvo de sites públicos, LinkedIn e diretórios setoriais para alimentar seu CRM com prospects qualificados.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Alimentação de RAG:</strong> Use Firecrawl ou Crawl4AI para converter conteúdo da web em base de conhecimento estruturada para chatbots e assistentes de IA da sua empresa.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Pesquisa de mercado:</strong> Colete avaliações de clientes, menções em redes sociais e dados de plataformas de e-commerce para análise de sentimento e mapeamento do mercado.</span></li>
+                </ul>
+                <p>Explore as ferramentas de IA para web scraping listadas abaixo e descubra como extrair, processar e usar dados da web de forma inteligente e escalável.</p>
+            </details>
         </div>
     );
 }

@@ -1,12 +1,12 @@
-import { HomeIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
+import { HomeIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 import FAQSection from "./FAQSection";
 import ComparativoFerramentas from "./ComparativoFerramentas";
 import ComoEscolher from "./ComoEscolher";
 import ProTips from "./ProTips";
-import Script from "next/script";
-
+import CategoryPageSchema from "@/app/components/CategoryPageSchema";
+import ToolCard from "@/app/components/ToolCard";
 export const metadata = {
   title: "IA para Design de Interiores",
   description: "Ferramentas de IA para design de interiores, decoração e planejamento de ambientes.",
@@ -57,9 +57,11 @@ const ferramentas = [
 export default function IAParaDesignDeInteriores() {
   return (
     <main className="max-w-6xl mx-auto py-10 px-4">
-      <Link href="/" className="inline-flex items-center gap-2 text-black hover:underline mb-8">
-        <ArrowLeftIcon className="w-5 h-5" /> Voltar para a home
-      </Link>
+      <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6" aria-label="Breadcrumb">
+        <Link href="/" className="hover:text-black transition-colors">Home</Link>
+        <span>/</span>
+        <span className="text-black font-medium">IA para Design de Interiores</span>
+      </nav>
       <div className="flex items-center gap-3 mb-8">
         <HomeIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">IA para Design de Interiores</h1>
@@ -67,10 +69,7 @@ export default function IAParaDesignDeInteriores() {
       <ExpandableContent />
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => (
-          <a key={f.nome} href={f.url} target="_blank" rel="noopener noreferrer" className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100">
-            <h2 className="font-semibold text-lg mb-1">{f.nome}</h2>
-            <div className="text-gray-500 text-sm">{f.descricao}</div>
-          </a>
+          <ToolCard key={f.nome} nome={f.nome} url={f.url} descricao={f.descricao} />
         ))}
       </div>
       <div className="mt-12">
@@ -79,254 +78,13 @@ export default function IAParaDesignDeInteriores() {
       <ComoEscolher />
       <ProTips />
       <FAQSection />
-      <Script id="faq-json-ld-interiores" type="application/ld+json" strategy="afterInteractive">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "O que é IA para design de interiores?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "IA para design de interiores são ferramentas que usam inteligência artificial para criar, simular e transformar ambientes internos automaticamente."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Para que serve o design de interiores com IA?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Serve para visualizar ambientes, testar estilos e planejar decoração de forma rápida e prática."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores funciona com fotos reais?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Muitas ferramentas usam fotos reais do ambiente para gerar novos layouts."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Existe IA para design de interiores gratuito?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Algumas ferramentas oferecem versões gratuitas ou testes limitados."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores é indicada para leigos?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Não é necessário conhecimento técnico em arquitetura ou design."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores substitui um designer profissional?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Não. Ela auxilia no processo criativo, mas não substitui profissionais."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Design de interiores com IA é preciso?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "É bastante preciso para visualização e inspiração, mas não substitui medições técnicas."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores funciona em português?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Muitas ferramentas aceitam comandos em português."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores cria projetos completos?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ela cria visualizações e sugestões de layout, não projetos executivos."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores ajuda a escolher móveis?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Ela sugere móveis, cores e estilos compatíveis."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores é usada por profissionais?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Designers usam como apoio criativo e para apresentações."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Design de interiores com IA funciona em apartamentos pequenos?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. É muito útil para otimizar espaços reduzidos."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores pode simular reformas?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. É possível visualizar mudanças antes de executar a obra."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores funciona online?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. A maioria das ferramentas funciona via navegador."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Vale a pena usar IA para design de interiores?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Economiza tempo e ajuda a tomar decisões visuais melhores."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Qual a melhor IA para design de interiores?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Depende do objetivo, mas ferramentas modernas oferecem ótimas simulações."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA consegue decorar um ambiente automaticamente?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Basta informar o estilo desejado."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Dá para usar IA para design de interiores sem pagar?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Algumas plataformas oferecem uso gratuito com limitações."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores funciona em casas e apartamentos?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Ela se adapta a diferentes tipos de imóveis."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores cria plantas baixas?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Geralmente não. O foco é visualização e decoração."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores ajuda em reformas?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Permite visualizar mudanças antes da execução."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Design de interiores com IA é realista?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. As imagens geradas são cada vez mais realistas."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores funciona no celular?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Muitas ferramentas são compatíveis com dispositivos móveis."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores entende estilos específicos?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Estilos como moderno, minimalista e industrial são comuns."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores pode sugerir paletas de cores?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Ela gera combinações harmoniosas."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores é útil para imobiliárias?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. É muito usada para staging virtual."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores gera imagens 3D?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Algumas ferramentas geram visualizações tridimensionais."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores funciona para cozinhas e banheiros?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. É muito usada nesses ambientes."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores substitui softwares profissionais?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Não. Ela complementa softwares técnicos."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "IA para design de interiores vale a pena para profissionais?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sim. Aumenta produtividade e melhora apresentações."
-              }
-            }
-          ]
-        })}
-      </Script>
+
+      <CategoryPageSchema
+        title="IA para Design de Interiores"
+        description="Ferramentas de IA para design de interiores, decoração e planejamento de ambientes."
+        canonicalUrl="https://www.hypehour.com.br/ia-para-design-de-interiores"
+        ferramentas={ferramentas}
+      />
     </main>
   );
 }

@@ -3,8 +3,10 @@ import ComparativoFerramentas from "./ComparativoFerramentas";
 import ComoEscolher from "./ComoEscolher";
 import ProTips from "./ProTips";
 import ExpandableContent from "./ExpandableContent";
-import { GlobeAltIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
+import { GlobeAltIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import CategoryPageSchema from "@/app/components/CategoryPageSchema";
+import ToolCard from "@/app/components/ToolCard";
 
 export const metadata = {
   title: "Criação de Agentes de IA",
@@ -202,9 +204,11 @@ const ferramentas = [
 export default function CriacaoAgentesIA() {
   return (
     <main className="max-w-6xl mx-auto py-10 px-4">
-      <Link href="/" className="inline-flex items-center gap-2 text-black hover:underline mb-8">
-        <ArrowLeftIcon className="w-5 h-5" /> Voltar para a home
-      </Link>
+      <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6" aria-label="Breadcrumb">
+        <Link href="/" className="hover:text-black transition-colors">Home</Link>
+        <span>/</span>
+        <span className="text-black font-medium">Criação de Agentes de IA</span>
+      </nav>
       <div className="flex items-center gap-3 mb-8">
         <GlobeAltIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">Criação de Agentes de IA</h1>
@@ -212,16 +216,7 @@ export default function CriacaoAgentesIA() {
       <ExpandableContent />
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => (
-          <a
-            key={f.nome}
-            href={f.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100"
-          >
-            <h2 className="font-semibold text-lg mb-1">{f.nome}</h2>
-            <div className="text-gray-500 text-sm">{f.descricao}</div>
-          </a>
+          <ToolCard key={f.nome} nome={f.nome} url={f.url} descricao={f.descricao} />
         ))}
       </div>
           <div className="mt-12">
@@ -230,6 +225,13 @@ export default function CriacaoAgentesIA() {
           <ComoEscolher />
           <ProTips />
           <FAQSection />
+
+      <CategoryPageSchema
+        title="Criação de Agentes de IA"
+        description="Ferramentas para criar e orquestrar agentes de IA rapidamente."
+        canonicalUrl="https://www.hypehour.com.br/criacao-agentes-ia"
+        ferramentas={ferramentas}
+      />
     </main>
   );
 }

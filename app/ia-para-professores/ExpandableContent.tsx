@@ -1,71 +1,29 @@
-"use client";
-
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
-import { useState } from "react";
-
 export default function ExpandableContent() {
-    const [isExpanded, setIsExpanded] = useState(false);
-
     return (
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    As <strong>ferramentas de IA para professores</strong> estão transformando a educação e revolucionando a forma como educadores planejam aulas, avaliam alunos e personalizam o ensino. A <strong>inteligência artificial para professores</strong> oferece soluções práticas para economizar tempo, aumentar o engajamento e melhorar os resultados de aprendizagem.
+                    A <strong>IA para professores</strong> chegou para resolver um dos maiores gargalos da educação: o tempo que docentes gastam em tarefas administrativas e repetitivas em vez de ensinar. Com ferramentas como <strong>ChatGPT, Claude, Conker e NotebookLM</strong>, professores brasileiros criam planos de aula, elaboram avaliações, geram atividades diferenciadas e produzem materiais didáticos em uma fração do tempo — liberando energia para o que mais importa: a relação de ensino-aprendizagem.
                 </p>
-
-
-                    <p className="mb-4">
-                        Com o uso de <strong>IA para professores</strong>, educadores podem criar planos de aula personalizados em minutos, gerar quizzes adaptativos e receber feedback instantâneo sobre o progresso dos alunos. As <strong>ferramentas de inteligência artificial para professores</strong> também auxiliam na diferenciação do ensino, permitindo que cada estudante aprenda no seu próprio ritmo e estilo.
-                    </p>
-
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
-                    <h3 className="font-semibold text-lg mb-3 text-gray-900">Como Professores Podem Usar IA ao Seu Favor</h3>
-
-                    <ul className="space-y-3 mb-4">
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Planejamento de Aulas Automatizado:</strong> As ferramentas de IA para professores geram planos de aula completos alinhados à BNCC em minutos, economizando horas de preparação.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Criação de Avaliações Personalizadas:</strong> Utilize inteligência artificial para professores para criar quizzes, provas e atividades adaptadas ao nível de cada turma.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Feedback Instantâneo:</strong> IA para professores corrige atividades automaticamente e fornece feedback detalhado para cada aluno, acelerando o processo de avaliação.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Diferenciação do Ensino:</strong> Ferramentas de inteligência artificial para professores adaptam conteúdos para diferentes níveis de aprendizagem, garantindo que nenhum aluno fique para trás.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Geração de Materiais Didáticos:</strong> Com IA para professores, crie apresentações, infográficos e materiais visuais envolventes em poucos cliques.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Análise de Desempenho:</strong> Ferramentas de IA para professores identificam padrões de aprendizagem, pontos fortes e áreas que precisam de reforço em cada aluno.</span>
-                        </li>
-                    </ul>
-
-                    <p className="mb-4">
-                        A adoção de <strong>ferramentas de IA para professores</strong> não substitui o papel fundamental do educador, mas potencializa sua capacidade de ensinar e inspirar. Ao automatizar tarefas administrativas e repetitivas, a <strong>inteligência artificial para professores</strong> libera tempo para o que realmente importa: conexão humana, mentoria e desenvolvimento socioemocional dos alunos.
-                    </p>
-
-                    <p>
-                        Explore as melhores <strong>ferramentas de IA para professores</strong> listadas abaixo e descubra como a tecnologia pode transformar sua prática pedagógica, aumentar o engajamento dos alunos e tornar o ensino mais eficiente e prazeroso.
-                    </p>
-                </div>
+                <p className="mb-4">
+                    A questão não é mais "IA vai substituir professores?" — mas sim "como professores que usam IA vão superar os que não usam?" O educador que aprende a usar IA como assistente produz mais conteúdo de qualidade, oferece feedback mais personalizado e tem mais energia para inovar pedagogicamente. O desafio está em integrar eticamente, preparando os alunos para um mundo onde trabalhar com IA é habilidade fundamental.
+                </p>
             </div>
-
-            <button
-                onClick={() => setIsExpanded(!isExpanded)}
-                className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors"
-                aria-expanded={isExpanded}
-            >
-                <span>{isExpanded ? 'Ver menos' : 'Ver mais'}</span>
-                <ChevronDownIcon className={`w-5 h-5 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} />
-            </button>
+            <details className="group">
+                <summary className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors cursor-pointer list-none">
+                    <span>Ver mais</span>
+                    <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
+                </summary>
+                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Professores Estão Usando IA na Prática</h3>
+                <ul className="space-y-3 mb-4">
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Planejamento acelerado:</strong> Planos de aula completos com objetivos, desenvolvimento, atividades e avaliação em minutos — alinhados à BNCC e adaptáveis a qualquer contexto escolar.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Avaliações diferenciadas:</strong> Gere baterias de questões em múltiplos formatos e níveis de dificuldade para o mesmo conteúdo, atendendo à diversidade de aprendizagem da turma.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Feedback personalizado em escala:</strong> IA analisa redações e produções dos alunos e gera comentários construtivos e específicos — o professor revisa e envia, sem escrever do zero para cada aluno.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Materiais visuais e interativos:</strong> Canva Edu com IA e ferramentas de apresentação geram materiais visualmente atraentes para qualquer faixa etária e disciplina.</span></li>
+                </ul>
+                <p>Explore as ferramentas de IA para professores listadas abaixo e descubra como incorporar inteligência artificial no seu planejamento e prática pedagógica.</p>
+            </details>
         </div>
     );
 }

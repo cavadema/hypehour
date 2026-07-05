@@ -1,62 +1,29 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
-
 export default function ExpandableContent() {
-    const [isExpanded, setIsExpanded] = useState(false);
-
     return (
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    Encontre <strong>IA que resume PDF</strong> para extrair pontos-chave em segundos, use um <strong>leitor de PDF IA</strong> para navegar por documentos extensos, aplique <strong>IA para criação de PDF</strong> a partir de texto ou formulários e escolha <strong>IA para traduzir PDF</strong> mantendo formatação e contexto.
+                    As <strong>ferramentas de IA para PDF</strong> transformaram a forma como profissionais lidam com documentos longos. Com plataformas como <strong>ChatPDF, NotebookLM e Claude</strong>, é possível fazer upload de contratos, relatórios, artigos científicos ou livros e simplesmente conversar com o documento em português: fazer perguntas específicas, pedir resumos por seção, comparar versões ou extrair dados de tabelas — sem precisar ler o documento inteiro linha por linha.
                 </p>
-
-
-                    <p className="mb-4">
-                        Com um <strong>leitor de PDF IA</strong>, você faz buscas rápidas por termos, pergunta sobre tabelas e recebe respostas contextuais. Ferramentas de <strong>IA que resume PDF</strong> geram resumos executivos, listas de tópicos e insights acionáveis para estudos, jurídico ou negócios.
-                    </p>
-
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"}`}>
-                    <h3 className="font-semibold text-lg mb-3 text-gray-900">Como usar IA para PDFs</h3>
-                    <ul className="space-y-3 mb-4">
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Resumo automático:</strong> Use <strong>IA que resume PDF</strong> para sintetizar relatórios longos em minutos.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Leitura inteligente:</strong> Um <strong>leitor de PDF IA</strong> responde perguntas sobre contratos, pesquisas e artigos.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Criação rápida:</strong> <strong>IA para criação de PDF</strong> monta documentos a partir de prompts ou formulários.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Tradução preservando layout:</strong> <strong>IA para traduzir PDF</strong> mantém formatação, gráficos e tabelas.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Anotações e insights:</strong> Gere highlights, comentários e próximos passos automaticamente.</span>
-                        </li>
-                    </ul>
-
-                    <p className="mb-4">
-                        Ao combinar <strong>IA que resume PDF</strong> com <strong>leitor de PDF IA</strong>, você acelera revisão de contratos, pesquisas acadêmicas e relatórios financeiros. Com <strong>IA para criação de PDF</strong> e <strong>IA para traduzir PDF</strong>, fica mais fácil gerar versões multilíngues e manter consistência visual sem trabalho manual.
-                    </p>
-                </div>
+                <p className="mb-4">
+                    Para advogados que precisam analisar contratos, pesquisadores que revisam artigos, gestores que recebem relatórios extensos e estudantes com pilhas de material para estudar, a <strong>análise de PDF com IA</strong> é um multiplicador de produtividade imediato. O que antes levava horas de leitura minuciosa agora pode ser processado em minutos — com citações precisas do texto original para verificação.
+                </p>
             </div>
-
-            <button
-                onClick={() => setIsExpanded(!isExpanded)}
-                className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors"
-                aria-expanded={isExpanded}
-            >
-                <span>{isExpanded ? "Ver menos" : "Ver mais"}</span>
-                <ChevronDownIcon className={`w-5 h-5 transition-transform duration-300 ${isExpanded ? "rotate-180" : ""}`} />
-            </button>
+            <details className="group">
+                <summary className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors cursor-pointer list-none">
+                    <span>Ver mais</span>
+                    <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
+                </summary>
+                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Casos de Uso de IA para PDF no Mundo Profissional Brasileiro</h3>
+                <ul className="space-y-3 mb-4">
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Análise jurídica:</strong> Advogados fazem upload de contratos e pedem identificação de cláusulas de risco, penalidades, obrigações das partes e pontos de negociação — em minutos, não horas.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Revisão financeira:</strong> Analistas consultam relatórios de resultados, prospectus de IPO e demonstrações financeiras com perguntas diretas sobre métricas, riscos e projeções.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Pesquisa acadêmica:</strong> Pesquisadores carregam dezenas de artigos e pedem síntese dos achados, comparação de metodologias e identificação de lacunas na literatura.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Concursos e estudos:</strong> Candidatos a concursos fazem upload de editais, legislação e apostilas para criar resumos, questões simuladas e mapas mentais personalizados.</span></li>
+                </ul>
+                <p>Explore as ferramentas de IA para PDF listadas abaixo e descubra qual se adapta melhor ao tipo de documento que você precisa analisar e ao seu fluxo de trabalho.</p>
+            </details>
         </div>
     );
 }

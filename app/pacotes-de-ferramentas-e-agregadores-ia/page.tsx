@@ -3,8 +3,10 @@ import ComparativoFerramentas from "./ComparativoFerramentas";
 import ComoEscolher from "./ComoEscolher";
 import ProTips from "./ProTips";
 import ExpandableContent from "./ExpandableContent";
-import { ArchiveBoxIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
+import { ArchiveBoxIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import CategoryPageSchema from "@/app/components/CategoryPageSchema";
+import ToolCard from "@/app/components/ToolCard";
 
 const ferramentas = [
     {
@@ -142,9 +144,11 @@ export const metadata = {
 export default function PacotesFerramentas() {
     return (
         <main className="max-w-6xl mx-auto py-10 px-4">
-            <Link href="/" className="inline-flex items-center gap-2 text-black hover:underline mb-8">
-                <ArrowLeftIcon className="w-5 h-5" /> Voltar para a home
-            </Link>
+            <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6" aria-label="Breadcrumb">
+        <Link href="/" className="hover:text-black transition-colors">Home</Link>
+        <span>/</span>
+        <span className="text-black font-medium">Pacotes de Ferramentas IA e Agregadores</span>
+      </nav>
             <div className="flex items-center gap-3 mb-8">
                 <ArchiveBoxIcon className="w-10 h-10 text-gray-900" />
                 <h1 className="text-3xl font-bold">Pacotes de Ferramentas IA e Agregadores</h1>
@@ -152,16 +156,7 @@ export default function PacotesFerramentas() {
       <ExpandableContent />
             <div className="grid gap-6 sm:grid-cols-2">
                 {ferramentas.map((ferramenta) => (
-                    <a
-                        key={ferramenta.nome}
-                        href={ferramenta.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100"
-                    >
-                        <h2 className="font-semibold text-lg mb-1">{ferramenta.nome}</h2>
-                        <div className="text-gray-500 text-sm">{ferramenta.descricao}</div>
-                    </a>
+                    <ToolCard key={ferramenta.nome} nome={ferramenta.nome} url={ferramenta.url} descricao={ferramenta.descricao} />
                 ))}
             </div>
               <div className="mt-12">
@@ -170,6 +165,13 @@ export default function PacotesFerramentas() {
               <ComoEscolher />
               <ProTips />
               <FAQSection />
+
+      <CategoryPageSchema
+        title="Pacotes de Ferramentas IA e Agregadores"
+        description="Descubra as melhores plataformas que agregam múltiplas ferramentas e modelos de inteligência artificial."
+        canonicalUrl="https://www.hypehour.com.br/pacotes-de-ferramentas-e-agregadores-ia"
+        ferramentas={ferramentas}
+      />
     </main>
     );
 }

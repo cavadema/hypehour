@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para ia para design de interiores?",
-        "a": "IA para ia para design de interiores são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ia para design de interiores."
+        "q": "Como a IA pode ajudar no design de interiores?",
+        "a": "A IA gera visualizações fotorrealistas de ambientes decorados a partir de fotos de cômodos vazios ou já mobiliados, simula diferentes estilos decorativos, sugere combinações de cores e layouts de mobiliário sem necessidade de renders manuais."
     },
     {
-        "q": "Para que serve a inteligência artificial em ia para design de interiores?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ia para design de interiores."
+        "q": "Quais as melhores ferramentas de IA para design de interiores?",
+        "a": "Collov AI, Interior AI, RoomGPT, Dzine e Planner 5D com IA são as mais populares. Collov AI se destaca por renders altamente realistas. RoomGPT é excelente para transformar rapidamente um cômodo em diferentes estilos."
     },
     {
-        "q": "Como funciona uma IA voltada para ia para design de interiores?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ia para design de interiores."
+        "q": "É possível ver como ficaria meu apartamento decorado antes de comprar os móveis?",
+        "a": "Sim, exatamente para isso servem essas ferramentas. Fotografe seu cômodo, faça upload na plataforma, escolha o estilo desejado (moderno, escandinavo, industrial) e a IA mostra como ficaria com nova decoração em segundos."
     },
     {
-        "q": "Qual a melhor IA para ia para design de interiores em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ia para design de interiores."
+        "q": "IA para design de interiores substitui um arquiteto de interiores?",
+        "a": "Para uma visão rápida de possibilidades e exploração de estilos, a IA é excelente. Projetos completos com especificação técnica, compatibilidade estrutural, medições precisas e acompanhamento de obra ainda requerem um profissional habilitado."
     },
     {
-        "q": "IA para ia para design de interiores é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Ferramentas de IA para interiores funcionam com plantas baixas?",
+        "a": "Algumas sim. Planner 5D e RoomSketcher com IA permitem criar ou importar plantas baixas e gerar visualizações 3D e renders automáticos do ambiente decorado com diferentes configurações de móveis."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para ia para design de interiores já oferece suporte completo ou parcial ao idioma português."
+        "q": "Como usar IA para escolher paleta de cores para um ambiente?",
+        "a": "Descreva o ambiente, o estilo desejado e a iluminação disponível para ferramentas como ColorMind ou Adobe Color com IA, que sugerem paletas harmônicas. Também é possível pedir ao ChatGPT recomendações com justificativas de design."
     },
     {
-        "q": "É seguro usar IA para ia para design de interiores?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "IA pode ajudar a decorar ambientes pequenos com aproveitamento inteligente do espaço?",
+        "a": "Sim. Ferramentas de design de interiores com IA sugerem layouts que maximizam o aproveitamento de espaços pequenos, indicam móveis multifuncionais adequados e mostram visualizações de como o espaço parecerá mais amplo."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de ia para design de interiores?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "Quanto custa usar ferramentas de IA para design de interiores?",
+        "a": "RoomGPT tem plano gratuito com limitações. Collov AI cobra por renderizações a partir de US$9,99/mês. Interior AI oferece trial gratuito. Para uso profissional com alta resolução e múltiplos renders, planos de US$19 a US$49/mês são comuns."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para ia para design de interiores é a facilidade de uso via interface intuitiva."
+        "q": "Imobiliárias e construtoras usam IA para design de interiores?",
+        "a": "Crescentemente sim. Imobiliárias usam IA para mostrar o potencial de imóveis vazios com diferentes decorações para diferentes perfis de comprador. Construtoras usam para personalizar opções de acabamento em plantas virtuais."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para ia para design de interiores?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "É possível criar projeto de decoração completo usando só IA?",
+        "a": "Para ambientes residenciais simples, é possível criar uma visão geral convincente. A IA gera o visual, mas a especificação de materiais, compatibilidade com estrutura existente e orçamento real ainda precisam de avaliação presencial."
     },
     {
-        "q": "Principais vantagens da IA em ia para design de interiores",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ia para design de interiores."
+        "q": "Como a IA ajuda decoradores de interiores profissionais?",
+        "a": "Acelera dramaticamente a fase de apresentação ao cliente: em vez de renders manuais que levam horas, a IA gera dezenas de variações em minutos para aprovação. Isso libera o decorador para focar na curadoria e no relacionamento com o cliente."
     },
     {
-        "q": "Desvantagens de usar IA para ia para design de interiores",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de ia para design de interiores?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ia para design de interiores."
-    },
-    {
-        "q": "IA para ia para design de interiores para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ia para design de interiores."
-    },
-    {
-        "q": "Ferramentas de ia para design de interiores para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para ia para design de interiores para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ia para design de interiores."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para ia para design de interiores",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ia para design de interiores."
-    },
-    {
-        "q": "Como aprender a usar IA para ia para design de interiores?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de ia para design de interiores",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ia para design de interiores que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para ia para design de interiores?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ia para design de interiores."
-    },
-    {
-        "q": "Existe IA gratuita para ia para design de interiores?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de ia para design de interiores?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ia para design de interiores."
-    },
-    {
-        "q": "Como automatizar processos de ia para design de interiores com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para ia para design de interiores funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de ia para design de interiores",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para ia para design de interiores é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ia para design de interiores é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de ia para design de interiores coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para ia para design de interiores?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ia para design de interiores."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de ia para design de interiores?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "IA pode sugerir quais móveis comprar baseado no meu estilo de vida?",
+        "a": "Sim. Plataformas integradas com catálogos de lojas de móveis usam IA para recomendar peças específicas compatíveis com o espaço fotografado e o estilo escolhido, com links diretos para compra."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ia Para Design De Interiores</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Design de Interiores</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

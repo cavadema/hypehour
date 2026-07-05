@@ -1,63 +1,29 @@
-"use client";
-
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
-import { useState } from "react";
-
 export default function ExpandableContent() {
-    const [isExpanded, setIsExpanded] = useState(false);
-
     return (
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    A <strong>inteligência artificial para médicos</strong> está transformando o cenário da saúde, oferecendo ferramentas poderosas para auxiliar no diagnóstico, tratamento e gestão clínica. O uso de <strong>ia para medicos</strong> permite que profissionais de saúde analisem grandes volumes de dados, identifiquem padrões complexos e tomem decisões mais precisas e rápidas.
+                    A <strong>inteligência artificial na medicina</strong> representa uma das aplicações mais transformadoras da tecnologia — e uma das que exige maior responsabilidade. Sistemas de IA já auxiliam médicos brasileiros no <strong>diagnóstico por imagem, triagem de urgência, transcrição automática de consultas e análise de prontuários</strong>, aumentando a capacidade de atendimento e reduzindo erros, sempre como suporte à decisão clínica do profissional de saúde.
                 </p>
-
-
-                    <p className="mb-4">
-                        Com o avanço da tecnologia, surgiram diversas opções de <strong>app de inteligencia artificial para medicos</strong>, que vão desde assistentes virtuais para agendamento de consultas até sistemas avançados de suporte à decisão clínica. O uso de <strong>chat ia para medicos</strong> também tem crescido, facilitando a comunicação com pacientes e o acesso rápido a informações médicas atualizadas.
-                    </p>
-
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
-                    <h3 className="font-semibold text-lg mb-3 text-gray-900">Benefícios da IA na Medicina</h3>
-
-                    <ul className="space-y-3 mb-4">
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Diagnóstico Preciso:</strong> Ferramentas de <strong>inteligencia artificial para medicos</strong> auxiliam na detecção precoce de doenças através da análise de exames de imagem e dados clínicos.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Otimização do Tempo:</strong> A automação de tarefas administrativas e a transcrição de consultas liberam tempo para que o médico se dedique mais ao paciente.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Medicina Personalizada:</strong> Algoritmos de IA ajudam a identificar tratamentos mais eficazes com base no perfil genético e histórico do paciente.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Atualização Constante:</strong> Plataformas de IA processam milhares de artigos científicos diariamente, mantendo o profissional atualizado com as últimas descobertas.</span>
-                        </li>
-                    </ul>
-
-                    <p className="mb-4">
-                        É importante ressaltar que a <strong>ia para medicos</strong> não substitui o julgamento clínico humano, mas serve como uma ferramenta complementar indispensável na medicina moderna. A integração dessas tecnologias nos hospitais e clínicas representa um salto de qualidade no atendimento e na segurança do paciente.
-                    </p>
-
-                    <p>
-                        Explore as soluções listadas nesta página e descubra como a <strong>inteligencia artificial para medicos</strong> pode revolucionar a sua prática clínica, trazendo mais eficiência e precisão para o seu dia a dia.
-                    </p>
-                </div>
+                <p className="mb-4">
+                    Para <strong>médicos e gestores de clínicas no Brasil</strong>, as ferramentas de IA mais impactantes no dia a dia são as de documentação clínica automatizada — que eliminam horas de digitação de prontuário — e os sistemas de análise de imagem que funcionam como segundo par de olhos especializado. A ANVISA e o CFM estabelecem os critérios de uso seguro, garantindo que a IA amplifique a medicina, não a substitua.
+                </p>
             </div>
-
-            <button
-                onClick={() => setIsExpanded(!isExpanded)}
-                className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors"
-                aria-expanded={isExpanded}
-            >
-                <span>{isExpanded ? 'Ver menos' : 'Ver mais'}</span>
-                <ChevronDownIcon className={`w-5 h-5 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} />
-            </button>
+            <details className="group">
+                <summary className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors cursor-pointer list-none">
+                    <span>Ver mais</span>
+                    <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
+                </summary>
+                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Aplicações de IA que já Estão Transformando a Medicina</h3>
+                <ul className="space-y-3 mb-4">
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Documentação automática:</strong> IA grava e transcreve consultas, gerando nota clínica estruturada em tempo real — liberando o médico para focar no paciente em vez de no teclado.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Análise de imagem radiológica:</strong> Sistemas detectam nódulos, fraturas e hemorragias em imagens médicas com alta sensibilidade, auxiliando radiologistas na priorização e na triagem.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Apoio diagnóstico:</strong> Bancos de dados clínicos com IA sugerem diagnósticos diferenciais baseados em sintomas, histórico e exames, ampliando o raciocínio clínico do médico.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Gestão de saúde populacional:</strong> IA identifica pacientes de alto risco para intervenção proativa, otimiza agendas de retorno e analisa indicadores de qualidade assistencial em escala.</span></li>
+                </ul>
+                <p>Explore as ferramentas de IA para medicina e saúde listadas abaixo — todas selecionadas com foco em aplicações clínicas práticas para o contexto da saúde brasileira.</p>
+            </details>
         </div>
     );
 }

@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para repositorios ia github?",
-        "a": "IA para repositorios ia github são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a repositorios ia github."
+        "q": "Quais são os repositórios de IA open source mais importantes no GitHub?",
+        "a": "LLaMA (Meta), Mistral, Stable Diffusion, LangChain, Transformers (Hugging Face), AutoGPT, CrewAI, Ollama, Whisper (OpenAI) e Open Interpreter estão entre os mais populares e influentes do ecossistema de IA open source."
     },
     {
-        "q": "Para que serve a inteligência artificial em repositorios ia github?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de repositorios ia github."
+        "q": "Como encontrar repositórios de IA relevantes no GitHub?",
+        "a": "Use os filtros de linguagem (Python), tópicos (machine-learning, llm, generative-ai), filtre por stars e atividade recente. A seção Trending do GitHub mostra projetos em alta. Awesome Lists compiladas pela comunidade também são referências excelentes."
     },
     {
-        "q": "Como funciona uma IA voltada para repositorios ia github?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de repositorios ia github."
+        "q": "O que é Hugging Face e como se relaciona com o GitHub de IA?",
+        "a": "Hugging Face é o principal hub de modelos open source de IA — similar a um GitHub especializado em ML, onde modelos, datasets e espaços de demo são compartilhados. A maioria dos projetos open source publica modelos no Hugging Face e código no GitHub."
     },
     {
-        "q": "Qual a melhor IA para repositorios ia github em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de repositorios ia github."
+        "q": "Como contribuir para projetos de IA open source no GitHub?",
+        "a": "Comece com issues marcadas como 'good first issue' ou 'help wanted'. Contribuições de documentação em português também são muito valorizadas em projetos internacionais. Teste features, reporte bugs e participe das discussões nas issues."
     },
     {
-        "q": "IA para repositorios ia github é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Quais repositórios de IA são mais fáceis para iniciantes?",
+        "a": "Ollama (rodar LLMs localmente com poucos comandos), LM Studio (interface gráfica para modelos locais), GPT4All e ferramentas como Flowise (LangChain com interface visual) têm documentação mais acessível para iniciantes."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para repositorios ia github já oferece suporte completo ou parcial ao idioma português."
+        "q": "Como rodar modelos de IA localmente usando repositórios do GitHub?",
+        "a": "Ollama é a opção mais simples — instale e rode 'ollama run llama3' no terminal. Para mais controle, Automatic1111 e ComfyUI para imagens, ou LM Studio com interface gráfica para LLMs. A maioria tem documentação de instalação detalhada."
     },
     {
-        "q": "É seguro usar IA para repositorios ia github?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "Repositórios de IA open source são seguros para usar em produção?",
+        "a": "Avalie maturidade (número de stars, commits recentes, issues abertas e resolvidas), atitude dos mantenedores com problemas de segurança e se tem licença compatível com uso comercial. Projetos com alta atividade e comunidade grande tendem a ser mais confiáveis."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de repositorios ia github?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "Qual a diferença entre Apache 2.0, MIT e GPL em licenças de repositórios de IA?",
+        "a": "MIT e Apache 2.0 permitem uso comercial com poucas restrições — Apache 2.0 adiciona cláusula de patentes. GPL exige que obras derivadas sejam também open source, o que pode impedir uso em produtos comerciais fechados. Verifique antes de usar."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para repositorios ia github é a facilidade de uso via interface intuitiva."
+        "q": "Como acompanhar repositórios de IA sem ficar sobrecarregado?",
+        "a": "Use a função Watch seletivamente para os projetos que você usa, assine newsletters como Import AI e TLDR AI para destaques semanais, e monitore apenas as tags de release em vez de todos os commits dos projetos mais ativos."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para repositorios ia github?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Existe comunidade brasileira de IA open source no GitHub?",
+        "a": "Sim. A organização Maritaca AI (criadora do Sabiá, primeiro LLM focado no português brasileiro) está no GitHub. Grupos como ML Brasil e iniciativas de pesquisa em universidades federais também mantêm repositórios relevantes."
     },
     {
-        "q": "Principais vantagens da IA em repositorios ia github",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de repositorios ia github."
+        "q": "Como usar GitHub Copilot para contribuir mais facilmente com projetos de IA?",
+        "a": "Copilot ajuda a entender bases de código grandes (clique num arquivo e peça explicação), gera testes para o código que você está adicionando e sugere implementações consistentes com o estilo do projeto — reduzindo a curva de entrada em novos repositórios."
     },
     {
-        "q": "Desvantagens de usar IA para repositorios ia github",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de repositorios ia github?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em repositorios ia github."
-    },
-    {
-        "q": "IA para repositorios ia github para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em repositorios ia github."
-    },
-    {
-        "q": "Ferramentas de repositorios ia github para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para repositorios ia github para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de repositorios ia github."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para repositorios ia github",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para repositorios ia github."
-    },
-    {
-        "q": "Como aprender a usar IA para repositorios ia github?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de repositorios ia github",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de repositorios ia github que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para repositorios ia github?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para repositorios ia github."
-    },
-    {
-        "q": "Existe IA gratuita para repositorios ia github?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de repositorios ia github?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em repositorios ia github."
-    },
-    {
-        "q": "Como automatizar processos de repositorios ia github com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para repositorios ia github funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de repositorios ia github",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para repositorios ia github é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de repositorios ia github é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de repositorios ia github coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para repositorios ia github?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em repositorios ia github."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de repositorios ia github?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Quais awesome lists do GitHub são referências para IA?",
+        "a": "Awesome Machine Learning, Awesome Deep Learning, Awesome LLM, Awesome ChatGPT Prompts e Awesome MLOps são listas curadas com centenas de recursos organizados por categoria — excelentes pontos de partida para explorar o ecossistema."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Repositorios Ia Github</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Repositórios de IA no GitHub</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

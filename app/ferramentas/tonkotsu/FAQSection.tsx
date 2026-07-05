@@ -1,6 +1,3 @@
-"use client";
-import { useState } from "react";
-
 const faqs = [
   { q: "O que é o Tonkotsu AI?", a: "Tonkotsu AI é uma plataforma visual para construir fluxos de agentes de IA com suporte a ferramentas, memória e execução autônoma." },
   { q: "Por que o nome Tonkotsu?", a: "O nome remete ao ramen tonkotsu, famoso pela profundidade e riqueza do caldo — refletindo agentes com contexto profundo e capacidade robusta." },
@@ -35,7 +32,6 @@ const faqs = [
 ];
 
 export default function FAQSection() {
-  const [open, setOpen] = useState<number | null>(null);
   const schemaData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
   return (
     <section className="mt-12 border-t border-zinc-200 pt-8">
@@ -43,12 +39,12 @@ export default function FAQSection() {
       <h2 className="text-2xl font-bold text-black mb-6">Perguntas Frequentes sobre o Tonkotsu AI</h2>
       <div className="grid gap-3">
         {faqs.map((f, i) => (
-          <div key={i} className="border border-zinc-200 rounded-lg bg-white overflow-hidden">
-            <button className="w-full text-left px-5 py-4 font-medium text-black flex justify-between items-center hover:bg-zinc-50 transition" onClick={() => setOpen(open === i ? null : i)}>
-              <span>{f.q}</span><span className="text-zinc-400 ml-4 flex-shrink-0">{open === i ? "−" : "+"}</span>
-            </button>
-            {open === i && <div className="px-5 pb-4 text-zinc-700 text-sm leading-relaxed">{f.a}</div>}
-          </div>
+          <details key={i} className="border border-zinc-200 rounded-lg bg-white overflow-hidden group" open={i < 5}>
+            <summary className="w-full text-left px-5 py-4 font-medium text-black flex justify-between items-center hover:bg-zinc-50 transition cursor-pointer list-none">
+              <span>{f.q}</span><span className="text-zinc-400 ml-4 flex-shrink-0"><span className="group-open:hidden">+</span><span className="hidden group-open:inline">−</span></span>
+            </summary>
+            <div className="px-5 pb-4 text-zinc-700 text-sm leading-relaxed">{f.a}</div>
+          </details>
         ))}
       </div>
     </section>

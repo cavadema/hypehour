@@ -1,63 +1,29 @@
-"use client";
-
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
-import { useState } from "react";
-
 export default function ExpandableContent() {
-    const [isExpanded, setIsExpanded] = useState(false);
-
     return (
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    As <strong>ferramentas de IA para criacao agentes ia</strong> estão revolucionando a maneira como profissionais e empresas lidam com processos complexos. A <strong>inteligência artificial aplicada a criacao agentes ia</strong> permite automatizar tarefas repetitivas, aumentar a precisão dos resultados e liberar tempo criativo para o que realmente importa. Explore nossa curadoria de ferramentas e descubra como a tecnologia pode elevar seu patamar de produtividade.
+                    A <strong>criação de agentes de IA</strong> representa o próximo nível da automação inteligente. Com frameworks como <strong>CrewAI, LangChain e AutoGen</strong>, é possível construir sistemas autônomos que planejam, raciocinam e executam sequências de tarefas complexas — pesquisando informações, escrevendo código, analisando documentos e interagindo com APIs externas para atingir objetivos definidos por você.
                 </p>
-
-
-                    <p className="mb-4">
-                        Ao escolher uma <strong>IA para criacao agentes ia</strong>, é fundamental observar a integração com seus fluxos atuais e a facilidade de uso. As melhores soluções do mercado oferecem não apenas automação, mas também insights estratégicos que ajudam na tomada de decisão. Com o avanço constante dos modelos de linguagem e visão computacional, as possibilidades para <strong>criacao agentes ia com IA</strong> são praticamente ilimitadas.
-                    </p>
-
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
-                    <h3 className="font-semibold text-lg mb-3 text-gray-900">Benefícios de usar IA para Criacao Agentes Ia</h3>
-
-                    <ul className="space-y-3 mb-4">
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Produtividade Aumentada:</strong> Execute em minutos o que antes levava horas através de processamento inteligente.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Redução de Erros:</strong> A IA mantém a consistência em tarefas de criacao agentes ia, minimizando falhas humanas.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Customização Total:</strong> Adapte as ferramentas às necessidades específicas do seu negócio ou projeto pessoal.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Vantagem Competitiva:</strong> Esteja à frente no mercado utilizando as tecnologias mais avançadas de inteligência artificial.</span>
-                        </li>
-                    </ul>
-
-                    <p className="mb-4">
-                        Lembre-se que a <strong>IA para criacao agentes ia</strong> deve ser vista como um copiloto que potencializa suas habilidades. A revisão humana e o direcionamento estratégico continuam sendo os diferenciais de um trabalho de excelência.
-                    </p>
-
-                    <p>
-                        Abaixo, você encontrará uma lista completa com as melhores <strong>ferramentas de IA para Criacao Agentes Ia</strong>, selecionadas para ajudar você a transformar seus desafios em resultados concretos.
-                    </p>
-                </div>
+                <p className="mb-4">
+                    Os <strong>agentes de IA multi-agente</strong> são especialmente poderosos: imagine um time virtual onde um agente pesquisa o mercado, outro analisa a concorrência, um terceiro escreve o relatório e um quarto formata e envia por e-mail — tudo de forma coordenada e automática. Desenvolvedores, consultores e cientistas de dados são os maiores beneficiários dessas tecnologias hoje.
+                </p>
             </div>
-
-            <button
-                onClick={() => setIsExpanded(!isExpanded)}
-                className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors"
-                aria-expanded={isExpanded}
-            >
-                <span>{isExpanded ? 'Ver menos' : 'Ver mais'}</span>
-                <ChevronDownIcon className={`w-5 h-5 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} />
-            </button>
+            <details className="group">
+                <summary className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors cursor-pointer list-none">
+                    <span>Ver mais</span>
+                    <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
+                </summary>
+                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Componentes Essenciais de um Agente de IA Eficaz</h3>
+                <ul className="space-y-3 mb-4">
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Modelo base (LLM):</strong> O cérebro do agente — GPT-4o, Claude 3.5 ou Gemini — responsável pelo raciocínio, planejamento e geração de linguagem natural.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Ferramentas (Tools):</strong> Funções que o agente pode chamar para agir no mundo — busca web, execução de Python, acesso a bancos de dados, envio de e-mails.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Memória:</strong> Contexto de curto prazo (conversa atual) e longo prazo (banco vetorial) para que o agente se lembre de informações relevantes entre sessões.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Orquestração:</strong> A lógica que define como o agente planeja e decide qual ferramenta usar em cada momento — padrões como ReAct e Plan-and-Execute são os mais comuns.</span></li>
+                </ul>
+                <p>Explore as ferramentas e frameworks listados abaixo para começar a construir seus próprios agentes de IA, do protótipo simples ao sistema de produção robusto.</p>
+            </details>
         </div>
     );
 }

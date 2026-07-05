@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para ia para planilhas?",
-        "a": "IA para ia para planilhas são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ia para planilhas."
+        "q": "Como a IA pode ajudar com planilhas no Excel e Google Sheets?",
+        "a": "A IA escreve fórmulas complexas a partir de descrições em português, limpa e organiza dados automaticamente, cria gráficos com base em solicitações textuais, identifica erros e anomalias e explica funções que você não conhece."
     },
     {
-        "q": "Para que serve a inteligência artificial em ia para planilhas?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ia para planilhas."
+        "q": "Qual a melhor ferramenta de IA para trabalhar com planilhas?",
+        "a": "Excelmatic, Julius AI e o ChatGPT com Code Interpreter são os mais usados para análise de planilhas por chat. Para Excel especificamente, o Copilot para Microsoft 365 integra IA diretamente na interface do Excel."
     },
     {
-        "q": "Como funciona uma IA voltada para ia para planilhas?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ia para planilhas."
+        "q": "IA pode escrever fórmulas do Excel para mim?",
+        "a": "Sim. Descreva o que a fórmula precisa fazer em português — 'somar valores da coluna B onde a coluna A contém o texto São Paulo' — e ferramentas como Formula Bot, ChatGPT ou o Copilot do Excel geram a fórmula correta imediatamente."
     },
     {
-        "q": "Qual a melhor IA para ia para planilhas em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ia para planilhas."
+        "q": "É possível analisar planilhas grandes com IA sem programar?",
+        "a": "Sim. Julius AI e ChatGPT com Code Interpreter permitem fazer upload de planilhas CSV ou Excel e fazer perguntas em linguagem natural — 'qual produto teve maior crescimento em março?' — recebendo análises, gráficos e insights sem escrever código."
     },
     {
-        "q": "IA para ia para planilhas é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Como usar IA para criar dashboards no Google Sheets?",
+        "a": "Descreva o dashboard desejado ao Claude ou ChatGPT com o contexto das suas planilhas. A IA sugere a estrutura, as fórmulas necessárias, os tipos de gráfico mais adequados e até gera o script Apps Script para automatizar atualizações."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para ia para planilhas já oferece suporte completo ou parcial ao idioma português."
+        "q": "IA pode limpar e organizar dados bagunçados em planilhas?",
+        "a": "Sim. Com Code Interpreter ou ferramentas como Akkio, você faz upload da planilha com dados sujos — formatação inconsistente, células vazias, duplicatas — e a IA aplica regras de limpeza, padroniza formatos e exporta a versão tratada."
     },
     {
-        "q": "É seguro usar IA para ia para planilhas?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "Como usar Google Sheets com IA (Gemini) integrado?",
+        "a": "Gemini for Google Workspace integra IA diretamente no Google Sheets. Você pode pedir 'crie uma tabela de controle de estoque com as colunas X, Y, Z' ou 'analise essa planilha e me diga quais vendedores estão abaixo da meta' diretamente na interface."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de ia para planilhas?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "IA pode criar macros e scripts VBA para Excel automaticamente?",
+        "a": "Sim. Descreva a automação desejada em português e o ChatGPT, Claude ou Copilot geram o código VBA completo para você copiar e executar no Excel — mesmo sem conhecimento prévio de programação."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para ia para planilhas é a facilidade de uso via interface intuitiva."
+        "q": "Como usar IA para previsões e projeções em planilhas?",
+        "a": "Com Julius AI ou o ChatGPT com Code Interpreter, faça upload do histórico de dados e peça previsões: 'projeto a receita dos próximos 6 meses com base nessa série temporal'. A IA aplica modelos estatísticos e explica as premissas."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para ia para planilhas?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Ferramentas de IA para planilhas funcionam com dados em português?",
+        "a": "Sim. As principais ferramentas reconhecem nomes de meses em português, formatos de datas e números brasileiros (vírgula como separador decimal). Verifique a configuração regional ao importar planilhas para evitar erros de interpretação."
     },
     {
-        "q": "Principais vantagens da IA em ia para planilhas",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ia para planilhas."
+        "q": "É possível conectar planilhas com IAs para atualização automática?",
+        "a": "Sim. Com n8n, Make ou o Google Apps Script, você cria automações que atualizam planilhas automaticamente: dados de CRM, vendas do e-commerce, métricas de redes sociais — tudo consolidado sem trabalho manual."
     },
     {
-        "q": "Desvantagens de usar IA para ia para planilhas",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de ia para planilhas?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ia para planilhas."
-    },
-    {
-        "q": "IA para ia para planilhas para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ia para planilhas."
-    },
-    {
-        "q": "Ferramentas de ia para planilhas para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para ia para planilhas para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ia para planilhas."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para ia para planilhas",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ia para planilhas."
-    },
-    {
-        "q": "Como aprender a usar IA para ia para planilhas?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de ia para planilhas",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ia para planilhas que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para ia para planilhas?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ia para planilhas."
-    },
-    {
-        "q": "Existe IA gratuita para ia para planilhas?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de ia para planilhas?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ia para planilhas."
-    },
-    {
-        "q": "Como automatizar processos de ia para planilhas com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para ia para planilhas funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de ia para planilhas",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para ia para planilhas é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ia para planilhas é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de ia para planilhas coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para ia para planilhas?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ia para planilhas."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de ia para planilhas?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Quanto custa usar IA para trabalhar com planilhas?",
+        "a": "Julius AI tem plano gratuito com limitações e planos pagos a partir de US$20/mês. Excelmatic oferece 10 análises gratuitas. ChatGPT Plus (R$100/mês) com Code Interpreter é uma opção versátil para planilhas e muitas outras tarefas."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ia Para Planilhas</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Planilhas</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

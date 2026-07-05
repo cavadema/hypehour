@@ -1,71 +1,29 @@
-"use client";
-
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
-import { useState } from "react";
-
 export default function ExpandableContent() {
-    const [isExpanded, setIsExpanded] = useState(false);
-
     return (
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    As <strong>ferramentas de IA para desenvolvedores</strong> estão revolucionando o desenvolvimento de software. A <strong>IA para desenvolvimento de software</strong> oferece assistentes inteligentes que aceleram a codificação, automatizam testes, revisam código e aumentam a produtividade de programadores em todas as linguagens.
+                    As <strong>ferramentas de IA para desenvolvedores</strong> transformaram o desenvolvimento de software — de autocompletar código a agentes que implementam features inteiras autonomamente. Com <strong>Cursor, GitHub Copilot e Claude como pair programmer</strong>, desenvolvedores brasileiros aumentam produtividade em 30 a 55%, reduzem tempo em debugging e geração de boilerplate, e conseguem navegar em bases de código desconhecidas com muito mais confiança.
                 </p>
-
-
-                    <p className="mb-4">
-                        Encontrar a <strong>melhor IA para desenvolvedores</strong> pode transformar completamente seu fluxo de trabalho. As <strong>melhores IA para desenvolvedores</strong> incluem assistentes de código como GitHub Copilot, Cursor, Codeium e outras ferramentas especializadas que entendem contexto, sugerem soluções e até geram funções completas.
-                    </p>
-
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
-                    <h3 className="font-semibold text-lg mb-3 text-gray-900">Como Usar IA para Desenvolvedores no Dia a Dia</h3>
-
-                    <ul className="space-y-3 mb-4">
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Autocompletar Inteligente:</strong> As melhores IA para desenvolvedores oferecem sugestões de código em tempo real baseadas no contexto do projeto e padrões de programação.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Geração de Código:</strong> IA para desenvolvimento de software pode gerar funções, classes e até módulos completos a partir de descrições em linguagem natural.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Revisão Automatizada:</strong> Ferramentas de IA para desenvolvedores analisam código, identificam bugs, vulnerabilidades de segurança e sugerem melhorias de performance.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Documentação Automática:</strong> A melhor IA para desenvolvedores gera documentação clara e atualizada automaticamente a partir do código-fonte.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Testes Inteligentes:</strong> IA para desenvolvimento de software cria casos de teste, identifica edge cases e automatiza testes unitários e de integração.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Refatoração Assistida:</strong> Ferramentas de IA para desenvolvedores sugerem melhorias arquiteturais e refatoram código mantendo funcionalidade e adicionando melhores práticas.</span>
-                        </li>
-                    </ul>
-
-                    <p className="mb-4">
-                        A <strong>IA para desenvolvedores</strong> não substitui programadores, mas amplifica suas capacidades. Ao usar as <strong>melhores IA para desenvolvedores</strong>, você pode focar em arquitetura, lógica de negócio e inovação, enquanto a IA cuida de tarefas repetitivas e boilerplate.
-                    </p>
-
-                    <p>
-                        Explore as <strong>ferramentas de IA para desenvolvedores</strong> listadas abaixo e descubra como a <strong>IA para desenvolvimento de software</strong> pode acelerar seus projetos, melhorar a qualidade do código e aumentar sua produtividade diária.
-                    </p>
-                </div>
+                <p className="mb-4">
+                    O <strong>desenvolvedor que domina IA como ferramenta</strong> em 2026 não é substituído — ele se torna exponencialmente mais produtivo. A chave está em saber quando confiar na sugestão da IA, quando questionar e quando reescrever do zero. Desenvolvedores seniores usam IA para multiplicar seu output; os que ignoram essas ferramentas ficam progressivamente em desvantagem competitiva no mercado.
+                </p>
             </div>
-
-            <button
-                onClick={() => setIsExpanded(!isExpanded)}
-                className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors"
-                aria-expanded={isExpanded}
-            >
-                <span>{isExpanded ? 'Ver menos' : 'Ver mais'}</span>
-                <ChevronDownIcon className={`w-5 h-5 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} />
-            </button>
+            <details className="group">
+                <summary className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors cursor-pointer list-none">
+                    <span>Ver mais</span>
+                    <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
+                </summary>
+                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Desenvolvedores Usam IA para Ser mais Produtivos</h3>
+                <ul className="space-y-3 mb-4">
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Completions inteligentes:</strong> GitHub Copilot e Cursor sugerem linhas e blocos de código em contexto, acelerando a escrita especialmente em código repetitivo e boilerplate.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Refatoração assistida:</strong> Cursor em modo Agent pode analisar um arquivo ou módulo inteiro e propor refatorações consistentes em toda a base de código, algo que levaria horas manualmente.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Geração de testes:</strong> Cole uma função e peça ao Claude para gerar testes unitários com casos de borda — economiza uma das tarefas mais tediosas do desenvolvimento.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Revisão de código:</strong> Antes de criar um PR, peça ao Claude para revisar o diff buscando bugs, vulnerabilidades de segurança e oportunidades de melhoria de performance.</span></li>
+                </ul>
+                <p>Explore as ferramentas de IA para desenvolvedores listadas abaixo e escolha as que melhor se encaixam no seu stack, fluxo de trabalho e objetivos de carreira.</p>
+            </details>
         </div>
     );
 }

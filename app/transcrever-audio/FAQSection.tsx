@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para transcrever audio?",
-        "a": "IA para transcrever audio são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a transcrever audio."
+        "q": "O que são ferramentas de IA para transcrição de áudio?",
+        "a": "São sistemas que usam modelos de reconhecimento de fala (ASR) com inteligência artificial para converter automaticamente arquivos de áudio e vídeo em texto — com velocidade e precisão muito superiores à transcrição manual."
     },
     {
-        "q": "Para que serve a inteligência artificial em transcrever audio?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de transcrever audio."
+        "q": "Quais as melhores ferramentas de IA para transcrever áudio em português?",
+        "a": "Whisper da OpenAI (open source) tem excelente qualidade em português brasileiro. TurboScribe, Otter.ai, Speechma e Descript oferecem versões pagas com recursos adicionais como identificação de falantes, resumo automático e edição por texto."
     },
     {
-        "q": "Como funciona uma IA voltada para transcrever audio?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de transcrever audio."
+        "q": "O Whisper da OpenAI é gratuito para transcrição em português?",
+        "a": "Sim. O Whisper é open source e pode ser rodado localmente de graça. Há interfaces como Whisper.cpp e aplicativos como MacWhisper que facilitam o uso sem linha de comando. Para uso via API OpenAI, o custo é de US$0,006 por minuto — muito acessível."
     },
     {
-        "q": "Qual a melhor IA para transcrever audio em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de transcrever audio."
+        "q": "Qual a precisão de ferramentas de IA para transcrição em português do Brasil?",
+        "a": "Ferramentas modernas como Whisper large-v3 e modelos treinados especificamente para português atingem taxas de erro de palavra (WER) abaixo de 10% em áudios com boa qualidade de som. Em áudio com ruído intenso ou sotaques muito regionais, a precisão reduz."
     },
     {
-        "q": "IA para transcrever audio é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Como transcrever um podcast ou vídeo de YouTube automaticamente?",
+        "a": "Use ferramentas como TurboScribe, Speechma ou a API do Whisper para fazer upload do arquivo ou link do vídeo. Em minutos você recebe a transcrição completa em texto, que pode ser editada, formatada e usada como base para legendas ou conteúdo escrito."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para transcrever audio já oferece suporte completo ou parcial ao idioma português."
+        "q": "Ferramentas de transcrição com IA conseguem identificar diferentes falantes?",
+        "a": "Sim, por meio da tecnologia de diarização de falantes. Ferramentas como Fireflies.ai, Otter.ai e Descript identificam automaticamente diferentes vozes e atribuem cada trecho ao falante correspondente — especialmente útil para transcrição de entrevistas e podcasts."
     },
     {
-        "q": "É seguro usar IA para transcrever audio?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "É possível transcrever áudios do WhatsApp com IA?",
+        "a": "Sim. Ferramentas como Speechma e Transkriptor permitem fazer upload de áudios do WhatsApp. Para volume maior, é possível usar a API do Whisper em automações com n8n ou Make para transcrever automaticamente todos os áudios recebidos."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de transcrever audio?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "Quanto tempo leva para transcrever 1 hora de áudio com IA?",
+        "a": "Com ferramentas modernas, 1 hora de áudio é transcrita em 2 a 10 minutos, dependendo da ferramenta e do modelo usado. A API do Whisper transcreve em aproximadamente 1/6 do tempo de áudio original em servidores rápidos."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para transcrever audio é a facilidade de uso via interface intuitiva."
+        "q": "IA pode gerar legendas (SRT, VTT) para vídeos automaticamente?",
+        "a": "Sim. Descript, CapCut, VEED.io e ferramentas de transcrição como TurboScribe exportam automaticamente legendas em formato SRT ou VTT sincronizadas com o vídeo — prontas para importar no YouTube, Premiere ou DaVinci Resolve."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para transcrever audio?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Como usar transcrição de IA para criar conteúdo de texto a partir de vídeos?",
+        "a": "Transcreva o vídeo, cole no ChatGPT ou Claude e peça para transformar em artigo, post de blog, thread do Twitter ou newsletter — mantendo as ideias principais mas adaptando o formato para o meio de texto. É um dos fluxos de repurposing mais eficientes."
     },
     {
-        "q": "Principais vantagens da IA em transcrever audio",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de transcrever audio."
+        "q": "Ferramentas de transcrição de IA são seguras para áudios confidenciais?",
+        "a": "Para entrevistas confidenciais, reuniões estratégicas ou dados sensíveis, use o Whisper rodando localmente — o áudio não sai do seu computador. Serviços online têm termos de uso variáveis sobre retenção de dados; leia antes de usar para conteúdo sensível."
     },
     {
-        "q": "Desvantagens de usar IA para transcrever audio",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de transcrever audio?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em transcrever audio."
-    },
-    {
-        "q": "IA para transcrever audio para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em transcrever audio."
-    },
-    {
-        "q": "Ferramentas de transcrever audio para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para transcrever audio para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de transcrever audio."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para transcrever audio",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para transcrever audio."
-    },
-    {
-        "q": "Como aprender a usar IA para transcrever audio?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de transcrever audio",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de transcrever audio que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para transcrever audio?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para transcrever audio."
-    },
-    {
-        "q": "Existe IA gratuita para transcrever audio?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de transcrever audio?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em transcrever audio."
-    },
-    {
-        "q": "Como automatizar processos de transcrever audio com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para transcrever audio funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de transcrever audio",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para transcrever audio é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de transcrever audio é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de transcrever audio coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para transcrever audio?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em transcrever audio."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de transcrever audio?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Como melhorar a qualidade da transcrição automática em português?",
+        "a": "Grave com microfone de boa qualidade, ambiente silencioso, fale em velocidade normal e evite muitos falantes simultâneos. Para áudios existentes com ruído, use ferramentas de limpeza de áudio como Adobe Enhance Speech antes de transcrever."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Transcrever Audio</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Transcrição de Áudio com IA</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

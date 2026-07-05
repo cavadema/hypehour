@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para eventos ia?",
-        "a": "IA para eventos ia são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a eventos ia."
+        "q": "Quais são os maiores eventos de IA no Brasil em 2026?",
+        "a": "AI Summit São Paulo, CPBR (Campus Party Brasil), The Developer's Conference com trilha de IA, BrazilJS com conteúdo de IA e eventos regionais organizados por grupos de Machine Learning Brasil são os principais do calendário nacional."
     },
     {
-        "q": "Para que serve a inteligência artificial em eventos ia?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de eventos ia."
+        "q": "Quais eventos internacionais de IA são referência mundial?",
+        "a": "NeurIPS, ICML e ICLR são as conferências acadêmicas de maior prestígio. Para o lado prático e de negócios, o AI Summit Global (Londres/Nova York), Davos Tech Summit e VivaTech Paris movimentam a indústria."
     },
     {
-        "q": "Como funciona uma IA voltada para eventos ia?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de eventos ia."
+        "q": "Existem eventos de IA online e gratuitos para brasileiros?",
+        "a": "Sim. Lives do MIT OpenCourseWare, eventos do AI Safety Institute, webinars da Anthropic e OpenAI, além de meetups virtuais da comunidade ML Brasil no Discord e YouTube são gratuitos e muito acessíveis."
     },
     {
-        "q": "Qual a melhor IA para eventos ia em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de eventos ia."
+        "q": "Vale a pena ir a conferências de IA presencialmente?",
+        "a": "Para networking, exposição a pesquisas de ponta e conexão com empresas e investidores, o presencial é insubstituível. As sessões de corredor e as demos ao vivo criam oportunidades que vídeos gravados não oferecem."
     },
     {
-        "q": "IA para eventos ia é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Como submeter um paper para conferências como NeurIPS ou ICLR?",
+        "a": "Submeta um artigo original com experimentos reproduzíveis através dos sistemas de submissão de cada conferência. O processo inclui revisão por pares duplo-cego e as datas de submissão costumam ser 6 a 9 meses antes do evento."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para eventos ia já oferece suporte completo ou parcial ao idioma português."
+        "q": "Existem eventos de IA focados em negócios e empreendedorismo?",
+        "a": "Sim. AI for Business, eventos da ABII (Associação Brasileira de Inteligência Artificial Aplicada), encontros de corporate venture e tracks de IA em eventos de startups como CASE e Futurecom atendem esse público."
     },
     {
-        "q": "É seguro usar IA para eventos ia?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "Como se manter atualizado entre eventos de IA?",
+        "a": "Assine newsletters como TLDR AI e The Batch (DeepLearning.AI), acompanhe os canais do YouTube das principais conferências, siga pesquisadores no Twitter/X e participe de reading groups online."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de eventos ia?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "Hackathons de IA são bons para quem está aprendendo?",
+        "a": "Excelentes. Hackathons criam projetos reais sob pressão de tempo, conectam você a outros desenvolvedores e podem gerar portfólio relevante. Muitos projetos vencedores de hackathons de IA se tornam startups."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para eventos ia é a facilidade de uso via interface intuitiva."
+        "q": "Como conseguir ingressos gratuitos ou bolsas para conferências de IA?",
+        "a": "NeurIPS, ICML e ICLR oferecem programas de bolsas para estudantes e pesquisadores de países em desenvolvimento. Empresas como Google, Microsoft e Hugging Face frequentemente patrocinam participação de comunidades sub-representadas."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para eventos ia?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Onde encontrar eventos de IA perto de mim no Brasil?",
+        "a": "Meetup.com, Sympla, grupos de ML Brasil no LinkedIn e Discord, e páginas de departamentos de ciência da computação das universidades federais são os melhores canais para encontrar eventos locais."
     },
     {
-        "q": "Principais vantagens da IA em eventos ia",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de eventos ia."
+        "q": "Eventos de IA aceitam palestrantes iniciantes?",
+        "a": "Muitos eventos menores e meetups buscam ativamente palestrantes locais para compartilhar experiências práticas. Não é necessário ser pesquisador sênior — casos de uso reais do mundo do trabalho são muito bem-vindos."
     },
     {
-        "q": "Desvantagens de usar IA para eventos ia",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de eventos ia?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em eventos ia."
-    },
-    {
-        "q": "IA para eventos ia para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em eventos ia."
-    },
-    {
-        "q": "Ferramentas de eventos ia para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para eventos ia para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de eventos ia."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para eventos ia",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para eventos ia."
-    },
-    {
-        "q": "Como aprender a usar IA para eventos ia?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de eventos ia",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de eventos ia que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para eventos ia?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para eventos ia."
-    },
-    {
-        "q": "Existe IA gratuita para eventos ia?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de eventos ia?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em eventos ia."
-    },
-    {
-        "q": "Como automatizar processos de eventos ia com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para eventos ia funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de eventos ia",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para eventos ia é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de eventos ia é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de eventos ia coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para eventos ia?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em eventos ia."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de eventos ia?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Como um evento de IA pode ajudar minha empresa a adotar IA?",
+        "a": "Eventos permitem conhecer fornecedores, ver demos ao vivo de tecnologias, aprender com cases de empresas similares e conectar com consultores especializados — comprimindo meses de pesquisa em dias."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Eventos Ia</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Eventos de IA</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

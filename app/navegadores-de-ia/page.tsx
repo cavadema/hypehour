@@ -3,7 +3,7 @@ import ComparativoFerramentas from "./ComparativoFerramentas";
 import ComoEscolher from "./ComoEscolher";
 import ProTips from "./ProTips";
 import ExpandableContent from "./ExpandableContent";
-import { GlobeAltIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
+import { GlobeAltIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
 const navegadores = [
@@ -96,9 +96,11 @@ export const metadata = {
 export default function NavegadoresDeIA() {
   return (
     <main className="max-w-6xl mx-auto py-10 px-4">
-      <Link href="/" className="inline-flex items-center gap-2 text-black hover:underline mb-8">
-        <ArrowLeftIcon className="w-5 h-5" /> Voltar para a home
-      </Link>
+      <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6" aria-label="Breadcrumb">
+        <Link href="/" className="hover:text-black transition-colors">Home</Link>
+        <span>/</span>
+        <span className="text-black font-medium">Navegadores de IA</span>
+      </nav>
       <div className="flex items-center gap-3 mb-8">
         <GlobeAltIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">Navegadores de IA</h1>

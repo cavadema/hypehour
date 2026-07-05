@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para ia para jogos?",
-        "a": "IA para ia para jogos são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ia para jogos."
+        "q": "Como a IA está sendo usada no desenvolvimento de jogos?",
+        "a": "A IA acelera criação de assets (sprites, texturas, concept art), geração de código para mecânicas de jogo, criação de diálogos de NPCs, composição de trilhas sonoras, level design procedural e testes automatizados de qualidade."
     },
     {
-        "q": "Para que serve a inteligência artificial em ia para jogos?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ia para jogos."
+        "q": "Qual a diferença entre IA no jogo (NPCs inteligentes) e IA para desenvolver jogos?",
+        "a": "IA dentro do jogo controla comportamento de personagens, dificuldade adaptativa e geração de conteúdo em tempo real. IA para desenvolvimento de jogos são ferramentas usadas pelos desenvolvedores para criar o jogo mais rapidamente e com menos recursos."
     },
     {
-        "q": "Como funciona uma IA voltada para ia para jogos?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ia para jogos."
+        "q": "Quais ferramentas de IA são mais usadas por game developers?",
+        "a": "Stable Diffusion e Midjourney para arte conceitual e assets 2D/3D, Meshy e Luma AI para geração de modelos 3D, GitHub Copilot e Cursor para código de jogo, Suno e Udio para trilhas sonoras, e Convai para NPCs com diálogo com IA."
     },
     {
-        "q": "Qual a melhor IA para ia para jogos em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ia para jogos."
+        "q": "É possível criar um jogo completo usando apenas IA?",
+        "a": "Jogos simples 2D já foram criados quase inteiramente com IA por desenvolvedores solo. Jogos mais complexos ainda exigem curadoria humana significativa — mas a IA reduz drasticamente o tempo e custo de produção de assets, código boilerplate e documentação."
     },
     {
-        "q": "IA para ia para jogos é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Como usar IA para gerar assets de jogo (sprites, texturas, ícones)?",
+        "a": "Leonardo AI tem ferramentas específicas para game assets com estilos consistentes. Stable Diffusion com treinamento de LoRA permite manter coerência visual entre personagens e ambientes. Adobe Firefly gera assets com licença comercial clara."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para ia para jogos já oferece suporte completo ou parcial ao idioma português."
+        "q": "IA pode gerar música e efeitos sonoros para jogos?",
+        "a": "Sim. Suno AI e Udio geram trilhas musicais completas para qualquer gênero de jogo (RPG, ação, horror, puzzle). Soundraw permite criar loops musicais adaptáveis. ElevenLabs gera vozes de personagens a partir de texto."
     },
     {
-        "q": "É seguro usar IA para ia para jogos?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "Como criar NPCs com diálogo dinâmico e inteligente usando IA?",
+        "a": "Convai, Inworld AI e APIs do ChatGPT permitem criar NPCs que respondem dinamicamente às perguntas dos jogadores em linguagem natural, em vez de seguir apenas árvores de diálogo pré-programadas — criando experiências muito mais imersivas."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de ia para jogos?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "IA pode ajudar no level design de jogos?",
+        "a": "Sim. Algoritmos de level design procedural com IA geram mapas, dungeons e mundos abertos com regras de design definidas. Unity e Unreal Engine têm plugins de IA para geração de terreno, vegetação e estruturas automaticamente."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para ia para jogos é a facilidade de uso via interface intuitiva."
+        "q": "Como usar IA para testar jogos automaticamente?",
+        "a": "Agentes de IA podem jogar o jogo autonomamente, explorando todas as áreas, tentando quebrar mecânicas e identificando bugs — processo que com QA humano levaria semanas. GameBench e ferramentas custom com LangChain são usados para isso."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para ia para jogos?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Game engines como Unity e Unreal têm suporte nativo a IA?",
+        "a": "Sim. Unity tem o Muse AI integrado para geração de assets e código. Unreal tem ferramentas de IA para geração de conteúdo e animação. Ambas têm ecossistema crescente de plugins de terceiros que integram modelos de IA."
     },
     {
-        "q": "Principais vantagens da IA em ia para jogos",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ia para jogos."
+        "q": "Qual o impacto da IA nos custos de desenvolvimento de jogos indie?",
+        "a": "Significativo. Desenvolvedores solo e pequenos estúdios indie usam IA para produzir arte, música e código que antes exigiria uma equipe multidisciplinar. Estimativas indicam redução de 30 a 70% no custo de produção de assets para jogos indie."
     },
     {
-        "q": "Desvantagens de usar IA para ia para jogos",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de ia para jogos?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ia para jogos."
-    },
-    {
-        "q": "IA para ia para jogos para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ia para jogos."
-    },
-    {
-        "q": "Ferramentas de ia para jogos para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para ia para jogos para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ia para jogos."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para ia para jogos",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ia para jogos."
-    },
-    {
-        "q": "Como aprender a usar IA para ia para jogos?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de ia para jogos",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ia para jogos que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para ia para jogos?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ia para jogos."
-    },
-    {
-        "q": "Existe IA gratuita para ia para jogos?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de ia para jogos?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ia para jogos."
-    },
-    {
-        "q": "Como automatizar processos de ia para jogos com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para ia para jogos funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de ia para jogos",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para ia para jogos é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ia para jogos é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de ia para jogos coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para ia para jogos?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ia para jogos."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de ia para jogos?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Como criar modelos 3D para jogos usando IA?",
+        "a": "Meshy AI e Luma AI geram modelos 3D a partir de fotos ou descrições em texto. Kaedim transforma concept art 2D em modelos 3D. Point-E da OpenAI permite geração de point clouds 3D. A qualidade ainda requer refinamento humano para uso em jogos AAA."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ia Para Jogos</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Desenvolvimento de Jogos</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

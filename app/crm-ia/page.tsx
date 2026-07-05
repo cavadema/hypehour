@@ -1,10 +1,12 @@
-import { UserGroupIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
+import { UserGroupIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 import FAQSection from "./FAQSection";
 import ComparativoFerramentas from "./ComparativoFerramentas";
 import ComoEscolher from "./ComoEscolher";
 import ProTips from "./ProTips";
+import CategoryPageSchema from "@/app/components/CategoryPageSchema";
+import ToolCard from "@/app/components/ToolCard";
 
 const ferramentas = [
   { nome: "Rings AI", url: "https://www.rings.ai/", descricao: "Plataforma de XRM para gestão de contatos e pipelines com insights baseados em IA." },
@@ -46,9 +48,11 @@ export const metadata = {
 export default function CRMIAPage() {
   return (
     <main className="max-w-6xl mx-auto py-10 px-4">
-      <Link href="/" className="inline-flex items-center gap-2 text-black hover:underline mb-8">
-        <ArrowLeftIcon className="w-5 h-5" /> Voltar para a home
-      </Link>
+      <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6" aria-label="Breadcrumb">
+        <Link href="/" className="hover:text-black transition-colors">Home</Link>
+        <span>/</span>
+        <span className="text-black font-medium">IA para CRM</span>
+      </nav>
 
       <div className="flex items-center gap-3 mb-8">
         <UserGroupIcon className="w-10 h-10 text-gray-900" />
@@ -57,16 +61,7 @@ export default function CRMIAPage() {
       <ExpandableContent />
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((ferramenta) => (
-          <a
-            key={ferramenta.nome}
-            href={ferramenta.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100"
-          >
-            <h2 className="font-semibold text-lg mb-1">{ferramenta.nome}</h2>
-            <div className="text-gray-500 text-sm">{ferramenta.descricao}</div>
-          </a>
+          <ToolCard key={ferramenta.nome} nome={ferramenta.nome} url={ferramenta.url} descricao={ferramenta.descricao} />
         ))}
       </div>
       <div className="mt-12">
@@ -75,6 +70,13 @@ export default function CRMIAPage() {
       <ComoEscolher />
       <ProTips />
       <FAQSection />
+
+      <CategoryPageSchema
+        title="CRM com IA"
+        description="Ferramentas de CRM com inteligência artificial para gerenciar vendas, leads e relacionamento com clientes."
+        canonicalUrl="https://www.hypehour.com.br/crm-ia"
+        ferramentas={ferramentas}
+      />
     </main>
   );
 }

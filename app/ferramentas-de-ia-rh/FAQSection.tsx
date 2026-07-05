@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para ferramentas de ia rh?",
-        "a": "IA para ferramentas de ia rh são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ferramentas de ia rh."
+        "q": "Quais ferramentas de IA para RH são mais usadas no Brasil?",
+        "a": "Gupy e Kenoby lideram em recrutamento e seleção no mercado brasileiro, com IA para triagem de currículos e testes online. Para gestão de desempenho, Qulture.Rocks e Feedz têm forte adoção. Internacionalmente, Workday AI, SAP SuccessFactors e Factorial também são utilizados por empresas brasileiras de médio e grande porte."
     },
     {
-        "q": "Para que serve a inteligência artificial em ferramentas de ia rh?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ferramentas de ia rh."
+        "q": "Como a IA pode reduzir o tempo de contratação no RH?",
+        "a": "IA automatiza as etapas mais demoradas: triagem de currículos (de dias para minutos), agendamento automático de entrevistas via chatbot, aplicação e correção de testes técnicos online e ranqueamento de candidatos. Times de RH que adotam IA relatam redução de 40% a 60% no tempo médio de contratação (time-to-hire)."
     },
     {
-        "q": "Como funciona uma IA voltada para ferramentas de ia rh?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ferramentas de ia rh."
+        "q": "IA no RH cria viés nos processos seletivos?",
+        "a": "Depende de como é implementada. IA treinada em dados históricos pode perpetuar vieses existentes. Ferramentas modernas como Pymetrics e ferramentas com IA explicável mitigam isso anonimizando candidatos, usando dados comportamentais em vez de currículos e auditando regularmente os resultados por diversidade. É essencial monitorar os outputs."
     },
     {
-        "q": "Qual a melhor IA para ferramentas de ia rh em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ferramentas de ia rh."
+        "q": "O que é análise preditiva de turnover e como funciona?",
+        "a": "É o uso de IA para identificar colaboradores com alta probabilidade de pedir demissão antes que isso aconteça. O modelo analisa dados como frequência de ausências, resultados de pesquisas de clima, tempo na função, ciclos de promoção, comparativo salarial e mudanças no padrão de comportamento para gerar um score de risco individual."
     },
     {
-        "q": "IA para ferramentas de ia rh é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Como usar IA para onboarding de novos colaboradores?",
+        "a": "Chatbots treinados na base de conhecimento da empresa respondem dúvidas dos recém-chegados 24/7 sobre benefícios, políticas e processos. Plataformas como Workleap Onboard e BambooHR criam trilhas de onboarding personalizadas por cargo, departamento e localidade — aumentando o engajamento e reduzindo o tempo para plena produtividade."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para ferramentas de ia rh já oferece suporte completo ou parcial ao idioma português."
+        "q": "IA pode ajudar na gestão de desempenho e avaliações 360?",
+        "a": "Sim. Ferramentas como Lattice, Leapsome e Qulture.Rocks usam IA para analisar feedbacks em texto livre, identificar padrões de alto e baixo desempenho, sugerir planos de desenvolvimento individualizados e eliminar o viés do avaliador (halo effect, recency bias) por meio de análises baseadas em dados longitudinais."
     },
     {
-        "q": "É seguro usar IA para ferramentas de ia rh?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "Como ferramentas de IA ajudam no planejamento de sucessão?",
+        "a": "Eightfold AI e ferramentas similares mapeiam todas as competências dos colaboradores, identificam automaticamente os melhores candidatos internos para cada posição de liderança e cruzam com planos de carreira. Isso transforma sucessão de um exercício manual e subjetivo em um processo orientado a dados e meritocrático."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de ferramentas de ia rh?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "IA pode ajudar a personalizar benefícios e remuneração?",
+        "a": "Sim. Ferramentas como Mercer e Willis Towers Watson usam IA para analisar dados de mercado e recomendar faixas salariais competitivas por cargo, região e setor. Algumas plataformas permitem que colaboradores personalizem seus pacotes de benefícios dentro de um orçamento fixo, com IA sugerindo composições com base em perfil demográfico."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para ferramentas de ia rh é a facilidade de uso via interface intuitiva."
+        "q": "Como a LGPD afeta o uso de IA em processos de RH no Brasil?",
+        "a": "A LGPD exige base legal para coletar e processar dados de candidatos e colaboradores, transparência sobre decisões automatizadas que afetam a relação de trabalho e o direito de revisão humana de decisões tomadas por IA. Ferramentas de RH com IA devem ter DPA (Data Processing Agreement) e processar dados preferencialmente em servidores no Brasil ou com adequação LGPD."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para ferramentas de ia rh?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Quais tarefas administrativas de RH a IA pode automatizar completamente?",
+        "a": "Agendamento e reagendamento de entrevistas, resposta a dúvidas frequentes de colaboradores, geração de contratos e cartas oferta, cálculo e validação de férias e horas extras, processamento de documentos de admissão e demissão, e envio de lembretes de avaliações e treinamentos obrigatórios são tarefas altamente automatizáveis com IA."
     },
     {
-        "q": "Principais vantagens da IA em ferramentas de ia rh",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ferramentas de ia rh."
+        "q": "Como medir o ROI de ferramentas de IA no RH?",
+        "a": "Os principais indicadores são: redução no custo por contratação (CPH), diminuição no tempo de preenchimento de vagas (time-to-fill), queda na taxa de turnover nos primeiros 90 dias, aumento no eNPS (Employee Net Promoter Score) e horas de trabalho administrativo economizadas por mês. A maioria das empresas atinge ROI positivo em 6 a 12 meses."
     },
     {
-        "q": "Desvantagens de usar IA para ferramentas de ia rh",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de ferramentas de ia rh?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ferramentas de ia rh."
-    },
-    {
-        "q": "IA para ferramentas de ia rh para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ferramentas de ia rh."
-    },
-    {
-        "q": "Ferramentas de ferramentas de ia rh para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para ferramentas de ia rh para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ferramentas de ia rh."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para ferramentas de ia rh",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ferramentas de ia rh."
-    },
-    {
-        "q": "Como aprender a usar IA para ferramentas de ia rh?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de ferramentas de ia rh",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ferramentas de ia rh que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para ferramentas de ia rh?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ferramentas de ia rh."
-    },
-    {
-        "q": "Existe IA gratuita para ferramentas de ia rh?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de ferramentas de ia rh?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ferramentas de ia rh."
-    },
-    {
-        "q": "Como automatizar processos de ferramentas de ia rh com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para ferramentas de ia rh funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de ferramentas de ia rh",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para ferramentas de ia rh é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ferramentas de ia rh é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de ferramentas de ia rh coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para ferramentas de ia rh?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ferramentas de ia rh."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de ferramentas de ia rh?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "IA para RH é viável para pequenas e médias empresas?",
+        "a": "Sim. Ferramentas como Factorial, Gupy e Tangerino têm planos acessíveis pensados para PMEs. Chatbots com ChatGPT API para responder dúvidas de colaboradores custam menos de R$200/mês para configurar. O Notion AI pode estruturar documentação de RH e políticas. A barreira de entrada caiu drasticamente nos últimos dois anos."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ferramentas De Ia Rh</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ferramentas de IA para RH</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

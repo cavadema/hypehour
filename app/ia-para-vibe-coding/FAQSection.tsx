@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para ia para vibe coding?",
-        "a": "IA para ia para vibe coding são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ia para vibe coding."
+        "q": "O que é vibe coding?",
+        "a": "Vibe coding é a prática de construir aplicativos e sistemas descrevendo o que você quer em linguagem natural e deixando a IA gerar e iterar o código — com mínima ou nenhuma escrita manual de código por parte do criador."
     },
     {
-        "q": "Para que serve a inteligência artificial em ia para vibe coding?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ia para vibe coding."
+        "q": "Quais as melhores ferramentas de vibe coding em 2026?",
+        "a": "Bolt.new, Lovable, Replit Agent, Base44, v0 (Vercel) e Cursor em modo Agent são as mais populares. Bolt e Lovable se destacam por gerar aplicações web completas e deployadas a partir de um prompt inicial."
     },
     {
-        "q": "Como funciona uma IA voltada para ia para vibe coding?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ia para vibe coding."
+        "q": "Preciso saber programar para usar ferramentas de vibe coding?",
+        "a": "Não para começar. Ferramentas como Bolt.new e Lovable foram projetadas exatamente para criar aplicações sem código manual. No entanto, conhecimento básico de programação ajuda a direcionar melhor a IA e corrigir problemas quando surgem."
     },
     {
-        "q": "Qual a melhor IA para ia para vibe coding em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ia para vibe coding."
+        "q": "O que dá para construir com vibe coding?",
+        "a": "Landing pages, dashboards de dados, ferramentas internas, MVPs de SaaS, chatbots, formulários complexos, apps mobile simples, integrações de API e até sistemas com banco de dados — muitos projetos reais já foram lançados assim."
     },
     {
-        "q": "IA para ia para vibe coding é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Qual a diferença entre Bolt.new e Lovable?",
+        "a": "Bolt.new é mais técnico e flexível, suportando frameworks diversos com deploy instantâneo. Lovable tem interface mais amigável para não-desenvolvedores, com foco em apps React de qualidade e colaboração visual. Ambos evoluem rapidamente."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para ia para vibe coding já oferece suporte completo ou parcial ao idioma português."
+        "q": "Código gerado por vibe coding é confiável para produção?",
+        "a": "Para MVPs e projetos internos, geralmente sim. Para sistemas em produção com muitos usuários, dados sensíveis ou requisitos de segurança críticos, revisão por um desenvolvedor experiente é necessária antes do lançamento."
     },
     {
-        "q": "É seguro usar IA para ia para vibe coding?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "Como usar Cursor como ferramenta de vibe coding?",
+        "a": "No modo Agent do Cursor, você descreve uma feature ou projeto em linguagem natural e o Cursor navega autonomamente pelo código, cria arquivos, escreve implementações e roda testes — iterando até chegar no resultado desejado."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de ia para vibe coding?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "Quanto custa usar ferramentas de vibe coding?",
+        "a": "Bolt.new e Lovable têm planos gratuitos com créditos limitados e planos pagos a partir de US$20/mês. Replit Agent usa créditos com preço por agente. v0 da Vercel tem generosos créditos gratuitos mensais para geração de componentes."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para ia para vibe coding é a facilidade de uso via interface intuitiva."
+        "q": "Qual o limite do vibe coding? Onde ele falha?",
+        "a": "Sistemas muito complexos com lógica de negócio intrincada, integrações com sistemas legados obscuros e requisitos de performance extrema ainda são difíceis para a IA gerenciar de forma autônoma sem supervisão técnica próxima."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para ia para vibe coding?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Empreendedores não-técnicos conseguem lançar produtos com vibe coding?",
+        "a": "Sim — e muitos já lançaram produtos reais com usuários pagantes usando Bolt, Lovable e Replit Agent. O vibe coding democratizou o acesso ao desenvolvimento de produtos digitais de forma sem precedentes."
     },
     {
-        "q": "Principais vantagens da IA em ia para vibe coding",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ia para vibe coding."
+        "q": "Como iterar rapidamente em um projeto de vibe coding?",
+        "a": "Descreva as mudanças desejadas em termos funcionais ('adicione um botão que exporta a tabela para CSV'), não em termos técnicos. Seja específico sobre o comportamento desejado e use screenshots ou exemplos para comunicar o resultado esperado."
     },
     {
-        "q": "Desvantagens de usar IA para ia para vibe coding",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de ia para vibe coding?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ia para vibe coding."
-    },
-    {
-        "q": "IA para ia para vibe coding para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ia para vibe coding."
-    },
-    {
-        "q": "Ferramentas de ia para vibe coding para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para ia para vibe coding para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ia para vibe coding."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para ia para vibe coding",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ia para vibe coding."
-    },
-    {
-        "q": "Como aprender a usar IA para ia para vibe coding?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de ia para vibe coding",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ia para vibe coding que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para ia para vibe coding?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ia para vibe coding."
-    },
-    {
-        "q": "Existe IA gratuita para ia para vibe coding?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de ia para vibe coding?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ia para vibe coding."
-    },
-    {
-        "q": "Como automatizar processos de ia para vibe coding com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para ia para vibe coding funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de ia para vibe coding",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para ia para vibe coding é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ia para vibe coding é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de ia para vibe coding coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para ia para vibe coding?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ia para vibe coding."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de ia para vibe coding?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Vibe coding vai substituir os desenvolvedores?",
+        "a": "Não no curto prazo. Vai substituir parte do trabalho de implementação rotineira, mas a arquitetura de sistemas, segurança, performance em escala e resolução de bugs complexos ainda requerem expertise técnica humana significativa."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ia Para Vibe Coding</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Vibe Coding com IA</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

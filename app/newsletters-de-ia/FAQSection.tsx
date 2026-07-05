@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para newsletters de ia?",
-        "a": "IA para newsletters de ia são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a newsletters de ia."
+        "q": "Por que assinar newsletters de IA em vez de seguir redes sociais?",
+        "a": "Newsletters curadas filtram o ruído das redes sociais: entregam o conteúdo mais relevante de IA na sua caixa de entrada, com contexto e análise que posts fragmentados não oferecem. São o formato ideal para se manter informado sem passar horas em scroll."
     },
     {
-        "q": "Para que serve a inteligência artificial em newsletters de ia?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de newsletters de ia."
+        "q": "Quais as melhores newsletters de IA em português?",
+        "a": "O Hypehour é referência no Brasil para curadoria de ferramentas de IA. Outras newsletters brasileiras sobre IA incluem as do LinkedIn de criadores como Bruna Vasconcellos e Camilo Lucena, e boletins de veículos como MIT Technology Review Brasil."
     },
     {
-        "q": "Como funciona uma IA voltada para newsletters de ia?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de newsletters de ia."
+        "q": "Quais newsletters de IA em inglês são mais recomendadas?",
+        "a": "TLDR AI (diária, concisa), The Batch de Andrew Ng (DeepLearning.AI), AI Breakfast, The Neuron, Import AI de Jack Clark e Stratechery (com cobertura de IA) são as mais respeitadas por profissionais da área globalmente."
     },
     {
-        "q": "Qual a melhor IA para newsletters de ia em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de newsletters de ia."
+        "q": "Com que frequência chegam boas newsletters de IA?",
+        "a": "Varia muito: TLDR AI é diária e ótima para quem quer um resumo rápido de 5 minutos. The Batch é semanal e mais aprofundada. Algumas são quinzenais ou mensais com análises mais estratégicas. Assine diferentes frequências para cobertura completa."
     },
     {
-        "q": "IA para newsletters de ia é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Como evitar sobrecarga de informação ao assinar múltiplas newsletters de IA?",
+        "a": "Crie uma pasta dedicada no e-mail para newsletters, assine no máximo 3 a 5 publicações de diferentes ângulos (técnico, negócios, aplicações práticas) e revise semanalmente no horário designado — evitando distração constante."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para newsletters de ia já oferece suporte completo ou parcial ao idioma português."
+        "q": "Newsletters de IA são confiáveis como fonte de informação?",
+        "a": "As melhores sim — especialmente as escritas por profissionais com credibilidade estabelecida como Andrew Ng, Jack Clark e Ethan Mollick. Para notícias de última hora, verifique sempre nas fontes primárias antes de compartilhar."
     },
     {
-        "q": "É seguro usar IA para newsletters de ia?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "Existe newsletter de IA focada em negócios e empreendedorismo?",
+        "a": "Sim. Stratechery, Every (especialmente Dan Shipper sobre IA), The AI Business Brief e The Rundown AI focam em oportunidades de negócio, análise de mercado e impacto estratégico da IA para empreendedores e gestores."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de newsletters de ia?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "Como posso criar minha própria newsletter de IA usando IA?",
+        "a": "Configure fluxos de automação com n8n ou Make que coletam artigos de RSS feeds relevantes, processam com GPT-4o para resumo e seleção dos mais relevantes, e formatam para envio pelo Beehiiv, Substack ou ConvertKit automaticamente."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para newsletters de ia é a facilidade de uso via interface intuitiva."
+        "q": "Newsletters de IA cobrem tanto aspectos técnicos quanto práticos?",
+        "a": "Depende do foco de cada publicação. TLDR AI cobre ambos de forma concisa. The Batch tem mais equilíbrio técnico-prático. Para aspectos exclusivamente práticos e de ferramentas, newsletters como o Hypehour e The Rundown AI são mais indicadas."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para newsletters de ia?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Qual newsletter de IA é melhor para acompanhar lançamentos de novas ferramentas?",
+        "a": "The Rundown AI, There's An AI For That e TLDR AI são excelentes para descobrir novas ferramentas de IA. O Hypehour é a referência brasileira para curadoria de ferramentas relevantes para o público lusófono."
     },
     {
-        "q": "Principais vantagens da IA em newsletters de ia",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de newsletters de ia."
+        "q": "Como newsletters de IA podem ajudar no aprendizado contínuo sobre a área?",
+        "a": "Leitura regular de newsletters de qualidade cria um contexto acumulativo sobre tendências, terminologia e casos de uso — muito mais eficiente do que tentar estudar IA de forma sistemática sem uma âncora no que está acontecendo no mundo real."
     },
     {
-        "q": "Desvantagens de usar IA para newsletters de ia",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de newsletters de ia?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em newsletters de ia."
-    },
-    {
-        "q": "IA para newsletters de ia para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em newsletters de ia."
-    },
-    {
-        "q": "Ferramentas de newsletters de ia para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para newsletters de ia para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de newsletters de ia."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para newsletters de ia",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para newsletters de ia."
-    },
-    {
-        "q": "Como aprender a usar IA para newsletters de ia?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de newsletters de ia",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de newsletters de ia que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para newsletters de ia?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para newsletters de ia."
-    },
-    {
-        "q": "Existe IA gratuita para newsletters de ia?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de newsletters de ia?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em newsletters de ia."
-    },
-    {
-        "q": "Como automatizar processos de newsletters de ia com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para newsletters de ia funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de newsletters de ia",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para newsletters de ia é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de newsletters de ia é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de newsletters de ia coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para newsletters de ia?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em newsletters de ia."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de newsletters de ia?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Vale a pena pagar por newsletters premium de IA?",
+        "a": "Newsletters como Stratechery (US$14/mês) e Every (US$20/mês) oferecem análises profundas que justificam o custo para profissionais que dependem de entender o cenário de IA para decisões estratégicas. Para uso casual, as gratuitas cobrem bem."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Newsletters De Ia</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Newsletters de IA</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para automacao ia?",
-        "a": "IA para automacao ia são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a automacao ia."
+        "q": "O que é automação com IA e como difere da automação tradicional?",
+        "a": "Automação com IA vai além de scripts e gatilhos fixos: ela usa modelos de linguagem para tomar decisões, interpretar conteúdo e lidar com variações não previstas — enquanto a automação tradicional falha quando algo foge do padrão."
     },
     {
-        "q": "Para que serve a inteligência artificial em automacao ia?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de automacao ia."
+        "q": "Qual a diferença entre n8n, Make e Zapier?",
+        "a": "Zapier é o mais simples e caro, ideal para quem não tem conhecimento técnico. Make (Makaton) tem fluxos visuais poderosos com bom custo-benefício. n8n é open source, auto-hospedável e mais flexível para desenvolvedores."
     },
     {
-        "q": "Como funciona uma IA voltada para automacao ia?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de automacao ia."
+        "q": "Preciso saber programar para criar automações com IA?",
+        "a": "Com ferramentas como Make e Zapier, não — a maioria das automações é feita arrastando blocos visuais. Para casos mais avançados com n8n ou automações via código, algum conhecimento de JavaScript ou Python ajuda muito."
     },
     {
-        "q": "Qual a melhor IA para automacao ia em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de automacao ia."
+        "q": "O que é possível automatizar com IA em uma pequena empresa?",
+        "a": "Resposta automática a e-mails e mensagens, classificação de leads, geração de propostas personalizadas, postagens em redes sociais, relatórios semanais, alimentação de planilhas e notificações inteligentes são exemplos comuns."
     },
     {
-        "q": "IA para automacao ia é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Como integrar o ChatGPT ou Claude nas minhas automações?",
+        "a": "Tanto n8n quanto Make e Zapier têm módulos nativos para OpenAI e Anthropic. Você conecta sua chave API e usa a IA como um nó de processamento dentro dos fluxos — por exemplo, para resumir um e-mail antes de enviá-lo a outro sistema."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para automacao ia já oferece suporte completo ou parcial ao idioma português."
+        "q": "Quanto custa montar uma automação de IA funcional?",
+        "a": "Com n8n auto-hospedado e Gemini ou GPT-4o Mini, o custo mensal pode ser inferior a R$100. Soluções no-code com Zapier e Make têm planos de R$50 a R$500/mês dependendo do número de tarefas automatizadas."
     },
     {
-        "q": "É seguro usar IA para automacao ia?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "O que são agentes de IA e como se diferem de automações simples?",
+        "a": "Agentes de IA tomam decisões multi-passo: pesquisam na web, consultam ferramentas, analisam resultados e executam ações de forma autônoma. Automações simples seguem um fluxo fixo; agentes adaptam o caminho conforme o contexto."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de automacao ia?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "É seguro automatizar processos críticos com IA?",
+        "a": "Para processos críticos, é recomendável manter revisão humana antes de ações irreversíveis (como envio de e-mails em massa ou deletar dados). Implante automações gradualmente, monitorando logs e erros antes de dar total autonomia."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para automacao ia é a facilidade de uso via interface intuitiva."
+        "q": "Posso automatizar o WhatsApp da minha empresa com IA?",
+        "a": "Sim. Ferramentas como ManyChat, Typebot integrado à API oficial do WhatsApp Business e soluções no n8n permitem criar chatbots com IA que respondem automaticamente a clientes no WhatsApp."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para automacao ia?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Quais são os melhores casos de uso de automação com IA para marketing?",
+        "a": "Geração automática de copy para anúncios, publicação agendada com IA em redes sociais, personalização de e-mails em escala, categorização de leads e resposta automática a comentários são casos clássicos de alto ROI."
     },
     {
-        "q": "Principais vantagens da IA em automacao ia",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de automacao ia."
+        "q": "n8n é gratuito? Como funciona o modelo de preços?",
+        "a": "n8n é open source e pode ser auto-hospedado gratuitamente. A versão cloud paga começa em torno de US$20/mês com número limitado de fluxos ativos. A versão self-hosted tem custo apenas do servidor."
     },
     {
-        "q": "Desvantagens de usar IA para automacao ia",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de automacao ia?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em automacao ia."
-    },
-    {
-        "q": "IA para automacao ia para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em automacao ia."
-    },
-    {
-        "q": "Ferramentas de automacao ia para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para automacao ia para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de automacao ia."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para automacao ia",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para automacao ia."
-    },
-    {
-        "q": "Como aprender a usar IA para automacao ia?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de automacao ia",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de automacao ia que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para automacao ia?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para automacao ia."
-    },
-    {
-        "q": "Existe IA gratuita para automacao ia?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de automacao ia?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em automacao ia."
-    },
-    {
-        "q": "Como automatizar processos de automacao ia com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para automacao ia funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de automacao ia",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para automacao ia é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de automacao ia é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de automacao ia coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para automacao ia?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em automacao ia."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de automacao ia?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Como medir o ROI de uma automação com IA?",
+        "a": "Calcule o tempo economizado por tarefa, multiplique pela frequência e pelo custo/hora do colaborador. Compare com o custo mensal da ferramenta. A maioria das automações se paga em menos de 3 meses de operação."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Automacao Ia</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Automação com IA</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

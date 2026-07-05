@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para navegadores de ia?",
-        "a": "IA para navegadores de ia são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a navegadores de ia."
+        "q": "O que são navegadores de IA?",
+        "a": "São navegadores web que integram assistentes de inteligência artificial diretamente na interface de navegação — permitindo pesquisar, resumir páginas, comparar conteúdos, fazer perguntas sobre o que você está vendo e interagir com a web de forma conversacional."
     },
     {
-        "q": "Para que serve a inteligência artificial em navegadores de ia?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de navegadores de ia."
+        "q": "Qual a diferença entre Perplexity AI e um navegador de IA tradicional?",
+        "a": "Perplexity é primariamente um motor de busca com IA que cita fontes. Navegadores de IA como Arc com funcionalidades de IA e Dia integram a inteligência dentro da sessão de navegação — você navega normalmente e a IA está disponível para qualquer página visitada."
     },
     {
-        "q": "Como funciona uma IA voltada para navegadores de ia?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de navegadores de ia."
+        "q": "O Perplexity AI é gratuito?",
+        "a": "Sim, com um plano gratuito robusto. O Perplexity Pro (US$20/mês) adiciona acesso a modelos mais poderosos (Claude, GPT-4o), pesquisa de imagens, modo Deep Research e maior volume de pesquisas diárias."
     },
     {
-        "q": "Qual a melhor IA para navegadores de ia em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de navegadores de ia."
+        "q": "Como navegadores de IA ajudam na pesquisa online?",
+        "a": "Em vez de abrir 10 abas e ler cada uma manualmente, a IA resume múltiplas fontes, compara informações contraditórias, cita as referências e permite aprofundar qualquer ponto com perguntas de follow-up — comprimindo horas de pesquisa em minutos."
     },
     {
-        "q": "IA para navegadores de ia é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Navegadores de IA são mais rápidos que o Google para pesquisa?",
+        "a": "Para pesquisas que exigem síntese de múltiplas fontes (perguntas complexas, comparações, resumos), sim — Perplexity e similares são muito mais eficientes. Para encontrar um link específico ou informação pontual, o Google ainda tem vantagem."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para navegadores de ia já oferece suporte completo ou parcial ao idioma português."
+        "q": "O que é o modo Deep Research do Perplexity?",
+        "a": "Deep Research realiza pesquisa multi-passo autônoma: formula múltiplas sub-questões, pesquisa cada uma independentemente, analisa dezenas de fontes e sintetiza um relatório completo com citações — similar a uma pesquisa que levaria horas de trabalho humano."
     },
     {
-        "q": "É seguro usar IA para navegadores de ia?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "Navegadores de IA respeitam minha privacidade?",
+        "a": "Varia por plataforma. Perplexity coleta dados de uso para melhorar o serviço. Para uso com informações sensíveis, leia a política de privacidade. Navegadores baseados em modelos open source rodando localmente oferecem máxima privacidade."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de navegadores de ia?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "Como usar IA no Chrome ou Safari sem mudar de navegador?",
+        "a": "Extensões como Perplexity Companion e Monica adicionam funcionalidades de IA ao Chrome e Edge sem exigir mudança de navegador. O Copilot da Microsoft está integrado nativamente no Edge, disponível com clique na barra lateral."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para navegadores de ia é a facilidade de uso via interface intuitiva."
+        "q": "IA em navegadores pode ler e resumir qualquer página web?",
+        "a": "A maioria sim — desde que o conteúdo não seja bloqueado por paywall ou proteção especial. Ferramentas como Perplexity, Arc Max e extensões de IA para Chrome resumem artigos, destacam pontos principais e permitem fazer perguntas sobre o conteúdo."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para navegadores de ia?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "O Arc Browser com IA está disponível no Brasil?",
+        "a": "Arc Browser está disponível para download gratuito no Mac e Windows globalmente, incluindo no Brasil. As funcionalidades de IA (Arc Max) incluem resumo de abas, pesquisa inteligente e ações rápidas — disponíveis na versão gratuita."
     },
     {
-        "q": "Principais vantagens da IA em navegadores de ia",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de navegadores de ia."
+        "q": "Navegadores de IA funcionam bem em português?",
+        "a": "Perplexity responde em português quando a pergunta é feita em português. Funcionalidades de resumo de página funcionam bem com conteúdo em português. A qualidade da IA em português melhorou muito em 2025-2026."
     },
     {
-        "q": "Desvantagens de usar IA para navegadores de ia",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de navegadores de ia?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em navegadores de ia."
-    },
-    {
-        "q": "IA para navegadores de ia para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em navegadores de ia."
-    },
-    {
-        "q": "Ferramentas de navegadores de ia para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para navegadores de ia para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de navegadores de ia."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para navegadores de ia",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para navegadores de ia."
-    },
-    {
-        "q": "Como aprender a usar IA para navegadores de ia?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de navegadores de ia",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de navegadores de ia que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para navegadores de ia?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para navegadores de ia."
-    },
-    {
-        "q": "Existe IA gratuita para navegadores de ia?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de navegadores de ia?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em navegadores de ia."
-    },
-    {
-        "q": "Como automatizar processos de navegadores de ia com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para navegadores de ia funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de navegadores de ia",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para navegadores de ia é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de navegadores de ia é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de navegadores de ia coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para navegadores de ia?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em navegadores de ia."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de navegadores de ia?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Como navegadores de IA podem aumentar a produtividade no trabalho?",
+        "a": "Pesquisa de concorrentes sintetizada em segundos, resumo de artigos longos sem leitura completa, comparação rápida de opções e extração de informações específicas de páginas complexas — pesquisadores e profissionais de conhecimento ganham horas por semana."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Navegadores De Ia</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Navegadores e Buscadores de IA</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

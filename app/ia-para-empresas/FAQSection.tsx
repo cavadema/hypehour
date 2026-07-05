@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para ia para empresas?",
-        "a": "IA para ia para empresas são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ia para empresas."
+        "q": "Como empresas estão usando IA para aumentar produtividade?",
+        "a": "As aplicações mais comuns incluem automação de tarefas administrativas, atendimento ao cliente com chatbots, análise preditiva de dados, geração de conteúdo de marketing, triagem de currículos e assistentes para equipes de vendas e suporte."
     },
     {
-        "q": "Para que serve a inteligência artificial em ia para empresas?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ia para empresas."
+        "q": "Por onde uma empresa deve começar ao adotar IA?",
+        "a": "Identifique os processos com maior volume de tarefas repetitivas e menor necessidade de julgamento humano. Comece com um projeto piloto de baixo risco, meça os resultados e expanda gradualmente — evite tentar transformar tudo de uma vez."
     },
     {
-        "q": "Como funciona uma IA voltada para ia para empresas?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ia para empresas."
+        "q": "Qual o ROI médio de adotar IA em uma empresa?",
+        "a": "Segundo estudos da McKinsey, empresas que adotam IA estrategicamente relatam ganhos de produtividade de 20 a 40% nas funções automatizadas. O ROI varia muito por setor e caso de uso — automação de atendimento e análise de dados tendem a ter retorno mais rápido."
     },
     {
-        "q": "Qual a melhor IA para ia para empresas em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ia para empresas."
+        "q": "IA para empresas é acessível para PMEs brasileiras?",
+        "a": "Sim. Ferramentas como ChatGPT Teams, Copilot para Microsoft 365 e soluções de automação como n8n têm preços acessíveis. Muitas PMEs brasileiras já usam IA pagando menos de R$200/mês com impacto significativo na produtividade."
     },
     {
-        "q": "IA para ia para empresas é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Como proteger dados corporativos ao usar ferramentas de IA?",
+        "a": "Use planos enterprise com acordos de não uso de dados para treinamento (OpenAI Enterprise, Claude for Work). Para dados altamente sensíveis, avalie modelos open source rodando na própria infraestrutura da empresa."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para ia para empresas já oferece suporte completo ou parcial ao idioma português."
+        "q": "IA pode ajudar na tomada de decisão estratégica?",
+        "a": "Sim. IA analisa grandes volumes de dados de mercado, tendências e métricas internas para gerar insights que suportam decisões — mas o julgamento final, a visão de longo prazo e a responsabilidade continuam sendo humanos."
     },
     {
-        "q": "É seguro usar IA para ia para empresas?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "Como implementar IA no RH de uma empresa?",
+        "a": "Triagem automática de currículos, chatbot de onboarding, análise de engajamento de colaboradores, previsão de turnover e personalização de treinamentos são as aplicações de IA mais adotadas por RHs corporativos."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de ia para empresas?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "Existe regulamentação sobre uso de IA por empresas no Brasil?",
+        "a": "O Brasil ainda debate o Marco Legal da IA. Já existem obrigações da LGPD que se aplicam ao uso de IA com dados pessoais. Setores regulados como saúde e financeiro têm regras adicionais sobre uso de sistemas automatizados de decisão."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para ia para empresas é a facilidade de uso via interface intuitiva."
+        "q": "Como treinar a equipe de uma empresa para usar IA?",
+        "a": "Comece com workshops práticos focados nas ferramentas mais relevantes para cada função. Identifique champions internos que aprendem rápido e disseminam o conhecimento. Crie biblioteca de prompts e cases internos de sucesso para motivar a adoção."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para ia para empresas?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "IA pode ajudar na criação de contratos e documentos jurídicos empresariais?",
+        "a": "Sim, como suporte. Ferramentas como Harvey AI e IA integrada ao Word geram rascunhos de contratos e identificam cláusulas problemáticas. A revisão e responsabilidade final continuam com o advogado da empresa."
     },
     {
-        "q": "Principais vantagens da IA em ia para empresas",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ia para empresas."
+        "q": "Como medir o sucesso da implementação de IA em uma empresa?",
+        "a": "Defina KPIs claros antes de começar: tempo economizado por tarefa, taxa de resolução automática, redução de erros, custo por processo. Compare com baseline pré-IA e estabeleça revisões mensais para ajustar a estratégia."
     },
     {
-        "q": "Desvantagens de usar IA para ia para empresas",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de ia para empresas?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ia para empresas."
-    },
-    {
-        "q": "IA para ia para empresas para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ia para empresas."
-    },
-    {
-        "q": "Ferramentas de ia para empresas para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para ia para empresas para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ia para empresas."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para ia para empresas",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ia para empresas."
-    },
-    {
-        "q": "Como aprender a usar IA para ia para empresas?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de ia para empresas",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ia para empresas que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para ia para empresas?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ia para empresas."
-    },
-    {
-        "q": "Existe IA gratuita para ia para empresas?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de ia para empresas?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ia para empresas."
-    },
-    {
-        "q": "Como automatizar processos de ia para empresas com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para ia para empresas funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de ia para empresas",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para ia para empresas é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ia para empresas é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de ia para empresas coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para ia para empresas?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ia para empresas."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de ia para empresas?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Quais erros as empresas cometem ao adotar IA?",
+        "a": "Os mais comuns são: adotar IA sem problema claro para resolver, não envolver os colaboradores no processo, ignorar a qualidade dos dados de entrada e esperar resultados perfeitos sem ciclo de ajuste e melhoria contínua."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ia Para Empresas</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Empresas</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

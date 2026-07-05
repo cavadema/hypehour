@@ -1,63 +1,29 @@
-"use client";
-
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
-import { useState } from "react";
-
 export default function ExpandableContent() {
-    const [isExpanded, setIsExpanded] = useState(false);
-
     return (
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    As <strong>ferramentas de IA para ferramentas de ia para conteudo</strong> estão revolucionando a maneira como profissionais e empresas lidam com processos complexos. A <strong>inteligência artificial aplicada a ferramentas de ia para conteudo</strong> permite automatizar tarefas repetitivas, aumentar a precisão dos resultados e liberar tempo criativo para o que realmente importa. Explore nossa curadoria de ferramentas e descubra como a tecnologia pode elevar seu patamar de produtividade.
+                    As <strong>ferramentas de IA para criação de conteúdo</strong> transformaram radicalmente a produção textual para criadores, agências e times de marketing no Brasil. Com plataformas como <strong>Jasper, Copy.ai, Writesonic e Claude</strong>, é possível gerar artigos de blog, posts para redes sociais, roteiros de vídeo, e-mails de nutrição e copy de vendas em português de alta qualidade — acelerando a produção sem sacrificar autenticidade ou voz de marca.
                 </p>
-
-
-                    <p className="mb-4">
-                        Ao escolher uma <strong>IA para ferramentas de ia para conteudo</strong>, é fundamental observar a integração com seus fluxos atuais e a facilidade de uso. As melhores soluções do mercado oferecem não apenas automação, mas também insights estratégicos que ajudam na tomada de decisão. Com o avanço constante dos modelos de linguagem e visão computacional, as possibilidades para <strong>ferramentas de ia para conteudo com IA</strong> são praticamente ilimitadas.
-                    </p>
-
-                <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
-                    <h3 className="font-semibold text-lg mb-3 text-gray-900">Benefícios de usar IA para Ferramentas De Ia Para Conteudo</h3>
-
-                    <ul className="space-y-3 mb-4">
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Produtividade Aumentada:</strong> Execute em minutos o que antes levava horas através de processamento inteligente.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Redução de Erros:</strong> A IA mantém a consistência em tarefas de ferramentas de ia para conteudo, minimizando falhas humanas.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Customização Total:</strong> Adapte as ferramentas às necessidades específicas do seu negócio ou projeto pessoal.</span>
-                        </li>
-                        <li className="flex gap-2">
-                            <span className="text-gray-900 font-bold">•</span>
-                            <span><strong>Vantagem Competitiva:</strong> Esteja à frente no mercado utilizando as tecnologias mais avançadas de inteligência artificial.</span>
-                        </li>
-                    </ul>
-
-                    <p className="mb-4">
-                        Lembre-se que a <strong>IA para ferramentas de ia para conteudo</strong> deve ser vista como um copiloto que potencializa suas habilidades. A revisão humana e o direcionamento estratégico continuam sendo os diferenciais de um trabalho de excelência.
-                    </p>
-
-                    <p>
-                        Abaixo, você encontrará uma lista completa com as melhores <strong>ferramentas de IA para Ferramentas De Ia Para Conteudo</strong>, selecionadas para ajudar você a transformar seus desafios em resultados concretos.
-                    </p>
-                </div>
+                <p className="mb-4">
+                    Além da geração de texto, o ecossistema de <strong>IA para conteúdo</strong> abrange ferramentas especializadas em SEO como Surfer SEO e Clearscope, edição e reescrita com Hemingway e QuillBot, criação de thumbnails e visuais com Canva AI e Leonardo AI, e planejamento editorial com Notion AI — permitindo que um único criador produza o volume de conteúdo que antes demandaria toda uma equipe.
+                </p>
             </div>
-
-            <button
-                onClick={() => setIsExpanded(!isExpanded)}
-                className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors"
-                aria-expanded={isExpanded}
-            >
-                <span>{isExpanded ? 'Ver menos' : 'Ver mais'}</span>
-                <ChevronDownIcon className={`w-5 h-5 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} />
-            </button>
+            <details className="group">
+                <summary className="mt-4 flex items-center gap-2 text-black hover:text-gray-600 font-medium transition-colors cursor-pointer list-none">
+                    <span>Ver mais</span>
+                    <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
+                </summary>
+                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como IA Acelera Cada Etapa da Produção de Conteúdo</h3>
+                <ul className="space-y-3 mb-4">
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Pesquisa e pauta:</strong> Ferramentas como Perplexity AI e ChatGPT identificam lacunas de conteúdo, sugerem ângulos editoriais e pesquisam dados atualizados — eliminando horas de pesquisa manual antes de escrever a primeira palavra.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Redação e SEO integrados:</strong> Surfer SEO e Jasper combinam geração de texto com análise de palavras-chave em tempo real, criando artigos otimizados para ranquear no Google desde o primeiro rascunho.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Repurposing automático:</strong> Transforme um artigo em thread do Twitter, post de LinkedIn, roteiro de Reels e newsletter com um clique — maximizando o ROI de cada peça de conteúdo produzida.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Revisão e tom de voz:</strong> Ferramentas de reescrita como QuillBot e o modo de edição do Claude ajustam tom, formalidade e estilo para manter consistência com a voz da marca em todos os canais.</span></li>
+                </ul>
+                <p>Explore as ferramentas de IA para criação de conteúdo listadas abaixo e encontre as que melhor se encaixam no seu fluxo de produção, volume de publicações e objetivos de crescimento de audiência.</p>
+            </details>
         </div>
     );
 }

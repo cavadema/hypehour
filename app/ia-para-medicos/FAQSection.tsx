@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para ia para medicos?",
-        "a": "IA para ia para medicos são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a ia para medicos."
+        "q": "Como a IA está sendo usada na medicina e saúde?",
+        "a": "A IA apoia diagnóstico por imagem (radiologia, dermatologia, oftalmologia), transcrição automática de consultas, análise de exames laboratoriais, triagem de pacientes, sugestão de diagnósticos diferenciais e pesquisa clínica acelerada."
     },
     {
-        "q": "Para que serve a inteligência artificial em ia para medicos?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de ia para medicos."
+        "q": "IA pode ajudar médicos a fazer diagnósticos mais precisos?",
+        "a": "Sim como suporte de decisão. Sistemas de IA para análise de radiografias, tomografias e RM detectam anomalias com acurácia comparável ou superior a especialistas em algumas condições específicas — mas sempre como segunda opinião, não substituto do médico."
     },
     {
-        "q": "Como funciona uma IA voltada para ia para medicos?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de ia para medicos."
+        "q": "Quais ferramentas de IA são mais usadas por médicos e profissionais de saúde?",
+        "a": "Nabla Copilot e Doximity para transcrição de consultas, DAX Copilot (da Nuance/Microsoft) para documentação clínica automatizada, Aidoc e Rad AI para radiologia, além de ferramentas de análise de prontuário eletrônico com IA."
     },
     {
-        "q": "Qual a melhor IA para ia para medicos em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de ia para medicos."
+        "q": "O que é a transcrição de consulta com IA e como funciona para médicos brasileiros?",
+        "a": "A transcrição com IA grava a consulta, transcreve em tempo real e gera automaticamente a nota clínica estruturada (anamnese, exame físico, hipóteses diagnósticas, conduta) — liberando o médico de digitar enquanto atende o paciente."
     },
     {
-        "q": "IA para ia para medicos é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "IA pode ser usada em telemedicina?",
+        "a": "Sim. IA analisa sintomas relatados pelo paciente antes da consulta, sugere triagem de urgência, auxilia o médico com informações do prontuário durante a consulta online e gera documentação automaticamente após o atendimento."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para ia para medicos já oferece suporte completo ou parcial ao idioma português."
+        "q": "Como a IA ajuda no diagnóstico de doenças raras?",
+        "a": "Ferramentas como Fdna (Face2Gene) analisam fenótipo e dados clínicos para sugerir síndromes raras. Sistemas de análise genômica com IA identificam variantes patogênicas com mais velocidade e abrangência do que análise manual."
     },
     {
-        "q": "É seguro usar IA para ia para medicos?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "IA é segura para uso clínico? Qual a regulamentação no Brasil?",
+        "a": "Dispositivos de IA para uso clínico devem ser aprovados pela ANVISA. O CFM publicou resoluções sobre telemedicina e uso de sistemas computadorizados de apoio à decisão. A IA em saúde opera como ferramenta de suporte, com responsabilidade clínica sempre do médico."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de ia para medicos?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "Como a IA pode reduzir erros de prescrição e interações medicamentosas?",
+        "a": "Sistemas integrados ao prontuário eletrônico alertam automaticamente sobre interações medicamentosas, alergias conhecidas, doses inadequadas para o peso e condições específicas do paciente — reduzindo eventos adversos evitáveis."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para ia para medicos é a facilidade de uso via interface intuitiva."
+        "q": "IA pode analisar exames de imagem (raio-x, tomografia) com precisão?",
+        "a": "Sim. Sistemas de IA para radiologia como Aidoc, Enlitic e Lunit detectam nódulos pulmonares, fraturas, hemorragias e outras alterações em imagens médicas com alta sensibilidade, funcionando como triagem prioritária para radiologistas."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para ia para medicos?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Como a IA ajuda em pesquisa clínica e ensaios clínicos?",
+        "a": "IA acelera análise de literatura médica, identificação de pacientes elegíveis para estudos, monitoramento de dados de segurança em tempo real e análise estatística de resultados — comprimindo anos de trabalho em meses."
     },
     {
-        "q": "Principais vantagens da IA em ia para medicos",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de ia para medicos."
+        "q": "É possível usar ChatGPT ou Claude para consultas médicas?",
+        "a": "Como ferramenta de pesquisa e educação médica, sim — com cautela. Para uso clínico real, são necessárias ferramentas específicas validadas, pois modelos gerais podem alucinação e não têm acesso ao prontuário do paciente."
     },
     {
-        "q": "Desvantagens de usar IA para ia para medicos",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de ia para medicos?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em ia para medicos."
-    },
-    {
-        "q": "IA para ia para medicos para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em ia para medicos."
-    },
-    {
-        "q": "Ferramentas de ia para medicos para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para ia para medicos para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de ia para medicos."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para ia para medicos",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para ia para medicos."
-    },
-    {
-        "q": "Como aprender a usar IA para ia para medicos?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de ia para medicos",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de ia para medicos que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para ia para medicos?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para ia para medicos."
-    },
-    {
-        "q": "Existe IA gratuita para ia para medicos?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de ia para medicos?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em ia para medicos."
-    },
-    {
-        "q": "Como automatizar processos de ia para medicos com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para ia para medicos funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de ia para medicos",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para ia para medicos é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de ia para medicos é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de ia para medicos coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para ia para medicos?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em ia para medicos."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de ia para medicos?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Como a IA pode melhorar a gestão de clínicas e hospitais?",
+        "a": "Otimização de agendamento de leitos e salas, previsão de demanda, triagem inteligente na recepção, análise de indicadores de qualidade assistencial e automação de processos administrativos como faturamento e autorização de planos de saúde."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Ia Para Medicos</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre IA para Médicos e Saúde</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

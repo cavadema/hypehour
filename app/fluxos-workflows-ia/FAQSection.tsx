@@ -1,153 +1,70 @@
-"use client";
-
-import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqs = [
     {
-        "q": "O que é IA para fluxos workflows ia?",
-        "a": "IA para fluxos workflows ia são ferramentas que utilizam inteligência artificial para automatizar, otimizar e escalar tarefas relacionadas a fluxos workflows ia."
+        "q": "O que são workflows de IA e como funcionam?",
+        "a": "Workflows de IA são sequências automatizadas de tarefas onde modelos de linguagem e outros serviços de IA são encadeados para processar informações, tomar decisões e executar ações — como um pipeline que lê e-mails, resume, classifica e responde automaticamente."
     },
     {
-        "q": "Para que serve a inteligência artificial em fluxos workflows ia?",
-        "a": "Ela serve para aumentar a produtividade, reduzir erros humanos e oferecer insights baseados em dados para profissionais de fluxos workflows ia."
+        "q": "Qual a diferença entre workflow e agente de IA?",
+        "a": "Workflows seguem um caminho pré-definido com etapas fixas. Agentes de IA tomam decisões dinâmicas sobre qual passo dar a seguir baseados no contexto. Workflows são mais previsíveis; agentes, mais flexíveis e autônomos."
     },
     {
-        "q": "Como funciona uma IA voltada para fluxos workflows ia?",
-        "a": "Ela funciona processando grandes volumes de dados através de algoritmos de aprendizado de máquina adaptados para as necessidades específicas de fluxos workflows ia."
+        "q": "Quais ferramentas são melhores para criar workflows de IA sem código?",
+        "a": "n8n, Make (Integromat) e Zapier são as mais populares para workflows visuais. Flowise e Langflow oferecem interfaces específicas para pipelines de LLM sem código. Cada uma tem pontos fortes para diferentes complexidades."
     },
     {
-        "q": "Qual a melhor IA para fluxos workflows ia em 2026?",
-        "a": "Existem diversas opções líderes no mercado, variando conforme a necessidade específica de cada projeto de fluxos workflows ia."
+        "q": "Como criar um workflow de IA para processar e-mails automaticamente?",
+        "a": "Configure um gatilho que monitora sua caixa de entrada, passe o conteúdo para um nó de LLM que classifica e resume, conecte a uma ação que responde, encaminha ou arquiva o e-mail conforme a classificação — tudo sem intervenção manual."
     },
     {
-        "q": "IA para fluxos workflows ia é gratuita?",
-        "a": "Muitas ferramentas oferecem versões gratuitas (freemium) com limites de uso, além de planos premium para uso profissional."
+        "q": "Posso conectar ChatGPT ou Claude dentro de um workflow?",
+        "a": "Sim. n8n, Make e Zapier têm integrações nativas com OpenAI e Anthropic. Você configura um nó de IA dentro do fluxo, passa o contexto via variáveis e usa a saída do modelo como input para os próximos passos."
     },
     {
-        "q": "Funciona em português?",
-        "a": "Sim, a maioria das ferramentas modernas de IA para fluxos workflows ia já oferece suporte completo ou parcial ao idioma português."
+        "q": "O que é um pipeline de RAG e como montar um?",
+        "a": "RAG (Retrieval-Augmented Generation) é um workflow que primeiro busca documentos relevantes numa base vetorial e depois envia essas informações ao LLM para gerar uma resposta fundamentada. Ferramentas como Flowise e LangFlow facilitam a montagem visual desse pipeline."
     },
     {
-        "q": "É seguro usar IA para fluxos workflows ia?",
-        "a": "Sim, desde que você escolha ferramentas confiáveis que sigam protocolos de segurança e privacidade de dados."
+        "q": "Workflows de IA funcionam 24 horas sem interrupção?",
+        "a": "Sim. Uma vez configurados e hospedados, workflows podem ser disparados por gatilhos (novo e-mail, webhook, agendamento) e operar continuamente sem ação humana — desde que a infraestrutura e as APIs estejam disponíveis."
     },
     {
-        "q": "Inteligência artificial substitui profissionais de fluxos workflows ia?",
-        "a": "Não. Ela atua como um copiloto que potencializa o trabalho humano, automatizando tarefas repetitivas."
+        "q": "Como monitorar erros em workflows de IA em produção?",
+        "a": "Configure logs de execução, alertas por e-mail ou Slack em caso de falha, e use ferramentas como Langfuse ou LangSmith para rastrear chamadas de LLM. Monitore taxa de erro, latência e custo por execução regularmente."
     },
     {
-        "q": "Preciso saber programar para usar essas ferramentas?",
-        "a": "Na maioria das vezes não. O foco das novas IAs para fluxos workflows ia é a facilidade de uso via interface intuitiva."
+        "q": "Workflows de IA podem processar grandes volumes de documentos?",
+        "a": "Sim. Configure workflows em batch que processam fila de documentos em paralelo, respeitando os rate limits das APIs. Para volumes muito grandes, considere arquiteturas com filas (Redis, RabbitMQ) e workers paralelos."
     },
     {
-        "q": "Vale a pena investir em ferramentas de IA para fluxos workflows ia?",
-        "a": "Sim, o ganho de tempo e a melhoria na qualidade das entregas compensam o investimento na tecnologia."
+        "q": "Qual o custo mensal para manter um workflow de IA em produção?",
+        "a": "Depende do volume. Um workflow simples com n8n self-hosted e GPT-4o Mini pode custar menos de R$50/mês. Workflows com alto volume de processamento e modelos premium podem chegar a centenas de dólares por mês."
     },
     {
-        "q": "Principais vantagens da IA em fluxos workflows ia",
-        "a": "As vantagens incluem economia de tempo, redução de custos operacionais e maior capacidade analítica em projetos de fluxos workflows ia."
+        "q": "Como testar um workflow de IA antes de colocar em produção?",
+        "a": "Use ambientes de staging com dados simulados, defina casos de teste para cenários de sucesso e falha, implemente timeouts e fallbacks, e faça rollout gradual monitorando métricas antes de migrar todo o tráfego."
     },
     {
-        "q": "Desvantagens de usar IA para fluxos workflows ia",
-        "a": "As principais limitações podem incluir a necessidade de revisão humana e a dependência de conexão com a internet."
-    },
-    {
-        "q": "Como escolher a ferramenta ideal de fluxos workflows ia?",
-        "a": "Avalie o custo-benefício, a integração com sua rotina atual e se os recursos atendem às suas metas em fluxos workflows ia."
-    },
-    {
-        "q": "IA para fluxos workflows ia para iniciantes",
-        "a": "Existem plataformas com interface simplificada ideais para quem está começando a explorar IA em fluxos workflows ia."
-    },
-    {
-        "q": "Ferramentas de fluxos workflows ia para empresas",
-        "a": "Soluções corporativas focam em segurança, colaboração em equipe e integração com sistemas existentes."
-    },
-    {
-        "q": "Tendências de IA para fluxos workflows ia para o futuro",
-        "a": "O futuro reserva maior autonomia, personalização extrema e integração nativa entre diferentes IAs de fluxos workflows ia."
-    },
-    {
-        "q": "Diferença entre IA tradicional e IA Generativa para fluxos workflows ia",
-        "a": "A IA tradicional analisa dados existentes, enquanto a IA Generativa pode criar novos conteúdos e soluções para fluxos workflows ia."
-    },
-    {
-        "q": "Como aprender a usar IA para fluxos workflows ia?",
-        "a": "Acompanhe portais como o Hypehour, faça cursos práticos e pratique o uso das ferramentas listadas na nossa curadoria."
-    },
-    {
-        "q": "Melhor custo-benefício em ferramentas de fluxos workflows ia",
-        "a": "Avaliamos diversas opções para que você encontre a ferramenta de fluxos workflows ia que cabe no seu bolso sem sacrificar a qualidade."
-    },
-    {
-        "q": "Onde encontrar novidades sobre IA para fluxos workflows ia?",
-        "a": "O Hypehour é atualizado diariamente com os lançamentos mais relevantes do mundo da inteligência artificial para fluxos workflows ia."
-    },
-    {
-        "q": "Existe IA gratuita para fluxos workflows ia?",
-        "a": "Sim, existem várias opções de código aberto e planos gratuitos excelentes disponíveis hoje."
-    },
-    {
-        "q": "Qual o impacto da IA no mercado de fluxos workflows ia?",
-        "a": "A IA está democratizando o acesso a recursos avançados, permitindo que pequenos times realizem grandes feitos em fluxos workflows ia."
-    },
-    {
-        "q": "Como automatizar processos de fluxos workflows ia com IA?",
-        "a": "Você pode usar fluxos de trabalho que conectam diferentes ferramentas de IA para criar automações completas."
-    },
-    {
-        "q": "IA para fluxos workflows ia funciona no celular?",
-        "a": "Muitas ferramentas possuem aplicativos dedicados ou interfaces web totalmente responsivas."
-    },
-    {
-        "q": "Melhores prompts para IA de fluxos workflows ia",
-        "a": "A qualidade do resultado depende da clareza do prompt. Oferecemos guias para ajudar você a dominar essa arte."
-    },
-    {
-        "q": "IA para fluxos workflows ia é uma moda passageira?",
-        "a": "Pelo contrário, é uma mudança estrutural na forma como o trabalho de fluxos workflows ia é realizado globalmente."
-    },
-    {
-        "q": "Quais dados as ferramentas de fluxos workflows ia coletam?",
-        "a": "Geralmente coletam dados de uso para melhoria do modelo. Sempre leia a política de privacidade da ferramenta selecionada."
-    },
-    {
-        "q": "Dá para ganhar dinheiro usando IA para fluxos workflows ia?",
-        "a": "Sim, ao aumentar sua produtividade e oferecer serviços melhores e mais rápidos em fluxos workflows ia."
-    },
-    {
-        "q": "Existe suporte em português para essas ferramentas?",
-        "a": "Algumas ferramentas já possuem comunidades e suporte oficiais em português."
-    },
-    {
-        "q": "Como o Hypehour seleciona as IAs de fluxos workflows ia?",
-        "a": "Nossa equipe testa e avalia as ferramentas com base em utilidade, acessibilidade e inovação técnica."
+        "q": "Workflows de IA podem ser versionados e gerenciados como código?",
+        "a": "Sim. n8n exporta workflows em JSON que podem ser versionados no Git. Plataformas como Langflow e Flowise também permitem exportação. Para times de desenvolvimento, tratar workflows como código facilita colaboração e rollback."
     }
 ];
 
 function FAQItem({ question, answer, index }: { question: string; answer: string; index: number }) {
-    const [isOpen, setIsOpen] = useState(index < 5);
-
     return (
-        <div className="border-b border-gray-200 last:border-0">
-            <button
-                className="flex w-full items-center justify-between py-4 text-left focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-            >
+        <details className="border-b border-gray-200 last:border-0 group" open={index < 5}>
+            <summary className="flex w-full items-center justify-between py-4 text-left cursor-pointer list-none focus:outline-none">
                 <span className="font-medium text-gray-900">{question}</span>
                 <ChevronDownIcon
-                    className={`h-5 w-5 text-gray-500 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                    className="h-5 w-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
                 />
-            </button>
-            <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100 mb-4" : "max-h-0 opacity-0"}`}
-            >
-                <p className="text-gray-600 leading-relaxed">{answer}</p>
-            </div>
-        </div>
+            </summary>
+            <p className="text-gray-600 leading-relaxed mb-4">{answer}</p>
+        </details>
     );
 }
+
 
 export default function FAQSection() {
     const faqSchema = {
@@ -169,7 +86,7 @@ export default function FAQSection() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Fluxos Workflows Ia</h2>
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Perguntas Frequentes sobre Fluxos e Workflows de IA</h2>
             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden px-6">
                 {faqs.map((faq, index) => (
                     <FAQItem

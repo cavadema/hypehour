@@ -1,7 +1,9 @@
 import FAQSection from "./FAQSection";
 import ExpandableContent from "./ExpandableContent";
-import { DocumentTextIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
+import { DocumentTextIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import CategoryPageSchema from "@/app/components/CategoryPageSchema";
+import ToolCard from "@/app/components/ToolCard";
 
 export const metadata = {
   title: "IA para Planejamento, Organização e Produtividade",
@@ -38,9 +40,11 @@ const ferramentas = [
 export default function PlanejamentoPage() {
   return (
     <main className="max-w-6xl mx-auto py-10 px-4">
-      <Link href="/" className="inline-flex items-center gap-2 text-black hover:underline mb-8">
-        <ArrowLeftIcon className="w-5 h-5" /> Voltar para a home
-      </Link>
+      <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6" aria-label="Breadcrumb">
+        <Link href="/" className="hover:text-black transition-colors">Home</Link>
+        <span>/</span>
+        <span className="text-black font-medium">IA para Planejamento</span>
+      </nav>
       <div className="flex items-center gap-3 mb-8">
         <DocumentTextIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">IA para Planejamento</h1>
@@ -48,13 +52,17 @@ export default function PlanejamentoPage() {
       <ExpandableContent />
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => (
-          <a key={f.nome} href={f.url} target="_blank" rel="noopener noreferrer" className="block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100">
-            <h2 className="font-semibold text-lg mb-1">{f.nome}</h2>
-            <div className="text-gray-500 text-sm">{f.descricao}</div>
-          </a>
+          <ToolCard key={f.nome} nome={f.nome} url={f.url} descricao={f.descricao} />
         ))}
       </div>
           <FAQSection />
+
+      <CategoryPageSchema
+        title="IA para Planejamento, Organização e Produtividade"
+        description="Ferramentas com IA para planejar rotinas, organizar projetos e aumentar a produtividade."
+        canonicalUrl="https://www.hypehour.com.br/planejamento"
+        ferramentas={ferramentas}
+      />
     </main>
   );
 }

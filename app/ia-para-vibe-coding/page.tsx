@@ -1,10 +1,12 @@
 import ExpandableContent from "./ExpandableContent";
-import { CodeBracketIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
+import { CodeBracketIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
 import ComparativoFerramentas from "./ComparativoFerramentas";
 import ComoEscolher from "./ComoEscolher";
 import ProTips from "./ProTips";
+import CategoryPageSchema from "@/app/components/CategoryPageSchema";
+import ToolCard from "@/app/components/ToolCard";
 
 export const metadata = {
   title: "Ferramentas de Inteligência Artificial para vibe coding",
@@ -135,45 +137,20 @@ const ferramentas = [
 export default function IaParaVibeCoding() {
   return (
     <main className="max-w-6xl mx-auto py-10 px-4">
-      <Link href="/" className="inline-flex items-center gap-2 text-black hover:underline mb-8">
-        <ArrowLeftIcon className="w-5 h-5" /> Voltar para a home
-      </Link>
+      <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6" aria-label="Breadcrumb">
+        <Link href="/" className="hover:text-black transition-colors">Home</Link>
+        <span>/</span>
+        <span className="text-black font-medium">IA para Vibe Coding</span>
+      </nav>
       <div className="flex items-center gap-3 mb-8">
         <CodeBracketIcon className="w-10 h-10 text-gray-900" />
         <h1 className="text-3xl font-bold">IA para Vibe Coding</h1>
       </div>
       <ExpandableContent />
       <div className="grid gap-6 sm:grid-cols-2">
-        {ferramentas.map((f) => {
-          const isInternal = f.url.startsWith('/');
-          const content = (
-            <>
-              <h2 className="font-semibold text-lg mb-1">{f.nome}</h2>
-              <div className="text-gray-500 text-sm">{f.descricao}</div>
-            </>
-          );
-          const className = "block bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100";
-
-          if (isInternal) {
-            return (
-              <Link key={f.nome} href={f.url} className={className}>
-                {content}
-              </Link>
-            );
-          }
-
-          return (
-            <a
-              key={f.nome}
-              href={f.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={className}
-            >
-              {content}
-            </a>
-          );
-        })}
+        {ferramentas.map((f) => (
+          <ToolCard key={f.nome} nome={f.nome} url={f.url} descricao={f.descricao} />
+        ))}
       </div>
       <div className="mt-12">
         <ComparativoFerramentas />
@@ -182,6 +159,13 @@ export default function IaParaVibeCoding() {
       <ProTips />
       <FAQSection />
       
+
+      <CategoryPageSchema
+        title="Ferramentas de Inteligência Artificial para vibe coding"
+        description="Ferramentas e IAs para acelerar seu fluxo de desenvolvimento: editores, assistentes e automações."
+        canonicalUrl="https://www.hypehour.com.br/ia-para-vibe-coding"
+        ferramentas={ferramentas}
+      />
     </main>
   );
 }
