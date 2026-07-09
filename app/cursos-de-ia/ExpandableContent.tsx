@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Montar seu Plano de Estudos em IA</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Montar seu Plano de Estudos em IA</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Comece pela aplicação prática:</strong> Aprenda a usar ferramentas de IA no seu trabalho atual antes de estudar os fundamentos técnicos — isso gera motivação e ROI imediato.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Fundamentos técnicos progressivos:</strong> Python básico, depois scikit-learn para ML clássico, depois PyTorch/TensorFlow para deep learning — não pule etapas.</span></li>

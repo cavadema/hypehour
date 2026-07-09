@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como a IA Impacta Cada Etapa do Processo Comercial</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como a IA Impacta Cada Etapa do Processo Comercial</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Prospecção inteligente:</strong> IA combina dados de empresas, sinais de intenção e fit de mercado para priorizar automaticamente os prospects com maior probabilidade de conversão.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Outreach personalizado:</strong> Sequências de e-mail com personalização por IA aumentam taxas de resposta em 2x a 5x comparado a templates genéricos enviados em massa.</span></li>

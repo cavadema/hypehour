@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Processos que Você Pode Automatizar com IA Hoje</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Processos que Você Pode Automatizar com IA Hoje</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Atendimento inicial:</strong> Chatbots com IA respondem dúvidas frequentes, coletam dados de contato e encaminham leads qualificados para a equipe comercial automaticamente.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Geração de conteúdo:</strong> Configure fluxos que buscam tendências, geram rascunhos de posts com IA e publicam automaticamente nas redes sociais no horário de maior engajamento.</span></li>

@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Professores Estão Usando IA na Prática</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Professores Estão Usando IA na Prática</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Planejamento acelerado:</strong> Planos de aula completos com objetivos, desenvolvimento, atividades e avaliação em minutos — alinhados à BNCC e adaptáveis a qualquer contexto escolar.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Avaliações diferenciadas:</strong> Gere baterias de questões em múltiplos formatos e níveis de dificuldade para o mesmo conteúdo, atendendo à diversidade de aprendizagem da turma.</span></li>

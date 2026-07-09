@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Recursos Essenciais de IA para Atendimento de Alta Qualidade</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Recursos Essenciais de IA para Atendimento de Alta Qualidade</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Base de conhecimento integrada:</strong> O chatbot responde com base nos seus próprios documentos, FAQs e políticas da empresa — sem inventar respostas ou desviar do tom da marca.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Análise de sentimento:</strong> Identifica automaticamente clientes frustrados ou em risco de churn e aciona protocolos de escalada ou compensação antes que a situação se agrave.</span></li>

@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como a IA Está Transformando o Cuidado Nutricional</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como a IA Está Transformando o Cuidado Nutricional</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Registro sem fricção:</strong> Fotografe o prato e a IA identifica os alimentos e calcula automaticamente as calorias e macros — eliminando a maior barreira do monitoramento alimentar: o trabalho manual.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Planos personalizados:</strong> IA cria cardápios semanais completos considerando suas restrições alimentares, preferências, objetivo calórico e alimentos disponíveis na sua região — incluindo receitas com culinária brasileira.</span></li>

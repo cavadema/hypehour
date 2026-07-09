@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">O que Você Pode Fazer com Assistentes de IA Hoje</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">O que Você Pode Fazer com Assistentes de IA Hoje</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Produção de conteúdo:</strong> Redija e-mails, posts, artigos, roteiros e apresentações em minutos — com o tom e formato exatos que você precisa.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Análise e síntese:</strong> Envie contratos, relatórios, artigos científicos ou transcrições de reuniões e receba resumos executivos com os pontos-chave destacados.</span></li>

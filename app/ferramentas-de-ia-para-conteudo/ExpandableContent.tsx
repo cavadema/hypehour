@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como IA Acelera Cada Etapa da Produção de Conteúdo</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como IA Acelera Cada Etapa da Produção de Conteúdo</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Pesquisa e pauta:</strong> Ferramentas como Perplexity AI e ChatGPT identificam lacunas de conteúdo, sugerem ângulos editoriais e pesquisam dados atualizados — eliminando horas de pesquisa manual antes de escrever a primeira palavra.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Redação e SEO integrados:</strong> Surfer SEO e Jasper combinam geração de texto com análise de palavras-chave em tempo real, criando artigos otimizados para ranquear no Google desde o primeiro rascunho.</span></li>

@@ -115,6 +115,8 @@ export default function IaParaAdvogados() {
 
             <ExpandableContent />
 
+            <h2 className="text-2xl font-bold mb-6 text-black">Melhores ferramentas de IA para Advogados</h2>
+
             <div className="grid gap-6 sm:grid-cols-2">
                 {ferramentas.map((ferramenta) => (
                     <ToolCard key={ferramenta.nome} nome={ferramenta.nome} url={ferramenta.url} descricao={ferramenta.descricao} />

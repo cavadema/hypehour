@@ -118,6 +118,7 @@ export default function NewslettersDeIA() {
         <h1 className="text-3xl font-bold">Newsletters de IA</h1>
       </div>
       <ExpandableContent />
+      <h2 className="text-2xl font-bold mb-6 text-black">Melhores newsletters de IA</h2>
       <div className="grid gap-6 sm:grid-cols-2">
         {newsletters.map((newsletter) => (
           <a

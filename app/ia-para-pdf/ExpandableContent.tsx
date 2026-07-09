@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Casos de Uso de IA para PDF no Mundo Profissional Brasileiro</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Casos de Uso de IA para PDF no Mundo Profissional Brasileiro</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Análise jurídica:</strong> Advogados fazem upload de contratos e pedem identificação de cláusulas de risco, penalidades, obrigações das partes e pontos de negociação — em minutos, não horas.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Revisão financeira:</strong> Analistas consultam relatórios de resultados, prospectus de IPO e demonstrações financeiras com perguntas diretas sobre métricas, riscos e projeções.</span></li>

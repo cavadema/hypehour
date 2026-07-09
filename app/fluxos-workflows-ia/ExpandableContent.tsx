@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Arquiteturas Mais Comuns de Workflows de IA</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Arquiteturas Mais Comuns de Workflows de IA</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Pipeline de processamento de documentos:</strong> Ingesta PDFs, extrai texto, divide em chunks, gera embeddings e armazena num banco vetorial para consulta via RAG.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Workflow de triagem e resposta:</strong> Monitora e-mails ou tickets, classifica por urgência e assunto com IA, gera rascunho de resposta e notifica o atendente com contexto completo.</span></li>

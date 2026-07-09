@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como IA Transforma a Rotina de Contadores e Escritórios Contábeis</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como IA Transforma a Rotina de Contadores e Escritórios Contábeis</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Conciliação bancária automática:</strong> IA compara extratos bancários com lançamentos contábeis, identifica diferenças em segundos e sugere ajustes — eliminando horas semanais de conferência manual e reduzindo o risco de erros em fechamentos mensais.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Classificação inteligente de notas fiscais:</strong> OCR com IA lê XMLs de NF-e e NFS-e, extrai dados relevantes e classifica automaticamente por conta contábil, centro de custo e natureza da operação — sem digitação manual, sem retrabalho.</span></li>

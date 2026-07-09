@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Aplicações de IA que Estão Redefinindo o RH Brasileiro</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Aplicações de IA que Estão Redefinindo o RH Brasileiro</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Triagem e ranking de candidatos:</strong> Gupy e Kenoby usam IA para analisar currículos em segundos, ranquear candidatos por aderência ao perfil da vaga e eliminar vieses inconscientes baseados em gênero, nome ou universidade de origem.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Análise preditiva de turnover:</strong> Modelos de IA identificam padrões comportamentais que precedem pedidos de demissão — frequência de ausências, queda de produtividade, mudanças em pesquisas de clima — permitindo ação proativa de retenção antes que o talento decida sair.</span></li>

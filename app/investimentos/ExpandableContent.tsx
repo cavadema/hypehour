@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como a IA Está Transformando a Tomada de Decisão em Investimentos</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como a IA Está Transformando a Tomada de Decisão em Investimentos</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Análise fundamentalista acelerada:</strong> IA processa balanços, DRE e fluxo de caixa de dezenas de empresas simultaneamente, calculando múltiplos e comparando com pares do setor em minutos.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Gestão de risco inteligente:</strong> Modelos preditivos calculam Value at Risk, correlação entre ativos e impacto de cenários macroeconômicos na carteira — antecipando vulnerabilidades antes que se materializem.</span></li>

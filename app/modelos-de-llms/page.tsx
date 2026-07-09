@@ -168,6 +168,7 @@ export default function ModelosDeLLMs() {
         <h1 className="text-3xl font-bold">Modelos de LLMs</h1>
       </div>
       <ExpandableContent />
+      <h2 className="text-2xl font-bold mb-6 text-black">Melhores ferramentas: Modelos de LLMs</h2>
       <div className="grid gap-6 sm:grid-cols-2">
         {modelos.map((modelo) => (
           <a

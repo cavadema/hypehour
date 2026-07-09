@@ -193,6 +193,7 @@ export default function RepositoriosIA() {
         <h1 className="text-3xl font-bold">Repositórios de IA no Github</h1>
       </div>
       <ExpandableContent />
+      <h2 className="text-2xl font-bold mb-6 text-black">Melhores repositórios de IA no Github</h2>
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((repo) => (
           <ToolCard key={repo.nome} nome={repo.nome} url={repo.url} descricao={repo.descricao} />

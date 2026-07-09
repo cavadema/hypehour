@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Onde a IA está Gerando mais Impacto no Game Dev</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Onde a IA está Gerando mais Impacto no Game Dev</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Arte e assets:</strong> Geração de concept art, sprites, texturas e ambientes com consistência de estilo — reduzindo em horas o trabalho de art direção e produção visual.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Codificação assistida:</strong> Cursor e GitHub Copilot aceleram a implementação de mecânicas, sistemas de física e lógica de jogo — especialmente para desenvolvedores que trabalham sozinhos.</span></li>

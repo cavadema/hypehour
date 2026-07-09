@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">O que uma Boa Ferramenta de IA para Reunião Deve Oferecer</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">O que uma Boa Ferramenta de IA para Reunião Deve Oferecer</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Transcrição em português:</strong> Acurácia alta no idioma nativo da equipe é fundamental — verifique as amostras de qualidade em português antes de contratar.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Identificação de falantes:</strong> A ferramenta deve atribuir corretamente cada fala ao participante correspondente, não apenas transcrever sem identificação de quem falou.</span></li>

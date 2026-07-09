@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Aproveitar ao Máximo Eventos de IA</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Aproveitar ao Máximo Eventos de IA</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Prepare-se antes:</strong> Pesquise os palestrantes e temas com antecedência, liste as sessões prioritárias e prepare perguntas específicas para aproveitar ao máximo o tempo presencial.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Networking estratégico:</strong> Sessões de networking são tão valiosas quanto as palestras — venha com cartões de visita digitais, perfil LinkedIn atualizado e um pitch claro do que você faz e busca.</span></li>

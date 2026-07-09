@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Vantagens de Criar Apresentações com IA</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Vantagens de Criar Apresentações com IA</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Velocidade sem precedentes:</strong> Do prompt à apresentação completa em menos de 2 minutos — deixe de perder horas em formatação e foco em conteúdo estratégico.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Design profissional automático:</strong> IA garante consistência visual, hierarquia tipográfica e paletas de cores coerentes — mesmo para quem não tem habilidade em design gráfico.</span></li>

@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Casos de Uso de Web Scraping com IA para Empresas</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Casos de Uso de Web Scraping com IA para Empresas</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Monitoramento de concorrência:</strong> Acompanhe preços, lançamentos de produtos e mudanças de estratégia de concorrentes automaticamente — recebendo alertas quando algo relevante muda.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Geração de leads B2B:</strong> Extraia contatos, cargos e informações de empresas-alvo de sites públicos, LinkedIn e diretórios setoriais para alimentar seu CRM com prospects qualificados.</span></li>

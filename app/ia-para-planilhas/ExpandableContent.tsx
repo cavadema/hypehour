@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">O que Você Pode Fazer com IA em Planilhas</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">O que Você Pode Fazer com IA em Planilhas</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Fórmulas em português:</strong> Descreva o cálculo desejado e a IA escreve a fórmula correta para Excel ou Sheets — sem precisar memorizar sintaxe de ÍNDICE, CORRESP, SOMASE ou PROCV.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Análise conversacional:</strong> Faça upload da planilha e pergunte em linguagem natural sobre os dados — insights, tendências, anomalias e comparativos gerados instantaneamente.</span></li>

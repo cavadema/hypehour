@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Por que Usar Agregadores em vez de Assinar Cada IA Separadamente</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Por que Usar Agregadores em vez de Assinar Cada IA Separadamente</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Economia de custo real:</strong> Poe e You.com Pro custam menos de US$20/mês e incluem créditos para GPT-4o, Claude 3.5, Gemini 1.5 Pro e outros — em vez de pagar US$20/mês por cada um separadamente, você acessa o melhor de cada por uma fração do custo total.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Comparação de modelos para cada tarefa:</strong> Com acesso simultâneo a múltiplos LLMs, você testa qual modelo responde melhor a um prompt específico — essencial para encontrar o modelo certo para escrita criativa, código, análise jurídica ou tarefas matemáticas.</span></li>

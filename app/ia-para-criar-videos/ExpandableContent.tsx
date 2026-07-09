@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Tipos de Vídeos que Você Pode Criar com IA Hoje</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Tipos de Vídeos que Você Pode Criar com IA Hoje</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Vídeos faceless para YouTube:</strong> Roteiro com ChatGPT, narração com ElevenLabs, imagens em movimento com Kling AI e edição com CapCut — canal completo sem aparecer na câmera.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Avatares apresentadores:</strong> HeyGen e Synthesia criam apresentadores digitais realistas que leem qualquer roteiro em português com sincronização labial perfeita.</span></li>

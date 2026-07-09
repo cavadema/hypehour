@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Músicos e Criadores Usam IA na Produção Musical</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Músicos e Criadores Usam IA na Produção Musical</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Geração de músicas completas:</strong> Do prompt à faixa finalizada com letra, vocal e produção — ideal para trilhas de vídeo, jogos, podcasts e experimentação criativa rápida.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Separação de stems:</strong> Ferramentas como Lalal.ai e Moises isolam vocais e instrumentos de qualquer música, permitindo remixes, karaokês e análises de arranjo profissionais.</span></li>

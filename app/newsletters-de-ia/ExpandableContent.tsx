@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Montar sua Stack de Newsletters de IA</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Montar sua Stack de Newsletters de IA</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Cobertura diária rápida:</strong> TLDR AI em inglês ou o Hypehour em português para um resumo de 5 minutos com os principais acontecimentos do mundo de IA — ideal para começar o dia informado.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Análise técnica semanal:</strong> The Batch de Andrew Ng para perspectiva de um dos maiores especialistas em IA — equilibrando avanços técnicos, impactos práticos e visão de longo prazo.</span></li>

@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como a IA Transforma Cada Etapa do Funil de Vendas</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como a IA Transforma Cada Etapa do Funil de Vendas</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Qualificação automática:</strong> A IA avalia cada novo lead com base em dados comportamentais e demográficos, priorizando contatos com real potencial de compra antes mesmo do primeiro contato humano.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Enriquecimento de dados:</strong> Ferramentas de IA completam automaticamente perfis de clientes com informações públicas — cargo, empresa, LinkedIn, notícias recentes — sem trabalho manual da equipe.</span></li>

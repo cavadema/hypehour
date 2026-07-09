@@ -103,6 +103,7 @@ export default function LivrosInteligenciaArtificial() {
         <h1 className="text-3xl font-bold">Livros sobre Inteligência Artificial</h1>
       </div>
       <ExpandableContent />
+      <h2 className="text-2xl font-bold mb-6 text-black">Melhores ferramentas: Livros sobre Inteligência Artificial</h2>
       <div className="grid gap-6 sm:grid-cols-2">
         {livros.map((livro) => (
           <div

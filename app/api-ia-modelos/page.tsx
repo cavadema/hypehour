@@ -131,6 +131,7 @@ export default function APIsIA() {
         <h1 className="text-3xl font-bold">APIs de IA</h1>
       </div>
       <ExpandableContent />
+      <h2 className="text-2xl font-bold mb-6 text-black">Melhores APIs de IA</h2>
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((api) => (
           <ToolCard key={api.nome} nome={api.nome} url={api.url} descricao={api.descricao} />

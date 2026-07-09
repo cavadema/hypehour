@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">O que Você Pode Fazer com IA no Design de Interiores</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">O que Você Pode Fazer com IA no Design de Interiores</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Visualização instantânea:</strong> Veja seu ambiente transformado em múltiplos estilos decorativos em segundos — escandinavo, industrial, boho, clássico — sem mock-ups físicos ou renders manuais.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Experimentação de cores:</strong> Teste diferentes paletas de tintas, revestimentos e materiais virtualmente antes de qualquer compra — evitando o arrependimento com escolhas de cores.</span></li>

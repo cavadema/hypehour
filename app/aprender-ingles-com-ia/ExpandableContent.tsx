@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Estratégias para Aprender Inglês mais Rápido com IA</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Estratégias para Aprender Inglês mais Rápido com IA</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Conversação diária:</strong> Pratique pelo menos 15 minutos por dia de conversação com IA em tópicos do seu trabalho ou interesse — consistência supera intensidade esporádica.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Correção de pronúncia:</strong> Apps como Elsa Speak identificam exatamente quais sons do inglês você pronuncia com sotaque brasileiro e criam exercícios fonéticos específicos.</span></li>

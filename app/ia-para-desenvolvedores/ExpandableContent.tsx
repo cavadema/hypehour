@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Desenvolvedores Usam IA para Ser mais Produtivos</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Desenvolvedores Usam IA para Ser mais Produtivos</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Completions inteligentes:</strong> GitHub Copilot e Cursor sugerem linhas e blocos de código em contexto, acelerando a escrita especialmente em código repetitivo e boilerplate.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Refatoração assistida:</strong> Cursor em modo Agent pode analisar um arquivo ou módulo inteiro e propor refatorações consistentes em toda a base de código, algo que levaria horas manualmente.</span></li>

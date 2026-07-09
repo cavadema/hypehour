@@ -75,6 +75,7 @@ export default function GeradorDeVozIA() {
         <h1 className="text-3xl font-bold">Gerador de Voz com IA</h1>
       </div>
       <ExpandableContent />
+      <h2 className="text-2xl font-bold mb-6 text-black">Melhores gerador de Voz com IA</h2>
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => (
           <ToolCard key={f.nome} nome={f.nome} url={f.url} descricao={f.descricao} />

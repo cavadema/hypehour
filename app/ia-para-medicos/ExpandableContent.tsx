@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Aplicações de IA que já Estão Transformando a Medicina</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Aplicações de IA que já Estão Transformando a Medicina</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Documentação automática:</strong> IA grava e transcreve consultas, gerando nota clínica estruturada em tempo real — liberando o médico para focar no paciente em vez de no teclado.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Análise de imagem radiológica:</strong> Sistemas detectam nódulos, fraturas e hemorragias em imagens médicas com alta sensibilidade, auxiliando radiologistas na priorização e na triagem.</span></li>

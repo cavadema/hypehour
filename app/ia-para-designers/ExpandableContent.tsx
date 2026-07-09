@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Designers Usam IA no Dia a Dia</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Designers Usam IA no Dia a Dia</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Ideação acelerada:</strong> Em vez de horas de pesquisa de referências, gere 30 variações de conceito visual em minutos para apresentar ao cliente e validar a direção criativa antes de executar.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Produção de assets em escala:</strong> Crie variações de banners, posts e peças para múltiplos formatos e plataformas automaticamente, mantendo consistência de marca sem trabalho manual repetitivo.</span></li>

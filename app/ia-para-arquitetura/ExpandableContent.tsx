@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como a IA Transforma o Trabalho do Arquiteto</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como a IA Transforma o Trabalho do Arquiteto</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Conceituação acelerada:</strong> Em vez de horas de croquis manuais, o arquiteto descreve o conceito em texto e a IA gera dezenas de referências visuais em minutos para exploração e discussão com o cliente.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Renders sem renderização:</strong> ControlNet converte plantas e volumetrias em renders fotorrealistas preservando a geometria do projeto, eliminando horas de configuração em V-Ray ou Lumion.</span></li>

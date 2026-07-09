@@ -67,6 +67,7 @@ export default function IAParaDesignDeInteriores() {
         <h1 className="text-3xl font-bold">IA para Design de Interiores</h1>
       </div>
       <ExpandableContent />
+      <h2 className="text-2xl font-bold mb-6 text-black">Melhores ferramentas de IA para Design de Interiores</h2>
       <div className="grid gap-6 sm:grid-cols-2">
         {ferramentas.map((f) => (
           <ToolCard key={f.nome} nome={f.nome} url={f.url} descricao={f.descricao} />

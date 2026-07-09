@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Aplicações de Geração de Voz com IA no Mercado Brasileiro</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Aplicações de Geração de Voz com IA no Mercado Brasileiro</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>E-learning e cursos online:</strong> Narração profissional para vídeoaulas, exercícios de listening e materiais didáticos a uma fração do custo de locução humana.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Vídeos para YouTube e Reels:</strong> Criadores usam TTS para narrar vídeos faceless (sem aparecer) em nicho de notícias, finanças, tecnologia e outros formatos de alto volume.</span></li>

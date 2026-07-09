@@ -15,7 +15,7 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h3 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Navegar de Forma mais Inteligente com IA</h3>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Navegar de Forma mais Inteligente com IA</h2>
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Pesquisa com citações:</strong> Perplexity cita cada fonte usada na resposta — você pode verificar a informação diretamente, diferente dos LLMs que podem alucinar referências inexistentes.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Resumo de páginas longas:</strong> Abra qualquer artigo, relatório ou documento e peça à IA integrada ao navegador para resumir os pontos principais — leia em 30 segundos o que levaria 15 minutos.</span></li>

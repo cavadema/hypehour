@@ -13,7 +13,7 @@ export default function ToolCard({ nome, url, descricao }: ToolCardProps) {
 
   const inner = (
     <>
-      <h2 className="font-semibold text-lg mb-1">{nome}</h2>
+      <h3 className="font-semibold text-lg mb-1">{nome}</h3>
       <div className="text-gray-500 text-sm">{descricao}</div>
     </>
   );
