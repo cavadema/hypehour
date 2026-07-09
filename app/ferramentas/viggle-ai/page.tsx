@@ -93,14 +93,7 @@ export default function ViggleAIPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Envie a imagem do personagem","Forneça o vídeo de referência","IA processa a animação","Baixe e compartilhe","Transferência de movimento (motion transfer)","Consistência de personagem"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.7",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1335",
-        },
-        "creator": {
+                "creator": {
           "@type": "Organization",
           "name": "Viggle AI"
         }

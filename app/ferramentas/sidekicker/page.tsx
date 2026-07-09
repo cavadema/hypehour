@@ -95,10 +95,10 @@ export default function SidekickerPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.8",
+          "ratingValue": "4.0",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1504",
+          "ratingCount": "443",
         },
         "creator": {
           "@type": "Organization",

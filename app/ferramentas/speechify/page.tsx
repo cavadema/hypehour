@@ -98,7 +98,7 @@ export default function SpeechifyPage() {
           "ratingValue": "4.6",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1410",
+          "ratingCount": "4736",
         },
         "creator": {
           "@type": "Organization",

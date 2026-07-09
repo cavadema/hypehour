@@ -95,10 +95,10 @@ export default function JanitorAIPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.8",
+          "ratingValue": "2.6",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1456",
+          "ratingCount": "26",
         },
         "creator": {
           "@type": "Organization",

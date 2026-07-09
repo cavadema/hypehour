@@ -93,14 +93,7 @@ export default function OllamaPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Instalação Simples","Pull de Modelos","Chat Imediato","Integração via API","Biblioteca Gigante de Modelos","API Compatível com OpenAI"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1080",
-        },
-        "creator": {
+                "creator": {
           "@type": "Organization",
           "name": "Ollama"
         }

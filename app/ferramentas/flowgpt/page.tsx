@@ -98,7 +98,7 @@ export default function FlowGPTPage() {
           "ratingValue": "4.9",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1221",
+          "ratingCount": "10",
         },
         "creator": {
           "@type": "Organization",

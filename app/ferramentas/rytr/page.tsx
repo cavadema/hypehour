@@ -99,7 +99,7 @@ export default function RytrPage() {
           "ratingValue": "4.7",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "915",
+          "ratingCount": "819",
         },
         "creator": {
           "@type": "Organization",

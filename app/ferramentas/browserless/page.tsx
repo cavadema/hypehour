@@ -94,14 +94,7 @@ export default function BrowserlessPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Conecte seu Script","Execução na Nuvem","Escalabilidade Automática","Resultado Instantâneo","Visual Debugger","Resource Management"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1661",
-        },
-        "creator": {
+                "creator": {
           "@type": "Organization",
           "name": "Browserless"
         }

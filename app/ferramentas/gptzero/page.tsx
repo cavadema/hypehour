@@ -95,10 +95,10 @@ export default function GPTZeroPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.9",
+          "ratingValue": "4.3",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1229",
+          "ratingCount": "101",
         },
         "creator": {
           "@type": "Organization",

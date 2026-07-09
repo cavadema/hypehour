@@ -54,7 +54,7 @@ export default function ShadcnCreatePage() {
           "ratingValue": "4.8",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1748",
+          "ratingCount": "15",
         },
         creator: { "@type": "Organization", name: "shadcn" } },
     ],

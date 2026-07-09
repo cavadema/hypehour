@@ -49,14 +49,7 @@ export default function RoomXAIPage() {
       { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/roomxai#software", name: "RoomX AI", description: "Ferramenta de IA para design de interiores que transforma fotos de ambientes reais em renders profissionais com diferentes estilos decorativos.", applicationCategory: "DesignApplication", operatingSystem: "Web", url: "https://roomxai.com", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/roomxai", 
         "image": "https://www.hypehour.com.br/logo.png",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1217",
-        },
-        creator: { "@type": "Organization", name: "RoomX AI" } },
+                creator: { "@type": "Organization", name: "RoomX AI" } },
     ],
   };
 

@@ -49,14 +49,7 @@ export default function ClawSyndicatePage() {
       { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/claw-syndicate#software", name: "Claw Syndicate", description: "Plataforma de orquestração multi-agente que permite criar e coordenar equipes de agentes de IA especializados para execução colaborativa de tarefas complexas.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://clawsyndicate.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/claw-syndicate", 
         "image": "https://www.hypehour.com.br/logo.png",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.6",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1882",
-        },
-        creator: { "@type": "Organization", name: "Claw Syndicate" } },
+                creator: { "@type": "Organization", name: "Claw Syndicate" } },
     ],
   };
 

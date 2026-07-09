@@ -49,14 +49,7 @@ export default function JuliusAIPage() {
       { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/julius-ai#software", name: "Julius AI", description: "Assistente de IA para análise de dados que responde perguntas sobre planilhas e CSV em linguagem natural, gerando gráficos, análises estatísticas e insights automaticamente.", applicationCategory: "BusinessApplication", operatingSystem: "Web", url: "https://julius.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/julius-ai", 
         "image": "https://www.hypehour.com.br/logo.png",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1365",
-        },
-        creator: { "@type": "Organization", name: "Julius AI" } },
+                creator: { "@type": "Organization", name: "Julius AI" } },
     ],
   };
 

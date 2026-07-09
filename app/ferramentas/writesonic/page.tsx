@@ -97,10 +97,10 @@ export default function WritesonicPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.9",
+          "ratingValue": "4.7",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1545",
+          "ratingCount": "2214",
         },
         "creator": {
           "@type": "Organization",

@@ -97,10 +97,10 @@ export default function ProfoundPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.7",
+          "ratingValue": "4.5",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1327",
+          "ratingCount": "1037",
         },
         "creator": {
           "@type": "Organization",

@@ -97,10 +97,10 @@ export default function IdeogramPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.6",
+          "ratingValue": "4.0",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1290",
+          "ratingCount": "159",
         },
         "creator": {
           "@type": "Organization",

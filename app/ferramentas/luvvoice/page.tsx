@@ -76,10 +76,12 @@ export default function LuvvoicePage() {
                 "url": toolMetadata.url,
                 "mainEntityOfPage": `https://www.hypehour.com.br/ferramentas/luvvoice`,
                 "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.6",
-                    "ratingCount": "8"
-                },
+          "@type": "AggregateRating",
+          "ratingValue": "2.3",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "9",
+        },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

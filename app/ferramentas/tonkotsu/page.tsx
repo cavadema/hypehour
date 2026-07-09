@@ -49,14 +49,7 @@ export default function TonkotsuPage() {
       { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/tonkotsu#software", name: "Tonkotsu AI", description: "Plataforma visual para criação de fluxos de agentes de IA com suporte a ferramentas, memória persistente e execução autônoma de tarefas.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://tonkotsu.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/tonkotsu", 
         "image": "https://www.hypehour.com.br/logo.png",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1353",
-        },
-        creator: { "@type": "Organization", name: "Tonkotsu AI" } },
+                creator: { "@type": "Organization", name: "Tonkotsu AI" } },
     ],
   };
 

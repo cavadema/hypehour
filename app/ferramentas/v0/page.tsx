@@ -77,10 +77,10 @@ export default function V0Page() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.8",
+          "ratingValue": "5.0",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "616",
+          "ratingCount": "36",
         },
         "creator": { "@type": "Organization", "name": "Vercel" },
       },

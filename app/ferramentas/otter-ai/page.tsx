@@ -77,10 +77,10 @@ export default function OtterAIPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.7",
+          "ratingValue": "4.4",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1255",
+          "ratingCount": "462",
         },
         creator: { "@type": "Organization", name: "Otter.ai" },
       },

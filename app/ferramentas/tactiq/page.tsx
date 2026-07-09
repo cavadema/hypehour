@@ -96,10 +96,10 @@ export default function TactiqPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.8",
+          "ratingValue": "4.2",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1096",
+          "ratingCount": "17",
         },
         "creator": {
           "@type": "Organization",

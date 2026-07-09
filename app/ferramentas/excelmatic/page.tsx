@@ -93,14 +93,7 @@ export default function ExcelmaticPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Descreva sua Necessidade","Geração Instantânea","Explicação Didática","Aplicação e Refinamento","Formula & Script Generator","AI Image/PDF to Excel"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1505",
-        },
-        "creator": {
+                "creator": {
           "@type": "Organization",
           "name": "Excelmatic AI"
         }

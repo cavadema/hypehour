@@ -77,14 +77,7 @@ export default function ClipDropPage() {
         "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/clipdrop#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.7",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1311",
-        },
-        "creator": { "@type": "Organization", "name": "Stability AI" },
+                "creator": { "@type": "Organization", "name": "Stability AI" },
       },
     ],
   };

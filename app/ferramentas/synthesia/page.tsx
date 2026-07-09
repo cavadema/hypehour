@@ -76,10 +76,12 @@ export default function SynthesiaPage() {
                 "url": toolMetadata.url,
                 "mainEntityOfPage": `https://www.hypehour.com.br/ferramentas/synthesia`,
                 "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.5",
-                    "ratingCount": "10"
-                },
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "2375",
+        },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

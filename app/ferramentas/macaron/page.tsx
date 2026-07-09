@@ -54,7 +54,7 @@ export default function MacaronPage() {
           "ratingValue": "4.7",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1187",
+          "ratingCount": "106",
         },
         creator: { "@type": "Organization", name: "Macaron" } },
     ],

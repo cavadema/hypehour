@@ -75,12 +75,7 @@ export default function WeVoicerPage() {
                 "operatingSystem": "Web",
                 "url": toolMetadata.url,
                 "mainEntityOfPage": `https://www.hypehour.com.br/ferramentas/wevoicer`,
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.9",
-                    "ratingCount": "14"
-                },
-                "offers": {
+                                "offers": {
                     "@type": "Offer",
                     "price": "0",
                     "priceCurrency": "USD",

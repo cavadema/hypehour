@@ -79,10 +79,10 @@ export default function DzinePage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.8",
+          "ratingValue": "3.6",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "988",
+          "ratingCount": "44",
         },
         "creator": { "@type": "Organization", "name": "Dzine" },
       },

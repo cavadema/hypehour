@@ -79,10 +79,10 @@ export default function DescriptPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.8",
+          "ratingValue": "4.6",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1312",
+          "ratingCount": "865",
         },
         "creator": { "@type": "Organization", "name": "Descript" },
       },

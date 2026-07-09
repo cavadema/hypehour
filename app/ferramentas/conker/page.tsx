@@ -93,14 +93,7 @@ export default function ConkerPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Escolha seu ponto de partida","Configure o formato","Revise e Valide","Lançamento direto","Gerador de Questões Inteligente","Biblioteca de Padrões Educacionais"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1092",
-        },
-        "creator": {
+                "creator": {
           "@type": "Organization",
           "name": "Conker AI"
         }

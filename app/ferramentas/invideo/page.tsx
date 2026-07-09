@@ -76,10 +76,12 @@ export default function InvideoPage() {
                 "url": toolMetadata.url,
                 "mainEntityOfPage": `https://www.hypehour.com.br/ferramentas/invideo`,
                 "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.5",
-                    "ratingCount": "1"
-                },
+          "@type": "AggregateRating",
+          "ratingValue": "4.3",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "177",
+        },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

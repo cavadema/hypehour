@@ -49,14 +49,7 @@ export default function ThumbfastPage() {
       { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/thumbfast#software", name: "Thumbfast", description: "Gerador de thumbnails com IA para YouTube, Instagram e redes sociais, criando imagens de capa profissionais e otimizadas para cliques.", applicationCategory: "DesignApplication", operatingSystem: "Web", url: "https://thumbfa.st", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/thumbfast", 
         "image": "https://www.hypehour.com.br/logo.png",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1424",
-        },
-        creator: { "@type": "Organization", name: "Thumbfast" } },
+                creator: { "@type": "Organization", name: "Thumbfast" } },
     ],
   };
 

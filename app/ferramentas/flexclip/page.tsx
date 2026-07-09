@@ -76,10 +76,12 @@ export default function FlexClipPage() {
                 "url": toolMetadata.url,
                 "mainEntityOfPage": `https://www.hypehour.com.br/ferramentas/flexclip`,
                 "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "ratingCount": "1"
-                },
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "2613",
+        },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

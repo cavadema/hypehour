@@ -76,10 +76,12 @@ export default function KapwingPage() {
                 "url": toolMetadata.url,
                 "mainEntityOfPage": `https://www.hypehour.com.br/ferramentas/kapwing`,
                 "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "ratingCount": "4"
-                },
+          "@type": "AggregateRating",
+          "ratingValue": "4.4",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "207",
+        },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

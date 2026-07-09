@@ -97,10 +97,10 @@ export default function MidjourneyPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.8",
+          "ratingValue": "4.4",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1544",
+          "ratingCount": "88",
         },
         "creator": {
           "@type": "Organization",

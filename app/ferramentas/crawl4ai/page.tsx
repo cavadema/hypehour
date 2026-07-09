@@ -94,14 +94,7 @@ export default function Crawl4AIPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Instale e Configure","Defina o Crawler","Extração e Limpeza","Alimente sua IA","Headless Browser Support","Custom Data Layouts"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1241",
-        },
-        "creator": {
+                "creator": {
           "@type": "Organization",
           "name": "Crawl4AI"
         }

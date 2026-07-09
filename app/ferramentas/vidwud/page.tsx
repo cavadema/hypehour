@@ -75,14 +75,7 @@ export default function VidwudPage() {
         mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/vidwud",
         "image": "https://www.hypehour.com.br/logo.png",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1109",
-        },
-        creator: { "@type": "Organization", name: "Vidwud" },
+                creator: { "@type": "Organization", name: "Vidwud" },
       },
     ],
   };

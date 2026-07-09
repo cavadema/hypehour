@@ -95,14 +95,7 @@ export default function FirstAnswerPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Audit de Visibilidade Inicial","Identificação de Competidores","Plano de Ação GEO","Loop de Monitoramento","Multi-LLM Monitoring","Context & Sentiment Analysis"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.7",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1703",
-        },
-        "creator": {
+                "creator": {
           "@type": "Organization",
           "name": "First Answer"
         }

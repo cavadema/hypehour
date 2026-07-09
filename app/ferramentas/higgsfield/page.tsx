@@ -97,10 +97,10 @@ export default function HiggsfieldPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.8",
+          "ratingValue": "4.5",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1496",
+          "ratingCount": "18",
         },
         "creator": {
           "@type": "Organization",

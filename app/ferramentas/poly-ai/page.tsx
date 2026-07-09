@@ -95,10 +95,10 @@ export default function PolyAIPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.9",
+          "ratingValue": "5.0",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1149",
+          "ratingCount": "12",
         },
         "creator": {
           "@type": "Organization",

@@ -95,10 +95,10 @@ export default function GammaPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.9",
+          "ratingValue": "4.3",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "965",
+          "ratingCount": "26",
         },
         "creator": {
           "@type": "Organization",

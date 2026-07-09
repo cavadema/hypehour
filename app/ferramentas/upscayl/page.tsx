@@ -49,14 +49,7 @@ export default function UpscaylPage() {
       { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/upscayl#software", name: "Upscayl", description: "Upscaler de imagens com IA gratuito e open-source que aumenta a resolução de fotos borradas em até 16x, disponível como app desktop (Windows, Mac, Linux) e versão cloud.", applicationCategory: "DesignApplication", operatingSystem: "Windows, macOS, Linux, Web", url: "https://upscayl.org", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/upscayl", 
         "image": "https://www.hypehour.com.br/logo.png",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.7",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1219",
-        },
-        creator: { "@type": "Organization", name: "Upscayl" } },
+                creator: { "@type": "Organization", name: "Upscayl" } },
     ],
   };
 

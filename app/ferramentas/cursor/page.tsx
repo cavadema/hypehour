@@ -101,10 +101,10 @@ export default function CursorPage() {
         ],
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.8",
+          "ratingValue": "4.5",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "2847",
+          "ratingCount": "54",
         },
         "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/cursor#webpage" },
         "creator": {

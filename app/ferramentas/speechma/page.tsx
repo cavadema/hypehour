@@ -93,14 +93,7 @@ export default function SpeechmaPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Escolha o modo","Insira o conteúdo","Configure voz e idioma","Gere e baixe","Text-to-Speech com vozes realistas","Transcrição de áudio para texto"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1288",
-        },
-        "creator": {
+                "creator": {
           "@type": "Organization",
           "name": "Speechma"
         }

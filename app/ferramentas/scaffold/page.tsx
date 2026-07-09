@@ -49,14 +49,7 @@ export default function ScaffoldPage() {
       { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/scaffold#software", name: "Scaffold", description: "Ferramenta de IA para geração automática de estruturas de projetos de software, incluindo arquivos, configurações e boilerplate a partir de uma descrição em linguagem natural.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://www.scaffoldtool.com", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/scaffold", 
         "image": "https://www.hypehour.com.br/logo.png",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1284",
-        },
-        creator: { "@type": "Organization", name: "Scaffold" } },
+                creator: { "@type": "Organization", name: "Scaffold" } },
     ],
   };
 

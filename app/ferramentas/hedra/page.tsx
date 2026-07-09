@@ -79,10 +79,10 @@ export default function HedraPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.6",
+          "ratingValue": "2.1",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "966",
+          "ratingCount": "39",
         },
         "creator": { "@type": "Organization", "name": "Hedra" },
       },

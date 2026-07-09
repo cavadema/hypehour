@@ -96,10 +96,10 @@ export default function VidnozPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.8",
+          "ratingValue": "4.9",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1116",
+          "ratingCount": "16",
         },
         "creator": {
           "@type": "Organization",

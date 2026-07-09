@@ -49,14 +49,7 @@ export default function OpenClawPage() {
       { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/openclaw#software", name: "OpenClaw", description: "Plataforma de criação e orquestração de agentes de IA autônomos para automatizar fluxos de trabalho complexos.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://openclaw.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/openclaw", 
         "image": "https://www.hypehour.com.br/logo.png",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.7",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1307",
-        },
-        creator: { "@type": "Organization", name: "OpenClaw" } },
+                creator: { "@type": "Organization", name: "OpenClaw" } },
     ],
   };
 

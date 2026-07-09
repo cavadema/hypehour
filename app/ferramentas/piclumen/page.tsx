@@ -51,10 +51,10 @@ export default function PicLumenPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.7",
+          "ratingValue": "4.8",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1311",
+          "ratingCount": "4333",
         },
         creator: { "@type": "Organization", name: "PicLumen" } },
     ],

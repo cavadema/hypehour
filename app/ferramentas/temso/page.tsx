@@ -97,10 +97,10 @@ export default function TemsoPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.6",
+          "ratingValue": "4.8",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1002",
+          "ratingCount": "5",
         },
         "creator": {
           "@type": "Organization",

@@ -49,14 +49,7 @@ export default function GobiiPage() {
       { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/gobii#software", name: "Gobii AI", description: "Plataforma no-code para criação de agentes de IA personalizados com automação de tarefas, base de conhecimento e integrações com sistemas externos.", applicationCategory: "BusinessApplication", operatingSystem: "Web", url: "https://gobii.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/gobii", 
         "image": "https://www.hypehour.com.br/logo.png",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "972",
-        },
-        creator: { "@type": "Organization", name: "Gobii AI" } },
+                creator: { "@type": "Organization", name: "Gobii AI" } },
     ],
   };
 

@@ -96,10 +96,10 @@ export default function ClipchampPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.7",
+          "ratingValue": "4.3",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1395",
+          "ratingCount": "89",
         },
         "creator": {
           "@type": "Organization",

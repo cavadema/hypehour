@@ -93,14 +93,7 @@ export default function AdaptaPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Assine a plataforma","Acesse os modelos de IA","Use ferramentas especiais","Aprenda com os cursos","Adapta ONE26 - IA Proprietária","Acesso a +15 Modelos de IA"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1069",
-        },
-        "creator": {
+                "creator": {
           "@type": "Organization",
           "name": "Adapta"
         }

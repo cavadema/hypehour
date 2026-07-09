@@ -96,10 +96,10 @@ export default function BrowseAIPage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.7",
+          "ratingValue": "4.8",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1355",
+          "ratingCount": "59",
         },
         "creator": {
           "@type": "Organization",

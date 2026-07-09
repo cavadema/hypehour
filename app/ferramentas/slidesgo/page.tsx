@@ -93,14 +93,7 @@ export default function SlidesgoPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Defina o tema e o tom","Escolha o estilo visual","Gere e edite","Exporte para onde precisar","AI Presentation Maker","Editor Drag-and-Drop amigável"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1308",
-        },
-        "creator": {
+                "creator": {
           "@type": "Organization",
           "name": "Slidesgo AI"
         }

@@ -76,10 +76,12 @@ export default function VeedPage() {
                 "url": toolMetadata.url,
                 "mainEntityOfPage": `https://www.hypehour.com.br/ferramentas/veed`,
                 "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.5",
-                    "ratingCount": "1"
-                },
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "2141",
+        },
                 "offers": {
                     "@type": "Offer",
                     "price": "0",

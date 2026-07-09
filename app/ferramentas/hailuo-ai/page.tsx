@@ -93,14 +93,7 @@ export default function HailuoAIPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Descreva sua Cena","Escolha o Modelo","Gere e Baixe","Text-to-Video e Image-to-Video","Controle de Diretor (T2V Director)","Alta Velocidade de Geração"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.7",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1339",
-        },
-        "creator": {
+                "creator": {
           "@type": "Organization",
           "name": "Hailuo AI: A Revolução do Vídeo por IA da MiniMax"
         }

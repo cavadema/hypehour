@@ -95,14 +95,7 @@ export default function WillowPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Instale o software","Ative o ditado","Fale naturalmente","Veja o resultado","Estilo de Escrita Personalizado","Correção Gramatical em Tempo Real"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1120",
-        },
-        "creator": {
+                "creator": {
           "@type": "Organization",
           "name": "Willow"
         }

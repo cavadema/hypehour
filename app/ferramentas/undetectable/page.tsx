@@ -77,10 +77,10 @@ export default function UndetectablePage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.6",
+          "ratingValue": "3.4",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1714",
+          "ratingCount": "890",
         },
         creator: { "@type": "Organization", name: "Undetectable AI" },
       },

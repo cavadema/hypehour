@@ -95,10 +95,10 @@ export default function PixversePage() {
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.8",
+          "ratingValue": "2.7",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "1336",
+          "ratingCount": "105",
         },
         "creator": {
           "@type": "Organization",
