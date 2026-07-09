@@ -19,19 +19,6 @@ export default function CategoryPageSchema({ title, description, canonicalUrl, f
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Organization",
-        "@id": `${BASE_URL}/#organization`,
-        "name": "Hypehour",
-        "url": BASE_URL,
-      },
-      {
-        "@type": "WebSite",
-        "@id": `${BASE_URL}/#website`,
-        "name": "Hypehour",
-        "url": BASE_URL,
-        "publisher": { "@id": `${BASE_URL}/#organization` },
-      },
-      {
         "@type": "BreadcrumbList",
         "@id": `${canonicalUrl}/#breadcrumb`,
         "itemListElement": [

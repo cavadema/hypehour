@@ -29,19 +29,6 @@ export default function BoltNewPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Organization",
-        "@id": "https://www.hypehour.com.br/#organization",
-        "name": "Hypehour",
-        "url": "https://www.hypehour.com.br",
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://www.hypehour.com.br/#website",
-        "name": "Hypehour",
-        "url": "https://www.hypehour.com.br",
-        "publisher": { "@id": "https://www.hypehour.com.br/#organization" },
-      },
-      {
         "@type": "WebPage",
         "@id": "https://www.hypehour.com.br/ferramentas/bolt-new#webpage",
         "url": "https://www.hypehour.com.br/ferramentas/bolt-new",
