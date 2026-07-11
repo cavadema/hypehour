@@ -48,6 +48,10 @@ const faqs = [
     {
         "q": "Vibe coding vai substituir os desenvolvedores?",
         "a": "Não no curto prazo. Vai substituir parte do trabalho de implementação rotineira, mas a arquitetura de sistemas, segurança, performance em escala e resolução de bugs complexos ainda requerem expertise técnica humana significativa."
+    },
+    {
+        "q": "Qual é a melhor IA para gerar código no geral (não só vibe coding)?",
+        "a": "Para completar código dentro do editor, GitHub Copilot e Cursor são os líderes de mercado. Para gerar código via chat a partir de descrições em linguagem natural, Claude e ChatGPT são referência pela qualidade das explicações e do código gerado. Para projetos completos de forma autônoma — o que inclui vibe coding — Bolt.new, Lovable e Replit Agent se destacam por gerar e deployar aplicações inteiras a partir de um prompt."
     }
 ];
 

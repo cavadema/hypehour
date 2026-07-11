@@ -48,6 +48,18 @@ const faqs = [
     {
         "q": "Devo usar um agregador de IA ou integrar diretamente com a API de cada provedor?",
         "a": "Para produção com uso sério, agregadores valem o overhead. Integrar diretamente com cada API significa gerenciar múltiplas chaves, lidar com downtime de cada provedor individualmente, implementar retry logic manual e ter zero visibilidade centralizada de custos. Agregadores resolvem tudo isso out-of-the-box e o custo adicional (geralmente baixo) é compensado pela resiliência e observabilidade."
+    },
+    {
+        "q": "Quais são as 5 maiores IAs do mundo?",
+        "a": "As IAs de maior impacto e adoção global atualmente são: ChatGPT (OpenAI), Gemini (Google), Claude (Anthropic), Copilot (Microsoft) e Llama (Meta). ChatGPT e Claude se destacam em conversação e produtividade, Gemini em integração com o ecossistema Google, Copilot no ambiente Microsoft 365 e Llama como modelo open source de maior referência no mercado."
+    },
+    {
+        "q": "O que é um concentrador de IA?",
+        "a": "Concentrador de IA é sinônimo de agregador de IA — plataformas que centralizam o acesso a múltiplos modelos e ferramentas de inteligência artificial em um único lugar. Termos como concentrador, hub, agregador ou pacote de IA descrevem a mesma categoria: em vez de assinar separadamente ChatGPT, Claude e Gemini, você acessa todos via uma interface ou API unificada como Poe, OpenRouter ou You.com."
+    },
+    {
+        "q": "Quais são as 3 IAs mais usadas atualmente?",
+        "a": "Por volume de usuários e adoção global, ChatGPT (OpenAI), Gemini (Google) e Microsoft Copilot são as três IAs conversacionais mais utilizadas. ChatGPT foi o pioneiro e ainda lidera em reconhecimento de marca; Gemini cresce com a base de usuários do ecossistema Google; e o Copilot avança pela integração nativa com o Microsoft 365 nas empresas."
     }
 ];
 

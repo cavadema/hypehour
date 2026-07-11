@@ -48,6 +48,10 @@ const faqs = [
     {
         "q": "Vale a pena pagar por newsletters premium de IA?",
         "a": "Newsletters como Stratechery (US$14/mês) e Every (US$20/mês) oferecem análises profundas que justificam o custo para profissionais que dependem de entender o cenário de IA para decisões estratégicas. Para uso casual, as gratuitas cobrem bem."
+    },
+    {
+        "q": "Quais as principais newsletters de IA em português no Brasil?",
+        "a": "Entre as newsletters brasileiras mais relevantes estão: IAí? (O Globo), focada em como a IA transforma o dia a dia; AiDrop, com resumos semanais de ferramentas e modelos novos; a newsletter de IA da Exame, voltada ao cenário corporativo e de negócios; e a Fora de Controle da Alura, que cobre tecnologia e IA com foco em profissionais de tech. Para curadoria de ferramentas de IA em português, o Hypehour é referência no Brasil."
     }
 ];
 

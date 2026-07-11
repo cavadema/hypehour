@@ -48,6 +48,10 @@ const faqs = [
     {
         "q": "Como um evento de IA pode ajudar minha empresa a adotar IA?",
         "a": "Eventos permitem conhecer fornecedores, ver demos ao vivo de tecnologias, aprender com cases de empresas similares e conectar com consultores especializados — comprimindo meses de pesquisa em dias."
+    },
+    {
+        "q": "Qual é o maior evento de IA do Brasil hoje?",
+        "a": "A IA Conference Brasil se posiciona como o maior evento de inteligência artificial do Brasil, reunindo especialistas, cases reais e tendências do setor. O AI Summit Brasil é outro evento nacional de destaque, focado em transformar conhecimento em vantagem competitiva. Ambos acontecem anualmente e são referência no calendário brasileiro de IA para quem busca networking e atualização profissional."
     }
 ];
 

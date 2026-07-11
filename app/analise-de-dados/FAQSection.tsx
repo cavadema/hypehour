@@ -48,6 +48,14 @@ const faqs = [
     {
         "q": "Como a IA pode ajudar analistas de dados a serem mais produtivos?",
         "a": "Automatizando a limpeza de dados, geração de relatórios e criação de visualizações, o analista pode focar em interpretar e agir sobre os insights gerados."
+    },
+    {
+        "q": "Qual IA faz análise de dados no Excel?",
+        "a": "O Microsoft Copilot para Microsoft 365 é a IA nativa do Excel, permitindo analisar planilhas, gerar fórmulas, criar gráficos e resumir dados em linguagem natural. Para quem não tem o Copilot, o ChatGPT com Code Interpreter aceita uploads de arquivos Excel e CSV e realiza análises completas com geração de visualizações e insights automáticos."
+    },
+    {
+        "q": "Quais são os agentes de IA para análise de dados?",
+        "a": "Agentes de IA para análise de dados executam análises de forma autônoma a partir de uma instrução em linguagem natural. Julius AI, ChatGPT com Code Interpreter e o Agente de Análise do Gemini Advanced são os mais acessíveis para usuários finais. Para times técnicos, frameworks como LangChain e AutoGen permitem criar agentes customizados conectados a bancos de dados, APIs e pipelines de dados internos."
     }
 ];
 

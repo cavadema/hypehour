@@ -48,6 +48,14 @@ const faqs = [
     {
         "q": "Como criar modelos 3D para jogos usando IA?",
         "a": "Meshy AI e Luma AI geram modelos 3D a partir de fotos ou descrições em texto. Kaedim transforma concept art 2D em modelos 3D. Point-E da OpenAI permite geração de point clouds 3D. A qualidade ainda requer refinamento humano para uso em jogos AAA."
+    },
+    {
+        "q": "Qual IA do Google cria jogos?",
+        "a": "O Google não tem uma ferramenta dedicada à criação de jogos, mas o Gemini pode gerar código de mecânicas, escrever diálogos e criar roteiros de jogo. Para assets visuais, o Google oferece Imagen e VideoFX. O Google também conduz pesquisas como GameNGen (geração de jogos por IA), mas esses projetos ainda não estão disponíveis como produto para o público em geral."
+    },
+    {
+        "q": "Como fazer um jogo no ChatGPT?",
+        "a": "Use o ChatGPT para gerar código de mecânicas em JavaScript (Phaser), Python (Pygame) ou GDScript para Godot, criar diálogos de personagens, escrever narrativas e documentação do jogo. O ChatGPT com Code Interpreter aceita uploads de assets e consegue criar e rodar pequenos jogos de texto ou jogos baseados em canvas diretamente na conversa, funcionando bem como ponto de partida para projetos simples."
     }
 ];
 
