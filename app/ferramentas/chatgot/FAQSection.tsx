@@ -3,7 +3,7 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 const faqs = [
     {
         question: "O que é o Chatgot?",
-        answer: "O Chatgot é uma plataforma de IA tudo-em-um que reúne múltiplos modelos de linguagem poderosos como GPT-4, Claude 3 e Gemini em uma única interface, permitindo alternar entre eles facilmente."
+        answer: "O Chatgot é uma plataforma de IA tudo-em-um que reúne múltiplos modelos de linguagem poderosos como GPT-5.5, Claude Opus 5 e Gemini 3.5 em uma única interface, permitindo alternar entre eles facilmente."
     },
     {
         question: "O Chatgot é gratuito?",
@@ -11,7 +11,7 @@ const faqs = [
     },
     {
         question: "Quais modelos de IA estão disponíveis no Chatgot?",
-        answer: "A plataforma oferece acesso a uma vasta gama de modelos, incluindo GPT-4, Claude 3.5 Sonnet, Gemini 1.5 Pro, Llama 3 e muitos outros modelos especializados em nichos específicos."
+        answer: "A plataforma oferece acesso a uma vasta gama de modelos, incluindo GPT-5.5, Claude Opus 5, Gemini 3.5 Flash, Llama 4 Maverick e muitos outros modelos especializados em nichos específicos."
     },
     {
         question: "É necessário criar uma conta para usar o Chatgot?",

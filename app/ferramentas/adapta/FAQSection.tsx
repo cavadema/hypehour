@@ -7,7 +7,7 @@ const faqs = [
     },
     {
         question: "Quantos modelos de IA o Adapta oferece?",
-        answer: "O Adapta oferece acesso a mais de 15 modelos de IA, incluindo GPT-5.1, GPT-o3, Claude 4.5 Sonnet, Gemini 3 Pro, Deepseek V3, Llama 4, Perplexity, Grok 4 e outros."
+        answer: "O Adapta oferece acesso a mais de 15 modelos de IA, incluindo GPT-5.5, Claude Opus 5, Gemini 3.5 Flash, DeepSeek V4, Llama 4 Maverick, Grok 4.3 e outros."
     },
     {
         question: "O Adapta é seguro?",

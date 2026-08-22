@@ -7,7 +7,7 @@ const faqs = [
     },
     {
         "q": "Qual a diferença entre a API da OpenAI, Anthropic e Google?",
-        "a": "A OpenAI oferece os modelos GPT-4o e o1; a Anthropic oferece Claude com foco em segurança e textos longos; o Google oferece Gemini com integração nativa ao ecossistema Google. Cada uma tem preços, limites e pontos fortes distintos."
+        "a": "A OpenAI oferece o GPT-5.5 com capacidades multimodais avançadas; a Anthropic oferece Claude Opus 5 com contexto de 1M tokens e foco em segurança; o Google oferece Gemini 3.5 com integração nativa ao ecossistema Google. Cada uma tem preços, limites e pontos fortes distintos."
     },
     {
         "q": "Preciso saber programar para usar APIs de IA?",
@@ -23,7 +23,7 @@ const faqs = [
     },
     {
         "q": "Qual API de IA tem o maior contexto (janela de contexto)?",
-        "a": "Em 2026, Gemini 1.5 Pro e Claude 3.5 Sonnet lideram com janelas de contexto de até 1 milhão e 200 mil tokens respectivamente, permitindo processar documentos inteiros em uma única chamada."
+        "a": "Claude Opus 5 e Gemini 3.5 lideram com janelas de contexto de até 1 milhão de tokens, permitindo processar documentos inteiros, livros e grandes bases de código em uma única chamada de API."
     },
     {
         "q": "É possível usar APIs de IA com dados privados da minha empresa?",
@@ -47,7 +47,7 @@ const faqs = [
     },
     {
         "q": "APIs de IA funcionam bem com o português brasileiro?",
-        "a": "Sim. GPT-4o, Claude 3.5 e Gemini 1.5 têm excelente desempenho em português brasileiro, com compreensão de expressões idiomáticas, variações regionais e contexto cultural local."
+        "a": "Sim. GPT-5.5, Claude Opus 5 e Gemini 3.5 têm excelente desempenho em português brasileiro, com compreensão de expressões idiomáticas, variações regionais e contexto cultural local."
     }
 ];
 
