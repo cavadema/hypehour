@@ -155,13 +155,13 @@ export default function Home() {
             <span className="text-xs text-zinc-500">OpenAI</span>
           </a>
           <a href="/modelos-de-llms" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Gemini 3.1 Pro</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Gemini 3.5 Flash</span>
             <p className="text-zinc-700">Modelo multimodal nativo do Google com forte desempenho em agentes e raciocínio científico.</p>
             <span className="text-xs text-zinc-500">Google DeepMind</span>
           </a>
           <a href="/modelos-de-llms" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Claude Opus 4.7</span>
-            <p className="text-zinc-700">Modelo mais avançado da Anthropic para reasoning profundo, coding e tarefas agentic longas.</p>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Claude Opus 5</span>
+            <p className="text-zinc-700">Modelo mais avançado da Anthropic com contexto de 1M tokens, lançado em julho de 2026.</p>
             <span className="text-xs text-zinc-500">Anthropic</span>
           </a>
           <a href="/modelos-de-llms" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
