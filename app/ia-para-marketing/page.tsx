@@ -1,5 +1,4 @@
 import FAQSection from "./FAQSection";
-import ComparativoFerramentas from "./ComparativoFerramentas";
 import ComoEscolher from "./ComoEscolher";
 import ProTips from "./ProTips";
 import { MegaphoneIcon } from "@heroicons/react/24/solid";
@@ -512,9 +511,6 @@ export default function IaParaMarketing() {
                     <ToolCard key={ferramenta.nome} nome={ferramenta.nome} url={ferramenta.url} descricao={ferramenta.descricao} />
                 ))}
             </div>
-              <div className="mt-12">
-                <ComparativoFerramentas />
-              </div>
               <ComoEscolher />
               <ProTips />
               <FAQSection />

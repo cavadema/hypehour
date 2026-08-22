@@ -1,7 +1,6 @@
 import ExpandableContent from "./ExpandableContent";
 import ComoEscolher from "./ComoEscolher";
 import ProTips from "./ProTips";
-import ComparativoFerramentas from "./ComparativoFerramentas";
 import { VideoCameraIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
@@ -357,10 +356,6 @@ export default function IaParaCriarVideos() {
                     <ToolCard key={ferramenta.nome} nome={ferramenta.nome} url={ferramenta.url} descricao={ferramenta.descricao} />
                 ))}
             </div>
-
-      <div className="mt-12">
-        <ComparativoFerramentas />
-      </div>
       <ComoEscolher />
       <ProTips />
             <FAQSection />

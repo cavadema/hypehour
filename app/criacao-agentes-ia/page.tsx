@@ -1,5 +1,4 @@
 import FAQSection from "./FAQSection";
-import ComparativoFerramentas from "./ComparativoFerramentas";
 import ComoEscolher from "./ComoEscolher";
 import ProTips from "./ProTips";
 import ExpandableContent from "./ExpandableContent";
@@ -220,9 +219,6 @@ export default function CriacaoAgentesIA() {
           <ToolCard key={f.nome} nome={f.nome} url={f.url} descricao={f.descricao} />
         ))}
       </div>
-          <div className="mt-12">
-            <ComparativoFerramentas />
-          </div>
           <ComoEscolher />
           <ProTips />
           <FAQSection />
