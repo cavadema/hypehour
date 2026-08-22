@@ -4,10 +4,10 @@ export default function ExpandableContent() {
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    A <strong>IA para investimentos</strong> está democratizando o acesso a análises financeiras sofisticadas que antes eram exclusivas de grandes fundos e bancos de investimento. Com <strong>robo-advisors, análise de sentimento de mercado e ferramentas de análise fundamentalista com IA</strong>, investidores brasileiros individuais podem tomar decisões mais embasadas, automatizar o rebalanceamento de carteira e identificar oportunidades com muito mais eficiência do que dependendo apenas de análise manual ou intuição.
+                    A <strong>inteligência artificial em investimentos</strong> processa em segundos o volume de dados que analistas humanos levariam semanas para examinar: balanços patrimoniais, demonstrações de resultado, variáveis macroeconômicas, fluxo de notícias e sinais de sentimento de mercado. Modelos de machine learning encontram correlações e padrões nesses dados que escapam da análise manual — identificando oportunidades e riscos antes que se tornem evidentes ao mercado geral.
                 </p>
                 <p className="mb-4">
-                    No contexto do mercado financeiro brasileiro, a <strong>inteligência artificial em investimentos</strong> é usada para análise de ativos da B3, acompanhamento de FIIs, monitoramento de macroeconomia e avaliação de risco de portfólio. Ferramentas de educação financeira com IA também ajudam investidores iniciantes a entender produtos complexos como derivativos, ETFs e fundos multimercado — importante lembrar que IA é suporte à decisão, não conselho financeiro regulado.
+                    Para o investidor individual, a mudança mais relevante é o <strong>acesso democratizado à análise sofisticada</strong>: ferramentas que antes eram exclusivas de grandes fundos e bancos de investimento — análise quantitativa, backtesting de estratégias, monitoramento de sentimento e rebalanceamento automático — passaram a estar acessíveis a qualquer pessoa. É fundamental, porém, compreender que IA é um instrumento de apoio à decisão, não um oráculo: mercados são sistemas complexos influenciados por fatores imprevisíveis, e nenhum modelo substitui a compreensão do investidor sobre seu próprio perfil de risco e objetivos financeiros.
                 </p>
             </div>
             <details className="group">
@@ -22,7 +22,7 @@ export default function ExpandableContent() {
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Monitoramento de notícias e sentimento:</strong> IA rastreia e analisa automaticamente notícias, atas de reunião e relatórios de analistas para avaliar o sentimento do mercado sobre ativos específicos.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Rebalanceamento automático:</strong> Robo-advisors monitoram o portfólio e executam rebalanceamentos automaticamente quando os pesos dos ativos desviam da alocação alvo definida pelo investidor.</span></li>
                 </ul>
-                <p>Explore as ferramentas de IA para investimentos listadas abaixo — do educacional ao profissional — e entenda como a inteligência artificial pode aprimorar sua estratégia de investimentos.</p>
+                <p>Explore as ferramentas listadas abaixo para encontrar a que melhor se encaixa no seu fluxo de trabalho e caso de uso.</p>
             </details>
         </div>
     );

@@ -4,10 +4,10 @@ export default function ExpandableContent() {
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    O <strong>web scraping com IA</strong> revolucionou a coleta e processamento de dados da web. Com ferramentas como <strong>Firecrawl, Browse AI e Crawl4AI</strong>, é possível extrair informações de qualquer site em formato estruturado, monitorar mudanças de preço automaticamente, alimentar bases de conhecimento para RAG e coletar dados de concorrência — sem escrever seletores CSS frágeis para cada página ou gerenciar infraestrutura complexa de proxies.
+                    O <strong>web scraping com IA</strong> combina técnicas tradicionais de extração de dados com modelos de linguagem capazes de compreender o contexto semântico de uma página. Em vez de depender de seletores CSS ou XPath rígidos que quebram a cada mudança de layout, a IA identifica a informação desejada pelo seu significado — extraindo preços, contatos, textos ou dados estruturados mesmo quando o HTML muda completamente.
                 </p>
                 <p className="mb-4">
-                    O diferencial da <strong>IA no web scraping</strong> está em lidar com a variabilidade da web: páginas com layouts diferentes, conteúdo dinâmico carregado por JavaScript e formatos de dados inconsistentes. Modelos de linguagem entendem o contexto da página e extraem a informação certa mesmo quando a estrutura HTML muda — eliminando a manutenção constante que scrapers tradicionais exigem.
+                    A grande virada dessa tecnologia está em lidar com a <strong>variabilidade real da web</strong>: páginas dinâmicas carregadas por JavaScript, conteúdo protegido por CAPTCHAs, layouts inconsistentes entre versões mobile e desktop e dados que aparecem apenas após interação do usuário. Essas barreiras que tornavam scrapers tradicionais frágeis e caros de manter passaram a ser contornáveis com abordagens baseadas em modelos de linguagem e automação de navegadores inteligentes.
                 </p>
             </div>
             <details className="group">
@@ -19,10 +19,10 @@ export default function ExpandableContent() {
                 <ul className="space-y-3 mb-4">
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Monitoramento de concorrência:</strong> Acompanhe preços, lançamentos de produtos e mudanças de estratégia de concorrentes automaticamente — recebendo alertas quando algo relevante muda.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Geração de leads B2B:</strong> Extraia contatos, cargos e informações de empresas-alvo de sites públicos, LinkedIn e diretórios setoriais para alimentar seu CRM com prospects qualificados.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Alimentação de RAG:</strong> Use Firecrawl ou Crawl4AI para converter conteúdo da web em base de conhecimento estruturada para chatbots e assistentes de IA da sua empresa.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Alimentação de bases de conhecimento:</strong> Converta conteúdo da web em texto limpo e estruturado para treinar chatbots, alimentar sistemas de RAG e construir bases de conhecimento internas.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Pesquisa de mercado:</strong> Colete avaliações de clientes, menções em redes sociais e dados de plataformas de e-commerce para análise de sentimento e mapeamento do mercado.</span></li>
                 </ul>
-                <p>Explore as ferramentas de IA para web scraping listadas abaixo e descubra como extrair, processar e usar dados da web de forma inteligente e escalável.</p>
+                <p>Explore as ferramentas listadas abaixo para encontrar a que melhor se encaixa no seu fluxo de trabalho e caso de uso.</p>
             </details>
         </div>
     );

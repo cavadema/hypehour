@@ -4,10 +4,10 @@ export default function ExpandableContent() {
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    As ferramentas de <strong>IA para fazer ata de reunião</strong> eliminaram uma das tarefas mais improdutivas do ambiente corporativo: anotar manualmente o que foi discutido enquanto tenta participar ativamente da conversa. Com plataformas como <strong>Granola AI, Fireflies.ai e Tactiq</strong>, suas reuniões no Google Meet, Zoom e Teams são gravadas, transcritas e transformadas em atas estruturadas automaticamente — com decisões, responsáveis e prazos identificados pela IA.
+                    A <strong>geração automática de atas por IA</strong> combina três tecnologias em sequência: reconhecimento de fala para converter áudio em texto, <strong>diarização de falantes</strong> para identificar quem disse o quê, e modelos de linguagem para interpretar o conteúdo transcrito e extrair estrutura — decisões tomadas, responsáveis mencionados, prazos combinados e pontos em aberto. O resultado é um documento organizado produzido automaticamente ao fim de cada reunião, sem que ninguém precise digitar uma linha.
                 </p>
                 <p className="mb-4">
-                    O impacto para times brasileiros é imediato: <strong>atas prontas em português em minutos</strong>, registro fiel de tudo o que foi discutido, possibilidade de pesquisar em transcrições antigas e integração automática com ferramentas como Notion, Slack e Jira. Profissionais que participam de 5 a 10 reuniões por semana economizam horas que antes iam para redação, envio e arquivamento de atas manuais.
+                    A mudança mais significativa não é apenas a economia de tempo na redação da ata — é a <strong>qualidade do registro</strong>. Atas manuais dependem da atenção e memória de quem anota enquanto também participa da conversa. Sistemas automatizados capturam tudo o que foi dito, preservam o contexto exato de cada decisão e geram um histórico pesquisável de todas as reuniões, eliminando ambiguidade e disputas de interpretação do que foi acordado.
                 </p>
             </div>
             <details className="group">
@@ -15,14 +15,14 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">O que uma Boa Ferramenta de IA para Reunião Deve Oferecer</h2>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">O que avaliar ao escolher uma solução de ata automática</h2>
                 <ul className="space-y-3 mb-4">
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Transcrição em português:</strong> Acurácia alta no idioma nativo da equipe é fundamental — verifique as amostras de qualidade em português antes de contratar.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Identificação de falantes:</strong> A ferramenta deve atribuir corretamente cada fala ao participante correspondente, não apenas transcrever sem identificação de quem falou.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Extração de itens de ação:</strong> Decisões e próximos passos devem ser identificados e destacados automaticamente, não apenas listados no meio de uma transcrição bruta.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Integrações nativas:</strong> Envio automático da ata para Notion, Slack, e-mail ou CRM logo após o fim da reunião — sem copiar e colar manualmente.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Qualidade em português:</strong> A acurácia da transcrição em português brasileiro varia muito entre soluções — teste com amostras reais antes de adotar para reuniões críticas.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Identificação de falantes:</strong> A diarização precisa atribuir cada fala ao participante correto, especialmente em reuniões com muitos participantes ou vozes semelhantes.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Extração de compromissos:</strong> Decisões e itens de ação devem aparecer destacados na ata, não apenas inseridos no meio de uma transcrição bruta e extensa.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Integrações com o fluxo de trabalho:</strong> A ata gerada precisa chegar automaticamente onde a equipe trabalha — seja por email, Notion, Slack ou sistema de gestão de projetos.</span></li>
                 </ul>
-                <p>Confira as ferramentas de IA para ata de reunião listadas abaixo e nunca mais perca um detalhe importante do que foi decidido nas suas reuniões.</p>
+                <p>Explore as ferramentas listadas abaixo para encontrar a que melhor se encaixa no seu fluxo de trabalho e caso de uso.</p>
             </details>
         </div>
     );

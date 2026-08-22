@@ -4,10 +4,10 @@ export default function ExpandableContent() {
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    A <strong>IA para designers gráficos</strong> não veio para substituir o criativo — veio para amplificar seu poder de produção. Com <strong>Adobe Firefly, Midjourney, Recraft e Canva Magic Studio</strong>, designers brasileiros conseguem gerar dezenas de conceitos visuais em horas, automatizar tarefas técnicas repetitivas e focar no que realmente agrega valor: a estratégia criativa, a relação com o cliente e a direção de arte que diferencia uma marca.
+                    A <strong>inteligência artificial aplicada ao design</strong> funciona a partir de modelos treinados em vastos repositórios de imagens, referências visuais e dados de estilo — o que permite ao sistema compreender relações entre conceitos visuais, paletas, composições e intenções estéticas. Ao receber uma instrução textual, a IA traduz essa descrição em elementos visuais coerentes, respeitando hierarquia, contraste e linguagem gráfica de maneira que seria impraticável reproduzir manualmente em escala.
                 </p>
                 <p className="mb-4">
-                    O <strong>designer que domina IA como ferramenta</strong> em 2026 entrega mais em menos tempo, cobra melhor pelo trabalho estratégico e compite em igualdade com studios grandes mesmo trabalhando de forma independente. A curva de aprendizado das ferramentas principais é curta — em dias você já incorpora IA no seu fluxo de trabalho e sente o impacto na produtividade.
+                    O grande efeito dessa tecnologia no campo criativo é a <strong>separação entre execução técnica e pensamento estratégico</strong>: tarefas que antes consumiam horas de trabalho operacional — variações de peças, testes de conceito, adaptação de formatos — passam a ser geradas em minutos, liberando o designer para concentrar energia na direção de arte, na narrativa de marca e nas decisões que demandam julgamento humano.
                 </p>
             </div>
             <details className="group">
@@ -15,14 +15,14 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Designers Usam IA no Dia a Dia</h2>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Onde a IA está sendo aplicada no design gráfico</h2>
                 <ul className="space-y-3 mb-4">
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Ideação acelerada:</strong> Em vez de horas de pesquisa de referências, gere 30 variações de conceito visual em minutos para apresentar ao cliente e validar a direção criativa antes de executar.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Produção de assets em escala:</strong> Crie variações de banners, posts e peças para múltiplos formatos e plataformas automaticamente, mantendo consistência de marca sem trabalho manual repetitivo.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Retoque e edição avançada:</strong> Adobe Firefly e Photoshop AI realizam inpainting, remoção de objetos, expansão de imagens e substituição de fundos com qualidade profissional em segundos.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Geração de texturas e padrões:</strong> Crie texturas únicas, padrões repeat e elementos gráficos exclusivos com IA que se tornam ativos diferenciados para projetos de branding e embalagem.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Identidade visual e branding:</strong> Geração de conceitos e variações de elementos gráficos para explorar direções criativas antes de partir para a execução final.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Produção editorial e conteúdo digital:</strong> Adaptação automática de layouts para diferentes formatos e plataformas, mantendo consistência visual sem retrabalho manual.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Design de produto e UI:</strong> Criação de ilustrações, ícones e sistemas visuais com coerência de estilo, acelerando a entrega de assets para interfaces e aplicativos.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Embalagem e design têxtil:</strong> Geração de texturas, padrões repeat e elementos decorativos exclusivos que se tornam ativos diferenciados em projetos de produto e moda.</span></li>
                 </ul>
-                <p>Descubra as melhores ferramentas de IA para designers listadas abaixo e encontre as que melhor complementam seu processo criativo e stack de trabalho.</p>
+                <p>Explore as ferramentas listadas abaixo para encontrar a que melhor se encaixa no seu fluxo de trabalho e caso de uso.</p>
             </details>
         </div>
     );

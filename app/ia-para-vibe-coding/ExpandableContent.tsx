@@ -4,10 +4,10 @@ export default function ExpandableContent() {
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    O <strong>vibe coding</strong> representa a maior democratização do desenvolvimento de software da história. Com ferramentas como <strong>Bolt.new, Lovable, Replit Agent e v0 da Vercel</strong>, empreendedores, designers e profissionais de qualquer área podem descrever o que querem construir em português e receber uma aplicação funcional e deployada em minutos — sem escrever uma linha de código manualmente.
+                    O <strong>vibe coding</strong> é uma abordagem ao desenvolvimento de software em que a pessoa descreve o que quer construir em linguagem natural e a IA gera, itera e refina o código de forma autônoma. Modelos de linguagem treinados em bilhões de linhas de código conseguem traduzir intenção em implementação — compreendendo requisitos ambíguos, escolhendo a stack mais adequada e conectando componentes que antes demandavam domínio técnico profundo.
                 </p>
                 <p className="mb-4">
-                    Para o ecossistema de startups e inovação no Brasil, o <strong>vibe coding com IA</strong> é um game-changer: ideias que antes precisavam de R$50 a R$200 mil em desenvolvimento agora têm um MVP testável por uma fração desse custo. A velocidade de iteração é incomparável — mudanças que levariam dias são feitas em minutos, permitindo testar hipóteses de produto com usuários reais antes de qualquer investimento significativo em desenvolvimento profissional.
+                    A habilidade central que o vibe coding requer não é programação, mas <strong>clareza na descrição do problema</strong>: saber articular o que o produto deve fazer, quais regras de negócio devem ser respeitadas e como o usuário final vai interagir com a solução. Quem domina essa comunicação com a IA consegue construir MVPs funcionais em horas, testar hipóteses antes de qualquer investimento significativo e iterar com velocidade que transforma completamente a dinâmica de desenvolvimento de produto.
                 </p>
             </div>
             <details className="group">
@@ -22,7 +22,7 @@ export default function ExpandableContent() {
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Landing pages e sites:</strong> Páginas de conversão com design moderno, formulários integrados e animações — sem depender de desenvolvedor para cada ajuste de copy ou visual.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Prototipagem rápida:</strong> Transforme qualquer ideia em protótipo funcional em horas para apresentar a investidores, clientes ou parceiros com algo concreto para demonstrar.</span></li>
                 </ul>
-                <p>Explore as ferramentas de vibe coding listadas abaixo e comece a construir seus projetos digitais hoje — sem esperar por um desenvolvedor.</p>
+                <p>Explore as ferramentas listadas abaixo para encontrar a que melhor se encaixa no seu fluxo de trabalho e caso de uso.</p>
             </details>
         </div>
     );

@@ -4,10 +4,10 @@ export default function ExpandableContent() {
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    Os <strong>pacotes e agregadores de ferramentas de IA</strong> resolvem um dos principais desafios de quem trabalha com inteligência artificial: o excesso de assinaturas dispersas. Plataformas como <strong>Poe, Perplexity Pro e You.com</strong> centralizam acesso a múltiplos modelos de IA — GPT-4o, Claude, Gemini, Llama — em uma única interface e assinatura, permitindo escolher o melhor modelo para cada tarefa sem trocar de aba ou pagar individualmente por cada um.
+                    Os <strong>agregadores e pacotes de IA</strong> surgem como resposta à fragmentação do ecossistema de inteligência artificial: com dezenas de modelos competindo — cada um com pontos fortes em domínios específicos como código, análise, criatividade ou raciocínio matemático — gerenciar múltiplas assinaturas, chaves de API e interfaces separadas tornou-se inviável para a maioria dos usuários e equipes. Plataformas de agregação centralizam esse acesso em uma única camada unificada.
                 </p>
                 <p className="mb-4">
-                    Para equipes e empresas, <strong>agregadores de IA como Portkey, OpenRouter e AI Gateway da Vercel</strong> oferecem uma camada unificada sobre múltiplas APIs — com fallback automático entre provedores, controle de custos por equipe, logging centralizado e cache de respostas. Isso transforma o ecossistema fragmentado de LLMs em uma infraestrutura única, confiável e gerenciável, economizando horas de integração e reduzindo significativamente os custos de API.
+                    Para desenvolvedores e empresas, a vantagem vai além da conveniência: <strong>camadas de abstração sobre múltiplas APIs</strong> permitem implementar fallback automático entre provedores, cache semântico de respostas, roteamento inteligente baseado em custo e performance, e observabilidade centralizada de cada chamada. Isso transforma um ecossistema de IA fragmentado em infraestrutura gerenciável — com controle de gastos, auditoria de uso e resiliência operacional que chamadas diretas a APIs individuais simplesmente não oferecem.
                 </p>
             </div>
             <details className="group">
@@ -17,12 +17,12 @@ export default function ExpandableContent() {
                 </summary>
                 <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Por que Usar Agregadores em vez de Assinar Cada IA Separadamente</h2>
                 <ul className="space-y-3 mb-4">
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Economia de custo real:</strong> Poe e You.com Pro custam menos de US$20/mês e incluem créditos para GPT-4o, Claude 3.5, Gemini 1.5 Pro e outros — em vez de pagar US$20/mês por cada um separadamente, você acessa o melhor de cada por uma fração do custo total.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Economia de custo real:</strong> Planos de agregação custam menos que a soma das assinaturas individuais de cada modelo, com créditos compartilhados entre os principais LLMs disponíveis no mercado.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Comparação de modelos para cada tarefa:</strong> Com acesso simultâneo a múltiplos LLMs, você testa qual modelo responde melhor a um prompt específico — essencial para encontrar o modelo certo para escrita criativa, código, análise jurídica ou tarefas matemáticas.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Resiliência via fallback automático:</strong> Para empresas usando APIs, agregadores como OpenRouter e Portkey redirecionam automaticamente para um modelo alternativo quando um provedor cai ou está sobrecarregado — garantindo disponibilidade sem código adicional.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Controle de gastos e uso por equipe:</strong> Ferramentas de API aggregation permitem definir limites de custo por usuário, projeto ou departamento, visualizar o custo detalhado de cada chamada e auditar o uso — resolvendo o caos de cartões corporativos com múltiplas assinaturas de IA não controladas.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Resiliência via fallback automático:</strong> Para empresas usando APIs, camadas de agregação redirecionam automaticamente para um modelo alternativo quando um provedor cai ou está sobrecarregado — garantindo disponibilidade sem código adicional.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Controle de gastos e uso por equipe:</strong> Ferramentas de agregação permitem definir limites de custo por usuário, projeto ou departamento, visualizar o custo detalhado de cada chamada e auditar o uso — resolvendo o caos de múltiplas assinaturas de IA não controladas.</span></li>
                 </ul>
-                <p>Explore os pacotes e agregadores de IA listados abaixo e descubra como simplificar seu stack de inteligência artificial, reduzir custos com assinaturas múltiplas e ter acesso ao melhor de cada modelo em uma única plataforma.</p>
+                <p>Explore as ferramentas listadas abaixo para encontrar a que melhor se encaixa no seu fluxo de trabalho e caso de uso.</p>
             </details>
         </div>
     );

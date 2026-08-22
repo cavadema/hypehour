@@ -4,10 +4,10 @@ export default function ExpandableContent() {
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    As <strong>ferramentas de IA para transcrição de áudio</strong> revolucionaram a conversão de voz em texto para brasileiros. Com o <strong>Whisper da OpenAI (open source e gratuito), TurboScribe, Speechma e Descript</strong>, qualquer arquivo de áudio ou vídeo — seja um podcast, reunião, entrevista, aula ou áudio do WhatsApp — pode ser transcrito em português com alta precisão em minutos, não horas. O que antes exigia transcrição manual demorada é agora automatizado pela IA.
+                    A <strong>transcrição automática de áudio com IA</strong> é baseada em modelos de reconhecimento automático de fala (ASR) treinados em centenas de milhares de horas de voz humana em dezenas de idiomas. Esses modelos aprenderam não apenas a converter sons em palavras, mas a lidar com sotaques regionais, pausas naturais, sobreposição de falas e vocabulário técnico específico de domínios como medicina, direito e negócios — alcançando taxas de precisão que antes só eram possíveis com transcrição humana especializada.
                 </p>
                 <p className="mb-4">
-                    Para jornalistas, podcasters, criadores de conteúdo, pesquisadores e profissionais que gravam reuniões, a <strong>transcrição automática com IA</strong> é um multiplicador de produtividade imediato. Além da transcrição pura, as melhores ferramentas oferecem identificação de falantes, geração de legendas para vídeo, resumo do conteúdo e exportação em múltiplos formatos — transformando áudio bruto em conteúdo estruturado e utilizável em minutos.
+                    O impacto vai além da velocidade: a <strong>transcrição como ponto de partida para processamento de linguagem</strong> transforma áudio bruto em dado estruturado e analisável. Uma reunião transcrita pode ser resumida, ter ações extraídas automaticamente e ter decisões documentadas sem que ninguém precise fazer anotações durante a conversa. Um podcast transcrito vira artigo, newsletter e posts em múltiplos formatos. A voz humana — o meio de comunicação mais natural — passa a ser aproveitável em toda sua riqueza informacional.
                 </p>
             </div>
             <details className="group">
@@ -22,7 +22,7 @@ export default function ExpandableContent() {
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Legendas para vídeo:</strong> Gere arquivos SRT e VTT automaticamente para YouTube, Instagram e plataformas de streaming — melhorando acessibilidade e alcance do seu conteúdo em vídeo.</span></li>
                     <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Pesquisa qualitativa:</strong> Pesquisadores e jornalistas transcrevem entrevistas em minutos, permitindo análise e codificação muito mais rápida do conteúdo coletado em campo.</span></li>
                 </ul>
-                <p>Explore as ferramentas de transcrição de áudio com IA listadas abaixo e escolha a que melhor atende ao seu volume, idioma e requisitos de privacidade.</p>
+                <p>Explore as ferramentas listadas abaixo para encontrar a que melhor se encaixa no seu fluxo de trabalho e caso de uso.</p>
             </details>
         </div>
     );

@@ -4,10 +4,10 @@ export default function ExpandableContent() {
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    As <strong>ferramentas de IA para desenvolvedores</strong> transformaram o desenvolvimento de software — de autocompletar código a agentes que implementam features inteiras autonomamente. Com <strong>Cursor, GitHub Copilot e Claude como pair programmer</strong>, desenvolvedores brasileiros aumentam produtividade em 30 a 55%, reduzem tempo em debugging e geração de boilerplate, e conseguem navegar em bases de código desconhecidas com muito mais confiança.
+                    As <strong>ferramentas de IA para desenvolvimento de software</strong> funcionam indexando o contexto completo de um projeto — arquivos, dependências, histórico de mudanças, padrões de código — para oferecer assistência que vai além de simples autocompletar. Modelos treinados em bilhões de linhas de código de diversas linguagens e frameworks conseguem compreender a intenção por trás de uma função, sugerir implementações inteiras com tratamento de erros e casos de borda, identificar bugs pela leitura do stack trace e propor refatorações consistentes em toda a base.
                 </p>
                 <p className="mb-4">
-                    O <strong>desenvolvedor que domina IA como ferramenta</strong> em 2026 não é substituído — ele se torna exponencialmente mais produtivo. A chave está em saber quando confiar na sugestão da IA, quando questionar e quando reescrever do zero. Desenvolvedores seniores usam IA para multiplicar seu output; os que ignoram essas ferramentas ficam progressivamente em desvantagem competitiva no mercado.
+                    O impacto real está na mudança de onde o desenvolvedor investe atenção: o tempo gasto em <strong>código boilerplate, configurações repetitivas, geração de testes e documentação</strong> — tarefas de baixo valor intelectual mas alto consumo de energia — se comprime significativamente. Isso libera capacidade cognitiva para arquitetura, decisões de design e resolução dos problemas realmente complexos. Desenvolvedores que dominam essa parceria com IA não são substituídos; tornam-se exponencialmente mais produtivos e competitivos.
                 </p>
             </div>
             <details className="group">
@@ -15,14 +15,14 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Desenvolvedores Usam IA para Ser mais Produtivos</h2>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como desenvolvedores usam IA para ser mais produtivos</h2>
                 <ul className="space-y-3 mb-4">
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Completions inteligentes:</strong> GitHub Copilot e Cursor sugerem linhas e blocos de código em contexto, acelerando a escrita especialmente em código repetitivo e boilerplate.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Refatoração assistida:</strong> Cursor em modo Agent pode analisar um arquivo ou módulo inteiro e propor refatorações consistentes em toda a base de código, algo que levaria horas manualmente.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Geração de testes:</strong> Cole uma função e peça ao Claude para gerar testes unitários com casos de borda — economiza uma das tarefas mais tediosas do desenvolvimento.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Revisão de código:</strong> Antes de criar um PR, peça ao Claude para revisar o diff buscando bugs, vulnerabilidades de segurança e oportunidades de melhoria de performance.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Completions inteligentes em contexto:</strong> Sugestões de linhas e blocos inteiros de código baseadas no contexto do arquivo e do projeto, acelerando especialmente a escrita de código repetitivo e configurações de infraestrutura.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Refatoração assistida em escala:</strong> Análise de módulos inteiros com propostas de refatoração consistentes em toda a base de código — algo que levaria horas de revisão manual e concentração elevada.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Geração automática de testes:</strong> A partir de uma função existente, a IA gera testes unitários com casos de uso, casos de borda e mocks — eliminando uma das tarefas mais tediosas e frequentemente negligenciadas do desenvolvimento.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Revisão de código antes do PR:</strong> Análise do diff em busca de bugs, vulnerabilidades de segurança, oportunidades de melhoria de performance e inconsistências com padrões do projeto — antes que o problema chegue ao revisor humano.</span></li>
                 </ul>
-                <p>Explore as ferramentas de IA para desenvolvedores listadas abaixo e escolha as que melhor se encaixam no seu stack, fluxo de trabalho e objetivos de carreira.</p>
+                <p>Explore as ferramentas listadas abaixo para encontrar a que melhor se encaixa no seu fluxo de trabalho e caso de uso.</p>
             </details>
         </div>
     );

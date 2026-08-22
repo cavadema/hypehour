@@ -4,10 +4,10 @@ export default function ExpandableContent() {
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    A <strong>geração de imagens com IA</strong> democratizou a criação visual de forma sem precedentes. Com ferramentas como <strong>Midjourney, DALL-E 3, Stable Diffusion e Adobe Firefly</strong>, qualquer pessoa pode criar imagens de qualidade profissional a partir de uma descrição em texto — sem precisar de habilidades técnicas de design, câmera fotográfica ou banco de imagens pago. O resultado é uma explosão de criatividade visual acessível a todos.
+                    A <strong>geração de imagens com IA</strong> funciona por meio de modelos de difusão: redes neurais treinadas em bilhões de imagens que aprenderam a relação entre descrições em texto e elementos visuais. Na prática, você escreve o que quer ver — estilo, composição, iluminação, atmosfera — e o modelo sintetiza uma imagem pixel a pixel a partir desse contexto. É uma tecnologia que passou de experimento de laboratório a ferramenta de produção em menos de três anos.
                 </p>
                 <p className="mb-4">
-                    Para designers, profissionais de marketing e criadores de conteúdo brasileiros, a <strong>IA para geração de imagens</strong> significa acelerar produção visual, reduzir custos com banco de imagens e criar conteúdo verdadeiramente único e personalizado para cada campanha. O domínio da arte de escrever bons prompts — a chamada "engenharia de prompt" — é a habilidade mais valorizada nesse novo cenário criativo.
+                    Para profissionais criativos, isso representa uma mudança de paradigma: a habilidade central deixou de ser "saber executar tecnicamente" e passou a ser <strong>saber descrever com precisão</strong>. Quem domina a escrita de prompts — especificando estilo artístico, referências visuais, paleta, ponto de vista e nível de detalhe — consegue resultados que antes exigiriam horas de trabalho manual ou orçamento de banco de imagens premium.
                 </p>
             </div>
             <details className="group">
@@ -15,14 +15,14 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Como Escolher a Ferramenta de Imagem com IA Certa</h2>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Onde a geração de imagens com IA está sendo usada</h2>
                 <ul className="space-y-3 mb-4">
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Para arte e criatividade:</strong> Midjourney tem a melhor estética artística e é o preferido por artistas digitais, concept artists e criadores de NFTs pelo impacto visual único das imagens.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Para uso comercial seguro:</strong> Adobe Firefly garante que todas as imagens foram geradas com dataset licenciado, eliminando risco jurídico para uso em campanhas publicitárias e materiais corporativos.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Para controle total:</strong> Stable Diffusion open source permite rodar localmente, treinar modelos personalizados e integrar em fluxos de produção automatizados sem limitações de API.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Para imagens com texto:</strong> Ideogram é a melhor opção quando você precisa de imagens que incluam palavras ou números legíveis — um ponto fraco histórico dos geradores de IA que o Ideogram resolveu.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Marketing e publicidade:</strong> criação de visuais para anúncios, posts em redes sociais e materiais de campanha sem depender de sessão fotográfica ou banco de imagens — com total controle sobre estilo e identidade visual.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>E-commerce e produto:</strong> geração de fotos de produto em diferentes cenários, fundos e contextos a partir de uma única imagem original, reduzindo custo de produção fotográfica significativamente.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Concept art e entretenimento:</strong> criação rápida de referências visuais para personagens, cenários e universos ficcionais em games, filmes e quadrinhos — acelerando a fase de ideação antes da execução final.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Design editorial e conteúdo:</strong> ilustrações para artigos, thumbnails de vídeos, capas de podcasts e materiais didáticos criados sob demanda, sem necessidade de ilustrador para cada peça.</span></li>
                 </ul>
-                <p>Explore os geradores de imagem com IA listados abaixo e descubra qual ferramenta melhor atende ao seu estilo, caso de uso e orçamento.</p>
+                <p>Explore as ferramentas listadas abaixo para encontrar a que melhor se encaixa no seu fluxo de trabalho e caso de uso.</p>
             </details>
         </div>
     );
