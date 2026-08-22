@@ -42,7 +42,7 @@ const modelos = [
   {
     nome: "OpenAI ChatGPT",
     url: "https://chatgpt.com/",
-    descricao: "Modelos GPT-4o e GPT-5.1 com capacidades multimodais para texto, imagem, áudio e vídeo.",
+    descricao: "Modelo GPT-5.5 com capacidades multimodais avançadas para texto, imagem, áudio e vídeo.",
   },
   {
     nome: "Perplexity AI",
@@ -52,12 +52,12 @@ const modelos = [
   {
     nome: "Google Gemini",
     url: "https://gemini.google.com/",
-    descricao: "Família Gemini 3 com suporte multimodal e integrações com produtos Google.",
+    descricao: "Família Gemini 3.5 com suporte multimodal nativo e integrações com produtos Google.",
   },
   {
     nome: "Anthropic Claude",
     url: "https://claude.ai/",
-    descricao: "Linha Claude 4 focada em segurança, contexto longo e respostas confiáveis.",
+    descricao: "Claude Opus 5 (lançado jul/2026) com contexto de 1M tokens, raciocínio profundo e respostas confiáveis.",
   },
   {
     nome: "Manus",
@@ -67,12 +67,12 @@ const modelos = [
   {
     nome: "Grok xAI",
     url: "https://grok.com/",
-    descricao: "Modelos Grok 4.1 treinados pela xAI, com acesso em tempo real à plataforma X.",
+    descricao: "Grok 4.3 treinado pela xAI, com acesso em tempo real à plataforma X e contexto massivo.",
   },
   {
     nome: "Llama Meta",
     url: "https://www.llama.com/",
-    descricao: "Modelos Llama 3.2 open source da Meta para uso em edge e servidores.",
+    descricao: "Llama 4 Scout e Maverick — modelos open-weight multimodais da Meta com arquitetura MoE e suporte a 200 idiomas.",
   },
   {
     nome: "Mistral / LeChat",
@@ -82,12 +82,12 @@ const modelos = [
   {
     nome: "Alibaba Qwen",
     url: "https://chat.qwen.ai/",
-    descricao: "Família Qwen com suporte em múltiplos idiomas e ferramentas empresariais.",
+    descricao: "Qwen 3.8-Max (lançado ago/2026) — modelo MoE de 2,4 trilhões de parâmetros com suporte multimodal.",
   },
   {
     nome: "DeepSeek",
     url: "https://www.deepseek.com/",
-    descricao: "Modelos DeepSeek V3 e R1 com foco em custo-benefício e desempenho.",
+    descricao: "DeepSeek V4 (lançado abr/2026) com custo-benefício extremo e desempenho de ponta em raciocínio.",
   },
   {
     nome: "Vick",
@@ -195,54 +195,54 @@ export default function ModelosDeLLMs() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> GPT-5.2</span>
-            <p className="text-zinc-700">Modelo multimodal avançado da OpenAI para raciocínio, código e criação pro.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Dez/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> GPT-5.5</span>
+            <p className="text-zinc-700">Modelo flagship multimodal da OpenAI para raciocínio avançado, código e agentes.</p>
+            <span className="text-xs text-zinc-500">Lançamento: 2026</span>
           </div>
           <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Gemini 3.0</span>
-            <p className="text-zinc-700">Modelo multimodal do Google capaz de operar em texto, imagem e vídeo.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Nov/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Gemini 3.5 Flash</span>
+            <p className="text-zinc-700">Modelo multimodal do Google com desempenho aprimorado em texto, imagem e vídeo.</p>
+            <span className="text-xs text-zinc-500">Lançamento: 2026</span>
           </div>
           <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Opus 4.5</span>
-            <p className="text-zinc-700">Atualização da Anthropic focada em respostas mais seguras e assertivas.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Out/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Claude Opus 5</span>
+            <p className="text-zinc-700">Modelo mais avançado da Anthropic com contexto de 1M tokens e raciocínio profundo.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Jul/2026</span>
           </div>
           <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Sonnet 4.5</span>
-            <p className="text-zinc-700">Equilíbrio entre custo e performance para fluxos de automação avançados.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Out/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Claude Sonnet 4.6</span>
+            <p className="text-zinc-700">Equilíbrio entre custo e performance para fluxos de automação e tarefas do dia a dia.</p>
+            <span className="text-xs text-zinc-500">Lançamento: 2026</span>
           </div>
           <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Grok 4.1</span>
-            <p className="text-zinc-700">Modelo da xAI com acesso em tempo real aos dados públicos da plataforma X.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Set/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Grok 4.3</span>
+            <p className="text-zinc-700">Modelo da xAI com acesso em tempo real aos dados públicos da plataforma X e contexto massivo.</p>
+            <span className="text-xs text-zinc-500">Lançamento: 2026</span>
           </div>
           <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Llama 4</span>
-            <p className="text-zinc-700">Nova geração open-source da Meta com melhorias significativas em raciocínio e performance.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Dez/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Llama 4 Maverick</span>
+            <p className="text-zinc-700">Modelo open-weight MoE da Meta com 400B parâmetros, multimodal nativo e suporte a 200 idiomas.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Abr/2025</span>
           </div>
           <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Perplexity Sonar</span>
-            <p className="text-zinc-700">Modelo focado em busca e raciocínio em tempo real, baseado no Llama 3.1.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Dez/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Perplexity Sonar Pro</span>
+            <p className="text-zinc-700">Modelo de busca conversacional com raciocínio em tempo real e geração de relatórios completos.</p>
+            <span className="text-xs text-zinc-500">Atualizado: 2026</span>
           </div>
           <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> DeepSeek 3.2</span>
-            <p className="text-zinc-700">Modelo open-weights com desempenho de ponta e custo reduzido.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Dez/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> DeepSeek V4</span>
+            <p className="text-zinc-700">Modelo open-weights com custo extremamente reduzido e desempenho de ponta em raciocínio.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Abr/2026</span>
           </div>
           <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Qwen 2.5</span>
-            <p className="text-zinc-700">Família de modelos da Alibaba com excelência em código e matemática.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Set/2024</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Qwen 3.8-Max</span>
+            <p className="text-zinc-700">Modelo MoE da Alibaba com 2,4 trilhões de parâmetros, multimodal e open-weight disponível no Hugging Face.</p>
+            <span className="text-xs text-zinc-500">Lançamento: Ago/2026</span>
           </div>
           <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Mistral 3</span>
-            <p className="text-zinc-700">Modelo fronteira da Mistral AI com raciocínio avançado e eficiência.</p>
-            <span className="text-xs text-zinc-500">Lançamento: Jan/2025</span>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Mistral Medium 3.5</span>
+            <p className="text-zinc-700">Modelo da Mistral AI com raciocínio avançado, eficiência e APIs compactas para produção.</p>
+            <span className="text-xs text-zinc-500">Lançamento: 2026</span>
           </div>
           <div className="bg-white rounded-xl shadow hover:shadow-lg transition p-5 border border-gray-100 flex flex-col gap-2">
             <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Maritaca - Sabiazinho 3.1</span>
