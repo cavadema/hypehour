@@ -63,6 +63,7 @@ export default function DzinePage() {
         "url": "https://www.dzine.ai/",
         "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/dzine#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Geração de imagens (Text-to-Image)","Face Swap","Generative Fill","Retratos estilizados","Image-to-Image","Edição por prompt"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

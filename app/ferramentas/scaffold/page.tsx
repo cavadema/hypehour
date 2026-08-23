@@ -33,8 +33,9 @@ export default function ScaffoldPage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/scaffold#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "Vibe Coding", item: "https://www.hypehour.com.br/ia-para-vibe-coding" }, { "@type": "ListItem", position: 3, name: "Scaffold", item: "https://www.hypehour.com.br/ferramentas/scaffold" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/scaffold#software", name: "Scaffold", description: "Ferramenta de IA para geração automática de estruturas de projetos de software, incluindo arquivos, configurações e boilerplate a partir de uma descrição em linguagem natural.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://www.scaffoldtool.com", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/scaffold", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/scaffold#software", name: "Scaffold", description: "Ferramenta de IA para geração automática de estruturas de projetos de software, incluindo arquivos, configurações e boilerplate a partir de uma descrição em linguagem natural.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://www.scaffoldtool.com", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/scaffold#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Geração de estrutura completa","Suporte a múltiplos stacks","Melhores práticas embutidas","Configurações prontas","Personalização via prompt","Download ou integração com repositório"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
                 creator: { "@type": "Organization", name: "Scaffold" } },
     ],

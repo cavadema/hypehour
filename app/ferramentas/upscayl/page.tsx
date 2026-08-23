@@ -33,8 +33,9 @@ export default function UpscaylPage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/upscayl#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "IA para Imagens", item: "https://www.hypehour.com.br/ia-para-imagens" }, { "@type": "ListItem", position: 3, name: "Upscayl", item: "https://www.hypehour.com.br/ferramentas/upscayl" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/upscayl#software", name: "Upscayl", description: "Upscaler de imagens com IA gratuito e open-source que aumenta a resolução de fotos borradas em até 16x, disponível como app desktop (Windows, Mac, Linux) e versão cloud.", applicationCategory: "DesignApplication", operatingSystem: "Windows, macOS, Linux, Web", url: "https://upscayl.org", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/upscayl", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/upscayl#software", name: "Upscayl", description: "Upscaler de imagens com IA gratuito e open-source que aumenta a resolução de fotos borradas em até 16x, disponível como app desktop (Windows, Mac, Linux) e versão cloud.", applicationCategory: "DesignApplication", operatingSystem: "Windows, macOS, Linux, Web", url: "https://upscayl.org", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/upscayl#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Múltiplos modelos de IA especializados","Processamento local e privado","Ampliação de até 16x","Processamento em lote","Suporte a Windows, Mac e Linux","Gratuito e open-source"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
                 creator: { "@type": "Organization", name: "Upscayl" } },
     ],

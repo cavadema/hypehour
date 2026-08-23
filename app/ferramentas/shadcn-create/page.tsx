@@ -33,8 +33,9 @@ export default function ShadcnCreatePage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/shadcn-create#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "IA para Desenvolvedores", item: "https://www.hypehour.com.br/ia-para-desenvolvedores" }, { "@type": "ListItem", position: 3, name: "shadcn/ui Create", item: "https://www.hypehour.com.br/ferramentas/shadcn-create" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/shadcn-create#software", name: "shadcn/ui Create", description: "Ferramenta com IA para geração de componentes React personalizados baseados na biblioteca shadcn/ui, a partir de descrições em linguagem natural.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://ui.shadcn.com/create", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/shadcn-create", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/shadcn-create#software", name: "shadcn/ui Create", description: "Ferramenta com IA para geração de componentes React personalizados baseados na biblioteca shadcn/ui, a partir de descrições em linguagem natural.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://ui.shadcn.com/create", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/shadcn-create#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Geração nativa shadcn/ui","Tailwind CSS correto","TypeScript e tipagem","Acessibilidade integrada","Dark mode compatível","Responsivo por padrão"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

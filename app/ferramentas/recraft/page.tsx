@@ -33,8 +33,9 @@ export default function RecraftPage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/recraft#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "IA para Designers", item: "https://www.hypehour.com.br/ia-para-designers" }, { "@type": "ListItem", position: 3, name: "Recraft", item: "https://www.hypehour.com.br/ferramentas/recraft" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/recraft#software", name: "Recraft", description: "Plataforma de geração de imagens com IA para designers, com criação de fotos fotorrealistas, vetores SVG editáveis e estilos personalizados para consistência de marca.", applicationCategory: "DesignApplication", operatingSystem: "Web", url: "https://www.recraft.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/recraft", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/recraft#software", name: "Recraft", description: "Plataforma de geração de imagens com IA para designers, com criação de fotos fotorrealistas, vetores SVG editáveis e estilos personalizados para consistência de marca.", applicationCategory: "DesignApplication", operatingSystem: "Web", url: "https://www.recraft.ai", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/recraft#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Geração de vetores SVG editáveis","Estilos personalizados por marca","Compreensão avançada de prompts","Fotorrealismo de alta qualidade","Inpainting e variações","API para integração"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

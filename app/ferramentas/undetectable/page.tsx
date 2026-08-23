@@ -59,8 +59,9 @@ export default function UndetectablePage() {
         applicationCategory: "UtilitiesApplication",
         operatingSystem: "Web",
         url: "https://undetectable.ai",
-        mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/undetectable",
+        mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/undetectable#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Detecção por múltiplos detectores simultâneos","Humanizador de texto com IA","Níveis de humanização ajustáveis","Suporte a múltiplos idiomas","API para desenvolvedores","Histórico de análises"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

@@ -33,8 +33,9 @@ export default function FlikiPage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/fliki#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "IA para Criar Vídeos", item: "https://www.hypehour.com.br/ia-para-criar-videos" }, { "@type": "ListItem", position: 3, name: "Fliki", item: "https://www.hypehour.com.br/ferramentas/fliki" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/fliki#software", name: "Fliki", description: "Plataforma de geração de vídeos com IA que transforma texto, scripts e prompts em vídeos com narração realista, clipes automáticos e legendas.", applicationCategory: "MultimediaApplication", operatingSystem: "Web", url: "https://fliki.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/fliki", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/fliki#software", name: "Fliki", description: "Plataforma de geração de vídeos com IA que transforma texto, scripts e prompts em vídeos com narração realista, clipes automáticos e legendas.", applicationCategory: "MultimediaApplication", operatingSystem: "Web", url: "https://fliki.ai", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/fliki#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Text-to-Video automatizado","Narração com 1000+ vozes de IA","Seleção automática de clipes","Avatares de IA","Legendas automáticas","Templates para diferentes formatos"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

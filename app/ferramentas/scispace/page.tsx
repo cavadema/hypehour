@@ -63,6 +63,7 @@ export default function SciSpacePage() {
         "url": "https://scispace.com/",
         "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/scispace#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Chat com artigos científicos","Banco de 200 milhões de artigos","Resumo automático de papers","Extensão para Chrome","Sugestão de artigos relacionados","Suporte multilíngue"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

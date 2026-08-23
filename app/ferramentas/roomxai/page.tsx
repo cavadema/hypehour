@@ -33,8 +33,9 @@ export default function RoomXAIPage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/roomxai#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "IA para Design de Interiores", item: "https://www.hypehour.com.br/ia-para-design-de-interiores" }, { "@type": "ListItem", position: 3, name: "RoomX AI", item: "https://www.hypehour.com.br/ferramentas/roomxai" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/roomxai#software", name: "RoomX AI", description: "Ferramenta de IA para design de interiores que transforma fotos de ambientes reais em renders profissionais com diferentes estilos decorativos.", applicationCategory: "DesignApplication", operatingSystem: "Web", url: "https://roomxai.com", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/roomxai", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/roomxai#software", name: "RoomX AI", description: "Ferramenta de IA para design de interiores que transforma fotos de ambientes reais em renders profissionais com diferentes estilos decorativos.", applicationCategory: "DesignApplication", operatingSystem: "Web", url: "https://roomxai.com", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/roomxai#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Redesign por foto","Múltiplos estilos decorativos","Preservação da estrutura","Comparação antes/depois","Geração de variações","Alta resolução para apresentações"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
                 creator: { "@type": "Organization", name: "RoomX AI" } },
     ],

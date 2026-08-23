@@ -61,6 +61,7 @@ export default function V0Page() {
         "url": "https://v0.dev/",
         "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/v0#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Geração de componentes React com IA","Preview ao vivo","Suporte a capturas de tela","Refinamento iterativo","Integração com Next.js e shadcn","CLI para integração direta"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

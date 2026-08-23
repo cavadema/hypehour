@@ -33,8 +33,9 @@ export default function SoloistPage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/soloist#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "Vibe Coding", item: "https://www.hypehour.com.br/ia-para-vibe-coding" }, { "@type": "ListItem", position: 3, name: "Soloist AI", item: "https://www.hypehour.com.br/ferramentas/soloist" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/soloist#software", name: "Soloist AI", description: "Assistente de desenvolvimento com IA para desenvolvedores solo, com geração de código, debugging inteligente e suporte a arquitetura de aplicações completas.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://soloist.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/soloist", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/soloist#software", name: "Soloist AI", description: "Assistente de desenvolvimento com IA para desenvolvedores solo, com geração de código, debugging inteligente e suporte a arquitetura de aplicações completas.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://soloist.ai", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/soloist#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Contexto persistente do projeto","Geração de código contextualizada","Debugging colaborativo","Suporte a decisões arquiteturais","Review de código","Geração de testes"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

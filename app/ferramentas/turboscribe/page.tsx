@@ -33,8 +33,9 @@ export default function TurboScribePage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/turboscribe#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "Transcrever Áudio", item: "https://www.hypehour.com.br/transcrever-audio" }, { "@type": "ListItem", position: 3, name: "TurboScribe", item: "https://www.hypehour.com.br/ferramentas/turboscribe" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/turboscribe#software", name: "TurboScribe", description: "Ferramenta de transcrição de áudio com IA baseada no modelo Whisper da OpenAI, suportando 98+ idiomas com alta precisão, diarização de falantes e exportação em múltiplos formatos.", applicationCategory: "MultimediaApplication", operatingSystem: "Web", url: "https://turboscribe.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/turboscribe", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/turboscribe#software", name: "TurboScribe", description: "Ferramenta de transcrição de áudio com IA baseada no modelo Whisper da OpenAI, suportando 98+ idiomas com alta precisão, diarização de falantes e exportação em múltiplos formatos.", applicationCategory: "MultimediaApplication", operatingSystem: "Web", url: "https://turboscribe.ai", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/turboscribe#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Modelo Whisper da OpenAI","Suporte a 98+ idiomas","Diarização de falantes","Timestamps automáticos","Exportação em múltiplos formatos","Processamento rápido"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

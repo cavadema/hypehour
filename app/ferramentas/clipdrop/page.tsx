@@ -63,6 +63,7 @@ export default function ClipDropPage() {
         "url": "https://clipdrop.co/",
         "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/clipdrop#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Remove Background","Cleanup","Image Upscaler","Remove Text","Stable Diffusion XL","Reimagine XL"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
                 "creator": { "@type": "Organization", "name": "Stability AI" },
       },
@@ -161,9 +162,9 @@ export default function ClipDropPage() {
           </div>
         </section>
 
-        {/* Principais ferramentas */}
+        {/* Principais funcionalidades */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-black mb-6">Principais ferramentas</h2>
+          <h2 className="text-3xl font-bold text-black mb-6">Principais funcionalidades</h2>
           <div className="grid gap-6">
             {[
               { titulo: "Remove Background", texto: "Remove o fundo de qualquer imagem com um clique, com detecção precisa de bordas em cabelos, transparências e objetos complexos. Resultado em PNG transparente pronto para uso." },

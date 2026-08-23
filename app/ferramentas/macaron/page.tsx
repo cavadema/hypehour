@@ -33,8 +33,9 @@ export default function MacaronPage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/macaron#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "Assistentes de IA", item: "https://www.hypehour.com.br/assistentes-de-ia" }, { "@type": "ListItem", position: 3, name: "Macaron", item: "https://www.hypehour.com.br/ferramentas/macaron" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/macaron#software", name: "Macaron", description: "Assistente de IA pessoal com interface intuitiva e agradável, focado em produtividade diária, organização de tarefas e acesso rápido a modelos de linguagem avançados.", applicationCategory: "ProductivityApplication", operatingSystem: "Web, iOS, macOS", url: "https://macaron.im", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/macaron", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/macaron#software", name: "Macaron", description: "Assistente de IA pessoal com interface intuitiva e agradável, focado em produtividade diária, organização de tarefas e acesso rápido a modelos de linguagem avançados.", applicationCategory: "ProductivityApplication", operatingSystem: "Web, iOS, macOS", url: "https://macaron.im", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/macaron#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Interface elegante e minimalista","Acesso a múltiplos modelos","Histórico organizado","Coleções de prompts","Sincronização entre dispositivos","Atalhos de produtividade"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

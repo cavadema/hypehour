@@ -1,18 +1,17 @@
 import Link from "next/link";
-import { toolMetadata, faqs } from "./constants";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
 export const metadata = {
-  title: `${toolMetadata.nome}`,
-  description: toolMetadata.description,
+  title: "VEED - Editor de vídeo online profissional com IA",
+  description: "Editor de vídeo online profissional e simples que utiliza IA para legendar, editar e traduzir vídeos em minutos.",
   alternates: {
-    canonical: `https://www.hypehour.com.br/ferramentas/veed`,
+    canonical: "https://www.hypehour.com.br/ferramentas/veed",
   },
   openGraph: {
-    title: `${toolMetadata.nome}`,
-    description: toolMetadata.description,
-    url: `https://www.hypehour.com.br/ferramentas/veed`,
+    title: "VEED - Editor de vídeo online profissional com IA",
+    description: "Editor de vídeo online profissional e simples que utiliza IA para legendar, editar e traduzir vídeos em minutos.",
+    url: "https://www.hypehour.com.br/ferramentas/veed",
     siteName: 'Hypehour',
     images: [{ url: 'https://www.hypehour.com.br/logo.png' }],
     locale: 'pt_BR',
@@ -20,21 +19,23 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${toolMetadata.nome}`,
-    description: toolMetadata.description,
+    title: "VEED - Editor de vídeo online profissional com IA",
+    description: "Editor de vídeo online profissional e simples que utiliza IA para legendar, editar e traduzir vídeos em minutos.",
+    images: ['https://www.hypehour.com.br/logo.png'],
+    creator: '@hypehourbr',
   },
 };
 
 export default function VeedPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@graph": [
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
       {
         "@type": "WebPage",
         "@id": "https://www.hypehour.com.br/ferramentas/veed#webpage",
         "url": "https://www.hypehour.com.br/ferramentas/veed",
-        "name": "${toolMetadata.nome}",
-        "description": "",
+        "name": "VEED - Editor de vídeo online profissional com IA",
+        "description": "Editor de vídeo online profissional e simples que utiliza IA para legendar, editar e traduzir vídeos em minutos.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/veed#breadcrumb" },
         "datePublished": "2025-11-19",
@@ -42,271 +43,310 @@ export default function VeedPage() {
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/veed#software" },
       },
-
-            {
-                "@type": "BreadcrumbList",
-                "@id": `https://www.hypehour.com.br/ferramentas/veed#breadcrumb`,
-                "itemListElement": toolMetadata.breadcrumb.map((item, index) => ({
-                    "@type": "ListItem",
-                    "position": index + 1,
-                    "name": item.nome,
-                    "item": `https://www.hypehour.com.br${item.url}`
-                }))
-            },
-            {
-                "@type": "SoftwareApplication",
-                "@id": `https://www.hypehour.com.br/ferramentas/veed#software`,
-                "name": toolMetadata.nome,
-                "description": toolMetadata.description,
-                "applicationCategory": "MultimediaApplication",
-                "operatingSystem": "Web",
-                "url": toolMetadata.url,
-                "mainEntityOfPage": `https://www.hypehour.com.br/ferramentas/veed`,
-                "aggregateRating": {
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.hypehour.com.br/ferramentas/veed#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.hypehour.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "IA para Vídeos",
+            "item": "https://www.hypehour.com.br/ia-para-criar-videos"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "VEED",
+            "item": "https://www.hypehour.com.br/ferramentas/veed"
+          }
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.hypehour.com.br/ferramentas/veed#software",
+        "name": "VEED",
+        "description": "Editor de vídeo online profissional e simples que utiliza IA para legendar, editar e traduzir vídeos em minutos.",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.veed.io/pt-BR",
+        "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/veed#webpage" },
+        "featureList": ["Legendas Automáticas Dinâmicas", "Voice over com IA", "Limpeza de Áudio (Magic Clean)"],
+        "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.6",
           "bestRating": "5",
           "worstRating": "1",
           "ratingCount": "2141",
         },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "category": "Freemium"
-                }
-            }
-        ]
-    };
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Plano gratuito disponível"
+        },
+        "creator": {
+          "@type": "Organization",
+          "name": "VEED"
+        }
+      }
+    ]
+  };
 
-    return (
-        <main className="min-h-screen bg-[#f7f8fa]">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            />
+  return (
+    <main className="min-h-screen bg-[#f7f8fa]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+      <div className="max-w-6xl mx-auto px-4 py-10">
+        {/* Breadcrumb */}
+        <nav className="flex items-center gap-2 text-zinc-700 mb-8">
+          <Link href="/" className="hover:text-black transition">Home</Link>
+          <span className="text-zinc-400">/</span>
+          <Link href="/ia-para-criar-videos" className="hover:text-black transition">IA para Vídeos</Link>
+          <span className="text-zinc-400">/</span>
+          <span className="text-black font-medium">VEED</span>
+        </nav>
 
-            <div className="max-w-6xl mx-auto px-4 py-10">
-                {/* Breadcrumb */}
-                <nav className="flex items-center gap-2 text-zinc-700 mb-8">
-                    {toolMetadata.breadcrumb.map((item, index) => (
-                        <div key={item.url} className="flex items-center gap-2">
-                            {index > 0 && <span className="text-zinc-400">/</span>}
-                            {index < toolMetadata.breadcrumb.length - 1 ? (
-                                <Link href={item.url} className="hover:text-black transition">
-                                    {item.nome}
-                                </Link>
-                            ) : (
-                                <span className="text-black font-medium">{item.nome}</span>
-                            )}
-                        </div>
-                    ))}
-                </nav>
+        {/* Header */}
+        <div className="flex items-center gap-4 mb-6">
+          <div className="w-16 h-16 bg-black rounded-xl flex items-center justify-center text-white text-2xl font-bold shadow">
+            V
+          </div>
+          <div>
+            <h1 className="text-4xl font-bold text-black mb-2">VEED</h1>
+            <p className="text-lg text-zinc-700">Editor de vídeo online profissional e simples que utiliza IA para legendar, editar e traduzir vídeos em minutos.</p>
+          </div>
+        </div>
 
-                {/* Header */}
-                <div className="flex items-center gap-4 mb-6">
-                    <div className="w-16 h-16 bg-black rounded-xl flex items-center justify-center text-white text-2xl font-bold shadow">
-                        V
-                    </div>
-                    <div>
-                        <h1 className="text-4xl font-bold text-black mb-2">{toolMetadata.nome}</h1>
-                        <p className="text-lg text-zinc-700">{toolMetadata.description}</p>
-                    </div>
-                </div>
+        {/* Introdução */}
+        <div className="bg-white rounded-xl p-8 mb-10 border border-zinc-200 shadow">
+          <p className="text-lg text-zinc-700 leading-relaxed mb-4">
+            O VEED é uma das plataformas de edição de vídeo baseadas em nuvem mais robustas e amadas do mercado. Ele combina ferramentas de edição tradicionais com o poder da inteligência artificial para simplificar processos que antes levavam horas, como legendagem, limpeza de áudio e tradução.
+          </p>
+          <p className="text-lg text-zinc-700 leading-relaxed">
+            Feito para criadores de conteúdo, profissionais de marketing e times corporativos, o VEED permite que qualquer pessoa produza vídeos de alta qualidade com um acabamento profissional, tudo direto no navegador, sem a necessidade de baixar softwares pesados ou ter um hardware de última geração.
+          </p>
+        </div>
 
-                {/* Introdução */}
-                <div className="bg-white rounded-xl p-8 mb-10 border border-zinc-200 shadow">
-                    <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                        O VEED é uma das plataformas de edição de vídeo baseadas em nuvem mais robustas e amadas do mercado. Ele combina ferramentas de edição tradicionais com o poder da inteligência artificial para simplificar processos que antes levavam horas, como legendagem, limpeza de áudio e tradução.
-                    </p>
-                    <p className="text-lg text-zinc-700 leading-relaxed">
-                        Feito para criadores de conteúdo, profissionais de marketing e times corporativos, o VEED permite que qualquer pessoa produza vídeos de alta qualidade com um acabamento profissional, tudo direto no navegador, sem a necessidade de baixar softwares pesados ou ter um hardware de última geração.
-                    </p>
-                </div>
+        {/* O que é */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-black mb-4">O que é o VEED?</h2>
+          <p className="text-zinc-700 leading-relaxed mb-4">
+            O VEED é um estúdio de criação de vídeo 'all-in-one'. Embora sua interface seja simples, ele por trás carrega ferramentas potentes de IA generativa e processamento de linguagem natural. Ele resolve o 'trabalho chato' da edição: remove silêncios, gera legendas perfeitas, traduz diálogos e até melhora a qualidade da voz de gravações caseiras.
+          </p>
+          <p className="text-zinc-700 leading-relaxed">
+            É a ferramenta de escolha para quem precisa de velocidade e consistência na criação de Shorts, Reels, vídeos de treinamento e webinars, oferecendo um equilíbrio perfeito entre facilidade de uso e funcionalidades avançadas.
+          </p>
+        </section>
 
-                {/* O que é */}
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-black mb-4">O que é o VEED?</h2>
-                    <p className="text-zinc-700 leading-relaxed mb-4">
-                        O VEED é um estúdio de criação de vídeo 'all-in-one'. Embora sua interface seja simples, ele por trás carrega ferramentas potentes de IA generativa e processamento de linguagem natural. Ele resolve o 'trabalho chato' da edição: remove silêncios, gera legendas perfeitas, traduz diálogos e até melhora a qualidade da voz de gravações caseiras.
-                    </p>
-                    <p className="text-zinc-700 leading-relaxed">
-                        É a ferramenta de escolha para quem precisa de velocidade e consistência na criação de Shorts, Reels, vídeos de treinamento e webinars, oferecendo um equilíbrio perfeito entre facilidade de uso e funcionalidades avançadas.
-                    </p>
-                </section>
-
-                {/* Como funciona */}
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-black mb-6">Como funciona</h2>
-                    <div className="grid gap-6">
-                        <div className="flex gap-4">
-                            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-zinc-100 flex items-center justify-center text-black font-bold text-lg">
-                                1
-                            </div>
-                            <div>
-                                <h3 className="text-xl font-semibold text-black mb-2">Upload Rápido</h3>
-                                <p className="text-zinc-700">Suba seus vídeos brutos ou use o gravador integrado para capturar sua tela e webcam simultaneamente.</p>
-                            </div>
-                        </div>
-                        <div className="flex gap-4">
-                            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-zinc-100 flex items-center justify-center text-black font-bold text-lg">
-                                2
-                            </div>
-                            <div>
-                                <h3 className="text-xl font-semibold text-black mb-2">Automatize com IA</h3>
-                                <p className="text-zinc-700">Clique em 'Subtitles' para legendar automaticamente ou use o 'Clean Audio' para remover ruídos de fundo instantaneamente.</p>
-                            </div>
-                        </div>
-                        <div className="flex gap-4">
-                            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-zinc-100 flex items-center justify-center text-black font-bold text-lg">
-                                3
-                            </div>
-                            <div>
-                                <h3 className="text-xl font-semibold text-black mb-2">Estilize e Branle</h3>
-                                <p className="text-zinc-700">Adicione textos, elementos gráficos, músicas e transições. Use seu kit de marca para manter a identidade visual.</p>
-                            </div>
-                        </div>
-                        <div className="flex gap-4">
-                            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-zinc-100 flex items-center justify-center text-black font-bold text-lg">
-                                4
-                            </div>
-                            <div>
-                                <h3 className="text-xl font-semibold text-black mb-2">Compartilhe e Exporte</h3>
-                                <p className="text-zinc-700">Exporte em alta definição (até 4K) ou use o link de compartilhamento para revisões rápidas sem precisar baixar o arquivo.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                {/* Funcionalidades de IA */}
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-black mb-6">Funcionalidades de IA Revolucionárias</h2>
-                    <div className="grid gap-6">
-                        <div className="p-6 bg-white border border-zinc-200 rounded-xl shadow-sm">
-                            <h3 className="text-xl font-semibold text-black mb-3">Legendas Automáticas Dinâmicas</h3>
-                            <p className="text-zinc-700">Transcreva áudio para texto em segundos com mais de 95% de precisão. Suporta diversos estilos de animação populares nas redes sociais.</p>
-                        </div>
-                        <div className="p-6 bg-white border border-zinc-200 rounded-xl shadow-sm">
-                            <h3 className="text-xl font-semibold text-black mb-3">Voice over com IA</h3>
-                            <p className="text-zinc-700">Transforme texto em fala usando vozes de IA altamente realistas, eliminando a necessidade de contratar locutores para seus vídeos.</p>
-                        </div>
-                        <div className="p-6 bg-white border border-zinc-200 rounded-xl shadow-sm">
-                            <h3 className="text-xl font-semibold text-black mb-3">Limpeza de Áudio (Magic Clean)</h3>
-                            <p className="text-zinc-700">Remova automaticamente ruídos de fundo indesejados, ecos e estouros, garantindo que sua voz soe cristalina.</p>
-                        </div>
-                    </div>
-                </section>
-
-                {/* Vantagens */}
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-black mb-6">Vantagens do VEED</h2>
-                    <div className="grid gap-4">
-                        {[
-                            "Extrema facilidade de uso mesmo para quem nunca editou vídeos",
-                            "Legendagem automática mais precisa e rápida do mercado",
-                            "Ferramentas de IA que resolvem problemas técnicos de áudio e imagem",
-                            "Não requer instalação: tudo roda suavemente no navegador",
-                            "Recursos de colaboração que facilitam o trabalho em equipe",
-                            "Biblioteca gigante de mídias de estoque e efeitos integrados"
-                        ].map((advantage, index) => (
-                            <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
-                                <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
-                                <p className="text-zinc-700">{advantage}</p>
-                            </div>
-                        ))}
-                    </div>
-                </section>
-
-                {/* Considerações */}
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-black mb-6">Considerações importantes</h2>
-                    <div className="grid gap-4">
-                        {[
-                            "A versão gratuita exporta vídeos com marca d'água do VEED",
-                            "Arquivos muito pesados podem demorar um pouco mais para processar via nuvem",
-                            "Os recursos mais potentes de tradução e IA estão nos planos pagos",
-                            "Menos flexibilidade de Keyframes complexos se comparado a editores desktop de alta performance"
-                        ].map((disadvantage, index) => (
-                            <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg text-zinc-700">
-                                <span className="font-bold text-lg flex-shrink-0">⚠</span>
-                                <p>{disadvantage}</p>
-                            </div>
-                        ))}
-                    </div>
-                </section>
-
-                {/* Ideal para */}
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-black mb-6">Para quem é o VEED?</h2>
-                    <div className="grid md:grid-cols-2 gap-6">
-                        <div className="p-6 bg-white border border-zinc-200 rounded-xl shadow-sm">
-                            <h3 className="text-xl font-semibold text-black mb-3 text-zinc-900 border-b pb-2">Ideal para:</h3>
-                            <ul className="space-y-2 mt-4">
-                                <li className="flex gap-2">
-                                    <span className="text-zinc-900 font-bold">→</span>
-                                    <span className="text-zinc-700">Criadores de Reels, TikToks e Shorts</span>
-                                </li>
-                                <li className="flex gap-2">
-                                    <span className="text-zinc-900 font-bold">→</span>
-                                    <span className="text-zinc-700">Times de Marketing e Social Media</span>
-                                </li>
-                                <li className="flex gap-2">
-                                    <span className="text-zinc-900 font-bold">→</span>
-                                    <span className="text-zinc-700">Podcasters que criam cortes de vídeo (videocasts)</span>
-                                </li>
-                                <li className="flex gap-2">
-                                    <span className="text-zinc-900 font-bold">→</span>
-                                    <span className="text-zinc-700">Empresas criando vídeos de treinamento e RH</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="p-6 bg-zinc-50 border border-zinc-300 rounded-xl">
-                            <h3 className="text-xl font-semibold text-black mb-3 border-b border-zinc-300 pb-2">Não é ideal para:</h3>
-                            <ul className="space-y-2 mt-4">
-                                <li className="flex gap-2 text-zinc-700">
-                                    <span>✕</span>
-                                    <span>Edição de longas-metragens cinematográficos</span>
-                                </li>
-                                <li className="flex gap-2 text-zinc-700">
-                                    <span>✕</span>
-                                    <span>Trabalho offline em locais sem conexão com a internet</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-
-                {/* CTA */}
-                <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
-                    <h2 className="text-3xl font-bold mb-4">Transforme seus vídeos hoje com IA</h2>
-                    <p className="text-lg mb-6 text-zinc-300">Junte-se a milhões de criadores que usam o VEED para legendar, editar e crescer.</p>
-                    <a
-                        href={toolMetadata.url}
-                        target="_blank"
-                        rel="noopener noreferrer nofollow"
-                        className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
-                    >
-                        Experimentar VEED Gratuitamente →
-                    </a>
-                </section>
-
-                {/* Conclusão */}
-                <section className="border-t border-zinc-200 pt-8">
-                    <h2 className="text-2xl font-bold text-black mb-4">Conclusão</h2>
-                    <p className="text-zinc-700 leading-relaxed mb-4">
-                        O VEED não é apenas um editor de vídeo; é um acelerador de produtividade. Ao focar em remover a fricção da edição — especialmente em tarefas como legendagem e áudio — ele permite que você foque no que realmente importa: a sua mensagem.
-                    </p>
-                    <p className="text-zinc-700 leading-relaxed">
-                        Se você precisa de vídeos com aparência profissional, fáceis de produzir e prontos para as plataformas digitais modernas, o VEED é, sem dúvida, uma das ferramentas mais avançadas e confiáveis disponíveis atualmente.
-                    </p>
-                </section>
-
-                {/* FAQ */}
-                <FAQSection />
-
-                {/* Ferramentas Similares */}
-                <SimilarTools />
+        {/* Como funciona */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-black mb-6">Como funciona</h2>
+          <div className="grid gap-6">
+            <div className="flex gap-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-zinc-100 flex items-center justify-center text-black font-bold text-lg">
+                1
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-black mb-2">Upload Rápido</h3>
+                <p className="text-zinc-700">Suba seus vídeos brutos ou use o gravador integrado para capturar sua tela e webcam simultaneamente.</p>
+              </div>
             </div>
-        </main>
-    );
+            <div className="flex gap-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-zinc-100 flex items-center justify-center text-black font-bold text-lg">
+                2
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-black mb-2">Automatize com IA</h3>
+                <p className="text-zinc-700">Clique em 'Subtitles' para legendar automaticamente ou use o 'Clean Audio' para remover ruídos de fundo instantaneamente.</p>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-zinc-100 flex items-center justify-center text-black font-bold text-lg">
+                3
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-black mb-2">Estilize e Branle</h3>
+                <p className="text-zinc-700">Adicione textos, elementos gráficos, músicas e transições. Use seu kit de marca para manter a identidade visual.</p>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-zinc-100 flex items-center justify-center text-black font-bold text-lg">
+                4
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-black mb-2">Compartilhe e Exporte</h3>
+                <p className="text-zinc-700">Exporte em alta definição (até 4K) ou use o link de compartilhamento para revisões rápidas sem precisar baixar o arquivo.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Para que serve */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-black mb-6">Para que serve</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {[
+              "Legendar vídeos automaticamente em minutos",
+              "Limpar e melhorar qualidade do áudio",
+              "Remover silêncios e pausas longas",
+              "Criar Shorts e Reels com legendas animadas",
+              "Gravar tela e webcam simultaneamente",
+              "Traduzir legendas para outros idiomas",
+              "Gerar narrações com voz de IA",
+              "Remover fundo de vídeos sem chroma key",
+              "Editar podcasts e videocasts",
+              "Criar vídeos de treinamento corporativo",
+              "Produzir webinars com aparência profissional",
+              "Adicionar efeitos sonoros e música de estoque",
+              "Redimensionar vídeos para diferentes redes",
+              "Criar anúncios em vídeo para redes sociais",
+              "Exportar vídeos em até 4K de qualidade",
+              "Colaborar em projetos de vídeo em equipe"
+            ].map((item, index) => (
+              <div key={index} className="p-3 bg-white border border-zinc-200 rounded-lg shadow-sm hover:shadow-md transition">
+                <p className="text-zinc-700 text-sm">{item}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Principais funcionalidades */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-black mb-6">Principais funcionalidades</h2>
+          <div className="grid gap-6">
+            <div className="p-6 bg-white border border-zinc-200 rounded-xl shadow-sm">
+              <h3 className="text-xl font-semibold text-black mb-3">Legendas Automáticas Dinâmicas</h3>
+              <p className="text-zinc-700">Transcreva áudio para texto em segundos com mais de 95% de precisão. Suporta diversos estilos de animação populares nas redes sociais.</p>
+            </div>
+            <div className="p-6 bg-white border border-zinc-200 rounded-xl shadow-sm">
+              <h3 className="text-xl font-semibold text-black mb-3">Voice over com IA</h3>
+              <p className="text-zinc-700">Transforme texto em fala usando vozes de IA altamente realistas, eliminando a necessidade de contratar locutores para seus vídeos.</p>
+            </div>
+            <div className="p-6 bg-white border border-zinc-200 rounded-xl shadow-sm">
+              <h3 className="text-xl font-semibold text-black mb-3">Limpeza de Áudio (Magic Clean)</h3>
+              <p className="text-zinc-700">Remova automaticamente ruídos de fundo indesejados, ecos e estouros, garantindo que sua voz soe cristalina.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Vantagens */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-black mb-6">Vantagens</h2>
+          <div className="grid gap-4">
+            {[
+              "Extrema facilidade de uso mesmo para quem nunca editou vídeos",
+              "Legendagem automática mais precisa e rápida do mercado",
+              "Ferramentas de IA que resolvem problemas técnicos de áudio e imagem",
+              "Não requer instalação: tudo roda suavemente no navegador",
+              "Recursos de colaboração que facilitam o trabalho em equipe",
+              "Biblioteca gigante de mídias de estoque e efeitos integrados"
+            ].map((advantage, index) => (
+              <div key={index} className="flex gap-3 p-4 bg-white border border-zinc-200 rounded-lg shadow-sm">
+                <span className="text-black font-bold text-lg flex-shrink-0">✓</span>
+                <p className="text-zinc-700">{advantage}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Desvantagens e considerações */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-black mb-6">Desvantagens e considerações</h2>
+          <div className="grid gap-4">
+            {[
+              "A versão gratuita exporta vídeos com marca d'água do VEED",
+              "Arquivos muito pesados podem demorar um pouco mais para processar via nuvem",
+              "Os recursos mais potentes de tradução e IA estão nos planos pagos",
+              "Menos flexibilidade de Keyframes complexos se comparado a editores desktop de alta performance"
+            ].map((disadvantage, index) => (
+              <div key={index} className="flex gap-3 p-4 bg-zinc-50 border border-zinc-300 rounded-lg">
+                <span className="text-zinc-700 font-bold text-lg flex-shrink-0">⚠</span>
+                <p className="text-zinc-700">{disadvantage}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Para quem é */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-black mb-6">Para quem é o VEED?</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="p-6 bg-white border border-zinc-200 rounded-xl shadow-sm">
+              <h3 className="text-xl font-semibold text-black mb-3">Ideal para:</h3>
+              <ul className="space-y-2">
+                <li className="flex gap-2">
+                  <span className="text-black">→</span>
+                  <span className="text-zinc-700">Criadores de Reels, TikToks e Shorts</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-black">→</span>
+                  <span className="text-zinc-700">Times de Marketing e Social Media</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-black">→</span>
+                  <span className="text-zinc-700">Podcasters que criam cortes de vídeo (videocasts)</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-black">→</span>
+                  <span className="text-zinc-700">Empresas criando vídeos de treinamento e RH</span>
+                </li>
+              </ul>
+            </div>
+            <div className="p-6 bg-zinc-50 border border-zinc-300 rounded-xl">
+              <h3 className="text-xl font-semibold text-black mb-3">Não é ideal para:</h3>
+              <ul className="space-y-2">
+                <li className="flex gap-2">
+                  <span className="text-zinc-700">✕</span>
+                  <span className="text-zinc-700">Edição de longas-metragens cinematográficos</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-zinc-700">✕</span>
+                  <span className="text-zinc-700">Trabalho offline em locais sem conexão com a internet</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="bg-black rounded-xl p-10 text-white text-center mb-12 shadow-lg">
+          <h2 className="text-3xl font-bold mb-4">Transforme seus vídeos hoje com IA</h2>
+          <p className="text-lg mb-6 text-zinc-300">Junte-se a milhões de criadores que usam o VEED para legendar, editar e crescer.</p>
+          <a
+            href="https://www.veed.io/pt-BR"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className="inline-block px-8 py-4 bg-white text-black font-bold rounded-lg hover:shadow-xl transition"
+          >
+            Experimentar VEED Gratuitamente →
+          </a>
+        </section>
+
+        {/* Conclusão */}
+        <section className="border-t border-zinc-200 pt-8">
+          <h2 className="text-2xl font-bold text-black mb-4">Conclusão</h2>
+          <p className="text-zinc-700 leading-relaxed mb-4">
+            O VEED não é apenas um editor de vídeo; é um acelerador de produtividade. Ao focar em remover a fricção da edição — especialmente em tarefas como legendagem e áudio — ele permite que você foque no que realmente importa: a sua mensagem.
+          </p>
+          <p className="text-zinc-700 leading-relaxed">
+            Se você precisa de vídeos com aparência profissional, fáceis de produzir e prontos para as plataformas digitais modernas, o VEED é, sem dúvida, uma das ferramentas mais avançadas e confiáveis disponíveis atualmente.
+          </p>
+        </section>
+
+        {/* FAQ */}
+        <FAQSection />
+
+        {/* Ferramentas Similares */}
+        <SimilarTools />
+      </div>
+    </main>
+  );
 }

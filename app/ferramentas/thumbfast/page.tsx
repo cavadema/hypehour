@@ -33,8 +33,9 @@ export default function ThumbfastPage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/thumbfast#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "IA para Imagens", item: "https://www.hypehour.com.br/ia-para-imagens" }, { "@type": "ListItem", position: 3, name: "Thumbfast", item: "https://www.hypehour.com.br/ferramentas/thumbfast" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/thumbfast#software", name: "Thumbfast", description: "Gerador de thumbnails com IA para YouTube, Instagram e redes sociais, criando imagens de capa profissionais e otimizadas para cliques.", applicationCategory: "DesignApplication", operatingSystem: "Web", url: "https://thumbfa.st", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/thumbfast", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/thumbfast#software", name: "Thumbfast", description: "Gerador de thumbnails com IA para YouTube, Instagram e redes sociais, criando imagens de capa profissionais e otimizadas para cliques.", applicationCategory: "DesignApplication", operatingSystem: "Web", url: "https://thumbfa.st", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/thumbfast#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Geração otimizada para cliques","Múltiplas variações por prompt","Texto e tipografia integrados","Templates por nicho","Dimensões otimizadas por plataforma","Edição de ajustes finais"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
                 creator: { "@type": "Organization", name: "Thumbfast" } },
     ],

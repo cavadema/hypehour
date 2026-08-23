@@ -63,6 +63,7 @@ export default function DescriptPage() {
         "url": "https://www.descript.com/",
         "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/descript#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Edição por texto (Text-Based Editing)","Remoção automática de silêncios e vícios","Overdub — clonagem de voz com IA","Geração de B-roll com IA","Clipes automáticos para redes sociais","Gravação de tela integrada"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

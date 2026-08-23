@@ -33,8 +33,9 @@ export default function PicLumenPage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/piclumen#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "IA para Criar Vídeos", item: "https://www.hypehour.com.br/ia-para-criar-videos" }, { "@type": "ListItem", position: 3, name: "PicLumen", item: "https://www.hypehour.com.br/ferramentas/piclumen" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/piclumen#software", name: "PicLumen", description: "Plataforma criativa com IA que gera vídeos e imagens usando modelos avançados como Kling, Seedance e Seedream, com múltiplos takes e áudio nativo.", applicationCategory: "MultimediaApplication", operatingSystem: "Web", url: "https://www.piclumen.com", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/piclumen", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/piclumen#software", name: "PicLumen", description: "Plataforma criativa com IA que gera vídeos e imagens usando modelos avançados como Kling, Seedance e Seedream, com múltiplos takes e áudio nativo.", applicationCategory: "MultimediaApplication", operatingSystem: "Web", url: "https://www.piclumen.com", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/piclumen#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Acesso a múltiplos modelos de IA","Múltiplos takes por prompt","Text-to-Video e Image-to-Video","Áudio nativo nos vídeos","Geração de imagens com Seedream","Controle de proporção e estilo"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

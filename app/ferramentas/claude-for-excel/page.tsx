@@ -33,8 +33,9 @@ export default function ClaudeForExcelPage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/claude-for-excel#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "IA para Planilhas", item: "https://www.hypehour.com.br/ia-para-planilhas" }, { "@type": "ListItem", position: 3, name: "Claude for Excel", item: "https://www.hypehour.com.br/ferramentas/claude-for-excel" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/claude-for-excel#software", name: "Claude for Excel", description: "Add-in oficial da Anthropic que integra o Claude AI diretamente no Microsoft Excel, permitindo análise de dados, geração de fórmulas e insights por linguagem natural.", applicationCategory: "BusinessApplication", operatingSystem: "Windows, macOS", url: "https://claude.com/claude-for-excel", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/claude-for-excel", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/claude-for-excel#software", name: "Claude for Excel", description: "Add-in oficial da Anthropic que integra o Claude AI diretamente no Microsoft Excel, permitindo análise de dados, geração de fórmulas e insights por linguagem natural.", applicationCategory: "BusinessApplication", operatingSystem: "Windows, macOS", url: "https://claude.com/claude-for-excel", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/claude-for-excel#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Geração de fórmulas por linguagem natural","Análise contextual dos dados","Explicação de fórmulas","Geração de código VBA","Sugestões de melhoria","Integrado ao fluxo do Excel"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

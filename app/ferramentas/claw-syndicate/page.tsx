@@ -33,8 +33,9 @@ export default function ClawSyndicatePage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/claw-syndicate#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "Criação de Agentes de IA", item: "https://www.hypehour.com.br/criacao-agentes-ia" }, { "@type": "ListItem", position: 3, name: "Claw Syndicate", item: "https://www.hypehour.com.br/ferramentas/claw-syndicate" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/claw-syndicate#software", name: "Claw Syndicate", description: "Plataforma de orquestração multi-agente que permite criar e coordenar equipes de agentes de IA especializados para execução colaborativa de tarefas complexas.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://clawsyndicate.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/claw-syndicate", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/claw-syndicate#software", name: "Claw Syndicate", description: "Plataforma de orquestração multi-agente que permite criar e coordenar equipes de agentes de IA especializados para execução colaborativa de tarefas complexas.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://clawsyndicate.ai", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/claw-syndicate#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Orquestração multi-agente","Agentes especializados por domínio","Fluxos condicionais","Memória compartilhada","Biblioteca de agentes","Integrações e webhooks"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
                 creator: { "@type": "Organization", name: "Claw Syndicate" } },
     ],

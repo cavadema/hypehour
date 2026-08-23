@@ -61,7 +61,7 @@ export default function Base44Page() {
         "url": "https://base44.com",
         "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/base44#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
-        "featureList": ["{titulo}","{titulo}","Ideal para:","Não é ideal para:"],
+        "featureList": ["Geração de aplicação full-stack","Banco de dados integrado","Autenticação de usuários","Deploy automático","Ajustes por linguagem natural","Editor de código integrado"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

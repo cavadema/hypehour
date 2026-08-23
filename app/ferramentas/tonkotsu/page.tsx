@@ -33,8 +33,9 @@ export default function TonkotsuPage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/tonkotsu#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "Criação de Agentes de IA", item: "https://www.hypehour.com.br/criacao-agentes-ia" }, { "@type": "ListItem", position: 3, name: "Tonkotsu AI", item: "https://www.hypehour.com.br/ferramentas/tonkotsu" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/tonkotsu#software", name: "Tonkotsu AI", description: "Plataforma visual para criação de fluxos de agentes de IA com suporte a ferramentas, memória persistente e execução autônoma de tarefas.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://tonkotsu.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/tonkotsu", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/tonkotsu#software", name: "Tonkotsu AI", description: "Plataforma visual para criação de fluxos de agentes de IA com suporte a ferramentas, memória persistente e execução autônoma de tarefas.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://tonkotsu.ai", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/tonkotsu#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Interface visual de fluxos","Memória de curto e longo prazo","Ferramentas integradas","Gatilhos flexíveis","Execução assíncrona","Controle de erros e retry"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
                 creator: { "@type": "Organization", name: "Tonkotsu AI" } },
     ],

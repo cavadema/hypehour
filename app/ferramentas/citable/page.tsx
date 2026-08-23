@@ -33,8 +33,9 @@ export default function CitablePage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/citable#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "IA para Marketing", item: "https://www.hypehour.com.br/ia-para-marketing" }, { "@type": "ListItem", position: 3, name: "Citable", item: "https://www.hypehour.com.br/ferramentas/citable" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/citable#software", name: "Citable", description: "Plataforma de marketing de visibilidade em IA que otimiza conteúdos e marcas para serem citados por assistentes de IA como ChatGPT, Claude e Perplexity.", applicationCategory: "BusinessApplication", operatingSystem: "Web", url: "https://getcitable.com", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/citable", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/citable#software", name: "Citable", description: "Plataforma de marketing de visibilidade em IA que otimiza conteúdos e marcas para serem citados por assistentes de IA como ChatGPT, Claude e Perplexity.", applicationCategory: "BusinessApplication", operatingSystem: "Web", url: "https://getcitable.com", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/citable#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Auditoria de visibilidade em IA","Monitoramento contínuo","Análise de concorrentes","Recomendações de otimização","Relatórios de share of voice","Identificação de perguntas-chave"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
                 creator: { "@type": "Organization", name: "Citable" } },
     ],

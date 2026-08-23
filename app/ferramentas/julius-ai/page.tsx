@@ -33,8 +33,9 @@ export default function JuliusAIPage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/julius-ai#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "Análise de Dados", item: "https://www.hypehour.com.br/analise-de-dados" }, { "@type": "ListItem", position: 3, name: "Julius AI", item: "https://www.hypehour.com.br/ferramentas/julius-ai" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/julius-ai#software", name: "Julius AI", description: "Assistente de IA para análise de dados que responde perguntas sobre planilhas e CSV em linguagem natural, gerando gráficos, análises estatísticas e insights automaticamente.", applicationCategory: "BusinessApplication", operatingSystem: "Web", url: "https://julius.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/julius-ai", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/julius-ai#software", name: "Julius AI", description: "Assistente de IA para análise de dados que responde perguntas sobre planilhas e CSV em linguagem natural, gerando gráficos, análises estatísticas e insights automaticamente.", applicationCategory: "BusinessApplication", operatingSystem: "Web", url: "https://julius.ai", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/julius-ai#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Análise em linguagem natural","Geração automática de gráficos","Análise estatística completa","Execução de código Python visível","Suporte a múltiplos formatos","Histórico de análises"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
                 creator: { "@type": "Organization", name: "Julius AI" } },
     ],

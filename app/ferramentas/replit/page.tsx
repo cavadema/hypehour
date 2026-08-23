@@ -61,6 +61,7 @@ export default function ReplitPage() {
         "url": "https://replit.com/",
         "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/replit#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["IDE completa no navegador","Replit AI (assistente de código)","Suporte a 50+ linguagens","Colaboração em tempo real","Deploy e hospedagem integrados","Integração com GitHub"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

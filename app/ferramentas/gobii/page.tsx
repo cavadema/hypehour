@@ -33,8 +33,9 @@ export default function GobiiPage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/gobii#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "Criação de Agentes de IA", item: "https://www.hypehour.com.br/criacao-agentes-ia" }, { "@type": "ListItem", position: 3, name: "Gobii AI", item: "https://www.hypehour.com.br/ferramentas/gobii" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/gobii#software", name: "Gobii AI", description: "Plataforma no-code para criação de agentes de IA personalizados com automação de tarefas, base de conhecimento e integrações com sistemas externos.", applicationCategory: "BusinessApplication", operatingSystem: "Web", url: "https://gobii.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/gobii", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/gobii#software", name: "Gobii AI", description: "Plataforma no-code para criação de agentes de IA personalizados com automação de tarefas, base de conhecimento e integrações com sistemas externos.", applicationCategory: "BusinessApplication", operatingSystem: "Web", url: "https://gobii.ai", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/gobii#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Criação no-code de agentes","Base de conhecimento personalizada","Múltiplos canais de integração","Personalização de tom e voz","Dashboard de conversas","Handoff para humanos"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
                 creator: { "@type": "Organization", name: "Gobii AI" } },
     ],

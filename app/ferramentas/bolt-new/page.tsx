@@ -61,7 +61,7 @@ export default function BoltNewPage() {
         "url": "https://bolt.new/",
         "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/bolt-new#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
-        "featureList": ["{titulo}","{titulo}","Ideal para:","Não é ideal para:"],
+        "featureList": ["Ambiente de execução real no navegador","Geração e execução simultânea","Iteração por linguagem natural","Deploy integrado com Netlify","Importação de projetos do GitHub","Terminal e editor de código integrados"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
         "aggregateRating": {
           "@type": "AggregateRating",

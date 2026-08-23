@@ -33,8 +33,9 @@ export default function OpenClawPage() {
       },
 
       { "@type": "BreadcrumbList", "@id": "https://www.hypehour.com.br/ferramentas/openclaw#breadcrumb", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://www.hypehour.com.br/" }, { "@type": "ListItem", position: 2, name: "Criação de Agentes de IA", item: "https://www.hypehour.com.br/criacao-agentes-ia" }, { "@type": "ListItem", position: 3, name: "OpenClaw", item: "https://www.hypehour.com.br/ferramentas/openclaw" }] },
-      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/openclaw#software", name: "OpenClaw", description: "Plataforma de criação e orquestração de agentes de IA autônomos para automatizar fluxos de trabalho complexos.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://openclaw.ai", mainEntityOfPage: "https://www.hypehour.com.br/ferramentas/openclaw", 
+      { "@type": "SoftwareApplication", "@id": "https://www.hypehour.com.br/ferramentas/openclaw#software", name: "OpenClaw", description: "Plataforma de criação e orquestração de agentes de IA autônomos para automatizar fluxos de trabalho complexos.", applicationCategory: "DeveloperApplication", operatingSystem: "Web", url: "https://openclaw.ai", mainEntityOfPage: { "@id": "https://www.hypehour.com.br/ferramentas/openclaw#webpage" },
         "image": "https://www.hypehour.com.br/logo.png",
+        "featureList": ["Agentes autônomos com memória","Orquestração multi-agente","Integração com ferramentas externas","Monitoramento em tempo real","Templates de agentes prontos","Controle de permissões"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
                 creator: { "@type": "Organization", name: "OpenClaw" } },
     ],
