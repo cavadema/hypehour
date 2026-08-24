@@ -18,21 +18,21 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.hypehour.com.br'),
   title: {
-    default: "Hypehour — Ferramentas de IA para todos os segmentos",
-    template: "%s"
+    default: "Hypehour — 400+ Ferramentas de IA | Guia Completo 2026",
+    template: "%s | Hypehour"
   },
-  description: "Hypehour é um agregador de ferramentas de IA para imagens, desenvolvimento, estudos e muito mais.",
+  description: "Hypehour é o maior agregador de ferramentas de IA em português. Compare e descubra as melhores IAs para imagens, vídeos, marketing, programação, automação e muito mais. 400+ ferramentas curadas.",
   openGraph: {
-    title: "Hypehour — Ferramentas de IA para todos os segmentos",
-    description: "Hypehour é um agregador de ferramentas de IA para imagens, desenvolvimento, estudos e muito mais.",
+    title: "Hypehour — 400+ Ferramentas de IA | Guia Completo 2026",
+    description: "Hypehour é o maior agregador de ferramentas de IA em português. Compare e descubra as melhores IAs para imagens, vídeos, marketing, programação, automação e muito mais. 400+ ferramentas curadas.",
     url: 'https://www.hypehour.com.br',
     siteName: 'Hypehour',
     images: [
       {
-        url: '/logo.png',
-        width: 800,
-        height: 600,
-        alt: 'Hypehour Logo',
+        url: '/opengraph-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Hypehour — Ferramentas de IA em Português',
       },
     ],
     locale: 'pt_BR',
@@ -40,10 +40,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Hypehour — Ferramentas de IA para todos os segmentos",
-    description: "Hypehour é um agregador de ferramentas de IA para imagens, desenvolvimento, estudos e muito mais.",
+    title: "Hypehour — 400+ Ferramentas de IA | Guia Completo 2026",
+    description: "Hypehour é o maior agregador de ferramentas de IA em português. Compare e descubra as melhores IAs para imagens, vídeos, marketing, programação, automação e muito mais. 400+ ferramentas curadas.",
     creator: '@hypehourbr',
-    images: ['/logo.png'],
+    images: ['/opengraph-image.png'],
   },
   robots: {
     index: true,
