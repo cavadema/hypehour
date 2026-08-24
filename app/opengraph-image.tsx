@@ -58,7 +58,7 @@ export default function OgImage() {
           letterSpacing: '0.05em',
         }}
       >
-        ✦ hypehour.com.br
+        hypehour.com.br
       </div>
 
       {/* Title */}
