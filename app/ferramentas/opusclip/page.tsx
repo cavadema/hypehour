@@ -39,7 +39,6 @@ export default function OpusClipPage() {
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/opusclip#breadcrumb" },
         "datePublished": "2025-11-19",
-        "dateModified": "2026-07-04",
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/opusclip#software" },
       },

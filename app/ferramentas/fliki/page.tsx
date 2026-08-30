@@ -27,7 +27,6 @@ export default function FlikiPage() {
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/fliki#breadcrumb" },
         "datePublished": "2025-11-19",
-        "dateModified": "2026-07-04",
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/fliki#software" },
       },

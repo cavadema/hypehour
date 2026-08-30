@@ -39,7 +39,6 @@ export default function SynthesiaPage() {
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/synthesia#breadcrumb" },
         "datePublished": "2025-11-19",
-        "dateModified": "2026-07-04",
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/synthesia#software" },
       },

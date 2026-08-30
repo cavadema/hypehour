@@ -37,7 +37,6 @@ export default function InsMindPage() {
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/insmind#breadcrumb" },
         "datePublished": "2025-11-19",
-        "dateModified": "2026-07-04",
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/insmind#software" },
       },

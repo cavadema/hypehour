@@ -37,7 +37,6 @@ export default function Base44Page() {
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/base44#breadcrumb" },
         "datePublished": "2025-11-19",
-        "dateModified": "2026-07-04",
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/base44#software" },
       },
