@@ -2,6 +2,7 @@ import ExpandableContent from "./ExpandableContent";
 import { CodeBracketIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
 import ComoEscolher from "./ComoEscolher";
 import ProTips from "./ProTips";
 import CategoryPageSchema from "@/app/components/CategoryPageSchema";
@@ -151,6 +152,9 @@ export default function IaParaVibeCoding() {
         {ferramentas.map((f) => (
           <ToolCard key={f.nome} nome={f.nome} url={f.url} descricao={f.descricao} />
         ))}
+      </div>
+      <div className="mt-12">
+        <ComparativoFerramentas />
       </div>
       <ComoEscolher />
       <ProTips />

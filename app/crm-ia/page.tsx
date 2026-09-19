@@ -2,6 +2,7 @@ import { UserGroupIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import ExpandableContent from "./ExpandableContent";
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
 import ComoEscolher from "./ComoEscolher";
 import ProTips from "./ProTips";
 import CategoryPageSchema from "@/app/components/CategoryPageSchema";
@@ -63,6 +64,9 @@ export default function CRMIAPage() {
         {ferramentas.map((ferramenta) => (
           <ToolCard key={ferramenta.nome} nome={ferramenta.nome} url={ferramenta.url} descricao={ferramenta.descricao} />
         ))}
+      </div>
+      <div className="mt-12">
+        <ComparativoFerramentas />
       </div>
       <ComoEscolher />
       <ProTips />

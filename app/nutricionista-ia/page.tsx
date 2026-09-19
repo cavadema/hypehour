@@ -1,4 +1,5 @@
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
 import ComoEscolher from "./ComoEscolher";
 import ProTips from "./ProTips";
 import { HeartIcon } from "@heroicons/react/24/solid";
@@ -88,6 +89,9 @@ export default function NutricionistaIA() {
         {ferramentas.map((f) => (
           <ToolCard key={f.nome} nome={f.nome} url={f.url} descricao={f.descricao} />
         ))}
+      </div>
+      <div className="mt-12">
+        <ComparativoFerramentas />
       </div>
       <ComoEscolher />
       <ProTips />

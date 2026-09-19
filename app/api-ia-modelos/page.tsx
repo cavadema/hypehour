@@ -1,4 +1,5 @@
 import FAQSection from "./FAQSection";
+import ComparativoFerramentas from "./ComparativoFerramentas";
 import ComoEscolher from "./ComoEscolher";
 import ProTips from "./ProTips";
 import ExpandableContent from "./ExpandableContent";
@@ -136,6 +137,9 @@ export default function APIsIA() {
           <ToolCard key={api.nome} nome={api.nome} url={api.url} descricao={api.descricao} />
         ))}
       </div>
+          <div className="mt-12">
+            <ComparativoFerramentas />
+          </div>
           <ComoEscolher />
           <ProTips />
           <FAQSection />
