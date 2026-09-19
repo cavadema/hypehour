@@ -4,10 +4,10 @@ export default function ExpandableContent() {
         <div className="mb-8 bg-gray-50 rounded-lg p-6 border border-gray-200">
             <div className="text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    A <strong>inteligência artificial aplicada ao marketing</strong> opera sobre dois pilares complementares: modelos generativos que produzem texto, imagem e vídeo a partir de instruções, e modelos preditivos que analisam comportamento de audiências para otimizar segmentação, timing e criativos em tempo real. Juntos, esses sistemas permitem que campanhas se adaptem continuamente com base em dados de performance — algo que antes exigia analistas e ciclos de revisão manual a cada semana.
+                    A <strong>IA para marketing</strong> está redefinindo o que pequenas equipes conseguem executar. Com ferramentas como <strong>Jasper para copy, Canva Magic Studio para design, Surfer SEO para conteúdo orgânico e Meta Advantage+ para anúncios</strong>, profissionais de marketing brasileiros conseguem criar, testar e otimizar campanhas em uma velocidade e escala que antes exigiria uma agência completa. A IA não substitui a estratégia — ela executa com uma eficiência impossível para humanos.
                 </p>
                 <p className="mb-4">
-                    A mudança estrutural que a IA trouxe para o marketing está na <strong>personalização em escala</strong>: e-mails, anúncios e conteúdos que se adaptam ao comportamento e perfil de cada pessoa deixaram de ser exclusividade de grandes empresas com orçamentos robustos. Hoje, times pequenos conseguem entregar experiências altamente segmentadas porque a IA executa a variação e o teste de forma automática — enquanto os profissionais se concentram na estratégia e na leitura criativa dos resultados.
+                    O maior impacto da <strong>IA no marketing digital</strong> está na personalização em escala: e-mails com conteúdo adaptado ao comportamento de cada contato, anúncios que testam automaticamente dezenas de variações criativas e conteúdo de blog otimizado semanticamente para ranquear nos mecanismos de busca — tudo acontecendo simultaneamente, 24 horas por dia, sem intervenção manual constante.
                 </p>
             </div>
             <details className="group">
@@ -15,14 +15,14 @@ export default function ExpandableContent() {
                     <span>Ver mais</span>
                     <ChevronDownIcon className="w-5 h-5 transition-transform duration-300 group-open:rotate-180" />
                 </summary>
-                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Onde a IA está transformando o marketing digital</h2>
+                <h2 className="font-semibold text-lg mb-3 text-gray-900 mt-4">Aplicações de IA que Transformam o Marketing de uma Empresa</h2>
                 <ul className="space-y-3 mb-4">
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Produção de conteúdo em escala:</strong> Criação de posts, artigos, roteiros e peças para múltiplos canais com consistência de voz de marca — reduzindo tempo de produção sem perder qualidade.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Gestão e otimização de mídia paga:</strong> Ajuste automático de lances, orçamentos e criativos com base em sinais de performance em tempo real, maximizando retorno sem intervenção manual constante.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>SEO e conteúdo orgânico:</strong> Identificação de oportunidades de palavras-chave, otimização semântica de conteúdo e análise de concorrentes de forma contínua e sistemática.</span></li>
-                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Análise e inteligência de dados:</strong> Consolidação de métricas de múltiplas plataformas, identificação de padrões de conversão e geração de relatórios executivos de forma automatizada.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Produção de conteúdo acelerada:</strong> Crie posts para redes sociais, artigos de blog, roteiros de vídeo e newsletters em minutos — com a voz da sua marca e otimizados para SEO.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Otimização de anúncios em tempo real:</strong> IA ajusta automaticamente lances, orçamentos e criativos com base em performance — maximizando ROAS sem gerenciamento manual constante de campanha.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Segmentação avançada de audiência:</strong> Modelos preditivos identificam os perfis de cliente com maior probabilidade de converter, permitindo concentrar budget onde o retorno é maior.</span></li>
+                    <li className="flex gap-2"><span className="text-gray-900 font-bold">•</span><span><strong>Análise de performance automatizada:</strong> IA consolida dados de múltiplas plataformas, identifica as campanhas com melhor ROI e gera relatórios executivos semanais sem trabalho manual.</span></li>
                 </ul>
-                <p>Explore as ferramentas listadas abaixo para encontrar a que melhor se encaixa no seu fluxo de trabalho e caso de uso.</p>
+                <p>Explore as ferramentas de IA para marketing listadas abaixo e descubra como automatizar e escalar sua estratégia de marketing digital com inteligência artificial.</p>
             </details>
         </div>
     );
