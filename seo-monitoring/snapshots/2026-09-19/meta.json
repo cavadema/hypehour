@@ -1,0 +1,14 @@
+{
+  "snapshot_date": "2026-09-19",
+  "note": "Baseline pós-deploy dos reverts de ComparativoFerramentas e ExpandableContent",
+  "deploy_commit": "d653456061cd00ba1e1f53fcf44b5316f7d6631f",
+  "deploy_id_vercel": "dpl_36LQC6Cr4xz2X6PZNbskjdnViCjJ",
+  "tracked_pages": [
+    "https://www.hypehour.com.br/ferramentas/granola-ai",
+    "https://www.hypehour.com.br/ferramentas/luvvoice",
+    "https://www.hypehour.com.br/ferramentas/klingai",
+    "https://www.hypehour.com.br/ferramentas/zerogpt",
+    "https://www.hypehour.com.br/ferramentas/wevoicer"
+  ],
+  "context": "Colapso de impressoes site-wide comecou em 21/ago/2026 (coincide com fim do rollout do Google August 2026 Spam Update, 18-21/ago). Reverts de conteudo genericizado (dac66c4, 0d89f96) e remocao de ComparativoFerramentas (dacea99) foram desfeitos em 8c21cb8 e d653456, deploy em 19/set/2026."
+}

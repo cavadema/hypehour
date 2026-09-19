@@ -1,0 +1,257 @@
+{
+  "rows": [
+    {
+      "keys": [
+        "2026-08-20"
+      ],
+      "clicks": 7,
+      "impressions": 446,
+      "ctr": 0.015695067264573991,
+      "position": 23.121076233183857
+    },
+    {
+      "keys": [
+        "2026-08-21"
+      ],
+      "clicks": 2,
+      "impressions": 29,
+      "ctr": 0.068965517241379309,
+      "position": 65.34482758620689
+    },
+    {
+      "keys": [
+        "2026-08-22"
+      ],
+      "clicks": 1,
+      "impressions": 31,
+      "ctr": 0.032258064516129031,
+      "position": 64.161290322580641
+    },
+    {
+      "keys": [
+        "2026-08-23"
+      ],
+      "clicks": 4,
+      "impressions": 55,
+      "ctr": 0.072727272727272724,
+      "position": 70.563636363636363
+    },
+    {
+      "keys": [
+        "2026-08-24"
+      ],
+      "clicks": 1,
+      "impressions": 26,
+      "ctr": 0.038461538461538464,
+      "position": 52
+    },
+    {
+      "keys": [
+        "2026-08-25"
+      ],
+      "clicks": 0,
+      "impressions": 45,
+      "ctr": 0,
+      "position": 75
+    },
+    {
+      "keys": [
+        "2026-08-26"
+      ],
+      "clicks": 2,
+      "impressions": 38,
+      "ctr": 0.052631578947368418,
+      "position": 60.10526315789474
+    },
+    {
+      "keys": [
+        "2026-08-27"
+      ],
+      "clicks": 2,
+      "impressions": 61,
+      "ctr": 0.032786885245901641,
+      "position": 74.1639344262295
+    },
+    {
+      "keys": [
+        "2026-08-28"
+      ],
+      "clicks": 2,
+      "impressions": 30,
+      "ctr": 0.066666666666666666,
+      "position": 70
+    },
+    {
+      "keys": [
+        "2026-08-29"
+      ],
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": 0,
+      "position": 42.736842105263158
+    },
+    {
+      "keys": [
+        "2026-08-30"
+      ],
+      "clicks": 3,
+      "impressions": 37,
+      "ctr": 0.081081081081081086,
+      "position": 60.486486486486484
+    },
+    {
+      "keys": [
+        "2026-08-31"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 43.875
+    },
+    {
+      "keys": [
+        "2026-09-01"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 84.333333333333329
+    },
+    {
+      "keys": [
+        "2026-09-02"
+      ],
+      "clicks": 2,
+      "impressions": 11,
+      "ctr": 0.18181818181818182,
+      "position": 37.636363636363633
+    },
+    {
+      "keys": [
+        "2026-09-03"
+      ],
+      "clicks": 0,
+      "impressions": 26,
+      "ctr": 0,
+      "position": 54.07692307692308
+    },
+    {
+      "keys": [
+        "2026-09-04"
+      ],
+      "clicks": 1,
+      "impressions": 12,
+      "ctr": 0.083333333333333329,
+      "position": 38.166666666666664
+    },
+    {
+      "keys": [
+        "2026-09-05"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 36
+    },
+    {
+      "keys": [
+        "2026-09-06"
+      ],
+      "clicks": 1,
+      "impressions": 16,
+      "ctr": 0.0625,
+      "position": 26.625
+    },
+    {
+      "keys": [
+        "2026-09-07"
+      ],
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0,
+      "position": 55.111111111111114
+    },
+    {
+      "keys": [
+        "2026-09-08"
+      ],
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0,
+      "position": 18.357142857142858
+    },
+    {
+      "keys": [
+        "2026-09-09"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 38.4
+    },
+    {
+      "keys": [
+        "2026-09-10"
+      ],
+      "clicks": 1,
+      "impressions": 28,
+      "ctr": 0.035714285714285712,
+      "position": 66.428571428571431
+    },
+    {
+      "keys": [
+        "2026-09-11"
+      ],
+      "clicks": 1,
+      "impressions": 10,
+      "ctr": 0.1,
+      "position": 35.8
+    },
+    {
+      "keys": [
+        "2026-09-12"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 47.125
+    },
+    {
+      "keys": [
+        "2026-09-13"
+      ],
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0,
+      "position": 63.125
+    },
+    {
+      "keys": [
+        "2026-09-14"
+      ],
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 36.666666666666664
+    },
+    {
+      "keys": [
+        "2026-09-15"
+      ],
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 59.090909090909093
+    },
+    {
+      "keys": [
+        "2026-09-16"
+      ],
+      "clicks": 2,
+      "impressions": 7,
+      "ctr": 0.2857142857142857,
+      "position": 48.571428571428569
+    }
+  ],
+  "responseAggregationType": "byProperty"
+}
