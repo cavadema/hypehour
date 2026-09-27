@@ -79,6 +79,11 @@ const ferramentas = [
         url: "https://github.com/rendercv/rendercv",
         descricao: "Gerador de CV em YAML→PDF com validação estrita, ideal para candidatos e equipes de recrutamento.",
     },
+    {
+        nome: "Linkjob AI",
+        url: "https://www.linkjob.ai/pt/",
+        descricao: "Assistente de entrevistas com IA que simula entrevistas comportamentais, técnicas e de programação para candidatos a emprego, com versão em português e plano gratuito.",
+    },
 ];
 
 export const metadata = {

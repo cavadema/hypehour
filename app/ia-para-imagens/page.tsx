@@ -255,6 +255,21 @@ const ferramentas = [
     nome: "Stability AI",
     url: "https://stability.ai/",
     descricao: "Modelos de IA open source para geração de imagens e conteúdo visual.",
+  },
+  {
+    nome: "GenImagePro",
+    url: "https://genimagepro.com/",
+    descricao: "Cria e edita imagens com IA a partir de instruções em linguagem natural, com fluxos prontos para fotografia de produto, photoshoots de moda e imagens para ecommerce.",
+  },
+  {
+    nome: "MangaTranslate",
+    url: "https://www.mangatranslate.com/pt/",
+    descricao: "Tradutor de mangá e imagens com IA para mais de 100 idiomas, com processamento em lote de capítulos, editor visual completo e API para fluxos de estúdio.",
+  },
+  {
+    nome: "LlamaGen.AI",
+    url: "https://llamagen.ai/",
+    descricao: "Plataforma de IA para criar quadrinhos e storyboards com personagens reutilizáveis, consistência visual entre cenas e edição de painéis para mangá e webtoon.",
   }
 ];
 

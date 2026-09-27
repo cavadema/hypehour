@@ -312,6 +312,10 @@ const ferramentas = [
     { nome: "Luma Labs", url: "https://lumalabs.ai/", descricao: "Plataforma de IA para gerar vídeos de alta qualidade com Dream Machine e modelos de geração avançados." },
     { nome: "Descript", url: "/ferramentas/descript", descricao: "Editor de vídeo e podcast com IA que permite editar pelo texto, gerar B-roll, remover silêncios e aplicar layouts automaticamente." },
     { nome: "Detail", url: "https://detail.co/", descricao: "Grave, edite e compartilhe com AI em um toque: Auto Edit, teleprompter e clips para social." },
+    { nome: "GenImagePro", url: "https://genimagepro.com/", descricao: "Transforma imagens em vídeos com IA, com fluxos prontos para conteúdo de produto e marketing visual." },
+    { nome: "Pixwit", url: "https://pixwit.ai/", descricao: "Estúdio de vídeo com IA para anúncios, avatares e narrativas longas, com texto-para-vídeo e imagem-para-vídeo consistentes usando Sora 2, Kling, Runway, Veo, Wan e Seedance." },
+    { nome: "Stivio", url: "https://stivio.ai", descricao: "Transforma uma foto em vídeo HD a partir de uma descrição de movimento em texto, usando Kling, Wan, MiniMax e Seedance, com créditos grátis e planos sem marca d'água." },
+    { nome: "ImgVid", url: "https://imgvid.net", descricao: "Gerador de vídeos com IA no navegador para transformar imagens ou texto em clipes curtos, com quadros de início/fim em modelos compatíveis e uso gratuito sem cartão de crédito." },
 ];
 
 export const metadata = {
