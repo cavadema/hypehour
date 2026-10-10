@@ -1,4 +1,4 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, CpuChipIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans">
@@ -55,6 +55,43 @@ export default function Home() {
             <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CodeBracketIcon className="w-5 h-5" /> v0</span>
             <p className="text-zinc-700">Plataforma de IA para criação rápida de interfaces e automações.</p>
             <span className="text-xs text-zinc-500">Categoria: Coding</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Versões de Modelos de LLMs */}
+      <section id="versoes-llms" className="w-full max-w-5xl mx-auto py-12 px-4">
+        <h2 className="apify-section-title flex items-center gap-2"><CpuChipIcon className="w-6 h-6 text-blue-400" />Versões de Modelos de LLMs</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CpuChipIcon className="w-5 h-5" /> Claude Opus</span>
+            <p className="text-zinc-700">Modelo de linguagem da Anthropic para tarefas complexas.</p>
+            <span className="text-xs text-zinc-500">Versão: Opus 5.5 · Atualizado em setembro de 2026</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CpuChipIcon className="w-5 h-5" /> GPT</span>
+            <p className="text-zinc-700">Modelo de linguagem da OpenAI.</p>
+            <span className="text-xs text-zinc-500">Versão: GPT-5.1</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CpuChipIcon className="w-5 h-5" /> Gemini</span>
+            <p className="text-zinc-700">Modelo multimodal do Google.</p>
+            <span className="text-xs text-zinc-500">Versão: Gemini 3 Pro</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CpuChipIcon className="w-5 h-5" /> Llama</span>
+            <p className="text-zinc-700">Modelo open source da Meta.</p>
+            <span className="text-xs text-zinc-500">Versão: Llama 4</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CpuChipIcon className="w-5 h-5" /> Grok</span>
+            <p className="text-zinc-700">Modelo de linguagem da xAI.</p>
+            <span className="text-xs text-zinc-500">Versão: Grok 4</span>
+          </div>
+          <div className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CpuChipIcon className="w-5 h-5" /> Mistral</span>
+            <p className="text-zinc-700">Modelo de linguagem da Mistral AI.</p>
+            <span className="text-xs text-zinc-500">Versão: Mistral Large 3</span>
           </div>
         </div>
       </section>
