@@ -1,4 +1,26 @@
-import { SparklesIcon, PhotoIcon, CodeBracketIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, PhotoIcon, CodeBracketIcon, CpuChipIcon } from "@heroicons/react/24/solid";
+
+const modelosLlm = [
+  {
+    nome: "Claude Opus",
+    versao: "5.5",
+    descricao: "Modelo da Anthropic para raciocínio avançado, código e tarefas complexas.",
+    data: "Setembro de 2026",
+  },
+  {
+    nome: "GPT",
+    versao: "5.5",
+    descricao: "Modelo da OpenAI para conversação, raciocínio e geração de conteúdo.",
+    data: "Agosto de 2026",
+  },
+  {
+    nome: "Gemini",
+    versao: "3.5",
+    descricao: "Modelo multimodal do Google para texto, imagem e vídeo.",
+    data: "Julho de 2026",
+  },
+];
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-[#f7f8fa] font-sans">
@@ -56,6 +78,20 @@ export default function Home() {
             <p className="text-zinc-700">Plataforma de IA para criação rápida de interfaces e automações.</p>
             <span className="text-xs text-zinc-500">Categoria: Coding</span>
           </div>
+        </div>
+      </section>
+
+      {/* Versões de Modelos de LLMs */}
+      <section id="versoes-llm" className="w-full max-w-5xl mx-auto py-12 px-4">
+        <h2 className="apify-section-title flex items-center gap-2"><CpuChipIcon className="w-6 h-6 text-blue-400" />Versões de Modelos de LLMs</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {modelosLlm.map((modelo) => (
+            <div key={modelo.nome} className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+              <span className="inline-flex items-center gap-1 text-blue-600 font-bold"><CpuChipIcon className="w-5 h-5" /> {modelo.nome}</span>
+              <p className="text-zinc-700">{modelo.descricao}</p>
+              <span className="text-xs text-zinc-500">Versão {modelo.versao} • {modelo.data}</span>
+            </div>
+          ))}
         </div>
       </section>
 
