@@ -258,8 +258,8 @@ export default function Home() {
             <span className="text-xs text-zinc-500">Google DeepMind</span>
           </Link>
           <Link href="/modelos-de-llms" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
-            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Claude Opus 5</span>
-            <p className="text-zinc-700">Modelo mais avançado da Anthropic com contexto de 1M tokens, lançado em julho de 2026.</p>
+            <span className="inline-flex items-center gap-1 text-black font-bold"><SparklesIcon className="w-5 h-5" /> Claude Opus 5.5</span>
+            <p className="text-zinc-700">Modelo mais avançado da Anthropic com contexto de 1M tokens, lançado em setembro de 2026.</p>
             <span className="text-xs text-zinc-500">Anthropic</span>
           </Link>
           <Link href="/modelos-de-llms" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
