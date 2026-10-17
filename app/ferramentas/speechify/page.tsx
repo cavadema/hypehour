@@ -79,13 +79,6 @@ export default function SpeechifyPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Escolha o conteúdo","Selecione a voz e velocidade","Ouça ou digite por voz","Sincronize em todos os dispositivos","Mais de 200 vozes naturais","Voice Typing - Ditado por voz"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.6",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "4736",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Speechify"

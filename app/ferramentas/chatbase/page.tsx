@@ -79,13 +79,6 @@ export default function ChatbasePage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Suporte a Múltiplos Formatos de Dados", "Captação de Leads Integrada", "Escolha do Modelo de Linguagem", "Revisão e Correção Manual"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.3",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "73",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Chatbase"

@@ -79,13 +79,6 @@ export default function IntercomPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Respostas Multilíngues Autênticas", "AI Copilot para Atendentes", "Ações e Fluxos (Procedures)", "Analytics de IA Detalhado"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "3880",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Intercom Fin AI"

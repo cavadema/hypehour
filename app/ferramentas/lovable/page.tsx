@@ -79,13 +79,6 @@ export default function LovablePage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Descreva sua ideia","IA gera o código","Revise e itere","Deploy e escale","Geração de código full-stack por IA","Preview em tempo real"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.6",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "273",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Lovable"

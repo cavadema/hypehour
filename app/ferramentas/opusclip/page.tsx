@@ -79,13 +79,6 @@ export default function OpusClipPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Importação", "Análise por IA", "Edição Rápida", "Exportação e Schedulling", "AI Virality Score", "Active Speaker Detection", "AI B-rolls e Giphy Integration", "ClipAnything Multimodal", "Editor Baseado em Texto"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.7",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "127",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Opus Clip"

@@ -79,13 +79,6 @@ export default function SidekickerPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Insira seu conteúdo","Análise Tripla","Humanização Assistida","Exportação e Validação","Detector de IA Multi-Modelo","AI Humanizer Integrado"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.0",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "443",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Sidekicker AI"

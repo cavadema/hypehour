@@ -80,13 +80,6 @@ export default function ClipchampPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Inicie um projeto", "Importe e Edite", "Aplique IA", "Exporte e Compartilhe", "Legendas Automáticas (Auto Captions)", "Texto em Fala (Text-to-Speech)", "Speaker Coach", "Auto Compose", "Remoção de Fundo (Green Screen)"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.3",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "89",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Clipchamp"

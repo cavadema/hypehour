@@ -79,13 +79,6 @@ export default function ScraperAPIPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Configure o Endpoint", "Orquestração de Proxy", "Renderização Opcional", "Retorno do HTML", "Automatic Retries", "Unlimited Bandwidth"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.4",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "16",
-        },
         "creator": {
           "@type": "Organization",
           "name": "ScraperAPI"

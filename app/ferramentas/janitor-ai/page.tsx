@@ -79,13 +79,6 @@ export default function JanitorAIPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Crie ou escolha um personagem","Configure o modelo de IA","Inicie a conversa","Explore e expanda","Criação de personagens detalhada","Galeria de personagens da comunidade"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "2.6",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "26",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Janitor AI"

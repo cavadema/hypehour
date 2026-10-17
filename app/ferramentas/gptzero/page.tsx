@@ -79,13 +79,6 @@ export default function GPTZeroPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Cole ou envie o arquivo","Processamento automático","Relatório visual","Interpretação clara","Score de probabilidade visual","Destaque de seções geradas por IA"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.3",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "101",
-        },
         "creator": {
           "@type": "Organization",
           "name": "GPTZero"

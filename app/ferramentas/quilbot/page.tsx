@@ -79,13 +79,6 @@ export default function QuillBotPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Cole o texto","Escolha o modo","Gere a paráfrase","Revise e use","Paráfrase com múltiplos modos","Grammar Checker avançado"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "12962",
-        },
         "creator": {
           "@type": "Organization",
           "name": "QuillBot"

@@ -79,13 +79,6 @@ export default function RytrPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Selecione o idioma e o tom","Escolha o caso de uso","Forneça o contexto","Gere e edite","40+ Casos de Uso e Templates","Suporte Multilíngue"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.7",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "819",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Rytr"

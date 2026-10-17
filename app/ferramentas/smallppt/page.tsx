@@ -79,13 +79,6 @@ export default function SmallpptPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Multi-Input Slide Generator", "Mind Map to PPT", "Integração GPT-4o e Gemini", "AI Writer & Summarizer", "Suíte de Ferramentas PDF", "Suporte Total em Português"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "2.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "8",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Smallppt AI"

@@ -78,13 +78,6 @@ export default function LuvvoicePage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Entrada de Texto", "Seleção de Voz e Idioma", "Processamento de IA", "Download Imediato", "Vozes Humanizadas", "Biblioteca Massiva"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "2.3",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "9",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Luvvoice"

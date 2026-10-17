@@ -36,13 +36,6 @@ export default function ClaudeForExcelPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Geração de fórmulas por linguagem natural","Análise contextual dos dados","Explicação de fórmulas","Geração de código VBA","Sugestões de melhoria","Integrado ao fluxo do Excel"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "2.6",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "114",
-        },
         creator: { "@type": "Organization", name: "Anthropic" } },
     ],
   };

@@ -79,13 +79,6 @@ export default function HiggsfieldPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Vídeo Generativo Cinematográfico", "Character Consistent Generation", "Mobile UI Otimizada", "Modelos de Direção de Cena"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "18",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Higgsfield"

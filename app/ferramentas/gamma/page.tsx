@@ -79,13 +79,6 @@ export default function GammaPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Escolha seu formato", "Forneça o Prompt", "Geração e Ajustes", "Compartilhe ou Exporte", "One-click Restyling", "AI Editor Chat"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.3",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "26",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Gamma AI"

@@ -62,13 +62,6 @@ export default function ReplitPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["IDE completa no navegador","Replit AI (assistente de código)","Suporte a 50+ linguagens","Colaboração em tempo real","Deploy e hospedagem integrados","Integração com GitHub"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "329",
-        },
         "creator": { "@type": "Organization", "name": "Replit" },
       },
     ],

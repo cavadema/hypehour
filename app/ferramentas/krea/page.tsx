@@ -79,13 +79,6 @@ export default function KreaPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Real-time Generation", "Upscaler & Enhancer", "Real-time Video", "AI Patterns e Illusions"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "2.7",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "117",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Krea AI"

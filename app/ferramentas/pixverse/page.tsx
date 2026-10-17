@@ -79,13 +79,6 @@ export default function PixversePage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Escolha texto ou imagem","Selecione o estilo visual","Gere o vídeo","Baixe e publique","Múltiplos estilos artísticos","Text-to-video e image-to-video"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "2.7",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "105",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Pixverse"

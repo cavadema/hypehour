@@ -76,13 +76,6 @@ export default function SynthesiaPage() {
         "url": "https://www.synthesia.io/pt-br",
         "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/synthesia#webpage" },
         "featureList": ["Avatares de IA Realistas", "Dublagem e Tradução Automática", "Avatares Personalizados"],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.7",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "2375",
-        },
         "offers": {
           "@type": "Offer",
           "price": "0",

@@ -80,13 +80,6 @@ export default function SanaPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Conecte seus apps","A IA indexa tudo","Pergunte e Crie","Agentes em Ação","Busca Universal Inteligente","Assistente de IA Grounded"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "105",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Sana (Sana Labs)"

@@ -64,13 +64,6 @@ export default function HedraPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Sincronização labial realista","Expressões faciais dinâmicas","Funciona com qualquer imagem de rosto","Suporte a qualquer idioma","Fluxo de dois passos","Plano gratuito disponível"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "2.1",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "39",
-        },
         "creator": { "@type": "Organization", "name": "Hedra" },
       },
     ],

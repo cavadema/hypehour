@@ -80,13 +80,6 @@ export default function VidnozPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Escolha um Template e Avatar","Digite seu Roteiro","Personalize","Gere e Baixe","Mais de 1000 Avatares Realistas","Clonagem de Voz (Voice Cloning)"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "16",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Vidnoz AI"

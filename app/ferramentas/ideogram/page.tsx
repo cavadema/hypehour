@@ -79,13 +79,6 @@ export default function IdeogramPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Ideogram 2.0", "Paleta de Cores Controlada", "Editor de Texto Integrado", "Remix Social"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.0",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "159",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Ideogram"

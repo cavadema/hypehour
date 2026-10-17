@@ -62,13 +62,6 @@ export default function InsMindPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Remoção automática de fundo","Geração de fundos com IA","Edição em lote","Upscaling e melhoria de qualidade","Remoção de objetos","Interface em português"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.6",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "21",
-        },
         creator: { "@type": "Organization", name: "insMind" },
       },
     ],

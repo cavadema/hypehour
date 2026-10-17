@@ -36,13 +36,6 @@ export default function TurboScribePage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Modelo Whisper da OpenAI","Suporte a 98+ idiomas","Diarização de falantes","Timestamps automáticos","Exportação em múltiplos formatos","Processamento rápido"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.0",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "275",
-        },
         creator: { "@type": "Organization", name: "TurboScribe" } },
     ],
   };

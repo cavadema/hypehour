@@ -80,13 +80,6 @@ export default function TactiqPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Instale a extensão","Entre na reunião","Transcrição em tempo real","Receba o resumo e ações","Transcrição ao vivo (Live Transcripts)","AI Meeting Kits"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.2",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "17",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Tactiq"

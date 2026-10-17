@@ -79,13 +79,6 @@ export default function LeonardoAIPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Escreva o prompt","Escolha modelo e configurações","IA gera as imagens","Refine e baixe","Geração de imagens por texto (text-to-image)","Modelos customizáveis e treinamento próprio"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.6",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1800",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Leonardo AI"

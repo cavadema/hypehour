@@ -76,13 +76,6 @@ export default function InvideoPage() {
         "url": "https://invideo.io/",
         "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/invideo#webpage" },
         "featureList": ["Gerador de Vídeo via Prompt", "Vozes de IA Realistas", "Biblioteca de Mídia Gigante"],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.3",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "177",
-        },
         "offers": {
           "@type": "Offer",
           "price": "0",

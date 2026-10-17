@@ -79,13 +79,6 @@ export default function PolyAIPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Configuração e treinamento","Integração com sistemas","Atendimento autônomo","Transferência inteligente","Voz conversacional natural","Resolução autônoma de solicitações"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "12",
-        },
         "creator": {
           "@type": "Organization",
           "name": "PolyAI"

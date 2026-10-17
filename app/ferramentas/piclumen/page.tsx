@@ -36,13 +36,6 @@ export default function PicLumenPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Acesso a múltiplos modelos de IA","Múltiplos takes por prompt","Text-to-Video e Image-to-Video","Áudio nativo nos vídeos","Geração de imagens com Seedream","Controle de proporção e estilo"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "4333",
-        },
         creator: { "@type": "Organization", name: "PicLumen" } },
     ],
   };

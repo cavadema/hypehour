@@ -36,13 +36,6 @@ export default function MacaronPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Interface elegante e minimalista","Acesso a múltiplos modelos","Histórico organizado","Coleções de prompts","Sincronização entre dispositivos","Atalhos de produtividade"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.7",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "106",
-        },
         creator: { "@type": "Organization", name: "Macaron" } },
     ],
   };

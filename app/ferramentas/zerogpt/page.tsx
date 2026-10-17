@@ -79,13 +79,6 @@ export default function ZeroGPTPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Cole o texto","Análise automática","Resultados detalhados","Exporte ou compartilhe","Detecção gratuita ilimitada","Destaque de trechos gerados por IA"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.1",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "50",
-        },
         "creator": {
           "@type": "Organization",
           "name": "ZeroGPT"

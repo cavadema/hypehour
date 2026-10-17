@@ -79,13 +79,6 @@ export default function HeyGenPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Talking Photos", "AI Voice Cloning", "Personalized Video at Scale", "Multi-Avatar Conversations"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "1589",
-        },
         "creator": {
           "@type": "Organization",
           "name": "HeyGen"

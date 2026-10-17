@@ -79,13 +79,6 @@ export default function ChatgotPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Escolha seu Modelo","Interaja com IA","Gere Resultados Multimodais","Acesso Multimodelo (GPT, Claude, Gemini)","Pesquisa em Tempo Real","Assistentes de Escrita Pro"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.6",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "8",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Chatgot: O Hub de Inteligência Artificial Tudo-em-Um"

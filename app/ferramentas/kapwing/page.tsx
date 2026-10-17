@@ -76,13 +76,6 @@ export default function KapwingPage() {
         "url": "https://www.kapwing.com/",
         "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/kapwing#webpage" },
         "featureList": ["Legendas Automáticas", "Smart Cut e Remoção de Silêncio", "Geração de Voz (TTS)"],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.4",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "207",
-        },
         "offers": {
           "@type": "Offer",
           "price": "0",

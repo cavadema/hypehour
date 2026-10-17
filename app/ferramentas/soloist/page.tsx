@@ -36,13 +36,6 @@ export default function SoloistPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Contexto persistente do projeto","Geração de código contextualizada","Debugging colaborativo","Suporte a decisões arquiteturais","Review de código","Geração de testes"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.0",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "67",
-        },
         creator: { "@type": "Organization", name: "Soloist AI" } },
     ],
   };

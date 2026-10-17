@@ -36,13 +36,6 @@ export default function RecraftPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Geração de vetores SVG editáveis","Estilos personalizados por marca","Compreensão avançada de prompts","Fotorrealismo de alta qualidade","Inpainting e variações","API para integração"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.6",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "445",
-        },
         creator: { "@type": "Organization", name: "Recraft" } },
     ],
   };

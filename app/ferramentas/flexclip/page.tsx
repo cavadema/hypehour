@@ -76,13 +76,6 @@ export default function FlexClipPage() {
         "url": "https://www.flexclip.com/pt/",
         "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/flexclip#webpage" },
         "featureList": ["AI Text-to-Video", "IA de Narração (Voz)", "Legendas Automáticas"],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "2613",
-        },
         "offers": {
           "@type": "Offer",
           "price": "0",

@@ -79,13 +79,6 @@ export default function MidjourneyPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Versão 6 Avançada", "Zoom Out e Pan", "Vary Region (Inpainting)", "Style Reference (--sref)"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.4",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "88",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Midjourney"

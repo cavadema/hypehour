@@ -79,13 +79,6 @@ export default function WritesonicPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["AI Article Writer 6.0", "Chatsonic com Dados ao Vivo", "Botsonic: Chatbots Personalizados", "Agente de SEO Automático"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.7",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "2214",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Writesonic"

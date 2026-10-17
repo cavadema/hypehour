@@ -80,13 +80,6 @@ export default function LightPDFPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Acesse a ferramenta","Carregue seu arquivo","A IA entra em ação","Edite ou Baixe","Assistente de Leitura AI","OCR com IA"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.6",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "17",
-        },
         "creator": {
           "@type": "Organization",
           "name": "LightPDF"

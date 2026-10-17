@@ -79,13 +79,6 @@ export default function FlowGPTPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Explore a Biblioteca", "Selecione o Modelo", "Execute e Customize", "Compartilhe e Evolua", "Ranking Comunitário", "Multi-model Chat"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "10",
-        },
         "creator": {
           "@type": "Organization",
           "name": "FlowGPT"

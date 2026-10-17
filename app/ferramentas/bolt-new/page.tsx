@@ -62,13 +62,6 @@ export default function BoltNewPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Ambiente de execução real no navegador","Geração e execução simultânea","Iteração por linguagem natural","Deploy integrado com Netlify","Importação de projetos do GitHub","Terminal e editor de código integrados"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.4",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "44",
-        },
         "creator": { "@type": "Organization", "name": "StackBlitz" },
       },
     ],

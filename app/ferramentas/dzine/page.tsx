@@ -64,13 +64,6 @@ export default function DzinePage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Geração de imagens (Text-to-Image)","Face Swap","Generative Fill","Retratos estilizados","Image-to-Image","Edição por prompt"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "3.6",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "44",
-        },
         "creator": { "@type": "Organization", "name": "Dzine" },
       },
     ],

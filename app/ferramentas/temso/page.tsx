@@ -79,13 +79,6 @@ export default function TemsoPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Defina seus Prompts", "Rastreamento Multimodelo", "Análise de Fontes", "Otimização Direcionada", "AI Visibility Tracking", "Gap Analysis (Analise de Lacunas)"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "5",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Temso"

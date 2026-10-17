@@ -79,13 +79,6 @@ export default function WisprFlowPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Aperte o atalho","Fale naturalmente","IA formata e transcreve","Edite com a voz","Auto-Edição Inteligente","Comandos de Voz (Command Mode)"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "6",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Wispr Flow"

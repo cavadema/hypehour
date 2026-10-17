@@ -36,13 +36,6 @@ export default function FlikiPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Text-to-Video automatizado","Narração com 1000+ vozes de IA","Seleção automática de clipes","Avatares de IA","Legendas automáticas","Templates para diferentes formatos"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.7",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "177",
-        },
         creator: { "@type": "Organization", name: "Fliki" } },
     ],
   };

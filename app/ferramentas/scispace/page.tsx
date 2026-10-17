@@ -64,13 +64,6 @@ export default function SciSpacePage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Chat com artigos científicos","Banco de 200 milhões de artigos","Resumo automático de papers","Extensão para Chrome","Sugestão de artigos relacionados","Suporte multilíngue"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.3",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "73",
-        },
         "creator": { "@type": "Organization", "name": "SciSpace" },
       },
     ],

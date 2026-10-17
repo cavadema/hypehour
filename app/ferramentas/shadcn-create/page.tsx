@@ -36,13 +36,6 @@ export default function ShadcnCreatePage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Geração nativa shadcn/ui","Tailwind CSS correto","TypeScript e tipagem","Acessibilidade integrada","Dark mode compatível","Responsivo por padrão"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "15",
-        },
         creator: { "@type": "Organization", name: "shadcn" } },
     ],
   };

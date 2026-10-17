@@ -64,13 +64,6 @@ export default function CollovAIPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Redesign de ambientes com IA","Catálogo de produtos reais integrado","Dezenas de estilos decorativos","Home staging virtual","Soluções B2B para empresas","Múltiplas variações por ambiente"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "3.3",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "47",
-        },
         "creator": { "@type": "Organization", "name": "Collov AI" },
       },
     ],

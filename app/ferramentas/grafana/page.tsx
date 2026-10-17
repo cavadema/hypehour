@@ -79,13 +79,6 @@ export default function GrafanaPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Grafana Assistant", "Adaptive Telemetry", "Auto-Generated Anomaly Detection", "LLM Observability"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "159",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Grafana AI"

@@ -76,13 +76,6 @@ export default function VeedPage() {
         "url": "https://www.veed.io/pt-BR",
         "mainEntityOfPage": { "@id": "https://www.hypehour.com.br/ferramentas/veed#webpage" },
         "featureList": ["Legendas Automáticas Dinâmicas", "Voice over com IA", "Limpeza de Áudio (Magic Clean)"],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.6",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "2141",
-        },
         "offers": {
           "@type": "Offer",
           "price": "0",

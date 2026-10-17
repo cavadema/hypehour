@@ -79,13 +79,6 @@ export default function BrowseAIPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Treine seu Robô", "Configure o Agendamento", "Execute em Larga Escala", "Receba os Dados", "Bulk Run (Execução em Massa)", "Pre-trained Robots"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "59",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Browse AI"

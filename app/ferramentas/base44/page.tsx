@@ -62,13 +62,6 @@ export default function Base44Page() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Geração de aplicação full-stack","Banco de dados integrado","Autenticação de usuários","Deploy automático","Ajustes por linguagem natural","Editor de código integrado"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "3.1",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "775",
-        },
         "creator": { "@type": "Organization", "name": "Base44" },
       },
     ],

@@ -79,13 +79,6 @@ export default function VismePage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["AI Design Generator", "Visualização de Dados Inteligente", "AI Writer & Rewriter", "Brand Kit Automatizado", "Análise de Engajamento", "Interatividade Dinâmica"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "718",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Visme AI"

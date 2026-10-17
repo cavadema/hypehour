@@ -64,13 +64,6 @@ export default function DescriptPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Edição por texto (Text-Based Editing)","Remoção automática de silêncios e vícios","Overdub — clonagem de voz com IA","Geração de B-roll com IA","Clipes automáticos para redes sociais","Gravação de tela integrada"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.6",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "865",
-        },
         "creator": { "@type": "Organization", "name": "Descript" },
       },
     ],

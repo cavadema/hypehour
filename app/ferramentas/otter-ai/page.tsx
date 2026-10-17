@@ -62,13 +62,6 @@ export default function OtterAIPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Transcrição em tempo real","Resumos automáticos com IA","Identificação de itens de ação","Integração com Zoom, Meet e Teams","AI Chat nas transcrições","Workspace compartilhado para equipes"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.4",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "462",
-        },
         creator: { "@type": "Organization", name: "Otter.ai" },
       },
     ],

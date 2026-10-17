@@ -79,13 +79,6 @@ export default function KlingAIPage() {
         "image": "https://www.hypehour.com.br/logo.png",
         "featureList": ["Descreva o vídeo ou envie imagem","IA gera o vídeo","Ajuste e refine","Baixe e use","Geração de vídeos text-to-video","Animação de imagens (image-to-video)"],
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Plano gratuito disponível" },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "1.3",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "318",
-        },
         "creator": {
           "@type": "Organization",
           "name": "KlingAI"

@@ -85,13 +85,6 @@ export default function CursorPage() {
             "description": "Acesso ilimitado a modelos avançados e recursos de IA",
           },
         ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "54",
-        },
         "creator": {
           "@type": "Organization",
           "name": "Cursor AI",
