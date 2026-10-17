@@ -1,0 +1,16 @@
+{
+  "snapshot_date": "2026-10-17",
+  "data_through": "2026-10-14",
+  "note": "Segunda checagem, 4 semanas depois do revert (19/set). Ultimos 2-3 dias do GSC ainda nao processados.",
+  "compared_against": "2026-09-19",
+  "changes_since_baseline": [
+    "f0fd758 (19/set): 6 novas ferramentas cadastradas em RH, Imagens e Videos",
+    "02d3fe6 (10/out): card Claude Opus 5.5 na home, via PR do bot Chopper"
+  ],
+  "reference_pre_crash": "07-19/ago/2026: ~681 impressoes/dia, ~7.4 cliques/dia",
+  "headline": {
+    "impressoes_por_dia": {"pos_queda_22ago_04set": 28.9, "5_18set": 13.2, "19set_02out": 19.6, "3_14out": 23.4},
+    "posicao_media": {"pos_queda_22ago_04set": 63.4, "5_18set": 48.1, "19set_02out": 27.7, "3_14out": 26.6},
+    "paginas_com_impressao_14d": {"5_18set": 43, "3_16out": 58}
+  }
+}
