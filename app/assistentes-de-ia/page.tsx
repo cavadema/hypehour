@@ -166,7 +166,7 @@ const ferramentas = [
   },
   { nome: "DoAnything", url: "https://www.doanything.com/", descricao: "Assistente de IA versátil e flexível para automação de tarefas cotidianas e profissionais." },
   { nome: "Hipcityreg", url: "https://hipcityreg-situation-monitor.vercel.app/", descricao: "Painel em tempo real projetado para monitorar notícias globais, mercados e eventos geopolíticos em uma visão consolidada." },
-  { nome: "Spangle", url: "https://www.spangle.ai/", descricao: "Plataforma de e-commerce baseada em IA que cria experiências de compra personalizadas e landing pages otimizadas em tempo real." },
+  { nome: "Spangle", url: "/ferramentas/spangle", descricao: "Plataforma de e-commerce baseada em IA que cria experiências de compra personalizadas e landing pages otimizadas em tempo real." },
   { nome: "Ringg AI", url: "https://www.ringg.ai/", descricao: "Assistentes de voz com IA para automatizar chamadas, qualificar leads e agendar reuniões." },
   { nome: "Wethos", url: "https://wethos.ai/", descricao: "Plataforma de cognição empresarial e ferramentas para freelancers gerarem propostas e contratos." },
   { nome: "Incogni", url: "https://incogni.com/", descricao: "Ferramenta de remoção de dados que automatiza a exclusão de informações pessoais de corretores de dados para proteger sua privacidade digital." },

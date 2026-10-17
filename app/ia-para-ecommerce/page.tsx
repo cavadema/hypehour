@@ -16,7 +16,7 @@ const ferramentas = [
     },
     {
         nome: "Spangle",
-        url: "https://www.spangle.ai/",
+        url: "/ferramentas/spangle",
         descricao: "Plataforma de inteligência para varejo que ajuda marcas a serem encontradas na descoberta de produtos por IA, com ferramentas de descoberta, aquisição paga e descoberta no próprio site.",
     },
     {

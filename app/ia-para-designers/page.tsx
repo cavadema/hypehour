@@ -44,7 +44,7 @@ const ferramentas = [
   },
   {
     nome: "UX Pilot",
-    url: "https://uxpilot.ai/pt",
+    url: "/ferramentas/ux-pilot",
     descricao: "Plataforma de IA para design de UX, simplificando fluxos e criação de interfaces inteligentes."
   },
   {
@@ -64,7 +64,7 @@ const ferramentas = [
   },
   {
     nome: "Uizard",
-    url: "https://uizard.io/",
+    url: "/ferramentas/uizard",
     descricao: "Design de UI para apps e sites com IA generativa, transforme ideias em conceitos instantaneamente."
   },
   {

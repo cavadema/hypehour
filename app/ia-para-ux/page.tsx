@@ -11,27 +11,27 @@ import ToolCard from "@/app/components/ToolCard";
 const ferramentas = [
     {
         nome: "UX Pilot",
-        url: "https://uxpilot.ai/pt",
+        url: "/ferramentas/ux-pilot",
         descricao: "Gera telas e fluxos de UI e UX editáveis com IA, de wireframes de baixa a alta fidelidade, com importação e exportação para Figma e exportação de código.",
     },
     {
         nome: "Banani",
-        url: "https://www.banani.co/pt/product/ai-ui-generator",
+        url: "/ferramentas/banani",
         descricao: "Gerador de interfaces com IA para apps mobile e web a partir de texto ou screenshots, com variações de tela, fluxos de várias telas e exportação para Figma ou HTML e CSS.",
     },
     {
         nome: "Uizard",
-        url: "https://uizard.io/",
+        url: "/ferramentas/uizard",
         descricao: "Ferramenta de design de interfaces com IA, com Autodesigner para ir de texto a protótipo, além de Screenshot Scanner e Wireframe Scanner para transformar imagens e esboços em telas.",
     },
     {
         nome: "Visily",
-        url: "https://www.visily.ai/",
+        url: "/ferramentas/visily",
         descricao: "Software de design de UI com IA que transforma ideias em wireframes e protótipos, com geração a partir de texto, conversão de diagramas em telas, chat de edição e plugin do Figma.",
     },
     {
         nome: "Relume",
-        url: "https://www.relume.ai/",
+        url: "/ferramentas/relume",
         descricao: "Cria sites de marketing a partir de um briefing, gerando sitemap, wireframes e site, com mais de 1.000 componentes e exportação para Figma, Webflow ou React.",
     },
     {
