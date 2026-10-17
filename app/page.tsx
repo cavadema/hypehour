@@ -1,7 +1,7 @@
 import Link from "next/link";
 import {
   SparklesIcon, PhotoIcon, CodeBracketIcon, ShieldCheckIcon, AcademicCapIcon, EnvelopeIcon, GlobeAltIcon, MusicalNoteIcon, ArchiveBoxIcon, PencilSquareIcon, MegaphoneIcon, PresentationChartLineIcon, VideoCameraIcon, BuildingOffice2Icon, DocumentTextIcon,
-  UserIcon, PhoneIcon, SwatchIcon, CurrencyDollarIcon, BookOpenIcon, HeartIcon, WrenchScrewdriverIcon, BriefcaseIcon, FunnelIcon,
+  UserIcon, ShoppingCartIcon, CursorArrowRaysIcon, PhoneIcon, SwatchIcon, CurrencyDollarIcon, BookOpenIcon, HeartIcon, WrenchScrewdriverIcon, BriefcaseIcon, FunnelIcon,
 } from "@heroicons/react/24/solid";
 
 const faqJsonLd = {
@@ -109,6 +109,8 @@ const categorias = [
   { nome: "Jogos", url: "/ia-para-jogos", Icon: SparklesIcon },
   { nome: "Contabilidade", url: "/ferramentas-ia-contabilidade", Icon: CurrencyDollarIcon },
   { nome: "RH", url: "/ferramentas-de-ia-rh", Icon: UserIcon },
+  { nome: "Ecommerce", url: "/ia-para-ecommerce", Icon: ShoppingCartIcon },
+  { nome: "UX", url: "/ia-para-ux", Icon: CursorArrowRaysIcon },
   { nome: "Empresas", url: "/ia-para-empresas", Icon: BriefcaseIcon },
   { nome: "Investimentos", url: "/investimentos", Icon: CurrencyDollarIcon },
   { nome: "Navegadores", url: "/navegadores-de-ia", Icon: GlobeAltIcon },

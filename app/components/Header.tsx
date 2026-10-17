@@ -58,6 +58,8 @@ export default function Header() {
                 <Link href="/aprender-ingles-com-ia" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Inglês</Link>
                 <Link href="/ia-para-jogos" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Jogos</Link>
                 <Link href="/ferramentas-de-ia-rh" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para RH</Link>
+                <Link href="/ia-para-ecommerce" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para Ecommerce</Link>
+                <Link href="/ia-para-ux" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">IA para UX</Link>
                 <Link href="/investimentos" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Investimentos</Link>
                 <Link href="/livros-inteligencia-artificial" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Livros de IA</Link>
                 <Link href="/ia-para-marketing" className="block px-4 py-2 hover:bg-blue-50 hover:text-black">Marketing</Link>
@@ -119,6 +121,8 @@ export default function Header() {
                 <li><Link href="/aprender-ingles-com-ia" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Inglês</Link></li>
                 <li><Link href="/ia-para-jogos" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Jogos</Link></li>
                 <li><Link href="/ferramentas-de-ia-rh" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para RH</Link></li>
+                <li><Link href="/ia-para-ecommerce" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para Ecommerce</Link></li>
+                <li><Link href="/ia-para-ux" className="block py-2 pl-4" onClick={() => setOpen(false)}>IA para UX</Link></li>
                 <li><Link href="/investimentos" className="block py-2 pl-4" onClick={() => setOpen(false)}>Investimentos</Link></li>
                 <li><Link href="/livros-inteligencia-artificial" className="block py-2 pl-4" onClick={() => setOpen(false)}>Livros de IA</Link></li>
                 <li><Link href="/ia-para-marketing" className="block py-2 pl-4" onClick={() => setOpen(false)}>Marketing</Link></li>

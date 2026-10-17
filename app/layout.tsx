@@ -238,6 +238,8 @@ export default function RootLayout({
                     <li><Link href="/ia-para-atendimento" className="hover:underline">IA para Atendimento</Link></li>
                     <li><Link href="/ia-para-empresas" className="hover:underline">IA para Empresas</Link></li>
                     <li><Link href="/ferramentas-de-ia-rh" className="hover:underline">IA para RH</Link></li>
+                    <li><Link href="/ia-para-ecommerce" className="hover:underline">IA para Ecommerce</Link></li>
+                    <li><Link href="/ia-para-ux" className="hover:underline">IA para UX</Link></li>
                     <li><Link href="/investimentos" className="hover:underline">Investimentos</Link></li>
                   </ul>
                 </div>
