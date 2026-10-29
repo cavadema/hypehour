@@ -281,6 +281,11 @@ const ferramentas = [
         url: "https://everygenai.org/",
         descricao: "Cria imagens e vídeos a partir de texto ou imagens de referência, com escolha de modelo, resolução, duração e enquadramento, e comparação de custos em créditos.",
     },
+    {
+        nome: "Flux3",
+        url: "https://www.flux-3-ai.net/",
+        descricao: "Interface independente, sem vínculo com a Black Forest Labs, para criar imagens e vídeos no navegador a partir de texto ou imagens de referência, com plano gratuito de créditos iniciais.",
+    },
 ];
 
 export const metadata = {
