@@ -316,6 +316,21 @@ const ferramentas = [
     { nome: "Pixwit", url: "/ferramentas/pixwit", descricao: "Estúdio de vídeo com IA para anúncios, avatares e narrativas longas, com texto-para-vídeo e imagem-para-vídeo consistentes usando Sora 2, Kling, Runway, Veo, Wan e Seedance." },
     { nome: "Stivio", url: "https://stivio.ai", descricao: "Transforma uma foto em vídeo HD a partir de uma descrição de movimento em texto, usando Kling, Wan, MiniMax e Seedance, com créditos grátis e planos sem marca d'água." },
     { nome: "ImgVid", url: "https://imgvid.net", descricao: "Gerador de vídeos com IA no navegador para transformar imagens ou texto em clipes curtos, com quadros de início/fim em modelos compatíveis e uso gratuito sem cartão de crédito." },
+    {
+        nome: "PicVideo",
+        url: "https://picvideo.net",
+        descricao: "Transforma retratos, fotos de animais e imagens de produtos em vídeos curtos com IA: envie uma imagem, descreva o movimento e explore efeitos criativos, com opção gratuita para começar.",
+    },
+    {
+        nome: "RemoveVideoBG",
+        url: "https://removevideobg.net",
+        descricao: "Remove o fundo de vídeos com IA: envie arquivos MP4, MOV ou WebM, visualize o resultado e baixe um WebM transparente, com opção gratuita para começar.",
+    },
+    {
+        nome: "Everygen AI",
+        url: "https://everygenai.org/",
+        descricao: "Cria imagens e vídeos a partir de texto ou imagens de referência, com escolha de modelo, resolução, duração e enquadramento, e comparação de custos em créditos.",
+    },
 ];
 
 export const metadata = {

@@ -105,6 +105,11 @@ const ferramentas = [
         url: "https://ai.meta.com/samaudio/",
         descricao: "Modelo de áudio da Meta para separar fontes e gerar sons com alta fidelidade.",
     },
+    {
+        nome: "Nafy AI",
+        url: "https://nafy.ai/",
+        descricao: "Gerador de música com IA gratuito que transforma texto ou letras em músicas completas, cria covers com IA, vozes cantadas e vídeos cantando, direto no navegador.",
+    },
 ];
 
 export const metadata = {

@@ -270,7 +270,17 @@ const ferramentas = [
     nome: "LlamaGen.AI",
     url: "https://llamagen.ai/",
     descricao: "Plataforma de IA para criar quadrinhos e storyboards com personagens reutilizáveis, consistência visual entre cenas e edição de painéis para mangá e webtoon.",
-  }
+  },
+    {
+        nome: "SciFig",
+        url: "https://scifig.ai",
+        descricao: "Plataforma de visualização científica para pesquisadores, estudantes e educadores, com espaços para ilustrações a partir de texto, esboços ou PDFs, gráficos com dados reais e fluxogramas SVG editáveis.",
+    },
+    {
+        nome: "Everygen AI",
+        url: "https://everygenai.org/",
+        descricao: "Cria imagens e vídeos a partir de texto ou imagens de referência, com escolha de modelo, resolução, duração e enquadramento, e comparação de custos em créditos.",
+    },
 ];
 
 export const metadata = {
