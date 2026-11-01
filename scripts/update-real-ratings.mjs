@@ -25,7 +25,6 @@ const REAL_RATINGS = {
   "gptzero":        { ratingValue: "4.3",  ratingCount: "101",   source: "G2" },
   "grafana":        { ratingValue: "4.5",  ratingCount: "159",   source: "G2" },
   "granola-ai":     { ratingValue: "4.8",  ratingCount: "32",    source: "G2" },
-  "hedra":          { ratingValue: "2.1",  ratingCount: "39",    source: "Trustpilot" },
   "heygen":         { ratingValue: "4.8",  ratingCount: "1589",  source: "G2" },
   "higgsfield":     { ratingValue: "4.5",  ratingCount: "18",    source: "G2" },
   "ideogram":       { ratingValue: "4.0",  ratingCount: "159",   source: "Trustpilot" },

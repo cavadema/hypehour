@@ -30,11 +30,6 @@ const ferramentas = [
         descricao: "Crie vídeos programaticamente usando React, permitindo automação, renderização escalável e edição dinâmica.",
     },
     {
-        nome: "Hedra",
-        url: "/ferramentas/hedra",
-        descricao: "Plataforma de criação de vídeo com IA focada em avatares falantes e personagens expressivos — transforma imagens e áudio em vídeos com sincronização labial realista.",
-    },
-    {
         nome: "Reelive",
         url: "https://reelive.ai/",
         descricao: "Plataforma de IA para criar vídeos curtos e envolventes otimizados para redes sociais.",
