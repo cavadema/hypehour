@@ -18,12 +18,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.hypehour.com.br'),
   title: {
-    default: "Hypehour — 400+ Ferramentas de IA | Guia Completo 2026",
+    default: "Ferramentas de IA para Todos os Segmentos | Hypehour",
     template: "%s | Hypehour"
   },
   description: "Hypehour é o maior agregador de ferramentas de IA em português. Compare e descubra as melhores IAs para imagens, vídeos, marketing, programação, automação e muito mais. 400+ ferramentas curadas.",
   openGraph: {
-    title: "Hypehour — 400+ Ferramentas de IA | Guia Completo 2026",
+    title: "Ferramentas de IA para Todos os Segmentos | Hypehour",
     description: "Hypehour é o maior agregador de ferramentas de IA em português. Compare e descubra as melhores IAs para imagens, vídeos, marketing, programação, automação e muito mais. 400+ ferramentas curadas.",
     url: 'https://www.hypehour.com.br',
     siteName: 'Hypehour',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Hypehour — 400+ Ferramentas de IA | Guia Completo 2026",
+    title: "Ferramentas de IA para Todos os Segmentos | Hypehour",
     description: "Hypehour é o maior agregador de ferramentas de IA em português. Compare e descubra as melhores IAs para imagens, vídeos, marketing, programação, automação e muito mais. 400+ ferramentas curadas.",
     creator: '@hypehourbr',
     images: ['/opengraph-image.png'],

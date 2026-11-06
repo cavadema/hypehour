@@ -32,7 +32,7 @@ export default function SobreNos() {
       </nav>
 
       <h1 className="text-3xl font-bold mb-3">Sobre a Hypehour</h1>
-      <p className="text-zinc-500 text-sm mb-10">Atualizado em maio de 2026</p>
+      <p className="text-zinc-500 text-sm mb-10">Atualizado em novembro de 2026</p>
 
       <section className="space-y-6 text-zinc-700 leading-relaxed">
 
@@ -83,6 +83,18 @@ export default function SobreNos() {
 
         <p>
           <strong>Entusiastas e early adopters</strong> que gostam de acompanhar o que há de novo em IA. Atualizamos o diretório constantemente com ferramentas recém-lançadas e tendências emergentes.
+        </p>
+
+        <h2 className="text-xl font-bold text-gray-900 mt-10 mb-2">O que o Hypehour cobre</h2>
+
+        <p>
+          São mais de 400 ferramentas de IA organizadas por categoria, de marketing, vendas e atendimento a soluções especializadas para médicos, advogados, designers e desenvolvedores. Em cada categoria você encontra as principais opções do mercado, para encontrar a que aumenta a sua produtividade sem testar tudo por conta própria.
+        </p>
+
+        <h2 className="text-xl font-bold text-gray-900 mt-10 mb-2">Sempre atualizado</h2>
+
+        <p>
+          O ecossistema de IA muda toda semana: novos modelos de linguagem, novas ferramentas e novas versões. Acompanhamos esses lançamentos e mantemos o guia atualizado com as versões mais recentes do GPT, Gemini, Claude, Grok e outros modelos, para que você decida com informação atual. Veja a página de <Link href="/modelos-de-llms" className="underline hover:text-black">Modelos de LLMs</Link>.
         </p>
 
         <h2 className="text-xl font-bold text-gray-900 mt-10 mb-2">Transparência e contato</h2>
