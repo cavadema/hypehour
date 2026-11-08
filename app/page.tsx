@@ -1073,6 +1073,62 @@ export default function Home() {
       </section>
 
 
+      {/* IAs em destaque: links internos para páginas de ferramenta */}
+      <section className="w-full max-w-5xl mx-auto py-12 px-4">
+        <h2 className="apify-section-title flex items-center gap-2"><SparklesIcon className="w-6 h-6 text-gray-700" />IAs em destaque</h2>
+        <p className="text-zinc-600 mb-8">Ferramentas com página dedicada: o que fazem, planos, vantagens e limitações.</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <Link href="/ferramentas/adapta" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <h3 className="text-black font-bold">Adapta</h3>
+            <p className="text-zinc-700">Plataforma com +15 modelos de IA (GPT, Claude, Gemini), cursos e newsletter.</p>
+          </Link>
+          <Link href="/ferramentas/klingai" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <h3 className="text-black font-bold">KlingAI</h3>
+            <p className="text-zinc-700">Vídeos realistas com movimentos complexos a partir de texto ou imagem.</p>
+          </Link>
+          <Link href="/ferramentas/hailuo-ai" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <h3 className="text-black font-bold">Hailuo AI</h3>
+            <p className="text-zinc-700">Clipes cinematográficos em vídeo gerados a partir de texto e imagens.</p>
+          </Link>
+          <Link href="/ferramentas/vidnoz" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <h3 className="text-black font-bold">Vidnoz AI</h3>
+            <p className="text-zinc-700">Vídeos com avatares realistas, clonagem de voz e templates prontos.</p>
+          </Link>
+          <Link href="/ferramentas/excelmatic" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <h3 className="text-black font-bold">Excelmatic AI</h3>
+            <p className="text-zinc-700">Cria fórmulas de Excel e scripts VBA e analisa dados via chat.</p>
+          </Link>
+          <Link href="/ferramentas/sidekicker" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <h3 className="text-black font-bold">Sidekicker AI</h3>
+            <p className="text-zinc-700">Detector de IA que também humaniza textos e verifica plágio.</p>
+          </Link>
+          <Link href="/ferramentas/ux-pilot" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <h3 className="text-black font-bold">UX Pilot</h3>
+            <p className="text-zinc-700">Gera telas, wireframes e fluxos de UX com conexão ao Figma.</p>
+          </Link>
+          <Link href="/ferramentas/banani" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <h3 className="text-black font-bold">Banani</h3>
+            <p className="text-zinc-700">Interfaces mobile e web a partir de texto ou imagens, com exportação para Figma.</p>
+          </Link>
+          <Link href="/ferramentas/uizard" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <h3 className="text-black font-bold">Uizard</h3>
+            <p className="text-zinc-700">Protótipos multitela a partir de texto, screenshots e esboços.</p>
+          </Link>
+          <Link href="/ferramentas/relume" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <h3 className="text-black font-bold">Relume</h3>
+            <p className="text-zinc-700">Sitemap, wireframes e site de marketing a partir de um briefing.</p>
+          </Link>
+          <Link href="/ferramentas/spangle" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <h3 className="text-black font-bold">Spangle</h3>
+            <p className="text-zinc-700">Plataforma de inteligência para comércio focada em varejistas enterprise.</p>
+          </Link>
+          <Link href="/ferramentas/pixwit" className="apify-card hover:shadow-xl transition-shadow flex flex-col gap-2">
+            <h3 className="text-black font-bold">Pixwit</h3>
+            <p className="text-zinc-700">Suíte criativa para gerar vídeos e imagens com IA.</p>
+          </Link>
+        </div>
+      </section>
+
       {/* Estatísticas do site */}
       <section className="w-full bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 py-16 px-4">
         <div className="max-w-5xl mx-auto">

@@ -86,7 +86,7 @@ const ferramentas = [
     },
     {
         nome: "Dzine",
-        url: "https://www.dzine.ai/",
+        url: "/ferramentas/dzine",
         descricao: "Ferramenta de design e edição de imagem/vídeo com IA para criadores, com recursos de generative fill e face swap.",
     },
     {

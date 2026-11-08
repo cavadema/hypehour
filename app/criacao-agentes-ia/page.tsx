@@ -171,7 +171,7 @@ const ferramentas = [
   { nome: "Droxy", url: "https://www.droxy.ai/", descricao: "Crie agentes de IA personalizados sem código para automatizar atendimento e interações." },
   { nome: "Google Agent Builder", url: "https://cloud.google.com/products/agent-builder", descricao: "Plataforma do Google Cloud para criar, treinar e implantar agentes de IA com segurança e escalabilidade." },
   { nome: "Shitty Coding Agent", url: "https://shittycodingagent.ai/", descricao: "Agente de IA que gera código para testes e automações, podendo ser orquestrado em fluxos." },
-  { nome: "Firecrawl", url: "https://www.firecrawl.dev/", descricao: "Crawler de IA para coletar e estruturar dados da web que podem alimentar agentes." },
+  { nome: "Firecrawl", url: "/ferramentas/firecrawl", descricao: "Crawler de IA para coletar e estruturar dados da web que podem alimentar agentes." },
   { nome: "Promptloop", url: "https://www.promptloop.com/", descricao: "Ferramenta para criar agentes de IA que processam dados em planilhas com prompts personalizados." },
   { nome: "DataRobot", url: "https://www.datarobot.com/", descricao: "Plataforma empresarial para criar e gerenciar agentes de IA com AutoML e orquestração." },
   { nome: "Zaia", url: "https://zaia.app/", descricao: "Plataforma para criar e implantar agentes de IA automáticos com integrações." },

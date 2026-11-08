@@ -177,7 +177,7 @@ const ferramentas = [
     },
     {
         nome: "Rytr",
-        url: "https://rytr.me/",
+        url: "/ferramentas/rytr",
         descricao: "Assistente de escrita criativa para gerar copys, e-mails e blogs rapidamente.",
     },
     {
@@ -232,7 +232,7 @@ const ferramentas = [
     },
     {
         nome: "Wispr Flow",
-        url: "https://wisprflow.ai/",
+        url: "/ferramentas/wisprflow",
         descricao: "Ditado por voz com IA para escrever conteúdo de marketing 4x mais rápido.",
     },
     {

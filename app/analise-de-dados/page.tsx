@@ -44,7 +44,7 @@ const ferramentas = [
   { nome: "Findly", url: "https://www.findly.ai/pt", descricao: "Assistente de IA para análise de dados que responde perguntas em linguagem natural sobre seus dados." },
   { nome: "Excelmatic", url: "https://excelmatic.ai/pt/", descricao: "IA para automatizar tarefas no Excel e Google Sheets com fórmulas e análises inteligentes." },
   { nome: "Arcwise", url: "https://arcwise.app/", descricao: "Copiloto de IA para planilhas que explica, corrige e gera fórmulas com contexto de dados." },
-  { nome: "Firecrawl", url: "https://www.firecrawl.dev/", descricao: "Ferramenta de IA para extrair e transformar dados de websites em formatos estruturados para análise." },
+  { nome: "Firecrawl", url: "/ferramentas/firecrawl", descricao: "Ferramenta de IA para extrair e transformar dados de websites em formatos estruturados para análise." },
   { nome: "Promptloop", url: "https://www.promptloop.com/", descricao: "IA para manipular e transformar dados diretamente em planilhas usando prompts." },
   { nome: "Alteryx", url: "https://www.alteryx.com/pt-br/", descricao: "Plataforma de análise de dados com IA para preparação, mistura e análise avançada de dados." },
   { nome: "FormulaBot", url: "https://www.formulabot.com/", descricao: "IA para criar fórmulas, scripts e automatizar análise de dados em planilhas." },

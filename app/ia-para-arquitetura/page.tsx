@@ -50,7 +50,7 @@ const ferramentas = [
     },
     {
         nome: "Leonardo AI",
-        url: "https://leonardo.ai/ai-architecture-generator/",
+        url: "/ferramentas/leonardo-ai",
         descricao: "Crie ativos de arquitetura e designs conceituais com ferramentas avançadas de imagem generativa.",
     },
     {
@@ -60,7 +60,7 @@ const ferramentas = [
     },
     {
         nome: "Dzine",
-        url: "https://www.dzine.ai/",
+        url: "/ferramentas/dzine",
         descricao: "Plataforma de design generativo para estilizar e criar variações de projetos arquitetônicos.",
     },
     {
