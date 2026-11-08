@@ -22,7 +22,7 @@ const ferramentas = [
 
     {
         nome: "Suno",
-        url: "https://suno.com/home",
+        url: "/ferramentas/suno",
         descricao: "Crie músicas completas com vocais e instrumentais usando IA.",
     },
     {

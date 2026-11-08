@@ -49,8 +49,8 @@ const ferramentas = [
   },
   {
     nome: "Pomelli",
-    url: "https://labs.google.com/pomelli/about/",
-    descricao: "Experimento do Google Labs para criar padrões visuais, texturas e designs únicos com IA generativa."
+    url: "/ferramentas/pomelli",
+    descricao: "Experimento do Google Labs que cria peças de marketing e conteúdo visual alinhados à identidade da marca, a partir do site da empresa."
   },
   {
     nome: "Design Arena",

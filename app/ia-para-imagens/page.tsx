@@ -10,6 +10,8 @@ import ToolCard from "@/app/components/ToolCard";
 
 const ferramentas = [
   { nome: "ClipDrop", url: "/ferramentas/clipdrop", descricao: "Suite completa de ferramentas de IA para edição de imagens: remoção de fundo, upscaling, limpeza de objetos, remoção de texto e geração de imagens com Stable Diffusion." },
+  { nome: "Magnific", url: "/ferramentas/magnific", descricao: "Plataforma de IA para ampliar imagens em alta resolução, reconstruindo detalhes, e também gerar imagens e vídeos." },
+  { nome: "Cutout.Pro", url: "/ferramentas/cutout-pro", descricao: "Plataforma de IA para remover fundo, melhorar e ampliar fotos, remover objetos e gerar retratos e vídeos, com versões web, desktop e mobile." },
   { nome: "Thumbfast", url: "/ferramentas/thumbfast", descricao: "Gerador de thumbnails profissionais para YouTube, Instagram e redes sociais com IA otimizadas para cliques." },
   { nome: "Upscayl", url: "/ferramentas/upscayl", descricao: "Upscaler de imagens com IA gratuito e open-source que aumenta a resolução em até 16x, disponível para Windows, Mac e Linux." },
   { nome: "insMind", url: "/ferramentas/insmind", descricao: "Editor de fotos com IA para remover fundos, gerar cenários e criar imagens profissionais de produtos para e-commerce." },

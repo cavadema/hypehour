@@ -231,6 +231,11 @@ const ferramentas = [
         descricao: "Plataforma para criar e gerenciar agentes de IA que automatizam tarefas de marketing.",
     },
     {
+        nome: "Pomelli",
+        url: "/ferramentas/pomelli",
+        descricao: "Ferramenta do Google Labs que cria campanhas e peças de marketing alinhadas à identidade da marca, a partir do site da empresa.",
+    },
+    {
         nome: "Wispr Flow",
         url: "/ferramentas/wisprflow",
         descricao: "Ditado por voz com IA para escrever conteúdo de marketing 4x mais rápido.",
