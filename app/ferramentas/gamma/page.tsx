@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function GammaPage() {
         "description": "Descubra o Gamma AI: a ferramenta que transforma prompts em apresentações, documentos e sites visualmente impressionantes em segundos. Veja como funciona.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/gamma#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-19",
+        "dateModified": lastmod["/ferramentas/gamma"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/gamma#software" },
       },

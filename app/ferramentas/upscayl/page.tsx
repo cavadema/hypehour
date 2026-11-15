@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -26,7 +27,8 @@ export default function UpscaylPage() {
         "description": "Conheça o Upscayl: ferramenta gratuita e open-source de upscaling de imagens com IA que aumenta a resolução em até 16x, disponível para Windows, Mac e Linux. Veja vantagens, desvantagens e se é ideal para você.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/upscayl#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-05-31",
+        "dateModified": lastmod["/ferramentas/upscayl"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/upscayl#software" },
       },

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function WritesonicPage() {
         "description": "Conheça o Writesonic: a ferramenta líder para criar artigos otimizados, cópias de anúncios e monitorar sua marca em IAs. Veja preços e recursos.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/writesonic#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-24",
+        "dateModified": lastmod["/ferramentas/writesonic"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/writesonic#software" },
       },

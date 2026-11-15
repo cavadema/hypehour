@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function HailuoAIPage() {
         "description": "Conheça o Hailuo AI: o gerador de vídeos por IA que transforma texto e imagens em clipes cinematográficos de alta qualidade. Saiba como funciona, preços e funcionalidades.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/hailuo-ai#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-20",
+        "dateModified": lastmod["/ferramentas/hailuo-ai"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/hailuo-ai#software" },
       },

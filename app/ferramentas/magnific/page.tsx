@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -39,6 +40,7 @@ export default function MagnificPage() {
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/magnific#breadcrumb" },
         "datePublished": "2026-11-08",
+        "dateModified": lastmod["/ferramentas/magnific"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/magnific#software" },
       },

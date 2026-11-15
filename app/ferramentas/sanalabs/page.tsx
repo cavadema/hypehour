@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -39,7 +40,8 @@ export default function SanaPage() {
         "description": "Conheça a Sana: a plataforma de IA que unifica busca, aprendizado e conhecimento corporativo. Saiba como ela transforma a produtividade da sua empresa.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/sanalabs#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-15",
+        "dateModified": lastmod["/ferramentas/sanalabs"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/sanalabs#software" },
       },

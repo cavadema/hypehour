@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function HeyGenPage() {
         "description": "Conheça o HeyGen: a plataforma líder em avatares digitais e tradução de vídeo com lip-sync. Veja como funciona, preços e como criar vídeos profissionais.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/heygen#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-22",
+        "dateModified": lastmod["/ferramentas/heygen"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/heygen#software" },
       },

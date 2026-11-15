@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -36,7 +37,8 @@ export default function AIEasePage() {
         "description": "Conheça o AI Ease: ferramenta de IA que transforma selfies em headshots profissionais de estúdio para LinkedIn, currículo e perfis corporativos. Veja vantagens, desvantagens e se é ideal para você.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/ai-ease#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-05-31",
+        "dateModified": lastmod["/ferramentas/ai-ease"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/ai-ease#software" },
       },

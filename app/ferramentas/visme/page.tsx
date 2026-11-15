@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function VismePage() {
         "description": "Descubra o Visme AI: ferramenta multifuncional para criar apresentações, infográficos e conteúdos interativos com inteligência artificial. Veja como funciona.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/visme#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-21",
+        "dateModified": lastmod["/ferramentas/visme"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/visme#software" },
       },

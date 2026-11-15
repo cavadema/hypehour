@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function MidjourneyPage() {
         "description": "Conheça o Midjourney: a IA com maior qualidade artística e fotorrealista do mercado. Veja como funciona via Discord, preços, v6 e se é ideal para você.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/midjourney#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-22",
+        "dateModified": lastmod["/ferramentas/midjourney"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/midjourney#software" },
       },

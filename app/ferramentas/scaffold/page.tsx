@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -26,7 +27,8 @@ export default function ScaffoldPage() {
         "description": "Conheça o Scaffold: ferramenta de IA que gera a estrutura completa de projetos de software a partir de uma descrição, acelerando o início de qualquer aplicação. Veja vantagens, desvantagens e se é ideal para você.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/scaffold#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-05-31",
+        "dateModified": lastmod["/ferramentas/scaffold"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/scaffold#software" },
       },

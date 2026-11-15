@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function PolyAIPage() {
         "description": "Conheça o Poly.ai: plataforma de atendimento ao cliente com assistente de voz inteligente que automatiza chamadas e interações digitais com naturalidade. Veja vantagens, desvantagens e para quem é indicado.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/poly-ai#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-05-31",
+        "dateModified": lastmod["/ferramentas/poly-ai"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/poly-ai#software" },
       },

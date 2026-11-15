@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function GPTZeroPage() {
         "description": "Conheça o GPTZero: ferramenta de detecção de IA popular entre professores com métricas claras. Veja como funciona, vantagens, desvantagens e se é ideal para você.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/gptzero#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-09",
+        "dateModified": lastmod["/ferramentas/gptzero"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/gptzero#software" },
       },

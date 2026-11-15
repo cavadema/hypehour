@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function WisprFlowPage() {
         "description": "Conheça o Wispr Flow: a ferramenta de ditado com IA que escreve 3x mais rápido que você digita. Transcrição perfeita, comandos de voz e formatação automática em qualquer app.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/wisprflow#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-15",
+        "dateModified": lastmod["/ferramentas/wisprflow"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/wisprflow#software" },
       },

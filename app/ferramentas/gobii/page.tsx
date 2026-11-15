@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -26,7 +27,8 @@ export default function GobiiPage() {
         "description": "Conheça o Gobii AI: plataforma no-code para criar agentes de IA personalizados que automatizam tarefas, respondem perguntas e integram com seus sistemas. Veja vantagens, desvantagens e se é ideal para você.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/gobii#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-05-31",
+        "dateModified": lastmod["/ferramentas/gobii"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/gobii#software" },
       },

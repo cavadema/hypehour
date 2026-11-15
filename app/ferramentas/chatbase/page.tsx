@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function ChatbasePage() {
         "description": "Conheça o Chatbase: a ferramenta líder para criar chatbots treinados com seus dados. Veja como funciona, preços, integrações e se vale a pena.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/chatbase#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-21",
+        "dateModified": lastmod["/ferramentas/chatbase"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/chatbase#software" },
       },

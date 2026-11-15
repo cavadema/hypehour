@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -36,7 +37,8 @@ export default function V0Page() {
         "description": "Conheça o v0: ferramenta da Vercel que gera interfaces React e Next.js prontas a partir de prompts de texto ou imagens. Veja vantagens, desvantagens e para quem é indicado.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/v0#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-06-07",
+        "dateModified": lastmod["/ferramentas/v0"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/v0#software" },
       },

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function IdeogramPage() {
         "description": "Descubra o Ideogram: a inteligência artificial líder em renderização de texto e design. Veja como funciona, preços, Magic Prompt e se é ideal para seus projetos.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/ideogram#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-22",
+        "dateModified": lastmod["/ferramentas/ideogram"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/ideogram#software" },
       },

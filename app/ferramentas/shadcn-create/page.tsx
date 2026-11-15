@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -26,7 +27,8 @@ export default function ShadcnCreatePage() {
         "description": "Conheça o shadcn/ui Create: ferramenta com IA para gerar componentes React personalizados baseados na biblioteca shadcn/ui a partir de descrições em linguagem natural. Veja vantagens, desvantagens e se é ideal para você.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/shadcn-create#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-05-31",
+        "dateModified": lastmod["/ferramentas/shadcn-create"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/shadcn-create#software" },
       },

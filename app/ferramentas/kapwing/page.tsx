@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function KapwingPage() {
         "description": "Editor de vídeo online colaborativo e movido a IA que simplifica a criação de conteúdo para redes sociais.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/kapwing#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-02-07",
+        "dateModified": lastmod["/ferramentas/kapwing"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/kapwing#software" },
       },

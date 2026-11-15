@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function LuvvoicePage() {
         "description": "Conheça o Luvvoice: plataforma gratuita de texto para fala com mais de 500 vozes realistas em 70 idiomas, incluindo Português do Brasil. Veja vantagens, desvantagens e se é ideal para você.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/luvvoice#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-02-07",
+        "dateModified": lastmod["/ferramentas/luvvoice"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/luvvoice#software" },
       },

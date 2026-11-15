@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function BrowseAIPage() {
         "description": "Descubra o Browse AI: a ferramenta mais fácil para extrair e monitorar dados de qualquer site sem escrever uma linha de código.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/browse-ai#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-02-07",
+        "dateModified": lastmod["/ferramentas/browse-ai"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/browse-ai#software" },
       },

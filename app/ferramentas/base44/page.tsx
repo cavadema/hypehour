@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -36,7 +37,8 @@ export default function Base44Page() {
         "description": "Conheça o Base44: plataforma de vibe coding com IA que transforma descrições em aplicações web completas com frontend, backend, banco de dados e autenticação. Veja vantagens e para quem é indicado.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/base44#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-06-07",
+        "dateModified": lastmod["/ferramentas/base44"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/base44#software" },
       },

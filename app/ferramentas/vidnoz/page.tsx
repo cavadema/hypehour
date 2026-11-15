@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -39,7 +40,8 @@ export default function VidnozPage() {
         "description": "Conheça o Vidnoz AI: plataforma líder para criar vídeos com avatares realistas, clonagem de voz e templates prontos. Teste grátis e transforme texto em vídeo em minutos.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/vidnoz#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-15",
+        "dateModified": lastmod["/ferramentas/vidnoz"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/vidnoz#software" },
       },

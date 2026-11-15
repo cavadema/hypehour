@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function ChatgotPage() {
         "description": "Descubra o Chatgot: a plataforma que reúne GPT-4, Claude 3 e Gemini em um só lugar. Review completo sobre funcionalidades, preços e como criar seus próprios bots de IA.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/chatgot#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-20",
+        "dateModified": lastmod["/ferramentas/chatgot"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/chatgot#software" },
       },

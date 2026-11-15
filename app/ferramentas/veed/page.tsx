@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function VeedPage() {
         "description": "Editor de vídeo online profissional e simples que utiliza IA para legendar, editar e traduzir vídeos em minutos.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/veed#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-02-07",
+        "dateModified": lastmod["/ferramentas/veed"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/veed#software" },
       },

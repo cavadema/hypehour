@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -39,7 +40,8 @@ export default function ChatPDFPage() {
         "description": "Conheça o ChatPDF: ferramenta de IA que permite conversar com documentos PDF, resumir textos, traduzir e responder perguntas instantaneamente.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/chatpdf#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-15",
+        "dateModified": lastmod["/ferramentas/chatpdf"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/chatpdf#software" },
       },

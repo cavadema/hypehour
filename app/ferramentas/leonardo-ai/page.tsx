@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function LeonardoAIPage() {
         "description": "Conheça o Leonardo AI: ferramenta de IA para criar imagens, ilustrações e arte digital de alta qualidade em segundos. Veja vantagens, desvantagens e se é ideal para você.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/leonardo-ai#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-08",
+        "dateModified": lastmod["/ferramentas/leonardo-ai"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/leonardo-ai#software" },
       },

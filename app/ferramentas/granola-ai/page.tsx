@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function GranolaAiPage() {
         "description": "Conheça a Granola AI: o assistente de reuniões que potencializa suas notas sem robôs, com transcrição e resumos estruturados via inteligência artificial.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/granola-ai#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-03-28",
+        "dateModified": lastmod["/ferramentas/granola-ai"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/granola-ai#software" },
       },

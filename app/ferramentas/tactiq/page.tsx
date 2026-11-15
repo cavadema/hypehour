@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -39,7 +40,8 @@ export default function TactiqPage() {
         "description": "Conheça o Tactiq: ferramenta de IA para transcrever reuniões do Google Meet, Zoom e Teams em tempo real. Veja funcionalidades, preço e se vale a pena.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/tactiq#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-15",
+        "dateModified": lastmod["/ferramentas/tactiq"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/tactiq#software" },
       },

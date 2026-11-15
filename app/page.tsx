@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../data/lastmod.json";
 import {
   AcademicCapIcon,
   ArchiveBoxIcon,
@@ -50,7 +51,7 @@ const faqJsonLd = {
       "name": "O que é o Hypehour?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hypehour é o maior agregador de ferramentas de IA em português. Reunimos e curamos mais de 400 ferramentas de inteligência artificial organizadas em 47 categorias, para que você encontre a melhor IA para cada necessidade — imagens, vídeos, marketing, programação, automação, e muito mais."
+        "text": "Hypehour é o maior agregador de ferramentas de IA em português. Reunimos e curamos mais de 1.000 ferramentas de inteligência artificial organizadas em 49 categorias, para que você encontre a melhor IA para cada necessidade — imagens, vídeos, marketing, programação, automação, e muito mais."
       }
     },
     {
@@ -58,7 +59,7 @@ const faqJsonLd = {
       "name": "Quais ferramentas de IA estão disponíveis no Hypehour?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O Hypehour reúne ferramentas de IA para imagens, vídeos, criação de logo, PDF, planilhas, transcrição de áudio, agentes de IA, automação, marketing, vendas, desenvolvimento, análise de dados, música, design, educação e muito mais. São 400+ ferramentas distribuídas em 47 categorias."
+        "text": "O Hypehour reúne ferramentas de IA para imagens, vídeos, criação de logo, PDF, planilhas, transcrição de áudio, agentes de IA, automação, marketing, vendas, desenvolvimento, análise de dados, música, design, educação e muito mais. São 1.000+ ferramentas distribuídas em 49 categorias."
       }
     },
     {
@@ -94,7 +95,7 @@ const webpageJsonLd = {
   "@id": "https://www.hypehour.com.br/#webpage",
   "url": "https://www.hypehour.com.br",
   "name": "Ferramentas de IA para Todos os Segmentos | Hypehour",
-  "description": "Hypehour é o maior agregador de ferramentas de IA em português. Compare e descubra as melhores IAs para imagens, vídeos, marketing, programação, automação e muito mais. 400+ ferramentas curadas.",
+  "description": "Hypehour é o maior agregador de ferramentas de IA em português. Compare e descubra as melhores IAs para imagens, vídeos, marketing, programação, automação e muito mais. 1.000+ ferramentas curadas.",
   "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
   "publisher": {
     "@type": "Organization",
@@ -104,7 +105,7 @@ const webpageJsonLd = {
     "sameAs": ["https://x.com/hypehourbr", "https://www.linkedin.com/company/hypehour/"]
   },
   "datePublished": "2024-01-01",
-  "dateModified": new Date().toISOString().split("T")[0],
+  "dateModified": lastmod["/"],
   "inLanguage": "pt-BR"
 };
 
@@ -164,7 +165,7 @@ const itemListJsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "Categorias de Ferramentas de IA",
-  "description": "47 categorias de ferramentas de inteligência artificial curadas pelo Hypehour",
+  "description": "49 categorias de ferramentas de inteligência artificial curadas pelo Hypehour",
   "url": "https://www.hypehour.com.br",
   "numberOfItems": categorias.length,
   "itemListElement": categorias.map(({ nome, url }, index) => ({
@@ -196,7 +197,7 @@ export default function Home() {
         <SparklesIcon className="w-16 h-16 text-gray-700 mb-4 animate-pulse" />
         <h1 className="apify-title text-center drop-shadow-lg">Ferramentas de IA</h1>
         <p className="apify-subtitle text-center max-w-2xl mx-auto">
-          Descubra, compare e escolha entre 400+ ferramentas de IA curadas para imagens, vídeos, marketing, programação, automação e muito mais.
+          Descubra, compare e escolha entre 1.000+ ferramentas de IA curadas para imagens, vídeos, marketing, programação, automação e muito mais.
         </p>
         <div className="absolute -top-10 -right-10 w-40 h-40 bg-gray-200 rounded-full opacity-30 blur-2xl" />
         <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-gray-100 rounded-full opacity-20 blur-2xl" />
@@ -1135,15 +1136,15 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-white text-center mb-12">Hypehour em Números</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">47+</div>
+              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">49</div>
               <div className="text-white/90 text-sm md:text-base font-medium">Categorias</div>
             </div>
             <div className="text-center">
-              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">400+</div>
+              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">1.000+</div>
               <div className="text-white/90 text-sm md:text-base font-medium">Ferramentas IA</div>
             </div>
             <div className="text-center">
-              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">80+</div>
+              <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">100+</div>
               <div className="text-white/90 text-sm md:text-base font-medium">Páginas dedicadas</div>
             </div>
             <div className="text-center">
@@ -1210,7 +1211,7 @@ export default function Home() {
               <span className="text-zinc-400 group-open:rotate-180 transition-transform shrink-0">▼</span>
             </summary>
             <p className="mt-3 text-zinc-600 text-sm leading-relaxed">
-              Hypehour é o maior agregador de ferramentas de IA em português. Reunimos e curamos mais de 400 ferramentas de inteligência artificial organizadas em 47 categorias, para que você encontre a melhor IA para cada necessidade — imagens, vídeos, marketing, programação, automação, e muito mais.
+              Hypehour é o maior agregador de ferramentas de IA em português. Reunimos e curamos mais de 1.000 ferramentas de inteligência artificial organizadas em 49 categorias, para que você encontre a melhor IA para cada necessidade — imagens, vídeos, marketing, programação, automação, e muito mais.
             </p>
           </details>
           <details className="bg-white border border-zinc-200 rounded-xl p-5 group">
@@ -1219,7 +1220,7 @@ export default function Home() {
               <span className="text-zinc-400 group-open:rotate-180 transition-transform shrink-0">▼</span>
             </summary>
             <p className="mt-3 text-zinc-600 text-sm leading-relaxed">
-              O Hypehour reúne ferramentas de IA para imagens, vídeos, criação de logo, PDF, planilhas, transcrição de áudio, agentes de IA, automação, marketing, vendas, desenvolvimento, análise de dados, música, design, educação e muito mais. São 400+ ferramentas distribuídas em 47 categorias.
+              O Hypehour reúne ferramentas de IA para imagens, vídeos, criação de logo, PDF, planilhas, transcrição de áudio, agentes de IA, automação, marketing, vendas, desenvolvimento, análise de dados, música, design, educação e muito mais. São 1.000+ ferramentas distribuídas em 49 categorias.
             </p>
           </details>
           <details className="bg-white border border-zinc-200 rounded-xl p-5 group">

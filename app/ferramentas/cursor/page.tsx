@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function CursorPage() {
         "description": "Conheça o Cursor: o editor focado em IA que está substituindo o VS Code para muitos desenvolvedores. Veja como funciona, recursos e preços.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/cursor#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-21",
+        "dateModified": lastmod["/ferramentas/cursor"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/cursor#software" },
       },

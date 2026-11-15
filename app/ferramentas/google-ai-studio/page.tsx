@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -39,6 +40,7 @@ export default function GoogleAiStudioPage() {
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/google-ai-studio#breadcrumb" },
         "datePublished": "2026-11-08",
+        "dateModified": lastmod["/ferramentas/google-ai-studio"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/google-ai-studio#software" },
       },

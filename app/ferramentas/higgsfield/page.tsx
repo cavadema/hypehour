@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function HiggsfieldPage() {
         "description": "Conheça o Higgsfield: a IA multimodal focada em mobile que cria imagens e vídeos cinematográficos. Veja como funciona, preços e recursos para social media.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/higgsfield#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-22",
+        "dateModified": lastmod["/ferramentas/higgsfield"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/higgsfield#software" },
       },

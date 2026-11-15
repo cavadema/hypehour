@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function SmallpptPage() {
         "description": "Conheça o Smallppt AI: a ferramenta de IA que cria slides a partir de Word, PDF, URLs e até áudio. Veja como funciona, preços e funcionalidades exclusivas.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/smallppt#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-21",
+        "dateModified": lastmod["/ferramentas/smallppt"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/smallppt#software" },
       },

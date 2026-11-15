@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -36,7 +37,8 @@ export default function BoltNewPage() {
         "description": "Conheça o Bolt.new: plataforma de vibe coding da StackBlitz que gera, executa e deploya aplicações full-stack completas a partir de prompts de texto. Veja vantagens e para quem é indicado.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/bolt-new#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-06-07",
+        "dateModified": lastmod["/ferramentas/bolt-new"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/bolt-new#software" },
       },

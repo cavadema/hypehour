@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function AdaptaPage() {
         "description": "Conheça o Adapta: plataforma integrada com +15 modelos de IA (GPT, Claude, Gemini), cursos práticos e newsletter. Tudo o que você precisa de IA em um só lugar.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/adapta#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-12",
+        "dateModified": lastmod["/ferramentas/adapta"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/adapta#software" },
       },

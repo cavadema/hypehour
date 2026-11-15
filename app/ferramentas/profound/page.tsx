@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function ProfoundPage() {
         "description": "Conheça o Profound: a plataforma enterprise líder em monitorar citações de marca no ChatGPT, Grok, Meta AI e Google Gemini. Veja recursos e planos.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/profound#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-24",
+        "dateModified": lastmod["/ferramentas/profound"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/profound#software" },
       },

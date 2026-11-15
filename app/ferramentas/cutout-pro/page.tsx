@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -39,6 +40,7 @@ export default function CutoutProPage() {
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/cutout-pro#breadcrumb" },
         "datePublished": "2026-11-08",
+        "dateModified": lastmod["/ferramentas/cutout-pro"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/cutout-pro#software" },
       },

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function GrafanaPage() {
         "description": "Conheça os recursos de IA do Grafana: detecção de anomalias, assistente inteligente e diagnóstico automatizado de incidentes.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/grafana#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-21",
+        "dateModified": lastmod["/ferramentas/grafana"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/grafana#software" },
       },

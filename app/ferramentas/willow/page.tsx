@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function WillowPage() {
         "description": "Conheça o Willow (Willowvoice): o assistente de ditado com IA que edita enquanto você fala. Veja recursos, preços, integração e se vale a pena.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/willow#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-23",
+        "dateModified": lastmod["/ferramentas/willow"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/willow#software" },
       },

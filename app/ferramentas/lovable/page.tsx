@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function LovablePage() {
         "description": "Conheça o Lovable: ferramenta de IA para criar aplicações completas (front-end, back-end, testes) em minutos. Veja vantagens, desvantagens e se é ideal para você.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/lovable#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-03",
+        "dateModified": lastmod["/ferramentas/lovable"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/lovable#software" },
       },

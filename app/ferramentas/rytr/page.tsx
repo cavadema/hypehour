@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function RytrPage() {
         "description": "Conheça o Rytr: assistente de escrita com IA que ajuda a criar blogs, emails e anúncios 10x mais rápido. Veja como funciona, preços, vantagens e se vale a pena.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/rytr#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-14",
+        "dateModified": lastmod["/ferramentas/rytr"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/rytr#software" },
       },

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function ScraperAPIPage() {
         "description": "Conheça o ScraperAPI: a solução definitiva para gerenciar proxies, rotacionar IPs e burlar CAPTCHAs em escala com uma simples chamada de API.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/scraperapi#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-02-07",
+        "dateModified": lastmod["/ferramentas/scraperapi"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/scraperapi#software" },
       },

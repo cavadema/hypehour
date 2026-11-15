@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -36,7 +37,8 @@ export default function ReplitPage() {
         "description": "Conheça o Replit: IDE colaborativa na nuvem com IA integrada que permite programar, executar e deployar projetos em 50+ linguagens direto do navegador. Veja vantagens e para quem é indicado.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/replit#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-06-07",
+        "dateModified": lastmod["/ferramentas/replit"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/replit#software" },
       },

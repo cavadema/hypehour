@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function ExcelmaticPage() {
         "description": "Conheça o Excelmatic AI: a ferramenta de inteligência artificial que cria fórmulas de Excel, scripts VBA e analisa dados via chat. Veja como funciona e preços.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/excelmatic#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-20",
+        "dateModified": lastmod["/ferramentas/excelmatic"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/excelmatic#software" },
       },

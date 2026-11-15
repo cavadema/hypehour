@@ -1,6 +1,9 @@
-// Gera data/lastmod.json com a data real da última alteração de cada página
-// (data do último commit que tocou a pasta da página; páginas com alterações
-// ainda não commitadas recebem a data de hoje).
+// Gera data/lastmod.json com a data de cada página:
+// - páginas de ferramenta (/ferramentas/*): data em que a página foi subida (commit que
+//   criou page.tsx). Ela não muda quando a página é editada depois; é a mesma data do
+//   datePublished/dateModified no JSON-LD. Página ainda não commitada recebe a data de hoje.
+// - home e categorias: data do último commit que tocou a pasta (alterações ainda não
+//   commitadas recebem a data de hoje).
 // Roda antes do build (prebuild). Em clones rasos (ex.: Vercel) o histórico do git
 // não é confiável, então o script não faz nada e o JSON commitado é usado.
 import { execFileSync } from "node:child_process";
@@ -33,6 +36,11 @@ function dateFor(rel) {
   return d || today;
 }
 
+function creationDateFor(relPage) {
+  const d = git("log", "--diff-filter=A", "--format=%cs", "--", relPage).split("\n").filter(Boolean);
+  return d.length ? d[d.length - 1] : today;
+}
+
 const EXCLUDED = new Set(["components", "ferramentas", "api"]);
 const dirsWithPage = (base) =>
   fs.readdirSync(base, { withFileTypes: true })
@@ -41,7 +49,7 @@ const dirsWithPage = (base) =>
 
 const out = { "/": dateFor("app/page.tsx") };
 for (const s of dirsWithPage(appDir).filter((s) => !EXCLUDED.has(s))) out[`/${s}`] = dateFor(`app/${s}/`);
-for (const s of dirsWithPage(path.join(appDir, "ferramentas"))) out[`/ferramentas/${s}`] = dateFor(`app/ferramentas/${s}/`);
+for (const s of dirsWithPage(path.join(appDir, "ferramentas"))) out[`/ferramentas/${s}`] = creationDateFor(`app/ferramentas/${s}/page.tsx`);
 
 const sorted = Object.fromEntries(Object.entries(out).sort(([a], [b]) => a.localeCompare(b)));
 fs.mkdirSync(path.dirname(outFile), { recursive: true });

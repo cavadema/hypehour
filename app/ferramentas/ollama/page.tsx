@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function OllamaPage() {
         "description": "Conheça o Ollama: a ferramenta open-source para rodar modelos como Llama 3, Mistral e Gemma no seu PC com total privacidade e sem internet.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/ollama#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-19",
+        "dateModified": lastmod["/ferramentas/ollama"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/ollama#software" },
       },

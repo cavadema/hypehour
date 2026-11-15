@@ -1,4 +1,5 @@
 import Link from "next/link";
+import lastmod from "../../../data/lastmod.json";
 import FAQSection from "./FAQSection";
 import SimilarTools from "./SimilarTools";
 
@@ -38,7 +39,8 @@ export default function SpeechifyPage() {
         "description": "Conheça o Speechify: assistente de voz com IA para converter texto em áudio natural e digitar por voz 5x mais rápido. Veja como funciona, vantagens e se é ideal para você.",
         "isPartOf": { "@id": "https://www.hypehour.com.br/#website" },
         "breadcrumb": { "@id": "https://www.hypehour.com.br/ferramentas/speechify#breadcrumb" },
-        "datePublished": "2025-11-19",
+        "datePublished": "2026-01-13",
+        "dateModified": lastmod["/ferramentas/speechify"],
         "inLanguage": "pt-BR",
         "mainEntity": { "@id": "https://www.hypehour.com.br/ferramentas/speechify#software" },
       },
