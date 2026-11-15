@@ -6,12 +6,14 @@ const BASE_URL = "https://www.hypehour.com.br";
 
 const EXCLUDED_DIRS = new Set(["components", "ferramentas", "api"]);
 
-function fileLastModified(filePath: string): string {
-  try {
-    return fs.statSync(filePath).mtime.toISOString().split("T")[0];
-  } catch {
-    return new Date().toISOString().split("T")[0];
-  }
+// Datas reais de última alteração (último commit que tocou a pasta da página),
+// geradas por scripts/generate-lastmod.mjs e commitadas em data/lastmod.json.
+const LASTMOD: Record<string, string> = JSON.parse(
+  fs.readFileSync(path.join(process.cwd(), "data", "lastmod.json"), "utf8")
+);
+
+function lastModFor(route: string): string | undefined {
+  return LASTMOD[route];
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -30,24 +32,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((d) => fs.existsSync(path.join(toolsDir, d.name, "page.tsx")))
     .map((d) => d.name);
 
-  const homePage = path.join(appDir, "page.tsx");
-
   return [
     {
       url: BASE_URL,
-      lastModified: fileLastModified(homePage),
+      lastModified: lastModFor("/"),
       changeFrequency: "weekly",
       priority: 1,
     },
     ...categoryDirs.map((slug) => ({
       url: `${BASE_URL}/${slug}`,
-      lastModified: fileLastModified(path.join(appDir, slug, "page.tsx")),
+      lastModified: lastModFor(`/${slug}`),
       changeFrequency: "weekly" as const,
       priority: 0.8,
     })),
     ...toolDirs.map((slug) => ({
       url: `${BASE_URL}/ferramentas/${slug}`,
-      lastModified: fileLastModified(path.join(toolsDir, slug, "page.tsx")),
+      lastModified: lastModFor(`/ferramentas/${slug}`),
       changeFrequency: "monthly" as const,
       priority: 0.6,
     })),
